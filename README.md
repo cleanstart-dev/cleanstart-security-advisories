@@ -22,7 +22,9 @@ This repository contains vulnerabilities and security advisories for CleanStart 
 - OSV Schema: https://ossf.github.io/osv-schema/
 
 ## Reporting Vulnerabilities
-Feel free to report security issues by writing to us to security@cleanstart.com_  
+Feel free to report security issues by writing to us to security@cleanstart.com.
+
+
 Alternatively, you can raise a security issue in this repository also. 
 
 ## About CleanStart Security
