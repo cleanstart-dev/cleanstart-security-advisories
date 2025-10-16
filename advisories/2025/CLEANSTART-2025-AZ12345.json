@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-AZ12345",
+  "modified": "2025-10-09T14:30:00Z",  
+  "published": "2025-10-02T10:00:00Z",
+  "withdrawn": null,
+  "aliases": [
+    "CVE-2025-8291",
+    "PSF-2025-12"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CLEANSTART",
+         "name": "python",
+         "purl": "pkg:cleanstart/python3"
+      },
+       "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.14.0"
+            }
+          ]
+        }
+      ],
+        "database_specific": {
+        "source": "https://github.com/cleanstart-dev/cleanstart-security-advisories/advisories/2025/CLEANSTART-2025-AZ12345.json"
+      },
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+        }
+      ]
+    }
+ ] 
+}
