@@ -15,6 +15,9 @@ This repository contains vulnerabilities and security advisories for CleanStart 
 - Ecosystem: CLEANSTART
 - ID Format: CLEANSTART-YYYY-AZNNNNN 
 
+## Validation
+- **JSON Schema Validation**: See [validation/README.md](validation/README.md) for detailed validation instructions
+
 ## Resources
 - CleanStart ORganization URL: https://www.cleanstart.com/ 
 - CleanStart Advisory Reference: https://github.com/cleanstart-dev/cleanstart-security-advisories
