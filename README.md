@@ -19,7 +19,7 @@ This repository contains vulnerabilities and security advisories for CleanStart 
 - **JSON Schema Validation**: See [validation/README.md](validation/README.md) for detailed validation instructions
 
 ## Resources
-- CleanStart ORganization URL: https://www.cleanstart.com/ 
+- CleanStart Organization URL: https://www.cleanstart.com/ 
 - CleanStart Advisory Reference: https://github.com/cleanstart-dev/cleanstart-security-advisories
 - OSV Database: https://osv.dev
 - OSV Schema: https://ossf.github.io/osv-schema/
@@ -30,7 +30,7 @@ Feel free to report security issues by writing to us to security@cleanstart.com.
 
 Alternatively, you can raise a security issue in this repository also. 
 
-## About CleanStart Security
+## About CleanStart
 CleanStart is dedicated to reshaping the landscape of software supply chain security. With seamless integration, combined with continuous monitoring and vulnerability intelligence, CleanStart provides a platform that secures every step from development to delivery.
 Our main goal is to make security easy for users while taking on the hard work of finding and fixing security issues.   
 
