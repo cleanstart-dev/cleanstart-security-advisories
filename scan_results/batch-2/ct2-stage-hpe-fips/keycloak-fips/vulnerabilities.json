@@ -1,0 +1,271 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T03:55:27.074363315Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/keycloak-fips:26.3.3-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 813024256,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:2dc9c90564664e71c308bed25e1e7c107d2023ef04fdd535db2520ec468c5fd3",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:2a0242d4696cbb562683cfdff6121bfbd7b3e691d1c3bd153ed5e50fd5a0488d",
+      "sha256:2b3aa4d025a5eb4cfb162f00556d0b35734a823bb198ab990dd984f0b7b336c0",
+      "sha256:78ccbcbe9a3cc7990753e82fcb25b4112a024b45094a549b822a37f893f54732",
+      "sha256:0ea0caa5de0e55b7d52fd957c9b3357fcd3bf4539140ffffd203c2973f3bb7ec",
+      "sha256:9c6c101778d429c7ea0804297df545140685e64a7f7e4d301e48a23f50c28b0e",
+      "sha256:1821d745240b1af1ec8cad8b170f80bab111e2869c9fc810871d7840435f8708",
+      "sha256:cff60fc0c513fa0451d538bd1ced1f14888435fad000554cd516497cb52f34e2",
+      "sha256:71b958416efe65a74a29a81166e5792af14ea4e1153ab82d5366abd5715e2dd5",
+      "sha256:8ee77b433c1c9ff2c160cdb031abcd144f93d124c90b10da92ee249661545c07",
+      "sha256:e833eb07ede31e8175a386c0a364d570d6bfeac407bdc1514435234fa14c9efe"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/keycloak-fips:26.3.3-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/keycloak-fips@sha256:9ee448a632017a8169dfba62eaafaa076558de6d5fa9a6d19e36577bacdaa3d0"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-09T07:48:05.301184614Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-09T07:47:35Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:47:58Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     openjdk21-jre     keycloak=26.3.3-r0     clnstrt-dev-base-hpe     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl=3.5.0-r0     openssl-config-fipshardened=3.5.0-r0     openssl-provider-fips=3.0.9-r5 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:47:59Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-09T07:47:59Z",
+          "created_by": "ENV PATH=/usr/lib/jvm/java-21-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-09T07:47:59Z",
+          "created_by": "ENV CLASSPATH=/usr/lib/bouncycastle-fips/*",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-09T07:47:59Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add bouncycastle-fips=2.1.1-r0 bouncycastle-pkix-fips=2.0.8-r0 bouncycastle-tls-fips=2.0.19-r0 bouncycastle-util-fips=2.0.3-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:47:59Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:00Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on \u0026\u0026     ln -snf /usr/libexec/openssl-fips-provider/bin/openssl /usr/bin/openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:00Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /var/lib/keycloak/build/quarkus \u0026\u0026     mkdir -p /var/lib/keycloak/data \u0026\u0026     cp -r /usr/share/keycloak/lib/quarkus.dist/* /var/lib/keycloak/build/quarkus/ \u0026\u0026     ln -s /usr/share/keycloak/lib/app /var/lib/keycloak/build/app \u0026\u0026     chown -R clnstrt:clngroup /var/lib/keycloak # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:00Z",
+          "created_by": "RUN /bin/sh -c ln -sf /var/lib/keycloak/build/quarkus /usr/share/keycloak/lib/quarkus # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:01Z",
+          "created_by": "RUN /bin/sh -c find /usr -name \"openssl\" -type f -executable -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/bin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/sbin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     rm -f /usr/bin/openssl /usr/sbin/openssl /usr/local/bin/openssl /usr/local/sbin/openssl \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:04Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:05Z",
+          "created_by": "RUN /bin/sh -c chmod +x /usr/lib/jvm/java-21-openjdk/bin/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-09T07:48:05Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt KC_HEALTH_ENABLED=true KC_RUN_IN_CONTAINER=true JAVA_TOOL_OPTIONS=-Xbootclasspath/a:/usr/lib/bouncycastle-fips/bc-fips-2.1.1.jar:/usr/lib/bouncycastle-fips/bctls-fips-2.0.19.jar:/usr/lib/bouncycastle-fips/bcpkix-fips-2.0.8.jar:/usr/lib/bouncycastle-fips/bcutil-fips-2.0.3.jar JDK_JAVA_OPTIONS=-Djavax.net.ssl.trustStoreType=FIPS -Dquarkus.datasource.jdbc.additional-jdbc-properties.logServerErrorDetail=false PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-09T07:48:05Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-09T07:48:05Z",
+          "created_by": "ENTRYPOINT [\"/usr/share/keycloak/bin/kc.sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:2a0242d4696cbb562683cfdff6121bfbd7b3e691d1c3bd153ed5e50fd5a0488d",
+          "sha256:2b3aa4d025a5eb4cfb162f00556d0b35734a823bb198ab990dd984f0b7b336c0",
+          "sha256:78ccbcbe9a3cc7990753e82fcb25b4112a024b45094a549b822a37f893f54732",
+          "sha256:0ea0caa5de0e55b7d52fd957c9b3357fcd3bf4539140ffffd203c2973f3bb7ec",
+          "sha256:9c6c101778d429c7ea0804297df545140685e64a7f7e4d301e48a23f50c28b0e",
+          "sha256:1821d745240b1af1ec8cad8b170f80bab111e2869c9fc810871d7840435f8708",
+          "sha256:cff60fc0c513fa0451d538bd1ced1f14888435fad000554cd516497cb52f34e2",
+          "sha256:71b958416efe65a74a29a81166e5792af14ea4e1153ab82d5366abd5715e2dd5",
+          "sha256:8ee77b433c1c9ff2c160cdb031abcd144f93d124c90b10da92ee249661545c07",
+          "sha256:e833eb07ede31e8175a386c0a364d570d6bfeac407bdc1514435234fa14c9efe"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/share/keycloak/bin/kc.sh"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "JAVA_HOME=/usr/lib/jvm/java-21-openjdk",
+          "CLASSPATH=/usr/lib/bouncycastle-fips/*",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "KC_HEALTH_ENABLED=true",
+          "KC_RUN_IN_CONTAINER=true",
+          "JAVA_TOOL_OPTIONS=-Xbootclasspath/a:/usr/lib/bouncycastle-fips/bc-fips-2.1.1.jar:/usr/lib/bouncycastle-fips/bctls-fips-2.0.19.jar:/usr/lib/bouncycastle-fips/bcpkix-fips-2.0.8.jar:/usr/lib/bouncycastle-fips/bcutil-fips-2.0.3.jar",
+          "JDK_JAVA_OPTIONS=-Djavax.net.ssl.trustStoreType=FIPS -Dquarkus.datasource.jdbc.additional-jdbc-properties.logServerErrorDetail=false"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:2a0242d4696cbb562683cfdff6121bfbd7b3e691d1c3bd153ed5e50fd5a0488d"
+      },
+      {
+        "Size": 502855680,
+        "DiffID": "sha256:2b3aa4d025a5eb4cfb162f00556d0b35734a823bb198ab990dd984f0b7b336c0"
+      },
+      {
+        "Size": 9507840,
+        "DiffID": "sha256:78ccbcbe9a3cc7990753e82fcb25b4112a024b45094a549b822a37f893f54732"
+      },
+      {
+        "Size": 357888,
+        "DiffID": "sha256:0ea0caa5de0e55b7d52fd957c9b3357fcd3bf4539140ffffd203c2973f3bb7ec"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:9c6c101778d429c7ea0804297df545140685e64a7f7e4d301e48a23f50c28b0e"
+      },
+      {
+        "Size": 2385408,
+        "DiffID": "sha256:1821d745240b1af1ec8cad8b170f80bab111e2869c9fc810871d7840435f8708"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:cff60fc0c513fa0451d538bd1ced1f14888435fad000554cd516497cb52f34e2"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:71b958416efe65a74a29a81166e5792af14ea4e1153ab82d5366abd5715e2dd5"
+      },
+      {
+        "Size": 277363200,
+        "DiffID": "sha256:8ee77b433c1c9ff2c160cdb031abcd144f93d124c90b10da92ee249661545c07"
+      },
+      {
+        "Size": 92672,
+        "DiffID": "sha256:e833eb07ede31e8175a386c0a364d570d6bfeac407bdc1514435234fa14c9efe"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/keycloak-fips:26.3.3-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-12194",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.1.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.1",
+            "UID": "be2814787d34c5d5"
+          },
+          "InstalledVersion": "2.1.1",
+          "FixedVersion": "2.1.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:8ee77b433c1c9ff2c160cdb031abcd144f93d124c90b10da92ee249661545c07"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12194",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "bcprov-lts8on: bc-fips: Uncontrolled Resource Consumption vulnerability in Bouncy Castle",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCMSIV.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA224NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA3NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHAKENativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA512NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA384NativeDigest.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: from 2.1.0 through 2.1.1; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12194",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%9012194",
+            "https://github.com/bcgit/bc-lts-java",
+            "https://github.com/bcgit/bc-lts-java/commit/2c9be6c64152ce48c6afc784c042a514be71ec71",
+            "https://github.com/bcgit/bc-lts-java/commit/f2776feac0c30230f7a5ac34eb24f5019caf0324",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12194",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12194"
+          ],
+          "PublishedDate": "2025-10-24T23:15:39.277Z",
+          "LastModifiedDate": "2025-10-27T13:20:15.637Z"
+        }
+      ]
+    }
+  ]
+}

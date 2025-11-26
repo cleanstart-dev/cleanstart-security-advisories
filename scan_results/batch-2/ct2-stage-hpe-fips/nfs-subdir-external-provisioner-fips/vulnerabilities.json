@@ -1,0 +1,145 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T06:22:36.149238075Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/nfs-subdir-external-provisioner-fips:4.0.18-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 408926208,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:25a198120131524c82e4da57ec15e65379b245b2e3995476f4774b38906881f4",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:f21ad72ca4a2ce0a0ca2224dbacdd109c7f05e6ac00987745dca7d3ef0212e52",
+      "sha256:605afea510c78a530e7eb966c4e346eb597a5f00cc66d6013b24c61cc82d17a0",
+      "sha256:e4409413eb17829185de5c1daee2a5b1ff65562f963511acafbc93061d2cfeda"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/nfs-subdir-external-provisioner-fips:4.0.18-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/nfs-subdir-external-provisioner-fips@sha256:c177476dd9f51beebc2c7c0081a9079aa628f6e6b010224d6df602d06bbf60aa"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-17T06:27:45.214202859Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-17T06:27:10Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T06:27:32Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     nfs-subdir-external-provisioner-fips=4.0.18-r1     python3=3.13.7-r0     py3-pip     clnstrt-dev-base-hpe     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0     libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "RUN /bin/sh -c apk upgrade \u0026\u0026     rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PIP_BREAK_SYSTEM_PACKAGES=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/nfs-subdir-external-provisioner\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "LABEL Cleanstart.main.package=nfs-subdir-external-provisioner-fips",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T06:27:45Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:f21ad72ca4a2ce0a0ca2224dbacdd109c7f05e6ac00987745dca7d3ef0212e52",
+          "sha256:605afea510c78a530e7eb966c4e346eb597a5f00cc66d6013b24c61cc82d17a0",
+          "sha256:e4409413eb17829185de5c1daee2a5b1ff65562f963511acafbc93061d2cfeda"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/nfs-subdir-external-provisioner"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PIP_BREAK_SYSTEM_PACKAGES=1"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "nfs-subdir-external-provisioner-fips",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:f21ad72ca4a2ce0a0ca2224dbacdd109c7f05e6ac00987745dca7d3ef0212e52"
+      },
+      {
+        "Size": 221528576,
+        "DiffID": "sha256:605afea510c78a530e7eb966c4e346eb597a5f00cc66d6013b24c61cc82d17a0"
+      },
+      {
+        "Size": 166946816,
+        "DiffID": "sha256:e4409413eb17829185de5c1daee2a5b1ff65562f963511acafbc93061d2cfeda"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/nfs-subdir-external-provisioner-fips:4.0.18-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

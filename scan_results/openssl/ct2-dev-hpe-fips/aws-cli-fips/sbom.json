@@ -1,0 +1,146 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:59:28.433241413Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/openssl/ct2-dev-hpe-fips/aws-cli-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/openssl/ct2-dev-hpe-fips/aws-cli-fips/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "expat@2.7.0-r0",
+          "PkgName": "expat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/expat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "deb40b6892b152c6"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:9c6653ee563292fd4c7802d2370bd3d1eb080b893de61cb3c94ebe45502a3229"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "libexpat@2.7.0-r0",
+          "PkgName": "libexpat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "a80777526ba18e0e"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:9c6653ee563292fd4c7802d2370bd3d1eb080b893de61cb3c94ebe45502a3229"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        }
+      ]
+    },
+    {
+      "Target": "Python",
+      "Class": "lang-pkgs",
+      "Type": "python-pkg"
+    }
+  ]
+}

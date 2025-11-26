@@ -1,0 +1,192 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T06:33:44.226932824Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/postgres-cloudnative-pg-fips:17.6-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 375630848,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:01560784d248086ffb04eaa301cfc8cbe90b0cd2e3b9afa88c39447bb81fd564",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:eca10b01f4257760ee25c13edeb126f2f996dd3536308df10bd0793bade3ece8",
+      "sha256:a7c95a4dc8dcbcef3269c7f70b6ff2cec3c8eac55a9ddbd590861e12c1320428",
+      "sha256:d6500ef84299d3c96fe66375906661ac1d0c5269bb1602c18a5cb6c949f55003",
+      "sha256:39714a50c42fb815d29f15978573e5a5fb0e9f9faa1e65851b800959cedd352b",
+      "sha256:eb7bd142424c8627198e3bae3f63cfa7b8a69f8f81269a8241736340967a446a",
+      "sha256:e31561ad495f2563c07db78716315eb58fa6eff259f5711224c63b63e87d0b67",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/postgres-cloudnative-pg-fips:17.6-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/postgres-cloudnative-pg-fips@sha256:1ff0a871f836d2da3410e3d0764cecb5e119537bdb4beda329a6dae3c7799d13"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-17T10:25:30.649417492Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-17T10:24:46Z",
+          "created_by": "RUN /bin/sh -c set -eux \u0026\u0026     addgroup -g 10000 -S postgres \u0026\u0026     adduser -u 10000 -S -D -G postgres -H -h /var/lib/postgresql -s /bin/sh postgres \u0026\u0026     install --verbose --directory --owner postgres --group postgres --mode 1777 /var/lib/postgresql # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:24:46Z",
+          "created_by": "RUN /bin/sh -c set -eux \u0026\u0026     adduser -u 26 -S -D -G postgres -H -h /home/postgres -s /bin/sh user26 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:19Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     glibc-clnstrt-i18n     postgresql17=17.6-r0     postgresql17-contrib=17.6-r0     barman-cloudnative-pg     bash     gosu     clnstrt-dev-base-hpe     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:19Z",
+          "created_by": "COPY docker-ensure-initdb.sh /usr/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:19Z",
+          "created_by": "COPY docker-entrypoint.sh /usr/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     mkdir -p /var/lib/postgresql/data \u0026\u0026     mkdir -p /home/postgres \u0026\u0026     mkdir -p /docker-entrypoint-initdb.d \u0026\u0026     mkdir -p /usr/libexec/postgresql17 \u0026\u0026     mkdir -p /home/user26 /var/run/postgresql \u0026\u0026     apk upgrade \u0026\u0026     chmod 755 /var/lib/postgresql/data /var/run/postgresql \u0026\u0026     chown -R user26:postgres /var/lib/postgresql/data /var/run/postgresql \u0026\u0026     chown -R user26:postgres /docker-entrypoint-initdb.d \u0026\u0026     chown -R user26:postgres /usr/libexec/postgresql17 \u0026\u0026     chown -R user26:postgres /home/postgres \u0026\u0026     chmod +x /usr/bin/docker-ensure-initdb.sh \u0026\u0026     chmod +x /usr/bin/docker-entrypoint.sh \u0026\u0026     ln -sT docker-ensure-initdb.sh /usr/bin/docker-enforce-initdb.sh \u0026\u0026     ln -snf /usr/bin/docker-entrypoint.sh docker-entrypoint.sh postgres \u0026\u0026     mkdir -p /usr/lib/postgresql17 \u0026\u0026     chown -R postgres:postgres /usr/lib/postgresql17 \u0026\u0026     chmod 755 /usr/lib/postgresql17 \u0026\u0026     mkdir -p /usr/lib/locale \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"user26:x:26:10000:user26:/home/postgres:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"postgres:x:10000:10000:postgres:/home/postgres:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"user26:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"postgres:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "ENV LANG=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PGDATA=/var/lib/postgresql/data SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "WORKDIR /home/postgres",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "USER 26",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "ENTRYPOINT [\"docker-entrypoint.sh\" \"postgres\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "LABEL Cleanstart.main.package=postgres",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-17T10:25:30Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=PostgreSQL",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:eca10b01f4257760ee25c13edeb126f2f996dd3536308df10bd0793bade3ece8",
+          "sha256:a7c95a4dc8dcbcef3269c7f70b6ff2cec3c8eac55a9ddbd590861e12c1320428",
+          "sha256:d6500ef84299d3c96fe66375906661ac1d0c5269bb1602c18a5cb6c949f55003",
+          "sha256:39714a50c42fb815d29f15978573e5a5fb0e9f9faa1e65851b800959cedd352b",
+          "sha256:eb7bd142424c8627198e3bae3f63cfa7b8a69f8f81269a8241736340967a446a",
+          "sha256:e31561ad495f2563c07db78716315eb58fa6eff259f5711224c63b63e87d0b67",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "docker-entrypoint.sh",
+          "postgres"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "LANG=en_US.UTF-8",
+          "PGDATA=/var/lib/postgresql/data",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "postgres",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "PostgreSQL",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "26",
+        "WorkingDir": "/home/postgres"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10752,
+        "DiffID": "sha256:eca10b01f4257760ee25c13edeb126f2f996dd3536308df10bd0793bade3ece8"
+      },
+      {
+        "Size": 8704,
+        "DiffID": "sha256:a7c95a4dc8dcbcef3269c7f70b6ff2cec3c8eac55a9ddbd590861e12c1320428"
+      },
+      {
+        "Size": 207081984,
+        "DiffID": "sha256:d6500ef84299d3c96fe66375906661ac1d0c5269bb1602c18a5cb6c949f55003"
+      },
+      {
+        "Size": 5120,
+        "DiffID": "sha256:39714a50c42fb815d29f15978573e5a5fb0e9f9faa1e65851b800959cedd352b"
+      },
+      {
+        "Size": 15360,
+        "DiffID": "sha256:eb7bd142424c8627198e3bae3f63cfa7b8a69f8f81269a8241736340967a446a"
+      },
+      {
+        "Size": 148067328,
+        "DiffID": "sha256:e31561ad495f2563c07db78716315eb58fa6eff259f5711224c63b63e87d0b67"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/postgres-cloudnative-pg-fips:17.6-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

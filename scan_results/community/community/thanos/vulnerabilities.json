@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:41:03.378237724Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/thanos:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 513543168,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:87e4686a0889c030c80cf7b84c995aad67794b016d04191e95ff631aea30d1d3",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:d220af1f127296172ad90dd04cf12c67c61553c527a0a5a141c99f226b730fab",
+      "sha256:e370feb42890a05795571450e13d812a1bf4880f2c04ed419b146999a94ce7fa",
+      "sha256:10ebad9c2efdc84acd6e2c1ccedf8416a614dd180d1d3e407ebd0f171ee1bd9c",
+      "sha256:8ab925ffea4f6805cec7576519a8226e2a00e3b352596d053f2354e288d995e8"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/thanos:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/thanos@sha256:21c8d563a6f1a60d5da9f78449cd15dfbbb8b97d937efd7c6987e3423b1b8121"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-24T09:55:31.835947367Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-24T09:54:52Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T09:55:30Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  glibc-clnstrt=2.41-r0 thanos=0.39.2-r1 clnstrt-dev-base openssl-dev=3.5.2-r0 libcrypto3=3.5.2-r0 libssl3=3.5.2-r0 openssl=3.5.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T09:55:31Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T09:55:31Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T09:55:31Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T09:55:31Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T09:55:31Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/thanos\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:d220af1f127296172ad90dd04cf12c67c61553c527a0a5a141c99f226b730fab",
+          "sha256:e370feb42890a05795571450e13d812a1bf4880f2c04ed419b146999a94ce7fa",
+          "sha256:10ebad9c2efdc84acd6e2c1ccedf8416a614dd180d1d3e407ebd0f171ee1bd9c",
+          "sha256:8ab925ffea4f6805cec7576519a8226e2a00e3b352596d053f2354e288d995e8"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/thanos"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:d220af1f127296172ad90dd04cf12c67c61553c527a0a5a141c99f226b730fab"
+      },
+      {
+        "Size": 491547136,
+        "DiffID": "sha256:e370feb42890a05795571450e13d812a1bf4880f2c04ed419b146999a94ce7fa"
+      },
+      {
+        "Size": 454144,
+        "DiffID": "sha256:10ebad9c2efdc84acd6e2c1ccedf8416a614dd180d1d3e407ebd0f171ee1bd9c"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:8ab925ffea4f6805cec7576519a8226e2a00e3b352596d053f2354e288d995e8"
+      }
+    ]
+  }
+}

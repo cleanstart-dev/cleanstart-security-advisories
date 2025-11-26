@@ -1,0 +1,107 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:12:18.632139984Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/argo-workflow-exec:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 583355392,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:b4f85630ab0661fc4849dd723d4eecea05c6fc7d2f9b7386dd2f1cfe9fc7d5ce",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:6e0eb50dff05a63e30695e862d739831a768fcec7f335cd1eb580f7b79c03013",
+      "sha256:90d366ae10616cd560fc9f4c93652e621bee2cb4c1ce8a2570b7d27488ab4384",
+      "sha256:e84438f5cf452b12bee03ae3c81e502a2ffab735028f828e41642eba49c201c1"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argo-workflow-exec:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argo-workflow-exec@sha256:fbf3def9e1abffe632a1c1c5a27fe9d1ca195d28f02256eeecfefc0174d0cfb7"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-25T23:55:16.130050114Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-25T23:54:40Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-25T23:55:15Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  glibc-clnstrt=2.41-r0 clnstrt-dev-base expat argo-workflows-executor=3.7.2-r0 argo-workflows-executor-compat=3.7.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-25T23:55:16Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-25T23:55:16Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-25T23:55:16Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-25T23:55:16Z",
+          "created_by": "ENTRYPOINT [\"argoexec\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:6e0eb50dff05a63e30695e862d739831a768fcec7f335cd1eb580f7b79c03013",
+          "sha256:90d366ae10616cd560fc9f4c93652e621bee2cb4c1ce8a2570b7d27488ab4384",
+          "sha256:e84438f5cf452b12bee03ae3c81e502a2ffab735028f828e41642eba49c201c1"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "argoexec"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:6e0eb50dff05a63e30695e862d739831a768fcec7f335cd1eb580f7b79c03013"
+      },
+      {
+        "Size": 561364480,
+        "DiffID": "sha256:90d366ae10616cd560fc9f4c93652e621bee2cb4c1ce8a2570b7d27488ab4384"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:e84438f5cf452b12bee03ae3c81e502a2ffab735028f828e41642eba49c201c1"
+      }
+    ]
+  }
+}

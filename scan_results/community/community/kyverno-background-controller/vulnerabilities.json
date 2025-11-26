@@ -1,0 +1,107 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:04:06.329402859Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/kyverno-background-controller:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 684852224,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:5fcf28d8c1fde80e1fcac21c579f68ed894250be277ac38a4d51cf4c99239f06",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:f546c84d717e5d2b6db7d3159a1bb36a8e21f5c9775cb6b90a90f31ca8f3b1e5",
+      "sha256:30bc4b29febb7b9a2eac73fd470d126bc6342c344bc32407f44711c7feddbbf3",
+      "sha256:55e15ed886950a8dec7d4d9abc25ee377df31cd7d5222bab6fbadab3b5364a63"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kyverno-background-controller:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kyverno-background-controller@sha256:d5e4e2e914aff4a486b4e48b8ab6ef92263ecf08460092c439297004c8c8c481"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T03:22:16.012619009Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T03:21:36Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:22:15Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 ca-certificates-bundle clnstrt-dev-base kyverno=1.15.1-r1 kyverno-background-controller=1.15.1-r1 libgcc libcrypto3=3.5.2-r0 libssl3=3.5.2-r0 openssl=3.5.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:22:16Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:22:16Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:22:16Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:22:16Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/background-controller\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:f546c84d717e5d2b6db7d3159a1bb36a8e21f5c9775cb6b90a90f31ca8f3b1e5",
+          "sha256:30bc4b29febb7b9a2eac73fd470d126bc6342c344bc32407f44711c7feddbbf3",
+          "sha256:55e15ed886950a8dec7d4d9abc25ee377df31cd7d5222bab6fbadab3b5364a63"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/background-controller"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:f546c84d717e5d2b6db7d3159a1bb36a8e21f5c9775cb6b90a90f31ca8f3b1e5"
+      },
+      {
+        "Size": 663310336,
+        "DiffID": "sha256:30bc4b29febb7b9a2eac73fd470d126bc6342c344bc32407f44711c7feddbbf3"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:55e15ed886950a8dec7d4d9abc25ee377df31cd7d5222bab6fbadab3b5364a63"
+      }
+    ]
+  }
+}

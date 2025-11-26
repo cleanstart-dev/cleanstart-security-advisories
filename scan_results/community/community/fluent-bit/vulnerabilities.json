@@ -1,0 +1,129 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:40:44.874204495Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/fluent-bit:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 304465408,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:ea5b86656ff388f4f16712d6c5155c8e5d75bfaf91323e954ac97a454e5b4be2",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:e2b30f199b57362bf645669b2d1f03dba588ba53e88f4dd33baa1e71e7aafd7b",
+      "sha256:fee35e83e71d1b0354ba4a756106ecd5946bd7491793b9d503b2e9eb975e4b70",
+      "sha256:61776ca865b0e780636c9b6024dcacfdcec807ea8d8ed84b1b7a7839d3c25962",
+      "sha256:895f2db761c5c43e12c70c727516c645c6aff7424f4549f39bf6274a6eaf22dc"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/fluent-bit:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/fluent-bit@sha256:a45479cbb9825b6a5ef4816bf77405d63b248ff08fd5d7ff59601c8fee6835dd"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-19T08:27:15.619190384Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-09-19T08:27:08Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:27:14Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  apk-tools aws-cli-bash-completion brotli brotli-libs busybox ca-certificates-bundle fluent-bit=4.0.8-r0 cyrus-sasl gdbm git glibc-clnstrt gomplate guile-readline heimdal-libs idn2-utils keyutils-libs krb5-conf krb5-libs libcap libcom_err libcrypto3=3.5.2-r0 libcurl libevent libexpat libformw libgcc libldap libpsl libssl3=3.5.2-r0 libunistring libverto libxcrypt ncurses-terminfo-base nghttp2 pcre2 perl-yaml-syck sqlite-libs wget zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/fluent-bit\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:27:15Z",
+          "created_by": "CMD [\"--config=/fluent-bit/etc/fluent-bit.conf\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:e2b30f199b57362bf645669b2d1f03dba588ba53e88f4dd33baa1e71e7aafd7b",
+          "sha256:fee35e83e71d1b0354ba4a756106ecd5946bd7491793b9d503b2e9eb975e4b70",
+          "sha256:61776ca865b0e780636c9b6024dcacfdcec807ea8d8ed84b1b7a7839d3c25962",
+          "sha256:895f2db761c5c43e12c70c727516c645c6aff7424f4549f39bf6274a6eaf22dc"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--config=/fluent-bit/etc/fluent-bit.conf"
+        ],
+        "Entrypoint": [
+          "/usr/bin/fluent-bit"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:e2b30f199b57362bf645669b2d1f03dba588ba53e88f4dd33baa1e71e7aafd7b"
+      },
+      {
+        "Size": 282520576,
+        "DiffID": "sha256:fee35e83e71d1b0354ba4a756106ecd5946bd7491793b9d503b2e9eb975e4b70"
+      },
+      {
+        "Size": 402944,
+        "DiffID": "sha256:61776ca865b0e780636c9b6024dcacfdcec807ea8d8ed84b1b7a7839d3c25962"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:895f2db761c5c43e12c70c727516c645c6aff7424f4549f39bf6274a6eaf22dc"
+      }
+    ]
+  }
+}

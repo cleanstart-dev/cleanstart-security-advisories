@@ -1,0 +1,801 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T00:48:26.723146187Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/minio-operator-sidecar-fips:4.5.8-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 289814528,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:6049d34cb08a754aae8378e4aad94966a4a17841efaf8d9eecd4e43f0880b363",
+    "DiffIDs": [
+      "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+      "sha256:de1fa77532ccb24a9228c38585baf9c16fad3d8ed99ef160f24505dfe57ede7f",
+      "sha256:68e0e8c6584f976d40744cdf41f4eef9d80544c7e9c2c76ffbf4ea37c978ea7e",
+      "sha256:a5c46a31bc6ac9811d4a9e1c3e89df845691d5707a3556f8d6a7638db86eeae3",
+      "sha256:78819478fd0ad1a7c520fe42f9e89b417f7a39e0d0767c5040024d28235b2b9e",
+      "sha256:24fcf19098dc26bfa5ce8bc8ecdffb6cb9a89c0d9f6d0f86a2da066922bd0f66",
+      "sha256:56ca192fced1f13be275e38e53fd77bdcba994fa7a92163df7d0a7b13916fefb",
+      "sha256:30f8d3aeee7d8050fffe7b713303611e44fb0d783acaf9ff7c9cb00d634c06e2",
+      "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7",
+      "sha256:9f708687757d2c063ff6ff9cae0c5d81f91ad81092ff24117bf888642a5d1762"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/minio-operator-sidecar-fips:4.5.8-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/minio-operator-sidecar-fips@sha256:e65f0a3c3ea1d74e68c4943946046a3eb2415312b726bf0b45a2dedbb94e6789"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-08-15T08:41:45.257887427Z",
+      "history": [
+        {
+          "created": "2025-08-11T06:58:13Z"
+        },
+        {
+          "created": "2025-08-15T08:41:17Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:39Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt-i18n glibc-clnstrt=2.41-r0 minio-operator-fips-sidecar=4.5.8-r4 minio-operator-fips-sidecar-compat=4.5.8-r4 libbz2 ca-certificates-bundle libcrypto3 libexpat libffi mpdecimal sqlite-libs xz zlib perl=5.42.0-r0 groff libeconf libblkid libuuid libfdisk libmount libsmartcols ncurses-terminfo-base libncursesw readline sqlite util-linux dmesg setarch util-linux-misc gdbm utmps-libs linux-pam runuser mount losetup hexdump uuidgen blkid sfdisk mcookie agetty wipefs cfdisk umount flock eudev-libs lsblk libcap-ng setpriv logger partx fstrim findmnt gawk libcom_err e2fsprogs-libs krb5-conf heimdal-libs xz-libs libmagic file glibc-clnstrt-bin glibc-clnstrt-doc bash glibc-clnstrt-utils libsasl cyrus-sasl pcre2 git git-init-template keyutils-libs libverto krb5-libs brotli libevent libldap zstd ncurses wget libev nghttp2 bzip2 expat krb5 keyutils e2fsprogs libltdl openldap curl-dev sqlite-dev heimdal-dev brotli-dev libxcrypt-dev c-ares-dev zlib-dev nghttp2-dev # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:39Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:40Z",
+          "created_by": "RUN /bin/sh -c apk add     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0 \u0026\u0026     which openssl \u0026\u0026     openssl version # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:40Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:41Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:41Z",
+          "created_by": "RUN /bin/sh -c apk add libgcc=15.1.0_git20250607-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:44Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     ln -snf /usr/bin/minio-operator-sidecar /minio-operator-sidecar \u0026\u0026     chown clnstrt:clngroup /minio-operator-sidecar \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:45Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-15T08:41:45Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-15T08:41:45Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-15T08:41:45Z",
+          "created_by": "ENTRYPOINT [\"/minio-operator-sidecar\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+          "sha256:de1fa77532ccb24a9228c38585baf9c16fad3d8ed99ef160f24505dfe57ede7f",
+          "sha256:68e0e8c6584f976d40744cdf41f4eef9d80544c7e9c2c76ffbf4ea37c978ea7e",
+          "sha256:a5c46a31bc6ac9811d4a9e1c3e89df845691d5707a3556f8d6a7638db86eeae3",
+          "sha256:78819478fd0ad1a7c520fe42f9e89b417f7a39e0d0767c5040024d28235b2b9e",
+          "sha256:24fcf19098dc26bfa5ce8bc8ecdffb6cb9a89c0d9f6d0f86a2da066922bd0f66",
+          "sha256:56ca192fced1f13be275e38e53fd77bdcba994fa7a92163df7d0a7b13916fefb",
+          "sha256:30f8d3aeee7d8050fffe7b713303611e44fb0d783acaf9ff7c9cb00d634c06e2",
+          "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7",
+          "sha256:9f708687757d2c063ff6ff9cae0c5d81f91ad81092ff24117bf888642a5d1762"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/minio-operator-sidecar"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 25108480,
+        "DiffID": "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:de1fa77532ccb24a9228c38585baf9c16fad3d8ed99ef160f24505dfe57ede7f"
+      },
+      {
+        "Size": 162657792,
+        "DiffID": "sha256:68e0e8c6584f976d40744cdf41f4eef9d80544c7e9c2c76ffbf4ea37c978ea7e"
+      },
+      {
+        "Size": 359936,
+        "DiffID": "sha256:a5c46a31bc6ac9811d4a9e1c3e89df845691d5707a3556f8d6a7638db86eeae3"
+      },
+      {
+        "Size": 9757696,
+        "DiffID": "sha256:78819478fd0ad1a7c520fe42f9e89b417f7a39e0d0767c5040024d28235b2b9e"
+      },
+      {
+        "Size": 2263552,
+        "DiffID": "sha256:24fcf19098dc26bfa5ce8bc8ecdffb6cb9a89c0d9f6d0f86a2da066922bd0f66"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:56ca192fced1f13be275e38e53fd77bdcba994fa7a92163df7d0a7b13916fefb"
+      },
+      {
+        "Size": 365056,
+        "DiffID": "sha256:30f8d3aeee7d8050fffe7b713303611e44fb0d783acaf9ff7c9cb00d634c06e2"
+      },
+      {
+        "Size": 89281536,
+        "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:9f708687757d2c063ff6ff9cae0c5d81f91ad81092ff24117bf888642a5d1762"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/minio-operator-sidecar-fips:4.5.8-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "expat@2.7.0-r0",
+          "PkgName": "expat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/expat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "668438b4f21cabbc"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:68e0e8c6584f976d40744cdf41f4eef9d80544c7e9c2c76ffbf4ea37c978ea7e"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "libexpat@2.7.0-r0",
+          "PkgName": "libexpat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "ca87854c4f8cf6a1"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:68e0e8c6584f976d40744cdf41f4eef9d80544c7e9c2c76ffbf4ea37c978ea7e"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        }
+      ]
+    },
+    {
+      "Target": "usr/bin/minio-operator-sidecar",
+      "Class": "lang-pkgs",
+      "Type": "gobinary",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-58183",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58183",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "golang: archive/tar: Unbounded allocation when parsing GNU sparse map",
+          "Description": "tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58183",
+            "https://go.dev/cl/709861",
+            "https://go.dev/issue/75677",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58183",
+            "https://pkg.go.dev/vuln/GO-2025-4014",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58183"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.357Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.2Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58186",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58186",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Despite HTTP headers having a default limit of 1MB, the number of cook ...",
+          "Description": "Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as \"a=;\", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709855",
+            "https://go.dev/issue/75672",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58186",
+            "https://pkg.go.dev/vuln/GO-2025-4012"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.547Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.45Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58187",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.593Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58188",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58188",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Validating certificate chains which contain DSA public keys can cause  ...",
+          "Description": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709853",
+            "https://go.dev/issue/75675",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58188",
+            "https://pkg.go.dev/vuln/GO-2025-4013"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.74Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.74Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-47912",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-47912",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/url: Insufficient validation of bracketed IPv6 hostnames in net/url",
+          "Description": "The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: \"http://[::1]/\". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-47912",
+            "https://go.dev/cl/709857",
+            "https://go.dev/issue/75678",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47912",
+            "https://pkg.go.dev/vuln/GO-2025-4010",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47912"
+          ],
+          "PublishedDate": "2025-10-29T23:16:18.187Z",
+          "LastModifiedDate": "2025-11-04T22:16:16.497Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58185",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58185",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1",
+          "Description": "Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58185",
+            "https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd",
+            "https://go.dev/cl/709856",
+            "https://go.dev/issue/75671",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58185",
+            "https://pkg.go.dev/vuln/GO-2025-4011",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58185"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.45Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.327Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58189",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58189",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information",
+          "Description": "When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58189",
+            "https://go.dev/cl/707776",
+            "https://go.dev/issue/75652",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58189",
+            "https://pkg.go.dev/vuln/GO-2025-4008",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58189"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.833Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.877Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61723",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61723",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem",
+          "Description": "The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61723",
+            "https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b",
+            "https://go.dev/cl/709858",
+            "https://go.dev/issue/75676",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61723",
+            "https://pkg.go.dev/vuln/GO-2025-4009",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61723"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.927Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.42Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61724",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61724",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto",
+          "Description": "The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61724",
+            "https://go.dev/cl/709859",
+            "https://go.dev/issue/75716",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61724",
+            "https://pkg.go.dev/vuln/GO-2025-4015",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61724"
+          ],
+          "PublishedDate": "2025-10-29T23:16:20.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.567Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61725",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "e54824a51bc94b9e"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d4dcaf026229182bf183d5272aec3b682e2867986980678d08b24c5ad5212de7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61725",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/mail: Excessive CPU consumption in ParseAddress in net/mail",
+          "Description": "The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61725",
+            "https://go.dev/cl/709860",
+            "https://go.dev/issue/75680",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61725",
+            "https://pkg.go.dev/vuln/GO-2025-4006",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61725"
+          ],
+          "PublishedDate": "2025-10-29T23:16:20.113Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.693Z"
+        }
+      ]
+    }
+  ]
+}

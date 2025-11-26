@@ -1,0 +1,108 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:32:56.688473136Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/cortex:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 197361152,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:467a5b335d1b7842feac133ec989f7912ad4b1cf4f3ffccd367f279682e00819",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:08c45363a245966afdee7ec1655a28d48aedb9a303552801343c216c9da3cc51",
+      "sha256:7b359962ff97806e5e0798134654b18f283dd4a56f3965eedb7dc942ae0e6596",
+      "sha256:daca569d6ce5705f1a35e4497745aa6797e136934b6e86ff369e7ca094ab082e"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cortex:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cortex@sha256:e01969aec886c6216747a709fc3ab7d8fd898708977ded80eaeb9087d7d4a9fa"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-24T07:51:05.797053696Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-24T07:51:02Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:51:05Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  apk-tools aws-cli-bash-completion brotli brotli-libs busybox ca-certificates-bundle cortex=1.19.0-r1 cyrus-sasl gdbm git glibc-clnstrt guile-readline heimdal-libs idn2-utils keyutils-libs krb5-conf krb5-libs libcom_err libcrypto3 libcurl libevent libexpat libformw libgcc libldap libpsl libssl3 libunistring libverto libxcrypt ncurses-terminfo-base nghttp2 pcre2 sqlite-libs wget zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:51:05Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:51:05Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:51:05Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:51:05Z",
+          "created_by": "ENTRYPOINT [\"cortex\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:08c45363a245966afdee7ec1655a28d48aedb9a303552801343c216c9da3cc51",
+          "sha256:7b359962ff97806e5e0798134654b18f283dd4a56f3965eedb7dc942ae0e6596",
+          "sha256:daca569d6ce5705f1a35e4497745aa6797e136934b6e86ff369e7ca094ab082e"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "cortex"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:08c45363a245966afdee7ec1655a28d48aedb9a303552801343c216c9da3cc51"
+      },
+      {
+        "Size": 175819264,
+        "DiffID": "sha256:7b359962ff97806e5e0798134654b18f283dd4a56f3965eedb7dc942ae0e6596"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:daca569d6ce5705f1a35e4497745aa6797e136934b6e86ff369e7ca094ab082e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:21:45.864058971Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/cadvisor:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 454956032,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:38a9d726774710def4679e0dd725075c051869e7cbfbf22be51a8657601dc7f3",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:8c701f2b7b7f6ca6aa9b70e9e1482a158e4624f688e93c9a97a7e9b68e43ef49",
+      "sha256:714c903df9a48d013152ae6b1606ffedb92448efdd3f81216846b4bdaeaceb61"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cadvisor:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cadvisor@sha256:2e7065eca04e061e7ec06a8bc66edb44b4f67af29ddbaaa3d86ad4c3689a2d55"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T00:36:18.86973758Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T00:35:45Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:36:18Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache glibc-clnstrt-i18n glibc-clnstrt=2.41-r0 clnstrt-dev-base cadvisor=0.53.0-r0 cadvisor-compat=0.53.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:36:18Z",
+          "created_by": "ENV CADVISOR_HEALTHCHECK_URL=http://localhost:8080/healthz LD_PRELOAD= PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:36:18Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:36:18Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/cadvisor\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:36:18Z",
+          "created_by": "CMD [\"-logtostderr\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:8c701f2b7b7f6ca6aa9b70e9e1482a158e4624f688e93c9a97a7e9b68e43ef49",
+          "sha256:714c903df9a48d013152ae6b1606ffedb92448efdd3f81216846b4bdaeaceb61"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "-logtostderr"
+        ],
+        "Entrypoint": [
+          "/usr/bin/cadvisor"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "CADVISOR_HEALTHCHECK_URL=http://localhost:8080/healthz",
+          "LD_PRELOAD=",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:8c701f2b7b7f6ca6aa9b70e9e1482a158e4624f688e93c9a97a7e9b68e43ef49"
+      },
+      {
+        "Size": 433417216,
+        "DiffID": "sha256:714c903df9a48d013152ae6b1606ffedb92448efdd3f81216846b4bdaeaceb61"
+      }
+    ]
+  }
+}

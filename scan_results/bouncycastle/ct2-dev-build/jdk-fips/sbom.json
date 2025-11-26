@@ -1,0 +1,126 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T01:44:46.277146215Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/bouncycastle/ct2-dev-build/jdk-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/bouncycastle/ct2-dev-build/jdk-fips/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-8885",
+          "PkgID": "org.bouncycastle:bc-fips:2.0.0",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.0.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.0.0",
+            "UID": "3c0ec49f9af5c14c"
+          },
+          "InstalledVersion": "2.0.0",
+          "FixedVersion": "1.0.2.6, 2.0.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:77eb53d5f1bf65d7ab8280b9c1136f3e4961979ef9f198ef1fa81e7f83a46eb5"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-8885",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "bouncycastle: Bouncy Castle denial of service parsing ASN.1 Object Identifiers",
+          "Description": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc. BC Java bcprov on All (API modules), Legion of the Bouncy Castle Inc. BC-FJA bc-fips on All allows Excessive Allocation. This vulnerability is associated with program files  https://github.com/bcgit/bc-java/blob/main/core/src/main/java/org/bouncycastle/asn1/ASN1ObjectIdenti... https://github.com/bcgit/bc-java/blob/main/core/src/main/java/org/bouncycastle/asn1/ASN1ObjectIdentifier.Java .\n\nThis issue affects BC Java: from 1.0 through 1.77; BC-FJA: from 1.0.0 through 1.0.2.5, from 2.0.0 through 2.0.1.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-8885",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/blob/main/core/src/main/java/org/bouncycastle/asn1/ASN1ObjectIdentifier.java",
+            "https://github.com/bcgit/bc-java/commit/3790993df5d28f661a64439a8664343437ed3865",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%908885",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-8885",
+            "https://www.cve.org/CVERecord?id=CVE-2025-8885"
+          ],
+          "PublishedDate": "2025-08-12T10:15:26.963Z",
+          "LastModifiedDate": "2025-09-12T12:15:32.69Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-8916",
+          "PkgID": "org.bouncycastle:bcpkix-fips:2.0.7",
+          "PkgName": "org.bouncycastle:bcpkix-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bcpkix-fips-2.0.7.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bcpkix-fips@2.0.7",
+            "UID": "987a1347abe0c9df"
+          },
+          "InstalledVersion": "2.0.7",
+          "FixedVersion": "1.0.8, 2.0.8",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:77eb53d5f1bf65d7ab8280b9c1136f3e4961979ef9f198ef1fa81e7f83a46eb5"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-8916",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle: BouncyCastle denial of service",
+          "Description": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc. BC Java bcpkix on All (API modules), Legion of the Bouncy Castle Inc. BC Java bcprov on All (API modules), Legion of the Bouncy Castle Inc. BCPKIX FIPS bcpkix-fips on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files https://github.Com/bcgit/bc-java/blob/main/pkix/src/main/java/org/bouncycastle/pkix/jcajce/PKIXCertPathReviewer.Java, https://github.Com/bcgit/bc-java/blob/main/prov/src/main/java/org/bouncycastle/x509/PKIXCertPathReviewer.Java.\n\nThis issue affects BC Java: from 1.44 through 1.78; BC Java: from 1.44 through 1.78; BCPKIX FIPS: from 1.0.0 through 1.0.7, from 2.0.0 through 2.0.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-8916",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/commit/310b30a4fbf36d13f6cc201ffa7771715641e67e",
+            "https://github.com/bcgit/bc-java/commit/ff444a479942d88de64004dc82c3ee32a9e9075a",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%908916",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-8916",
+            "https://www.cve.org/CVERecord?id=CVE-2025-8916"
+          ],
+          "PublishedDate": "2025-08-13T10:15:27.563Z",
+          "LastModifiedDate": "2025-09-12T12:15:32.873Z"
+        }
+      ]
+    }
+  ]
+}

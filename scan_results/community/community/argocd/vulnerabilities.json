@@ -1,0 +1,111 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:13:33.422750488Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 566753280,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:34a79f8b8893040294a35b3a6cc849f340f8eb6ccba3ea08b336e1a7b579850b",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:ef8abf924debab2261ba85e73d769bd4d5bed8695c1bdc0ff65aabf77ca7563d",
+      "sha256:972432e4b4c2435d2aa420861e190ba2f71b1c1a4442e3ad5bc940306b36f183",
+      "sha256:eb6c5f21b1d571cd7e731161c6e41c75fd49e48131d43c48aff7646aab92e122",
+      "sha256:9c72c44a203a638edaa88d423c2dd38ce490b99a3fe9cd9c753485f381890bde"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd@sha256:05ae5dca53593363f9354414d99e821c5a53893d1c92d2b5ae95187f0fd76215"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:23:52.14234846Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:23:12Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:23:51Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add clnstrt-dev-base argo-cd=3.0.12-r0 argo-cd-compat=3.0.12-r0 glibc-clnstrt=2.41-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:23:52Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:23:52Z",
+          "created_by": "ENV ARGOCD_GPG_ENABLED=false PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:23:52Z",
+          "created_by": "WORKDIR /home/argocd",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:23:52Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:ef8abf924debab2261ba85e73d769bd4d5bed8695c1bdc0ff65aabf77ca7563d",
+          "sha256:972432e4b4c2435d2aa420861e190ba2f71b1c1a4442e3ad5bc940306b36f183",
+          "sha256:eb6c5f21b1d571cd7e731161c6e41c75fd49e48131d43c48aff7646aab92e122",
+          "sha256:9c72c44a203a638edaa88d423c2dd38ce490b99a3fe9cd9c753485f381890bde"
+        ]
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "ARGOCD_GPG_ENABLED=false",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/home/argocd"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:ef8abf924debab2261ba85e73d769bd4d5bed8695c1bdc0ff65aabf77ca7563d"
+      },
+      {
+        "Size": 545208832,
+        "DiffID": "sha256:972432e4b4c2435d2aa420861e190ba2f71b1c1a4442e3ad5bc940306b36f183"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:eb6c5f21b1d571cd7e731161c6e41c75fd49e48131d43c48aff7646aab92e122"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:9c72c44a203a638edaa88d423c2dd38ce490b99a3fe9cd9c753485f381890bde"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1203 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T02:17:54.481056759Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/resource-apache-zookeeper-fips:3.9.3-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 983013376,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:190be5341a7fda2da1ad4d508ea0ca5102f1ff4c94a89bf9416e3d87c449359a",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:e4bd05eca960e67008e2b75cf66b928d226c679b3804c5d5093d67b341baef11",
+      "sha256:0607d3e589ecf56e346db0d138909d70556b774175df04df818fced9e24e08f2",
+      "sha256:fe0c5f48ca9892157da202ef7b609e8cf6572e0ef9744346bf1b515edf9f0c49",
+      "sha256:a67c1e1c0deff61d263fff815b53796292fb58bccf020f3ce6c95bc219bbb6b2",
+      "sha256:e3a6351e6e12e68618d77086ab499bcd297075c3c8cc7b46b13a36d30b0866e5",
+      "sha256:6e01fca12d939961fe0199b3b2f5ee8de250df93aac57c9d895b4ec2e8e70f53",
+      "sha256:cbf658b2a0ebe440b37b415c092efcc273e0d956b41582e71bc71cc890ce0b0d",
+      "sha256:98bc96cd20854591d2fd1513b684075532b6d18eff35c6ab3a506d0eaa89257d",
+      "sha256:fd153739b47d8918a45951a57ed0a188b661c276ba0a96b963a78653e2667782",
+      "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af",
+      "sha256:d7f3597cd0d3ce4df72fd53b79ba47b76e967f8ed826b978fd5d1869b4e48a01",
+      "sha256:57e9d1a9ec4f5b1f56b092774c2ea8616a3d53599178935eddf6e0a90f17f8ef",
+      "sha256:92756f5ac062f6242732051add060b50921cc111eeb778d157a275c96bd7b4fb",
+      "sha256:32c27ec5df07ffc4122072a61d5d2ff05b00dbdd218fadfb59f078215000f3c3",
+      "sha256:7d33e90e008630176eee41cb0f2951e2e951aa51f86a1e652857ee80e2dcd805",
+      "sha256:f3ef4914732dc50510b96201bef2d7f3b8ff3067ff0d4c24d2946ecf04491838",
+      "sha256:de9a06a426b73a65db32f939a0b067b555f4bb3f04496403900b3ae941911fe4",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9",
+      "sha256:e9775bf9a02cdb58ce7c2b42c26ea4e89bf1b2f02c32de7e271f1fdf874cd051",
+      "sha256:872b742ce7b0a3cfaa943d08a0ec0acbb8e22808352b0de10f1fa9f590eb3945",
+      "sha256:4903efc448a4a95127cc7a44620a4e3cb374189d26eea5d0cd55bdcfaf94b717",
+      "sha256:a9d0be34efba00ee9532ab97ed0d30dd4e3e980b7fbc28773a4123a02d7b0702",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+      "sha256:387b49e34d9304ad4c538b272526190944c6e84b7d57524b009af8087dbb2fa4"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/resource-apache-zookeeper-fips:3.9.3-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/resource-apache-zookeeper-fips@sha256:6976080ed9275538de7c0f211f985580104238f101e24a690e319501c83d49cb"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-30T20:41:22.35366876Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-30T20:39:59Z",
+          "created_by": "ENV ZOO_CONF_DIR=/conf ZOO_DATA_DIR=/data ZOO_DATA_LOG_DIR=/datalog ZOO_PORT=2181 ZOO_TICK_TIME=2000 ZOO_INIT_LIMIT=5 ZOO_SYNC_LIMIT=2 ZOO_AUTOPURGE_PURGEINTERVAL=0 ZOO_AUTOPURGE_SNAPRETAINCOUNT=3 ZOO_MAX_CLIENT_CNXNS=60 ZOO_STANDALONE_ENABLED=true ZOO_ADMINSERVER_ENABLED=true",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:39:59Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache     libgcc     glibc-clnstrt-i18n     glibc-clnstrt=2.41-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:39:59Z",
+          "created_by": "RUN /bin/sh -c apk add     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0     openssl-config-fipshardened=3.5.0-r0     openssl-provider-fips=3.0.9-r5 \u0026\u0026     which openssl \u0026\u0026     openssl version # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:03Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache openjdk17-jre openjdk17-jdk # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:03Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:03Z",
+          "created_by": "ENV PATH=/usr/lib/jvm/default-jvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:05Z",
+          "created_by": "RUN /bin/sh -c chmod -R 755 /usr/lib/jvm/java-17-openjdk \u0026\u0026     find /usr/lib/jvm/java-17-openjdk -type f -exec chmod 755 {} \\; \u0026\u0026     find /usr/lib/jvm/java-17-openjdk -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:05Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /usr/local/bin /usr/local/sbin \u0026\u0026     chmod -R 755 /usr/bin /bin /sbin /usr/sbin /usr/local/bin /usr/local/sbin \u0026\u0026     chmod 755 /usr/bin/java /bin/busybox /usr/bin/which \u0026\u0026     chmod 755 /usr/bin/javac 2\u003e/dev/null || echo \"javac not found in /usr/bin\" \u0026\u0026     ls -la /usr/bin/java # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:06Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache bouncycastle-fips=2.1.0-r0 bouncycastle-pkix-fips=2.0.8-r0 bouncycastle-tls-fips=2.0.19-r0 bouncycastle-util-fips=2.0.3-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:06Z",
+          "created_by": "RUN /bin/sh -c apk upgrade --no-cache # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on \u0026\u0026     ln -snf /usr/libexec/openssl-fips-provider/bin/openssl /usr/bin/openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "ENV CLASSPATH=/usr/lib/bouncycastle-fips/*:/usr/share/java/druid/lib/*",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "ENV JAVA_OPTS=-Djava.security.provider.1=org.bouncycastle.jcajce.provider.BouncyCastleFipsProvider -Djava.security.provider.2=org.bouncycastle.jsse.provider.BouncyCastleJsseProvider -Dcom.sun.net.ssl.enableECC=false -Djavax.net.ssl.trustStoreType=PKCS12",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:40:07Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache     netcat-openbsd     bash     tar     gzip     wget # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:08Z",
+          "created_by": "RUN /bin/sh -c echo \"Downloading ZooKeeper...\" \u0026\u0026     wget -q --timeout=30 -O apache-zookeeper.tar.gz     \"https://archive.apache.org/dist/zookeeper/zookeeper-3.9.3/apache-zookeeper-3.9.3-bin.tar.gz\" \u0026\u0026     echo \"Download successful, file size:\" \u0026\u0026     ls -lh apache-zookeeper.tar.gz \u0026\u0026     echo \"Extracting ZooKeeper...\" \u0026\u0026     tar -C /opt -xzf apache-zookeeper.tar.gz \u0026\u0026     echo \"Contents of /opt after extraction:\" \u0026\u0026     ls -la /opt/ \u0026\u0026     ZOO_DIR=$(ls -d /opt/apache-zookeeper-* | head -1) \u0026\u0026     echo \"Found ZooKeeper directory: $ZOO_DIR\" \u0026\u0026     mv \"$ZOO_DIR\" /opt/zookeeper \u0026\u0026     echo \"Contents of /opt/zookeeper:\" \u0026\u0026     ls -la /opt/zookeeper/ \u0026\u0026     echo \"Contents of /opt/zookeeper/bin:\" \u0026\u0026     ls -la /opt/zookeeper/bin/ \u0026\u0026     rm apache-zookeeper.tar.gz \u0026\u0026     rm -f /usr/bin/wget # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:08Z",
+          "created_by": "RUN /bin/sh -c mkdir -p $ZOO_DATA_DIR $ZOO_DATA_LOG_DIR $ZOO_CONF_DIR # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "COPY zoo.cfg /conf/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "COPY log4j.properties /conf/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "COPY docker-entrypoint.sh /usr/local/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "COPY zoo.cfg /opt/zookeeper/conf/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "COPY log4j.properties /opt/zookeeper/conf/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:09Z",
+          "created_by": "RUN /bin/sh -c chmod +x /usr/local/bin/docker-entrypoint.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:10Z",
+          "created_by": "RUN /bin/sh -c if [ ! -f $ZOO_CONF_DIR/zoo.cfg ]; then         echo \"tickTime=$ZOO_TICK_TIME\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"initLimit=$ZOO_INIT_LIMIT\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"syncLimit=$ZOO_SYNC_LIMIT\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"dataDir=$ZOO_DATA_DIR\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"dataLogDir=$ZOO_DATA_LOG_DIR\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"clientPort=$ZOO_PORT\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"maxClientCnxns=$ZOO_MAX_CLIENT_CNXNS\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"autopurge.snapRetainCount=$ZOO_AUTOPURGE_SNAPRETAINCOUNT\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"autopurge.purgeInterval=$ZOO_AUTOPURGE_PURGEINTERVAL\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg \u0026\u0026         echo \"admin.enableServer=$ZOO_ADMINSERVER_ENABLED\" \u003e\u003e $ZOO_CONF_DIR/zoo.cfg;     fi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:15Z",
+          "created_by": "RUN /bin/sh -c chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:16Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:17Z",
+          "created_by": "RUN /bin/sh -c chmod +x /usr/lib/jvm/default-jvm/bin/* \u0026\u0026     echo \"clngroup:x:10000:clnstrt\" \u003e\u003e /etc/group \u0026\u0026     mkdir -p /home/clnstrt \u0026\u0026     chown clnstrt:clngroup /home/clnstrt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:21Z",
+          "created_by": "RUN /bin/sh -c chown -R clnstrt:clngroup /opt/zookeeper \u0026\u0026     chown -R clnstrt:clngroup $ZOO_DATA_DIR $ZOO_DATA_LOG_DIR $ZOO_CONF_DIR \u0026\u0026     chown -R clnstrt:clngroup /opt/zookeeper/conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:21Z",
+          "created_by": "RUN /bin/sh -c find /usr -name \"openssl\" -type f -executable -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/bin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/sbin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     rm -f /usr/bin/openssl /usr/sbin/openssl /usr/local/bin/openssl /usr/local/sbin/openssl \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider/bin/ \u0026\u0026     which openssl \u0026\u0026 echo \"WARNING: OpenSSL still found!\" || echo \"OpenSSL binary successfully removed\" # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:21Z",
+          "created_by": "EXPOSE map[2181/tcp:{} 2888/tcp:{} 3888/tcp:{} 8080/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:21Z",
+          "created_by": "WORKDIR /opt/zookeeper",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:21Z",
+          "created_by": "HEALTHCHECK \u0026{[\"CMD-SHELL\" \"echo ruok | nc localhost $ZOO_PORT | grep imok || exit 1\"] \"30s\" \"5s\" \"30s\" '\\x03'}",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "ENTRYPOINT [\"docker-entrypoint.sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "CMD [\"bin/zkServer.sh\" \"start-foreground\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "LABEL clnstrt.main.package=resource-apache-zookeeper-fips=3.9.3",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T20:41:22Z",
+          "created_by": "LABEL image.vendor=cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:e4bd05eca960e67008e2b75cf66b928d226c679b3804c5d5093d67b341baef11",
+          "sha256:0607d3e589ecf56e346db0d138909d70556b774175df04df818fced9e24e08f2",
+          "sha256:fe0c5f48ca9892157da202ef7b609e8cf6572e0ef9744346bf1b515edf9f0c49",
+          "sha256:a67c1e1c0deff61d263fff815b53796292fb58bccf020f3ce6c95bc219bbb6b2",
+          "sha256:e3a6351e6e12e68618d77086ab499bcd297075c3c8cc7b46b13a36d30b0866e5",
+          "sha256:6e01fca12d939961fe0199b3b2f5ee8de250df93aac57c9d895b4ec2e8e70f53",
+          "sha256:cbf658b2a0ebe440b37b415c092efcc273e0d956b41582e71bc71cc890ce0b0d",
+          "sha256:98bc96cd20854591d2fd1513b684075532b6d18eff35c6ab3a506d0eaa89257d",
+          "sha256:fd153739b47d8918a45951a57ed0a188b661c276ba0a96b963a78653e2667782",
+          "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af",
+          "sha256:d7f3597cd0d3ce4df72fd53b79ba47b76e967f8ed826b978fd5d1869b4e48a01",
+          "sha256:57e9d1a9ec4f5b1f56b092774c2ea8616a3d53599178935eddf6e0a90f17f8ef",
+          "sha256:92756f5ac062f6242732051add060b50921cc111eeb778d157a275c96bd7b4fb",
+          "sha256:32c27ec5df07ffc4122072a61d5d2ff05b00dbdd218fadfb59f078215000f3c3",
+          "sha256:7d33e90e008630176eee41cb0f2951e2e951aa51f86a1e652857ee80e2dcd805",
+          "sha256:f3ef4914732dc50510b96201bef2d7f3b8ff3067ff0d4c24d2946ecf04491838",
+          "sha256:de9a06a426b73a65db32f939a0b067b555f4bb3f04496403900b3ae941911fe4",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+          "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9",
+          "sha256:e9775bf9a02cdb58ce7c2b42c26ea4e89bf1b2f02c32de7e271f1fdf874cd051",
+          "sha256:872b742ce7b0a3cfaa943d08a0ec0acbb8e22808352b0de10f1fa9f590eb3945",
+          "sha256:4903efc448a4a95127cc7a44620a4e3cb374189d26eea5d0cd55bdcfaf94b717",
+          "sha256:a9d0be34efba00ee9532ab97ed0d30dd4e3e980b7fbc28773a4123a02d7b0702",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+          "sha256:387b49e34d9304ad4c538b272526190944c6e84b7d57524b009af8087dbb2fa4"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "bin/zkServer.sh",
+          "start-foreground"
+        ],
+        "Healthcheck": {
+          "Test": [
+            "CMD-SHELL",
+            "echo ruok | nc localhost $ZOO_PORT | grep imok || exit 1"
+          ],
+          "Interval": 30000000000,
+          "Timeout": 5000000000,
+          "StartPeriod": 30000000000,
+          "Retries": 3
+        },
+        "Entrypoint": [
+          "docker-entrypoint.sh"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "ZOO_CONF_DIR=/conf",
+          "ZOO_DATA_DIR=/data",
+          "ZOO_DATA_LOG_DIR=/datalog",
+          "ZOO_PORT=2181",
+          "ZOO_TICK_TIME=2000",
+          "ZOO_INIT_LIMIT=5",
+          "ZOO_SYNC_LIMIT=2",
+          "ZOO_AUTOPURGE_PURGEINTERVAL=0",
+          "ZOO_AUTOPURGE_SNAPRETAINCOUNT=3",
+          "ZOO_MAX_CLIENT_CNXNS=60",
+          "ZOO_STANDALONE_ENABLED=true",
+          "ZOO_ADMINSERVER_ENABLED=true",
+          "JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "CLASSPATH=/usr/lib/bouncycastle-fips/*:/usr/share/java/druid/lib/*",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "JAVA_OPTS=-Djava.security.provider.1=org.bouncycastle.jcajce.provider.BouncyCastleFipsProvider -Djava.security.provider.2=org.bouncycastle.jsse.provider.BouncyCastleJsseProvider -Dcom.sun.net.ssl.enableECC=false -Djavax.net.ssl.trustStoreType=PKCS12"
+        ],
+        "Labels": {
+          "clnstrt.main.package": "resource-apache-zookeeper-fips=3.9.3",
+          "image.vendor": "cleanstart"
+        },
+        "User": "clnstrt",
+        "WorkingDir": "/opt/zookeeper",
+        "ExposedPorts": {
+          "2181/tcp": {},
+          "2888/tcp": {},
+          "3888/tcp": {},
+          "8080/tcp": {}
+        },
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 37206016,
+        "DiffID": "sha256:e4bd05eca960e67008e2b75cf66b928d226c679b3804c5d5093d67b341baef11"
+      },
+      {
+        "Size": 10758656,
+        "DiffID": "sha256:0607d3e589ecf56e346db0d138909d70556b774175df04df818fced9e24e08f2"
+      },
+      {
+        "Size": 258037760,
+        "DiffID": "sha256:fe0c5f48ca9892157da202ef7b609e8cf6572e0ef9744346bf1b515edf9f0c49"
+      },
+      {
+        "Size": 246903296,
+        "DiffID": "sha256:a67c1e1c0deff61d263fff815b53796292fb58bccf020f3ce6c95bc219bbb6b2"
+      },
+      {
+        "Size": 9738240,
+        "DiffID": "sha256:e3a6351e6e12e68618d77086ab499bcd297075c3c8cc7b46b13a36d30b0866e5"
+      },
+      {
+        "Size": 8437248,
+        "DiffID": "sha256:6e01fca12d939961fe0199b3b2f5ee8de250df93aac57c9d895b4ec2e8e70f53"
+      },
+      {
+        "Size": 204288,
+        "DiffID": "sha256:cbf658b2a0ebe440b37b415c092efcc273e0d956b41582e71bc71cc890ce0b0d"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:98bc96cd20854591d2fd1513b684075532b6d18eff35c6ab3a506d0eaa89257d"
+      },
+      {
+        "Size": 6399488,
+        "DiffID": "sha256:fd153739b47d8918a45951a57ed0a188b661c276ba0a96b963a78653e2667782"
+      },
+      {
+        "Size": 50045952,
+        "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:d7f3597cd0d3ce4df72fd53b79ba47b76e967f8ed826b978fd5d1869b4e48a01"
+      },
+      {
+        "Size": 5120,
+        "DiffID": "sha256:57e9d1a9ec4f5b1f56b092774c2ea8616a3d53599178935eddf6e0a90f17f8ef"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:92756f5ac062f6242732051add060b50921cc111eeb778d157a275c96bd7b4fb"
+      },
+      {
+        "Size": 8192,
+        "DiffID": "sha256:32c27ec5df07ffc4122072a61d5d2ff05b00dbdd218fadfb59f078215000f3c3"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:7d33e90e008630176eee41cb0f2951e2e951aa51f86a1e652857ee80e2dcd805"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:f3ef4914732dc50510b96201bef2d7f3b8ff3067ff0d4c24d2946ecf04491838"
+      },
+      {
+        "Size": 8192,
+        "DiffID": "sha256:de9a06a426b73a65db32f939a0b067b555f4bb3f04496403900b3ae941911fe4"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      },
+      {
+        "Size": 284307456,
+        "DiffID": "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:e9775bf9a02cdb58ce7c2b42c26ea4e89bf1b2f02c32de7e271f1fdf874cd051"
+      },
+      {
+        "Size": 423424,
+        "DiffID": "sha256:872b742ce7b0a3cfaa943d08a0ec0acbb8e22808352b0de10f1fa9f590eb3945"
+      },
+      {
+        "Size": 50055680,
+        "DiffID": "sha256:4903efc448a4a95127cc7a44620a4e3cb374189d26eea5d0cd55bdcfaf94b717"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:a9d0be34efba00ee9532ab97ed0d30dd4e3e980b7fbc28773a4123a02d7b0702"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:387b49e34d9304ad4c538b272526190944c6e84b7d57524b009af8087dbb2fa4"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/resource-apache-zookeeper-fips:3.9.3-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2024-12798",
+          "PkgName": "ch.qos.logback:logback-core",
+          "PkgPath": "opt/zookeeper/lib/logback-core-1.2.13.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-core@1.2.13",
+            "UID": "d50716ca5d64a0c2"
+          },
+          "InstalledVersion": "1.2.13",
+          "FixedVersion": "1.5.13, 1.3.15",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-12798",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "logback-core: arbitrary code execution via JaninoEventEvaluator",
+          "Description": "ACE vulnerability in JaninoEventEvaluator  by QOS.CH logback-core\n      upto including version 0.1 to 1.3.14 and 1.4.0 to 1.5.12 in Java applications allows\n      attacker to execute arbitrary code by compromising an existing\n      logback configuration file or by injecting an environment variable\n      before program execution.\n\n\n\n\n\nMalicious logback configuration files can allow the attacker to execute \narbitrary code using the JaninoEventEvaluator extension.\n\n\n\nA successful attack requires the user to have write access to a \nconfiguration file. Alternatively, the attacker could inject a malicious \nenvironment variable pointing to a malicious configuration file. In both \ncases, the attack requires existing privilege.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-917"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:H/A:L",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-12798",
+            "https://github.com/qos-ch/logback",
+            "https://github.com/qos-ch/logback/commit/2cb6d520df7592ef1c3a198f1b5df3c10c93e183",
+            "https://logback.qos.ch/news.html#1.3.15",
+            "https://logback.qos.ch/news.html#1.5.13",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-12798",
+            "https://www.cve.org/CVERecord?id=CVE-2024-12798"
+          ],
+          "PublishedDate": "2024-12-19T16:15:07.557Z",
+          "LastModifiedDate": "2025-01-03T14:15:24.37Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-11226",
+          "PkgName": "ch.qos.logback:logback-core",
+          "PkgPath": "opt/zookeeper/lib/logback-core-1.2.13.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-core@1.2.13",
+            "UID": "d50716ca5d64a0c2"
+          },
+          "InstalledVersion": "1.2.13",
+          "FixedVersion": "1.5.19, 1.3.16",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-11226",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "ch.qos.logback/logback-core: Conditional abitrary code execution in logback-core",
+          "Description": "ACE vulnerability in conditional configuration file processing  by QOS.CH logback-core up to and including version 1.5.18 in Java applications, allows an attacker to execute arbitrary code by compromising an existing logback configuration file or by injecting an environment variable before program execution.\n\n\n\nA successful attack requires the presence of Janino library and Spring Framework to be present on the user's class path. In addition, the attacker must  have write access to a \nconfiguration file. Alternatively, the attacker could inject a malicious \nenvironment variable pointing to a malicious configuration file. In both \ncases, the attack requires existing privilege.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-20"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+              "V3Score": 6.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-11226",
+            "https://github.com/qos-ch/logback",
+            "https://github.com/qos-ch/logback/commit/61f6a2544f36b3016e0efd434ee21f19269f1df7",
+            "https://github.com/qos-ch/logback/issues/974",
+            "https://github.com/qos-ch/logback/releases/tag/v_1.5.19",
+            "https://logback.qos.ch/news.html#1.3.16",
+            "https://logback.qos.ch/news.html#1.5.19",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-11226",
+            "https://www.cve.org/CVERecord?id=CVE-2025-11226"
+          ],
+          "PublishedDate": "2025-10-01T08:15:31.25Z",
+          "LastModifiedDate": "2025-10-31T15:15:41.197Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-12801",
+          "PkgName": "ch.qos.logback:logback-core",
+          "PkgPath": "opt/zookeeper/lib/logback-core-1.2.13.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-core@1.2.13",
+            "UID": "d50716ca5d64a0c2"
+          },
+          "InstalledVersion": "1.2.13",
+          "FixedVersion": "1.5.13, 1.3.15",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-12801",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "logback-core: SaxEventRecorder vulnerable to Server-Side Request Forgery (SSRF) attacks",
+          "Description": "Server-Side Request Forgery (SSRF) in SaxEventRecorder by QOS.CH logback version 0.1 to 1.3.14 and 1.4.0 to 1.5.12  on the Java platform, allows an attacker to \nforge requests by compromising logback configuration files in XML.\n\n\n\nThe attacks involves the modification of DOCTYPE declaration in  XML configuration files.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-918"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N",
+              "V3Score": 3.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-12801",
+            "https://github.com/qos-ch/logback",
+            "https://github.com/qos-ch/logback/commit/5f05041cba4c4ac0a62748c5c527a2da48999f2d",
+            "https://logback.qos.ch/news.html#1.3.15",
+            "https://logback.qos.ch/news.html#1.5.13",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-12801",
+            "https://www.cve.org/CVERecord?id=CVE-2024-12801"
+          ],
+          "PublishedDate": "2024-12-19T17:15:08.93Z",
+          "LastModifiedDate": "2025-01-03T14:15:24.5Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58057",
+          "PkgName": "io.netty:netty-codec",
+          "PkgPath": "opt/zookeeper/lib/netty-codec-4.1.113.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-codec@4.1.113.Final",
+            "UID": "ef197cdf8b1959af"
+          },
+          "InstalledVersion": "4.1.113.Final",
+          "FixedVersion": "4.1.125.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58057",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty-codec: netty-codec-compression: Netty's BrotliDecoder is vulnerable to DoS via zip bomb style attack",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. In netty-codec-compression versions 4.1.124.Final and below, and netty-codec versions 4.2.4.Final and below, when supplied with specially crafted input, BrotliDecoder and certain other decompression decoders will allocate a large number of reachable byte buffers, which can lead to denial of service. BrotliDecoder.decompress has no limit in how often it calls pull, decompressing data 64K bytes at a time. The buffers are saved in the output list, and remain reachable until OOM is hit. This is fixed in versions 4.1.125.Final of netty-codec and 4.2.5.Final of netty-codec-compression.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-409"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-58057",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d",
+            "https://github.com/netty/netty/security/advisories/GHSA-3p8m-j85q-pgmj",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58057",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58057"
+          ],
+          "PublishedDate": "2025-09-04T10:42:32.18Z",
+          "LastModifiedDate": "2025-09-08T16:45:55.143Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47535",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "opt/zookeeper/lib/netty-common-4.1.113.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.113.Final",
+            "UID": "d951df1ad1bc82e9"
+          },
+          "InstalledVersion": "4.1.113.Final",
+          "FixedVersion": "4.1.115.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47535",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crashes. This vulnerability is fixed in 4.1.115.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-47535",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3",
+            "https://github.com/netty/netty/security/advisories/GHSA-xq3w-v528-46rv",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47535",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47535"
+          ],
+          "PublishedDate": "2024-11-12T16:15:22.237Z",
+          "LastModifiedDate": "2025-09-05T14:00:07.22Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-25193",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "opt/zookeeper/lib/netty-common-4.1.113.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.113.Final",
+            "UID": "d951df1ad1bc82e9"
+          },
+          "InstalledVersion": "4.1.113.Final",
+          "FixedVersion": "4.1.118.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-25193",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability in versions up to and including 4.1.118.Final. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crash. A similar issue was previously reported as CVE-2024-47535. This issue was fixed, but the fix was incomplete in that null-bytes were not counted against the input limit. Commit d1fbda62d3a47835d3fb35db8bd42ecc205a5386 contains an updated fix.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-25193",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/d1fbda62d3a47835d3fb35db8bd42ecc205a5386",
+            "https://github.com/netty/netty/security/advisories/GHSA-389x-839f-4rhx",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-25193",
+            "https://security.netapp.com/advisory/ntap-20250221-0006",
+            "https://security.netapp.com/advisory/ntap-20250221-0006/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-25193"
+          ],
+          "PublishedDate": "2025-02-10T22:15:38.45Z",
+          "LastModifiedDate": "2025-06-11T15:36:22.693Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-24970",
+          "PkgName": "io.netty:netty-handler",
+          "PkgPath": "opt/zookeeper/lib/netty-handler-4.1.113.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-handler@4.1.113.Final",
+            "UID": "27a71150919f6c8"
+          },
+          "InstalledVersion": "4.1.113.Final",
+          "FixedVersion": "4.1.118.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-24970",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "io.netty:netty-handler: SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+          "Description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability starting in version 4.1.91.Final and prior to version 4.1.118.Final. When a special crafted packet is received via SslHandler it doesn't correctly handle validation of such a packet in all cases which can lead to a native crash. Version 4.1.118.Final contains a patch. As workaround its possible to either disable the usage of the native SSLEngine or change the code manually.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-20"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-24970",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/87f40725155b2f89adfde68c7732f97c153676c4",
+            "https://github.com/netty/netty/security/advisories/GHSA-4g8c-wm8x-jfhw",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-24970",
+            "https://security.netapp.com/advisory/ntap-20250221-0005",
+            "https://security.netapp.com/advisory/ntap-20250221-0005/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-24970",
+            "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-detection",
+            "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-mitigation"
+          ],
+          "PublishedDate": "2025-02-10T22:15:38.057Z",
+          "LastModifiedDate": "2025-09-05T17:20:12.26Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58457",
+          "PkgName": "org.apache.zookeeper:zookeeper",
+          "PkgPath": "opt/zookeeper/lib/zookeeper-3.9.3.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.zookeeper/zookeeper@3.9.3",
+            "UID": "335b8f2a8499f6af"
+          },
+          "InstalledVersion": "3.9.3",
+          "FixedVersion": "3.9.4",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58457",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.apache.zookeeper/zookeeper: Apache ZooKeeper: Insufficient Permission Check",
+          "Description": "Improper permission check in ZooKeeper AdminServer lets authorized clients to run snapshot and restore command with insufficient permissions.\n\nThis issue affects Apache ZooKeeper: from 3.9.0 before 3.9.4.\n\nUsers are recommended to upgrade to version 3.9.4, which fixes the issue.\n\nThe issue can be mitigated by disabling both commands (via admin.snapshot.enabled and admin.restore.enabled), disabling the whole AdminServer interface (via admin.enableServer), or ensuring that the root ACL does not provide open permissions. (Note that ZooKeeper ACLs are not recursive, so this does not impact operations on child nodes besides notifications from recursive watches.)",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-280"
+          ],
+          "VendorSeverity": {
+            "bitnami": 2,
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 4.3
+            },
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 4.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "http://github.com/apache/zookeeper/commit/71e173fcbcc9deb784081cf867bd045df3c32635",
+            "http://www.openwall.com/lists/oss-security/2025/09/24/10",
+            "https://access.redhat.com/security/cve/CVE-2025-58457",
+            "https://github.com/apache/zookeeper",
+            "https://lists.apache.org/thread/r5yol0kkhx2fzw22pxk1ozwm3oc6yxrx",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58457",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58457",
+            "https://zookeeper.apache.org/doc/current/zookeeperSnapshotAndRestore.html",
+            "https://zookeeper.apache.org/doc/r3.9.4/releasenotes.html",
+            "https://zookeeper.apache.org/security.html#CVE-2025-58457"
+          ],
+          "PublishedDate": "2025-09-24T10:15:28.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.103Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12194",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12194",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "bcprov-lts8on: bc-fips: Uncontrolled Resource Consumption vulnerability in Bouncy Castle",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCMSIV.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA224NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA3NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHAKENativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA512NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA384NativeDigest.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: from 2.1.0 through 2.1.1; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12194",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%9012194",
+            "https://github.com/bcgit/bc-lts-java",
+            "https://github.com/bcgit/bc-lts-java/commit/2c9be6c64152ce48c6afc784c042a514be71ec71",
+            "https://github.com/bcgit/bc-lts-java/commit/f2776feac0c30230f7a5ac34eb24f5019caf0324",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12194",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12194"
+          ],
+          "PublishedDate": "2025-10-24T23:15:39.277Z",
+          "LastModifiedDate": "2025-10-27T13:20:15.637Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9341",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9341",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: Garbage collection can delay for AES CBC Native support, resulting in heap exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files org/bouncycastle/crypto/fips/AESNativeCBC.Java, org/bouncycastle/crypto/engines/AESNativeCBC.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: 2.1.0; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9341",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909341",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9341",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9341"
+          ],
+          "PublishedDate": "2025-08-22T09:15:34.41Z",
+          "LastModifiedDate": "2025-10-24T23:17:52.853Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9092",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9092",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle: Bouncycastle Resource Exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java - BC-FJA 2.1.0 bc-fips (API modules) allows Excessive Allocation. This vulnerability is associated with program files org.Bouncycastle.Crypto.Fips.NativeLoader.\n\nThis issue affects Bouncy Castle for Java - BC-FJA 2.1.0: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 1.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9092",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909092",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9092",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9092"
+          ],
+          "PublishedDate": "2025-08-16T11:15:45.54Z",
+          "LastModifiedDate": "2025-08-18T20:16:28.75Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9340",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:ab1062b2e8f05a9acaefd992027b23c9c40eaf07c0f144c5ceeab067b1ae2cd9"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9340",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: native encrypt/decrypt operations in JCE may corrupt data if same byte array used for input and output.",
+          "Description": "Out-of-bounds Write vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java bc-fips on All (API modules). This vulnerability is associated with program files org/bouncycastle/jcajce/provider/BaseCipher.\n\nThis issue affects Bouncy Castle for Java: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-787"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 5.9
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9340",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909340",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9340",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9340"
+          ],
+          "PublishedDate": "2025-08-22T10:15:33.05Z",
+          "LastModifiedDate": "2025-08-22T18:08:51.663Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-6763",
+          "PkgName": "org.eclipse.jetty:jetty-http",
+          "PkgPath": "opt/zookeeper/lib/jetty-http-9.4.56.v20240826.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.56.v20240826",
+            "UID": "8ef62a5e268899e7"
+          },
+          "InstalledVersion": "9.4.56.v20240826",
+          "FixedVersion": "12.0.12",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-6763",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of invalid authority",
+          "Description": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-1286"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-6763",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/pull/12012",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-qh8g-58pp-2wxh",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/25",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-6763",
+            "https://security.netapp.com/advisory/ntap-20250306-0005",
+            "https://security.netapp.com/advisory/ntap-20250306-0005/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-6763"
+          ],
+          "PublishedDate": "2024-10-14T16:15:04.163Z",
+          "LastModifiedDate": "2025-07-10T15:04:04.103Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-13009",
+          "PkgName": "org.eclipse.jetty:jetty-server",
+          "PkgPath": "opt/zookeeper/lib/jetty-server-9.4.56.v20240826.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.56.v20240826",
+            "UID": "5ac65b7bdbc5e7c2"
+          },
+          "InstalledVersion": "9.4.56.v20240826",
+          "FixedVersion": "9.4.57.v20241219",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6ccaede4217741003c1ffd1bb319fca83eee811417e122641855dfd958aab1af"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-13009",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "jetty-server: Jetty: Gzip Request Body Buffer Corruption",
+          "Description": "In Eclipse Jetty versions 9.4.0 to 9.4.56 a buffer can be incorrectly released when confronted with a gzip error when inflating a request\nbody. This can result in corrupted and/or inadvertent sharing of data between requests.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-404"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+              "V3Score": 7.2
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+              "V3Score": 7.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-13009",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-q4rv-gq96-w7c5",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/48",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-13009",
+            "https://www.cve.org/CVERecord?id=CVE-2024-13009"
+          ],
+          "PublishedDate": "2025-05-08T18:15:41.64Z",
+          "LastModifiedDate": "2025-07-31T16:31:12.697Z"
+        }
+      ]
+    }
+  ]
+}

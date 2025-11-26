@@ -1,0 +1,99 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:20:21.485382965Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/busybox:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 422033408,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:8dff6cdb4a4c5d4a405de6999a0ad26f5e97d24e448ca21a5bddd96e3371382e",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:f6843cd13e99741b40169471409b09fbb4c5962142928f8193e430deccaf4804",
+      "sha256:bab7fc000cae13f8261e35203434a3e2faec945b4625eb03bea45650555de158",
+      "sha256:1018d8a962058bc87042fbb97f78a8c6055ddd47d654c00b3042c4ac71889338"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/busybox:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/busybox@sha256:6428e6ee87382e6c2137e2e3d6e11205d3c854c4c6cea64c731ceb31ce8b62cb"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T00:28:46.249619083Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T00:28:17Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:28:45Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  busybox=1.37.0-r30 ca-certificates-bundle glibc-clnstrt libgcc libxcrypt clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:28:46Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:28:46Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:28:46Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:f6843cd13e99741b40169471409b09fbb4c5962142928f8193e430deccaf4804",
+          "sha256:bab7fc000cae13f8261e35203434a3e2faec945b4625eb03bea45650555de158",
+          "sha256:1018d8a962058bc87042fbb97f78a8c6055ddd47d654c00b3042c4ac71889338"
+        ]
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:f6843cd13e99741b40169471409b09fbb4c5962142928f8193e430deccaf4804"
+      },
+      {
+        "Size": 400491520,
+        "DiffID": "sha256:bab7fc000cae13f8261e35203434a3e2faec945b4625eb03bea45650555de158"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:1018d8a962058bc87042fbb97f78a8c6055ddd47d654c00b3042c4ac71889338"
+      }
+    ]
+  }
+}

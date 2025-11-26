@@ -1,0 +1,109 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:42:04.111690953Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/glibc:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 422484992,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:2497e128a50029ba80776bca944d0ef2c61d1918a2bf4a96ea6716ef45dc3c55",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:796dbb3d0aefc06d31133b35ff62d8b90a8442a0207c18148039e2835931309b",
+      "sha256:9f2848bfd3a3cbd1f5f760d8792ae18dd1e373acd9db9cdd084ab31829a7d4ab",
+      "sha256:74cc8aa8649bd905e99aad4ae97a1f1d4d7e84b20963f04acd572d2ba22038a1",
+      "sha256:960915891f532ee9cee2b1a038e52bb26270d18b748f9640ad493cfd1c2ddd18"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/glibc:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/glibc@sha256:7df85af1fe2b9e0358a7258d3734fbcaf56bdf9430e0cd27917ca5e596081185"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T02:06:52.286536356Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T02:06:15Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:06:51Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base glibc-clnstrt-utils=2.41-r0 ca-certificates-bundle libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:06:51Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:06:52Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:06:52Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T02:06:52Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:796dbb3d0aefc06d31133b35ff62d8b90a8442a0207c18148039e2835931309b",
+          "sha256:9f2848bfd3a3cbd1f5f760d8792ae18dd1e373acd9db9cdd084ab31829a7d4ab",
+          "sha256:74cc8aa8649bd905e99aad4ae97a1f1d4d7e84b20963f04acd572d2ba22038a1",
+          "sha256:960915891f532ee9cee2b1a038e52bb26270d18b748f9640ad493cfd1c2ddd18"
+        ]
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:796dbb3d0aefc06d31133b35ff62d8b90a8442a0207c18148039e2835931309b"
+      },
+      {
+        "Size": 400491520,
+        "DiffID": "sha256:9f2848bfd3a3cbd1f5f760d8792ae18dd1e373acd9db9cdd084ab31829a7d4ab"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:74cc8aa8649bd905e99aad4ae97a1f1d4d7e84b20963f04acd572d2ba22038a1"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:960915891f532ee9cee2b1a038e52bb26270d18b748f9640ad493cfd1c2ddd18"
+      }
+    ]
+  }
+}

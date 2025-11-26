@@ -1,0 +1,176 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:57:35.446707061Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/k8ssandra-operator:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 328865280,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:1cfb4ee12fe5701d5bbb1c08fd814911780b113821689f30c1467bbf7158d325",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:1bf1df17fa62838dd1d2f75d07c1260f0bb28d377a8800207f75f466e589e56f",
+      "sha256:2a648fdf5835f961190c27013e35a6f349404a5c364a147f3931a9c11409cba8",
+      "sha256:b2181440062d7cfaa79ccfbe6ca36f88dc0b1610a608ceedb9896576e5e9c757",
+      "sha256:b1ebb7688c6a29926486c3f277ddc73d045ef2e356e6e3bfd742dae6d6b7e8c5",
+      "sha256:c6eff09e3b399d618681ef22369314fc245a38e17f2b0c02999486feabd2dcc3",
+      "sha256:90573e139d516b4ecda57a486e86e820a9951ab4caac1666e9d8e56ef5b6e054",
+      "sha256:d6e2fcb4c016b0253911b10ce5990442d6135c390b64bb5b3a33b81da9ba6d40",
+      "sha256:4c0dfbb3e5d337e32d2e02082ba4611ecf691012eeff1c3ebd17bcf0cd5bd85b"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/k8ssandra-operator:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/k8ssandra-operator@sha256:bf408603471853c170ceaf3b2076a8512b51d16dd452786aaf89da20c8dc6322"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-20T10:15:22.946546318Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-09-20T10:14:46Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:14:47Z",
+          "created_by": "ARG shell=0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T10:14:47Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk update \u0026\u0026 apk upgrade --no-cache # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:20Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk add --no-cache     libgcc     glibc-clnstrt-i18n     glibc-clnstrt=2.41-r0  k8ssandra-operator=1.26.0-r0 k8ssandra-operator-compat=1.26.0-r0 go1.24=1.24.6-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:20Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk add --no-cache     libcrypto3=3.5.2-r0     libssl3=3.5.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:21Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c ln -snf /usr/lib/go1.24/bin/go /usr/bin/go \u0026\u0026     mkdir -p /usr/lib/go_workspace/src /usr/lib/go_workspace/bin /usr/lib/go_workspace/pkg \u0026\u0026     echo 'export GOROOT=/usr/lib/go1.24' \u003e\u003e /etc/profile \u0026\u0026     echo 'export PATH=\"$GOROOT/bin:$PATH\"' \u003e\u003e /etc/profile # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:21Z",
+          "created_by": "ENV GOROOT=/usr/lib/go1.24 GOPATH=/usr/lib/go_workspace",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T10:15:21Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c ln -snf ../..$GOROOT/bin/go  /usr/bin/go # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:22Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk upgrade --no-cache # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:22Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T10:15:22Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T10:15:22Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T10:15:22Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/manager\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:1bf1df17fa62838dd1d2f75d07c1260f0bb28d377a8800207f75f466e589e56f",
+          "sha256:2a648fdf5835f961190c27013e35a6f349404a5c364a147f3931a9c11409cba8",
+          "sha256:b2181440062d7cfaa79ccfbe6ca36f88dc0b1610a608ceedb9896576e5e9c757",
+          "sha256:b1ebb7688c6a29926486c3f277ddc73d045ef2e356e6e3bfd742dae6d6b7e8c5",
+          "sha256:c6eff09e3b399d618681ef22369314fc245a38e17f2b0c02999486feabd2dcc3",
+          "sha256:90573e139d516b4ecda57a486e86e820a9951ab4caac1666e9d8e56ef5b6e054",
+          "sha256:d6e2fcb4c016b0253911b10ce5990442d6135c390b64bb5b3a33b81da9ba6d40",
+          "sha256:4c0dfbb3e5d337e32d2e02082ba4611ecf691012eeff1c3ebd17bcf0cd5bd85b"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/manager"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "GOROOT=/usr/lib/go1.24",
+          "GOPATH=/usr/lib/go_workspace",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:1bf1df17fa62838dd1d2f75d07c1260f0bb28d377a8800207f75f466e589e56f"
+      },
+      {
+        "Size": 841216,
+        "DiffID": "sha256:2a648fdf5835f961190c27013e35a6f349404a5c364a147f3931a9c11409cba8"
+      },
+      {
+        "Size": 305647616,
+        "DiffID": "sha256:b2181440062d7cfaa79ccfbe6ca36f88dc0b1610a608ceedb9896576e5e9c757"
+      },
+      {
+        "Size": 412160,
+        "DiffID": "sha256:b1ebb7688c6a29926486c3f277ddc73d045ef2e356e6e3bfd742dae6d6b7e8c5"
+      },
+      {
+        "Size": 7680,
+        "DiffID": "sha256:c6eff09e3b399d618681ef22369314fc245a38e17f2b0c02999486feabd2dcc3"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:90573e139d516b4ecda57a486e86e820a9951ab4caac1666e9d8e56ef5b6e054"
+      },
+      {
+        "Size": 412160,
+        "DiffID": "sha256:d6e2fcb4c016b0253911b10ce5990442d6135c390b64bb5b3a33b81da9ba6d40"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:4c0dfbb3e5d337e32d2e02082ba4611ecf691012eeff1c3ebd17bcf0cd5bd85b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T21:39:03.843553333Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/glibc-openssl:12.5.0-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 287421440,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:6a11172ef0e00e0f5c7cafbe386fbb063cb2369644c7bc4d4339ebac78de9dcf",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:67fc8b4908518a3fbe91fa99346d8834a981ded4acdba0acc2494ef6fd49df1c",
+      "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f",
+      "sha256:c5f62c14c32fe8546fe489f89a708b20587a56499afcf5008c38be9476aa9846"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/glibc-openssl:12.5.0-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/glibc-openssl@sha256:2eb6b1ebc5edd9ad86592dbb430b6a038a43bf39ece1e8fdf62654097e465ee2"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-30T13:24:14.281225171Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-30T13:23:42Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:24:13Z",
+          "created_by": "RUN /bin/sh -c apk add     glibc-clnstrt=2.41-r0     gcc=12.5.0-r0     clnstrt-dev-base-hpe     openssl-dev=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "LABEL Cleanstart.main.package=gcc",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:24:14Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=GPL-2.0-or-later AND LGPL-2.1-or-later",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:67fc8b4908518a3fbe91fa99346d8834a981ded4acdba0acc2494ef6fd49df1c",
+          "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f",
+          "sha256:c5f62c14c32fe8546fe489f89a708b20587a56499afcf5008c38be9476aa9846"
+        ]
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "gcc",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:67fc8b4908518a3fbe91fa99346d8834a981ded4acdba0acc2494ef6fd49df1c"
+      },
+      {
+        "Size": 266957312,
+        "DiffID": "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:c5f62c14c32fe8546fe489f89a708b20587a56499afcf5008c38be9476aa9846"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/glibc-openssl:12.5.0-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2023-4039",
+          "PkgID": "gcc@12.5.0-r0",
+          "PkgName": "gcc",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/gcc@12.5.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "dce6f76bfb0e33b8"
+          },
+          "InstalledVersion": "12.5.0-r0",
+          "FixedVersion": "13.2.1_git20231014-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f"
+          },
+          "SeveritySource": "nvd",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64",
+          "Description": "**DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-693"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "nvd": 2,
+            "oracle-oval": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-4039",
+            "https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64",
+            "https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt",
+            "https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html",
+            "https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf",
+            "https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org",
+            "https://linux.oracle.com/cve/CVE-2023-4039.html",
+            "https://linux.oracle.com/errata/ELSA-2023-28766.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-4039",
+            "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
+            "https://ubuntu.com/security/notices/USN-7700-1",
+            "https://www.cve.org/CVERecord?id=CVE-2023-4039"
+          ],
+          "PublishedDate": "2023-09-13T09:15:15.69Z",
+          "LastModifiedDate": "2025-02-13T17:17:14.717Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-4039",
+          "PkgID": "libatomic@12.5.0-r0",
+          "PkgName": "libatomic",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libatomic@12.5.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "bdbe22b87ee3f147"
+          },
+          "InstalledVersion": "12.5.0-r0",
+          "FixedVersion": "13.2.1_git20231014-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f"
+          },
+          "SeveritySource": "nvd",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64",
+          "Description": "**DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-693"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "nvd": 2,
+            "oracle-oval": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-4039",
+            "https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64",
+            "https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt",
+            "https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html",
+            "https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf",
+            "https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org",
+            "https://linux.oracle.com/cve/CVE-2023-4039.html",
+            "https://linux.oracle.com/errata/ELSA-2023-28766.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-4039",
+            "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
+            "https://ubuntu.com/security/notices/USN-7700-1",
+            "https://www.cve.org/CVERecord?id=CVE-2023-4039"
+          ],
+          "PublishedDate": "2023-09-13T09:15:15.69Z",
+          "LastModifiedDate": "2025-02-13T17:17:14.717Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-4039",
+          "PkgID": "libgomp@12.5.0-r0",
+          "PkgName": "libgomp",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libgomp@12.5.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "8b2c9b8494b9320b"
+          },
+          "InstalledVersion": "12.5.0-r0",
+          "FixedVersion": "13.2.1_git20231014-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:950ef72f84f59591ef1c1a5b9839b970a63f15a71f54bca1ad3735103d0b887f"
+          },
+          "SeveritySource": "nvd",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-4039",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64",
+          "Description": "**DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-693"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "nvd": 2,
+            "oracle-oval": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-4039",
+            "https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64",
+            "https://gcc.gnu.org/git/?p=gcc.git;a=blob_plain;f=SECURITY.txt",
+            "https://gcc.gnu.org/pipermail/gcc-patches/2023-October/634066.html",
+            "https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf",
+            "https://inbox.sourceware.org/gcc-patches/46cfa37b-56eb-344d-0745-e0d35393392d@gotplt.org",
+            "https://linux.oracle.com/cve/CVE-2023-4039.html",
+            "https://linux.oracle.com/errata/ELSA-2023-28766.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-4039",
+            "https://rtx.meta.security/mitigation/2023/09/12/CVE-2023-4039.html",
+            "https://ubuntu.com/security/notices/USN-7700-1",
+            "https://www.cve.org/CVERecord?id=CVE-2023-4039"
+          ],
+          "PublishedDate": "2023-09-13T09:15:15.69Z",
+          "LastModifiedDate": "2025-02-13T17:17:14.717Z"
+        }
+      ]
+    }
+  ]
+}

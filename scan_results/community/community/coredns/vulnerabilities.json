@@ -1,0 +1,246 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:31:29.066834737Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/coredns:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 500341760,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:5b521a40ccb150e2779bf36c690b5ec63271b173a60c124c28c834395ba3533f",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:845486aa1343634384afe49bc77998cbeba7da62fb824b38faa6798a00ae5084",
+      "sha256:80d8b0dbd03337adecd9b30c166f7608ff7401e50bc6f62f37f1b40ac3c74ec7",
+      "sha256:7a9d6bd552cc995e46a0e0192c5279134e0002eb9aad495573ea7a559f576de1",
+      "sha256:9fa44490eaa9f95576ed8d7dae121cbacb037f613e91bdfb3566072d62bf1b01"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/coredns:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/coredns@sha256:410863e5a6aada2c657c01c5631ff495e89b4ab68edb6de9aacdf0620d889036"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:27:11.973981154Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:26:34Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:10Z",
+          "created_by": "RUN /bin/sh -c apk add glibc-clnstrt=2.40-r6 coredns=1.12.0-r3 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "EXPOSE map[53/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:11Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/coredns\" \"-dns.port=53\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:845486aa1343634384afe49bc77998cbeba7da62fb824b38faa6798a00ae5084",
+          "sha256:80d8b0dbd03337adecd9b30c166f7608ff7401e50bc6f62f37f1b40ac3c74ec7",
+          "sha256:7a9d6bd552cc995e46a0e0192c5279134e0002eb9aad495573ea7a559f576de1",
+          "sha256:9fa44490eaa9f95576ed8d7dae121cbacb037f613e91bdfb3566072d62bf1b01"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/coredns",
+          "-dns.port=53"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ExposedPorts": {
+          "53/tcp": {}
+        }
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:845486aa1343634384afe49bc77998cbeba7da62fb824b38faa6798a00ae5084"
+      },
+      {
+        "Size": 479439872,
+        "DiffID": "sha256:80d8b0dbd03337adecd9b30c166f7608ff7401e50bc6f62f37f1b40ac3c74ec7"
+      },
+      {
+        "Size": 437760,
+        "DiffID": "sha256:7a9d6bd552cc995e46a0e0192c5279134e0002eb9aad495573ea7a559f576de1"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:9fa44490eaa9f95576ed8d7dae121cbacb037f613e91bdfb3566072d62bf1b01"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/community-dev/coredns:latest-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-5994",
+          "PkgID": "unbound-libs@1.20.0-r1",
+          "PkgName": "unbound-libs",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/unbound-libs@1.20.0-r1?arch=x86_64\u0026distro=3.20.7",
+            "UID": "9aa6ffae1d2a3246"
+          },
+          "InstalledVersion": "1.20.0-r1",
+          "FixedVersion": "1.20.0-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:80d8b0dbd03337adecd9b30c166f7608ff7401e50bc6f62f37f1b40ac3c74ec7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5994",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "unbound: Unbound Cache poisoning",
+          "Description": "A multi-vendor cache poisoning vulnerability named 'Rebirthday Attack' has been discovered in caching resolvers that support EDNS Client Subnet (ECS). Unbound is also vulnerable when compiled with ECS support, i.e., '--enable-subnet', AND configured to send ECS information along with queries to upstream name servers, i.e., at least one of the 'send-client-subnet', 'client-subnet-zone' or 'client-subnet-always-forward' options is used. Resolvers supporting ECS need to segregate outgoing queries to accommodate for different outgoing ECS information. This re-opens up resolvers to a birthday paradox attack (Rebirthday Attack) that tries to match the DNS transaction ID in order to cache non-ECS poisonous replies.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-349"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3,
+            "rocky": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2025:11849",
+            "https://access.redhat.com/security/cve/CVE-2025-5994",
+            "https://bugzilla.redhat.com/2380949",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380949",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5994",
+            "https://errata.almalinux.org/9/ALSA-2025-11849.html",
+            "https://errata.rockylinux.org/RLSA-2025:12064",
+            "https://linux.oracle.com/cve/CVE-2025-5994.html",
+            "https://linux.oracle.com/errata/ELSA-2025-12064.html",
+            "https://lists.debian.org/debian-lts-announce/2025/08/msg00019.html",
+            "https://nlnetlabs.nl/downloads/unbound/CVE-2025-5994.txt",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5994",
+            "https://ubuntu.com/security/notices/USN-7666-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5994"
+          ],
+          "PublishedDate": "2025-07-16T15:15:33.49Z",
+          "LastModifiedDate": "2025-11-03T19:16:14.563Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-11411",
+          "PkgID": "unbound-libs@1.20.0-r1",
+          "PkgName": "unbound-libs",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/unbound-libs@1.20.0-r1?arch=x86_64\u0026distro=3.20.7",
+            "UID": "9aa6ffae1d2a3246"
+          },
+          "InstalledVersion": "1.20.0-r1",
+          "FixedVersion": "1.20.0-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:80d8b0dbd03337adecd9b30c166f7608ff7401e50bc6f62f37f1b40ac3c74ec7"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-11411",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "unbound: Unbound domain hijacking via promiscuous records",
+          "Description": "NLnet Labs Unbound up to and including version 1.24.0 is vulnerable to possible domain hijack attacks. Promiscuous NS RRSets that complement positive DNS replies in the authority section can be used to trick resolvers to update their delegation information for the zone. Usually these RRSets are used to update the resolver's knowledge of the zone's name servers. A malicious actor can exploit the possible poisonous effect by injecting NS RRSets (and possibly their respective address records) in a reply. This could be done for example by trying to spoof a packet or fragmentation attacks. Unbound would then proceed to update the NS RRSet data it already has since the new data has enough trust for it, i.e., in-zone data for the delegation point. Unbound 1.24.1 includes a fix that scrubs unsolicited NS RRSets (and their respective address records) from replies mitigating the possible poison effect.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-349"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "photon": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+              "V3Score": 6.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-11411",
+            "https://lists.debian.org/debian-lts-announce/2025/11/msg00008.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-11411",
+            "https://ubuntu.com/security/notices/USN-7855-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-11411",
+            "https://www.nlnetlabs.nl/downloads/unbound/CVE-2025-11411.txt"
+          ],
+          "PublishedDate": "2025-10-22T13:15:29.21Z",
+          "LastModifiedDate": "2025-11-06T01:15:37.56Z"
+        }
+      ]
+    }
+  ]
+}

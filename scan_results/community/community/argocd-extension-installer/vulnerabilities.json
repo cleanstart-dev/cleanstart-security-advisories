@@ -1,0 +1,152 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:15:01.144172445Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-extension-installer:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 416033280,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:87ec04c25eeca137e55f48a2ce01242ed88461cb58ebe3ac84231083fe740604",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:29addf030e9fc5bbb913fbebd400f1c153f65611e9922c1b1a11dc160b5510c2",
+      "sha256:94c6dc8220ccabbeeb32ebbc9178e573a2d1b743f2951446373072a02337a625",
+      "sha256:2d3da8ac64eaf73bf103524779c71ab49d10ce3210b9dacab75357b20facd5e1",
+      "sha256:d829898552c6dcf9fe1dd3a3beef9ffbaa0ab4c1a237ba84098a632736a19ae2",
+      "sha256:1d5ef6454bb86fe302c21f3fad72ae85dc4a18a53b1fc062c6e12cfa9e1d1a69",
+      "sha256:9daadc7c3eeb984069713bdd197a879d061df313612f3a03d5701c46dd13809e",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-extension-installer:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-extension-installer@sha256:39ce2417fedb7b316f4b912ce18a7d5712cfa2ed0a011f5de5f148298a9e2085"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T00:08:21.685492005Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T00:07:47Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:20Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add busybox ca-certificates-bundle curl cyrus-sasl glibc-clnstrt=2.41-r0 file gdbm glibc-clnstrt-i18n keyutils-libs krb5-conf krb5-libs brotli-dev brotli-libs libcom_err libcrypto3 libcurl libevent libgcc libidn2 libldap heimdal-libs libmagic nghttp2-dev nghttp2-libs libpsl libssl3 libunistring libverto libxcrypt ncurses ncurses-terminfo-base readline sqlite-libs zlib clnstrt-dev-base argocd-extension-installer=0.0.8-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:20Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /home/ext-installer # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:20Z",
+          "created_by": "COPY ./install.sh /home/ext-installer/install.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "RUN /bin/sh -c chmod +x /home/ext-installer/install.sh # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "WORKDIR /home/ext-installer",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:08:21Z",
+          "created_by": "ENTRYPOINT [\"./install.sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:29addf030e9fc5bbb913fbebd400f1c153f65611e9922c1b1a11dc160b5510c2",
+          "sha256:94c6dc8220ccabbeeb32ebbc9178e573a2d1b743f2951446373072a02337a625",
+          "sha256:2d3da8ac64eaf73bf103524779c71ab49d10ce3210b9dacab75357b20facd5e1",
+          "sha256:d829898552c6dcf9fe1dd3a3beef9ffbaa0ab4c1a237ba84098a632736a19ae2",
+          "sha256:1d5ef6454bb86fe302c21f3fad72ae85dc4a18a53b1fc062c6e12cfa9e1d1a69",
+          "sha256:9daadc7c3eeb984069713bdd197a879d061df313612f3a03d5701c46dd13809e",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "./install.sh"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/home/ext-installer"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:29addf030e9fc5bbb913fbebd400f1c153f65611e9922c1b1a11dc160b5510c2"
+      },
+      {
+        "Size": 394474496,
+        "DiffID": "sha256:94c6dc8220ccabbeeb32ebbc9178e573a2d1b743f2951446373072a02337a625"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:2d3da8ac64eaf73bf103524779c71ab49d10ce3210b9dacab75357b20facd5e1"
+      },
+      {
+        "Size": 6656,
+        "DiffID": "sha256:d829898552c6dcf9fe1dd3a3beef9ffbaa0ab4c1a237ba84098a632736a19ae2"
+      },
+      {
+        "Size": 6656,
+        "DiffID": "sha256:1d5ef6454bb86fe302c21f3fad72ae85dc4a18a53b1fc062c6e12cfa9e1d1a69"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:9daadc7c3eeb984069713bdd197a879d061df313612f3a03d5701c46dd13809e"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  }
+}

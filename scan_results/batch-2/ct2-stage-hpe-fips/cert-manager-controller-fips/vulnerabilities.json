@@ -1,0 +1,144 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T03:23:00.688990569Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/cert-manager-controller-fips:1.18.2-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 377469952,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:9d83fb94f7a14eb36763629472292cba7586607658abe5f3fbc58a23b8c4abc7",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:4c4e9b058c56c9e43d972b5450fbdbe9d5c539bed6970137b9d868119ecd7d60",
+      "sha256:df7b0c4946a4857eb590dc612d5f16448314463022457e574540c42c5626f26c",
+      "sha256:1baab80e88bc6805a9298fa7dfe2d39a7a68fe5226b59bc9c0af2e0d93491377"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/cert-manager-controller-fips:1.18.2-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/cert-manager-controller-fips@sha256:49c26c9e5ffce7afcaba9cb9c9461aba3ccbc88d9bc08d73a026265af9e23f82"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-11-17T13:10:22.560735535Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-11-17T13:09:47Z",
+          "created_by": "RUN /bin/sh -c addgroup -S -g 65532 clngroup \u0026\u0026     adduser -S -u 65532 -G clngroup -h /home/clnstrt -s /bin/sh clnstrt # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T13:10:19Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     cert-manager-fips-controller=1.18.2-r0     clnstrt-dev-base-hpe     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0     libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "RUN /bin/sh -c apk upgrade \u0026\u0026     rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\\n\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\\n\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:65532:65532:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "USER 65532",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/controller\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "LABEL Cleanstart.main.package=cert-manager-fips-controller",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T13:10:22Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:4c4e9b058c56c9e43d972b5450fbdbe9d5c539bed6970137b9d868119ecd7d60",
+          "sha256:df7b0c4946a4857eb590dc612d5f16448314463022457e574540c42c5626f26c",
+          "sha256:1baab80e88bc6805a9298fa7dfe2d39a7a68fe5226b59bc9c0af2e0d93491377"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/controller"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "cert-manager-fips-controller",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "65532"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:4c4e9b058c56c9e43d972b5450fbdbe9d5c539bed6970137b9d868119ecd7d60"
+      },
+      {
+        "Size": 205122560,
+        "DiffID": "sha256:df7b0c4946a4857eb590dc612d5f16448314463022457e574540c42c5626f26c"
+      },
+      {
+        "Size": 151896576,
+        "DiffID": "sha256:1baab80e88bc6805a9298fa7dfe2d39a7a68fe5226b59bc9c0af2e0d93491377"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/cert-manager-controller-fips:1.18.2-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

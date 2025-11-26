@@ -1,0 +1,119 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:27:23.86134474Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/cert-manager-startupapicheck:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 467940864,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:53f73f6ceda6363584e083de2a59152a0e1b4132fbff3acfa6ebc3b5d7d3ef6c",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:43865c17fdb39f3d7b3781cff1a7020966eb885f7598a880c9fba0c29c85c034",
+      "sha256:edeee6db74a05d7fbd8abc90059b3ace5065788a071aac98a44772856f0fcff7",
+      "sha256:d56003df2b25398edc6f2928a5431f477ce35af4fec4935ae358f281d8bd1a1a",
+      "sha256:cbd6d2830a907dae8034dc86322413f90277590f828ddff9f2220085bcfc76d1"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cert-manager-startupapicheck:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cert-manager-startupapicheck@sha256:b6e2f3c69da2ddd59a4ad4541770fd2035e3831a27c0dc49d15660d2fe0ff8c2"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T01:03:08.172433041Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T01:02:41Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:03:07Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add clnstrt-dev-base cert-manager-startupapicheck=1.18.2-r1 glibc-clnstrt=2.41-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:03:07Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:03:08Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:03:08Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:03:08Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:03:08Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/startupapicheck\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:43865c17fdb39f3d7b3781cff1a7020966eb885f7598a880c9fba0c29c85c034",
+          "sha256:edeee6db74a05d7fbd8abc90059b3ace5065788a071aac98a44772856f0fcff7",
+          "sha256:d56003df2b25398edc6f2928a5431f477ce35af4fec4935ae358f281d8bd1a1a",
+          "sha256:cbd6d2830a907dae8034dc86322413f90277590f828ddff9f2220085bcfc76d1"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/startupapicheck"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:43865c17fdb39f3d7b3781cff1a7020966eb885f7598a880c9fba0c29c85c034"
+      },
+      {
+        "Size": 445946880,
+        "DiffID": "sha256:edeee6db74a05d7fbd8abc90059b3ace5065788a071aac98a44772856f0fcff7"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:d56003df2b25398edc6f2928a5431f477ce35af4fec4935ae358f281d8bd1a1a"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:cbd6d2830a907dae8034dc86322413f90277590f828ddff9f2220085bcfc76d1"
+      }
+    ]
+  }
+}

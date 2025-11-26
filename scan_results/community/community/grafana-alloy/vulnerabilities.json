@@ -1,0 +1,147 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:46:24.977059215Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/grafana-alloy:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 787985408,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:14a0406141ce5c83aa838c7613d8e6932efd5fd253d44872851503ae6af17d22",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:865d62665abb14b665a68af529b9f5e0ff8cd6d10bb30d5b2d031d38dea350f2",
+      "sha256:c9ddc6bfc94bde17deecd41397549099ecac089ab88f39dff4192e46848d53e8",
+      "sha256:5d913ac972a69e78eda6de16c7c64d27b3c9e624640f4dc6972138ae10e396cd",
+      "sha256:569e25086837f2bdc51163ba868799dc9e3c64a9666b8167aca74575f93c0717"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/grafana-alloy:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/grafana-alloy@sha256:ee15cd80c9651791fe6a1848d97a5173fe21bf624106b645e3b01c211556c69d"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:28:07.615462745Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:27:39Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:28:06Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base grafana-alloy=1.10.1-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /var/lib/alloy/data \u0026\u0026     chown -R clnstrt:clngroup /var/lib/alloy/data \u0026\u0026     chmod 775 /var/lib/alloy/data \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "ENV ALLOY_DEPLOY_MODE=docker SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/alloy\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "CMD [\"run\" \"/etc/alloy/config.alloy\" \"--storage.path=/var/lib/alloy/data\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "LABEL clnstrt.main.package=grafana-alloy=1.10.1-r0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:28:07Z",
+          "created_by": "LABEL image.vendor=cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:865d62665abb14b665a68af529b9f5e0ff8cd6d10bb30d5b2d031d38dea350f2",
+          "sha256:c9ddc6bfc94bde17deecd41397549099ecac089ab88f39dff4192e46848d53e8",
+          "sha256:5d913ac972a69e78eda6de16c7c64d27b3c9e624640f4dc6972138ae10e396cd",
+          "sha256:569e25086837f2bdc51163ba868799dc9e3c64a9666b8167aca74575f93c0717"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "run",
+          "/etc/alloy/config.alloy",
+          "--storage.path=/var/lib/alloy/data"
+        ],
+        "Entrypoint": [
+          "/usr/bin/alloy"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "ALLOY_DEPLOY_MODE=docker",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "clnstrt.main.package": "grafana-alloy=1.10.1-r0",
+          "image.vendor": "cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:865d62665abb14b665a68af529b9f5e0ff8cd6d10bb30d5b2d031d38dea350f2"
+      },
+      {
+        "Size": 765988864,
+        "DiffID": "sha256:c9ddc6bfc94bde17deecd41397549099ecac089ab88f39dff4192e46848d53e8"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:5d913ac972a69e78eda6de16c7c64d27b3c9e624640f4dc6972138ae10e396cd"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:569e25086837f2bdc51163ba868799dc9e3c64a9666b8167aca74575f93c0717"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:20:04.860349383Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/nats:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 440123904,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:d37c3ae96910b995779d03bcbc4235635d5ae544a25cb759683792df1e0f8e97",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:eaededffce2db6340e809573925c3ad613517eb717c76b4ae4a8fafef60acb4f",
+      "sha256:9350501e25b3a998866f4abf39f6ed6e722dbc4807ba1a3b5636e0945c85e9b8",
+      "sha256:9ab7773e9b93a89dfd879e6e2dcd07196d7f6aacc1c3aea38d5051ce72981bfb",
+      "sha256:f6b194a8416750058416ba42ea96612c48e38a35099e6671d628ec0f9f433689",
+      "sha256:47ad1cbe749b942c7a98189bd22c5b3927159c95ba17be9225c93be9a9bbac10",
+      "sha256:f143473377cdb1fc9e636726ee4e3523c45c418b4e263d6a8796f455772ff289"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/nats:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/nats@sha256:045572824fc0bf64b2285552a7cbe249d11ba747cf45a3ec1d465232104b240e"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T04:21:03.731183955Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T04:20:25Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:02Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base nats-server=2.11.9-r0 openssl openssl-dev libcrypto3 libssl3 openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:02Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /etc/nats # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "COPY ./nats-server.conf /etc/nats/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "EXPOSE map[4222/tcp:{} 6222/tcp:{} 8222/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/nats-server\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:21:03Z",
+          "created_by": "CMD [\"--config=/etc/nats/nats-server.conf\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:eaededffce2db6340e809573925c3ad613517eb717c76b4ae4a8fafef60acb4f",
+          "sha256:9350501e25b3a998866f4abf39f6ed6e722dbc4807ba1a3b5636e0945c85e9b8",
+          "sha256:9ab7773e9b93a89dfd879e6e2dcd07196d7f6aacc1c3aea38d5051ce72981bfb",
+          "sha256:f6b194a8416750058416ba42ea96612c48e38a35099e6671d628ec0f9f433689",
+          "sha256:47ad1cbe749b942c7a98189bd22c5b3927159c95ba17be9225c93be9a9bbac10",
+          "sha256:f143473377cdb1fc9e636726ee4e3523c45c418b4e263d6a8796f455772ff289"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--config=/etc/nats/nats-server.conf"
+        ],
+        "Entrypoint": [
+          "/usr/bin/nats-server"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ExposedPorts": {
+          "4222/tcp": {},
+          "6222/tcp": {},
+          "8222/tcp": {}
+        },
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:eaededffce2db6340e809573925c3ad613517eb717c76b4ae4a8fafef60acb4f"
+      },
+      {
+        "Size": 418123776,
+        "DiffID": "sha256:9350501e25b3a998866f4abf39f6ed6e722dbc4807ba1a3b5636e0945c85e9b8"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:9ab7773e9b93a89dfd879e6e2dcd07196d7f6aacc1c3aea38d5051ce72981bfb"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:f6b194a8416750058416ba42ea96612c48e38a35099e6671d628ec0f9f433689"
+      },
+      {
+        "Size": 3584,
+        "DiffID": "sha256:47ad1cbe749b942c7a98189bd22c5b3927159c95ba17be9225c93be9a9bbac10"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:f143473377cdb1fc9e636726ee4e3523c45c418b4e263d6a8796f455772ff289"
+      }
+    ]
+  }
+}

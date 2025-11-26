@@ -1,0 +1,128 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:43:05.484335859Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/tigera-operator:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 426116608,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:769628458a9c0975844aac6eae0884a0913c58090dd8b95a20b63f9263f42aa0",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:d22d7b3c5716813af846e2405459d18dce83f6051f029e7e628e349776b0645d",
+      "sha256:c98f452b6d4d5250bf90873d23d5d80d39c156eba3888e353c31e0ac5f1ed384",
+      "sha256:741cb9604c0a9a176acce7d86bf29150173bc206711b97cb2845ac8e144bc638",
+      "sha256:047e977b5a2ee5860c877d3bd1cb885587e6d788006f81b837cab9e5473155f5"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/tigera-operator:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/tigera-operator@sha256:56db050e008e741e699c996360a24e1b4cf0e5fbf8a9ba33e24acc2d86c3b8c4"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T06:10:59.155598269Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T06:10:20Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:10:58Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 clnstrt-dev-base tigera-operator=1.39.1-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:10:58Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:10:59Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:10:59Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:10:59Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:10:59Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/operator\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:10:59Z",
+          "created_by": "CMD [\"--help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:d22d7b3c5716813af846e2405459d18dce83f6051f029e7e628e349776b0645d",
+          "sha256:c98f452b6d4d5250bf90873d23d5d80d39c156eba3888e353c31e0ac5f1ed384",
+          "sha256:741cb9604c0a9a176acce7d86bf29150173bc206711b97cb2845ac8e144bc638",
+          "sha256:047e977b5a2ee5860c877d3bd1cb885587e6d788006f81b837cab9e5473155f5"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/operator"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:d22d7b3c5716813af846e2405459d18dce83f6051f029e7e628e349776b0645d"
+      },
+      {
+        "Size": 404123136,
+        "DiffID": "sha256:c98f452b6d4d5250bf90873d23d5d80d39c156eba3888e353c31e0ac5f1ed384"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:741cb9604c0a9a176acce7d86bf29150173bc206711b97cb2845ac8e144bc638"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:047e977b5a2ee5860c877d3bd1cb885587e6d788006f81b837cab9e5473155f5"
+      }
+    ]
+  }
+}

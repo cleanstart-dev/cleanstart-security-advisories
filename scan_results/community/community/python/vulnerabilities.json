@@ -1,0 +1,119 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:28:30.754481616Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/python:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 532323328,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:0c883b1799995c224be6c6be317a0812fa621613297e83c9a4fc3a2fb93f8cc6",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:f361d98df7ede66081cd072e8b5ccf58e79c7ca813d0017ac946a002dbbc972d",
+      "sha256:7903f51b1e5e71f5f795eb3a5c37aa52c36347ccbca4cb02f1bd099fafccb9a6",
+      "sha256:93a83ffdb7297a215df693ff9fc2662e1cc8563e4a4f018e315f11d2dfc68715",
+      "sha256:ca52eb81197d392884c768505190635d78aee56a61f46df8e6f12ab7de275138"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/python:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/python@sha256:1c169987fe34938fbdd2f13712036d89f1cae7d3ca5b6a2c3bff989075758a13"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-24T08:06:36.694327743Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-24T08:05:58Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T08:06:35Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 ca-certificates-bundle clnstrt-dev-base python3=3.13.7-r0 py3-pip libbz2 ca-certificates-bundle libcrypto3 libexpat libffi mpdecimal sqlite-libs xz zlib perl groff libeconf libblkid libuuid libfdisk libmount libsmartcols ncurses-terminfo-base libncursesw readline sqlite util-linux dmesg setarch util-linux-misc gdbm utmps-libs linux-pam runuser mount losetup hexdump uuidgen blkid sfdisk mcookie agetty wipefs cfdisk umount flock eudev-libs lsblk libcap-ng setpriv logger partx fstrim findmnt gawk libcom_err e2fsprogs-libs krb5-conf heimdal-libs xz-libs libmagic file glibc-clnstrt-bin glibc-clnstrt-doc bash glibc-clnstrt-utils libsasl cyrus-sasl pcre2 git git-init-template keyutils-libs libverto krb5-libs brotli libevent libldap zstd ncurses wget libev nghttp2 bzip2 expat krb5 keyutils e2fsprogs libltdl openldap curl-dev sqlite-dev heimdal-dev brotli-dev libxcrypt-dev c-ares-dev zlib-dev nghttp2-dev # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T08:06:36Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T08:06:36Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T08:06:36Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PIP_BREAK_SYSTEM_PACKAGES=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T08:06:36Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T08:06:36Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/python\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:f361d98df7ede66081cd072e8b5ccf58e79c7ca813d0017ac946a002dbbc972d",
+          "sha256:7903f51b1e5e71f5f795eb3a5c37aa52c36347ccbca4cb02f1bd099fafccb9a6",
+          "sha256:93a83ffdb7297a215df693ff9fc2662e1cc8563e4a4f018e315f11d2dfc68715",
+          "sha256:ca52eb81197d392884c768505190635d78aee56a61f46df8e6f12ab7de275138"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/python"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PIP_BREAK_SYSTEM_PACKAGES=1"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:f361d98df7ede66081cd072e8b5ccf58e79c7ca813d0017ac946a002dbbc972d"
+      },
+      {
+        "Size": 501418496,
+        "DiffID": "sha256:7903f51b1e5e71f5f795eb3a5c37aa52c36347ccbca4cb02f1bd099fafccb9a6"
+      },
+      {
+        "Size": 9362944,
+        "DiffID": "sha256:93a83ffdb7297a215df693ff9fc2662e1cc8563e4a4f018e315f11d2dfc68715"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:ca52eb81197d392884c768505190635d78aee56a61f46df8e6f12ab7de275138"
+      }
+    ]
+  }
+}

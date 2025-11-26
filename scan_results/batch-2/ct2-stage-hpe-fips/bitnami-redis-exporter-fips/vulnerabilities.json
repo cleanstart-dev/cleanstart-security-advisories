@@ -1,0 +1,155 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T04:19:59.847717628Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/bitnami-redis-exporter-fips:1.77.0-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 235468288,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:4283443ac1aa914b839696ff778940ad65632aafccc3a80a85f200e23bfeb3ed",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:a3b2c003b01e359ddf048be6f5a72e12deafd4da55b1595604d4563e892f7559",
+      "sha256:62484f40d49c54f624f7ca9818699cbc1c2c9dae900fa101f22abbba2ad4fc29",
+      "sha256:a698235607546e1e395c584fe420788a776e7226ac40327d39579ac0de7218ec",
+      "sha256:ac658b60af6fc7803eb51df2d1b9a100b903eb03f413547c476b2360873d39a1"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/bitnami-redis-exporter-fips:1.77.0-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/bitnami-redis-exporter-fips@sha256:636953f246d78bf4e00f58b4adde36e32470677efc59e05e0d2dbfd7d41968a6"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-31T07:39:55.940387418Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-31T07:39:21Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T07:39:52Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache     glibc-clnstrt=2.41-r0     prometheus-redis-exporter-fips=1.77.0-r0     prometheus-redis-exporter-fips-bitnami-compat=1.77.0-r0     clnstrt-dev-base-hpe     libgcc     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T07:39:52Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     ln -s /usr/bin/redis_exporter /redis_exporter \u0026\u0026     chmod 755 /redis_exporter \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/sbin/nologin\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "ENTRYPOINT [\"/redis_exporter\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "LABEL Cleanstart.main.package=prometheus-redis-exporter-fips",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T07:39:55Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=MIT",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:a3b2c003b01e359ddf048be6f5a72e12deafd4da55b1595604d4563e892f7559",
+          "sha256:62484f40d49c54f624f7ca9818699cbc1c2c9dae900fa101f22abbba2ad4fc29",
+          "sha256:a698235607546e1e395c584fe420788a776e7226ac40327d39579ac0de7218ec",
+          "sha256:ac658b60af6fc7803eb51df2d1b9a100b903eb03f413547c476b2360873d39a1"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/redis_exporter"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "prometheus-redis-exporter-fips",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "MIT",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:a3b2c003b01e359ddf048be6f5a72e12deafd4da55b1595604d4563e892f7559"
+      },
+      {
+        "Size": 133890560,
+        "DiffID": "sha256:62484f40d49c54f624f7ca9818699cbc1c2c9dae900fa101f22abbba2ad4fc29"
+      },
+      {
+        "Size": 264192,
+        "DiffID": "sha256:a698235607546e1e395c584fe420788a776e7226ac40327d39579ac0de7218ec"
+      },
+      {
+        "Size": 80862720,
+        "DiffID": "sha256:ac658b60af6fc7803eb51df2d1b9a100b903eb03f413547c476b2360873d39a1"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/bitnami-redis-exporter-fips:1.77.0-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

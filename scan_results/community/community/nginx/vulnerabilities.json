@@ -1,0 +1,173 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:21:09.280853315Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/nginx:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 155057664,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:28831bfec5df000cbf4e26ef290ec792a779818fd02fb09dfcbc64f6862a1309",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:f7fafc46986aff0e8c9bad3244c946f2007578b9f2458f36c1e2f1e4cc7c6034",
+      "sha256:05bbace8ea22e4399bce3d41859b0c4f29b86c0dd1f38326434795b27e8c3577",
+      "sha256:1d1505cf0e0c63322933ede79215cca8e008540db38a0e2fa469195f64e5498f",
+      "sha256:298b855f6085ae9ff8545e6140f8de9052a8bc6a76e823d448f8410be28ab4d5",
+      "sha256:e98b7495f5d4c066cc35fe0012927585997efdaa715969d6339289d9532d8deb",
+      "sha256:bb63c9edaa228104c67704656524158e42506d6b1cd3b4d4abbea1b0fa18b7f5",
+      "sha256:35aabaf206da0a06521dddc1dc02507e2c662b2d09ce7a41ab43df4dafcde10f"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/nginx:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/nginx@sha256:3a67fa3d50af5c71c19eb67936e212c1e01e7bd917c50cf8778109e76374043a"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T04:27:02.475120544Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T04:26:56Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:26:59Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 nginx=1.29.0-r0 libgcc openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 libbz2 ca-certificates-bundle libexpat libffi mpdecimal sqlite-libs xz zlib perl groff libeconf libblkid libuuid libfdisk libmount libsmartcols ncurses-terminfo-base libncursesw readline sqlite util-linux dmesg setarch util-linux-misc gdbm utmps-libs linux-pam runuser mount losetup hexdump uuidgen blkid sfdisk mcookie agetty wipefs cfdisk umount flock eudev-libs lsblk libcap-ng setpriv logger partx fstrim findmnt gawk libcom_err e2fsprogs-libs krb5-conf heimdal-libs xz-libs libmagic file glibc-clnstrt-bin glibc-clnstrt-doc bash glibc-clnstrt-utils libsasl cyrus-sasl pcre2 git git-init-template keyutils-libs libverto krb5-libs brotli libevent libldap zstd ncurses wget libev nghttp2 bzip2 expat krb5 keyutils e2fsprogs libltdl openldap curl-dev sqlite-dev heimdal-dev brotli-dev libxcrypt-dev c-ares-dev zlib-dev nghttp2-dev # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:00Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:01Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:01Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:27:01Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /var/lib/nginx/tmp/client_body     /var/lib/nginx/tmp/proxy_temp     /var/lib/nginx/tmp/fastcgi_temp     /var/lib/nginx/tmp/uwsgi_temp     /var/lib/nginx/tmp/scgi_temp     /var/cache/nginx     /var/log/nginx     /run/nginx \u0026\u0026     chown -R clnstrt:clngroup /var/lib/nginx /var/cache/nginx /var/log/nginx /run/nginx \u0026\u0026     chmod -R 755 /var/lib/nginx /var/cache/nginx /var/log/nginx /run/nginx # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "RUN /bin/sh -c sed -i '/^user nginx;/d' /etc/nginx/nginx.conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "RUN /bin/sh -c echo \"error_log /dev/stderr debug; \" \u003e\u003e /etc/nginx/nginx.conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "ENTRYPOINT [\"/usr/sbin/nginx\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "CMD [\"-c\" \"/etc/nginx/nginx.conf\" \"-e\" \"/dev/stderr\" \"-g\" \"daemon off;\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:27:02Z",
+          "created_by": "STOPSIGNAL SIGQUIT",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:f7fafc46986aff0e8c9bad3244c946f2007578b9f2458f36c1e2f1e4cc7c6034",
+          "sha256:05bbace8ea22e4399bce3d41859b0c4f29b86c0dd1f38326434795b27e8c3577",
+          "sha256:1d1505cf0e0c63322933ede79215cca8e008540db38a0e2fa469195f64e5498f",
+          "sha256:298b855f6085ae9ff8545e6140f8de9052a8bc6a76e823d448f8410be28ab4d5",
+          "sha256:e98b7495f5d4c066cc35fe0012927585997efdaa715969d6339289d9532d8deb",
+          "sha256:bb63c9edaa228104c67704656524158e42506d6b1cd3b4d4abbea1b0fa18b7f5",
+          "sha256:35aabaf206da0a06521dddc1dc02507e2c662b2d09ce7a41ab43df4dafcde10f"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "-c",
+          "/etc/nginx/nginx.conf",
+          "-e",
+          "/dev/stderr",
+          "-g",
+          "daemon off;"
+        ],
+        "Entrypoint": [
+          "/usr/sbin/nginx"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ArgsEscaped": true,
+        "StopSignal": "SIGQUIT"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:f7fafc46986aff0e8c9bad3244c946f2007578b9f2458f36c1e2f1e4cc7c6034"
+      },
+      {
+        "Size": 133149696,
+        "DiffID": "sha256:05bbace8ea22e4399bce3d41859b0c4f29b86c0dd1f38326434795b27e8c3577"
+      },
+      {
+        "Size": 337408,
+        "DiffID": "sha256:1d1505cf0e0c63322933ede79215cca8e008540db38a0e2fa469195f64e5498f"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:298b855f6085ae9ff8545e6140f8de9052a8bc6a76e823d448f8410be28ab4d5"
+      },
+      {
+        "Size": 16384,
+        "DiffID": "sha256:e98b7495f5d4c066cc35fe0012927585997efdaa715969d6339289d9532d8deb"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:bb63c9edaa228104c67704656524158e42506d6b1cd3b4d4abbea1b0fa18b7f5"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:35aabaf206da0a06521dddc1dc02507e2c662b2d09ce7a41ab43df4dafcde10f"
+      }
+    ]
+  }
+}

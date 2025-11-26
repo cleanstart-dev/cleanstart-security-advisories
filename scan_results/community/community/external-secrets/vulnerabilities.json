@@ -1,0 +1,151 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:40:03.716538542Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/external-secrets:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 620292608,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:caf2e1a8b3febe19c4247008982d7183a99fc2994767423e9c954601b3ff506f",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:adb64b13e6e7145b5a88ed841dedea1482b0a8ec245cc86c48e6b2dc64d532ff",
+      "sha256:c8f2f047a058bab15ea9bf2ae7a6ca96ef43d020ee45edccee8ff30d89a492c3",
+      "sha256:cd2664240e25464a375bcc91e84ee4bbd9b9717db1083e414176d7d9b2e213dc",
+      "sha256:afe4588a0c148c15af9a42d022b8b7a5953e5d9869224f0864319eac612a90b2"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/external-secrets:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/external-secrets@sha256:6c7adb22ae6eec60a2cb55bf6926580b65064f0200a61015fd8a502d13be6eca"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-24T07:54:56.689702883Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-24T07:54:21Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:54:55Z",
+          "created_by": "RUN /bin/sh -c apk add ca-certificates-bundle glibc-clnstrt=2.41-r0 external-secrets=0.19.2-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/external-secrets\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "CMD [\"--help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "LABEL Cleanstart.main.package=external-secrets",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-24T07:54:56Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:adb64b13e6e7145b5a88ed841dedea1482b0a8ec245cc86c48e6b2dc64d532ff",
+          "sha256:c8f2f047a058bab15ea9bf2ae7a6ca96ef43d020ee45edccee8ff30d89a492c3",
+          "sha256:cd2664240e25464a375bcc91e84ee4bbd9b9717db1083e414176d7d9b2e213dc",
+          "sha256:afe4588a0c148c15af9a42d022b8b7a5953e5d9869224f0864319eac612a90b2"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/external-secrets"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "external-secrets",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:adb64b13e6e7145b5a88ed841dedea1482b0a8ec245cc86c48e6b2dc64d532ff"
+      },
+      {
+        "Size": 598298624,
+        "DiffID": "sha256:c8f2f047a058bab15ea9bf2ae7a6ca96ef43d020ee45edccee8ff30d89a492c3"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:cd2664240e25464a375bcc91e84ee4bbd9b9717db1083e414176d7d9b2e213dc"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:afe4588a0c148c15af9a42d022b8b7a5953e5d9869224f0864319eac612a90b2"
+      }
+    ]
+  }
+}

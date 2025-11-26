@@ -1,0 +1,1134 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T02:02:39.558695003Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/strimzi-kafka-operator-fips:0.44.0-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 1120843776,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:bbb27ad7d2c8b527076ef0c24853db1d4be8e529e23b1f49717e76ae9b9a5080",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:4467b31c4e9a47480ab3525ba2e05f5207ac06703ad297a3d39c6fb1f58ae1a2",
+      "sha256:a4e02f014cd6b11b64f4a132cf98a16dbabd618ad26e9b6a9d0afa705bfcbe85",
+      "sha256:34089ae827863edd1e4a33bd74db3b810c050a457b155bf94d4734e0fd90351e",
+      "sha256:841e2734be54fe6554785962d65a889568653e29a2a26fe7a3d7615360615951",
+      "sha256:5d339bd033e80f54678a8cbce3e632a9cb0fb5c91a81c538b15455ffa28451bf",
+      "sha256:bb6a5bb736962b639110a7ed6d6653568cae5fe1c1e80e3657d12547f05e719f",
+      "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d",
+      "sha256:6b593ea57375a1d60eaea2a6c396d910f4bbdaf706b05909325069756c5ce637",
+      "sha256:60d1b702dc88c3d143f2a5b680c1f9a621c6f5b5b2c7b8ab59f8c5db8a5f9697",
+      "sha256:a9b7768c9882269ea4d2e7c4d8a24b25deaf82708ac11955c780b8f5cbd8ce8a",
+      "sha256:53d5f7f298d09e36fb98f9f67316d527e2c3a5ebc5655aafdb42fa39ee5563cc",
+      "sha256:8b0da71811f1de867c54ba3fe206e8169e30b4b62ed83a316c0a8124d16aada5",
+      "sha256:ac366fb2d353724bcdbb12ea53c10a688c7a999c51f3df8d8392216a8adae856",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/strimzi-kafka-operator-fips:0.44.0-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/strimzi-kafka-operator-fips@sha256:cd529973fd01c65059eb9fbced73b70b30fac71d1237fda6e1f80556b82dc61a"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-31T03:54:39.622506607Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-31T03:53:47Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:26Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache     glibc-clnstrt=2.41-r0     glibc-clnstrt-i18n     ca-certificates-bundle     clnstrt-dev-base     openjdk17-jre     strimzi-kafka-operator=0.44.0-r0     kafka-strimzi-compat=0.44.0-r0     kafka_exporter-strimzi-compat=0.44.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl=3.5.0-r0     openssl-dev=3.5.0-r0     openssl-config-fipshardened=3.5.0-r0     openssl-provider-fips=3.0.9-r5     tini=0.19.0-r0     busybox-extras # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:27Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T03:54:27Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache bouncycastle-fips=2.1.0-r0 bouncycastle-pkix-fips=2.0.8-r0 bouncycastle-tls-fips=2.0.19-r0 bouncycastle-util-fips=2.0.3-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:27Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:27Z",
+          "created_by": "ENV CLASSPATH=/usr/lib/bouncycastle-fips/*:/usr/lib/kafka/libs/*",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T03:54:28Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on \u0026\u0026     ln -snf /usr/libexec/openssl-fips-provider/bin/openssl /usr/bin/openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:28Z",
+          "created_by": "RUN /bin/sh -c find /usr -name \"openssl\" -type f -executable -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/bin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/sbin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     rm -f /usr/bin/openssl /usr/sbin/openssl /usr/local/bin/openssl /usr/local/sbin/openssl \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider/bin/ \u0026\u0026     which openssl \u0026\u0026 echo \"WARNING: OpenSSL still found!\" || echo \"OpenSSL binary successfully removed\" # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:36Z",
+          "created_by": "RUN /bin/sh -c chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:37Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:37Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     chmod +x /usr/lib/jvm/default-jvm/bin/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:38Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /opt/strimzi/bin /opt/strimzi/libs /opt/strimzi/lib \u0026\u0026     ln -sf /usr/bin/*.sh /opt/strimzi/bin/ \u0026\u0026     ln -sf /usr/lib/kafka/libs/io.strimzi.*.jar /opt/strimzi/libs/ \u0026\u0026     ln -sf /usr/lib/kafka/libs /opt/strimzi/lib \u0026\u0026     ln -sf /usr/lib/kafka/libs /opt/strimzi/bin/lib \u0026\u0026     ln -sf /usr/lib/*.jar /usr/lib/kafka/libs/ 2\u003e/dev/null || true # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:38Z",
+          "created_by": "RUN /bin/sh -c EXPLICIT_CLASSPATH=$(find /usr/lib/bouncycastle-fips /usr/lib/kafka/libs -name '*.jar' -print | paste -sd ':' -) \u0026\u0026     echo \"export CLASSPATH=\\\"$EXPLICIT_CLASSPATH\\\"\" \u003e /opt/strimzi/classpath.env \u0026\u0026     echo \"export JAVA_CLASSPATH=\\\"$EXPLICIT_CLASSPATH\\\"\" \u003e\u003e /opt/strimzi/classpath.env # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "RUN /bin/sh -c for script in /opt/strimzi/bin/*.sh; do         sed -i '1a\\. /opt/strimzi/classpath.env' \"$script\";     done # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "RUN /bin/sh -c chown -R clnstrt:clngroup /opt/strimzi # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/strimzi/bin STRIMZI_HOME=/opt/strimzi",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "WORKDIR /opt/strimzi",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "LABEL clnstrt.main.package=strimzi-kafka-operator=0.44.0-r0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T03:54:39Z",
+          "created_by": "LABEL image.vendor=cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:4467b31c4e9a47480ab3525ba2e05f5207ac06703ad297a3d39c6fb1f58ae1a2",
+          "sha256:a4e02f014cd6b11b64f4a132cf98a16dbabd618ad26e9b6a9d0afa705bfcbe85",
+          "sha256:34089ae827863edd1e4a33bd74db3b810c050a457b155bf94d4734e0fd90351e",
+          "sha256:841e2734be54fe6554785962d65a889568653e29a2a26fe7a3d7615360615951",
+          "sha256:5d339bd033e80f54678a8cbce3e632a9cb0fb5c91a81c538b15455ffa28451bf",
+          "sha256:bb6a5bb736962b639110a7ed6d6653568cae5fe1c1e80e3657d12547f05e719f",
+          "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d",
+          "sha256:6b593ea57375a1d60eaea2a6c396d910f4bbdaf706b05909325069756c5ce637",
+          "sha256:60d1b702dc88c3d143f2a5b680c1f9a621c6f5b5b2c7b8ab59f8c5db8a5f9697",
+          "sha256:a9b7768c9882269ea4d2e7c4d8a24b25deaf82708ac11955c780b8f5cbd8ce8a",
+          "sha256:53d5f7f298d09e36fb98f9f67316d527e2c3a5ebc5655aafdb42fa39ee5563cc",
+          "sha256:8b0da71811f1de867c54ba3fe206e8169e30b4b62ed83a316c0a8124d16aada5",
+          "sha256:ac366fb2d353724bcdbb12ea53c10a688c7a999c51f3df8d8392216a8adae856",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/strimzi/bin",
+          "JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "CLASSPATH=/usr/lib/bouncycastle-fips/*:/usr/lib/kafka/libs/*",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "STRIMZI_HOME=/opt/strimzi"
+        ],
+        "Labels": {
+          "clnstrt.main.package": "strimzi-kafka-operator=0.44.0-r0",
+          "image.vendor": "cleanstart"
+        },
+        "User": "clnstrt",
+        "WorkingDir": "/opt/strimzi"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:4467b31c4e9a47480ab3525ba2e05f5207ac06703ad297a3d39c6fb1f58ae1a2"
+      },
+      {
+        "Size": 647998976,
+        "DiffID": "sha256:a4e02f014cd6b11b64f4a132cf98a16dbabd618ad26e9b6a9d0afa705bfcbe85"
+      },
+      {
+        "Size": 8783360,
+        "DiffID": "sha256:34089ae827863edd1e4a33bd74db3b810c050a457b155bf94d4734e0fd90351e"
+      },
+      {
+        "Size": 537600,
+        "DiffID": "sha256:841e2734be54fe6554785962d65a889568653e29a2a26fe7a3d7615360615951"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:5d339bd033e80f54678a8cbce3e632a9cb0fb5c91a81c538b15455ffa28451bf"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:bb6a5bb736962b639110a7ed6d6653568cae5fe1c1e80e3657d12547f05e719f"
+      },
+      {
+        "Size": 442808832,
+        "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:6b593ea57375a1d60eaea2a6c396d910f4bbdaf706b05909325069756c5ce637"
+      },
+      {
+        "Size": 79872,
+        "DiffID": "sha256:60d1b702dc88c3d143f2a5b680c1f9a621c6f5b5b2c7b8ab59f8c5db8a5f9697"
+      },
+      {
+        "Size": 73216,
+        "DiffID": "sha256:a9b7768c9882269ea4d2e7c4d8a24b25deaf82708ac11955c780b8f5cbd8ce8a"
+      },
+      {
+        "Size": 19456,
+        "DiffID": "sha256:53d5f7f298d09e36fb98f9f67316d527e2c3a5ebc5655aafdb42fa39ee5563cc"
+      },
+      {
+        "Size": 29696,
+        "DiffID": "sha256:8b0da71811f1de867c54ba3fe206e8169e30b4b62ed83a316c0a8124d16aada5"
+      },
+      {
+        "Size": 49664,
+        "DiffID": "sha256:ac366fb2d353724bcdbb12ea53c10a688c7a999c51f3df8d8392216a8adae856"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/strimzi-kafka-operator-fips:0.44.0-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-53864",
+          "PkgName": "com.nimbusds:nimbus-jose-jwt",
+          "PkgPath": "usr/lib/com.nimbusds.nimbus-jose-jwt-9.37.2.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.37.2",
+            "UID": "2e2ef61b7022ebf0"
+          },
+          "InstalledVersion": "9.37.2",
+          "FixedVersion": "10.0.2, 9.37.4",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-53864",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "com.nimbusds/nimbus-jose-jwt: Uncontrolled recursion in Connect2id Nimbus JOSE + JWT",
+          "Description": "Connect2id Nimbus JOSE + JWT 10.0.x before 10.0.2 and 9.37.x before 9.37.4 allows a remote attacker to cause a denial of service via a deeply nested JSON object supplied in a JWT claim set, because of uncontrolled recursion. NOTE: this is independent of the Gson 2.11.0 issue because the Connect2id product could have checked the JSON object nesting depth, regardless of what limits (if any) were imposed by Gson.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-674"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L",
+              "V3Score": 5.8
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L",
+              "V3Score": 5.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-53864",
+            "https://bitbucket.org/connect2id/nimbus-jose-jwt",
+            "https://bitbucket.org/connect2id/nimbus-jose-jwt/commits/f7fb882cc08f027c9ceb874acec3b51c6222861c",
+            "https://bitbucket.org/connect2id/nimbus-jose-jwt/issues/583/stackoverflowerror-due-to-deeply-nested",
+            "https://bitbucket.org/connect2id/nimbus-jose-jwt/issues/593/back-port-cve-2025-53864-fix-to-9x-branch",
+            "https://github.com/google/gson/commit/1039427ff0100293dd3cf967a53a55282c0fef6b",
+            "https://github.com/google/gson/compare/gson-parent-2.11.0...gson-parent-2.12.0",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53864",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53864"
+          ],
+          "PublishedDate": "2025-07-11T03:16:03.563Z",
+          "LastModifiedDate": "2025-09-23T19:15:39.81Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47554",
+          "PkgName": "commons-io:commons-io",
+          "PkgPath": "usr/lib/commons-io.commons-io-2.11.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/commons-io/commons-io@2.11.0",
+            "UID": "57d42c813be3d65c"
+          },
+          "InstalledVersion": "2.11.0",
+          "FixedVersion": "2.14.0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47554",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "apache-commons-io: Possible denial of service attack on untrusted input to XmlStreamReader",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Apache Commons IO.\n\nThe org.apache.commons.io.input.XmlStreamReader class may excessively consume CPU resources when processing maliciously crafted input.\n\n\nThis issue affects Apache Commons IO: from 2.0 before 2.14.0.\n\nUsers are recommended to upgrade to version 2.14.0 or later, which fixes the issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "ghsa": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2024/10/03/2",
+            "https://access.redhat.com/security/cve/CVE-2024-47554",
+            "https://github.com/apache/commons-io",
+            "https://lists.apache.org/thread/6ozr91rr9cj5lm0zyhv30bsp317hk5z1",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47554",
+            "https://security.netapp.com/advisory/ntap-20250131-0010",
+            "https://security.netapp.com/advisory/ntap-20250131-0010/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47554"
+          ],
+          "PublishedDate": "2024-10-03T12:15:02.613Z",
+          "LastModifiedDate": "2025-07-10T21:10:32.113Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58057",
+          "PkgName": "io.netty:netty-codec",
+          "PkgPath": "usr/lib/io.netty.netty-codec-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-codec@4.1.111.Final",
+            "UID": "d0acc1c29d0bb54e"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.1.125.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58057",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty-codec: netty-codec-compression: Netty's BrotliDecoder is vulnerable to DoS via zip bomb style attack",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. In netty-codec-compression versions 4.1.124.Final and below, and netty-codec versions 4.2.4.Final and below, when supplied with specially crafted input, BrotliDecoder and certain other decompression decoders will allocate a large number of reachable byte buffers, which can lead to denial of service. BrotliDecoder.decompress has no limit in how often it calls pull, decompressing data 64K bytes at a time. The buffers are saved in the output list, and remain reachable until OOM is hit. This is fixed in versions 4.1.125.Final of netty-codec and 4.2.5.Final of netty-codec-compression.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-409"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-58057",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d",
+            "https://github.com/netty/netty/security/advisories/GHSA-3p8m-j85q-pgmj",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58057",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58057"
+          ],
+          "PublishedDate": "2025-09-04T10:42:32.18Z",
+          "LastModifiedDate": "2025-09-08T16:45:55.143Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58056",
+          "PkgName": "io.netty:netty-codec-http",
+          "PkgPath": "usr/lib/io.netty.netty-codec-http-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-codec-http@4.1.111.Final",
+            "UID": "6f80b5bafa15dd23"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.1.125.Final, 4.2.5.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58056",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty-codec-http: Netty is vulnerable to request smuggling due to incorrect parsing of chunk extensions",
+          "Description": "Netty is an asynchronous event-driven network application framework for development of maintainable high performance protocol servers and clients. In versions 4.1.124.Final, and 4.2.0.Alpha3 through 4.2.4.Final, Netty incorrectly accepts standalone newline characters (LF) as a chunk-size line terminator, regardless of a preceding carriage return (CR), instead of requiring CRLF per HTTP/1.1 standards. When combined with reverse proxies that parse LF differently (treating it as part of the chunk extension), attackers can craft requests that the proxy sees as one request but Netty processes as two, enabling request smuggling attacks. This is fixed in versions 4.1.125.Final and 4.2.5.Final.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-444"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-58056",
+            "https://datatracker.ietf.org/doc/html/rfc9112#name-chunked-transfer-coding",
+            "https://github.com/JLLeitschuh/unCVEed/issues/1",
+            "https://github.com/github/advisory-database/pull/6092",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/edb55fd8e0a3bcbd85881e423464f585183d1284",
+            "https://github.com/netty/netty/issues/15522",
+            "https://github.com/netty/netty/pull/15611",
+            "https://github.com/netty/netty/security/advisories/GHSA-fghv-69vj-qj49",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58056",
+            "https://w4ke.info/2025/06/18/funky-chunks.html",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58056"
+          ],
+          "PublishedDate": "2025-09-03T21:15:33.07Z",
+          "LastModifiedDate": "2025-09-08T16:46:36.847Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-55163",
+          "PkgName": "io.netty:netty-codec-http2",
+          "PkgPath": "usr/lib/io.netty.netty-codec-http2-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-codec-http2@4.1.111.Final",
+            "UID": "be8e1b56ccf5e03a"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.2.4.Final, 4.1.124.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-55163",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: netty-codec-http2: Netty MadeYouReset HTTP/2 DDoS Vulnerability",
+          "Description": "Netty is an asynchronous, event-driven network application framework. Prior to versions 4.1.124.Final and 4.2.4.Final, Netty is vulnerable to MadeYouReset DDoS. This is a logical vulnerability in the HTTP/2 protocol, that uses malformed HTTP/2 control frames in order to break the max concurrent streams limit - which results in resource exhaustion and distributed denial of service. This issue has been patched in versions 4.1.124.Final and 4.2.4.Final.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/08/16/1",
+            "https://access.redhat.com/security/cve/CVE-2025-55163",
+            "https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/be53dc3c9acd9af2e20d0c3c07cd77115a594cf1",
+            "https://github.com/netty/netty/security/advisories/GHSA-prj3-ccx8-p6x4",
+            "https://kb.cert.org/vuls/id/767506",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-55163",
+            "https://www.cve.org/CVERecord?id=CVE-2025-55163",
+            "https://www.kb.cert.org/vuls/id/767506"
+          ],
+          "PublishedDate": "2025-08-13T15:15:39.39Z",
+          "LastModifiedDate": "2025-11-04T22:16:30.293Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47535",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "usr/lib/io.netty.netty-common-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.111.Final",
+            "UID": "2e8507323bd5f0d8"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.1.115.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47535",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crashes. This vulnerability is fixed in 4.1.115.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-47535",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3",
+            "https://github.com/netty/netty/security/advisories/GHSA-xq3w-v528-46rv",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47535",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47535"
+          ],
+          "PublishedDate": "2024-11-12T16:15:22.237Z",
+          "LastModifiedDate": "2025-09-05T14:00:07.22Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-25193",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "usr/lib/io.netty.netty-common-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.111.Final",
+            "UID": "2e8507323bd5f0d8"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.1.118.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-25193",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability in versions up to and including 4.1.118.Final. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crash. A similar issue was previously reported as CVE-2024-47535. This issue was fixed, but the fix was incomplete in that null-bytes were not counted against the input limit. Commit d1fbda62d3a47835d3fb35db8bd42ecc205a5386 contains an updated fix.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-25193",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/d1fbda62d3a47835d3fb35db8bd42ecc205a5386",
+            "https://github.com/netty/netty/security/advisories/GHSA-389x-839f-4rhx",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-25193",
+            "https://security.netapp.com/advisory/ntap-20250221-0006",
+            "https://security.netapp.com/advisory/ntap-20250221-0006/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-25193"
+          ],
+          "PublishedDate": "2025-02-10T22:15:38.45Z",
+          "LastModifiedDate": "2025-06-11T15:36:22.693Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-24970",
+          "PkgName": "io.netty:netty-handler",
+          "PkgPath": "usr/lib/io.netty.netty-handler-4.1.111.Final.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-handler@4.1.111.Final",
+            "UID": "8d99f9eb265b76a9"
+          },
+          "InstalledVersion": "4.1.111.Final",
+          "FixedVersion": "4.1.118.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-24970",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "io.netty:netty-handler: SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+          "Description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability starting in version 4.1.91.Final and prior to version 4.1.118.Final. When a special crafted packet is received via SslHandler it doesn't correctly handle validation of such a packet in all cases which can lead to a native crash. Version 4.1.118.Final contains a patch. As workaround its possible to either disable the usage of the native SSLEngine or change the code manually.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-20"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-24970",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/87f40725155b2f89adfde68c7732f97c153676c4",
+            "https://github.com/netty/netty/security/advisories/GHSA-4g8c-wm8x-jfhw",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-24970",
+            "https://security.netapp.com/advisory/ntap-20250221-0005",
+            "https://security.netapp.com/advisory/ntap-20250221-0005/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-24970",
+            "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-detection",
+            "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-mitigation"
+          ],
+          "PublishedDate": "2025-02-10T22:15:38.057Z",
+          "LastModifiedDate": "2025-09-05T17:20:12.26Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-57699",
+          "PkgName": "net.minidev:json-smart",
+          "PkgPath": "usr/lib/net.minidev.json-smart-2.5.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/net.minidev/json-smart@2.5.0",
+            "UID": "57c4f289210673f4"
+          },
+          "InstalledVersion": "2.5.0",
+          "FixedVersion": "2.5.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-57699",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "json-smart: Potential DoS via stack exhaustion (incomplete fix for CVE-2023-1370)",
+          "Description": "A security issue was found in Netplex Json-smart 2.5.0 through 2.5.1. When loading a specially crafted JSON input, containing a large number of ’{’, a stack exhaustion can be trigger, which could allow an attacker to cause a Denial of Service (DoS). This issue exists because of an incomplete fix for CVE-2023-1370.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-674"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-57699",
+            "https://github.com/TurtleLiu/Vul_PoC/tree/main/CVE-2024-57699",
+            "https://github.com/netplex/json-smart-v2",
+            "https://github.com/netplex/json-smart-v2/issues/232",
+            "https://github.com/netplex/json-smart-v2/issues/233",
+            "https://github.com/netplex/json-smart-v2/issues/236",
+            "https://github.com/netplex/json-smart-v2/releases/tag/2.5.2",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-57699",
+            "https://nvd.nist.gov/vuln/detail/cve-2023-1370",
+            "https://www.cve.org/CVERecord?id=CVE-2024-57699"
+          ],
+          "PublishedDate": "2025-02-05T22:15:33.183Z",
+          "LastModifiedDate": "2025-02-06T16:15:41.17Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-27817",
+          "PkgName": "org.apache.kafka:kafka-clients",
+          "PkgPath": "usr/lib/org.apache.kafka.kafka-clients-3.8.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.kafka/kafka-clients@3.8.0",
+            "UID": "5701c7e4fa678276"
+          },
+          "InstalledVersion": "3.8.0",
+          "FixedVersion": "3.9.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-27817",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.apache.kafka: Kafka Client Arbitrary File Read SSRF",
+          "Description": "A possible arbitrary file read and SSRF vulnerability has been identified in Apache Kafka Client. Apache Kafka Clients accept configuration data for setting the SASL/OAUTHBEARER connection with the brokers, including \"sasl.oauthbearer.token.endpoint.url\" and \"sasl.oauthbearer.jwks.endpoint.url\". Apache Kafka allows clients to read an arbitrary file and return the content in the error log, or sending requests to an unintended location. In applications where Apache Kafka Clients configurations can be specified by an untrusted party, attackers may use the \"sasl.oauthbearer.token.endpoint.url\" and \"sasl.oauthbearer.jwks.endpoint.url\" configuratin to read arbitrary contents of the disk and environment variables or make requests to an unintended location. In particular, this flaw may be used in Apache Kafka Connect to escalate from REST API access to filesystem/environment/URL access, which may be undesirable in certain environments, including SaaS products. \n\nSince Apache Kafka 3.9.1/4.0.0, we have added a system property (\"-Dorg.apache.kafka.sasl.oauthbearer.allowed.urls\") to set the allowed urls in SASL JAAS configuration. In 3.9.1, it accepts all urls by default for backward compatibility. However in 4.0.0 and newer, the default value is empty list and users have to set the allowed urls explicitly.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-918"
+          ],
+          "VendorSeverity": {
+            "bitnami": 3,
+            "ghsa": 2,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            },
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/06/09/1",
+            "https://access.redhat.com/security/cve/CVE-2025-27817",
+            "https://github.com/apache/kafka",
+            "https://kafka.apache.org/cve-list",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27817",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27817"
+          ],
+          "PublishedDate": "2025-06-10T08:15:22.367Z",
+          "LastModifiedDate": "2025-07-11T16:58:15.47Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12194",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12194",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "bcprov-lts8on: bc-fips: Uncontrolled Resource Consumption vulnerability in Bouncy Castle",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCMSIV.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA224NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA3NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHAKENativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA512NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA384NativeDigest.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: from 2.1.0 through 2.1.1; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12194",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%9012194",
+            "https://github.com/bcgit/bc-lts-java",
+            "https://github.com/bcgit/bc-lts-java/commit/2c9be6c64152ce48c6afc784c042a514be71ec71",
+            "https://github.com/bcgit/bc-lts-java/commit/f2776feac0c30230f7a5ac34eb24f5019caf0324",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12194",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12194"
+          ],
+          "PublishedDate": "2025-10-24T23:15:39.277Z",
+          "LastModifiedDate": "2025-10-27T13:20:15.637Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9341",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9341",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: Garbage collection can delay for AES CBC Native support, resulting in heap exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files org/bouncycastle/crypto/fips/AESNativeCBC.Java, org/bouncycastle/crypto/engines/AESNativeCBC.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: 2.1.0; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9341",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909341",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9341",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9341"
+          ],
+          "PublishedDate": "2025-08-22T09:15:34.41Z",
+          "LastModifiedDate": "2025-10-24T23:17:52.853Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9092",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9092",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle: Bouncycastle Resource Exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java - BC-FJA 2.1.0 bc-fips (API modules) allows Excessive Allocation. This vulnerability is associated with program files org.Bouncycastle.Crypto.Fips.NativeLoader.\n\nThis issue affects Bouncy Castle for Java - BC-FJA 2.1.0: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 1.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9092",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909092",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9092",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9092"
+          ],
+          "PublishedDate": "2025-08-16T11:15:45.54Z",
+          "LastModifiedDate": "2025-08-18T20:16:28.75Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9340",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9340",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: native encrypt/decrypt operations in JCE may corrupt data if same byte array used for input and output.",
+          "Description": "Out-of-bounds Write vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java bc-fips on All (API modules). This vulnerability is associated with program files org/bouncycastle/jcajce/provider/BaseCipher.\n\nThis issue affects Bouncy Castle for Java: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-787"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 5.9
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9340",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909340",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9340",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9340"
+          ],
+          "PublishedDate": "2025-08-22T10:15:33.05Z",
+          "LastModifiedDate": "2025-08-22T18:08:51.663Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-6763",
+          "PkgName": "org.eclipse.jetty:jetty-http",
+          "PkgPath": "usr/lib/org.eclipse.jetty.jetty-http-9.4.56.v20240826.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.56.v20240826",
+            "UID": "8732c44581bbf1c9"
+          },
+          "InstalledVersion": "9.4.56.v20240826",
+          "FixedVersion": "12.0.12",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-6763",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of invalid authority",
+          "Description": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-1286"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-6763",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/pull/12012",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-qh8g-58pp-2wxh",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/25",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-6763",
+            "https://security.netapp.com/advisory/ntap-20250306-0005",
+            "https://security.netapp.com/advisory/ntap-20250306-0005/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-6763"
+          ],
+          "PublishedDate": "2024-10-14T16:15:04.163Z",
+          "LastModifiedDate": "2025-07-10T15:04:04.103Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-13009",
+          "PkgName": "org.eclipse.jetty:jetty-server",
+          "PkgPath": "usr/lib/org.eclipse.jetty.jetty-server-9.4.56.v20240826.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.56.v20240826",
+            "UID": "3644e750ffd12354"
+          },
+          "InstalledVersion": "9.4.56.v20240826",
+          "FixedVersion": "9.4.57.v20241219",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:f45437feacbc28d1f994ed47f5b30284562ec43b98075e8dd6946074495dfe5d"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-13009",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "jetty-server: Jetty: Gzip Request Body Buffer Corruption",
+          "Description": "In Eclipse Jetty versions 9.4.0 to 9.4.56 a buffer can be incorrectly released when confronted with a gzip error when inflating a request\nbody. This can result in corrupted and/or inadvertent sharing of data between requests.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-404"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+              "V3Score": 7.2
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+              "V3Score": 7.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-13009",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-q4rv-gq96-w7c5",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/48",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-13009",
+            "https://www.cve.org/CVERecord?id=CVE-2024-13009"
+          ],
+          "PublishedDate": "2025-05-08T18:15:41.64Z",
+          "LastModifiedDate": "2025-07-31T16:31:12.697Z"
+        }
+      ]
+    }
+  ]
+}

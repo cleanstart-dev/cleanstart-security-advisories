@@ -1,0 +1,146 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T05:16:14.893394109Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/fluentd-custom-fips:1.18.0-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 503473664,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:b0ecc59990e62b06fca27b0d0b7c38f3f5d9a735cef4fc8a3b1885b3a5674913",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:027654329445d58e99f1196babbf334ed8b2c83da2da44a3fb8f92c4c63a3832",
+      "sha256:ba87d4a0a20b62bf4157f8a6feb5a0fe53b94259ff835d4f4f9a14cef2398c7c",
+      "sha256:659233767ce2a152f650e1036a136ce20b062d2178bb2a7278be73d1d1f50493"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/fluentd-custom-fips:1.18.0-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/fluentd-custom-fips@sha256:73ee1da8e79af65d88e0a9235c224edb748b6fa8e32bcd938a4d7c336cbb97f2"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-11-05T04:58:26.517741867Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-11-05T04:55:23Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-05T04:56:01Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache     glibc-clnstrt=2.41-r0     ruby-date=3.4.1-r1     ruby-oj=3.15.1-r1     ruby-fluentd-1.18     fluent-plugin-json-in-json-2     fluent-plugin-most     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0     clnstrt-dev-base-hpe # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "RUN /bin/sh -c apk upgrade \u0026\u0026     rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     ln -s /usr/lib/ruby/gems/3.3.0/bin/fluentd /usr/bin/fluentd \u0026\u0026     chmod 755 /usr/bin/fluentd \u0026\u0026     mkdir -p /opt/fluentd \u0026\u0026     chown -R clnstrt:clngroup /opt/fluentd \u0026\u0026     chmod 750 /opt/fluentd \u0026\u0026     sed -i 's|pos_file /var/log/backend.application.pos|pos_file /opt/fluentd/backend.application.pos|g' /etc/fluent/fluent.conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "ENV FLUENTD_CONF=/etc/fluent/fluent.conf LD_PRELOAD= PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/fluentd\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "LABEL Cleanstart.main.package=ruby-fluentd-1.18",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-05T04:58:26Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:027654329445d58e99f1196babbf334ed8b2c83da2da44a3fb8f92c4c63a3832",
+          "sha256:ba87d4a0a20b62bf4157f8a6feb5a0fe53b94259ff835d4f4f9a14cef2398c7c",
+          "sha256:659233767ce2a152f650e1036a136ce20b062d2178bb2a7278be73d1d1f50493"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/fluentd"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "FLUENTD_CONF=/etc/fluent/fluent.conf",
+          "LD_PRELOAD=",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "ruby-fluentd-1.18",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:027654329445d58e99f1196babbf334ed8b2c83da2da44a3fb8f92c4c63a3832"
+      },
+      {
+        "Size": 268530688,
+        "DiffID": "sha256:ba87d4a0a20b62bf4157f8a6feb5a0fe53b94259ff835d4f4f9a14cef2398c7c"
+      },
+      {
+        "Size": 214492160,
+        "DiffID": "sha256:659233767ce2a152f650e1036a136ce20b062d2178bb2a7278be73d1d1f50493"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/fluentd-custom-fips:1.18.0-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

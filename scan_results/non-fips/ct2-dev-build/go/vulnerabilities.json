@@ -1,0 +1,180 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T21:43:11.715290919Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/go:1.23.12-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 572250624,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:eaa4e27710562463abbb6c188b7c5622a1b75ad93b4b47920e6f10948016b9e0",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:3347d78fe10e7ed42ad417dc216a7ef28aa34e8edd24d0488c9e57416ea59c98",
+      "sha256:9444ee866caec32e815f0d05fbddd107b39a74ae3b47966152dadc92cb1cb8df",
+      "sha256:550b48e3374d8eee6564b07ea8f0c9ce8038c99670862d99bfc048d665175e5d",
+      "sha256:39bd7e59724815a2dd4a7413d0e9cb6eaf7c9491df7177494323df20997c7ffe",
+      "sha256:e9b04c6826a100110d18df980963c6e4d29baa1b6fd5718a80db88dd7d48be4f"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/go:1.23.12-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/go@sha256:99dba45634a6586d66db7aaedf01450a0d93919a57eca323052180e69c5abf8c"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-30T19:50:05.349207134Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-30T19:50:03Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache     glibc-clnstrt=2.41-r0     glibc-clnstrt-i18n     bash     binutils     cyrus-sasl     gcc     gdbm     git     gmp     heimdal-libs     file     isl-dev     keyutils-libs     krb5-conf     krb5-libs     libatomic     brotli-dev     brotli-libs     libcom_err     libevent     libexpat     libgcc     libgomp     libidn2     libldap     libpsl     libstdc++     libstdc++-dev     libunistring     libverto     libxcrypt     zstd-libs     zstd-dev     linux-headers     make     mpc1     mpfr4     mpfr-dev     ncurses     pkgconf     readline     sqlite-libs     wget     nghttp2-libs     curl     libcurl     curl-dev     go1.23=1.23.12-r0     glibc-clnstrt-dev     clnstrt-dev-base-hpe # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T19:50:03Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T19:50:04Z",
+          "created_by": "RUN /bin/sh -c ln -snf /usr/lib/go1.23/bin/go /usr/bin/go \u0026\u0026     mkdir -p /usr/lib/go_workspace/src /usr/lib/go_workspace/bin /usr/lib/go_workspace/pkg \u0026\u0026     echo 'export GOROOT=/usr/lib/go1.23' \u003e\u003e /etc/profile \u0026\u0026     echo 'export PATH=\"$GOROOT/bin:$PATH\"' \u003e\u003e /etc/profile # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T19:50:04Z",
+          "created_by": "ENV GOROOT=/usr/lib/go1.23 GOPATH=/usr/lib/go_workspace",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:04Z",
+          "created_by": "RUN /bin/sh -c ln -snf ../..$GOROOT/bin/go /usr/bin/go # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "ENV GODEBUG=tarinsecurepath=0,zipinsecurepath=3.0.9-r5 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt GOTOOLCHAIN=local+auto GOPROXY=https://proxy.golang.org,direct",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/go\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "CMD [\"help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "LABEL Cleanstart.main.package=go1.23",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T19:50:05Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=go1.23",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:3347d78fe10e7ed42ad417dc216a7ef28aa34e8edd24d0488c9e57416ea59c98",
+          "sha256:9444ee866caec32e815f0d05fbddd107b39a74ae3b47966152dadc92cb1cb8df",
+          "sha256:550b48e3374d8eee6564b07ea8f0c9ce8038c99670862d99bfc048d665175e5d",
+          "sha256:39bd7e59724815a2dd4a7413d0e9cb6eaf7c9491df7177494323df20997c7ffe",
+          "sha256:e9b04c6826a100110d18df980963c6e4d29baa1b6fd5718a80db88dd7d48be4f"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/go"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "GOROOT=/usr/lib/go1.23",
+          "GOPATH=/usr/lib/go_workspace",
+          "GODEBUG=tarinsecurepath=0,zipinsecurepath=3.0.9-r5",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "GOTOOLCHAIN=local+auto",
+          "GOPROXY=https://proxy.golang.org,direct"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "go1.23",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "go1.23",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 551070208,
+        "DiffID": "sha256:3347d78fe10e7ed42ad417dc216a7ef28aa34e8edd24d0488c9e57416ea59c98"
+      },
+      {
+        "Size": 717312,
+        "DiffID": "sha256:9444ee866caec32e815f0d05fbddd107b39a74ae3b47966152dadc92cb1cb8df"
+      },
+      {
+        "Size": 7680,
+        "DiffID": "sha256:550b48e3374d8eee6564b07ea8f0c9ce8038c99670862d99bfc048d665175e5d"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:39bd7e59724815a2dd4a7413d0e9cb6eaf7c9491df7177494323df20997c7ffe"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:e9b04c6826a100110d18df980963c6e4d29baa1b6fd5718a80db88dd7d48be4f"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/go:1.23.12-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

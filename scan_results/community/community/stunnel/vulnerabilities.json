@@ -1,0 +1,151 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:39:30.967258258Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/stunnel:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 423530496,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:e545045637aa47997b60e8b33ed801cadd5c7ac2b9cb8eb1af2a2620debcd545",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:ce25b19ef9827920f94dfb0fdcbc9e077152fc0f841df9f96092496028388821",
+      "sha256:1260500ec4d2abcc7a075e62c30ec96952ca804dcf4dd9eb8458d7bbaa610e31",
+      "sha256:986d4dc6707edab0c47ca5b2204827fd3fb05f7fb07db1b7682f7772979feb03",
+      "sha256:21a748453b19d0b236d84d43ba4ce4e0688521203c14e43a99a5012bb261b026"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/stunnel:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/stunnel@sha256:527790e632f6dd875e6a2b5f47244cf21d2f7f001cb451a5214564be1b727b1b"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T05:54:31.119767724Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T05:53:55Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:54:30Z",
+          "created_by": "RUN /bin/sh -c apk add     ca-certificates-bundle     glibc-clnstrt=2.41-r0     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     libgcc     stunnel=5.75-r0     clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:54:30Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/stunnel\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "CMD [\"-help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "LABEL Cleanstart.main.package=stunnel",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:54:31Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:ce25b19ef9827920f94dfb0fdcbc9e077152fc0f841df9f96092496028388821",
+          "sha256:1260500ec4d2abcc7a075e62c30ec96952ca804dcf4dd9eb8458d7bbaa610e31",
+          "sha256:986d4dc6707edab0c47ca5b2204827fd3fb05f7fb07db1b7682f7772979feb03",
+          "sha256:21a748453b19d0b236d84d43ba4ce4e0688521203c14e43a99a5012bb261b026"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "-help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/stunnel"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "stunnel",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:ce25b19ef9827920f94dfb0fdcbc9e077152fc0f841df9f96092496028388821"
+      },
+      {
+        "Size": 401534464,
+        "DiffID": "sha256:1260500ec4d2abcc7a075e62c30ec96952ca804dcf4dd9eb8458d7bbaa610e31"
+      },
+      {
+        "Size": 454144,
+        "DiffID": "sha256:986d4dc6707edab0c47ca5b2204827fd3fb05f7fb07db1b7682f7772979feb03"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:21a748453b19d0b236d84d43ba4ce4e0688521203c14e43a99a5012bb261b026"
+      }
+    ]
+  }
+}

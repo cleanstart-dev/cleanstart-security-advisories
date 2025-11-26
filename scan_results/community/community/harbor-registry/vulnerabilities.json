@@ -1,0 +1,169 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:47:54.940623308Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/harbor-registry:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 473906688,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:b4e3d505b34ac19e853f94727daed1942975a2c0cd2b24f8706f8f16776a532a",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:af590f19420ace1074c0bf8d271583caab098bd3d56c5941a1072c87175b7709",
+      "sha256:926bf45446f258a6dc28b71b2f831a9e48aa0be52e2c874732eb9b7b5427b94e",
+      "sha256:6c2424d07084c046e4f5e51ff57a32337a0e39bc53d671aa987b5da2d8273f48",
+      "sha256:1d5d9bd26de03a8b2af138ede03a5f6408c0bc505083fd13e39b16e5d26a293c",
+      "sha256:109ec72a3d0fab8bb2755336a44d723f63381ef6958b45b5bb59e6d12155fa67",
+      "sha256:3e4f3bda873c1d4bff05191fb8958e677b079e2ad1d770a1facc93946474fbcd",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/harbor-registry:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/harbor-registry@sha256:aa4823291755f73e7de6a5a8d0449eba61b5beccb63dd366d484199ebed9d979"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-19T08:19:41.685480219Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-09-19T08:19:15Z",
+          "created_by": "ARG shell=0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:19:15Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c addgroup -S -g 180802 clngroup \u0026\u0026 adduser -S -u 180802 harbor -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:40Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk update \u0026\u0026 apk add clnstrt-dev-base harbor-registry=3.0.0-r0 glibc-clnstrt=2.41-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:40Z",
+          "created_by": "COPY config.yml /etc/registry/config.yml # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:40Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c mkdir -p /etc/registry \u0026\u0026     chown -R harbor:clngroup /etc/registry \u0026\u0026     mkdir -p /harbor \u0026\u0026     chown -R harbor:clngroup /harbor # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "WORKDIR /etc/registry",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "EXPOSE map[5000/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "USER harbor",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-19T08:19:41Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/registry_DO_NOT_USE_GC\" \"serve\" \"/etc/registry/config.yml\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:af590f19420ace1074c0bf8d271583caab098bd3d56c5941a1072c87175b7709",
+          "sha256:926bf45446f258a6dc28b71b2f831a9e48aa0be52e2c874732eb9b7b5427b94e",
+          "sha256:6c2424d07084c046e4f5e51ff57a32337a0e39bc53d671aa987b5da2d8273f48",
+          "sha256:1d5d9bd26de03a8b2af138ede03a5f6408c0bc505083fd13e39b16e5d26a293c",
+          "sha256:109ec72a3d0fab8bb2755336a44d723f63381ef6958b45b5bb59e6d12155fa67",
+          "sha256:3e4f3bda873c1d4bff05191fb8958e677b079e2ad1d770a1facc93946474fbcd",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/registry_DO_NOT_USE_GC",
+          "serve",
+          "/etc/registry/config.yml"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "harbor",
+        "WorkingDir": "/etc/registry",
+        "ExposedPorts": {
+          "5000/tcp": {}
+        }
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:af590f19420ace1074c0bf8d271583caab098bd3d56c5941a1072c87175b7709"
+      },
+      {
+        "Size": 451904512,
+        "DiffID": "sha256:926bf45446f258a6dc28b71b2f831a9e48aa0be52e2c874732eb9b7b5427b94e"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:6c2424d07084c046e4f5e51ff57a32337a0e39bc53d671aa987b5da2d8273f48"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:1d5d9bd26de03a8b2af138ede03a5f6408c0bc505083fd13e39b16e5d26a293c"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:109ec72a3d0fab8bb2755336a44d723f63381ef6958b45b5bb59e6d12155fa67"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:3e4f3bda873c1d4bff05191fb8958e677b079e2ad1d770a1facc93946474fbcd"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  }
+}

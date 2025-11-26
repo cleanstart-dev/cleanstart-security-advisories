@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:11:13.858711758Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-controller:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 478988800,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:6df7e933b70c6abfe6ae88c8a24338485ec5d738e01a565fce6c2628410dfdb4",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:42cf50e6e09324feaf96671fc79b178b5256577186b0ef1f62ba1444776463be",
+      "sha256:23db8413261ea6760b486991cdfc3b435b28f011c77894714f88a03f7ae9bbc3",
+      "sha256:86d717bdf595a64be0f32dd4af4cde96bce7899e627f47cd7971ecf8b5753a9a",
+      "sha256:8027510c7c2220153b9482221042167547d1d8d250b89628c668683e6b983d6a"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-controller:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-controller@sha256:af7119b69a0c0266975b122b5d641ec7a2b420b06e28d6348b0648a9a7f48b69"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T03:47:37.319419638Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T03:47:12Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:47:36Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 libgcc glibc-clnstrt-i18n gcc clnstrt-dev-base metallb-controller=0.15.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:47:36Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:47:37Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:47:37Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:47:37Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:47:37Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/metallb-controller\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:42cf50e6e09324feaf96671fc79b178b5256577186b0ef1f62ba1444776463be",
+          "sha256:23db8413261ea6760b486991cdfc3b435b28f011c77894714f88a03f7ae9bbc3",
+          "sha256:86d717bdf595a64be0f32dd4af4cde96bce7899e627f47cd7971ecf8b5753a9a",
+          "sha256:8027510c7c2220153b9482221042167547d1d8d250b89628c668683e6b983d6a"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/metallb-controller"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:42cf50e6e09324feaf96671fc79b178b5256577186b0ef1f62ba1444776463be"
+      },
+      {
+        "Size": 456995328,
+        "DiffID": "sha256:23db8413261ea6760b486991cdfc3b435b28f011c77894714f88a03f7ae9bbc3"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:86d717bdf595a64be0f32dd4af4cde96bce7899e627f47cd7971ecf8b5753a9a"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:8027510c7c2220153b9482221042167547d1d8d250b89628c668683e6b983d6a"
+      }
+    ]
+  }
+}

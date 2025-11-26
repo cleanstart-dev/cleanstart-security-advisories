@@ -1,0 +1,117 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:01:35.222646972Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-vip:latest",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 95098368,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:87519a09b036d06cdd095e947037455116a53370cd8a15c38e84607b262d80b2",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:42dd49377cda14dd5beee19bca9af2606658a71a7c12b5c24bab7c3af80b4670",
+      "sha256:86ab7946e48373e443848110389289ec8bc2bcd1befd21148a58e98ce0f8127c",
+      "sha256:72d8eb241552b48713a054f9b9492edc56b4dd1188b419d86a1537acd4a5b966",
+      "sha256:3af0077538ca24666a917fd5009ccd198ff0646ba7e8de029f7215a88e0897a5"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-vip:latest"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-vip@sha256:49cfa111487e2dc844c2408040810d52a46b408ba4aee5395b9ca7e0fde2904b"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T03:05:37.00098518Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T03:05:33Z",
+          "created_by": "ARG shell=0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:05:33Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:05:35Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 kube-vip=1.0.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:05:36Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:05:36Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:05:37Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk del apk-tools-static apk-tools \u0026\u0026 printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026 printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026 printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026 /bin/busybox find / -name \"sh\" -delete \u0026\u0026 /bin/busybox find / -name \"bash\" -delete \u0026\u0026 /bin/busybox rm -f /bin/sh /bin/bash /usr/bin/sh /usr/bin/bash /usr/bin/ash /bin/ash \u0026\u0026 /bin/busybox rm -rf /usr/bin/busybox /bin/busybox # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:05:37Z",
+          "created_by": "ENTRYPOINT [\"/kube-vip\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:42dd49377cda14dd5beee19bca9af2606658a71a7c12b5c24bab7c3af80b4670",
+          "sha256:86ab7946e48373e443848110389289ec8bc2bcd1befd21148a58e98ce0f8127c",
+          "sha256:72d8eb241552b48713a054f9b9492edc56b4dd1188b419d86a1537acd4a5b966",
+          "sha256:3af0077538ca24666a917fd5009ccd198ff0646ba7e8de029f7215a88e0897a5"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/kube-vip"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ]
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:42dd49377cda14dd5beee19bca9af2606658a71a7c12b5c24bab7c3af80b4670"
+      },
+      {
+        "Size": 67405312,
+        "DiffID": "sha256:86ab7946e48373e443848110389289ec8bc2bcd1befd21148a58e98ce0f8127c"
+      },
+      {
+        "Size": 6080000,
+        "DiffID": "sha256:72d8eb241552b48713a054f9b9492edc56b4dd1188b419d86a1537acd4a5b966"
+      },
+      {
+        "Size": 74240,
+        "DiffID": "sha256:3af0077538ca24666a917fd5009ccd198ff0646ba7e8de029f7215a88e0897a5"
+      }
+    ]
+  }
+}

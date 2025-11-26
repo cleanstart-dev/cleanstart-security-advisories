@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:46:54.67878257Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/velero:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 572146688,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:1a566e6d4f81b72b24b46db41584c9076160b6e853bb50f81e6e2734f1ff29e0",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:28bc553496d16eb48a663b74fa6a75f508485d2daddb2d45eba5d30fe6886723",
+      "sha256:41bbca0a8fd67c6b05c9d906bede697130a3d18e12851672d828da32704e2743",
+      "sha256:47afcb44bc4400611202f925c06084ecd607bf5272aa6eb14008e2bec39c31d4",
+      "sha256:bf81a4b391bb28e1f656e1a68d830c88ecbd68914fb7c89c4c76d454edde1596"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/velero:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/velero@sha256:b186be09f56794781e8acfa497a521540bc579ee4b3c85963944844b268db2b0"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T06:32:36.421659988Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T06:31:58Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:32:35Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 clnstrt-dev-base velero=1.16.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:32:36Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:32:36Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:32:36Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:32:36Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:32:36Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/velero\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:28bc553496d16eb48a663b74fa6a75f508485d2daddb2d45eba5d30fe6886723",
+          "sha256:41bbca0a8fd67c6b05c9d906bede697130a3d18e12851672d828da32704e2743",
+          "sha256:47afcb44bc4400611202f925c06084ecd607bf5272aa6eb14008e2bec39c31d4",
+          "sha256:bf81a4b391bb28e1f656e1a68d830c88ecbd68914fb7c89c4c76d454edde1596"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/velero"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:28bc553496d16eb48a663b74fa6a75f508485d2daddb2d45eba5d30fe6886723"
+      },
+      {
+        "Size": 550152704,
+        "DiffID": "sha256:41bbca0a8fd67c6b05c9d906bede697130a3d18e12851672d828da32704e2743"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:47afcb44bc4400611202f925c06084ecd607bf5272aa6eb14008e2bec39c31d4"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:bf81a4b391bb28e1f656e1a68d830c88ecbd68914fb7c89c4c76d454edde1596"
+      }
+    ]
+  }
+}

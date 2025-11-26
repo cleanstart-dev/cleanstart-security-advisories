@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T06:22:43.350632344Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/nfs-subdir-external-provisioner-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/nfs-subdir-external-provisioner-fips/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

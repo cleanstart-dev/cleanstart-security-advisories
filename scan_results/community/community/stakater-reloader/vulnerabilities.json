@@ -1,0 +1,141 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:35:12.995037241Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/stakater-reloader:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 476562432,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:75c8e36a01ac2eb5b6e9f3a7ad008379ad41d23a1b9c4931f5c3402ca4236ea4",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:b0da440444a5364798fd8764f13543a06cdf63652e037f33daf5ad834a86099d",
+      "sha256:e44315ae15883e1bd6f2bd0481cd723ba3a324b2108ed5a02e61a7cfc450e1e0",
+      "sha256:cc529fe81b3aee93dea8f2839f4bb80554f1e3fe77c763ae2a7221c4043826dd",
+      "sha256:2171bac7984e5748d633f9e295c1309bfc221b979311f0058d543f7bbd12f545"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/stakater-reloader:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/stakater-reloader@sha256:71146c6c6bb9760fc770fff3f55a33e8c41acbf70f0cf99b2a00b7758127d853"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T05:35:27.037443369Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T05:34:50Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:35:25Z",
+          "created_by": "RUN /bin/sh -c apk add ca-certificates-bundle glibc-clnstrt=2.41-r0 stakater-reloader=1.4.8-r0 stakater-reloader-compat=1.4.8-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:35:26Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/Reloader\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "LABEL Cleanstart.main.package=stakater-reloader",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:35:27Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:b0da440444a5364798fd8764f13543a06cdf63652e037f33daf5ad834a86099d",
+          "sha256:e44315ae15883e1bd6f2bd0481cd723ba3a324b2108ed5a02e61a7cfc450e1e0",
+          "sha256:cc529fe81b3aee93dea8f2839f4bb80554f1e3fe77c763ae2a7221c4043826dd",
+          "sha256:2171bac7984e5748d633f9e295c1309bfc221b979311f0058d543f7bbd12f545"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/Reloader"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "stakater-reloader",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:b0da440444a5364798fd8764f13543a06cdf63652e037f33daf5ad834a86099d"
+      },
+      {
+        "Size": 454568448,
+        "DiffID": "sha256:e44315ae15883e1bd6f2bd0481cd723ba3a324b2108ed5a02e61a7cfc450e1e0"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:cc529fe81b3aee93dea8f2839f4bb80554f1e3fe77c763ae2a7221c4043826dd"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:2171bac7984e5748d633f9e295c1309bfc221b979311f0058d543f7bbd12f545"
+      }
+    ]
+  }
+}

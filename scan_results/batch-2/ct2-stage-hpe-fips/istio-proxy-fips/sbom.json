@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T05:43:04.650076422Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/istio-proxy-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/istio-proxy-fips/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

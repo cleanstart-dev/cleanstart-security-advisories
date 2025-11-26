@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:00:29.414864256Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-state-metrics:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 481151488,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:8cd8ce556683c75ffe3a2e6892b8a6fc039a525f00e0cec90ee8a962d45dca59",
+    "DiffIDs": [
+      "sha256:945d78685c80df6159f5c33fa2678cad4c52f690d25db195cc82fe36eaa8d54c",
+      "sha256:5b25c5ed83acafbd01f753b05acfcfc05fde91229346067fbf0fa73954ea24d2",
+      "sha256:3fe6b5fe8b8c65040ae569476f7863e03bbc59f66e3b895f49e123e838f9813d",
+      "sha256:8fcfe3059fab0b7f91fc846c015b1d4a14d09284e74f5a42cfe04e0de1ccaf11",
+      "sha256:c1bb61ebe3be6a76a0c8c82a9b449b8e4f45e04e2e7eb0fa37ec258017b01e7c"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-state-metrics:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-state-metrics@sha256:1e658a3ca7e290786db15e5c17ace2c9df39307e18052e89794299846ee62d80"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-08-25T09:30:05.445561952Z",
+      "history": [
+        {
+          "created": "2025-08-21T15:37:37Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-08-25T09:29:21Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-25T09:30:04Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 kube-state-metrics=2.16.0-r3 clnstrt-dev-base curl=8.15.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-25T09:30:05Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-25T09:30:05Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-25T09:30:05Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-25T09:30:05Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-25T09:30:05Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/kube-state-metrics\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:945d78685c80df6159f5c33fa2678cad4c52f690d25db195cc82fe36eaa8d54c",
+          "sha256:5b25c5ed83acafbd01f753b05acfcfc05fde91229346067fbf0fa73954ea24d2",
+          "sha256:3fe6b5fe8b8c65040ae569476f7863e03bbc59f66e3b895f49e123e838f9813d",
+          "sha256:8fcfe3059fab0b7f91fc846c015b1d4a14d09284e74f5a42cfe04e0de1ccaf11",
+          "sha256:c1bb61ebe3be6a76a0c8c82a9b449b8e4f45e04e2e7eb0fa37ec258017b01e7c"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/kube-state-metrics"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21451776,
+        "DiffID": "sha256:945d78685c80df6159f5c33fa2678cad4c52f690d25db195cc82fe36eaa8d54c"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:5b25c5ed83acafbd01f753b05acfcfc05fde91229346067fbf0fa73954ea24d2"
+      },
+      {
+        "Size": 459206144,
+        "DiffID": "sha256:3fe6b5fe8b8c65040ae569476f7863e03bbc59f66e3b895f49e123e838f9813d"
+      },
+      {
+        "Size": 479232,
+        "DiffID": "sha256:8fcfe3059fab0b7f91fc846c015b1d4a14d09284e74f5a42cfe04e0de1ccaf11"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:c1bb61ebe3be6a76a0c8c82a9b449b8e4f45e04e2e7eb0fa37ec258017b01e7c"
+      }
+    ]
+  }
+}

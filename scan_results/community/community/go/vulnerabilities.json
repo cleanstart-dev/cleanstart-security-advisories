@@ -1,0 +1,143 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:45:21.142241659Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/go:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 639306752,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:a18095fa2c3a55b035e1a80da0256bfb96352ec0abfd874e6c5b0177cffb6d51",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:e9daea68b0eba4383e69af8621dd74ccac1d10835e0e1a2755a3ab459a917ee8",
+      "sha256:fc1f15879da45561e51be7e4d06c5bcc923b3df0267f0f6d884a301ae42fe647",
+      "sha256:0955ae42806b6e86c1b30417b70aeaaecc4b3f8145057df0d79476667fe455e4",
+      "sha256:612ae9fe737cafc5b181f04ee69bb69981c4dc1c79289ee0179354ad91da3089",
+      "sha256:cf9009f5874730b26177a65b7c8bffa4f7861847495df3dac718d720acb6f346"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/go:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/go@sha256:da90a3fb5df137b327e0a7455c9497677f99fdc2ce2132221eaf5d30715cfae7"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T02:18:28.160861653Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T02:18:26Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 glibc-clnstrt-i18n clnstrt-dev-base bash binutils cyrus-sasl gcc gdbm git gmp heimdal-libs isl-dev keyutils-libs krb5-conf krb5-libs libatomic brotli-dev brotli-libs libcom_err libevent libexpat libgcc libgomp libidn2 libldap libpsl libstdc++ libstdc++-dev libunistring libverto libxcrypt zstd-libs zstd-dev linux-headers make mpc1 mpfr4 mpfr-dev ncurses ncurses-terminfo-base pkgconf readline sqlite-libs wget nghttp2-libs curl libcurl curl-dev go1.24=1.24.6-r0 glibc-clnstrt-dev # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:18:26Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:18:27Z",
+          "created_by": "RUN /bin/sh -c ln -snf /usr/lib/go1.24/bin/go /usr/bin/go \u0026\u0026     mkdir -p /usr/lib/go_workspace/src /usr/lib/go_workspace/bin /usr/lib/go_workspace/pkg \u0026\u0026     echo 'export GOROOT=/usr/lib/go1.24' \u003e\u003e /etc/profile \u0026\u0026     echo 'export PATH=\"$GOROOT/bin:$PATH\"' \u003e\u003e /etc/profile # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:18:27Z",
+          "created_by": "ENV GOROOT=/usr/lib/go1.24 GOPATH=/usr/lib/go_workspace",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T02:18:27Z",
+          "created_by": "RUN /bin/sh -c ln -snf ../..$GOROOT/bin/go  /usr/bin/go # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:18:28Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T02:18:28Z",
+          "created_by": "ENV GODEBUG=tarinsecurepath=0,zipinsecurepath=3.0.9-r5 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/go1.24/bin:/usr/lib/go_workspace/bin PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt GOTOOLCHAIN=local+auto GOPROXY=https://proxy.golang.org,direct",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T02:18:28Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/go\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T02:18:28Z",
+          "created_by": "CMD [\"help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:e9daea68b0eba4383e69af8621dd74ccac1d10835e0e1a2755a3ab459a917ee8",
+          "sha256:fc1f15879da45561e51be7e4d06c5bcc923b3df0267f0f6d884a301ae42fe647",
+          "sha256:0955ae42806b6e86c1b30417b70aeaaecc4b3f8145057df0d79476667fe455e4",
+          "sha256:612ae9fe737cafc5b181f04ee69bb69981c4dc1c79289ee0179354ad91da3089",
+          "sha256:cf9009f5874730b26177a65b7c8bffa4f7861847495df3dac718d720acb6f346"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/go"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "GOROOT=/usr/lib/go1.24",
+          "GOPATH=/usr/lib/go_workspace",
+          "GODEBUG=tarinsecurepath=0,zipinsecurepath=3.0.9-r5",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "GOTOOLCHAIN=local+auto",
+          "GOPROXY=https://proxy.golang.org,direct"
+        ],
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 617011200,
+        "DiffID": "sha256:e9daea68b0eba4383e69af8621dd74ccac1d10835e0e1a2755a3ab459a917ee8"
+      },
+      {
+        "Size": 754688,
+        "DiffID": "sha256:fc1f15879da45561e51be7e4d06c5bcc923b3df0267f0f6d884a301ae42fe647"
+      },
+      {
+        "Size": 7680,
+        "DiffID": "sha256:0955ae42806b6e86c1b30417b70aeaaecc4b3f8145057df0d79476667fe455e4"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:612ae9fe737cafc5b181f04ee69bb69981c4dc1c79289ee0179354ad91da3089"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:cf9009f5874730b26177a65b7c8bffa4f7861847495df3dac718d720acb6f346"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:33:02.76201697Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/sqlite3:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 422484992,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:3474a446a4a93cd896f3534891ecf6d37ecb19dbd1df31bf6caf17e69dda473b",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:83e9aa619139474013b4e2a845e563f9c6553af99aedca0804498f1fea27e50c",
+      "sha256:ed31c55a13fe90b7c887a666cce3ce1513996392ed0033b4692f8732e113e7bf",
+      "sha256:806b4e0347a2179e73f7ae189d6a04d0323b7365ea912f2db6ea74dfad566978",
+      "sha256:f950e3621c032bedb32863e8c92e1c4842b15178cac7f072da06304d8fd8f3af"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/sqlite3:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/sqlite3@sha256:80acea80d7e074f09e95d1ea0793a5bc3386acc092f992c7c7f54849b4743043"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T05:27:22.982430504Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T05:26:58Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "RUN /bin/sh -c apk add glibc-clnstrt=2.41-r0 ca-certificates-bundle sqlite=3.50.4-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/sqlite3\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "LABEL Cleanstart.main.package=sqlite3",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:27:22Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:83e9aa619139474013b4e2a845e563f9c6553af99aedca0804498f1fea27e50c",
+          "sha256:ed31c55a13fe90b7c887a666cce3ce1513996392ed0033b4692f8732e113e7bf",
+          "sha256:806b4e0347a2179e73f7ae189d6a04d0323b7365ea912f2db6ea74dfad566978",
+          "sha256:f950e3621c032bedb32863e8c92e1c4842b15178cac7f072da06304d8fd8f3af"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/sqlite3"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "sqlite3",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:83e9aa619139474013b4e2a845e563f9c6553af99aedca0804498f1fea27e50c"
+      },
+      {
+        "Size": 400491520,
+        "DiffID": "sha256:ed31c55a13fe90b7c887a666cce3ce1513996392ed0033b4692f8732e113e7bf"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:806b4e0347a2179e73f7ae189d6a04d0323b7365ea912f2db6ea74dfad566978"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:f950e3621c032bedb32863e8c92e1c4842b15178cac7f072da06304d8fd8f3af"
+      }
+    ]
+  }
+}

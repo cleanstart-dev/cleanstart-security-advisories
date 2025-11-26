@@ -1,0 +1,151 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:36:40.347911196Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/step-cli:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 464556032,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:d46a88481852c61669041382acb4d18832aab9dc363110504aa8b21d62061454",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:3b317bcf23bb0518da0cc9e60621302128a9fa997f9ec0a8a8fd69db00bd8980",
+      "sha256:40a23b195d4f2924dfc1b72193379faf7c87ddc37f93ec8ae907fd59742212da",
+      "sha256:eeb2f45efcc06795dbed997c2cef344a561a4bf561f3cf75276a63167917952b",
+      "sha256:d9d30d93f54545ed774dd71d892d64e5bae5dbfc27e6a955bcb26767d9c60c7c"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/step-cli:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/step-cli@sha256:22011b298b4d64a4aa745674bacb58708dd5e6ee67f9f6de66d9fe2f4c3541cb"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-27T08:52:28.138074423Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-27T08:52:03Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-27T08:52:27Z",
+          "created_by": "RUN /bin/sh -c apk add ca-certificates-bundle glibc-clnstrt=2.41-r0 step-cli=0.28.7-r1 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-27T08:52:27Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "ENTRYPOINT [\"./step\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "CMD [\"--help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "LABEL Cleanstart.main.package=step-cli",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-27T08:52:28Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:3b317bcf23bb0518da0cc9e60621302128a9fa997f9ec0a8a8fd69db00bd8980",
+          "sha256:40a23b195d4f2924dfc1b72193379faf7c87ddc37f93ec8ae907fd59742212da",
+          "sha256:eeb2f45efcc06795dbed997c2cef344a561a4bf561f3cf75276a63167917952b",
+          "sha256:d9d30d93f54545ed774dd71d892d64e5bae5dbfc27e6a955bcb26767d9c60c7c"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--help"
+        ],
+        "Entrypoint": [
+          "./step"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "step-cli",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:3b317bcf23bb0518da0cc9e60621302128a9fa997f9ec0a8a8fd69db00bd8980"
+      },
+      {
+        "Size": 442562560,
+        "DiffID": "sha256:40a23b195d4f2924dfc1b72193379faf7c87ddc37f93ec8ae907fd59742212da"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:eeb2f45efcc06795dbed997c2cef344a561a4bf561f3cf75276a63167917952b"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:d9d30d93f54545ed774dd71d892d64e5bae5dbfc27e6a955bcb26767d9c60c7c"
+      }
+    ]
+  }
+}

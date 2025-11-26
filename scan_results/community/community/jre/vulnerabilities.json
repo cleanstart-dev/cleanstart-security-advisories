@@ -1,0 +1,132 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:56:40.945658042Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/jre:24.0.2_p12-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 799769088,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:ffebe0a41c875d833d7a06bb1be89e520df31c49ab9c1623fc5be5df712b7b51",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:d84eb03a40fd2018feea8edf3a6fb91083e5b95e0e3bcd0a387ef4c40b70bc5d",
+      "sha256:c8ea6969dddfcac1430ed56ef0c743948675019ddd00d0ff29ce35f7fe2a2191",
+      "sha256:36f997d4ba9d32582556836d70adb46d5c72a22c581f08701d53ca2bfccaae54",
+      "sha256:ad2b1748fb470e87b32f423bb14c8b7326dba5d0fd6091a91f40f86f67aa7318",
+      "sha256:7ce9904d41dcce6c5fa0cf03c58293b6fba0dc62e31396df5b2b3f1462987eb7"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/jre:24.0.2_p12-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/jre@sha256:9ca578de97d1d0f3a9fb9ad5b0341bfcfa247b0dfab90f4c9a554a072a3100a2"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-11-17T00:47:38.138433815Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-11-17T00:47:06Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T00:47:37Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  glibc-clnstrt=2.41-r0 clnstrt-dev-base openjdk24=24.0.2_p12-r0 openjdk24-jre=24.0.2_p12-r0 maven alsa-lib fontconfig libpng freetype giflib libffi libtasn1 p11-kit p11-kit-trust     java-cacerts java-common  libjpeg-turbo libxau libxdmcp libxcb libx11 libxext libxi libxrender libxtst font-dejavu openjdk24-jmods openssl-dev libcrypto3 libssl3 openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T00:47:37Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T00:47:38Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T00:47:38Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/default-jvm LANG=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T00:47:38Z",
+          "created_by": "WORKDIR /app",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-17T00:47:38Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-17T00:47:38Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/java\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:d84eb03a40fd2018feea8edf3a6fb91083e5b95e0e3bcd0a387ef4c40b70bc5d",
+          "sha256:c8ea6969dddfcac1430ed56ef0c743948675019ddd00d0ff29ce35f7fe2a2191",
+          "sha256:36f997d4ba9d32582556836d70adb46d5c72a22c581f08701d53ca2bfccaae54",
+          "sha256:ad2b1748fb470e87b32f423bb14c8b7326dba5d0fd6091a91f40f86f67aa7318",
+          "sha256:7ce9904d41dcce6c5fa0cf03c58293b6fba0dc62e31396df5b2b3f1462987eb7"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/java"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "LANG=en_US.UTF-8",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/app"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:d84eb03a40fd2018feea8edf3a6fb91083e5b95e0e3bcd0a387ef4c40b70bc5d"
+      },
+      {
+        "Size": 777672192,
+        "DiffID": "sha256:c8ea6969dddfcac1430ed56ef0c743948675019ddd00d0ff29ce35f7fe2a2191"
+      },
+      {
+        "Size": 552960,
+        "DiffID": "sha256:36f997d4ba9d32582556836d70adb46d5c72a22c581f08701d53ca2bfccaae54"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:ad2b1748fb470e87b32f423bb14c8b7326dba5d0fd6091a91f40f86f67aa7318"
+      },
+      {
+        "Size": 2048,
+        "DiffID": "sha256:7ce9904d41dcce6c5fa0cf03c58293b6fba0dc62e31396df5b2b3f1462987eb7"
+      }
+    ]
+  }
+}

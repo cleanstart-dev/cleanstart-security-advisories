@@ -1,0 +1,149 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:15:57.875235607Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-repo-server:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 688966144,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:15e8984a3c9ae1851c1a846ddf4984913384016cebc1709a8fda4631dbe40a66",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:35c853a1b25f0cc8c4a04bc93874e0b2adfe201b7a701570f9c036cd83fb2ead",
+      "sha256:30e4616e19848dcb03ca7137b4691b07425f9e2a22bb0f17751ce5fefabff63d",
+      "sha256:c4c3ec6655f52d12ee99e51dd412bb9fbcf8a0db3a77f53a38e56bdea931c3c5",
+      "sha256:c71368fb1fb67e9caddf6788a5065042f782db2b5ca253e5fcb4a4574bbf035e",
+      "sha256:c15e7bd32a72df9dc012a6a6d5149077c4721d82cfdf17fbc19d34cdaf071bc3",
+      "sha256:cbf78487a24836af0e19251f31b87e3aade927c0fc7cca59dd38bfe957f40836"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-repo-server:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-repo-server@sha256:de8d4ceb17fab923717dbb2d22f89e8a4a51a60f4d334f3e872f7d41e44c0185"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:22:36.776496929Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:21:58Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:35Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 argo-cd-repo-server=3.0.12-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:35Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /app/config/gpg/keys /app/config/gpg/source \u0026\u0026 chown -R clnstrt:clngroup /app/config # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "RUN /bin/sh -c ln -sn /usr/bin/argocd-repo-server /usr/local/bin/argocd-repo-server # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "WORKDIR /home/argocd",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:22:36Z",
+          "created_by": "ENTRYPOINT [\"/usr/local/bin/argocd-repo-server\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:35c853a1b25f0cc8c4a04bc93874e0b2adfe201b7a701570f9c036cd83fb2ead",
+          "sha256:30e4616e19848dcb03ca7137b4691b07425f9e2a22bb0f17751ce5fefabff63d",
+          "sha256:c4c3ec6655f52d12ee99e51dd412bb9fbcf8a0db3a77f53a38e56bdea931c3c5",
+          "sha256:c71368fb1fb67e9caddf6788a5065042f782db2b5ca253e5fcb4a4574bbf035e",
+          "sha256:c15e7bd32a72df9dc012a6a6d5149077c4721d82cfdf17fbc19d34cdaf071bc3",
+          "sha256:cbf78487a24836af0e19251f31b87e3aade927c0fc7cca59dd38bfe957f40836"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/local/bin/argocd-repo-server"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/home/argocd"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:35c853a1b25f0cc8c4a04bc93874e0b2adfe201b7a701570f9c036cd83fb2ead"
+      },
+      {
+        "Size": 668492288,
+        "DiffID": "sha256:30e4616e19848dcb03ca7137b4691b07425f9e2a22bb0f17751ce5fefabff63d"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:c4c3ec6655f52d12ee99e51dd412bb9fbcf8a0db3a77f53a38e56bdea931c3c5"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:c71368fb1fb67e9caddf6788a5065042f782db2b5ca253e5fcb4a4574bbf035e"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:c15e7bd32a72df9dc012a6a6d5149077c4721d82cfdf17fbc19d34cdaf071bc3"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:cbf78487a24836af0e19251f31b87e3aade927c0fc7cca59dd38bfe957f40836"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/community-dev/argocd-repo-server:latest-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

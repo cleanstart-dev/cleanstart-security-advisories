@@ -1,0 +1,141 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:51:52.898506076Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/velero-restore-helper:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 573904896,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:17517d9191d0b7b292b9d454b1e2c06aa3c24f0ad6b9e45aa0dde3791ebb1be7",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:6a985807193fecad51538152eb5a1b1e1c42825be0e7f92afeed5d2595385fc2",
+      "sha256:e9957d28c71fef2129ef2098c75557ca79e2d1d3916553ef87476ee0114fd6df",
+      "sha256:aece5001aa2ac7ed40e7f2c5d2111ed7059b9e49351efaa209ca86b390f89bea",
+      "sha256:758a93e18d953bf5d7c3588bc6c166d5e95ed0a63f38ecf7bda3c9abb73f8437"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/velero-restore-helper:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/velero-restore-helper@sha256:152c10ae39a114efb3c21111626dd3142bf03a00305a73c18f352f02659a2600"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T06:52:02.642145669Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T06:51:37Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:52:01Z",
+          "created_by": "RUN /bin/sh -c apk add     ca-certificates-bundle     glibc-clnstrt=2.41-r0     velero-restore-helper=1.16.2-r0     velero=1.16.2-r0     restic     clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/velero-restore-helper\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "LABEL Cleanstart.main.package=velero-restore-helper",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:52:02Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:6a985807193fecad51538152eb5a1b1e1c42825be0e7f92afeed5d2595385fc2",
+          "sha256:e9957d28c71fef2129ef2098c75557ca79e2d1d3916553ef87476ee0114fd6df",
+          "sha256:aece5001aa2ac7ed40e7f2c5d2111ed7059b9e49351efaa209ca86b390f89bea",
+          "sha256:758a93e18d953bf5d7c3588bc6c166d5e95ed0a63f38ecf7bda3c9abb73f8437"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/velero-restore-helper"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "velero-restore-helper",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:6a985807193fecad51538152eb5a1b1e1c42825be0e7f92afeed5d2595385fc2"
+      },
+      {
+        "Size": 551910400,
+        "DiffID": "sha256:e9957d28c71fef2129ef2098c75557ca79e2d1d3916553ef87476ee0114fd6df"
+      },
+      {
+        "Size": 452608,
+        "DiffID": "sha256:aece5001aa2ac7ed40e7f2c5d2111ed7059b9e49351efaa209ca86b390f89bea"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:758a93e18d953bf5d7c3588bc6c166d5e95ed0a63f38ecf7bda3c9abb73f8437"
+      }
+    ]
+  }
+}

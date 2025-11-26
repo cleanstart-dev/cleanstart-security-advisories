@@ -1,0 +1,230 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T05:25:29.269531799Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-portal-fips:2.13.2-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 238477312,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:1818231944814f2f645069fd13fafa13712d9bbcc48fb5b2c90438bab9cc8905",
+    "DiffIDs": [
+      "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+      "sha256:3761919584a76a0250772e5974d43cd86675d591fe7e0ab621e678a4341541e0",
+      "sha256:59d0dfdcdbe75a79a74e78b14accd5278478be170d2bb495fd83f3c1382876c6",
+      "sha256:8917c67f267291fef433196d9b011b863f324b7f290cab049451c8b6fd6bf906",
+      "sha256:ad88c3ed2107947bdcd0af0a2270a67cf05e51e5bb8f2d5c891bebb82eae0958",
+      "sha256:04de5c280836c4cb713cc2cc531773ccfd4c8673e9bc40ae5bf65e63ad61f50f",
+      "sha256:13199f39d75d93037308efd158c8d94d17b7e0be9d97d2463c4c2561723bb183",
+      "sha256:9ab9440b14045af43abf8b1e242718f4d1d41161d048baadea5f91355e68ca9c",
+      "sha256:04d6ed22ad7b311110c3013166f50c57df160ef7c4e60a44883c28825d5fe0e4",
+      "sha256:e2c7eac73a058f4c98f4f3fc5102e194bb227bdec1fd8f19872d8ceebf808ccd",
+      "sha256:e5c75c95a128171f6f9296c43c3c84fe19144c3c1f966340fc4b1e7a3f4071de"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-portal-fips:2.13.2-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-portal-fips@sha256:95acc76fc7864c65b4c727861dde5a793363c5483a5f107e683d9a1996faab00"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-24T12:40:53.105731854Z",
+      "history": [
+        {
+          "created": "2025-08-11T06:58:13Z"
+        },
+        {
+          "created": "2025-09-24T12:40:13Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:45Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base-hpe harbor-fips-portal=2.13.2-r0 harbor-fips-portal-nginx-config=2.13.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:46Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:47Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:47Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:48Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:49Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:52Z",
+          "created_by": "RUN /bin/sh -c chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:52Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /var/lib/nginx/tmp/client_body \\ /var/lib/nginx/tmp/proxy_temp /var/lib/nginx/tmp/fastcgi_temp /var/lib/nginx/tmp/uwsgi_temp /var/lib/nginx/tmp/scgi_temp /var/cache/nginx /var/log/nginx /run/nginx \u0026\u0026     chown -R clnstrt:clngroup /var/lib/nginx /var/cache/nginx /var/log/nginx /run/nginx \u0026\u0026     chmod -R 755 /var/lib/nginx /var/cache/nginx /var/log/nginx /run/nginx \u0026\u0026     sed -i '/^user nginx;/d' /etc/nginx/nginx.conf \u0026\u0026     echo \"error_log /dev/stderr debug; \" \u003e\u003e /etc/nginx/nginx.conf # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "WORKDIR /",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "ENTRYPOINT [\"nginx\" \"-g\" \"daemon off;\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "LABEL Cleanstart.main.package=harbor-fips-portal",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-24T12:40:53Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+          "sha256:3761919584a76a0250772e5974d43cd86675d591fe7e0ab621e678a4341541e0",
+          "sha256:59d0dfdcdbe75a79a74e78b14accd5278478be170d2bb495fd83f3c1382876c6",
+          "sha256:8917c67f267291fef433196d9b011b863f324b7f290cab049451c8b6fd6bf906",
+          "sha256:ad88c3ed2107947bdcd0af0a2270a67cf05e51e5bb8f2d5c891bebb82eae0958",
+          "sha256:04de5c280836c4cb713cc2cc531773ccfd4c8673e9bc40ae5bf65e63ad61f50f",
+          "sha256:13199f39d75d93037308efd158c8d94d17b7e0be9d97d2463c4c2561723bb183",
+          "sha256:9ab9440b14045af43abf8b1e242718f4d1d41161d048baadea5f91355e68ca9c",
+          "sha256:04d6ed22ad7b311110c3013166f50c57df160ef7c4e60a44883c28825d5fe0e4",
+          "sha256:e2c7eac73a058f4c98f4f3fc5102e194bb227bdec1fd8f19872d8ceebf808ccd",
+          "sha256:e5c75c95a128171f6f9296c43c3c84fe19144c3c1f966340fc4b1e7a3f4071de"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "nginx",
+          "-g",
+          "daemon off;"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "harbor-fips-portal",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "WorkingDir": "/",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 25108480,
+        "DiffID": "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:3761919584a76a0250772e5974d43cd86675d591fe7e0ab621e678a4341541e0"
+      },
+      {
+        "Size": 128851968,
+        "DiffID": "sha256:59d0dfdcdbe75a79a74e78b14accd5278478be170d2bb495fd83f3c1382876c6"
+      },
+      {
+        "Size": 279040,
+        "DiffID": "sha256:8917c67f267291fef433196d9b011b863f324b7f290cab049451c8b6fd6bf906"
+      },
+      {
+        "Size": 10485248,
+        "DiffID": "sha256:ad88c3ed2107947bdcd0af0a2270a67cf05e51e5bb8f2d5c891bebb82eae0958"
+      },
+      {
+        "Size": 2183680,
+        "DiffID": "sha256:04de5c280836c4cb713cc2cc531773ccfd4c8673e9bc40ae5bf65e63ad61f50f"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:13199f39d75d93037308efd158c8d94d17b7e0be9d97d2463c4c2561723bb183"
+      },
+      {
+        "Size": 1092096,
+        "DiffID": "sha256:9ab9440b14045af43abf8b1e242718f4d1d41161d048baadea5f91355e68ca9c"
+      },
+      {
+        "Size": 70432768,
+        "DiffID": "sha256:04d6ed22ad7b311110c3013166f50c57df160ef7c4e60a44883c28825d5fe0e4"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:e2c7eac73a058f4c98f4f3fc5102e194bb227bdec1fd8f19872d8ceebf808ccd"
+      },
+      {
+        "Size": 22016,
+        "DiffID": "sha256:e5c75c95a128171f6f9296c43c3c84fe19144c3c1f966340fc4b1e7a3f4071de"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-portal-fips:2.13.2-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

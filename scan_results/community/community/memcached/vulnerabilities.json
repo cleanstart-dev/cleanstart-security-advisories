@@ -1,0 +1,107 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:09:34.412276411Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/memcached:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 56519680,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:22338c2f78d873cd4571147e10a1b2c4c53b6d6012cde9ab84ba7e67aa7f8a37",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:20afef71a90b7682a1b739a3da745938519f4869281de196e812bb507e8977ff",
+      "sha256:1bf449775c6675db7075164565d01ab4d5b8e4009332a1be964acafea0945f4b",
+      "sha256:bd87ce3283a3b93b598787f0a313262060e8ddc62aa3be82ca08d96f15f7faa1"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/memcached:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/memcached@sha256:73007a25a160b304741395597a6a2984ab8fece96ae41ed4620b0693f6962f7e"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T03:37:07.32926817Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T03:37:05Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:37:06Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add apk-tools glibc-clnstrt=2.41-r0 expat=2.7.0-r0 cyrus-sasl bash ca-certificates-bundle ncurses-terminfo-base busybox gdbm git heimdal-libs keyutils krb5-conf krb5-libs brotli libcom_err libxcrypt libcrypto3=3.5.2-r0 libcurl libevent libexpat libgcc libidn2 libldap nghttp2 pcre2 libpsl libseccomp libssl3=3.5.2-r0 libunistring libverto libxcrypt memcached=1.6.39-r0 ncurses readline sqlite wget zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:37:07Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:37:07Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:37:07Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:37:07Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/memcached\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:20afef71a90b7682a1b739a3da745938519f4869281de196e812bb507e8977ff",
+          "sha256:1bf449775c6675db7075164565d01ab4d5b8e4009332a1be964acafea0945f4b",
+          "sha256:bd87ce3283a3b93b598787f0a313262060e8ddc62aa3be82ca08d96f15f7faa1"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/memcached"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:20afef71a90b7682a1b739a3da745938519f4869281de196e812bb507e8977ff"
+      },
+      {
+        "Size": 34977792,
+        "DiffID": "sha256:1bf449775c6675db7075164565d01ab4d5b8e4009332a1be964acafea0945f4b"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:bd87ce3283a3b93b598787f0a313262060e8ddc62aa3be82ca08d96f15f7faa1"
+      }
+    ]
+  }
+}

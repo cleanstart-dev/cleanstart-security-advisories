@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:16:08.643807215Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/community/community/argocd-repo-server/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/community/community/argocd-repo-server/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

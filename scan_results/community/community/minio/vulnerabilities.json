@@ -1,0 +1,107 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:15:30.283579518Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/minio:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 545621504,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:9b59b469c75ef3499b8d3e3f11874e33576e9f7184a359e7347b738701f20b30",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:cc0db99fae031026ffb764348f98549a498256a2f98ce113d9fe9698f1672962",
+      "sha256:518b033dd3d2e29162507464c117c5af2ca54f91df39c2cdd192fdeeac588a5d",
+      "sha256:ba50b522a2280412687b12346a87c0e30b34089f6118bc7b3ae0ffb57c961d4e"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/minio:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/minio@sha256:58eb3d681932a66b3b480c706d8f2b9ce8b61fa2b9556bbaaa7e82aa5d3979aa"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T04:04:46.482209191Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T04:04:22Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:04:45Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 minio=0.20250907.161309-r0 bash clnstrt-dev-base minio libattr attr libacl acl coreutils attr-dev coreutils acl-dev openssl-dev libcrypto3 libssl3 openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:04:46Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:04:46Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:04:46Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:04:46Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/minio\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:cc0db99fae031026ffb764348f98549a498256a2f98ce113d9fe9698f1672962",
+          "sha256:518b033dd3d2e29162507464c117c5af2ca54f91df39c2cdd192fdeeac588a5d",
+          "sha256:ba50b522a2280412687b12346a87c0e30b34089f6118bc7b3ae0ffb57c961d4e"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/minio"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:cc0db99fae031026ffb764348f98549a498256a2f98ce113d9fe9698f1672962"
+      },
+      {
+        "Size": 523614720,
+        "DiffID": "sha256:518b033dd3d2e29162507464c117c5af2ca54f91df39c2cdd192fdeeac588a5d"
+      },
+      {
+        "Size": 467968,
+        "DiffID": "sha256:ba50b522a2280412687b12346a87c0e30b34089f6118bc7b3ae0ffb57c961d4e"
+      }
+    ]
+  }
+}

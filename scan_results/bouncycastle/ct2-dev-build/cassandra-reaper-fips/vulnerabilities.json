@@ -1,0 +1,1685 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T01:23:14.237018723Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/cassandra-reaper-fips:3.6.1-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 1387308544,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:6f31fe97d0b713b8c6d98ea13651c74c23a0225592aa03018caf166d1160a269",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:82639d5bfb5fd6e73337934c726a83da56e6fcb38b9553d826298ebd57631f9f",
+      "sha256:cfa0d6916336217f10c4bd2f6461c89ed42ef9f6a1f619ad20a4fd3eeba43fe2",
+      "sha256:88bd52559e4c4f3b7a52bf19ca07b08a079d48baf764503c8b2c4c0b5952f898",
+      "sha256:78fc618f461fcafb2eefd85e62b06d8f707b37625613f4336f4dfb99cb6c0ce0",
+      "sha256:24ea25240d255ffca86db0ce4cdb8beb90833b8ab07f91673a34f3fd30135ddf",
+      "sha256:c2d694b4fe6a1515ddf38f91c388c16581b24fc4943427e6cc610ca895e5f3c9",
+      "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc",
+      "sha256:133a8868df0773021b74f14f8dabaa6be17a6057c10a7ef1fac910aa89b7c180",
+      "sha256:86252c518aecefd913d14f73b36e3471d4386638db53447011dd4ca1b20ae8af",
+      "sha256:909c1e82783e30955a58d76104631b6ec1e50ba083ebf772e132af2da5833b50",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/cassandra-reaper-fips:3.6.1-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/cassandra-reaper-fips@sha256:5c6d69c52298b61eca1b13a5a908d6fedcde6a8ab54c2f74b45bd9e3b092a4ea"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-30T13:29:23.40619112Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-30T13:28:24Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:03Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add libgcc clnstrt-dev-base glibc-clnstrt-i18n glibc-clnstrt=2.41-r0 cassandra-reaper-fips=3.6.1-r0 py3-requests=2.32.4-r0     openjdk17     libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl=3.5.0-r0 openssl-dev=3.5.0-r0 openssl-config-fipshardened=3.5.0-r0 openssl-provider-fips=3.0.9-r5 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:04Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:04Z",
+          "created_by": "RUN /bin/sh -c apk add bouncycastle-fips=2.1.0-r0 bouncycastle-pkix-fips=2.0.8-r0 bouncycastle-tls-fips=2.0.19-r0 bouncycastle-util-fips=2.0.3-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:05Z",
+          "created_by": "RUN /bin/sh -c apk upgrade \u0026\u0026     chmod +x /usr/lib/jvm/java-17-openjdk/bin/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:05Z",
+          "created_by": "ENV CLASSPATH=/usr/lib/cassandra-reaper.jar:/usr/lib/bouncycastle-fips/*:/usr/share/java/*",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:05Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on \u0026\u0026     ln -snf /usr/libexec/openssl-fips-provider/bin/openssl /usr/bin/openssl # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:06Z",
+          "created_by": "RUN /bin/sh -c find /usr -name \"openssl\" -type f -executable -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/bin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     find /usr -path \"*/sbin/openssl\" -type f -delete 2\u003e/dev/null || true \u0026\u0026     rm -f /usr/bin/openssl /usr/sbin/openssl /usr/local/bin/openssl /usr/local/sbin/openssl \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider/bin/ \u0026\u0026     which openssl \u0026\u0026 echo \"WARNING: OpenSSL still found!\" || echo \"OpenSSL binary successfully removed\" # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:20Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     chmod -R 755 /usr/lib/jvm/java-17-openjdk/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:21Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:22Z",
+          "created_by": "RUN /bin/sh -c echo \"=== Checking jar manifest ===\" \u0026\u0026     jar xf /usr/lib/cassandra-reaper.jar META-INF/MANIFEST.MF \u0026\u0026     cat META-INF/MANIFEST.MF \u0026\u0026     echo \"=== Checking spreaper script ===\" \u0026\u0026     cat /usr/bin/spreaper \u0026\u0026     echo \"=== Looking for main classes ===\" \u0026\u0026     jar tf /usr/lib/cassandra-reaper.jar | grep -E \"(Main|Application|Reaper).*\\.class$\" || echo \"No obvious main classes found\" # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /usr/local/bin /etc/cassandra-reaper/config \u0026\u0026     ln -s /usr/bin/configure-persistence.sh /usr/local/bin/ \u0026\u0026     ln -s /usr/bin/configure-webui-authentication.sh /usr/local/bin/ \u0026\u0026     ln -s /usr/bin/configure-metrics.sh /usr/local/bin/ \u0026\u0026     ln -s /usr/bin/configure-jmx-credentials.sh /usr/local/bin/ \u0026\u0026     cp /etc/cassandra-reaper/cassandra-reaper.yml /etc/cassandra-reaper/config/ \u0026\u0026     cp /etc/cassandra-reaper/shiro.ini /etc/cassandra-reaper/config/ \u0026\u0026     chown -R clnstrt:clngroup /etc/cassandra-reaper /usr/local/bin \u0026\u0026     chmod -R 755 /etc/cassandra-reaper \u0026\u0026     chmod +x /usr/bin/spreaper \u0026\u0026     chmod +x /usr/bin/configure-*.sh \u0026\u0026     find /usr/lib/jvm -name \"java\" -exec chmod +x {} \\; 2\u003e/dev/null || true # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "ENV PATH=/usr/lib/jvm/java-17-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt LANG=C.UTF-8 REAPER_AUTH_ENABLED=true REAPER_AUTH_PASSWORD= REAPER_AUTH_USER= REAPER_AUTO_SCHEDULING_ADAPTIVE=true REAPER_AUTO_SCHEDULING_ENABLED=false REAPER_AUTO_SCHEDULING_EXCLUDED_CLUSTERS=[] REAPER_AUTO_SCHEDULING_EXCLUDED_KEYSPACES=[] REAPER_AUTO_SCHEDULING_INCREMENTAL=false REAPER_AUTO_SCHEDULING_INITIAL_DELAY_PERIOD=PT15S REAPER_AUTO_SCHEDULING_PERCENT_UNREPAIRED_THRESHOLD=10 REAPER_AUTO_SCHEDULING_PERIOD_BETWEEN_POLLS=PT10M REAPER_AUTO_SCHEDULING_SCHEDULE_SPREAD_PERIOD=PT6H REAPER_AUTO_SCHEDULING_TIME_BEFORE_FIRST_SCHEDULE=PT5M REAPER_BLACKLIST_TWCS=false REAPER_CASS_ACTIVATE_QUERY_LOGGER=false REAPER_CASS_AUTH_ENABLED=false REAPER_CASS_AUTH_PASSWORD= REAPER_CASS_AUTH_USERNAME= REAPER_CASS_CLUSTER_NAME= REAPER_CASS_CONTACT_POINTS=[] REAPER_CASS_KEYSPACE=reaper_db REAPER_CASS_LOCAL_DC= REAPER_CASS_NATIVE_PROTOCOL_SSL_ENCRYPTION_ENABLED=false REAPER_CASS_PORT=9042 REAPER_DATACENTER_AVAILABILITY=ALL REAPER_DB_PASSWORD= REAPER_DB_URL= REAPER_DB_USERNAME= REAPER_ENABLE_CROSS_ORIGIN=true REAPER_ENABLE_DYNAMIC_SEED_LIST=true REAPER_HANGING_REPAIR_TIMEOUT_MINS=30 REAPER_HTTP_MANAGEMENT_ENABLE=false REAPER_HTTP_MANAGEMENT_KEYSTORE_PATH= REAPER_HTTP_MANAGEMENT_TRUSTSTORES_DIR= REAPER_HTTP_MANAGEMENT_TRUSTSTORE_PATH= REAPER_INCREMENTAL_REPAIR=false REAPER_JMXMP_ENABLED=false REAPER_JMXMP_SSL=false REAPER_JMX_AUTH_PASSWORD= REAPER_JMX_AUTH_USERNAME= REAPER_JMX_CONNECTION_TIMEOUT_IN_SECONDS=20 REAPER_JMX_CREDENTIALS= REAPER_JMX_PORTS={} REAPER_LOGGING_APPENDERS_CONSOLE_LOG_FORMAT=%-6level [%d] [%t] %logger{5} - %msg %n REAPER_LOGGING_APPENDERS_CONSOLE_THRESHOLD=INFO REAPER_LOGGING_LOGGERS={} REAPER_LOGGING_ROOT_LEVEL=INFO REAPER_MAX_PARALLEL_REPAIRS=2 REAPER_MAX_PENDING_COMPACTIONS=20 REAPER_MEMORY_STORAGE_DIRECTORY=/var/lib/cassandra-reaper/storage REAPER_METRICS_ENABLED=false REAPER_METRICS_FREQUENCY=1 minute REAPER_METRICS_REPORTERS=[] REAPER_MGMT_API_METRICS_PORT=9000 REAPER_REPAIR_INTENSITY=0.9 REAPER_REPAIR_MANAGER_SCHEDULING_INTERVAL_SECONDS=30 REAPER_REPAIR_PARALELLISM=DATACENTER_AWARE REAPER_REPAIR_RUN_THREADS=15 REAPER_SCHEDULE_DAYS_BETWEEN=7 REAPER_SEGMENT_COUNT_PER_NODE=64 REAPER_SERVER_ADMIN_BIND_HOST=0.0.0.0 REAPER_SERVER_ADMIN_PORT=8081 REAPER_SERVER_APP_BIND_HOST=0.0.0.0 REAPER_SERVER_APP_PORT=8080 REAPER_SHIRO_INI= REAPER_STORAGE_TYPE=memory REAPER_SUBRANGE_INCREMENTAL=false REAPER_TMP_DIRECTORY=/var/tmp/cassandra-reaper REAPER_USE_ADDRESS_TRANSLATOR=false",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "WORKDIR /home/clnstrt",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/spreaper\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "CMD [\"server\" \"/etc/cassandra-reaper/config/cassandra-reaper.yml\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "LABEL clnstrt.main.package=cassandra-reaper-fips=3.6.1-r0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T13:29:23Z",
+          "created_by": "LABEL image.vendor=cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:82639d5bfb5fd6e73337934c726a83da56e6fcb38b9553d826298ebd57631f9f",
+          "sha256:cfa0d6916336217f10c4bd2f6461c89ed42ef9f6a1f619ad20a4fd3eeba43fe2",
+          "sha256:88bd52559e4c4f3b7a52bf19ca07b08a079d48baf764503c8b2c4c0b5952f898",
+          "sha256:78fc618f461fcafb2eefd85e62b06d8f707b37625613f4336f4dfb99cb6c0ce0",
+          "sha256:24ea25240d255ffca86db0ce4cdb8beb90833b8ab07f91673a34f3fd30135ddf",
+          "sha256:c2d694b4fe6a1515ddf38f91c388c16581b24fc4943427e6cc610ca895e5f3c9",
+          "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc",
+          "sha256:133a8868df0773021b74f14f8dabaa6be17a6057c10a7ef1fac910aa89b7c180",
+          "sha256:86252c518aecefd913d14f73b36e3471d4386638db53447011dd4ca1b20ae8af",
+          "sha256:909c1e82783e30955a58d76104631b6ec1e50ba083ebf772e132af2da5833b50",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "server",
+          "/etc/cassandra-reaper/config/cassandra-reaper.yml"
+        ],
+        "Entrypoint": [
+          "/usr/bin/spreaper"
+        ],
+        "Env": [
+          "PATH=/usr/lib/jvm/java-17-openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "JAVA_HOME=/usr/lib/jvm/java-17-openjdk",
+          "CLASSPATH=/usr/lib/cassandra-reaper.jar:/usr/lib/bouncycastle-fips/*:/usr/share/java/*",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "LANG=C.UTF-8",
+          "REAPER_AUTH_ENABLED=true",
+          "REAPER_AUTH_PASSWORD=",
+          "REAPER_AUTH_USER=",
+          "REAPER_AUTO_SCHEDULING_ADAPTIVE=true",
+          "REAPER_AUTO_SCHEDULING_ENABLED=false",
+          "REAPER_AUTO_SCHEDULING_EXCLUDED_CLUSTERS=[]",
+          "REAPER_AUTO_SCHEDULING_EXCLUDED_KEYSPACES=[]",
+          "REAPER_AUTO_SCHEDULING_INCREMENTAL=false",
+          "REAPER_AUTO_SCHEDULING_INITIAL_DELAY_PERIOD=PT15S",
+          "REAPER_AUTO_SCHEDULING_PERCENT_UNREPAIRED_THRESHOLD=10",
+          "REAPER_AUTO_SCHEDULING_PERIOD_BETWEEN_POLLS=PT10M",
+          "REAPER_AUTO_SCHEDULING_SCHEDULE_SPREAD_PERIOD=PT6H",
+          "REAPER_AUTO_SCHEDULING_TIME_BEFORE_FIRST_SCHEDULE=PT5M",
+          "REAPER_BLACKLIST_TWCS=false",
+          "REAPER_CASS_ACTIVATE_QUERY_LOGGER=false",
+          "REAPER_CASS_AUTH_ENABLED=false",
+          "REAPER_CASS_AUTH_PASSWORD=",
+          "REAPER_CASS_AUTH_USERNAME=",
+          "REAPER_CASS_CLUSTER_NAME=",
+          "REAPER_CASS_CONTACT_POINTS=[]",
+          "REAPER_CASS_KEYSPACE=reaper_db",
+          "REAPER_CASS_LOCAL_DC=",
+          "REAPER_CASS_NATIVE_PROTOCOL_SSL_ENCRYPTION_ENABLED=false",
+          "REAPER_CASS_PORT=9042",
+          "REAPER_DATACENTER_AVAILABILITY=ALL",
+          "REAPER_DB_PASSWORD=",
+          "REAPER_DB_URL=",
+          "REAPER_DB_USERNAME=",
+          "REAPER_ENABLE_CROSS_ORIGIN=true",
+          "REAPER_ENABLE_DYNAMIC_SEED_LIST=true",
+          "REAPER_HANGING_REPAIR_TIMEOUT_MINS=30",
+          "REAPER_HTTP_MANAGEMENT_ENABLE=false",
+          "REAPER_HTTP_MANAGEMENT_KEYSTORE_PATH=",
+          "REAPER_HTTP_MANAGEMENT_TRUSTSTORES_DIR=",
+          "REAPER_HTTP_MANAGEMENT_TRUSTSTORE_PATH=",
+          "REAPER_INCREMENTAL_REPAIR=false",
+          "REAPER_JMXMP_ENABLED=false",
+          "REAPER_JMXMP_SSL=false",
+          "REAPER_JMX_AUTH_PASSWORD=",
+          "REAPER_JMX_AUTH_USERNAME=",
+          "REAPER_JMX_CONNECTION_TIMEOUT_IN_SECONDS=20",
+          "REAPER_JMX_CREDENTIALS=",
+          "REAPER_JMX_PORTS={}",
+          "REAPER_LOGGING_APPENDERS_CONSOLE_LOG_FORMAT=%-6level [%d] [%t] %logger{5} - %msg %n",
+          "REAPER_LOGGING_APPENDERS_CONSOLE_THRESHOLD=INFO",
+          "REAPER_LOGGING_LOGGERS={}",
+          "REAPER_LOGGING_ROOT_LEVEL=INFO",
+          "REAPER_MAX_PARALLEL_REPAIRS=2",
+          "REAPER_MAX_PENDING_COMPACTIONS=20",
+          "REAPER_MEMORY_STORAGE_DIRECTORY=/var/lib/cassandra-reaper/storage",
+          "REAPER_METRICS_ENABLED=false",
+          "REAPER_METRICS_FREQUENCY=1 minute",
+          "REAPER_METRICS_REPORTERS=[]",
+          "REAPER_MGMT_API_METRICS_PORT=9000",
+          "REAPER_REPAIR_INTENSITY=0.9",
+          "REAPER_REPAIR_MANAGER_SCHEDULING_INTERVAL_SECONDS=30",
+          "REAPER_REPAIR_PARALELLISM=DATACENTER_AWARE",
+          "REAPER_REPAIR_RUN_THREADS=15",
+          "REAPER_SCHEDULE_DAYS_BETWEEN=7",
+          "REAPER_SEGMENT_COUNT_PER_NODE=64",
+          "REAPER_SERVER_ADMIN_BIND_HOST=0.0.0.0",
+          "REAPER_SERVER_ADMIN_PORT=8081",
+          "REAPER_SERVER_APP_BIND_HOST=0.0.0.0",
+          "REAPER_SERVER_APP_PORT=8080",
+          "REAPER_SHIRO_INI=",
+          "REAPER_STORAGE_TYPE=memory",
+          "REAPER_SUBRANGE_INCREMENTAL=false",
+          "REAPER_TMP_DIRECTORY=/var/tmp/cassandra-reaper",
+          "REAPER_USE_ADDRESS_TRANSLATOR=false"
+        ],
+        "Labels": {
+          "clnstrt.main.package": "cassandra-reaper-fips=3.6.1-r0",
+          "image.vendor": "cleanstart"
+        },
+        "User": "clnstrt",
+        "WorkingDir": "/home/clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:82639d5bfb5fd6e73337934c726a83da56e6fcb38b9553d826298ebd57631f9f"
+      },
+      {
+        "Size": 781023744,
+        "DiffID": "sha256:cfa0d6916336217f10c4bd2f6461c89ed42ef9f6a1f619ad20a4fd3eeba43fe2"
+      },
+      {
+        "Size": 8873984,
+        "DiffID": "sha256:88bd52559e4c4f3b7a52bf19ca07b08a079d48baf764503c8b2c4c0b5952f898"
+      },
+      {
+        "Size": 1046016,
+        "DiffID": "sha256:78fc618f461fcafb2eefd85e62b06d8f707b37625613f4336f4dfb99cb6c0ce0"
+      },
+      {
+        "Size": 2560,
+        "DiffID": "sha256:24ea25240d255ffca86db0ce4cdb8beb90833b8ab07f91673a34f3fd30135ddf"
+      },
+      {
+        "Size": 4096,
+        "DiffID": "sha256:c2d694b4fe6a1515ddf38f91c388c16581b24fc4943427e6cc610ca895e5f3c9"
+      },
+      {
+        "Size": 575801856,
+        "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:133a8868df0773021b74f14f8dabaa6be17a6057c10a7ef1fac910aa89b7c180"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:86252c518aecefd913d14f73b36e3471d4386638db53447011dd4ca1b20ae8af"
+      },
+      {
+        "Size": 95232,
+        "DiffID": "sha256:909c1e82783e30955a58d76104631b6ec1e50ba083ebf772e132af2da5833b50"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/cassandra-reaper-fips:3.6.1-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Java",
+      "Class": "lang-pkgs",
+      "Type": "jar",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-11226",
+          "PkgName": "ch.qos.logback:logback-core",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-core@1.5.13",
+            "UID": "8f4ccae7a75d9774"
+          },
+          "InstalledVersion": "1.5.13",
+          "FixedVersion": "1.5.19, 1.3.16",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-11226",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "ch.qos.logback/logback-core: Conditional abitrary code execution in logback-core",
+          "Description": "ACE vulnerability in conditional configuration file processing  by QOS.CH logback-core up to and including version 1.5.18 in Java applications, allows an attacker to execute arbitrary code by compromising an existing logback configuration file or by injecting an environment variable before program execution.\n\n\n\nA successful attack requires the presence of Janino library and Spring Framework to be present on the user's class path. In addition, the attacker must  have write access to a \nconfiguration file. Alternatively, the attacker could inject a malicious \nenvironment variable pointing to a malicious configuration file. In both \ncases, the attack requires existing privilege.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-20"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+              "V3Score": 6.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-11226",
+            "https://github.com/qos-ch/logback",
+            "https://github.com/qos-ch/logback/commit/61f6a2544f36b3016e0efd434ee21f19269f1df7",
+            "https://github.com/qos-ch/logback/issues/974",
+            "https://github.com/qos-ch/logback/releases/tag/v_1.5.19",
+            "https://logback.qos.ch/news.html#1.3.16",
+            "https://logback.qos.ch/news.html#1.5.19",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-11226",
+            "https://www.cve.org/CVERecord?id=CVE-2025-11226"
+          ],
+          "PublishedDate": "2025-10-01T08:15:31.25Z",
+          "LastModifiedDate": "2025-10-31T15:15:41.197Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-2976",
+          "PkgName": "com.google.guava:guava",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/com.google.guava/guava@24.1.1-jre",
+            "UID": "58787fd0a928a878"
+          },
+          "InstalledVersion": "24.1.1-jre",
+          "FixedVersion": "32.0.0-android",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-2976",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "guava: insecure temporary directory creation",
+          "Description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-552"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "cbl-mariner": 3,
+            "ghsa": 2,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 5.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 7.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-2976",
+            "https://github.com/google/guava",
+            "https://github.com/google/guava/commit/feb83a1c8fd2e7670b244d5afd23cba5aca43284",
+            "https://github.com/google/guava/issues/2575",
+            "https://github.com/google/guava/issues/6532",
+            "https://github.com/google/guava/releases/tag/v32.0.0",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-2976",
+            "https://security.netapp.com/advisory/ntap-20230818-0008",
+            "https://security.netapp.com/advisory/ntap-20230818-0008/",
+            "https://security.netapp.com/advisory/ntap-20241108-0002",
+            "https://security.netapp.com/advisory/ntap-20241108-0002/",
+            "https://www.cve.org/CVERecord?id=CVE-2023-2976",
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01006.html"
+          ],
+          "PublishedDate": "2023-06-14T18:15:09.513Z",
+          "LastModifiedDate": "2025-11-03T22:16:08.973Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-8908",
+          "PkgName": "com.google.guava:guava",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/com.google.guava/guava@24.1.1-jre",
+            "UID": "58787fd0a928a878"
+          },
+          "InstalledVersion": "24.1.1-jre",
+          "FixedVersion": "32.0.0-android",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-8908",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "guava: local information disclosure via temporary directory created with unsafe permissions",
+          "Description": "A temp directory creation vulnerability exists in all versions of Guava, allowing an attacker with access to the machine to potentially access data in a temporary directory created by the Guava API com.google.common.io.Files.createTempDir(). By default, on unix-like systems, the created directory is world-readable (readable by an attacker with access to the system). The method in question has been marked @Deprecated in versions 30.0 and later and should not be used. For Android developers, we recommend choosing a temporary directory API provided by Android, such as context.getCacheDir(). For other Java developers, we recommend migrating to the Java 7 API java.nio.file.Files.createTempDirectory() which explicitly configures permissions of 700, or configuring the Java runtime's java.io.tmpdir system property to point to a location whose permissions are appropriately configured.\n\n",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-378",
+            "CWE-732"
+          ],
+          "VendorSeverity": {
+            "cbl-mariner": 1,
+            "ghsa": 1,
+            "nvd": 1,
+            "redhat": 1
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 3.3
+            },
+            "nvd": {
+              "V2Vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V2Score": 2.1,
+              "V3Score": 3.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 3.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2020-8908",
+            "https://github.com/google/guava",
+            "https://github.com/google/guava/commit/feb83a1c8fd2e7670b244d5afd23cba5aca43284",
+            "https://github.com/google/guava/commit/fec0dbc4634006a6162cfd4d0d09c962073ddf40",
+            "https://github.com/google/guava/issues/4011",
+            "https://github.com/google/guava/issues/4011#issuecomment-1578991974",
+            "https://lists.apache.org/thread.html/r007add131977f4f576c232b25e024249a3d16f66aad14a4b52819d21%40%3Ccommon-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r007add131977f4f576c232b25e024249a3d16f66aad14a4b52819d21@%3Ccommon-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r037fed1d0ebde50c9caf8d99815db3093c344c3f651c5a49a09824ce@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r07ed3e4417ad043a27bee7bb33322e9bfc7d7e6d1719b8e3dfd95c14%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r07ed3e4417ad043a27bee7bb33322e9bfc7d7e6d1719b8e3dfd95c14@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r161b87f8037bbaff400194a63cd2016c9a69f5949f06dcc79beeab54%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r161b87f8037bbaff400194a63cd2016c9a69f5949f06dcc79beeab54@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r215b3d50f56faeb2f9383505f3e62faa9f549bb23e8a9848b78a968e%40%3Ccommits.ws.apache.org%3E",
+            "https://lists.apache.org/thread.html/r215b3d50f56faeb2f9383505f3e62faa9f549bb23e8a9848b78a968e@%3Ccommits.ws.apache.org%3E",
+            "https://lists.apache.org/thread.html/r294be9d31c0312d2c0837087204b5d4bf49d0552890e6eec716fa6a6%40%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r294be9d31c0312d2c0837087204b5d4bf49d0552890e6eec716fa6a6@%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2fe45d96eea8434b91592ca08109118f6308d60f6d0e21d52438cfb4%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2fe45d96eea8434b91592ca08109118f6308d60f6d0e21d52438cfb4@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3c3b33ee5bef0c67391d27a97cbfd89d44f328cf072b601b58d4e748%40%3Ccommits.pulsar.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3c3b33ee5bef0c67391d27a97cbfd89d44f328cf072b601b58d4e748@%3Ccommits.pulsar.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3dd8881de891598d622227e9840dd7c2ef1d08abbb49e9690c7ae1bc%40%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3dd8881de891598d622227e9840dd7c2ef1d08abbb49e9690c7ae1bc@%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4776f62dfae4a0006658542f43034a7fc199350e35a66d4e18164ee6%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4776f62dfae4a0006658542f43034a7fc199350e35a66d4e18164ee6@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/r49549a8322f62cd3acfa4490d25bfba0be04f3f9ff4d14fe36199d27%40%3Cyarn-dev.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r49549a8322f62cd3acfa4490d25bfba0be04f3f9ff4d14fe36199d27@%3Cyarn-dev.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r58a8775205ab1839dba43054b09a9ab3b25b423a4170b2413c4067ac%40%3Ccommon-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r58a8775205ab1839dba43054b09a9ab3b25b423a4170b2413c4067ac@%3Ccommon-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5b3d93dfdfb7708e796e8762ab40edbde8ff8add48aba53e5ea26f44%40%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5b3d93dfdfb7708e796e8762ab40edbde8ff8add48aba53e5ea26f44@%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5d61b98ceb7bba939a651de5900dbd67be3817db6bfcc41c6e04e199%40%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5d61b98ceb7bba939a651de5900dbd67be3817db6bfcc41c6e04e199@%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6874dfe26eefc41b7c9a5e4a0487846fc4accf8c78ff948b24a1104a%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6874dfe26eefc41b7c9a5e4a0487846fc4accf8c78ff948b24a1104a@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r68d86f4b06c808204f62bcb254fcb5b0432528ee8d37a07ef4bc8222%40%3Ccommits.ws.apache.org%3E",
+            "https://lists.apache.org/thread.html/r68d86f4b06c808204f62bcb254fcb5b0432528ee8d37a07ef4bc8222@%3Ccommits.ws.apache.org%3E",
+            "https://lists.apache.org/thread.html/r79e47ed555bdb1180e528420a7a2bb898541367a29a3bc6bbf0baf2c%40%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r79e47ed555bdb1180e528420a7a2bb898541367a29a3bc6bbf0baf2c@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r7b0e81d8367264d6cad98766a469d64d11248eb654417809bfdacf09%40%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r7b0e81d8367264d6cad98766a469d64d11248eb654417809bfdacf09@%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/r841c5e14e1b55281523ebcde661ece00b38a0569e00ef5e12bd5f6ba%40%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/r841c5e14e1b55281523ebcde661ece00b38a0569e00ef5e12bd5f6ba@%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra7ab308481ee729f998691e8e3e02e93b1dedfc98f6b1cd3d86923b3%40%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra7ab308481ee729f998691e8e3e02e93b1dedfc98f6b1cd3d86923b3@%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb2364f4cf4d274eab5a7ecfaf64bf575cedf8b0173551997c749d322%40%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb2364f4cf4d274eab5a7ecfaf64bf575cedf8b0173551997c749d322@%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb8c0f1b7589864396690fe42a91a71dea9412e86eec66dc85bbacaaf%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb8c0f1b7589864396690fe42a91a71dea9412e86eec66dc85bbacaaf@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rbc7642b9800249553f13457e46b813bea1aec99d2bc9106510e00ff3%40%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rbc7642b9800249553f13457e46b813bea1aec99d2bc9106510e00ff3@%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc2dbc4633a6eea1fcbce6831876cfa17b73759a98c65326d1896cb1a%40%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc2dbc4633a6eea1fcbce6831876cfa17b73759a98c65326d1896cb1a@%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc607bc52f3507b8b9c28c6a747c3122f51ac24afe80af2a670785b97%40%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc607bc52f3507b8b9c28c6a747c3122f51ac24afe80af2a670785b97@%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcafc3a637d82bdc9a24036b2ddcad1e519dd0e6f848fcc3d606fd78f%40%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcafc3a637d82bdc9a24036b2ddcad1e519dd0e6f848fcc3d606fd78f@%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd01f5ff0164c468ec7abc96ff7646cea3cce6378da2e4aa29c6bcb95%40%3Cgithub.arrow.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd01f5ff0164c468ec7abc96ff7646cea3cce6378da2e4aa29c6bcb95@%3Cgithub.arrow.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd2704306ec729ccac726e50339b8a8f079515cc29ccb77713b16e7c5%40%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd2704306ec729ccac726e50339b8a8f079515cc29ccb77713b16e7c5@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5d58088812cf8e677d99b07f73c654014c524c94e7fedbdee047604%40%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5d58088812cf8e677d99b07f73c654014c524c94e7fedbdee047604@%3Ctorque-dev.db.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd7e12d56d49d73e2b8549694974b07561b79b05455f7f781954231bf%40%3Cdev.pig.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd7e12d56d49d73e2b8549694974b07561b79b05455f7f781954231bf@%3Cdev.pig.apache.org%3E",
+            "https://lists.apache.org/thread.html/re120f6b3d2f8222121080342c5801fdafca2f5188ceeb3b49c8a1d27%40%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/re120f6b3d2f8222121080342c5801fdafca2f5188ceeb3b49c8a1d27@%3Cyarn-issues.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/reebbd63c25bc1a946caa419cec2be78079f8449d1af48e52d47c9e85%40%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/reebbd63c25bc1a946caa419cec2be78079f8449d1af48e52d47c9e85@%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf00b688ffa620c990597f829ff85fdbba8bf73ee7bfb34783e1f0d4e%40%3Cyarn-dev.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf00b688ffa620c990597f829ff85fdbba8bf73ee7bfb34783e1f0d4e@%3Cyarn-dev.hadoop.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf9f0fa84b8ae1a285f0210bafec6de2a9eba083007d04640b82aa625%40%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf9f0fa84b8ae1a285f0210bafec6de2a9eba083007d04640b82aa625@%3Cissues.geode.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfc27e2727a20a574f39273e0432aa97486a332f9b3068f6ac1346594%40%3Cdev.myfaces.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfc27e2727a20a574f39273e0432aa97486a332f9b3068f6ac1346594@%3Cdev.myfaces.apache.org%3E",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-8908",
+            "https://security.netapp.com/advisory/ntap-20220210-0003",
+            "https://security.netapp.com/advisory/ntap-20220210-0003/",
+            "https://snyk.io/vuln/SNYK-JAVA-COMGOOGLEGUAVA-1015415",
+            "https://www.cve.org/CVERecord?id=CVE-2020-8908",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2020-12-10T23:15:13.973Z",
+          "LastModifiedDate": "2024-11-21T05:39:40.053Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-48734",
+          "PkgName": "commons-beanutils:commons-beanutils",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+            "UID": "47e7e6290391f3d9"
+          },
+          "InstalledVersion": "1.9.4",
+          "FixedVersion": "1.11.0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-48734",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "commons-beanutils: Apache Commons BeanUtils: PropertyUtilsBean does not suppresses an enum's declaredClass property by default",
+          "Description": "Improper Access Control vulnerability in Apache Commons.\n\n\n\nA special BeanIntrospector class was added in version 1.9.2. This can be used to stop attackers from using the declared class property of Java enum objects to get access to the classloader. However this protection was not enabled by default. PropertyUtilsBean (and consequently BeanUtilsBean) now disallows declared class level property access by default.\n\n\n\n\n\nReleases 1.11.0 and 2.0.0-M2 address a potential security issue when accessing enum properties in an uncontrolled way. If an application using Commons BeanUtils passes property paths from an external source directly to the getProperty() method of PropertyUtilsBean, an attacker can access the enum’s class loader via the “declaredClass” property available on all Java “enum” objects. Accessing the enum’s “declaredClass” allows remote attackers to access the ClassLoader and execute arbitrary code. The same issue exists with PropertyUtilsBean.getNestedProperty().\nStarting in versions 1.11.0 and 2.0.0-M2 a special BeanIntrospector suppresses the “declaredClass” property. Note that this new BeanIntrospector is enabled by default, but you can disable it to regain the old behavior; see section 2.5 of the user's guide and the unit tests.\n\nThis issue affects Apache Commons BeanUtils 1.x before 1.11.0, and 2.x before 2.0.0-M2.Users of the artifact commons-beanutils:commons-beanutils\n\n 1.x are recommended to upgrade to version 1.11.0, which fixes the issue.\n\n\nUsers of the artifact org.apache.commons:commons-beanutils2\n\n 2.x are recommended to upgrade to version 2.0.0-M2, which fixes the issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-284"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "ghsa": 3,
+            "oracle-oval": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 8.8
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 8.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/6",
+            "https://access.redhat.com/errata/RHSA-2025:9114",
+            "https://access.redhat.com/security/cve/CVE-2025-48734",
+            "https://bugzilla.redhat.com/2368956",
+            "https://errata.almalinux.org/9/ALSA-2025-9114.html",
+            "https://github.com/advisories/GHSA-wxr5-93ph-8wr9",
+            "https://github.com/apache/commons-beanutils",
+            "https://github.com/apache/commons-beanutils/commit/28ad955a1613ed5885870cc7da52093c1ce739dc",
+            "https://github.com/apache/commons-beanutils/commit/bd20740da25b69552ddef8523beec0837297eaf9",
+            "https://linux.oracle.com/cve/CVE-2025-48734.html",
+            "https://linux.oracle.com/errata/ELSA-2025-9318.html",
+            "https://lists.apache.org/thread/s0hb3jkfj5f3ryx6c57zqtfohb0of1g9",
+            "https://lists.debian.org/debian-lts-announce/2025/06/msg00027.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48734",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48734",
+            "https://www.openwall.com/lists/oss-security/2025/05/28/6"
+          ],
+          "PublishedDate": "2025-05-28T14:15:34.07Z",
+          "LastModifiedDate": "2025-11-03T20:19:07.317Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58057",
+          "PkgName": "io.netty:netty-codec",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-codec@4.1.70.Final",
+            "UID": "b9c96a4577b5c63f"
+          },
+          "InstalledVersion": "4.1.70.Final",
+          "FixedVersion": "4.1.125.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58057",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty-codec: netty-codec-compression: Netty's BrotliDecoder is vulnerable to DoS via zip bomb style attack",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. In netty-codec-compression versions 4.1.124.Final and below, and netty-codec versions 4.2.4.Final and below, when supplied with specially crafted input, BrotliDecoder and certain other decompression decoders will allocate a large number of reachable byte buffers, which can lead to denial of service. BrotliDecoder.decompress has no limit in how often it calls pull, decompressing data 64K bytes at a time. The buffers are saved in the output list, and remain reachable until OOM is hit. This is fixed in versions 4.1.125.Final of netty-codec and 4.2.5.Final of netty-codec-compression.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-409"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-58057",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d",
+            "https://github.com/netty/netty/security/advisories/GHSA-3p8m-j85q-pgmj",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58057",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58057"
+          ],
+          "PublishedDate": "2025-09-04T10:42:32.18Z",
+          "LastModifiedDate": "2025-09-08T16:45:55.143Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-47535",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.70.Final",
+            "UID": "27616a5e22e02115"
+          },
+          "InstalledVersion": "4.1.70.Final",
+          "FixedVersion": "4.1.115.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-47535",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crashes. This vulnerability is fixed in 4.1.115.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-47535",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3",
+            "https://github.com/netty/netty/security/advisories/GHSA-xq3w-v528-46rv",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47535",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47535"
+          ],
+          "PublishedDate": "2024-11-12T16:15:22.237Z",
+          "LastModifiedDate": "2025-09-05T14:00:07.22Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-25193",
+          "PkgName": "io.netty:netty-common",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-common@4.1.70.Final",
+            "UID": "27616a5e22e02115"
+          },
+          "InstalledVersion": "4.1.70.Final",
+          "FixedVersion": "4.1.118.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-25193",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: Denial of Service attack on windows app using Netty",
+          "Description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability in versions up to and including 4.1.118.Final. An unsafe reading of environment file could potentially cause a denial of service in Netty. When loaded on an Windows application, Netty attempts to load a file that does not exist. If an attacker creates such a large file, the Netty application crash. A similar issue was previously reported as CVE-2024-47535. This issue was fixed, but the fix was incomplete in that null-bytes were not counted against the input limit. Commit d1fbda62d3a47835d3fb35db8bd42ecc205a5386 contains an updated fix.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-25193",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/d1fbda62d3a47835d3fb35db8bd42ecc205a5386",
+            "https://github.com/netty/netty/security/advisories/GHSA-389x-839f-4rhx",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-25193",
+            "https://security.netapp.com/advisory/ntap-20250221-0006",
+            "https://security.netapp.com/advisory/ntap-20250221-0006/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-25193"
+          ],
+          "PublishedDate": "2025-02-10T22:15:38.45Z",
+          "LastModifiedDate": "2025-06-11T15:36:22.693Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-34462",
+          "PkgName": "io.netty:netty-handler",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/io.netty/netty-handler@4.1.70.Final",
+            "UID": "a33ddc4753c24310"
+          },
+          "InstalledVersion": "4.1.70.Final",
+          "FixedVersion": "4.1.94.Final",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-34462",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "netty: SniHandler 16MB allocation leads to OOM",
+          "Description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers \u0026 clients. The `SniHandler` can allocate up to 16MB of heap for each channel during the TLS handshake. When the handler or the channel does not have an idle timeout, it can be used to make a TCP server using the `SniHandler` to allocate 16MB of heap. The `SniHandler` class is a handler that waits for the TLS handshake to configure a `SslHandler` according to the indicated server name by the `ClientHello` record. For this matter it allocates a `ByteBuf` using the value defined in the `ClientHello` record. Normally the value of the packet should be smaller than the handshake packet but there are not checks done here and the way the code is written, it is possible to craft a packet that makes the `SslClientHelloHandler`. This vulnerability has been fixed in version 4.1.94.Final.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400",
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-34462",
+            "https://github.com/netty/netty",
+            "https://github.com/netty/netty/commit/535da17e45201ae4278c0479e6162bb4127d4c32",
+            "https://github.com/netty/netty/security/advisories/GHSA-6mjq-h674-j845",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-34462",
+            "https://security.netapp.com/advisory/ntap-20230803-0001",
+            "https://security.netapp.com/advisory/ntap-20230803-0001/",
+            "https://security.netapp.com/advisory/ntap-20240621-0007",
+            "https://security.netapp.com/advisory/ntap-20240621-0007/",
+            "https://ubuntu.com/security/notices/USN-6994-1",
+            "https://www.cve.org/CVERecord?id=CVE-2023-34462",
+            "https://www.debian.org/security/2023/dsa-5558"
+          ],
+          "PublishedDate": "2023-06-22T23:15:09.573Z",
+          "LastModifiedDate": "2024-11-21T08:07:18.337Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-48924",
+          "PkgName": "org.apache.commons:commons-lang3",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.commons/commons-lang3@3.1",
+            "UID": "6ea681e198917160"
+          },
+          "InstalledVersion": "3.1",
+          "FixedVersion": "3.18.0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-48924",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "commons-lang/commons-lang: org.apache.commons/commons-lang3: Uncontrolled Recursion vulnerability in Apache Commons Lang",
+          "Description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with commons-lang:commons-lang 2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before 3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-674"
+          ],
+          "VendorSeverity": {
+            "amazon": 1,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "ghsa": 2,
+            "redhat": 1
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 6.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 3.7
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/07/11/1",
+            "https://access.redhat.com/security/cve/CVE-2025-48924",
+            "https://github.com/apache/commons-lang",
+            "https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53",
+            "https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1",
+            "https://lists.debian.org/debian-lts-announce/2025/08/msg00000.html",
+            "https://lists.debian.org/debian-lts-announce/2025/08/msg00026.html",
+            "https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html",
+            "https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48924",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48924"
+          ],
+          "PublishedDate": "2025-07-11T15:15:24.347Z",
+          "LastModifiedDate": "2025-11-04T22:16:17.823Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2014-3577",
+          "PkgName": "org.apache.httpcomponents:httpclient",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.httpcomponents/httpclient@4.2.5",
+            "UID": "b1b24470a6a3248"
+          },
+          "InstalledVersion": "4.2.5",
+          "FixedVersion": "4.3.5",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2014-3577",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "CXF: SSL hostname verification bypass, incomplete CVE-2012-6153 fix",
+          "Description": "org.apache.http.conn.ssl.AbstractVerifier in Apache HttpComponents HttpClient before 4.3.5 and HttpAsyncClient before 4.0.2 does not properly verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via a \"CN=\" string in a field in the distinguished name (DN) of a certificate, as demonstrated by the \"foo,CN=www.apache.org\" string in the O field.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "ghsa": 2,
+            "nvd": 2,
+            "oracle-oval": 3,
+            "photon": 2,
+            "redhat": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+              "V2Score": 5.8
+            },
+            "redhat": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V2Score": 5.8,
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00032.html",
+            "http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00033.html",
+            "http://packetstormsecurity.com/files/127913/Apache-HttpComponents-Man-In-The-Middle.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1146.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1166.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1833.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1834.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1835.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1836.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1891.html",
+            "http://rhn.redhat.com/errata/RHSA-2014-1892.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0125.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0158.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0675.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0720.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0765.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0850.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-0851.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-1176.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-1177.html",
+            "http://rhn.redhat.com/errata/RHSA-2015-1888.html",
+            "http://rhn.redhat.com/errata/RHSA-2016-1773.html",
+            "http://rhn.redhat.com/errata/RHSA-2016-1931.html",
+            "http://seclists.org/fulldisclosure/2014/Aug/48",
+            "http://secunia.com/advisories/60466",
+            "http://secunia.com/advisories/60589",
+            "http://secunia.com/advisories/60713",
+            "http://www.openwall.com/lists/oss-security/2021/10/06/1",
+            "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html",
+            "http://www.osvdb.org/110143",
+            "http://www.securityfocus.com/bid/69258",
+            "http://www.securitytracker.com/id/1030812",
+            "http://www.ubuntu.com/usn/USN-2769-1",
+            "https://access.redhat.com/security/cve/CVE-2014-3577",
+            "https://access.redhat.com/solutions/1165533",
+            "https://exchange.xforce.ibmcloud.com/vulnerabilities/95327",
+            "https://github.com/advisories/GHSA-cfh5-3ghh-wfjx",
+            "https://github.com/apache/httpcomponents-client",
+            "https://github.com/apache/httpcomponents-client/commit/51cc67567765d67f878f0dcef61b5ded454d3122",
+            "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05103564",
+            "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05363782",
+            "https://linux.oracle.com/cve/CVE-2014-3577.html",
+            "https://linux.oracle.com/errata/ELSA-2014-1166.html",
+            "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc%40%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/r36e44ffc1a9b365327df62cdfaabe85b9a5637de102cea07d79b2dbf@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc774278135816e7afc943dc9fc78eb0764f2c84a2b96470a0187315c@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd49aabd984ed540c8ff7916d4d79405f3fa311d2fdbcf9ed307839a6@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rec7160382badd3ef4ad017a22f64a266c7188b9ba71394f0d321e2d4@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfb87e0bf3995e7d560afeed750fac9329ff5f1ad49da365129b7f89e@%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4%40%3Ccommits.cxf.apache.org%3E",
+            "https://lists.apache.org/thread.html/rff42cfa5e7d75b7c1af0e37589140a8f1999e578a75738740b244bd4@%3Ccommits.cxf.apache.org%3E",
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3577",
+            "https://security.netapp.com/advisory/ntap-20231027-0003",
+            "https://security.netapp.com/advisory/ntap-20231027-0003/",
+            "https://svn.apache.org/viewvc?view=revision\u0026revision=1614064",
+            "https://ubuntu.com/security/notices/USN-2769-1",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3577"
+          ],
+          "PublishedDate": "2014-08-21T14:55:05.1Z",
+          "LastModifiedDate": "2025-04-12T10:46:40.837Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2015-5262",
+          "PkgName": "org.apache.httpcomponents:httpclient",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.httpcomponents/httpclient@4.2.5",
+            "UID": "b1b24470a6a3248"
+          },
+          "InstalledVersion": "4.2.5",
+          "FixedVersion": "4.3.6",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-5262",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "httpcomponents-core: missing HTTPS connection timeout",
+          "Description": "http/conn/ssl/SSLConnectionSocketFactory.java in Apache HttpComponents HttpClient before 4.3.6 ignores the http.socket.timeout configuration setting during an SSL handshake, which allows remote attackers to cause a denial of service (HTTPS call hang) via unspecified vectors.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-399"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "photon": 2,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+              "V2Score": 4.3
+            },
+            "redhat": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+              "V2Score": 4.3
+            }
+          },
+          "References": [
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-October/167962.html",
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-October/167999.html",
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-October/168030.html",
+            "http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00032.html",
+            "http://lists.opensuse.org/opensuse-security-announce/2020-11/msg00033.html",
+            "http://svn.apache.org/viewvc?view=revision\u0026revision=1626784",
+            "http://www.oracle.com/technetwork/security-advisory/cpujul2018-4258247.html",
+            "http://www.securitytracker.com/id/1033743",
+            "http://www.ubuntu.com/usn/USN-2769-1",
+            "https://access.redhat.com/security/cve/CVE-2015-5262",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1261538",
+            "https://github.com/advisories/GHSA-fmj5-wv96-r2ch",
+            "https://issues.apache.org/jira/browse/HTTPCLIENT-1478",
+            "https://jenkins.io/security/advisory/2018-02-26",
+            "https://jenkins.io/security/advisory/2018-02-26/",
+            "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc%40%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-5262",
+            "https://ubuntu.com/security/notices/USN-2769-1",
+            "https://www.cve.org/CVERecord?id=CVE-2015-5262"
+          ],
+          "PublishedDate": "2015-10-27T16:59:07.557Z",
+          "LastModifiedDate": "2025-04-12T10:46:40.837Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-13956",
+          "PkgName": "org.apache.httpcomponents:httpclient",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.httpcomponents/httpclient@4.2.5",
+            "UID": "b1b24470a6a3248"
+          },
+          "InstalledVersion": "4.2.5",
+          "FixedVersion": "4.5.13, 5.0.3",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-13956",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "apache-httpclient: incorrect handling of malformed authority component in request URIs",
+          "Description": "Apache HttpClient versions prior to version 4.5.13 and 5.0.3 can misinterpret malformed authority component in request URIs passed to the library as java.net.URI object and pick the wrong target host for request execution.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "alma": 2,
+            "amazon": 2,
+            "ghsa": 2,
+            "nvd": 2,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V2Score": 5,
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2020-13956",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1886587",
+            "https://errata.almalinux.org/8/ALSA-2022-1861.html",
+            "https://github.com/apache/httpcomponents-client",
+            "https://linux.oracle.com/cve/CVE-2020-13956.html",
+            "https://linux.oracle.com/errata/ELSA-2022-1861.html",
+            "https://lists.apache.org/thread.html/r03bbc318c81be21f5c8a9b85e34f2ecc741aa804a8e43b0ef2c37749%40%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/r03bbc318c81be21f5c8a9b85e34f2ecc741aa804a8e43b0ef2c37749@%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/r043a75acdeb52b15dd5e9524cdadef4202e6a5228644206acf9363f9%40%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r043a75acdeb52b15dd5e9524cdadef4202e6a5228644206acf9363f9@%3Cdev.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r06cf3ca5c8ceb94b39cd24a73d4e96153b485a7dac88444dd876accb%40%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r06cf3ca5c8ceb94b39cd24a73d4e96153b485a7dac88444dd876accb@%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0a75b8f0f72f3e18442dc56d33f3827b905f2fe5b7ba48997436f5d1%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0a75b8f0f72f3e18442dc56d33f3827b905f2fe5b7ba48997436f5d1@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0bebe6f9808ac7bdf572873b4fa96a29c6398c90dab29f131f3ebffe%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r0bebe6f9808ac7bdf572873b4fa96a29c6398c90dab29f131f3ebffe@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r12cb62751b35bdcda0ae2a08b67877d665a1f4d41eee0fa7367169e0%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r12cb62751b35bdcda0ae2a08b67877d665a1f4d41eee0fa7367169e0@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r132e4c6a560cfc519caa1aaee63bdd4036327610eadbd89f76dd5457%40%3Cdev.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r132e4c6a560cfc519caa1aaee63bdd4036327610eadbd89f76dd5457@%3Cdev.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2835543ef0f91adcc47da72389b816e36936f584c7be584d2314fac3%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2835543ef0f91adcc47da72389b816e36936f584c7be584d2314fac3@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2a03dc210231d7e852ef73015f71792ac0fcaca6cccc024c522ef17d%40%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2a03dc210231d7e852ef73015f71792ac0fcaca6cccc024c522ef17d@%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2dc7930b43eadc78220d269b79e13ecd387e4bee52db67b2f47d4303%40%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r2dc7930b43eadc78220d269b79e13ecd387e4bee52db67b2f47d4303@%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r34178ab6ef106bc940665fd3f4ba5026fac3603b3fa2aefafa0b619d%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r34178ab6ef106bc940665fd3f4ba5026fac3603b3fa2aefafa0b619d@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r34efec51cb817397ccf9f86e25a75676d435ba5f83ee7b2eabdad707%40%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r34efec51cb817397ccf9f86e25a75676d435ba5f83ee7b2eabdad707@%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3cecd59fba74404cbf4eb430135e1080897fb376f111406a78bed13a%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3cecd59fba74404cbf4eb430135e1080897fb376f111406a78bed13a@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3f740e4c38bba1face49078aa5cbeeb558c27be601cc9712ad2dcd1e%40%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r3f740e4c38bba1face49078aa5cbeeb558c27be601cc9712ad2dcd1e@%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4850b3fbaea02fde2886e461005e4af8d37c80a48b3ce2a6edca0e30%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r4850b3fbaea02fde2886e461005e4af8d37c80a48b3ce2a6edca0e30@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r549ac8c159bf0c568c19670bedeb8d7c0074beded951d34b1c1d0d05%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r549ac8c159bf0c568c19670bedeb8d7c0074beded951d34b1c1d0d05@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r55b2a1d1e9b1ec9db792b93da8f0f99a4fd5a5310b02673359d9b4d1%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r55b2a1d1e9b1ec9db792b93da8f0f99a4fd5a5310b02673359d9b4d1@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5b55f65c123a7481104d663a915ec45a0d103e6aaa03f42ed1c07a89%40%3Cdev.jackrabbit.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5b55f65c123a7481104d663a915ec45a0d103e6aaa03f42ed1c07a89@%3Cdev.jackrabbit.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5de3d3808e7b5028df966e45115e006456c4e8931dc1e29036f17927%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5de3d3808e7b5028df966e45115e006456c4e8931dc1e29036f17927@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5fec9c1d67f928179adf484b01e7becd7c0a6fdfe3a08f92ea743b90%40%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r5fec9c1d67f928179adf484b01e7becd7c0a6fdfe3a08f92ea743b90@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/r63296c45d5d84447babaf39bd1487329d8a80d8d563e67a4b6f3d8a7%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r63296c45d5d84447babaf39bd1487329d8a80d8d563e67a4b6f3d8a7@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r69a94e2f302d1b778bdfefe90fcb4b8c50b226438c3c8c1d0de85a19%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r69a94e2f302d1b778bdfefe90fcb4b8c50b226438c3c8c1d0de85a19@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6a3cda38d050ebe13c1bc9a28d0a8ec38945095d07eca49046bcb89f%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6a3cda38d050ebe13c1bc9a28d0a8ec38945095d07eca49046bcb89f@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6d672b46622842e565e00f6ef6bef83eb55d8792aac2bee75bff9a2a%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6d672b46622842e565e00f6ef6bef83eb55d8792aac2bee75bff9a2a@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6dab7da30f8bf075f79ee189e33b45a197502e2676481bb8787fc0d7%40%3Cdev.hc.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6eb2dae157dbc9af1f30d1f64e9c60d4ebef618f3dce4a0e32d6ea4d%40%3Ccommits.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r6eb2dae157dbc9af1f30d1f64e9c60d4ebef618f3dce4a0e32d6ea4d@%3Ccommits.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r70c429923100c5a4fae8e5bc71c8a2d39af3de4888f50a0ac3755e6f%40%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r70c429923100c5a4fae8e5bc71c8a2d39af3de4888f50a0ac3755e6f@%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/r87ddc09295c27f25471269ad0a79433a91224045988b88f0413a97ec%40%3Cissues.bookkeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r87ddc09295c27f25471269ad0a79433a91224045988b88f0413a97ec@%3Cissues.bookkeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/r8aa1e5c343b89aec5b69961471950e862f15246cb6392910161c389b%40%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/r8aa1e5c343b89aec5b69961471950e862f15246cb6392910161c389b@%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/r9e52a6c72c8365000ecd035e48cc9fee5a677a150350d4420c46443d%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/r9e52a6c72c8365000ecd035e48cc9fee5a677a150350d4420c46443d@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra539f20ef0fb0c27ee39945b5f56bf162e5c13d1c60f7344dab8de3b%40%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra539f20ef0fb0c27ee39945b5f56bf162e5c13d1c60f7344dab8de3b@%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra8bc6b61c5df301a6fe5a716315528ecd17ccb8a7f907e24a47a1a5e%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/ra8bc6b61c5df301a6fe5a716315528ecd17ccb8a7f907e24a47a1a5e@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rad6222134183046f3928f733bf680919e0c390739bfbfe6c90049673%40%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rad6222134183046f3928f733bf680919e0c390739bfbfe6c90049673@%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rae14ae25ff4a60251e3ba2629c082c5ba3851dfd4d21218b99b56652%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rae14ae25ff4a60251e3ba2629c082c5ba3851dfd4d21218b99b56652@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb33212dab7beccaf1ffef9b88610047c644f644c7a0ebdc44d77e381%40%3Ccommits.turbine.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb33212dab7beccaf1ffef9b88610047c644f644c7a0ebdc44d77e381@%3Ccommits.turbine.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb4ba262d6f08ab9cf8b1ebbcd9b00b0368ffe90dad7ad7918b4b56fc%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb4ba262d6f08ab9cf8b1ebbcd9b00b0368ffe90dad7ad7918b4b56fc@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb725052404fabffbe093c83b2c46f3f87e12c3193a82379afbc529f8%40%3Csolr-user.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rb725052404fabffbe093c83b2c46f3f87e12c3193a82379afbc529f8@%3Csolr-user.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc0863892ccfd9fd0d0ae10091f24ee769fb39b8957fe4ebabfc11f17%40%3Cdev.jackrabbit.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc0863892ccfd9fd0d0ae10091f24ee769fb39b8957fe4ebabfc11f17@%3Cdev.jackrabbit.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc3739e0ad4bcf1888c6925233bfc37dd71156bbc8416604833095c42%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc3739e0ad4bcf1888c6925233bfc37dd71156bbc8416604833095c42@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc505fee574fe8d18f9b0c655a4d120b0ae21bb6a73b96003e1d9be35%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc505fee574fe8d18f9b0c655a4d120b0ae21bb6a73b96003e1d9be35@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc5c6ccb86d2afe46bbd4b71573f0448dc1f87bbcd5a0d8c7f8f904b2%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc5c6ccb86d2afe46bbd4b71573f0448dc1f87bbcd5a0d8c7f8f904b2@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc990e2462ec32b09523deafb2c73606208599e196fa2d7f50bdbc587%40%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/rc990e2462ec32b09523deafb2c73606208599e196fa2d7f50bdbc587@%3Cissues.maven.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcced7ed3237c29cd19c1e9bf465d0038b8b2e967b99fc283db7ca553%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcced7ed3237c29cd19c1e9bf465d0038b8b2e967b99fc283db7ca553@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcd9ad5dda60c82ab0d0c9bd3e9cb1dc740804451fc20c7f451ef5cc4%40%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rcd9ad5dda60c82ab0d0c9bd3e9cb1dc740804451fc20c7f451ef5cc4@%3Cgitbox.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26%40%3Ccommits.pulsar.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5ab56beb2ac6879f6ab427bc4e5f7691aed8362d17b713f61779858%40%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5ab56beb2ac6879f6ab427bc4e5f7691aed8362d17b713f61779858@%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/re504acd4d63b8df2a7353658f45c9a3137e5f80e41cf7de50058b2c1%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/re504acd4d63b8df2a7353658f45c9a3137e5f80e41cf7de50058b2c1@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rea3dbf633dde5008d38bf6600a3738b9216e733e03f9ff7becf79625%40%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rea3dbf633dde5008d38bf6600a3738b9216e733e03f9ff7becf79625@%3Cissues.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/ree942561f4620313c75982a4e5f3b74fe6f7062b073210779648eec2%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/ree942561f4620313c75982a4e5f3b74fe6f7062b073210779648eec2@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/reef569c2419705754a3acf42b5f19b2a158153cef0e448158bc54917%40%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/reef569c2419705754a3acf42b5f19b2a158153cef0e448158bc54917@%3Cdev.drill.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf03228972e56cb4a03e6d9558188c2938078cf3ceb23a3fead87c9ca%40%3Cissues.bookkeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf03228972e56cb4a03e6d9558188c2938078cf3ceb23a3fead87c9ca@%3Cissues.bookkeeper.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf43d17ed0d1fb4fb79036b582810ef60b18b1ef3add0d5dea825af1e%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf43d17ed0d1fb4fb79036b582810ef60b18b1ef3add0d5dea825af1e@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf4db88c22e1be9eb60c7dc623d0528642c045fb196a24774ac2fa3a3%40%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf4db88c22e1be9eb60c7dc623d0528642c045fb196a24774ac2fa3a3@%3Cissues.lucene.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf7ca60f78f05b772cc07d27e31bcd112f9910a05caf9095e38ee150f%40%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/rf7ca60f78f05b772cc07d27e31bcd112f9910a05caf9095e38ee150f@%3Cdev.ranger.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfb35f6db9ba1f1e061b63769a4eff5abadcc254ebfefc280e5a0dcf1%40%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfb35f6db9ba1f1e061b63769a4eff5abadcc254ebfefc280e5a0dcf1@%3Ccommits.creadur.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfbedcb586a1e7dfce87ee03c720e583fc2ceeafa05f35c542cecc624%40%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfbedcb586a1e7dfce87ee03c720e583fc2ceeafa05f35c542cecc624@%3Cissues.solr.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfc00884c7b7ca878297bffe45fcb742c362b00b26ba37070706d44c3%40%3Cissues.hive.apache.org%3E",
+            "https://lists.apache.org/thread.html/rfc00884c7b7ca878297bffe45fcb742c362b00b26ba37070706d44c3@%3Cissues.hive.apache.org%3E",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-13956",
+            "https://security.netapp.com/advisory/ntap-20220210-0002",
+            "https://security.netapp.com/advisory/ntap-20220210-0002/",
+            "https://ubuntu.com/security/notices/USN-5239-1",
+            "https://www.cve.org/CVERecord?id=CVE-2020-13956",
+            "https://www.openwall.com/lists/oss-security/2020/10/08/4",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2020-12-02T17:15:14.547Z",
+          "LastModifiedDate": "2024-11-21T05:02:13.933Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12194",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12194",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "bcprov-lts8on: bc-fips: Uncontrolled Resource Consumption vulnerability in Bouncy Castle",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/fips/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCFB.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeEngine.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCBC.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeGCMSIV.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCCM.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/engines/AESNativeCTR.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA256NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA224NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA3NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHAKENativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA512NativeDigest.Java, core/src/main/jdk1.9/org/bouncycastle/crypto/digests/SHA384NativeDigest.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: from 2.1.0 through 2.1.1; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12194",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%9012194",
+            "https://github.com/bcgit/bc-lts-java",
+            "https://github.com/bcgit/bc-lts-java/commit/2c9be6c64152ce48c6afc784c042a514be71ec71",
+            "https://github.com/bcgit/bc-lts-java/commit/f2776feac0c30230f7a5ac34eb24f5019caf0324",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12194",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12194"
+          ],
+          "PublishedDate": "2025-10-24T23:15:39.277Z",
+          "LastModifiedDate": "2025-10-27T13:20:15.637Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9341",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9341",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: Garbage collection can delay for AES CBC Native support, resulting in heap exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java FIPS bc-fips on All (API modules), Legion of the Bouncy Castle Inc. Bouncy Castle for Java LTS bcprov-lts8on on All (API modules) allows Excessive Allocation. This vulnerability is associated with program files org/bouncycastle/crypto/fips/AESNativeCBC.Java, org/bouncycastle/crypto/engines/AESNativeCBC.Java.\n\nThis issue affects Bouncy Castle for Java FIPS: 2.1.0; Bouncy Castle for Java LTS: from 2.73.0 through 2.73.7.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9341",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909341",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9341",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9341"
+          ],
+          "PublishedDate": "2025-08-22T09:15:34.41Z",
+          "LastModifiedDate": "2025-10-24T23:17:52.853Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9092",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9092",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle: Bouncycastle Resource Exhaustion",
+          "Description": "Uncontrolled Resource Consumption vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java - BC-FJA 2.1.0 bc-fips (API modules) allows Excessive Allocation. This vulnerability is associated with program files org.Bouncycastle.Crypto.Fips.NativeLoader.\n\nThis issue affects Bouncy Castle for Java - BC-FJA 2.1.0: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 1.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9092",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909092",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9092",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9092"
+          ],
+          "PublishedDate": "2025-08-16T11:15:45.54Z",
+          "LastModifiedDate": "2025-08-18T20:16:28.75Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9340",
+          "PkgName": "org.bouncycastle:bc-fips",
+          "PkgPath": "usr/lib/bouncycastle-fips/bc-fips-2.1.0.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.bouncycastle/bc-fips@2.1.0",
+            "UID": "7be4aa009d14a2d8"
+          },
+          "InstalledVersion": "2.1.0",
+          "FixedVersion": "2.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9340",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.bouncycastle/bc-fips: native encrypt/decrypt operations in JCE may corrupt data if same byte array used for input and output.",
+          "Description": "Out-of-bounds Write vulnerability in Legion of the Bouncy Castle Inc. Bouncy Castle for Java bc-fips on All (API modules). This vulnerability is associated with program files org/bouncycastle/jcajce/provider/BaseCipher.\n\nThis issue affects Bouncy Castle for Java: from BC-FJA 2.1.0 through 2.1.0.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-787"
+          ],
+          "VendorSeverity": {
+            "ghsa": 1,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 5.9
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-9340",
+            "https://github.com/bcgit/bc-java",
+            "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902025%E2%80%909340",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9340",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9340"
+          ],
+          "PublishedDate": "2025-08-22T10:15:33.05Z",
+          "LastModifiedDate": "2025-08-22T18:08:51.663Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-6763",
+          "PkgName": "org.eclipse.jetty:jetty-http",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-http@11.0.23",
+            "UID": "186bbfdefca5a981"
+          },
+          "InstalledVersion": "11.0.23",
+          "FixedVersion": "12.0.12",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-6763",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of invalid authority",
+          "Description": "Eclipse Jetty is a lightweight, highly scalable, Java-based web server and Servlet engine . It includes a utility class, HttpURI, for URI/URL parsing.\n\nThe HttpURI class does insufficient validation on the authority segment of a URI.  However the behaviour of HttpURI\n differs from the common browsers in how it handles a URI that would be \nconsidered invalid if fully validated against the RRC.  Specifically HttpURI\n and the browser may differ on the value of the host extracted from an \ninvalid URI and thus a combination of Jetty and a vulnerable browser may\n be vulnerable to a open redirect attack or to a SSRF attack if the URI \nis used after passing validation checks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-1286"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 3.7
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-6763",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/pull/12012",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-qh8g-58pp-2wxh",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/25",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-6763",
+            "https://security.netapp.com/advisory/ntap-20250306-0005",
+            "https://security.netapp.com/advisory/ntap-20250306-0005/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-6763"
+          ],
+          "PublishedDate": "2024-10-14T16:15:04.163Z",
+          "LastModifiedDate": "2025-07-10T15:04:04.103Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-8184",
+          "PkgName": "org.eclipse.jetty:jetty-server",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.eclipse.jetty/jetty-server@11.0.23",
+            "UID": "28830b7526a22a69"
+          },
+          "InstalledVersion": "11.0.23",
+          "FixedVersion": "12.0.9, 10.0.24, 11.0.24, 9.4.56",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-8184",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "org.eclipse.jetty:jetty-server: jetty: Jetty ThreadLimitHandler.getRemote() vulnerable to remote DoS attacks",
+          "Description": "There exists a security vulnerability in Jetty's ThreadLimitHandler.getRemote() which can be exploited by unauthorized users to cause remote denial-of-service (DoS) attack.  By repeatedly sending crafted requests, attackers can trigger OutofMemory errors and exhaust the server's memory.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400",
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.9
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 6.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-8184",
+            "https://github.com/jetty/jetty.project",
+            "https://github.com/jetty/jetty.project/pull/11723",
+            "https://github.com/jetty/jetty.project/security/advisories/GHSA-g8m5-722r-8whq",
+            "https://gitlab.eclipse.org/security/cve-assignement/-/issues/30",
+            "https://lists.debian.org/debian-lts-announce/2025/04/msg00001.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-8184",
+            "https://www.cve.org/CVERecord?id=CVE-2024-8184"
+          ],
+          "PublishedDate": "2024-10-14T16:15:04.38Z",
+          "LastModifiedDate": "2025-11-03T20:17:04.82Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2015-0886",
+          "PkgName": "org.mindrot:jbcrypt",
+          "PkgPath": "usr/lib/cassandra-reaper.jar",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.mindrot/jbcrypt@0.3m",
+            "UID": "ba7572b0f3f636a"
+          },
+          "InstalledVersion": "0.3m",
+          "FixedVersion": "0.4",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:271d3edc62e19a90f11ef07e9e14fae1de15cd61785ccf521e7fcfcf92ff56fc"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-0886",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Title": "jBCrypt: integer overflow in the crypt_raw method",
+          "Description": "Integer overflow in the crypt_raw method in the key-stretching implementation in jBCrypt before 0.4 makes it easier for remote attackers to determine cleartext values of password hashes via a brute-force attack against hashes associated with the maximum exponent.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-190"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 1
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "V2Score": 5
+            },
+            "redhat": {
+              "V2Vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+              "V2Score": 2.6
+            }
+          },
+          "References": [
+            "http://jvn.jp/en/jp/JVN77718330/index.html",
+            "http://jvndb.jvn.jp/jvndb/JVNDB-2015-000033",
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-March/151496.html",
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-March/151786.html",
+            "http://lists.fedoraproject.org/pipermail/package-announce/2015-March/151797.html",
+            "http://www.mindrot.org/projects/jBCrypt/news/rel04.html",
+            "https://access.redhat.com/security/cve/CVE-2015-0886",
+            "https://bugzilla.mindrot.org/show_bug.cgi?id=2097",
+            "https://lists.apache.org/thread.html/rbd23e3ac8113b4da0a025c0e45170b6ec317383a1cf06090c2c717aa%40%3Ccommits.cassandra.apache.org%3E",
+            "https://lists.apache.org/thread.html/rbd23e3ac8113b4da0a025c0e45170b6ec317383a1cf06090c2c717aa@%3Ccommits.cassandra.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5c2256b8dc9935e4bb5e9be90adce58408054bb42523730a40c5548%40%3Ccommits.cassandra.apache.org%3E",
+            "https://lists.apache.org/thread.html/rd5c2256b8dc9935e4bb5e9be90adce58408054bb42523730a40c5548@%3Ccommits.cassandra.apache.org%3E",
+            "https://lists.apache.org/thread.html/re330cfe9e5d84e3f7da8ace23ec32f38cb3fbd328bf177badd7ad942%40%3Ccommits.cassandra.apache.org%3E",
+            "https://lists.apache.org/thread.html/re330cfe9e5d84e3f7da8ace23ec32f38cb3fbd328bf177badd7ad942@%3Ccommits.cassandra.apache.org%3E",
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-0886",
+            "https://www.cve.org/CVERecord?id=CVE-2015-0886"
+          ],
+          "PublishedDate": "2015-02-28T02:59:35.987Z",
+          "LastModifiedDate": "2025-04-12T10:46:40.837Z"
+        }
+      ]
+    },
+    {
+      "Target": "Python",
+      "Class": "lang-pkgs",
+      "Type": "python-pkg"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T21:50:42.11597737Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/jre:openjdk-8.452.09-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 235695104,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:608fa6aba07c9687457527c54b09ab720e36bc8b270798ab813df9ca06c74913",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:64ad964ece3c883fae90a0f0b40bf4adb9f5639b98f0c1fc6d30323885f92129",
+      "sha256:cd9c5d70f9fdb9842731982337c8a8aa53b103ac580f3b0683f6497a6faa9aa5",
+      "sha256:af6a40a517678f43bf5cb25adbcd73ea85988d8e746136f73384fd7a17fe02af",
+      "sha256:4351715e1ac6299192b1d0f4c5de0e14be409ca571ec86868a34780cd90f2404",
+      "sha256:6a876273da12007956b03a7226790bc2bf8ed785017c2090ba3d3efe9f3b3191",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/jre:openjdk-8.452.09-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/jre@sha256:555efda1905f4563a1e94db1f82984ae5495bffb886271d814cc052e8e9e2f73"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-30T21:01:01.77239344Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-30T21:00:36Z",
+          "created_by": "ARG shell=0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:00:36Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:00Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     clnstrt-dev-base-hpe     libstdc++     bash     openjdk8-jre=8.452.09-r0     libcrypto3=3.5.2-r0     libssl3=3.5.2-r0     openssl=3.5.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:00Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "ENV JAVA_HOME=/usr/lib/jvm/default-jvm PATH=/usr/lib/jvm/default-jvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LANG=en_US.UTF-8 SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "RUN |1 shell=0 /bin/sh -c mkdir -p /app \u0026\u0026     chown -R clnstrt:clngroup /app \u0026\u0026     chmod 775 /app # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "WORKDIR /app",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/java\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "LABEL Cleanstart.main.package=openjdk8-jre",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-30T21:01:01Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=GPL-2.0-with-classpath-exception",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:64ad964ece3c883fae90a0f0b40bf4adb9f5639b98f0c1fc6d30323885f92129",
+          "sha256:cd9c5d70f9fdb9842731982337c8a8aa53b103ac580f3b0683f6497a6faa9aa5",
+          "sha256:af6a40a517678f43bf5cb25adbcd73ea85988d8e746136f73384fd7a17fe02af",
+          "sha256:4351715e1ac6299192b1d0f4c5de0e14be409ca571ec86868a34780cd90f2404",
+          "sha256:6a876273da12007956b03a7226790bc2bf8ed785017c2090ba3d3efe9f3b3191",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/java"
+        ],
+        "Env": [
+          "PATH=/usr/lib/jvm/default-jvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "JAVA_HOME=/usr/lib/jvm/default-jvm",
+          "LANG=en_US.UTF-8",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "openjdk8-jre",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "GPL-2.0-with-classpath-exception",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "WorkingDir": "/app"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:64ad964ece3c883fae90a0f0b40bf4adb9f5639b98f0c1fc6d30323885f92129"
+      },
+      {
+        "Size": 214891520,
+        "DiffID": "sha256:cd9c5d70f9fdb9842731982337c8a8aa53b103ac580f3b0683f6497a6faa9aa5"
+      },
+      {
+        "Size": 336384,
+        "DiffID": "sha256:af6a40a517678f43bf5cb25adbcd73ea85988d8e746136f73384fd7a17fe02af"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:4351715e1ac6299192b1d0f4c5de0e14be409ca571ec86868a34780cd90f2404"
+      },
+      {
+        "Size": 2048,
+        "DiffID": "sha256:6a876273da12007956b03a7226790bc2bf8ed785017c2090ba3d3efe9f3b3191"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/cleanstart-dev/jre:openjdk-8.452.09-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

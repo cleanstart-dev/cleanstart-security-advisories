@@ -1,0 +1,333 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T05:21:11.387540185Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-db-fips:2.13.2-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 296064000,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:81df95259584058e494412d8c32559d1ca787ce6258a42299c5044c54da46d06",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:ed4b11c87fc9f9202c71edda264dffddbde76a2a35985d4594aa9530b06eea7f",
+      "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90",
+      "sha256:f1b46cd218257b053bcd6578770de55172cf1bbeeb8f2e940228bd0278d64123"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-db-fips:2.13.2-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-db-fips@sha256:c2246fd6cd5a078148a131663e22991386403df8665b81321f67688f3d439de2"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-15T11:16:02.787783546Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-15T11:15:25Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 999 999 -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-15T11:15:57Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     glibc-clnstrt-i18n     clnstrt-dev-base-hpe     postgresql14     postgresql14-client     postgresql15     postgresql15-client     harbor-fips-db=2.13.2-r1     bash     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0     libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "RUN /bin/sh -c apk upgrade \u0026\u0026     rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ \u0026\u0026     /usr/bin/fips_on \u0026\u0026     ln -sf /usr/share/harbor/db/scripts/docker-entrypoint.sh /usr/bin/docker-entrypoint.sh \u0026\u0026     chmod 755 /usr/bin/docker-entrypoint.sh \u0026\u0026     cp /usr/share/harbor/db/scripts/initdb.sh /initdb.sh \u0026\u0026     cp /usr/share/harbor/db/scripts/upgrade.sh /upgrade.sh \u0026\u0026     mkdir -p /var/lib/postgresql/data /run/postgresql /usr/libexec/postgresql14 /usr/libexec/postgresql15 \u0026\u0026     chown -R 999:clngroup /var/lib/postgresql /run/postgresql /usr/libexec/postgresql14 /usr/libexec/postgresql15 \u0026\u0026     chmod 755 /initdb.sh /upgrade.sh \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; \u0026\u0026     cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"999:x:999:999:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"999:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PGDATA=/var/lib/postgresql/data LANG=en_US.UTF-8",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "WORKDIR /",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "USER 999",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/docker-entrypoint.sh\" \"14\" \"15\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "LABEL Cleanstart.main.package=harbor-fips-db",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-15T11:16:02Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:ed4b11c87fc9f9202c71edda264dffddbde76a2a35985d4594aa9530b06eea7f",
+          "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90",
+          "sha256:f1b46cd218257b053bcd6578770de55172cf1bbeeb8f2e940228bd0278d64123"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/docker-entrypoint.sh",
+          "14",
+          "15"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PGDATA=/var/lib/postgresql/data",
+          "LANG=en_US.UTF-8"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "harbor-fips-db",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "999",
+        "WorkingDir": "/"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:ed4b11c87fc9f9202c71edda264dffddbde76a2a35985d4594aa9530b06eea7f"
+      },
+      {
+        "Size": 167733760,
+        "DiffID": "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90"
+      },
+      {
+        "Size": 107879424,
+        "DiffID": "sha256:f1b46cd218257b053bcd6578770de55172cf1bbeeb8f2e940228bd0278d64123"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/harbor-db-fips:2.13.2-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-12818",
+          "PkgID": "postgresql15@15.14-r0",
+          "PkgName": "postgresql15",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/postgresql15@15.14-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "9f31ebb0226cea7a"
+          },
+          "InstalledVersion": "15.14-r0",
+          "FixedVersion": "15.15-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12818",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "postgresql: libpq undersizes allocations, via integer wraparound",
+          "Description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-190"
+          ],
+          "VendorSeverity": {
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12818",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12818",
+            "https://www.postgresql.org/support/security/CVE-2025-12818/"
+          ],
+          "PublishedDate": "2025-11-13T13:15:45.313Z",
+          "LastModifiedDate": "2025-11-14T16:42:03.187Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12817",
+          "PkgID": "postgresql15@15.14-r0",
+          "PkgName": "postgresql15",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/postgresql15@15.14-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "9f31ebb0226cea7a"
+          },
+          "InstalledVersion": "15.14-r0",
+          "FixedVersion": "15.15-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12817",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "postgresql: CREATE STATISTICS does not check for schema CREATE privilege",
+          "Description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-862"
+          ],
+          "VendorSeverity": {
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12817",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12817",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12817",
+            "https://www.postgresql.org/support/security/CVE-2025-12817/"
+          ],
+          "PublishedDate": "2025-11-13T13:15:45.167Z",
+          "LastModifiedDate": "2025-11-14T16:42:03.187Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12818",
+          "PkgID": "postgresql15-client@15.14-r0",
+          "PkgName": "postgresql15-client",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/postgresql15-client@15.14-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "c811dd09d8e18765"
+          },
+          "InstalledVersion": "15.14-r0",
+          "FixedVersion": "15.15-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12818",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "postgresql: libpq undersizes allocations, via integer wraparound",
+          "Description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-190"
+          ],
+          "VendorSeverity": {
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12818",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12818",
+            "https://www.postgresql.org/support/security/CVE-2025-12818/"
+          ],
+          "PublishedDate": "2025-11-13T13:15:45.313Z",
+          "LastModifiedDate": "2025-11-14T16:42:03.187Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-12817",
+          "PkgID": "postgresql15-client@15.14-r0",
+          "PkgName": "postgresql15-client",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/postgresql15-client@15.14-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "c811dd09d8e18765"
+          },
+          "InstalledVersion": "15.14-r0",
+          "FixedVersion": "15.15-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:dc3f570a2e844be24c9b4bb89612f17a91992fb6e349ceba13d4ae49ba02ec90"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-12817",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "postgresql: CREATE STATISTICS does not check for schema CREATE privilege",
+          "Description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-862"
+          ],
+          "VendorSeverity": {
+            "redhat": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2025-12817",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-12817",
+            "https://www.cve.org/CVERecord?id=CVE-2025-12817",
+            "https://www.postgresql.org/support/security/CVE-2025-12817/"
+          ],
+          "PublishedDate": "2025-11-13T13:15:45.167Z",
+          "LastModifiedDate": "2025-11-14T16:42:03.187Z"
+        }
+      ]
+    }
+  ]
+}

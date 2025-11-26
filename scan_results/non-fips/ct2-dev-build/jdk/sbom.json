@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T21:48:05.635925773Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/non-fips/ct2-dev-build/jdk/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/non-fips/ct2-dev-build/jdk/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

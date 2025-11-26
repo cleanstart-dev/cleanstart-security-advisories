@@ -1,0 +1,137 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:31:43.666108476Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/ruby:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 289963520,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:a7fe7a315b63c628d912e3ca4ef13fd5b86fd4711dd789efcf15f8216a2578a8",
+    "DiffIDs": [
+      "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+      "sha256:c75c964d7b5f94ca1148f34f63fdf46e2669a18fb8aac7e0e39d623c5207727e",
+      "sha256:e8fa24b733283cb9602c93ecd27687900961702191de92cd5dc57a035a9149c1",
+      "sha256:be20529b75becb24e736dc9c5ca0464426a0affa79139e4b9122bff1d87f7303",
+      "sha256:21248a2f44ff4985a975740345df4c34b102ebe53539948c96d0187955c5ed42"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/ruby:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/ruby@sha256:1576405c6d1796ce4052457f9c79226d48dd97b49a8c0bfe689d44a84460551b"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:25:56.648443017Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:28:14Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:25:50Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.40-r6 bash apk-tools cyrus-sasl libstdc++ ncurses-terminfo-base binutils busybox uwsgi datefudge mimalloc2 gcc gdbm git gmp heimdal-libs isl26 keyutils krb5-conf krb5-libs libatomic brotli libcom_err libxcrypt libcrypto3 libcurl libevent libexpat libffi libgcc libgo libgomp libidn2 libldap nghttp2 pcre2 libpsl libssl3 libunistring libverto libxcrypt zstd logger make mpc1 mpfr4 ncurses nss openssl pkgconf ruby readline sqlite wget yaml zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "WORKDIR /work",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/ruby\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:56Z",
+          "created_by": "CMD [\"--version\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4",
+          "sha256:c75c964d7b5f94ca1148f34f63fdf46e2669a18fb8aac7e0e39d623c5207727e",
+          "sha256:e8fa24b733283cb9602c93ecd27687900961702191de92cd5dc57a035a9149c1",
+          "sha256:be20529b75becb24e736dc9c5ca0464426a0affa79139e4b9122bff1d87f7303",
+          "sha256:21248a2f44ff4985a975740345df4c34b102ebe53539948c96d0187955c5ed42"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--version"
+        ],
+        "Entrypoint": [
+          "/usr/bin/ruby"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/work",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20449792,
+        "DiffID": "sha256:df3433158736c1924c3d30a7d5482cbda55826ce8a23bb55b7e07f1bfb131bc4"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:c75c964d7b5f94ca1148f34f63fdf46e2669a18fb8aac7e0e39d623c5207727e"
+      },
+      {
+        "Size": 269497344,
+        "DiffID": "sha256:e8fa24b733283cb9602c93ecd27687900961702191de92cd5dc57a035a9149c1"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:be20529b75becb24e736dc9c5ca0464426a0affa79139e4b9122bff1d87f7303"
+      },
+      {
+        "Size": 2048,
+        "DiffID": "sha256:21248a2f44ff4985a975740345df4c34b102ebe53539948c96d0187955c5ed42"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/community-dev/ruby:latest-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

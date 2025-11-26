@@ -1,0 +1,291 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T04:17:46.888623995Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/aws-cli-fips:2.30.6-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 628853760,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:84057dbeee12af2b84888fd9a8ef7c419fbde71fb4971b2760b72610a2819d63",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:8dc7f8c120803516249e766e5c9972d27045bad11c0edaea17b5027fe7525494",
+      "sha256:7b90c2aec342826d1aabb13d750f5c6b3d216e88ce8ad8b14c006bc53a892ff1",
+      "sha256:a2e85b6a7a2cdf5181f69029fcf9d0b9134fdb0978f4b3136e39ec873058b595",
+      "sha256:95286b411c087fb2ce5e857a118093f236ee8e9b73d7ffa9782e6133535dda98",
+      "sha256:0f715038767d5e938753d05501979702a55a151b100e091c358c3d26963d212b",
+      "sha256:ca231215c1038893f6c6d46a6b27584e7ee5eb4e3d6ebce95fa303e6e48d10e9",
+      "sha256:eee838fc592f38a7a51abf3846b1dc27c44090fc97d281c654d3cbfb4914d3b8",
+      "sha256:8f3cad4feacf9035368e83fb5ee8faabcd40559370260bcbb2431a0297b5066e",
+      "sha256:dc6a70d1d9a44653fdec059ff2329238c7a0182b5207bbc4b5e8f772f83e69d4"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/aws-cli-fips:2.30.6-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/aws-cli-fips@sha256:c868f0171735915faaba16a679f71ce0b4496174e126c9fb635c9160504d01fa"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-31T14:20:51.470418858Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-31T14:19:30Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:14Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base-hpe aws-cli=2.30.6-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:14Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:15Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:16Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:16Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:17Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:50Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "ENTRYPOINT [\"aws\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "LABEL Cleanstart.main.package=aws-cli-fips",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-31T14:20:51Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:8dc7f8c120803516249e766e5c9972d27045bad11c0edaea17b5027fe7525494",
+          "sha256:7b90c2aec342826d1aabb13d750f5c6b3d216e88ce8ad8b14c006bc53a892ff1",
+          "sha256:a2e85b6a7a2cdf5181f69029fcf9d0b9134fdb0978f4b3136e39ec873058b595",
+          "sha256:95286b411c087fb2ce5e857a118093f236ee8e9b73d7ffa9782e6133535dda98",
+          "sha256:0f715038767d5e938753d05501979702a55a151b100e091c358c3d26963d212b",
+          "sha256:ca231215c1038893f6c6d46a6b27584e7ee5eb4e3d6ebce95fa303e6e48d10e9",
+          "sha256:eee838fc592f38a7a51abf3846b1dc27c44090fc97d281c654d3cbfb4914d3b8",
+          "sha256:8f3cad4feacf9035368e83fb5ee8faabcd40559370260bcbb2431a0297b5066e",
+          "sha256:dc6a70d1d9a44653fdec059ff2329238c7a0182b5207bbc4b5e8f772f83e69d4"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "aws"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "aws-cli-fips",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:8dc7f8c120803516249e766e5c9972d27045bad11c0edaea17b5027fe7525494"
+      },
+      {
+        "Size": 340666368,
+        "DiffID": "sha256:7b90c2aec342826d1aabb13d750f5c6b3d216e88ce8ad8b14c006bc53a892ff1"
+      },
+      {
+        "Size": 918016,
+        "DiffID": "sha256:a2e85b6a7a2cdf5181f69029fcf9d0b9134fdb0978f4b3136e39ec873058b595"
+      },
+      {
+        "Size": 2686976,
+        "DiffID": "sha256:95286b411c087fb2ce5e857a118093f236ee8e9b73d7ffa9782e6133535dda98"
+      },
+      {
+        "Size": 2822656,
+        "DiffID": "sha256:0f715038767d5e938753d05501979702a55a151b100e091c358c3d26963d212b"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:ca231215c1038893f6c6d46a6b27584e7ee5eb4e3d6ebce95fa303e6e48d10e9"
+      },
+      {
+        "Size": 1868800,
+        "DiffID": "sha256:eee838fc592f38a7a51abf3846b1dc27c44090fc97d281c654d3cbfb4914d3b8"
+      },
+      {
+        "Size": 259429888,
+        "DiffID": "sha256:8f3cad4feacf9035368e83fb5ee8faabcd40559370260bcbb2431a0297b5066e"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:dc6a70d1d9a44653fdec059ff2329238c7a0182b5207bbc4b5e8f772f83e69d4"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/aws-cli-fips:2.30.6-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Python",
+      "Class": "lang-pkgs",
+      "Type": "python-pkg",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-47273",
+          "PkgName": "setuptools",
+          "PkgPath": "usr/lib/aws-cli/aws/setuptools-71.1.0.dist-info/METADATA",
+          "PkgIdentifier": {
+            "PURL": "pkg:pypi/setuptools@71.1.0",
+            "UID": "537e3281bc878ffc"
+          },
+          "InstalledVersion": "71.1.0",
+          "FixedVersion": "78.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:8f3cad4feacf9035368e83fb5ee8faabcd40559370260bcbb2431a0297b5066e"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-47273",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory pip",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+          },
+          "Title": "setuptools: Path Traversal Vulnerability in setuptools PackageIndex",
+          "Description": "setuptools is a package that allows users to download, build, install, upgrade, and uninstall Python packages. A path traversal vulnerability in `PackageIndex` is present in setuptools prior to version 78.1.1. An attacker would be allowed to write files to arbitrary locations on the filesystem with the permissions of the process running the Python code, which could escalate to remote code execution depending on the context. Version 78.1.1 fixes the issue.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-22"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "amazon": 3,
+            "azure": 3,
+            "bitnami": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "oracle-oval": 2,
+            "photon": 3,
+            "redhat": 2,
+            "rocky": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 8.8
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L",
+              "V3Score": 7.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2025:13578",
+            "https://access.redhat.com/security/cve/CVE-2025-47273",
+            "https://bugzilla.redhat.com/2366982",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2366982",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47273",
+            "https://errata.almalinux.org/9/ALSA-2025-13578.html",
+            "https://errata.rockylinux.org/RLSA-2025:9940",
+            "https://github.com/pypa/advisory-database/tree/main/vulns/setuptools/PYSEC-2025-49.yaml",
+            "https://github.com/pypa/setuptools",
+            "https://github.com/pypa/setuptools/blob/6ead555c5fb29bc57fe6105b1bffc163f56fd558/setuptools/package_index.py#L810C1-L825C88",
+            "https://github.com/pypa/setuptools/commit/250a6d17978f9f6ac3ac887091f2d32886fbbb0b",
+            "https://github.com/pypa/setuptools/issues/4946",
+            "https://github.com/pypa/setuptools/security/advisories/GHSA-5rjg-fvgr-3xxf",
+            "https://linux.oracle.com/cve/CVE-2025-47273.html",
+            "https://linux.oracle.com/errata/ELSA-2025-9940.html",
+            "https://lists.debian.org/debian-lts-announce/2025/05/msg00035.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47273",
+            "https://ubuntu.com/security/notices/USN-7544-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47273"
+          ],
+          "PublishedDate": "2025-05-17T16:15:19.11Z",
+          "LastModifiedDate": "2025-06-12T16:29:01.66Z"
+        }
+      ]
+    }
+  ]
+}

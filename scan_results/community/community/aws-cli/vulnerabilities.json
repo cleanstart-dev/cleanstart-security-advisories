@@ -1,0 +1,119 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:18:57.447952893Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/aws-cli:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 658658304,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:6bbb908341fec839a8c47517f9f1c59da5425ec76e06ad1f396c4abfd6993cb2",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:ee710023f91f5027afce7d46f1f5a09f26462c458f2f8b5087dca87cf70b02cf",
+      "sha256:d7f9b1e5865f111a3cc063296a2c30148e8bae1776147a9e0969a6dafc0c9cfb",
+      "sha256:87095cca36c20a37bf1186f2fab2a30e65fb5fb4ee8a83b1f05dc99b99ddec8b",
+      "sha256:ec384f37e3ff0e6fcbc68279e2739d31342bd1f7ecd444ee4ce8d758af676f30"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/aws-cli:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/aws-cli@sha256:b18ff9887e73c92eef905dffdab33b145b3f90c67c3a1d7b30e42045e96f13ca"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T00:22:04.133432466Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T00:21:34Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:22:03Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add  apk-tools aws-cli=2.30.6-r0 aws-cli-bash-completion=2.30.6-r0 clnstrt-dev-base brotli brotli-libs busybox ca-certificates-bundle cyrus-sasl gdbm git git-perl groff guile-readline heimdal-libs idn2-utils keyutils-libs krb5-conf krb5-libs libbz2 libcom_err libcrypto3 libcurl libevent libexpat libffi libformw libgcc libldap libpsl libssl3 libstdc++ libunistring libverto libxcrypt mpdecimal ncurses-terminfo-base nghttp2 pcre2 sqlite-libs wget xz zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:22:03Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:22:04Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T00:22:04Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt PYTHONDEVMODE=1",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:22:04Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T00:22:04Z",
+          "created_by": "ENTRYPOINT [\"aws\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:ee710023f91f5027afce7d46f1f5a09f26462c458f2f8b5087dca87cf70b02cf",
+          "sha256:d7f9b1e5865f111a3cc063296a2c30148e8bae1776147a9e0969a6dafc0c9cfb",
+          "sha256:87095cca36c20a37bf1186f2fab2a30e65fb5fb4ee8a83b1f05dc99b99ddec8b",
+          "sha256:ec384f37e3ff0e6fcbc68279e2739d31342bd1f7ecd444ee4ce8d758af676f30"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "aws"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "PYTHONDEVMODE=1"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:ee710023f91f5027afce7d46f1f5a09f26462c458f2f8b5087dca87cf70b02cf"
+      },
+      {
+        "Size": 627580416,
+        "DiffID": "sha256:d7f9b1e5865f111a3cc063296a2c30148e8bae1776147a9e0969a6dafc0c9cfb"
+      },
+      {
+        "Size": 9536000,
+        "DiffID": "sha256:87095cca36c20a37bf1186f2fab2a30e65fb5fb4ee8a83b1f05dc99b99ddec8b"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:ec384f37e3ff0e6fcbc68279e2739d31342bd1f7ecd444ee4ce8d758af676f30"
+      }
+    ]
+  }
+}

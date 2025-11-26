@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:44:36.105101497Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/trust-manager:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 499136512,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:9ae20d6327b1abffcee8dce0132149e1406e7a4be60fe8bdb2e61f41dd144318",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:e13453365b2451fd00f56641112a251d921c673b94d0295b4daaac72cd7bc50e",
+      "sha256:71fcd6e76e32ec69ed22b51ab6616a1838c858c4b1534f74e892aee4e372fe47",
+      "sha256:89f203751fd0c9ea22c7ca6320789f3353ddce945d0bd3579fcf8846e5c73d4f",
+      "sha256:7cc863c067022aa541afaa84d6fcf9a43f1809ba72aa1ad5c9e9d57c7ce27102"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/trust-manager:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/trust-manager@sha256:ef675203be7b0ad36ef41699201357d97e442a342eb514422540180e3c451cc9"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T06:19:56.745774252Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T06:19:21Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:19:55Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 clnstrt-dev-base trust-manager=0.19.0-r0 \u0026\u0026     ln -snf /usr/bin/step-issuer /usr/bin/manager # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:19:56Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:19:56Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:19:56Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:19:56Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:19:56Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/trust-manager\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:e13453365b2451fd00f56641112a251d921c673b94d0295b4daaac72cd7bc50e",
+          "sha256:71fcd6e76e32ec69ed22b51ab6616a1838c858c4b1534f74e892aee4e372fe47",
+          "sha256:89f203751fd0c9ea22c7ca6320789f3353ddce945d0bd3579fcf8846e5c73d4f",
+          "sha256:7cc863c067022aa541afaa84d6fcf9a43f1809ba72aa1ad5c9e9d57c7ce27102"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/trust-manager"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:e13453365b2451fd00f56641112a251d921c673b94d0295b4daaac72cd7bc50e"
+      },
+      {
+        "Size": 477142528,
+        "DiffID": "sha256:71fcd6e76e32ec69ed22b51ab6616a1838c858c4b1534f74e892aee4e372fe47"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:89f203751fd0c9ea22c7ca6320789f3353ddce945d0bd3579fcf8846e5c73d4f"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:7cc863c067022aa541afaa84d6fcf9a43f1809ba72aa1ad5c9e9d57c7ce27102"
+      }
+    ]
+  }
+}

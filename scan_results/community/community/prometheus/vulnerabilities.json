@@ -1,0 +1,130 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:26:22.12218365Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/prometheus:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 302514688,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:85afa37576b71d31474bb7f86791f8506f4b83f679111eafd17e0a4637b07434",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:820d8e4962d440a1ed550d6335b92c5b56a84b8c82077a8824a06542d42253a8",
+      "sha256:6ad97a3f87bed1a6cd4c73c3b35ea87798c5b3ad8bfefd9dae07793be080df27",
+      "sha256:01578048064827343901bf6c9d4d9ae9303c090d12e41e08a33bcf2ae9f57739",
+      "sha256:ea894511b4f0c367c806d6d478fb6af0459445e288250d3ec05609e14db795c0",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/prometheus:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/prometheus@sha256:08ef99293ee8c0aeeb758d21e87e75697c53ac2ee894db01aa4a96cc382c88bb"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:26:59.452713962Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:26:53Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:26:58Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 prometheus openssl brotli busybox gdbm git  heimdal-libs keyutils krb5-libs krb5-conf libcom_err libcrypto3 libcurl libevent libexpat libformw libgcc libldap libpsl libssl3 libunistring libverto libxcrypt nghttp2 pcre2 protobuf readline sqlite wget yaml zlib # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /etc/prometheus/data \u0026\u0026     chown -R clnstrt:clngroup /etc/prometheus/data \u0026\u0026     chmod -R 775 /etc/prometheus/data # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "WORKDIR /etc/prometheus",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:26:59Z",
+          "created_by": "ENTRYPOINT [\"prometheus\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:820d8e4962d440a1ed550d6335b92c5b56a84b8c82077a8824a06542d42253a8",
+          "sha256:6ad97a3f87bed1a6cd4c73c3b35ea87798c5b3ad8bfefd9dae07793be080df27",
+          "sha256:01578048064827343901bf6c9d4d9ae9303c090d12e41e08a33bcf2ae9f57739",
+          "sha256:ea894511b4f0c367c806d6d478fb6af0459445e288250d3ec05609e14db795c0",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "prometheus"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/etc/prometheus"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:820d8e4962d440a1ed550d6335b92c5b56a84b8c82077a8824a06542d42253a8"
+      },
+      {
+        "Size": 280968704,
+        "DiffID": "sha256:6ad97a3f87bed1a6cd4c73c3b35ea87798c5b3ad8bfefd9dae07793be080df27"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:01578048064827343901bf6c9d4d9ae9303c090d12e41e08a33bcf2ae9f57739"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:ea894511b4f0c367c806d6d478fb6af0459445e288250d3ec05609e14db795c0"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  }
+}

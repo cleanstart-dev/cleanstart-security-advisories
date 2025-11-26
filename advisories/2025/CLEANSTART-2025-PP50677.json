@@ -1,0 +1,390 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-PP50677",
+  "modified": "2025-11-24T12:22:50Z",
+  "published": "2025-11-24T12:22:50Z",
+  "withdrawn": null,
+  "aliases": [
+    "CVE-2025-47912",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-61723",
+    "CVE-2025-61724",
+    "CVE-2025-61725",
+    "CVE-2025-63811"
+  ],
+  "upstream": [
+    "CVE-2025-47912",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-61723",
+    "CVE-2025-61724",
+    "CVE-2025-61725",
+    "CVE-2025-63811"
+  ],
+  "summary": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/opentelemetry-collector-contrib-fips:0.135.0-dev scan detected 11 tracked vulnerabilities",
+  "details": "Automated import from scan folder `batch-2/ct2-stage-hpe-fips/opentelemetry-collector-contrib-fips` for artifact `us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/opentelemetry-collector-contrib-fips:0.135.0-dev` detected 11 vulnerabilities.\n\nThe scanner reported the following CVEs:\n- CVE-2025-63811 (HIGH) in github.com/dvsekhvalnov/jose2go v1.6.0: An issue was discovered in dvsekhvalnov jose2go 1.5.0 thru 1.7.0 allowing an attacker to cause a Denial-of-Service (DoS) via crafted JSON Web Encryption (JWE) token with an exceptionally high compression ratio.\n- CVE-2025-58183 (HIGH) in stdlib v1.24.6: tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.\n- CVE-2025-58186 (HIGH) in stdlib v1.24.6: Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as \"a=;\", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.\n- CVE-2025-58187 (HIGH) in stdlib v1.24.6: Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.\n- CVE-2025-58188 (HIGH) in stdlib v1.24.6: Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.\n- CVE-2025-47912 (MEDIUM) in stdlib v1.24.6: The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: \"http://[::1]/\". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.\n- CVE-2025-58185 (MEDIUM) in stdlib v1.24.6: Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.\n- CVE-2025-58189 (MEDIUM) in stdlib v1.24.6: When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.\n- CVE-2025-61723 (MEDIUM) in stdlib v1.24.6: The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.\n- CVE-2025-61724 (MEDIUM) in stdlib v1.24.6: The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.\n- CVE-2025-61725 (MEDIUM) in stdlib v1.24.6: The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CLEANSTART",
+        "name": "github.com/dvsekhvalnov/jose2go"
+      },
+      "versions": [
+        "v1.6.0"
+      ],
+      "database_specific": {
+        "cves": [
+          "CVE-2025-63811"
+        ],
+        "fixed_versions": [
+          "1.7.0"
+        ]
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "CLEANSTART",
+        "name": "stdlib"
+      },
+      "versions": [
+        "v1.24.6"
+      ],
+      "database_specific": {
+        "cves": [
+          "CVE-2025-47912",
+          "CVE-2025-58183",
+          "CVE-2025-58185",
+          "CVE-2025-58186",
+          "CVE-2025-58187",
+          "CVE-2025-58188",
+          "CVE-2025-58189",
+          "CVE-2025-61723",
+          "CVE-2025-61724",
+          "CVE-2025-61725"
+        ],
+        "fixed_versions": [
+          "1.24.8, 1.25.2",
+          "1.24.9, 1.25.3"
+        ]
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "SCAN_REPORT",
+      "url": "file:///home/raghav/schema-data/cleanstart-security-advisories/scan_results/batch-2/ct2-stage-hpe-fips/opentelemetry-collector-contrib-fips/vulnerabilities.json"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/10/08/1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-47912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-58183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-58185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-58189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-61725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-47912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-58189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-61723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-61724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-61725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://avd.aquasec.com/nvd/cve-2025-63811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dvsekhvalnov/jose2go"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dvsekhvalnov/jose2go/commit/0a0673dd7f2820a446de5b04b9094b2291d77d5d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dvsekhvalnov/jose2go/issues/33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/707776"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709855"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709856"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709859"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709861"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75671"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75678"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75681"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4012"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4013"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4015"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-47912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-58183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-58185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-58189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-61723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-61724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-61725"
+    }
+  ],
+  "severity": [
+    {
+      "type": "SCAN_SEVERITY",
+      "score": "HIGH"
+    }
+  ],
+  "database_specific": {
+    "source_scan_folder": "batch-2/ct2-stage-hpe-fips/opentelemetry-collector-contrib-fips",
+    "artifact": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/opentelemetry-collector-contrib-fips:0.135.0-dev",
+    "generated_from_scan": true
+  }
+}

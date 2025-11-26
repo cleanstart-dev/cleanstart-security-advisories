@@ -1,0 +1,181 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T01:06:10.103829581Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/k8ssandra-system-logger-fips:1.23.2-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 353239040,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:ee3453dfb1399a8bc6608e87d8971cb136e4982957c131d447564b6f54a6ed8f",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:c2ea681f84ba5600c65b51936942d8e3ba6483887a3a345736c9228519983aa5",
+      "sha256:0438c2fe20b461026fb78b3077e4cf452bb38286306fa55fb69388823971caa5",
+      "sha256:9a9acb3b4d7e03467469a6525c608f475e451218eebe24e282f1e23f9720f566",
+      "sha256:a8dea6bb6bd1bbadd32292bca5eac03b59cae709c9a5ccd7744b134c4ece3921",
+      "sha256:3ef2ef775894b9114c8142e3327f075d3ac50da39162436d02c47f55e10eff61",
+      "sha256:4705e07e90859f0cbe6b887f72a035c26af2cd0d553866331f7bef22a7397cb7",
+      "sha256:a7152e8d9f27e239d352c8975d39c2dabb2f95866614d129a1927ee111dab402",
+      "sha256:516b8c7433cb08f7d1b66b3fa60f8c2e0c6b094317f3f0e7516a53ed8379ec32",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/k8ssandra-system-logger-fips:1.23.2-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/k8ssandra-system-logger-fips@sha256:c98cb8262baecc02c40559cf7e6be6974a18b4c05b8d2be767a5d979cba2b8ff"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T15:37:03.200279982Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T15:36:22Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:36:55Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 vector=0.49.0-r1 cass-operator-fips-config=1.23.2-r1 clnstrt-dev-base-hpe # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:36:56Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:36:57Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:36:58Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:36:58Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:37:02Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:37:03Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:37:03Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T15:37:03Z",
+          "created_by": "WORKDIR /home/clnstrt",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T15:37:03Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T15:37:03Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/vector\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:c2ea681f84ba5600c65b51936942d8e3ba6483887a3a345736c9228519983aa5",
+          "sha256:0438c2fe20b461026fb78b3077e4cf452bb38286306fa55fb69388823971caa5",
+          "sha256:9a9acb3b4d7e03467469a6525c608f475e451218eebe24e282f1e23f9720f566",
+          "sha256:a8dea6bb6bd1bbadd32292bca5eac03b59cae709c9a5ccd7744b134c4ece3921",
+          "sha256:3ef2ef775894b9114c8142e3327f075d3ac50da39162436d02c47f55e10eff61",
+          "sha256:4705e07e90859f0cbe6b887f72a035c26af2cd0d553866331f7bef22a7397cb7",
+          "sha256:a7152e8d9f27e239d352c8975d39c2dabb2f95866614d129a1927ee111dab402",
+          "sha256:516b8c7433cb08f7d1b66b3fa60f8c2e0c6b094317f3f0e7516a53ed8379ec32",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/vector"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/home/clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:c2ea681f84ba5600c65b51936942d8e3ba6483887a3a345736c9228519983aa5"
+      },
+      {
+        "Size": 190418944,
+        "DiffID": "sha256:0438c2fe20b461026fb78b3077e4cf452bb38286306fa55fb69388823971caa5"
+      },
+      {
+        "Size": 264192,
+        "DiffID": "sha256:9a9acb3b4d7e03467469a6525c608f475e451218eebe24e282f1e23f9720f566"
+      },
+      {
+        "Size": 1996800,
+        "DiffID": "sha256:a8dea6bb6bd1bbadd32292bca5eac03b59cae709c9a5ccd7744b134c4ece3921"
+      },
+      {
+        "Size": 2168832,
+        "DiffID": "sha256:3ef2ef775894b9114c8142e3327f075d3ac50da39162436d02c47f55e10eff61"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:4705e07e90859f0cbe6b887f72a035c26af2cd0d553866331f7bef22a7397cb7"
+      },
+      {
+        "Size": 137928192,
+        "DiffID": "sha256:a7152e8d9f27e239d352c8975d39c2dabb2f95866614d129a1927ee111dab402"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:516b8c7433cb08f7d1b66b3fa60f8c2e0c6b094317f3f0e7516a53ed8379ec32"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/k8ssandra-system-logger-fips:1.23.2-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

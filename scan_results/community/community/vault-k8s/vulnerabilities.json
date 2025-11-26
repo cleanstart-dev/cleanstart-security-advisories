@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:46:04.796945884Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/vault-k8s:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 478988288,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:35779435a3e32b7ba3374c42f7a88e8bc15dfbcd7fd17c640b6c3c934a10290d",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:cc0de8b4afee5677fb1c8607ff07d6cfa446f9a30b1643dc9fd8541186651d4e",
+      "sha256:1fc5f1994bcf3466f91a60c11af143ed11ecf0ed1f9c8cfc39ebacdc0183287f",
+      "sha256:dc2cf9bd4ab967dfdfd278459707bad79be0b2dade2ad4a8531f53edb52ce97e",
+      "sha256:1860300dc8f022b86dc7e2d7aad8f74ba22618d5dd7e42927c8b5a887b4ec520"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/vault-k8s:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/vault-k8s@sha256:cbe680038dfddae200aeb55e151c9a4cb5ef03fb299fd80369c7620fa9d702cb"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T06:26:46.1406158Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T06:26:21Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:26:45Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 clnstrt-dev-base vault-k8s=1.7.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:26:45Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:26:46Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T06:26:46Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:26:46Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T06:26:46Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/vault-k8s\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:cc0de8b4afee5677fb1c8607ff07d6cfa446f9a30b1643dc9fd8541186651d4e",
+          "sha256:1fc5f1994bcf3466f91a60c11af143ed11ecf0ed1f9c8cfc39ebacdc0183287f",
+          "sha256:dc2cf9bd4ab967dfdfd278459707bad79be0b2dade2ad4a8531f53edb52ce97e",
+          "sha256:1860300dc8f022b86dc7e2d7aad8f74ba22618d5dd7e42927c8b5a887b4ec520"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/vault-k8s"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:cc0de8b4afee5677fb1c8607ff07d6cfa446f9a30b1643dc9fd8541186651d4e"
+      },
+      {
+        "Size": 456994816,
+        "DiffID": "sha256:1fc5f1994bcf3466f91a60c11af143ed11ecf0ed1f9c8cfc39ebacdc0183287f"
+      },
+      {
+        "Size": 451584,
+        "DiffID": "sha256:dc2cf9bd4ab967dfdfd278459707bad79be0b2dade2ad4a8531f53edb52ce97e"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:1860300dc8f022b86dc7e2d7aad8f74ba22618d5dd7e42927c8b5a887b4ec520"
+      }
+    ]
+  }
+}

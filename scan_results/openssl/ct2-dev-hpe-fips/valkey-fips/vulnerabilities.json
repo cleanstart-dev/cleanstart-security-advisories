@@ -1,0 +1,314 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T01:08:28.809125565Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/valkey-fips:8.1.3-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 232394752,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:9d1096b467409130c6514ba64b20542d026ae092b985389a90bf54fdf9bebf9e",
+    "DiffIDs": [
+      "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+      "sha256:4d92e68e9c9e0bea84f5df71628532e600213e2aa4ee1090cc25f0deae511608",
+      "sha256:d7234d7fe1e587389e2a612c679b8d8cd5ba76cd88f5f9539c71420ce0aa6e1e",
+      "sha256:ffbee83b29e18ec2ea281a8d1b4c1355741d8eb6c6699493976d47f1df66c115",
+      "sha256:8758a6c15f071b987a14961a56e517331cf94ff8036ca73495e403e92d400366",
+      "sha256:67f10d1fdf877c564d8e057886600e9c79ef090f576d2b351f780c49b5bd8fe1",
+      "sha256:0b951cd3fbc5920550f326ba2b734c050237755c9ab45c8b44e4d698c4ce033b",
+      "sha256:c97fa7faad930e805debe21e4393cd3168a67fab6c66a62e4f36d3f7b4102f77",
+      "sha256:314ed75a5552d69a029e0859b2ef01f639fdaf12db4a46750742439cacb3f585",
+      "sha256:82755386e98cb3ed32ec8b4045e11177d2dfac27ef811a8c6dee38ffc95132e6",
+      "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/valkey-fips:8.1.3-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/valkey-fips@sha256:bd662abdc0e4e6f5f9a048987bd63b8ccf57d213d78f49690fbb4e630770ce12"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-08-13T14:07:04.302643892Z",
+      "history": [
+        {
+          "created": "2025-08-11T06:58:13Z"
+        },
+        {
+          "created": "2025-08-13T14:06:55Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:06:58Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 valkey-fips=8.1.3-r0 valkey-fips-cli=8.1.3-r0 apk-tools cyrus-sasl gdbm git heimdal-libs keyutils-libs krb5-conf krb5-libs libcom_err libidn2 libldap libpcre2-32 libpsl libunistring libverto readline sqlite-libs wget zlib bash busybox ca-certificates-bundle libxcrypt ncurses ncurses-terminfo-base libbz2 ca-certificates-bundle libcrypto3 libexpat libffi mpdecimal sqlite-libs xz zlib perl=5.42.0-r0 groff libeconf libblkid libuuid libfdisk libmount libsmartcols ncurses-terminfo-base libncursesw readline sqlite util-linux dmesg setarch util-linux-misc gdbm utmps-libs linux-pam runuser mount losetup hexdump uuidgen blkid sfdisk mcookie agetty wipefs cfdisk umount flock eudev-libs lsblk libcap-ng setpriv logger partx fstrim findmnt gawk libcom_err e2fsprogs-libs krb5-conf heimdal-libs xz-libs libmagic file glibc-clnstrt-bin glibc-clnstrt-doc bash glibc-clnstrt-utils libsasl cyrus-sasl pcre2 git git-init-template keyutils-libs libverto krb5-libs brotli libevent libldap zstd ncurses wget libev nghttp2 bzip2 expat krb5 keyutils e2fsprogs libltdl openldap curl-dev sqlite-dev heimdal-dev brotli-dev libxcrypt-dev c-ares-dev zlib-dev nghttp2-dev # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:06:58Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:06:59Z",
+          "created_by": "RUN /bin/sh -c apk add     openssl=3.5.0-r0     libcrypto3=3.5.0-r0     libssl3=3.5.0-r0     openssl-dev=3.5.0-r0 \u0026\u0026     which openssl \u0026\u0026     openssl version # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:06:59Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:00Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:00Z",
+          "created_by": "RUN /bin/sh -c apk add libgcc=15.1.0_git20250607-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:03Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /data \u0026\u0026     chown -R clnstrt:clngroup /data \u0026\u0026     chmod -R 755 /data \u0026\u0026     chmod +x /usr/bin/valkey-server \u0026\u0026     chown clnstrt:clngroup /usr/bin/valkey-server \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:04Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:04Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-13T14:07:04Z",
+          "created_by": "WORKDIR /data",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-13T14:07:04Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-13T14:07:04Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/valkey-server\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69",
+          "sha256:4d92e68e9c9e0bea84f5df71628532e600213e2aa4ee1090cc25f0deae511608",
+          "sha256:d7234d7fe1e587389e2a612c679b8d8cd5ba76cd88f5f9539c71420ce0aa6e1e",
+          "sha256:ffbee83b29e18ec2ea281a8d1b4c1355741d8eb6c6699493976d47f1df66c115",
+          "sha256:8758a6c15f071b987a14961a56e517331cf94ff8036ca73495e403e92d400366",
+          "sha256:67f10d1fdf877c564d8e057886600e9c79ef090f576d2b351f780c49b5bd8fe1",
+          "sha256:0b951cd3fbc5920550f326ba2b734c050237755c9ab45c8b44e4d698c4ce033b",
+          "sha256:c97fa7faad930e805debe21e4393cd3168a67fab6c66a62e4f36d3f7b4102f77",
+          "sha256:314ed75a5552d69a029e0859b2ef01f639fdaf12db4a46750742439cacb3f585",
+          "sha256:82755386e98cb3ed32ec8b4045e11177d2dfac27ef811a8c6dee38ffc95132e6",
+          "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/valkey-server"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "WorkingDir": "/data",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 25108480,
+        "DiffID": "sha256:2d8b428ed2420bd11dc3d3b11647bc14d96a1eb211a66438c315efbf79491e69"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:4d92e68e9c9e0bea84f5df71628532e600213e2aa4ee1090cc25f0deae511608"
+      },
+      {
+        "Size": 123240448,
+        "DiffID": "sha256:d7234d7fe1e587389e2a612c679b8d8cd5ba76cd88f5f9539c71420ce0aa6e1e"
+      },
+      {
+        "Size": 316416,
+        "DiffID": "sha256:ffbee83b29e18ec2ea281a8d1b4c1355741d8eb6c6699493976d47f1df66c115"
+      },
+      {
+        "Size": 9714176,
+        "DiffID": "sha256:8758a6c15f071b987a14961a56e517331cf94ff8036ca73495e403e92d400366"
+      },
+      {
+        "Size": 2220032,
+        "DiffID": "sha256:67f10d1fdf877c564d8e057886600e9c79ef090f576d2b351f780c49b5bd8fe1"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:0b951cd3fbc5920550f326ba2b734c050237755c9ab45c8b44e4d698c4ce033b"
+      },
+      {
+        "Size": 321024,
+        "DiffID": "sha256:c97fa7faad930e805debe21e4393cd3168a67fab6c66a62e4f36d3f7b4102f77"
+      },
+      {
+        "Size": 71452672,
+        "DiffID": "sha256:314ed75a5552d69a029e0859b2ef01f639fdaf12db4a46750742439cacb3f585"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:82755386e98cb3ed32ec8b4045e11177d2dfac27ef811a8c6dee38ffc95132e6"
+      },
+      {
+        "Size": 1024,
+        "DiffID": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-docker.pkg.dev/ct2-dev-build/dev-hpe-fips/valkey-fips:8.1.3-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "expat@2.7.0-r0",
+          "PkgName": "expat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/expat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "668438b4f21cabbc"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d7234d7fe1e587389e2a612c679b8d8cd5ba76cd88f5f9539c71420ce0aa6e1e"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "libexpat@2.7.0-r0",
+          "PkgName": "libexpat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64\u0026distro=3.20.7",
+            "UID": "ca87854c4f8cf6a1"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:d7234d7fe1e587389e2a612c679b8d8cd5ba76cd88f5f9539c71420ce0aa6e1e"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        }
+      ]
+    }
+  ]
+}

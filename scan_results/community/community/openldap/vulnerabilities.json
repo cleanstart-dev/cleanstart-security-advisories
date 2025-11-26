@@ -1,0 +1,129 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:22:35.205231777Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/openldap:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 458138624,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:8a6a2ec438725e012f83ea0d9be2e91791e4aecf858cd1e660a63028a9347e85",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:2acee92f44691d7e6f3b12f4e06b8bde3f61c1f46236a1edb0c4788dc7d27734",
+      "sha256:178b9cbc4f1491e1445eb5408fcaadc23df60b527fa7bf999a6c1153f103788c",
+      "sha256:0eb80c88357c72c1568b9e77947131a57957476106a2953413a708812a82a51d",
+      "sha256:511e5cac8580ca9c000a484096a524836edae32405468b44d9bc0077860e88ef"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/openldap:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/openldap@sha256:f0f1663fcfa63d5d8b0cc9a4f147c1482155d6816e40b22846ff261f9c349b01"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T04:38:41.448158213Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T04:38:39Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0  clnstrt-dev-base openldap-back-asyncmeta=2.6.10-r0 openldap-back-dnssrv=2.6.10-r0  openldap-back-ldap=2.6.10-r0 openldap-back-lload=2.6.10-r0 openldap-back-mdb=2.6.10-r0 openldap-back-meta=2.6.10-r0 openldap-back-null=2.6.10-r0 openldap-back-passwd=2.6.10-r0 openldap-back-relay=2.6.10-r0 openldap-back-sock=2.6.10-r0 openldap-back-sql=2.6.10-r0 openldap-backend-all=2.6.10-r0 openldap-clients=2.6.10-r0 openldap-dev=2.6.10-r0 openldap-doc=2.6.10-r0 openldap-lloadd=2.6.10-r0 openldap-lloadd-openrc=2.6.10-r0 openldap-openrc=2.6.10-r0 openldap-overlay-accesslog=2.6.10-r0 openldap-overlay-all=2.6.10-r0 openldap-overlay-auditlog=2.6.10-r0 openldap-overlay-autoca=2.6.10-r0 openldap-overlay-collect=2.6.10-r0 openldap-overlay-constraint=2.6.10-r0 openldap-overlay-dds=2.6.10-r0 openldap-overlay-deref=2.6.10-r0 openldap-overlay-dyngroup=2.6.10-r0 openldap-overlay-dynlist=2.6.10-r0 openldap-overlay-homedir=2.6.10-r0 openldap-overlay-lastbind=2.6.10-r0 openldap-overlay-memberof=2.6.10-r0 openldap-overlay-mqtt=2.6.10-r0 openldap-overlay-otp=2.6.10-r0 openldap-overlay-ppolicy=2.6.10-r0 openldap-overlay-proxycache=2.6.10-r0 openldap-overlay-refint=2.6.10-r0 openldap-overlay-remoteauth=2.6.10-r0 openldap-overlay-retcode=2.6.10-r0 openldap-overlay-rwm=2.6.10-r0 openldap-overlay-seqmod=2.6.10-r0 openldap-overlay-sssvlv=2.6.10-r0 openldap-overlay-syncprov=2.6.10-r0 openldap-overlay-translucent=2.6.10-r0 openldap-overlay-unique=2.6.10-r0 openldap-overlay-valsort=2.6.10-r0 openldap-passwd-argon2=2.6.10-r0 openldap-passwd-pbkdf2=2.6.10-r0 openldap-passwd-sha2=2.6.10-r0 libcrypto3=3.5.2-r0 libssl3=3.5.2-r0 openssl=3.5.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:38:40Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:38:40Z",
+          "created_by": "RUN /bin/sh -c mkdir -p /var/lib/openldap/openldap-data /var/run/openldap \u0026\u0026     chown -R ldap:ldap /var/lib/openldap /var/run/openldap # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:38:41Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T04:38:41Z",
+          "created_by": "EXPOSE map[389/tcp:{} 636/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:38:41Z",
+          "created_by": "ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T04:38:41Z",
+          "created_by": "ENTRYPOINT [\"slapd\" \"-u\" \"ldap\" \"-g\" \"ldap\" \"-h\" \"ldap:// ldaps://\" \"-d\" \"64\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:2acee92f44691d7e6f3b12f4e06b8bde3f61c1f46236a1edb0c4788dc7d27734",
+          "sha256:178b9cbc4f1491e1445eb5408fcaadc23df60b527fa7bf999a6c1153f103788c",
+          "sha256:0eb80c88357c72c1568b9e77947131a57957476106a2953413a708812a82a51d",
+          "sha256:511e5cac8580ca9c000a484096a524836edae32405468b44d9bc0077860e88ef"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "slapd",
+          "-u",
+          "ldap",
+          "-g",
+          "ldap",
+          "-h",
+          "ldap:// ldaps://",
+          "-d",
+          "64"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "ExposedPorts": {
+          "389/tcp": {},
+          "636/tcp": {}
+        }
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 436019712,
+        "DiffID": "sha256:2acee92f44691d7e6f3b12f4e06b8bde3f61c1f46236a1edb0c4788dc7d27734"
+      },
+      {
+        "Size": 583680,
+        "DiffID": "sha256:178b9cbc4f1491e1445eb5408fcaadc23df60b527fa7bf999a6c1153f103788c"
+      },
+      {
+        "Size": 4608,
+        "DiffID": "sha256:0eb80c88357c72c1568b9e77947131a57957476106a2953413a708812a82a51d"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:511e5cac8580ca9c000a484096a524836edae32405468b44d9bc0077860e88ef"
+      }
+    ]
+  }
+}

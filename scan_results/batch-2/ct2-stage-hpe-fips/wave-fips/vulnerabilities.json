@@ -1,0 +1,215 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T07:04:25.757295889Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/wave-fips:0.9.0-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 310042112,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:152cdcafbdaca5e722e61b6f4eb0450fc029b288f5e845f5f5e4a3840ba810c8",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:f3e225ae48993858f465bc37f39b4bd00e5648a9c5f35a95b30dd69091d60c58",
+      "sha256:d118db2737b16d488b49794afdae52b775826495c492b9075b790788d7ce0839",
+      "sha256:5cf1529d38eacc44a1fb6e5c012403c4ba1847ebdf8586ee7dd85d93f1eaddb6",
+      "sha256:c298b6f524591baea1f317e4e6b91f131ecf0f2c1c60c6ec3038a725b238c7aa",
+      "sha256:281d8b3eff4395ab70a2f865e5ffcd9ab1108cf0af18397828d3cb8dfddf81a2",
+      "sha256:3a6966a839694b9858f326e256ae17af2eb8e4f22f5f3e2903b6172612e7ab1e",
+      "sha256:2a9b2ba3438620d3f1cecaa76ac62827bec6ad6eb16c7644c95d1c879331ea06",
+      "sha256:cda166e6d74f262f1043efaba86ff59f2141e93ecf6065f4bf68c117b02e6910",
+      "sha256:97504cfae5f08fcff655878ce3c81efe191379942989336704335516fe4c876d"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/wave-fips:0.9.0-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/wave-fips@sha256:dc7f547ea1609e99977486beb67de6c8719c5d7971103cbe8843e8617f323816"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-11-07T06:59:34.616233718Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-11-07T06:58:55Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 10000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:27Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add glibc-clnstrt=2.41-r0 clnstrt-dev-base-hpe wave-fips=0.9.0-r2 ca-certificates=20241121-r2 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:28Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:29Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:29Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:30Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:31Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "RUN /bin/sh -c chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/wave\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "LABEL Cleanstart.main.package=wave-fips",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-11-07T06:59:34Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=Apache-2.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:f3e225ae48993858f465bc37f39b4bd00e5648a9c5f35a95b30dd69091d60c58",
+          "sha256:d118db2737b16d488b49794afdae52b775826495c492b9075b790788d7ce0839",
+          "sha256:5cf1529d38eacc44a1fb6e5c012403c4ba1847ebdf8586ee7dd85d93f1eaddb6",
+          "sha256:c298b6f524591baea1f317e4e6b91f131ecf0f2c1c60c6ec3038a725b238c7aa",
+          "sha256:281d8b3eff4395ab70a2f865e5ffcd9ab1108cf0af18397828d3cb8dfddf81a2",
+          "sha256:3a6966a839694b9858f326e256ae17af2eb8e4f22f5f3e2903b6172612e7ab1e",
+          "sha256:2a9b2ba3438620d3f1cecaa76ac62827bec6ad6eb16c7644c95d1c879331ea06",
+          "sha256:cda166e6d74f262f1043efaba86ff59f2141e93ecf6065f4bf68c117b02e6910",
+          "sha256:97504cfae5f08fcff655878ce3c81efe191379942989336704335516fe4c876d"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/wave"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "wave-fips",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "Apache-2.0",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 10240,
+        "DiffID": "sha256:f3e225ae48993858f465bc37f39b4bd00e5648a9c5f35a95b30dd69091d60c58"
+      },
+      {
+        "Size": 168260608,
+        "DiffID": "sha256:d118db2737b16d488b49794afdae52b775826495c492b9075b790788d7ce0839"
+      },
+      {
+        "Size": 263680,
+        "DiffID": "sha256:5cf1529d38eacc44a1fb6e5c012403c4ba1847ebdf8586ee7dd85d93f1eaddb6"
+      },
+      {
+        "Size": 2062336,
+        "DiffID": "sha256:c298b6f524591baea1f317e4e6b91f131ecf0f2c1c60c6ec3038a725b238c7aa"
+      },
+      {
+        "Size": 2168320,
+        "DiffID": "sha256:281d8b3eff4395ab70a2f865e5ffcd9ab1108cf0af18397828d3cb8dfddf81a2"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:3a6966a839694b9858f326e256ae17af2eb8e4f22f5f3e2903b6172612e7ab1e"
+      },
+      {
+        "Size": 1244160,
+        "DiffID": "sha256:2a9b2ba3438620d3f1cecaa76ac62827bec6ad6eb16c7644c95d1c879331ea06"
+      },
+      {
+        "Size": 115580416,
+        "DiffID": "sha256:cda166e6d74f262f1043efaba86ff59f2141e93ecf6065f4bf68c117b02e6910"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:97504cfae5f08fcff655878ce3c81efe191379942989336704335516fe4c876d"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/wave-fips:0.9.0-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "usr/bin/wave",
+      "Class": "lang-pkgs",
+      "Type": "gobinary"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:35:16.377850129Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/cosign:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 545418240,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:d2bd8dbc4853ad72abfe3baa78e5e6f1855f16abc84de8c1ad80a50af7a174d3",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:0d01fcf665a141d64eec24c6af751c0d2e1bb0bbc1a7bbb9ee94c05809983e3d",
+      "sha256:59b9855eeb35aa471c8ebd22e0d0aba62a7b80761987b92a06e4029f277eb04f",
+      "sha256:dd9f849b42988b6f48bb1537d7e8de31396cf1513809e44ab2f8e671c6fbe4ae",
+      "sha256:a029220e39cb4e7c60b2308cc2eb8a6568dde8daa45763d6c1e4b2f236c5bc33"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cosign:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/cosign@sha256:b83991a4ca053d679c1c536e8ba8d72212730c22995650e06b8720890f94f23b"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T01:37:40.179191086Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T01:37:02Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:37:39Z",
+          "created_by": "RUN /bin/sh -c apk add ca-certificates-bundle glibc-clnstrt=2.41-r0 cosign=2.6.0-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:37:39Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/cosign\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "CMD [\"help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "LABEL Cleanstart.main.package=cosign",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T01:37:40Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:0d01fcf665a141d64eec24c6af751c0d2e1bb0bbc1a7bbb9ee94c05809983e3d",
+          "sha256:59b9855eeb35aa471c8ebd22e0d0aba62a7b80761987b92a06e4029f277eb04f",
+          "sha256:dd9f849b42988b6f48bb1537d7e8de31396cf1513809e44ab2f8e671c6fbe4ae",
+          "sha256:a029220e39cb4e7c60b2308cc2eb8a6568dde8daa45763d6c1e4b2f236c5bc33"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/cosign"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "cosign",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:0d01fcf665a141d64eec24c6af751c0d2e1bb0bbc1a7bbb9ee94c05809983e3d"
+      },
+      {
+        "Size": 523423744,
+        "DiffID": "sha256:59b9855eeb35aa471c8ebd22e0d0aba62a7b80761987b92a06e4029f277eb04f"
+      },
+      {
+        "Size": 452608,
+        "DiffID": "sha256:dd9f849b42988b6f48bb1537d7e8de31396cf1513809e44ab2f8e671c6fbe4ae"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:a029220e39cb4e7c60b2308cc2eb8a6568dde8daa45763d6c1e4b2f236c5bc33"
+      }
+    ]
+  }
+}

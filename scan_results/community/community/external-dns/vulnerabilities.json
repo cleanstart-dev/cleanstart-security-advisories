@@ -1,0 +1,151 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:38:18.385987719Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/external-dns:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 532456448,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:d08ed3fd16d9712fa8b65c086b9fb46689b84df60693ce5b6d94937945863e08",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:ae6e29eb40535f106e07ad978a23b2e38d5e6c4b84da20707c31956eac2c7cc8",
+      "sha256:6150c6383b945a6a41be681f710e56df6cd75bd1ab80a46332ca561a933a9d8d",
+      "sha256:807da04c8cd8b57ec9bcb4093d0276b10973eb929b89ab76608ccf2ffdf5f45f",
+      "sha256:b28ab70eb56d97a009af96801bfbbc358904d1ae8140cc7c190a9b8672dd7283"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/external-dns:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/external-dns@sha256:deb6baa9b61b1a664d62971ed34804561c4d9a570a6f916a71e537f37fc165ec"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-20T08:58:32.967472819Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-09-20T08:57:55Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T08:58:31Z",
+          "created_by": "RUN /bin/sh -c apk add ca-certificates-bundle glibc-clnstrt=2.41-r0 external-dns=0.18.0-r0 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/external-dns\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "CMD [\"--help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "LABEL Cleanstart.main.package=external-dns",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-20T08:58:32Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:ae6e29eb40535f106e07ad978a23b2e38d5e6c4b84da20707c31956eac2c7cc8",
+          "sha256:6150c6383b945a6a41be681f710e56df6cd75bd1ab80a46332ca561a933a9d8d",
+          "sha256:807da04c8cd8b57ec9bcb4093d0276b10973eb929b89ab76608ccf2ffdf5f45f",
+          "sha256:b28ab70eb56d97a009af96801bfbbc358904d1ae8140cc7c190a9b8672dd7283"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/external-dns"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "external-dns",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        },
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:ae6e29eb40535f106e07ad978a23b2e38d5e6c4b84da20707c31956eac2c7cc8"
+      },
+      {
+        "Size": 510462464,
+        "DiffID": "sha256:6150c6383b945a6a41be681f710e56df6cd75bd1ab80a46332ca561a933a9d8d"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:807da04c8cd8b57ec9bcb4093d0276b10973eb929b89ab76608ccf2ffdf5f45f"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:b28ab70eb56d97a009af96801bfbbc358904d1ae8140cc7c190a9b8672dd7283"
+      }
+    ]
+  }
+}

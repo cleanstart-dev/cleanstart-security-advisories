@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:31:05.359147213Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/redis-exporter:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 433266688,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:f683f76f6fbd6c4a4c42b531a247516ec490bff0e1cb02d68bd3c04700632783",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:f1e63112c3b56905b680d2b7382e85540233fe5e445b36ad4f94e9a9375e1424",
+      "sha256:da7ccb75022539db5cf15fa1b589571cd23161bfe4cb2dbecdd627a72633e00a",
+      "sha256:10ae6e539aa894ec245ed73d2fdcf37e8629c90e2cb0d4e6294a4c5d71261af3",
+      "sha256:8bdb07bb664b007d116c31e1f3170fb106e76039e3e03dc69c9dbc6737c189a1"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/redis-exporter:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/redis-exporter@sha256:4bef94fd7163a848b3a68fbca87ee02b1449b2db05838948a824f77640b10401"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T05:18:03.689082791Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T05:17:37Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:18:02Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 glibc-clnstrt-i18n libgcc clnstrt-dev-base prometheus-redis-exporter=1.77.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:18:03Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:18:03Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T05:18:03Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:18:03Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T05:18:03Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/redis_exporter\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:f1e63112c3b56905b680d2b7382e85540233fe5e445b36ad4f94e9a9375e1424",
+          "sha256:da7ccb75022539db5cf15fa1b589571cd23161bfe4cb2dbecdd627a72633e00a",
+          "sha256:10ae6e539aa894ec245ed73d2fdcf37e8629c90e2cb0d4e6294a4c5d71261af3",
+          "sha256:8bdb07bb664b007d116c31e1f3170fb106e76039e3e03dc69c9dbc6737c189a1"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/redis_exporter"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:f1e63112c3b56905b680d2b7382e85540233fe5e445b36ad4f94e9a9375e1424"
+      },
+      {
+        "Size": 411272704,
+        "DiffID": "sha256:da7ccb75022539db5cf15fa1b589571cd23161bfe4cb2dbecdd627a72633e00a"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:10ae6e539aa894ec245ed73d2fdcf37e8629c90e2cb0d4e6294a4c5d71261af3"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:8bdb07bb664b007d116c31e1f3170fb106e76039e3e03dc69c9dbc6737c189a1"
+      }
+    ]
+  }
+}

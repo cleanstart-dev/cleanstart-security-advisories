@@ -1,0 +1,107 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T23:13:05.675518418Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-speaker:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 522517504,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:978fee6a1769db89e6c30efa4f34ad988e70daebc6e99c0669c87f9cbdd28249",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:433c7d99b1e6b40ece8ee3c2707c03fa2586887d4776863a5e9bf1484ae6f544",
+      "sha256:595d8df4858f9a748f4b1fe15cc46f551729631b9b4f3f1c75c0062d3782b94b",
+      "sha256:b8a9fe6e6991ad0eff35d09234c2409af7c15b37d831bab3d74c9687519b1a07"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-speaker:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/metallb-speaker@sha256:6278ce2c8b181159e9c89f49b3f64577ff3df5167ad0b6bf4888e4d8f0d4e8cd"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-26T03:53:24.689892936Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-26T03:52:46Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026     adduser -S -u 1000 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:53:24Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 libgcc glibc-clnstrt-i18n gcc ncurses ncurses-terminfo-base clnstrt-dev-base metallb-speaker=0.15.2-r0 metallb-frr=0.15.2-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:53:24Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-26T03:53:24Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:53:24Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-26T03:53:24Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/metallb-speaker\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:433c7d99b1e6b40ece8ee3c2707c03fa2586887d4776863a5e9bf1484ae6f544",
+          "sha256:595d8df4858f9a748f4b1fe15cc46f551729631b9b4f3f1c75c0062d3782b94b",
+          "sha256:b8a9fe6e6991ad0eff35d09234c2409af7c15b37d831bab3d74c9687519b1a07"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "/usr/bin/metallb-speaker"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt"
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:433c7d99b1e6b40ece8ee3c2707c03fa2586887d4776863a5e9bf1484ae6f544"
+      },
+      {
+        "Size": 500975616,
+        "DiffID": "sha256:595d8df4858f9a748f4b1fe15cc46f551729631b9b4f3f1c75c0062d3782b94b"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:b8a9fe6e6991ad0eff35d09234c2409af7c15b37d831bab3d74c9687519b1a07"
+      }
+    ]
+  }
+}

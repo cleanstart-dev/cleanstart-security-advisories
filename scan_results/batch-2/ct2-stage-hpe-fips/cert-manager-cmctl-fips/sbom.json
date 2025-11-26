@@ -1,0 +1,1951 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T03:20:13.630287346Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/cert-manager-cmctl-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.6"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/batch-2/ct2-stage-hpe-fips/cert-manager-cmctl-fips/sbom.spdx.json (alpine 3.20.6)",
+      "Class": "os-pkgs",
+      "Type": "alpine",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-10148",
+          "PkgID": "curl@8.12.0-r0",
+          "PkgName": "curl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "970e72bff17f9b35"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-10148",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: predictable WebSocket mask",
+          "Description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "azure": 2,
+            "cbl-mariner": 2,
+            "photon": 2,
+            "redhat": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/3",
+            "https://access.redhat.com/security/cve/CVE-2025-10148",
+            "https://curl.se/docs/CVE-2025-10148.html",
+            "https://curl.se/docs/CVE-2025-10148.json",
+            "https://hackerone.com/reports/3330839",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
+            "https://www.cve.org/CVERecord?id=CVE-2025-10148"
+          ],
+          "PublishedDate": "2025-09-12T06:15:40.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:05.137Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-4947",
+          "PkgID": "curl@8.12.0-r0",
+          "PkgName": "curl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "970e72bff17f9b35"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-4947",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "libcurl: curl: QUIC certificate check skip with wolfSSL",
+          "Description": "libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 6.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/4",
+            "https://access.redhat.com/security/cve/CVE-2025-4947",
+            "https://curl.se/docs/CVE-2025-4947.html",
+            "https://curl.se/docs/CVE-2025-4947.json",
+            "https://hackerone.com/reports/3150884",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-4947",
+            "https://www.cve.org/CVERecord?id=CVE-2025-4947"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.78Z",
+          "LastModifiedDate": "2025-06-26T15:08:21.52Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5025",
+          "PkgID": "curl@8.12.0-r0",
+          "PkgName": "curl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "970e72bff17f9b35"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5025",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: QUIC Certificate Pinning Bypass",
+          "Description": "libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/5",
+            "https://access.redhat.com/security/cve/CVE-2025-5025",
+            "https://curl.se/docs/CVE-2025-5025.html",
+            "https://curl.se/docs/CVE-2025-5025.json",
+            "https://hackerone.com/reports/3153497",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5025",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5025"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.91Z",
+          "LastModifiedDate": "2025-07-30T19:41:37.987Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5399",
+          "PkgID": "curl@8.12.0-r0",
+          "PkgName": "curl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "970e72bff17f9b35"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5399",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: WebSocket endless loop",
+          "Description": "Due to a mistake in libcurl's WebSocket code, a malicious server can send a\nparticularly crafted packet which makes libcurl get trapped in an endless\nbusy-loop.\n\nThere is no other way for the application to escape or exit this loop other\nthan killing the thread/process.\n\nThis might be used to DoS libcurl-using application.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-835"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "rocky": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/06/04/2",
+            "https://access.redhat.com/errata/RHSA-2025:16046",
+            "https://access.redhat.com/security/cve/CVE-2025-5399",
+            "https://bugzilla.redhat.com/2359885",
+            "https://bugzilla.redhat.com/2359888",
+            "https://bugzilla.redhat.com/2359892",
+            "https://bugzilla.redhat.com/2359894",
+            "https://bugzilla.redhat.com/2359895",
+            "https://bugzilla.redhat.com/2359899",
+            "https://bugzilla.redhat.com/2359900",
+            "https://bugzilla.redhat.com/2359902",
+            "https://bugzilla.redhat.com/2359903",
+            "https://bugzilla.redhat.com/2359911",
+            "https://bugzilla.redhat.com/2359918",
+            "https://bugzilla.redhat.com/2359920",
+            "https://bugzilla.redhat.com/2359924",
+            "https://bugzilla.redhat.com/2359928",
+            "https://bugzilla.redhat.com/2359930",
+            "https://bugzilla.redhat.com/2359932",
+            "https://bugzilla.redhat.com/2359934",
+            "https://bugzilla.redhat.com/2359938",
+            "https://bugzilla.redhat.com/2359940",
+            "https://bugzilla.redhat.com/2359943",
+            "https://bugzilla.redhat.com/2359944",
+            "https://bugzilla.redhat.com/2359945",
+            "https://bugzilla.redhat.com/2359947",
+            "https://bugzilla.redhat.com/2359950",
+            "https://bugzilla.redhat.com/2359963",
+            "https://bugzilla.redhat.com/2359964",
+            "https://bugzilla.redhat.com/2359972",
+            "https://bugzilla.redhat.com/2370920",
+            "https://bugzilla.redhat.com/2380264",
+            "https://bugzilla.redhat.com/2380273",
+            "https://bugzilla.redhat.com/2380274",
+            "https://bugzilla.redhat.com/2380278",
+            "https://bugzilla.redhat.com/2380280",
+            "https://bugzilla.redhat.com/2380283",
+            "https://bugzilla.redhat.com/2380284",
+            "https://bugzilla.redhat.com/2380290",
+            "https://bugzilla.redhat.com/2380291",
+            "https://bugzilla.redhat.com/2380295",
+            "https://bugzilla.redhat.com/2380298",
+            "https://bugzilla.redhat.com/2380306",
+            "https://bugzilla.redhat.com/2380308",
+            "https://bugzilla.redhat.com/2380309",
+            "https://bugzilla.redhat.com/2380310",
+            "https://bugzilla.redhat.com/2380312",
+            "https://bugzilla.redhat.com/2380313",
+            "https://bugzilla.redhat.com/2380320",
+            "https://bugzilla.redhat.com/2380321",
+            "https://bugzilla.redhat.com/2380322",
+            "https://bugzilla.redhat.com/2380326",
+            "https://bugzilla.redhat.com/2380327",
+            "https://bugzilla.redhat.com/2380334",
+            "https://bugzilla.redhat.com/2380335",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2338999",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359885",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359888",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359892",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359894",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359895",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359899",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359900",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359902",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359903",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359911",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359918",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359924",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359928",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359930",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359932",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359934",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359938",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359940",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359943",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359944",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359945",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359947",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359950",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359963",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359964",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359972",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380264",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380273",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380274",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380278",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380280",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380283",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380284",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380290",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380291",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380295",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380298",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380306",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380308",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380309",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380310",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380312",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380313",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380320",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380321",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380322",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380326",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380327",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380334",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380335",
+            "https://curl.se/docs/CVE-2025-5399.html",
+            "https://curl.se/docs/CVE-2025-5399.json",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21574",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21575",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21577",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21579",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21580",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21581",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21584",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21585",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21588",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30681",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30682",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30683",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30684",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30685",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30687",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30688",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30689",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30693",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30695",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30696",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30699",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30703",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30704",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30705",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30715",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30721",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30722",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50077",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50078",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50079",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50080",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50081",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50082",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50083",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50084",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50085",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50086",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50087",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50088",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50091",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50092",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50093",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50094",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50096",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50097",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50098",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50099",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50100",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50101",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399",
+            "https://errata.almalinux.org/9/ALSA-2025-16046.html",
+            "https://errata.rockylinux.org/RLSA-2025:15699",
+            "https://hackerone.com/reports/3168039",
+            "https://linux.oracle.com/cve/CVE-2025-5399.html",
+            "https://linux.oracle.com/errata/ELSA-2025-16046.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5399",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5399",
+            "https://www.oracle.com/security-alerts/cpujul2025.html#AppendixMSQL"
+          ],
+          "PublishedDate": "2025-06-07T08:15:20.687Z",
+          "LastModifiedDate": "2025-07-30T19:41:33.457Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9086",
+          "PkgID": "curl@8.12.0-r0",
+          "PkgName": "curl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "970e72bff17f9b35"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9086",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: Curl out of bounds read for cookie path",
+          "Description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 1,
+            "photon": 3,
+            "redhat": 2,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/1",
+            "https://access.redhat.com/security/cve/CVE-2025-9086",
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6",
+            "https://hackerone.com/reports/3294999",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9086"
+          ],
+          "PublishedDate": "2025-09-12T06:15:44.1Z",
+          "LastModifiedDate": "2025-11-04T22:16:45.19Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-10148",
+          "PkgID": "curl-dev@8.12.0-r0",
+          "PkgName": "curl-dev",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl-dev@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c67cbebd5dbcb5eb"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-10148",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: predictable WebSocket mask",
+          "Description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "azure": 2,
+            "cbl-mariner": 2,
+            "photon": 2,
+            "redhat": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/3",
+            "https://access.redhat.com/security/cve/CVE-2025-10148",
+            "https://curl.se/docs/CVE-2025-10148.html",
+            "https://curl.se/docs/CVE-2025-10148.json",
+            "https://hackerone.com/reports/3330839",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
+            "https://www.cve.org/CVERecord?id=CVE-2025-10148"
+          ],
+          "PublishedDate": "2025-09-12T06:15:40.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:05.137Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-4947",
+          "PkgID": "curl-dev@8.12.0-r0",
+          "PkgName": "curl-dev",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl-dev@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c67cbebd5dbcb5eb"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-4947",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "libcurl: curl: QUIC certificate check skip with wolfSSL",
+          "Description": "libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 6.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/4",
+            "https://access.redhat.com/security/cve/CVE-2025-4947",
+            "https://curl.se/docs/CVE-2025-4947.html",
+            "https://curl.se/docs/CVE-2025-4947.json",
+            "https://hackerone.com/reports/3150884",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-4947",
+            "https://www.cve.org/CVERecord?id=CVE-2025-4947"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.78Z",
+          "LastModifiedDate": "2025-06-26T15:08:21.52Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5025",
+          "PkgID": "curl-dev@8.12.0-r0",
+          "PkgName": "curl-dev",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl-dev@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c67cbebd5dbcb5eb"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5025",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: QUIC Certificate Pinning Bypass",
+          "Description": "libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/5",
+            "https://access.redhat.com/security/cve/CVE-2025-5025",
+            "https://curl.se/docs/CVE-2025-5025.html",
+            "https://curl.se/docs/CVE-2025-5025.json",
+            "https://hackerone.com/reports/3153497",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5025",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5025"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.91Z",
+          "LastModifiedDate": "2025-07-30T19:41:37.987Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5399",
+          "PkgID": "curl-dev@8.12.0-r0",
+          "PkgName": "curl-dev",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl-dev@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c67cbebd5dbcb5eb"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5399",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: WebSocket endless loop",
+          "Description": "Due to a mistake in libcurl's WebSocket code, a malicious server can send a\nparticularly crafted packet which makes libcurl get trapped in an endless\nbusy-loop.\n\nThere is no other way for the application to escape or exit this loop other\nthan killing the thread/process.\n\nThis might be used to DoS libcurl-using application.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-835"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "rocky": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/06/04/2",
+            "https://access.redhat.com/errata/RHSA-2025:16046",
+            "https://access.redhat.com/security/cve/CVE-2025-5399",
+            "https://bugzilla.redhat.com/2359885",
+            "https://bugzilla.redhat.com/2359888",
+            "https://bugzilla.redhat.com/2359892",
+            "https://bugzilla.redhat.com/2359894",
+            "https://bugzilla.redhat.com/2359895",
+            "https://bugzilla.redhat.com/2359899",
+            "https://bugzilla.redhat.com/2359900",
+            "https://bugzilla.redhat.com/2359902",
+            "https://bugzilla.redhat.com/2359903",
+            "https://bugzilla.redhat.com/2359911",
+            "https://bugzilla.redhat.com/2359918",
+            "https://bugzilla.redhat.com/2359920",
+            "https://bugzilla.redhat.com/2359924",
+            "https://bugzilla.redhat.com/2359928",
+            "https://bugzilla.redhat.com/2359930",
+            "https://bugzilla.redhat.com/2359932",
+            "https://bugzilla.redhat.com/2359934",
+            "https://bugzilla.redhat.com/2359938",
+            "https://bugzilla.redhat.com/2359940",
+            "https://bugzilla.redhat.com/2359943",
+            "https://bugzilla.redhat.com/2359944",
+            "https://bugzilla.redhat.com/2359945",
+            "https://bugzilla.redhat.com/2359947",
+            "https://bugzilla.redhat.com/2359950",
+            "https://bugzilla.redhat.com/2359963",
+            "https://bugzilla.redhat.com/2359964",
+            "https://bugzilla.redhat.com/2359972",
+            "https://bugzilla.redhat.com/2370920",
+            "https://bugzilla.redhat.com/2380264",
+            "https://bugzilla.redhat.com/2380273",
+            "https://bugzilla.redhat.com/2380274",
+            "https://bugzilla.redhat.com/2380278",
+            "https://bugzilla.redhat.com/2380280",
+            "https://bugzilla.redhat.com/2380283",
+            "https://bugzilla.redhat.com/2380284",
+            "https://bugzilla.redhat.com/2380290",
+            "https://bugzilla.redhat.com/2380291",
+            "https://bugzilla.redhat.com/2380295",
+            "https://bugzilla.redhat.com/2380298",
+            "https://bugzilla.redhat.com/2380306",
+            "https://bugzilla.redhat.com/2380308",
+            "https://bugzilla.redhat.com/2380309",
+            "https://bugzilla.redhat.com/2380310",
+            "https://bugzilla.redhat.com/2380312",
+            "https://bugzilla.redhat.com/2380313",
+            "https://bugzilla.redhat.com/2380320",
+            "https://bugzilla.redhat.com/2380321",
+            "https://bugzilla.redhat.com/2380322",
+            "https://bugzilla.redhat.com/2380326",
+            "https://bugzilla.redhat.com/2380327",
+            "https://bugzilla.redhat.com/2380334",
+            "https://bugzilla.redhat.com/2380335",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2338999",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359885",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359888",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359892",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359894",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359895",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359899",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359900",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359902",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359903",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359911",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359918",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359924",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359928",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359930",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359932",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359934",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359938",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359940",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359943",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359944",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359945",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359947",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359950",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359963",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359964",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359972",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380264",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380273",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380274",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380278",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380280",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380283",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380284",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380290",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380291",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380295",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380298",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380306",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380308",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380309",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380310",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380312",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380313",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380320",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380321",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380322",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380326",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380327",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380334",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380335",
+            "https://curl.se/docs/CVE-2025-5399.html",
+            "https://curl.se/docs/CVE-2025-5399.json",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21574",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21575",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21577",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21579",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21580",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21581",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21584",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21585",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21588",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30681",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30682",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30683",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30684",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30685",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30687",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30688",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30689",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30693",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30695",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30696",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30699",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30703",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30704",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30705",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30715",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30721",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30722",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50077",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50078",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50079",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50080",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50081",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50082",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50083",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50084",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50085",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50086",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50087",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50088",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50091",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50092",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50093",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50094",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50096",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50097",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50098",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50099",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50100",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50101",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399",
+            "https://errata.almalinux.org/9/ALSA-2025-16046.html",
+            "https://errata.rockylinux.org/RLSA-2025:15699",
+            "https://hackerone.com/reports/3168039",
+            "https://linux.oracle.com/cve/CVE-2025-5399.html",
+            "https://linux.oracle.com/errata/ELSA-2025-16046.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5399",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5399",
+            "https://www.oracle.com/security-alerts/cpujul2025.html#AppendixMSQL"
+          ],
+          "PublishedDate": "2025-06-07T08:15:20.687Z",
+          "LastModifiedDate": "2025-07-30T19:41:33.457Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9086",
+          "PkgID": "curl-dev@8.12.0-r0",
+          "PkgName": "curl-dev",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/curl-dev@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c67cbebd5dbcb5eb"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9086",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: Curl out of bounds read for cookie path",
+          "Description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 1,
+            "photon": 3,
+            "redhat": 2,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/1",
+            "https://access.redhat.com/security/cve/CVE-2025-9086",
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6",
+            "https://hackerone.com/reports/3294999",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9086"
+          ],
+          "PublishedDate": "2025-09-12T06:15:44.1Z",
+          "LastModifiedDate": "2025-11-04T22:16:45.19Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "expat@2.7.0-r0",
+          "PkgName": "expat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/expat@2.7.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "98fd1661445c6901"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-10148",
+          "PkgID": "libcurl@8.12.0-r0",
+          "PkgName": "libcurl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libcurl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "3d7c674238e5197"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-10148",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: predictable WebSocket mask",
+          "Description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "azure": 2,
+            "cbl-mariner": 2,
+            "photon": 2,
+            "redhat": 1,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/3",
+            "https://access.redhat.com/security/cve/CVE-2025-10148",
+            "https://curl.se/docs/CVE-2025-10148.html",
+            "https://curl.se/docs/CVE-2025-10148.json",
+            "https://hackerone.com/reports/3330839",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
+            "https://www.cve.org/CVERecord?id=CVE-2025-10148"
+          ],
+          "PublishedDate": "2025-09-12T06:15:40.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:05.137Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-4947",
+          "PkgID": "libcurl@8.12.0-r0",
+          "PkgName": "libcurl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libcurl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "3d7c674238e5197"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-4947",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "libcurl: curl: QUIC certificate check skip with wolfSSL",
+          "Description": "libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 6.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/4",
+            "https://access.redhat.com/security/cve/CVE-2025-4947",
+            "https://curl.se/docs/CVE-2025-4947.html",
+            "https://curl.se/docs/CVE-2025-4947.json",
+            "https://hackerone.com/reports/3150884",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-4947",
+            "https://www.cve.org/CVERecord?id=CVE-2025-4947"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.78Z",
+          "LastModifiedDate": "2025-06-26T15:08:21.52Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5025",
+          "PkgID": "libcurl@8.12.0-r0",
+          "PkgName": "libcurl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libcurl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "3d7c674238e5197"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.0-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5025",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: QUIC Certificate Pinning Bypass",
+          "Description": "libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-295"
+          ],
+          "VendorSeverity": {
+            "azure": 2,
+            "photon": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+              "V3Score": 4.8
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/28/5",
+            "https://access.redhat.com/security/cve/CVE-2025-5025",
+            "https://curl.se/docs/CVE-2025-5025.html",
+            "https://curl.se/docs/CVE-2025-5025.json",
+            "https://hackerone.com/reports/3153497",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5025",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5025"
+          ],
+          "PublishedDate": "2025-05-28T07:15:24.91Z",
+          "LastModifiedDate": "2025-07-30T19:41:37.987Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-5399",
+          "PkgID": "libcurl@8.12.0-r0",
+          "PkgName": "libcurl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libcurl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "3d7c674238e5197"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-5399",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: WebSocket endless loop",
+          "Description": "Due to a mistake in libcurl's WebSocket code, a malicious server can send a\nparticularly crafted packet which makes libcurl get trapped in an endless\nbusy-loop.\n\nThere is no other way for the application to escape or exit this loop other\nthan killing the thread/process.\n\nThis might be used to DoS libcurl-using application.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-835"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "rocky": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/06/04/2",
+            "https://access.redhat.com/errata/RHSA-2025:16046",
+            "https://access.redhat.com/security/cve/CVE-2025-5399",
+            "https://bugzilla.redhat.com/2359885",
+            "https://bugzilla.redhat.com/2359888",
+            "https://bugzilla.redhat.com/2359892",
+            "https://bugzilla.redhat.com/2359894",
+            "https://bugzilla.redhat.com/2359895",
+            "https://bugzilla.redhat.com/2359899",
+            "https://bugzilla.redhat.com/2359900",
+            "https://bugzilla.redhat.com/2359902",
+            "https://bugzilla.redhat.com/2359903",
+            "https://bugzilla.redhat.com/2359911",
+            "https://bugzilla.redhat.com/2359918",
+            "https://bugzilla.redhat.com/2359920",
+            "https://bugzilla.redhat.com/2359924",
+            "https://bugzilla.redhat.com/2359928",
+            "https://bugzilla.redhat.com/2359930",
+            "https://bugzilla.redhat.com/2359932",
+            "https://bugzilla.redhat.com/2359934",
+            "https://bugzilla.redhat.com/2359938",
+            "https://bugzilla.redhat.com/2359940",
+            "https://bugzilla.redhat.com/2359943",
+            "https://bugzilla.redhat.com/2359944",
+            "https://bugzilla.redhat.com/2359945",
+            "https://bugzilla.redhat.com/2359947",
+            "https://bugzilla.redhat.com/2359950",
+            "https://bugzilla.redhat.com/2359963",
+            "https://bugzilla.redhat.com/2359964",
+            "https://bugzilla.redhat.com/2359972",
+            "https://bugzilla.redhat.com/2370920",
+            "https://bugzilla.redhat.com/2380264",
+            "https://bugzilla.redhat.com/2380273",
+            "https://bugzilla.redhat.com/2380274",
+            "https://bugzilla.redhat.com/2380278",
+            "https://bugzilla.redhat.com/2380280",
+            "https://bugzilla.redhat.com/2380283",
+            "https://bugzilla.redhat.com/2380284",
+            "https://bugzilla.redhat.com/2380290",
+            "https://bugzilla.redhat.com/2380291",
+            "https://bugzilla.redhat.com/2380295",
+            "https://bugzilla.redhat.com/2380298",
+            "https://bugzilla.redhat.com/2380306",
+            "https://bugzilla.redhat.com/2380308",
+            "https://bugzilla.redhat.com/2380309",
+            "https://bugzilla.redhat.com/2380310",
+            "https://bugzilla.redhat.com/2380312",
+            "https://bugzilla.redhat.com/2380313",
+            "https://bugzilla.redhat.com/2380320",
+            "https://bugzilla.redhat.com/2380321",
+            "https://bugzilla.redhat.com/2380322",
+            "https://bugzilla.redhat.com/2380326",
+            "https://bugzilla.redhat.com/2380327",
+            "https://bugzilla.redhat.com/2380334",
+            "https://bugzilla.redhat.com/2380335",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2338999",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359885",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359888",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359892",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359894",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359895",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359899",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359900",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359902",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359903",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359911",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359918",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359924",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359928",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359930",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359932",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359934",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359938",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359940",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359943",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359944",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359945",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359947",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359950",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359963",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359964",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359972",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370920",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380264",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380273",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380274",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380278",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380280",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380283",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380284",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380290",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380291",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380295",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380298",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380306",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380308",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380309",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380310",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380312",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380313",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380320",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380321",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380322",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380326",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380327",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380334",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2380335",
+            "https://curl.se/docs/CVE-2025-5399.html",
+            "https://curl.se/docs/CVE-2025-5399.json",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21574",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21575",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21577",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21579",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21580",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21581",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21584",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21585",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21588",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30681",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30682",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30683",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30684",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30685",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30687",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30688",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30689",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30693",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30695",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30696",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30699",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30703",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30704",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30705",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30715",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30721",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30722",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50077",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50078",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50079",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50080",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50081",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50082",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50083",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50084",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50085",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50086",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50087",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50088",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50091",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50092",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50093",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50094",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50096",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50097",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50098",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50099",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50100",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50101",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399",
+            "https://errata.almalinux.org/9/ALSA-2025-16046.html",
+            "https://errata.rockylinux.org/RLSA-2025:15699",
+            "https://hackerone.com/reports/3168039",
+            "https://linux.oracle.com/cve/CVE-2025-5399.html",
+            "https://linux.oracle.com/errata/ELSA-2025-16046.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-5399",
+            "https://www.cve.org/CVERecord?id=CVE-2025-5399",
+            "https://www.oracle.com/security-alerts/cpujul2025.html#AppendixMSQL"
+          ],
+          "PublishedDate": "2025-06-07T08:15:20.687Z",
+          "LastModifiedDate": "2025-07-30T19:41:33.457Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-9086",
+          "PkgID": "libcurl@8.12.0-r0",
+          "PkgName": "libcurl",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libcurl@8.12.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "3d7c674238e5197"
+          },
+          "InstalledVersion": "8.12.0-r0",
+          "FixedVersion": "8.14.1-r2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:652971225591235529c4915adc65e584209974e2478cf7dc2afff23386cd35fc"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-9086",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "curl: libcurl: Curl out of bounds read for cookie path",
+          "Description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 1,
+            "photon": 3,
+            "redhat": 2,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/10/1",
+            "https://access.redhat.com/security/cve/CVE-2025-9086",
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6",
+            "https://hackerone.com/reports/3294999",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+            "https://www.cve.org/CVERecord?id=CVE-2025-9086"
+          ],
+          "PublishedDate": "2025-09-12T06:15:44.1Z",
+          "LastModifiedDate": "2025-11-04T22:16:45.19Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-59375",
+          "PkgID": "libexpat@2.7.0-r0",
+          "PkgName": "libexpat",
+          "PkgIdentifier": {
+            "PURL": "pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64\u0026distro=3.20.6",
+            "UID": "c08790b2d5974a4d"
+          },
+          "InstalledVersion": "2.7.0-r0",
+          "FixedVersion": "2.7.2-r0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:6d5474daf97b0a7566827ab0cd2141684569b0540a6fbcf592049681b705c08a"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-59375",
+          "DataSource": {
+            "ID": "alpine",
+            "Name": "Alpine Secdb",
+            "URL": "https://secdb.alpinelinux.org/"
+          },
+          "Title": "expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing",
+          "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "azure": 2,
+            "cbl-mariner": 2,
+            "oracle-oval": 3,
+            "photon": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/09/16/2",
+            "https://access.redhat.com/errata/RHSA-2025:19403",
+            "https://access.redhat.com/security/cve/CVE-2025-59375",
+            "https://bugzilla.redhat.com/2395108",
+            "https://errata.almalinux.org/10/ALSA-2025-19403.html",
+            "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74",
+            "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes",
+            "https://github.com/libexpat/libexpat/issues/1018",
+            "https://github.com/libexpat/libexpat/pull/1034",
+            "https://issues.oss-fuzz.com/issues/439133977",
+            "https://linux.oracle.com/cve/CVE-2025-59375.html",
+            "https://linux.oracle.com/errata/ELSA-2025-19403.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ],
+          "PublishedDate": "2025-09-15T03:15:40.92Z",
+          "LastModifiedDate": "2025-11-04T22:16:34.927Z"
+        }
+      ]
+    },
+    {
+      "Target": "usr/bin/cmctl",
+      "Class": "lang-pkgs",
+      "Type": "gobinary",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2024-25621",
+          "PkgID": "github.com/containerd/containerd@v1.7.27",
+          "PkgName": "github.com/containerd/containerd",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/github.com/containerd/containerd@v1.7.27",
+            "UID": "7a59180451bc6baa"
+          },
+          "InstalledVersion": "v1.7.27",
+          "FixedVersion": "1.7.29",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-25621",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Go",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago"
+          },
+          "Title": "containerd is an open-source container runtime. Versions 0.1.0 through ...",
+          "Description": "containerd is an open-source container runtime. Versions 0.1.0 through 1.7.28, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4 and 2.2.0-beta.0 through 2.2.0-rc.1 have an overly broad default permission vulnerability. Directory paths `/var/lib/containerd`, `/run/containerd/io.containerd.grpc.v1.cri` and `/run/containerd/io.containerd.sandbox.controller.v1.shim` were all created with incorrect permissions. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. Workarounds include updating system administrator permissions so the host can manually chmod the directories to not have group or world accessible permissions, or to run containerd in rootless mode.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-279"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+              "V3Score": 7.3
+            }
+          },
+          "References": [
+            "https://github.com/containerd/containerd",
+            "https://github.com/containerd/containerd/blob/main/docs/rootless.md",
+            "https://github.com/containerd/containerd/commit/7c59e8e9e970d38061a77b586b23655c352bfec5",
+            "https://github.com/containerd/containerd/security/advisories/GHSA-pwhc-rpq9-4c8w",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-25621"
+          ],
+          "PublishedDate": "2025-11-06T19:15:40.09Z",
+          "LastModifiedDate": "2025-11-06T19:45:09.883Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-64329",
+          "PkgID": "github.com/containerd/containerd@v1.7.27",
+          "PkgName": "github.com/containerd/containerd",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/github.com/containerd/containerd@v1.7.27",
+            "UID": "7a59180451bc6baa"
+          },
+          "InstalledVersion": "v1.7.27",
+          "FixedVersion": "1.7.29",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-64329",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Go",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago"
+          },
+          "Title": "containerd is an open-source container runtime. Versions 1.7.28 and be ...",
+          "Description": "containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-401"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2
+          },
+          "References": [
+            "https://github.com/containerd/containerd",
+            "https://github.com/containerd/containerd/commit/083b53cd6f19b5de7717b0ce92c11bdf95e612df",
+            "https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-64329"
+          ],
+          "PublishedDate": "2025-11-07T05:16:08.017Z",
+          "LastModifiedDate": "2025-11-12T16:20:22.257Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58183",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58183",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "golang: archive/tar: Unbounded allocation when parsing GNU sparse map",
+          "Description": "tar.Reader does not set a maximum size on the number of sparse region data blocks in GNU tar pax 1.0 sparse files. A maliciously-crafted archive containing a large number of sparse regions can cause a Reader to read an unbounded amount of data from the archive into memory. When reading from a compressed source, a small compressed input can result in large allocations.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "V3Score": 4.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58183",
+            "https://go.dev/cl/709861",
+            "https://go.dev/issue/75677",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58183",
+            "https://pkg.go.dev/vuln/GO-2025-4014",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58183"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.357Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.2Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58186",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58186",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Despite HTTP headers having a default limit of 1MB, the number of cook ...",
+          "Description": "Despite HTTP headers having a default limit of 1MB, the number of cookies that can be parsed does not have a limit. By sending a lot of very small cookies such as \"a=;\", an attacker can make an HTTP server allocate a large amount of structs, causing large memory consumption.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709855",
+            "https://go.dev/issue/75672",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58186",
+            "https://pkg.go.dev/vuln/GO-2025-4012"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.547Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.45Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58187",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.593Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58188",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58188",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Validating certificate chains which contain DSA public keys can cause  ...",
+          "Description": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://go.dev/cl/709853",
+            "https://go.dev/issue/75675",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58188",
+            "https://pkg.go.dev/vuln/GO-2025-4013"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.74Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.74Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-47912",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-47912",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/url: Insufficient validation of bracketed IPv6 hostnames in net/url",
+          "Description": "The Parse function permits values other than IPv6 addresses to be included in square brackets within the host component of a URL. RFC 3986 permits IPv6 addresses to be included within the host component, enclosed within square brackets. For example: \"http://[::1]/\". IPv4 addresses and hostnames must not appear within square brackets. Parse did not enforce this requirement.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-47912",
+            "https://go.dev/cl/709857",
+            "https://go.dev/issue/75678",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47912",
+            "https://pkg.go.dev/vuln/GO-2025-4010",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47912"
+          ],
+          "PublishedDate": "2025-10-29T23:16:18.187Z",
+          "LastModifiedDate": "2025-11-04T22:16:16.497Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58185",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58185",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1",
+          "Description": "Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58185",
+            "https://github.com/golang/go/commit/8709a41d5ef7321f486a1857f189c3fee20e8edd",
+            "https://go.dev/cl/709856",
+            "https://go.dev/issue/75671",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58185",
+            "https://pkg.go.dev/vuln/GO-2025-4011",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58185"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.45Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.327Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-58189",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58189",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information",
+          "Description": "When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-58189",
+            "https://go.dev/cl/707776",
+            "https://go.dev/issue/75652",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-58189",
+            "https://pkg.go.dev/vuln/GO-2025-4008",
+            "https://www.cve.org/CVERecord?id=CVE-2025-58189"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.833Z",
+          "LastModifiedDate": "2025-11-04T22:16:33.877Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61723",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61723",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem",
+          "Description": "The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61723",
+            "https://github.com/golang/go/commit/5ce8cd16f3859ec5ac4106ad8ec15d6236f4501b",
+            "https://go.dev/cl/709858",
+            "https://go.dev/issue/75676",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61723",
+            "https://pkg.go.dev/vuln/GO-2025-4009",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61723"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.927Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.42Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61724",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61724",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto",
+          "Description": "The Reader.ReadResponse function constructs a response string through repeated string concatenation of lines. When the number of lines in a response is large, this can cause excessive CPU consumption.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61724",
+            "https://go.dev/cl/709859",
+            "https://go.dev/issue/75716",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61724",
+            "https://pkg.go.dev/vuln/GO-2025-4015",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61724"
+          ],
+          "PublishedDate": "2025-10-29T23:16:20.02Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.567Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-61725",
+          "PkgID": "stdlib@v1.24.6",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.24.6",
+            "UID": "5e62c51938a5ea63"
+          },
+          "InstalledVersion": "v1.24.6",
+          "FixedVersion": "1.24.8, 1.25.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:75c6b9b8cc90cf5837c6c17ffc23096d27e888739298dda5f4a19a4d482d2ce1"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-61725",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "net/mail: Excessive CPU consumption in ParseAddress in net/mail",
+          "Description": "The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "amazon": 3,
+            "bitnami": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "bitnami": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/10/08/1",
+            "https://access.redhat.com/security/cve/CVE-2025-61725",
+            "https://go.dev/cl/709860",
+            "https://go.dev/issue/75680",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-61725",
+            "https://pkg.go.dev/vuln/GO-2025-4006",
+            "https://www.cve.org/CVERecord?id=CVE-2025-61725"
+          ],
+          "PublishedDate": "2025-10-29T23:16:20.113Z",
+          "LastModifiedDate": "2025-11-04T22:16:36.693Z"
+        }
+      ]
+    }
+  ]
+}

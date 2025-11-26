@@ -1,0 +1,128 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-17T22:59:44.645431468Z",
+  "ArtifactName": "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-rbac-proxy:latest-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 470487552,
+    "OS": {
+      "Family": "none",
+      "Name": ""
+    },
+    "ImageID": "sha256:54943388e6e76eb67a2269201d27971af8f7a9c97eac1c0709bf260b5269f0c1",
+    "DiffIDs": [
+      "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+      "sha256:07b0f08ecb982d378ec8f4738219b9c934e9514dee970b00a8fa451f4dcd0921",
+      "sha256:18f8b0fd992dfd615ad07b54d30f2014679fb81321d1cd7de032490f8e877b19",
+      "sha256:9daf2bb4a38997dd620b692ef0a955d88ca6f2b25f0889c3504304fde06ae9ad",
+      "sha256:3b377c7db3dcdea36ba677e28e6d54a74ac9743ace79cc55b467addbde09ddfa"
+    ],
+    "RepoTags": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-rbac-proxy:latest-dev"
+    ],
+    "RepoDigests": [
+      "us-docker.pkg.dev/ct2-dev-build/community-dev/kube-rbac-proxy@sha256:fb3f430134bac4132424e9c7dd3bc73a53bb8bef771586ed08438a46d576412b"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:25:38.32372146Z",
+      "history": [
+        {
+          "created": "2025-09-12T12:58:04Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:25:13Z",
+          "created_by": "RUN /bin/sh -c addgroup -S clngroup \u0026\u0026 adduser -S -u 180802 clnstrt -G clngroup # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:37Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add --no-cache glibc-clnstrt=2.41-r0 kube-rbac-proxy=0.19.1-r1 clnstrt-dev-base # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:37Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:38Z",
+          "created_by": "RUN /bin/sh -c printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:25:38Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:38Z",
+          "created_by": "USER clnstrt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:38Z",
+          "created_by": "ENTRYPOINT [\"/usr/bin/kube-rbac-proxy\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:25:38Z",
+          "created_by": "CMD [\"--help\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2",
+          "sha256:07b0f08ecb982d378ec8f4738219b9c934e9514dee970b00a8fa451f4dcd0921",
+          "sha256:18f8b0fd992dfd615ad07b54d30f2014679fb81321d1cd7de032490f8e877b19",
+          "sha256:9daf2bb4a38997dd620b692ef0a955d88ca6f2b25f0889c3504304fde06ae9ad",
+          "sha256:3b377c7db3dcdea36ba677e28e6d54a74ac9743ace79cc55b467addbde09ddfa"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "--help"
+        ],
+        "Entrypoint": [
+          "/usr/bin/kube-rbac-proxy"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "User": "clnstrt",
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 21527552,
+        "DiffID": "sha256:e0c23ff044e83d33f5ee2d3cb1ffc804c6784533377a72a99dba88ce2388e9a2"
+      },
+      {
+        "Size": 11264,
+        "DiffID": "sha256:07b0f08ecb982d378ec8f4738219b9c934e9514dee970b00a8fa451f4dcd0921"
+      },
+      {
+        "Size": 448493568,
+        "DiffID": "sha256:18f8b0fd992dfd615ad07b54d30f2014679fb81321d1cd7de032490f8e877b19"
+      },
+      {
+        "Size": 452096,
+        "DiffID": "sha256:9daf2bb4a38997dd620b692ef0a955d88ca6f2b25f0889c3504304fde06ae9ad"
+      },
+      {
+        "Size": 3072,
+        "DiffID": "sha256:3b377c7db3dcdea36ba677e28e6d54a74ac9743ace79cc55b467addbde09ddfa"
+      }
+    ]
+  }
+}

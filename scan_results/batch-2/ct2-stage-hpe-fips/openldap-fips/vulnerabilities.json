@@ -1,0 +1,200 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T06:27:24.390728462Z",
+  "ArtifactName": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/openldap-fips:2.6.10-dev",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 225548288,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    },
+    "ImageID": "sha256:c44311893ca427b13a0a993ec077cc9d69bff043b516698f124f2d40d8df7c6e",
+    "DiffIDs": [
+      "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+      "sha256:313cdaeb747520d527d0d809979a502af79b7a76e648ed2c8541421596f8faf4",
+      "sha256:d4f22b364bef9e9df8f30d07d9670ad9538157dd1c62789ad6c5b6294753ccd1",
+      "sha256:d392efbf80e51447605b9db3ec43f4cf19144089f1723f80dd61072ac2a634cb",
+      "sha256:9b7fa797e9a0ab697f9e85d332dea0b90ffd622f1f6f19fa9c18f39957ac265c",
+      "sha256:e7bcd8a29fd39d8e74cb603807e8236adc0d442b6d21562f3b919fbd6b6c53b3",
+      "sha256:4c2ea76ba48fa9d818eff6fe548a3a7059b408adfa42c1221a2fb594d0451841",
+      "sha256:1f8f2a63303a981777bafc0dc4486e52b28d0f01213ba21f4ea11dd68065e58a",
+      "sha256:ab9d67a3f34dfd69d3affbeed90aa9aa675dc3e9d095bee9bfa727983320ea55"
+    ],
+    "RepoTags": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/openldap-fips:2.6.10-dev"
+    ],
+    "RepoDigests": [
+      "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/openldap-fips@sha256:ff2d5962bca98b64b8ca0aa6c52c6cbe0ac1465c01ee27fb35d72148068d8540"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-10-10T08:27:14.032933717Z",
+      "history": [
+        {
+          "created": "2025-10-08T07:25:49Z",
+          "comment": "Imported from -"
+        },
+        {
+          "created": "2025-10-10T08:27:06Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add     glibc-clnstrt=2.41-r0     clnstrt-dev-base-hpe     openldap=2.6.10-r0     openldap-overlay-all=2.6.10-r0     openldap-backend-all=2.6.10-r0     openldap-clients=2.6.10-r0     openldap-lloadd=2.6.10-r0     openldap-passwd-argon2=2.6.10-r0     openldap-passwd-pbkdf2=2.6.10-r0     openldap-passwd-sha2=2.6.10-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:07Z",
+          "created_by": "RUN /bin/sh -c apk upgrade # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:08Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add openssl=3.5.0-r0 libcrypto3=3.5.0-r0 libssl3=3.5.0-r0 openssl-dev=3.5.0-r0 # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:09Z",
+          "created_by": "RUN /bin/sh -c rm -f /etc/ssl/openssl.cnf \u0026\u0026     apk add --force-overwrite openssl-provider-fips-hpe=3.0.16-r2 \u0026\u0026     rm -rf /usr/libexec/openssl-fips-provider 2\u003e/dev/null || true \u0026\u0026     OPENSSL_CONF=dne openssl fipsinstall -module /usr/lib/ossl-modules/fips.so -out /etc/ssl/fipsmodule.cnf \u0026\u0026     rm -rf /pkgdir/ \u0026\u0026     rm -rf /usr/include/openssl/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:09Z",
+          "created_by": "RUN /bin/sh -c /usr/bin/fips_on # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:10Z",
+          "created_by": "RUN /bin/sh -c apk update \u0026\u0026 apk add libgcc # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:13Z",
+          "created_by": "RUN /bin/sh -c chown -R root:root /usr/lib /usr/bin \u0026\u0026     chmod -R 755 /usr/lib /usr/bin \u0026\u0026     find /usr/lib -type f -exec chmod 644 {} \\; \u0026\u0026     find /usr/lib -type d -exec chmod 755 {} \\; # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "RUN /bin/sh -c cp /etc/passwd /etc/passwd.bak \u0026\u0026     echo \"root:x:0:0:root:/root:/bin/sh\" \u003e /etc/passwd \u0026\u0026     echo \"clnstrt:x:10000:10000:clnstrt:/home/clnstrt:/bin/sh\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"nobody:x:65534:65534:nobody:/:/sbin/nologin\" \u003e\u003e /etc/passwd \u0026\u0026     echo \"root:*:19000:0:72:7:35::\" \u003e /etc/shadow \u0026\u0026     echo \"clnstrt:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     echo \"nobody:*:19000:0:72:7:35::\" \u003e\u003e /etc/shadow \u0026\u0026     chown root:root /etc/shadow \u0026\u0026     chmod 400 /etc/shadow \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/main\" \u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/community\" \u003e\u003e /etc/apk/repositories \u0026\u0026     printf \"https://clnpkgs.clnstrt.dev/triam\" \u003e\u003e /etc/apk/repositories # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "ENTRYPOINT [\"slapd\" \"-u\" \"ldap\" \"-g\" \"ldap\" \"-h\" \"ldap:// ldaps://\" \"-d\" \"64\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "LABEL org.opencontainers.image.authors=Cleanstart Team https://www.cleanstart.com/",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "LABEL org.opencontainers.image.vendor=Cleanstart",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "LABEL Cleanstart.main.package=openldap",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-10-10T08:27:14Z",
+          "created_by": "LABEL org.opencontainers.image.licenses=OLDAP-2.8",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58",
+          "sha256:313cdaeb747520d527d0d809979a502af79b7a76e648ed2c8541421596f8faf4",
+          "sha256:d4f22b364bef9e9df8f30d07d9670ad9538157dd1c62789ad6c5b6294753ccd1",
+          "sha256:d392efbf80e51447605b9db3ec43f4cf19144089f1723f80dd61072ac2a634cb",
+          "sha256:9b7fa797e9a0ab697f9e85d332dea0b90ffd622f1f6f19fa9c18f39957ac265c",
+          "sha256:e7bcd8a29fd39d8e74cb603807e8236adc0d442b6d21562f3b919fbd6b6c53b3",
+          "sha256:4c2ea76ba48fa9d818eff6fe548a3a7059b408adfa42c1221a2fb594d0451841",
+          "sha256:1f8f2a63303a981777bafc0dc4486e52b28d0f01213ba21f4ea11dd68065e58a",
+          "sha256:ab9d67a3f34dfd69d3affbeed90aa9aa675dc3e9d095bee9bfa727983320ea55"
+        ]
+      },
+      "config": {
+        "Entrypoint": [
+          "slapd",
+          "-u",
+          "ldap",
+          "-g",
+          "ldap",
+          "-h",
+          "ldap:// ldaps://",
+          "-d",
+          "64"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "Cleanstart.main.package": "openldap",
+          "org.opencontainers.image.authors": "Cleanstart Team https://www.cleanstart.com/",
+          "org.opencontainers.image.licenses": "OLDAP-2.8",
+          "org.opencontainers.image.vendor": "Cleanstart"
+        }
+      }
+    },
+    "Layers": [
+      {
+        "Size": 20440576,
+        "DiffID": "sha256:a012dff9c6da8776fb1167dc6ffbc441528837d8ae79492efbb3708a25f87a58"
+      },
+      {
+        "Size": 126052864,
+        "DiffID": "sha256:313cdaeb747520d527d0d809979a502af79b7a76e648ed2c8541421596f8faf4"
+      },
+      {
+        "Size": 291328,
+        "DiffID": "sha256:d4f22b364bef9e9df8f30d07d9670ad9538157dd1c62789ad6c5b6294753ccd1"
+      },
+      {
+        "Size": 2017280,
+        "DiffID": "sha256:d392efbf80e51447605b9db3ec43f4cf19144089f1723f80dd61072ac2a634cb"
+      },
+      {
+        "Size": 2195968,
+        "DiffID": "sha256:9b7fa797e9a0ab697f9e85d332dea0b90ffd622f1f6f19fa9c18f39957ac265c"
+      },
+      {
+        "Size": 5632,
+        "DiffID": "sha256:e7bcd8a29fd39d8e74cb603807e8236adc0d442b6d21562f3b919fbd6b6c53b3"
+      },
+      {
+        "Size": 1199104,
+        "DiffID": "sha256:4c2ea76ba48fa9d818eff6fe548a3a7059b408adfa42c1221a2fb594d0451841"
+      },
+      {
+        "Size": 73339392,
+        "DiffID": "sha256:1f8f2a63303a981777bafc0dc4486e52b28d0f01213ba21f4ea11dd68065e58a"
+      },
+      {
+        "Size": 6144,
+        "DiffID": "sha256:ab9d67a3f34dfd69d3affbeed90aa9aa675dc3e9d095bee9bfa727983320ea55"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "us-central1-docker.pkg.dev/ct2-staging-build/staging-hpe-images/openldap-fips:2.6.10-dev (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}

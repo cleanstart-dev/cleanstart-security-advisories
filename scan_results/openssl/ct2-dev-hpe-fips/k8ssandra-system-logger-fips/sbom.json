@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-11-18T01:06:16.37742289Z",
+  "ArtifactName": "CleanstartImages-VulnerabilitiesReport/openssl/ct2-dev-hpe-fips/k8ssandra-system-logger-fips/sbom.spdx.json",
+  "ArtifactType": "spdx",
+  "Metadata": {
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.20.7"
+    }
+  },
+  "Results": [
+    {
+      "Target": "CleanstartImages-VulnerabilitiesReport/openssl/ct2-dev-hpe-fips/k8ssandra-system-logger-fips/sbom.spdx.json (alpine 3.20.7)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    }
+  ]
+}
