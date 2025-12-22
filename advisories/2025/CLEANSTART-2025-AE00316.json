@@ -1,0 +1,58 @@
+{
+  "id": "CLEANSTART-2025-AE00316",
+  "aliases": [
+    "CVE-2024-3651"
+  ],
+  "details": "CVE-2024-3651: A vulnerability was identified in the kjd/idna library, specifically within the `idna.encode()` function, affecting version 3.6. The issue arises from the function's handling of crafted input strings, which can lead to quadratic complexity and consequently, a denial of service condition. This vulnerability is triggered by a crafted input that causes the `idna.encode()` function to process the input with considerable computational load, significantly increasing the processing time in a quadratic manner relative to the input size.",
+  "summary": "A vulnerability was identified in the kjd/idna library, specifically within the `idna",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.13-idna",
+        "purl": "pkg:cleanstart/py3.13-idna",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-12-15T13:05:04Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "published": "2025-12-17T13:16:13.550014Z",
+  "references": [
+    {
+      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-AE00316",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2024-3651",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3651",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=py3.13-idna&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
