@@ -13,12 +13,20 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "1.31.14-r0"
+              "fixed": "1.31.14-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         }
       ],
       "package": {
@@ -26,7 +34,15 @@
         "purl": "pkg:cleanstart/kubernetes-fips",
         "ecosystem": "CLEANSTART"
       },
-      "versions": []
+      "versions": [],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {}
     }
   ],
   "modified": "2025-12-11T12:55:21Z",
@@ -38,10 +54,6 @@
   ],
   "published": "2025-12-17T12:25:51.868831Z",
   "references": [
-    {
-      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-AT31940",
-      "type": "ADVISORY"
-    },
     {
       "url": "https://osv.dev/vulnerability/CVE-2025-61729",
       "type": "WEB"
@@ -63,5 +75,10 @@
       "type": "PACKAGE"
     }
   ],
-  "schema_version": "1.7.3"
+  "schema_version": "1.7.3",
+  "withdrawn": null,
+  "upstream": [],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
 }
