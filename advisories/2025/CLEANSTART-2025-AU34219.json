@@ -1,0 +1,63 @@
+{
+  "id": "CLEANSTART-2025-AU34219",
+  "aliases": [
+    "CVE-2025-62513",
+    "CVE-2025-62705"
+  ],
+  "details": "CVE-2025-62705: OpenBao is an open source identity-based secrets management system. Prior to version 2.4.2, OpenBao's audit log did not appropriately redact fields when relevant subsystems sent []byte response parameters rather than strings. This includes, but is not limited to sys/raw with use of encoding=base64, all data would be emitted unredacted to the audit log, and Transit, when performing a signing operation with a derived Ed25519 key, would emit public keys to the audit log. This issue has been patched in OpenBao 2.4.2.\\n\\nCVE-2025-62513: OpenBao is an open source identity-based secrets management system. In versions 2.2.0 to 2.4.1, OpenBao's audit log experienced a regression wherein raw HTTP bodies used by few endpoints were not correctly redacted (HMAC'd). This impacts those using the ACME functionality of PKI, resulting in short-lived ACME verification challenge codes being leaked in the audit logs. Additionally, this impacts those using the OIDC issuer functionality of the identity subsystem, auth and token response codes along with claims could be leaked in the audit logs. ACME verification codes are not usable after verification or challenge expiry so are of limited long-term use. This issue has been patched in OpenBao 2.4.2.",
+  "summary": "OpenBao is an open source identity-based secrets management system",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "purl": "pkg:cleanstart/openbao-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-11-25T10:45:04Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "published": "2025-12-17T13:46:14.552635Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-62705",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-62513",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62705",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62513",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=openbao-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
