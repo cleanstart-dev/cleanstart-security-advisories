@@ -14,12 +14,20 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "7.2.7-r0"
+              "fixed": "7.2.7-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         }
       ],
       "package": {
@@ -27,7 +35,15 @@
         "purl": "pkg:cleanstart/valkey-fips",
         "ecosystem": "CLEANSTART"
       },
-      "versions": []
+      "versions": [],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {}
     }
   ],
   "modified": "2025-07-14T10:32:28Z",
@@ -68,5 +84,10 @@
       "type": "PACKAGE"
     }
   ],
-  "schema_version": "1.7.3"
+  "schema_version": "1.7.3",
+  "withdrawn": null,
+  "upstream": [],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
 }
