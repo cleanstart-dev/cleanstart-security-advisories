@@ -11,22 +11,24 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
-      - name: Install OSV Scanner (REAL validator)
+      - name: Install JSON schema validator
         run: |
-          pip install osv-scanner
+          pip install check-jsonschema
 
-      - name: Validate changed JSON files
+      - name: Validate changed OSV JSON files
         run: |
-          # Get changed JSON files in this PR
+          SCHEMA_URL="https://raw.githubusercontent.com/ossf/osv-schema/main/validation/schema.json"
+
+          # PR mein change hue JSON files nikaalo
           files=$(git diff --name-only origin/${{ github.base_ref }} | grep '.json$' || true)
 
           if [ -z "$files" ]; then
@@ -34,8 +36,10 @@ jobs:
             exit 0
           fi
 
-          # Validate each JSON file
+          echo "Using schema: $SCHEMA_URL"
+
+          # Har JSON file ko OSV schema se validate karo
           for file in $files; do
-            echo "Validating file: $file"
-            osv-scanner --format=json --validate "$file"
+            echo "Validating: $file"
+            check-jsonschema --schemafile "$SCHEMA_URL" "$file"
           done
