@@ -16,23 +16,39 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "1.24.0-r0"
+              "fixed": "1.24.0-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         },
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "1.26.0-r0"
+              "fixed": "1.26.0-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         }
       ],
       "package": {
@@ -40,7 +56,15 @@
         "purl": "pkg:cleanstart/k8ssandra-operator-fips",
         "ecosystem": "CLEANSTART"
       },
-      "versions": []
+      "versions": [],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {}
     }
   ],
   "modified": "2025-12-15T07:42:55Z",
@@ -52,10 +76,6 @@
   ],
   "published": "2025-12-17T13:43:19.090589Z",
   "references": [
-    {
-      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-AG41182",
-      "type": "ADVISORY"
-    },
     {
       "url": "https://osv.dev/vulnerability/CVE-2025-4673",
       "type": "WEB"
@@ -101,5 +121,10 @@
       "type": "PACKAGE"
     }
   ],
-  "schema_version": "1.7.3"
+  "schema_version": "1.7.3",
+  "withdrawn": null,
+  "upstream": [],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
 }
