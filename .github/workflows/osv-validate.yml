@@ -37,3 +37,4 @@ jobs:
             echo "Validating: $file"
             osv lint "$file"
           done
+
