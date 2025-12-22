@@ -1,0 +1,114 @@
+{
+  "id": "CLEANSTART-2025-RI19096",
+  "aliases": [
+    "CVE-2020-26137",
+    "CVE-2021-28363",
+    "CVE-2023-43804",
+    "CVE-2023-45803"
+  ],
+  "details": "CVE-2023-43804: urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.\\n\\nCVE-2020-26137: urllib3 before 1.25.9 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of putrequest(). NOTE: this is similar to CVE-2020-26116.\\n\\nCVE-2021-28363: The urllib3 library 1.26.x before 1.26.4 for Python omits SSL certificate validation in some cases involving HTTPS to HTTPS proxies. The initial connection to the HTTPS proxy (if an SSLContext isn't given via proxy_config) doesn't verify the hostname of the certificate. This means certificates for different servers that still validate properly with the default urllib3 SSLContext will be silently accepted.\\n\\nCVE-2023-45803: urllib3 is a user-friendly HTTP client library for Python. urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 301, 302, or 303 after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although this behavior is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers. Because the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable. Both of the following conditions must be true to be affected by this vulnerability: 1. Using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON) and 2. The origin service is compromised and starts redirecting using 301, 302, or 303 to a malicious peer or the redirected-to service becomes compromised. This issue has been addressed in versions 1.26.18 and 2.0.7 and users are advised to update to resolve this issue. Users unable to update should disable redirects for services that aren't expecting to respond with redirects with `redirects=False` and disable automatic redirects with `redirects=False` and handle 301, 302, and 303 redirects manually by stripping the HTTP request body.",
+  "summary": "urllib3 before 1",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.17-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.18-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.11-urllib3",
+        "purl": "pkg:cleanstart/py3.11-urllib3",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-01-15T09:33:55Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "published": "2025-12-17T13:07:53.127978Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2023-43804",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2020-26137",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2021-28363",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2023-45803",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43804",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26137",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-28363",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45803",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=py3.11-urllib3&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
