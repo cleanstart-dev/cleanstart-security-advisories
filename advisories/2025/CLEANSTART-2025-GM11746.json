@@ -1,0 +1,63 @@
+{
+  "id": "CLEANSTART-2025-GM11746",
+  "aliases": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "details": "CVE-2025-61729: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.\\n\\nCVE-2025-61727: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.",
+  "summary": "An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "multus-cni-fips",
+        "purl": "pkg:cleanstart/multus-cni-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-12-08T13:39:53Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "published": "2025-12-17T13:17:36.900585Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=multus-cni-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
