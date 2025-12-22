@@ -20,13 +20,13 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install OSV validator
+      - name: Install OSV Scanner (REAL validator)
         run: |
-          pip install osv
+          pip install osv-scanner
 
       - name: Validate changed JSON files
         run: |
-          # Find changed JSON files in this PR
+          # Get changed JSON files in this PR
           files=$(git diff --name-only origin/${{ github.base_ref }} | grep '.json$' || true)
 
           if [ -z "$files" ]; then
@@ -34,8 +34,8 @@ jobs:
             exit 0
           fi
 
-          # Validate each JSON file using OSV validator
+          # Validate each JSON file
           for file in $files; do
             echo "Validating file: $file"
-            python -m osv lint "$file"
+            osv-scanner --format=json --validate "$file"
           done
