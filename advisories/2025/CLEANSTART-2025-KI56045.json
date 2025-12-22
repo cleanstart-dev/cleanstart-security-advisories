@@ -1,0 +1,54 @@
+{
+  "id": "CLEANSTART-2025-KI56045",
+  "aliases": [
+    "CVE-2021-31800"
+  ],
+  "details": "CVE-2021-31800: Multiple path traversal vulnerabilities exist in smbserver.py in Impacket through 0.9.22. An attacker that connects to a running smbserver instance can list and write to arbitrary files via ../ directory traversal. This could potentially be abused to achieve arbitrary code execution by replacing /etc/shadow or an SSH authorized key.",
+  "summary": "Multiple path traversal vulnerabilities exist in smbserver",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.23-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.10-impacket",
+        "purl": "pkg:cleanstart/py3.10-impacket",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-06-07T03:24:29Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "published": "2025-12-17T13:08:19.143536Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2021-31800",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31800",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=py3.10-impacket&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
