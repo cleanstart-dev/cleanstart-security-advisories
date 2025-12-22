@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # IMPORTANT: needed to get PR diff files
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,15 +26,16 @@ jobs:
 
       - name: Validate changed JSON files
         run: |
+          # Find changed JSON files in this PR
           files=$(git diff --name-only origin/${{ github.base_ref }} | grep '.json$' || true)
-          
+
           if [ -z "$files" ]; then
             echo "No JSON files changed. Skipping validation."
             exit 0
           fi
 
+          # Validate each JSON file using OSV validator
           for file in $files; do
-            echo "Validating: $file"
-            osv lint "$file"
+            echo "Validating file: $file"
+            python -m osv lint "$file"
           done
-
