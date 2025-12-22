@@ -1,0 +1,130 @@
+{
+  "id": "CLEANSTART-2025-UH14238",
+  "aliases": [
+    "CVE-2025-0913",
+    "CVE-2025-4673",
+    "CVE-2025-47907",
+    "CVE-2025-47914",
+    "CVE-2025-58181",
+    "CVE-2025-62156",
+    "CVE-2025-62157"
+  ],
+  "details": "CVE-2025-47907: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.\\n\\nCVE-2025-62157: Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows versions prior to 3.6.12 and versions 3.7.0 through 3.7.2 expose artifact repository credentials in plaintext in workflow-controller pod logs. An attacker with permissions to read pod logs in a namespace running Argo Workflows can read the workflow-controller logs and obtain credentials to the artifact repository. Update to versions 3.6.12 or 3.7.3 to remediate the vulnerability. No known workarounds exist.\\n\\nCVE-2025-47914: SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.\\n\\nCVE-2025-4673: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.\\n\\nCVE-2025-58181: SSH servers parsing GSSAPI authentication requests do not validate the number of mechanisms specified in the request, allowing an attacker to cause unbounded memory consumption.\\n\\nCVE-2025-62156: Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Versions prior to 3.6.12 and versions 3.7.0 through 3.7.2 contain a Zip Slip path traversal vulnerability in artifact extraction. During artifact extraction the unpack/untar logic (workflow/executor/executor.go) uses filepath.Join(dest, filepath.Clean(header.Name)) without validating that header.Name stays within the intended extraction directory. A malicious archive entry can supply a traversal or absolute path that, after cleaning, overrides the destination directory and causes files to be written outside the /work/tmp extraction path and into system directories such as /etc inside the container. The vulnerability enables arbitrary file creation or overwrite in system configuration locations (for example /etc/passwd, /etc/hosts, /etc/crontab), which can lead to privilege escalation or persistence within the affected container. Update to 3.6.12 or 3.7.3 to remediate the issue.\\n\\nCVE-2025-0913: os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix and Windows systems when the target path was a dangling symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL flags never follows symlinks. On Windows, when the target path was a symlink to a nonexistent location, OpenFile would create a file in that location. OpenFile now always returns an error when the O_CREATE and O_EXCL flags are both set and the target path is a symlink.",
+  "summary": "Cancelling a query (e",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.0-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.3-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows-fips",
+        "purl": "pkg:cleanstart/argo-workflows-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-12-10T10:27:20Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
+  "published": "2025-12-17T13:34:44.373942Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-47907",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-62157",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-47914",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-4673",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58181",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-62156",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-0913",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47907",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62157",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47914",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4673",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58181",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62156",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0913",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=argo-workflows-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
