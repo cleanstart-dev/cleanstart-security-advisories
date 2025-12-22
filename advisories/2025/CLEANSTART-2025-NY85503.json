@@ -1,0 +1,74 @@
+{
+  "id": "CLEANSTART-2025-NY85503",
+  "aliases": [
+    "CVE-2020-14343",
+    "CVE-2020-1747"
+  ],
+  "details": "CVE-2020-14343: A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.\\n\\nCVE-2020-1747: A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor.",
+  "summary": "A vulnerability was discovered in the PyYAML library in versions before 5",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.1-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.12-yaml",
+        "purl": "pkg:cleanstart/py3.12-yaml",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2024-12-08T06:34:35Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "published": "2025-12-17T11:25:52.838234Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2020-14343",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2020-1747",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14343",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1747",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=py3.12-yaml&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
