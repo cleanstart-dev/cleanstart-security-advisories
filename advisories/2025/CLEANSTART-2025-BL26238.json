@@ -12,12 +12,20 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": "",
+              "last_affected": "",
+              "limit": ""
             },
             {
-              "fixed": "1.6.4-r1"
+              "fixed": "1.6.4-r1",
+              "introduced": "",
+              "last_affected": "",
+              "limit": ""
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         }
       ],
       "package": {
@@ -25,7 +33,15 @@
         "purl": "pkg:cleanstart/kyverno-policy-reporter-kyverno-plugin-fips",
         "ecosystem": "CLEANSTART"
       },
-      "versions": []
+      "versions": [],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L"
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {}
     }
   ],
   "modified": "2025-08-26T10:12:05Z",
@@ -50,5 +66,10 @@
       "type": "PACKAGE"
     }
   ],
-  "schema_version": "1.7.3"
+  "schema_version": "1.7.3",
+  "withdrawn": "",
+  "upstream": [],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
 }
