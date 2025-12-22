@@ -1,0 +1,54 @@
+{
+  "id": "CLEANSTART-2025-VC44913",
+  "aliases": [
+    "CVE-2025-47907"
+  ],
+  "details": "CVE-2025-47907: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.",
+  "summary": "Cancelling a query (e",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fluent-operator-fips",
+        "purl": "pkg:cleanstart/fluent-operator-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-09-26T10:53:09Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
+  "published": "2025-12-17T13:42:14.608349Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-47907",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47907",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=fluent-operator-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
