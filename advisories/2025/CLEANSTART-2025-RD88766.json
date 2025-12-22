@@ -1,0 +1,54 @@
+{
+  "id": "CLEANSTART-2025-RD88766",
+  "aliases": [
+    "CVE-2021-29421"
+  ],
+  "details": "CVE-2021-29421: models/metadata.py in the pikepdf package 1.3.0 through 2.9.2 for Python allows XXE when parsing XMP metadata entries.",
+  "summary": "models/metadata",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.10-pikepdf",
+        "purl": "pkg:cleanstart/py3.10-pikepdf",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-06-07T03:24:29Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "published": "2025-12-17T13:10:24.790993Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2021-29421",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29421",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=py3.10-pikepdf&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
