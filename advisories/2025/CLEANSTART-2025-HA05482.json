@@ -1,0 +1,74 @@
+{
+  "id": "CLEANSTART-2025-HA05482",
+  "aliases": [
+    "CVE-2024-27137",
+    "CVE-2025-23015"
+  ],
+  "details": "CVE-2024-27137: In Apache Cassandra it is possible for a local attacker without access\\n to the Apache Cassandra process or configuration files to manipulate \\nthe RMI registry to perform a man-in-the-middle attack and capture user \\nnames and passwords used to access the JMX interface. The attacker can \\nthen use these credentials to access the JMX interface and perform \\nunauthorized operations.\\n\\n\\nThis is same vulnerability that CVE-2020-13946 was issued for, but the Java option was changed in JDK10.\\n\\n\\nThis issue affects Apache Cassandra from 4.0.2 through 5.0.2 running Java 11.\\n\\n\\nOperators are recommended to upgrade to a release equal to or later than 4.0.15, 4.1.8, or 5.0.3 which fixes the issue.\\n\\nCVE-2025-23015: Privilege Defined With Unsafe Actions vulnerability in Apache Cassandra. An user with MODIFY permission ON ALL KEYSPACES can escalate privileges to superuser within a targeted Cassandra cluster via unsafe actions to a system resource. Operators granting data MODIFY permission on all keyspaces on affected versions should review data access rules for potential breaches.\\n\\nThis issue affects Apache Cassandra through 3.0.30, 3.11.17, 4.0.15, 4.1.7, 5.0.2.\\n\\nUsers are recommended to upgrade to versions 3.0.31, 3.11.18, 4.0.16, 4.1.8, 5.0.3, which fixes the issue.",
+  "summary": "Privilege Defined With Unsafe Actions vulnerability in Apache Cassandra",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.17-r1"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-fips",
+        "purl": "pkg:cleanstart/cassandra-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-10-30T12:43:15Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "published": "2025-12-17T13:16:52.568510Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2024-27137",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-23015",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27137",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23015",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=cassandra-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
