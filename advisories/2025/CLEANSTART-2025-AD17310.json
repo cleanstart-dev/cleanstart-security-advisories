@@ -14,23 +14,39 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "0.26.0-r0"
+              "fixed": "0.26.0-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         },
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0",
+              "fixed": null,
+              "last_affected": null,
+              "limit": null
             },
             {
-              "fixed": "0.29.0-r0"
+              "fixed": "0.29.0-r0",
+              "introduced": null,
+              "last_affected": null,
+              "limit": null
             }
-          ]
+          ],
+          "repo": "",
+          "database_specific": {}
         }
       ],
       "package": {
@@ -38,7 +54,15 @@
         "purl": "pkg:cleanstart/alertmanager-fips",
         "ecosystem": "CLEANSTART"
       },
-      "versions": []
+      "versions": [],
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {}
     }
   ],
   "modified": "2025-12-09T09:35:44Z",
@@ -79,5 +103,10 @@
       "type": "PACKAGE"
     }
   ],
-  "schema_version": "1.7.3"
+  "schema_version": "1.7.3",
+  "withdrawn": null,
+  "upstream": [],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
 }
