@@ -1,0 +1,40 @@
+name: OSV JSON Validator
+
+on:
+  pull_request:
+    paths:
+      - "**/*.json"
+
+jobs:
+  validate-osv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # IMPORTANT: needed to get PR diff files
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install OSV validator
+        run: |
+          pip install osv
+
+      - name: Validate changed JSON files
+        run: |
+          files=$(git diff --name-only origin/${{ github.base_ref }} | grep '.json$' || true)
+          
+          if [ -z "$files" ]; then
+            echo "No JSON files changed. Skipping validation."
+            exit 0
+          fi
+
+          for file in $files; do
+            echo "Validating: $file"
+            osv lint "$file"
+          done
+
