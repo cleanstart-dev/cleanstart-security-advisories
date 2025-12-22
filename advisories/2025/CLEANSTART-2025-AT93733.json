@@ -1,0 +1,67 @@
+{
+  "id": "CLEANSTART-2025-AT93733",
+  "aliases": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "details": "CVE-2025-61729: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.\\n\\nCVE-2025-61727: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.",
+  "summary": "Within HostnameError",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-fips",
+        "purl": "pkg:cleanstart/kubernetes-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-12-11T12:27:37Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "published": "2025-12-17T11:37:50.049629Z",
+  "references": [
+    {
+      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-AT93733",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=kubernetes-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
