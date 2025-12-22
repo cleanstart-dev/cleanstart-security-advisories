@@ -1,0 +1,74 @@
+{
+  "id": "CLEANSTART-2025-ZR59085",
+  "aliases": [
+    "CVE-2021-29622",
+    "CVE-2022-46146"
+  ],
+  "details": "CVE-2022-46146: Prometheus Exporter Toolkit is a utility package to build exporters. Prior to versions 0.7.2 and 0.8.2, if someone has access to a Prometheus web.yml file and users' bcrypted passwords, they can bypass security by poisoning the built-in authentication cache. Versions 0.7.2 and 0.8.2 contain a fix for the issue. There is no workaround, but attacker must have access to the hashed password to use this functionality.\\n\\nCVE-2021-29622: Prometheus is an open-source monitoring system and time series database. In 2.23.0, Prometheus changed its default UI to the New ui. To ensure a seamless transition, the URL's prefixed by /new redirect to /. Due to a bug in the code, it is possible for an attacker to craft an URL that can redirect to any other URL, in the /new endpoint. If a user visits a prometheus server with a specially crafted address, they can be redirected to an arbitrary URL. The issue was patched in the 2.26.1 and 2.27.1 releases. In 2.28.0, the /new endpoint will be removed completely. The workaround is to disable access to /new via a reverse proxy in front of Prometheus.",
+  "summary": "Prometheus is an open-source monitoring system and time series database",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27.1-r0"
+            }
+          ]
+        },
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.40.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-fips",
+        "purl": "pkg:cleanstart/prometheus-fips",
+        "ecosystem": "CLEANSTART"
+      },
+      "versions": []
+    }
+  ],
+  "modified": "2025-02-28T09:37:50Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+    }
+  ],
+  "published": "2025-12-17T11:49:20.335643Z",
+  "references": [
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2022-46146",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2021-29622",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46146",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29622",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=prometheus-fips&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
