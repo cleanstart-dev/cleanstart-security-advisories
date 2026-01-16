@@ -1,0 +1,51 @@
+{
+  "id": "CLEANSTART-2025-UA69935",
+  "aliases": [
+    "CVE-2025-61729"
+  ],
+  "details": "Security vulnerability affects the velero-plugin-for-aws package. This issue is resolved in later releases. See references for CVE details.",
+  "summary": "Security fixes for CVE-2025-61729 applied in versions: 1.13.1-r0",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-aws",
+        "purl": "pkg:cleanstart/velero-plugin-for-aws",
+        "ecosystem": "CLEANSTART"
+      }
+    }
+  ],
+  "modified": "2025-12-31T07:10:31Z",
+  "published": "2026-01-16T10:56:25.203066Z",
+  "references": [
+    {
+      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-UA69935",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=velero-plugin-for-aws&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
