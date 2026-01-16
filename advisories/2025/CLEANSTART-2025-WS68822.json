@@ -1,0 +1,195 @@
+{
+  "id": "CLEANSTART-2025-WS68822",
+  "aliases": [
+    "CVE-2025-46394",
+    "CVE-2025-47912",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-58251",
+    "CVE-2025-61723",
+    "CVE-2025-61724",
+    "CVE-2025-61725",
+    "CVE-2025-61727",
+    "CVE-2025-61729",
+    "GHSA-CGRX-MC8F-2PRM",
+    "GHSA-M6HQ-P25P-FFR2",
+    "GHSA-PWHC-RPQ9-4C8W"
+  ],
+  "details": "Multiple security vulnerabilities affect the velero package. These issues are resolved in later releases. See references for individual CVE details.",
+  "summary": "Security fixes for CVE-2025-46394, CVE-2025-47912, CVE-2025-58183, CVE-2025-58185, CVE-2025-58186, CVE-2025-58187, CVE-2025-58188, CVE-2025-58189, CVE-2025-58251, CVE-2025-61723, CVE-2025-61724, CVE-2025-61725, CVE-2025-61727, CVE-2025-61729, GHSA-CGRX-MC8F-2PRM, GHSA-M6HQ-P25P-FFR2, GHSA-PWHC-RPQ9-4C8W applied in versions: 1.17.0-r0, 1.17.0-r1",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero",
+        "purl": "pkg:cleanstart/velero",
+        "ecosystem": "CLEANSTART"
+      }
+    }
+  ],
+  "modified": "2026-01-05T08:08:23Z",
+  "published": "2026-01-16T10:56:46.220759Z",
+  "references": [
+    {
+      "url": "https://github.com/clnstrt/cleanstart-security-advisories-trial1/advisories/2025/CLEANSTART-2025-WS68822",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-46394",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-47912",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58183",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58185",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58186",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58187",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58188",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58189",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58251",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61723",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61724",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61725",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/GHSA-CGRX-MC8F-2PRM",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/GHSA-M6HQ-P25P-FFR2",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/GHSA-PWHC-RPQ9-4C8W",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46394",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47912",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58183",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58185",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58186",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58187",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58189",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58251",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61723",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61724",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61727",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/GHSA-CGRX-MC8F-2PRM",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/GHSA-M6HQ-P25P-FFR2",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/GHSA-PWHC-RPQ9-4C8W",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=velero&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "schema_version": "1.7.3"
+}
