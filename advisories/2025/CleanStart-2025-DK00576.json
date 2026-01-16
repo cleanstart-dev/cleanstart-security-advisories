@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-DK00576",
+  "summary": "Security fixes for CVE-2025-47912, CVE-2025-58183, CVE-2025-58185, CVE-2025-58186, CVE-2025-58187, CVE-2025-58188, CVE-2025-58189, CVE-2025-61723, CVE-2025-61724, CVE-2025-61725 applied in versions: 1.7.0-r0",
+  "details": "Multiple security vulnerabilities affect the vault-k8s package. These issues are resolved in later releases. See references for individual CVE details.",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault-k8s",
+        "purl": "pkg:cleanstart/vault-k8s",
+        "ecosystem": "CleanStart"
+      }
+    }
+  ],
+  "aliases": [
+    "CVE-2025-47912",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-61723",
+    "CVE-2025-61724",
+    "CVE-2025-61725"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-DK00576",
+      "type": "ADVISORY"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-47912",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58183",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58185",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58186",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58187",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58188",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-58189",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61723",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61724",
+      "type": "WEB"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/CVE-2025-61725",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47912",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58183",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58185",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58186",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58187",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58189",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61723",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61724",
+      "type": "WEB"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725",
+      "type": "WEB"
+    },
+    {
+      "url": "https://pkgs.alpinelinux.org/packages?name=vault-k8s&branch=edge",
+      "type": "PACKAGE"
+    }
+  ],
+  "published": "2026-01-16T12:00:54.505490Z",
+  "modified": "2025-12-06T13:44:45Z"
+}
