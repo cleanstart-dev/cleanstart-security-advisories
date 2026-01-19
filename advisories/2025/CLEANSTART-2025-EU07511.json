@@ -20,12 +20,11 @@
       ],
       "package": {
         "name": "vault-k8s",
-        "purl": "pkg:cleanstart/vault-k8s",
         "ecosystem": "CleanStart"
       }
     }
   ],
-  "aliases": [
+  "upstream": [
     "CVE-2025-47912",
     "CVE-2025-58183",
     "CVE-2025-58185",
@@ -130,10 +129,6 @@
     {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
       "type": "WEB"
-    },
-    {
-      "url": "https://pkgs.alpinelinux.org/packages?name=vault-k8s&branch=edge",
-      "type": "PACKAGE"
     }
   ],
   "published": "2026-01-16T11:58:32.440192Z",

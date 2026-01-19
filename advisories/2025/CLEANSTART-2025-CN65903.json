@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-CN65903",
-  "summary": "Security fixes for GHSA-6V2P-P543-PHR9, GHSA-QXP5-GWG8-XV66, GHSA-VVGC-356P-C3XW applied in versions: 1.5.0-r0, 1.7.0-r0",
-  "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual CVE details.",
+  "summary": "Security fixes for GHSA-6v2p-p543-phr9, GHSA-qxp5-gwg8-xv66, GHSA-vvgc-356p-c3xw applied in versions: 1.5.0-r0, 1.7.0-r0",
+  "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual GHSA details.",
   "affected": [
     {
       "ranges": [
@@ -20,15 +20,14 @@
       ],
       "package": {
         "name": "vault-k8s-fips",
-        "purl": "pkg:cleanstart/vault-k8s-fips",
         "ecosystem": "CleanStart"
       }
     }
   ],
-  "aliases": [
-    "GHSA-6V2P-P543-PHR9",
-    "GHSA-QXP5-GWG8-XV66",
-    "GHSA-VVGC-356P-C3XW"
+  "upstream": [
+    "GHSA-6v2p-p543-phr9",
+    "GHSA-qxp5-gwg8-xv66",
+    "GHSA-vvgc-356p-c3xw"
   ],
   "references": [
     {
@@ -36,32 +35,16 @@
       "type": "ADVISORY"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-6V2P-P543-PHR9",
+      "url": "https://osv.dev/vulnerability/GHSA-6v2p-p543-phr9",
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-QXP5-GWG8-XV66",
+      "url": "https://osv.dev/vulnerability/GHSA-qxp5-gwg8-xv66",
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-VVGC-356P-C3XW",
+      "url": "https://osv.dev/vulnerability/GHSA-vvgc-356p-c3xw",
       "type": "WEB"
-    },
-    {
-      "url": "https://nvd.nist.gov/vuln/detail/GHSA-6V2P-P543-PHR9",
-      "type": "WEB"
-    },
-    {
-      "url": "https://nvd.nist.gov/vuln/detail/GHSA-QXP5-GWG8-XV66",
-      "type": "WEB"
-    },
-    {
-      "url": "https://nvd.nist.gov/vuln/detail/GHSA-VVGC-356P-C3XW",
-      "type": "WEB"
-    },
-    {
-      "url": "https://pkgs.alpinelinux.org/packages?name=vault-k8s-fips&branch=edge",
-      "type": "PACKAGE"
     }
   ],
   "published": "2026-01-16T12:00:42.667592Z",
