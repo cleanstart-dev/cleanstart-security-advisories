@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-CN65903",
-  "summary": "Security fixes for GHSA-6V2P-P543-PHR9, GHSA-QXP5-GWG8-XV66, GHSA-VVGC-356P-C3XW applied in versions: 1.5.0-r0, 1.7.0-r0",
+  "summary": "Security fixes for GHSA-6v2p-p543-phr9, GHSA-qxp5-gwg8-xv66, GHSA-vvgc-356p-c3xw applied in versions: 1.5.0-r0, 1.7.0-r0",
   "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual GHSA details.",
   "affected": [
     {
@@ -25,9 +25,9 @@
     }
   ],
   "upstream": [
-    "GHSA-6V2P-P543-PHR9",
-    "GHSA-QXP5-GWG8-XV66",
-    "GHSA-VVGC-356P-C3XW"
+    "GHSA-6v2p-p543-phr9",
+    "GHSA-qxp5-gwg8-xv66",
+    "GHSA-vvgc-356p-c3xw"
   ],
   "references": [
     {
@@ -35,15 +35,15 @@
       "type": "ADVISORY"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-6V2P-P543-PHR9",
+      "url": "https://osv.dev/vulnerability/GHSA-6v2p-p543-phr9",
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-QXP5-GWG8-XV66",
+      "url": "https://osv.dev/vulnerability/GHSA-qxp5-gwg8-xv66",
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-VVGC-356P-C3XW",
+      "url": "https://osv.dev/vulnerability/GHSA-vvgc-356p-c3xw",
       "type": "WEB"
     }
   ],

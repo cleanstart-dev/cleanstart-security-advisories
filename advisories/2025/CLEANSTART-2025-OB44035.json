@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-OB44035",
-  "summary": "Security fixes for CVE-2025-61729, GHSA-F6X5-JH6R-WRFV, GHSA-J5W8-Q4QC-RX2X applied in versions: 1.16.2-r2",
+  "summary": "Security fixes for CVE-2025-61729, GHSA-f6x5-jh6r-wrfv, GHSA-j5w8-q4qc-rx2x applied in versions: 1.16.2-r2",
   "details": "Multiple security vulnerabilities affect the velero-fips package. These issues are resolved in later releases. See references for individual CVE and GHSA details.",
   "affected": [
     {
@@ -26,8 +26,8 @@
   ],
   "upstream": [
     "CVE-2025-61729",
-    "GHSA-F6X5-JH6R-WRFV",
-    "GHSA-J5W8-Q4QC-RX2X"
+    "GHSA-f6x5-jh6r-wrfv",
+    "GHSA-j5w8-q4qc-rx2x"
   ],
   "references": [
     {
@@ -39,11 +39,11 @@
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-F6X5-JH6R-WRFV",
+      "url": "https://osv.dev/vulnerability/GHSA-f6x5-jh6r-wrfv",
       "type": "WEB"
     },
     {
-      "url": "https://osv.dev/vulnerability/GHSA-J5W8-Q4QC-RX2X",
+      "url": "https://osv.dev/vulnerability/GHSA-j5w8-q4qc-rx2x",
       "type": "WEB"
     },
     {
