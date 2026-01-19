@@ -2,7 +2,7 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-US16386",
   "summary": "Security fixes for GHSA-QXP5-GWG8-XV66, GHSA-VVGC-356P-C3XW applied in versions: 1.7.0-r0",
-  "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual CVE details.",
+  "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual GHSA details.",
   "affected": [
     {
       "ranges": [
@@ -20,12 +20,11 @@
       ],
       "package": {
         "name": "vault-k8s-fips",
-        "purl": "pkg:cleanstart/vault-k8s-fips",
         "ecosystem": "CleanStart"
       }
     }
   ],
-  "aliases": [
+  "upstream": [
     "GHSA-QXP5-GWG8-XV66",
     "GHSA-VVGC-356P-C3XW"
   ],
@@ -41,18 +40,6 @@
     {
       "url": "https://osv.dev/vulnerability/GHSA-VVGC-356P-C3XW",
       "type": "WEB"
-    },
-    {
-      "url": "https://nvd.nist.gov/vuln/detail/GHSA-QXP5-GWG8-XV66",
-      "type": "WEB"
-    },
-    {
-      "url": "https://nvd.nist.gov/vuln/detail/GHSA-VVGC-356P-C3XW",
-      "type": "WEB"
-    },
-    {
-      "url": "https://pkgs.alpinelinux.org/packages?name=vault-k8s-fips&branch=edge",
-      "type": "PACKAGE"
     }
   ],
   "published": "2026-01-16T11:58:18.007779Z",
