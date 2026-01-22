@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-TY38284",
+  "summary": "Security fixes for GHSA-F6X5-JH6R-WRFV, GHSA-J5W8-Q4QC-RX2X applied in versions: 1.15.0-r1",
+  "details": "Multiple security vulnerabilities affect the rabbitmq-messaging-topology-operator package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rabbitmq-messaging-topology-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-F6X5-JH6R-WRFV",
+    "GHSA-J5W8-Q4QC-RX2X"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-TY38284"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-F6X5-JH6R-WRFV"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-J5W8-Q4QC-RX2X"
+    }
+  ],
+  "published": "2026-01-22T14:24:52.433431Z",
+  "modified": "2026-01-22T09:39:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
