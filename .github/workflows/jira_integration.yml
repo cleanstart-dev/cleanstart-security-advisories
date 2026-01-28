@@ -1,0 +1,20 @@
+name: Issue-Jira Integration for Security-Advisory
+
+permissions:
+  issues: write
+  contents: read
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-ticket:
+    uses: cleanstart-dev/.github/.github/workflows/reusable-jira-integration.yml@main
+    with:
+      project_key: 'GHRT'
+      issue_type: 'Task'
+    secrets:
+      JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+      JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+      JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
