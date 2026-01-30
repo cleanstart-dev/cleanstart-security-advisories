@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DY37532",
+  "summary": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+  "details": "Security vulnerability affects the cortex-fips package. Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cortex-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.2-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-35255"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-DY37532"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2024-35255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255"
+    }
+  ],
+  "published": "2026-01-30T15:36:23.811582Z",
+  "modified": "2026-01-29T18:58:54Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
