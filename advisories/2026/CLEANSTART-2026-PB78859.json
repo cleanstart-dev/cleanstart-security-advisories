@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PB78859",
+  "summary": "ParseAddress function constructs domain-literal address components through repeated string concatenation",
+  "details": "Multiple security vulnerabilities affect the kubevela package. The ParseAddress function constructs domain-literal address components through repeated string concatenation. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubevela"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.4-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61725",
+    "GHSA-M6HQ-P25P-FFR2",
+    "GHSA-PWHC-RPQ9-4C8W"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-PB78859"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-M6HQ-P25P-FFR2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-PWHC-RPQ9-4C8W"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725"
+    }
+  ],
+  "published": "2026-01-30T17:25:56.763674Z",
+  "modified": "2026-01-29T18:58:54Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
