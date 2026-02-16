@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PR84319",
-  "summary": "Security fixes for ghsa-2gh3-rmm4-6rq5, ghsa-r6v5-fh4h-64xc, ghsa-rhfx-m35p-ff5j, ghsa-xwfj-jgwm-7wp5 applied in versions: 1.27.5-r1, 1.27.6-r0",
+  "summary": "Security fixes for GHSA-2gh3-rmm4-6rq5, GHSA-r6v5-fh4h-64xc, GHSA-rhfx-m35p-ff5j, GHSA-xwfj-jgwm-7wp5 applied in versions: 1.27.5-r1, 1.27.6-r0",
   "details": "Multiple security vulnerabilities affect the ztunnel-fips package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
@@ -25,10 +25,10 @@
     }
   ],
   "upstream": [
-    "ghsa-2gh3-rmm4-6rq5",
-    "ghsa-r6v5-fh4h-64xc",
-    "ghsa-rhfx-m35p-ff5j",
-    "ghsa-xwfj-jgwm-7wp5"
+    "GHSA-2gh3-rmm4-6rq5",
+    "GHSA-r6v5-fh4h-64xc",
+    "GHSA-rhfx-m35p-ff5j",
+    "GHSA-xwfj-jgwm-7wp5"
   ],
   "references": [
     {
@@ -37,19 +37,19 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2gh3-rmm4-6rq5"
+      "url": "https://osv.dev/vulnerability/GHSA-2gh3-rmm4-6rq5"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r6v5-fh4h-64xc"
+      "url": "https://osv.dev/vulnerability/GHSA-r6v5-fh4h-64xc"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rhfx-m35p-ff5j"
+      "url": "https://osv.dev/vulnerability/GHSA-rhfx-m35p-ff5j"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xwfj-jgwm-7wp5"
+      "url": "https://osv.dev/vulnerability/GHSA-xwfj-jgwm-7wp5"
     }
   ],
   "published": "2026-02-14T00:37:23.085740Z",
