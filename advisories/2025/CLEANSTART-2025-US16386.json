@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-US16386",
-  "summary": "Security fixes for GHSA-qxp5-gwg8-xv66, GHSA-vvgc-356p-c3xw applied in versions: 1.7.0-r0",
+  "summary": "Security fixes for GHSA-qxp5-gwg8-xv66, GHSA-vvgc-356p-c3xw applied in versions: 1.7.2-r0",
   "details": "Multiple security vulnerabilities affect the vault-k8s-fips package. These issues are resolved in later releases. See references for individual GHSA details.",
   "affected": [
     {
@@ -13,7 +13,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.7.0-r0"
+              "fixed": "1.7.2-r0"
             }
           ]
         }
