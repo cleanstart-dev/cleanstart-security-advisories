@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JN44153",
-  "summary": "Security fixes for ghsa-f6x5-jh6r-wrfv, ghsa-gx3x-vq4p-mhhv, ghsa-j5w8-q4qc-rx2x applied in versions: 1.18.0-r0, 1.19.0-r1",
+  "summary": "Security fixes for GHSA-f6x5-jh6r-wrfv, GHSA-gx3x-vq4p-mhhv, GHSA-j5w8-q4qc-rx2x applied in versions: 1.18.0-r0, 1.19.0-r1",
   "details": "Multiple security vulnerabilities affect the percona-xtradb-cluster-operator-fips package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
@@ -25,9 +25,9 @@
     }
   ],
   "upstream": [
-    "ghsa-f6x5-jh6r-wrfv",
-    "ghsa-gx3x-vq4p-mhhv",
-    "ghsa-j5w8-q4qc-rx2x"
+    "GHSA-f6x5-jh6r-wrfv",
+    "GHSA-gx3x-vq4p-mhhv",
+    "GHSA-j5w8-q4qc-rx2x"
   ],
   "references": [
     {
@@ -36,15 +36,15 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-f6x5-jh6r-wrfv"
+      "url": "https://osv.dev/vulnerability/GHSA-f6x5-jh6r-wrfv"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gx3x-vq4p-mhhv"
+      "url": "https://osv.dev/vulnerability/GHSA-gx3x-vq4p-mhhv"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-j5w8-q4qc-rx2x"
+      "url": "https://osv.dev/vulnerability/GHSA-j5w8-q4qc-rx2x"
     }
   ],
   "published": "2026-02-06T00:39:29.662228Z",
