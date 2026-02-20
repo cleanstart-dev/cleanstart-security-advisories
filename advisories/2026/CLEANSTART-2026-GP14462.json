@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GP14462",
-  "summary": "Security fixes for ghsa-vvgc-356p-c3xw applied in versions: 0.18.0-r0",
+  "summary": "Security fixes for GHSA-vvgc-356p-c3xw applied in versions: 0.18.0-r0",
   "details": "Security vulnerability affects the restic-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -25,7 +25,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vvgc-356p-c3xw"
+    "GHSA-vvgc-356p-c3xw"
   ],
   "references": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vvgc-356p-c3xw"
+      "url": "https://osv.dev/vulnerability/GHSA-vvgc-356p-c3xw"
     }
   ],
   "published": "2026-02-10T00:39:23.397354Z",
