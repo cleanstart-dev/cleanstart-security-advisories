@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IB84500",
+  "summary": "security issue was discovered in Kubernetes where a malicious or compromised pod could bypass network restrictions enforced by network policies during namespace deletion",
+  "details": "Multiple security vulnerabilities affect the kubernetes-fips package. A security issue was discovered in Kubernetes where a malicious or compromised pod could bypass network restrictions enforced by network policies during namespace deletion. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-7598",
+    "GHSA-6V2P-P543-PHR9",
+    "GHSA-QXP5-GWG8-XV66",
+    "GHSA-VVGC-356P-C3XW"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-IB84500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2024-7598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-6V2P-P543-PHR9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-QXP5-GWG8-XV66"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-VVGC-356P-C3XW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7598"
+    }
+  ],
+  "published": "2026-01-30T16:29:55.343868Z",
+  "modified": "2026-01-29T18:58:54Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
