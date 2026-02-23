@@ -1,6 +1,6 @@
 {
   "schema_version": "1.7.3",
-  "id": "CLEANSTART-2026-QN16013",
+  "id": "CLEANSTART-2026-FC21713",
   "summary": "Cancelling a query (e",
   "details": "Multiple security vulnerabilities affect the kyverno-fips package. Cancelling a query (e. See references for individual vulnerability details.",
   "affected": [
@@ -33,7 +33,7 @@
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QN16013.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FC21713.json"
     },
     {
       "type": "WEB",
@@ -56,7 +56,7 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47907"
     }
   ],
-  "published": "2026-02-03T16:02:29.512503Z",
+  "published": "2026-02-03T16:02:29.570272Z",
   "modified": "2026-02-03T11:13:56Z",
   "severity": [
     {
