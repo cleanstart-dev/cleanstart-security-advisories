@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XR99875",
-  "summary": "Security fixes for GHSA-389x-839f-4rhx, GHSA-3p8m-j85q-pgmj, GHSA-5jpm-x58v-624v, GHSA-84h7-rjj3-6jx4, GHSA-fghv-69vj-qj49, GHSA-jq43-27x9-3v86, GHSA-qqpg-mvqg-649v applied in versions: 0.1.109-r0, 0.1.113-r1",
+  "summary": "Security fixes for GHSA-389X-839F-4RHX, GHSA-3P8M-J85Q-PGMJ, GHSA-5JPM-X58V-624V, GHSA-84H7-RJJ3-6JX4, GHSA-FGHV-69VJ-QJ49, GHSA-JQ43-27X9-3V86, GHSA-QQPG-MVQG-649V applied in versions: 0.1.109-r0, 0.1.113-r1",
   "details": "Multiple security vulnerabilities affect the management-api-for-apache-cassandra-5.0 package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
@@ -25,46 +25,46 @@
     }
   ],
   "upstream": [
-    "GHSA-389x-839f-4rhx",
-    "GHSA-3p8m-j85q-pgmj",
-    "GHSA-5jpm-x58v-624v",
-    "GHSA-84h7-rjj3-6jx4",
-    "GHSA-fghv-69vj-qj49",
-    "GHSA-jq43-27x9-3v86",
-    "GHSA-qqpg-mvqg-649v"
+    "GHSA-389X-839F-4RHX",
+    "GHSA-3P8M-J85Q-PGMJ",
+    "GHSA-5JPM-X58V-624V",
+    "GHSA-84H7-RJJ3-6JX4",
+    "GHSA-FGHV-69VJ-QJ49",
+    "GHSA-JQ43-27X9-3V86",
+    "GHSA-QQPG-MVQG-649V"
   ],
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XR99875.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XR99875"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-389x-839f-4rhx"
+      "url": "https://osv.dev/vulnerability/GHSA-389X-839F-4RHX"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-3p8m-j85q-pgmj"
+      "url": "https://osv.dev/vulnerability/GHSA-3P8M-J85Q-PGMJ"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-5jpm-x58v-624v"
+      "url": "https://osv.dev/vulnerability/GHSA-5JPM-X58V-624V"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-84h7-rjj3-6jx4"
+      "url": "https://osv.dev/vulnerability/GHSA-84H7-RJJ3-6JX4"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-fghv-69vj-qj49"
+      "url": "https://osv.dev/vulnerability/GHSA-FGHV-69VJ-QJ49"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-jq43-27x9-3v86"
+      "url": "https://osv.dev/vulnerability/GHSA-JQ43-27X9-3V86"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-qqpg-mvqg-649v"
+      "url": "https://osv.dev/vulnerability/GHSA-QQPG-MVQG-649V"
     }
   ],
   "published": "2026-02-03T16:02:30.597873Z",
