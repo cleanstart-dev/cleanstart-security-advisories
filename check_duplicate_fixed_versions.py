@@ -2,7 +2,10 @@ import os
 import json
 import sys
 
-BASE_DIR = "./advisories"  # repo root se relative path
+# Run from repo root: ./advisories; run from scripts/: ../advisories
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == "scripts" else SCRIPT_DIR
+BASE_DIR = os.path.join(REPO_ROOT, "advisories")
 
 seen = {}
 duplicates = []
