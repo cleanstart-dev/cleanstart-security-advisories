@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AR56257",
+  "summary": "Security fixes for ghsa-72hv-8253-57qq applied in versions: 1.0.16-r0",
+  "details": "Security vulnerability affects the cass-config-builder package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cass-config-builder"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.16-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-AR56257.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq"
+    }
+  ],
+  "published": "2026-04-01T10:03:58.074474Z",
+  "modified": "2026-03-07T09:14:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
