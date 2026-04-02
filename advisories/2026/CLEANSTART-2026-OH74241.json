@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OH74241",
-  "summary": "Security fixes for GHSA-mqqf-5wvp-8fh8 applied in versions: 0.122-r0",
+  "summary": "Security fixes for GHSA-MQQF-5WVP-8FH8 applied in versions: 0.122-r0",
   "details": "Security vulnerability affects the karma-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -25,16 +25,16 @@
     }
   ],
   "upstream": [
-    "GHSA-mqqf-5wvp-8fh8"
+    "GHSA-MQQF-5WVP-8FH8"
   ],
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-OH74241.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-OH74241"
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/GHSA-mqqf-5wvp-8fh8"
+      "url": "https://osv.dev/vulnerability/GHSA-MQQF-5WVP-8FH8"
     }
   ],
   "published": "2026-03-10T00:58:07.551022Z",
