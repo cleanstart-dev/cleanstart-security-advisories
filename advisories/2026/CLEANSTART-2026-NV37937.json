@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NV37937",
-  "summary": "Docker CLI for Windows searches for plugin binaries in C:\\\\\\\\ProgramData\\\\\\\\Docker\\\\\\\\cli-plugins, a directory that does not exist by default",
-  "details": "Multiple security vulnerabilities affect the istio package. Docker CLI for Windows searches for plugin binaries in C:\\\\\\\\ProgramData\\\\\\\\Docker\\\\\\\\cli-plugins, a directory that does not exist by default. See references for individual vulnerability details.",
+  "summary": "Docker CLI for Windows searches for plugin binaries in C:\\\\\\\\\\\\\\\\ProgramData\\\\\\\\\\\\\\\\Docker\\\\\\\\\\\\\\\\cli-plugins, a directory that does not exist by default",
+  "details": "Multiple security vulnerabilities affect the istio package. Docker CLI for Windows searches for plugin binaries in C:\\\\\\\\\\\\\\\\ProgramData\\\\\\\\\\\\\\\\Docker\\\\\\\\\\\\\\\\cli-plugins, a directory that does not exist by default. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
