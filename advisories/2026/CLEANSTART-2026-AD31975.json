@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AD31975",
+  "summary": "Security fixes for ghsa-72hv-8253-57qq, ghsa-pwqr-wmgm-9rr8, ghsa-w9fj-cfpg-grvv applied in versions: 26.5.6-r3",
+  "details": "Multiple security vulnerabilities affect the keycloak package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "keycloak"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.5.6-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-w9fj-cfpg-grvv"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-AD31975.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-pwqr-wmgm-9rr8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-w9fj-cfpg-grvv"
+    }
+  ],
+  "published": "2026-04-21T00:36:59.139031Z",
+  "modified": "2026-04-20T07:28:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
