@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FO49462",
+  "summary": "Security fixes for ghsa-3xc5-wrhm-f963 applied in versions: 1.31.1-r0",
+  "details": "Security vulnerability affects the pulumi-language-yaml package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "pulumi-language-yaml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3xc5-wrhm-f963"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FO49462.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-3xc5-wrhm-f963"
+    }
+  ],
+  "published": "2026-04-22T00:36:28.593230Z",
+  "modified": "2026-04-21T09:53:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
