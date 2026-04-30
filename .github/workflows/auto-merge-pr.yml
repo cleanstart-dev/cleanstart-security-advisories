@@ -1,0 +1,66 @@
+name: Auto Merge or Close PR
+
+on:
+  workflow_run:
+    workflows: ["OSV JSON Validator"]
+    types:
+      - completed
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-merge-or-close:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get PR number from triggering workflow
+        id: get-pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          PR_NUMBER=$(gh api "repos/$REPO/commits/$HEAD_SHA/pulls" \
+            --jq '.[0].number' 2>/dev/null || echo "")
+
+          if [ -z "$PR_NUMBER" ] || [ "$PR_NUMBER" = "null" ]; then
+            echo "No PR found for SHA $HEAD_SHA"
+            echo "pr_number=" >> $GITHUB_OUTPUT
+          else
+            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+            echo "Found PR #$PR_NUMBER"
+          fi
+
+      - name: Merge or Close PR
+        if: steps.get-pr.outputs.pr_number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.get-pr.outputs.pr_number }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          echo "PR #$PR_NUMBER — Validate conclusion: $CONCLUSION"
+
+          # PR ki current state check karo (already closed/merged nahi ho)
+          PR_STATE=$(gh pr view $PR_NUMBER --repo $REPO --json state --jq '.state' 2>/dev/null || echo "")
+          if [ "$PR_STATE" != "OPEN" ]; then
+            echo "PR #$PR_NUMBER is already $PR_STATE, skipping."
+            exit 0
+          fi
+
+          if [ "$CONCLUSION" = "success" ]; then
+            echo "✅ Validation passed — Merging PR #$PR_NUMBER"
+            gh pr merge $PR_NUMBER \
+              --repo $REPO \
+              --squash \
+              --admin \
+              --delete-branch \
+              --subject "$(gh pr view $PR_NUMBER --repo $REPO --json title --jq '.title')"
+          else
+            echo "❌ Validation failed ($CONCLUSION) — Closing PR #$PR_NUMBER"
+            BRANCH=$(gh pr view $PR_NUMBER --repo $REPO --json headRefName --jq '.headRefName')
+            gh pr close $PR_NUMBER --repo $REPO
+            gh api "repos/$REPO/git/refs/heads/$BRANCH" --method DELETE || true
+          fi
