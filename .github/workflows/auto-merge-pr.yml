@@ -18,7 +18,7 @@ jobs:
       - name: Get PR number from triggering workflow
         id: get-pr
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN || secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
@@ -33,10 +33,19 @@ jobs:
             echo "Found PR #$PR_NUMBER"
           fi
 
+      - name: Approve PR (required for branch protection bypass)
+        if: steps.get-pr.outputs.pr_number != '' && github.event.workflow_run.conclusion == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ steps.get-pr.outputs.pr_number }}
+        run: |
+          gh pr review $PR_NUMBER --repo $REPO --approve --body "Auto-approved: OSV validation passed." || true
+
       - name: Merge or Close PR
         if: steps.get-pr.outputs.pr_number != ''
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN || secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
           PR_NUMBER: ${{ steps.get-pr.outputs.pr_number }}
           CONCLUSION: ${{ github.event.workflow_run.conclusion }}
