@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AQ33378",
+  "summary": "Security fixes for ghsa-gxhx-2686-5h9g applied in versions: 2.12.0-r0",
+  "details": "Security vulnerability affects the kubewatch package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubewatch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gxhx-2686-5h9g"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-AQ33378.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-gxhx-2686-5h9g"
+    }
+  ],
+  "published": "2026-05-21T08:12:04.942949Z",
+  "modified": "2026-05-20T18:42:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
