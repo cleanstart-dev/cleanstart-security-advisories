@@ -1,0 +1,75 @@
+name: Auto Merge/Close PRs (Cron)
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # har 30 min
+  workflow_dispatch:          # manual trigger bhi
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  merge-or-close:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Merge validated PRs, close rest
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          echo "📅 Today: $TODAY"
+
+          # Fetch all open PRs (max 2000)
+          echo "🔍 Fetching open PRs..."
+          PRS=$(gh pr list --repo "$REPO" --state open --limit 2000 \
+            --json number,headRefName,createdAt,statusCheckRollup)
+
+          TOTAL=$(echo "$PRS" | jq length)
+          echo "📊 Total open PRs: $TOTAL"
+
+          if [ "$TOTAL" = "0" ]; then
+            echo "✅ No open PRs found."
+            exit 0
+          fi
+
+          MERGED=0
+          CLOSED=0
+
+          for row in $(echo "$PRS" | jq -r '.[] | @base64'); do
+            _jq() { echo "$row" | base64 -d | jq -r "$1"; }
+
+            NUMBER=$(_jq '.number')
+            BRANCH=$(_jq '.headRefName')
+            CREATED=$(_jq '.createdAt' | cut -c1-10)
+
+            # Check validate-osv conclusion
+            CONCLUSION=$(_jq '.statusCheckRollup[] | select(.name=="validate-osv") | select(.status=="COMPLETED") | .conclusion' 2>/dev/null | head -1)
+
+            if [ "$CREATED" = "$TODAY" ] && [ "$CONCLUSION" = "SUCCESS" ]; then
+              # Today's PR + validation passed → MERGE
+              echo "✅ Merging PR #$NUMBER ($BRANCH)"
+              gh pr merge "$NUMBER" --repo "$REPO" --squash --admin --delete-branch \
+                --subject "$(gh pr view "$NUMBER" --repo "$REPO" --json title --jq '.title')" \
+                2>/dev/null || \
+              gh pr merge "$NUMBER" --repo "$REPO" --merge --admin --delete-branch 2>/dev/null || \
+              echo "⚠️  Could not merge PR #$NUMBER"
+              MERGED=$((MERGED + 1))
+            else
+              # Old PR or no validation → CLOSE + DELETE
+              echo "❌ Closing PR #$NUMBER ($BRANCH)"
+              gh pr close "$NUMBER" --repo "$REPO" 2>/dev/null || true
+              sleep 0.3
+              gh api "repos/$REPO/git/refs/heads/$BRANCH" --method DELETE 2>/dev/null || true
+              CLOSED=$((CLOSED + 1))
+            fi
+
+            sleep 0.2
+          done
+
+          echo ""
+          echo "🎉 Done!"
+          echo "   Merged : $MERGED"
+          echo "   Closed : $CLOSED"
