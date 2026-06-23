@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XP27144",
+  "summary": "Security fixes for ghsa-58pv-8j8x-9vj2, ghsa-jm66-cg57-jjv5, ghsa-mrfv-m5wm-5w6w applied in versions: 2.81.0-r0",
+  "details": "Multiple security vulnerabilities affect the az package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "az"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.81.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-58pv-8j8x-9vj2",
+    "ghsa-jm66-cg57-jjv5",
+    "ghsa-mrfv-m5wm-5w6w"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XP27144.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-58pv-8j8x-9vj2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-jm66-cg57-jjv5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mrfv-m5wm-5w6w"
+    }
+  ],
+  "published": "2026-04-01T09:56:58.802525Z",
+  "modified": "2026-03-13T06:27:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
