@@ -51,12 +51,14 @@ jobs:
             if [ "$CREATED" = "$TODAY" ] && [ "$CONCLUSION" = "SUCCESS" ]; then
               # Today's PR + validation passed → MERGE
               echo "✅ Merging PR #$NUMBER ($BRANCH)"
-              gh pr merge "$NUMBER" --repo "$REPO" --squash --admin --delete-branch \
-                --subject "$(gh pr view "$NUMBER" --repo "$REPO" --json title --jq '.title')" \
-                2>/dev/null || \
-              gh pr merge "$NUMBER" --repo "$REPO" --merge --admin --delete-branch 2>/dev/null || \
-              echo "⚠️  Could not merge PR #$NUMBER"
-              MERGED=$((MERGED + 1))
+              MERGE_OUT=$(gh pr merge "$NUMBER" --repo "$REPO" --squash --admin --delete-branch 2>&1) \
+              && MERGED=$((MERGED + 1)) \
+              || {
+                echo "   squash failed: $MERGE_OUT"
+                MERGE_OUT2=$(gh pr merge "$NUMBER" --repo "$REPO" --merge --admin --delete-branch 2>&1) \
+                && MERGED=$((MERGED + 1)) \
+                || echo "   ⚠️  Could not merge PR #$NUMBER: $MERGE_OUT2"
+              }
             else
               # Old PR or no validation → CLOSE + DELETE
               echo "❌ Closing PR #$NUMBER ($BRANCH)"
