@@ -5,10 +5,6 @@
   "details": "Security vulnerability affects the apache-zookeeper package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "apache-zookeeper",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -29,12 +29,12 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZF65783.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZF65783.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq"
+      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq",
+      "type": "WEB"
     }
   ],
   "published": "2026-06-10T00:38:26.622770Z",
