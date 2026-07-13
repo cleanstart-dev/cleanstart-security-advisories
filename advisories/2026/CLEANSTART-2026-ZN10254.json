@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the apache-zookeeper package. In libexpat before 2. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "apache-zookeeper",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -34,52 +34,52 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZN10254.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZN10254.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-13151"
+      "url": "https://osv.dev/vulnerability/CVE-2025-13151",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-22695"
+      "url": "https://osv.dev/vulnerability/CVE-2026-22695",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-22801"
+      "url": "https://osv.dev/vulnerability/CVE-2026-22801",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-24515"
+      "url": "https://osv.dev/vulnerability/CVE-2026-24515",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-25210"
+      "url": "https://osv.dev/vulnerability/CVE-2026-25210",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq"
+      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13151"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13151",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22695"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22695",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22801"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22801",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24515"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24515",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25210"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-12T00:36:40.372107Z",
