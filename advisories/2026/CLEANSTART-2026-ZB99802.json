@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the victoriametrics-operator-fips package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "victoriametrics-operator-fips"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "victoriametrics-operator-fips",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -35,56 +35,56 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZB99802.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZB99802.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61732"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-68121"
+      "url": "https://osv.dev/vulnerability/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-25679"
+      "url": "https://osv.dev/vulnerability/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27139"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27142"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27142",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-66jq-2c23-2xh5"
+      "url": "https://osv.dev/vulnerability/ghsa-66jq-2c23-2xh5",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq"
+      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T09:43:05.704642Z",
