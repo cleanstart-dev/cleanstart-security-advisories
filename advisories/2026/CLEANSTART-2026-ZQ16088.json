@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the restic-fips package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "restic-fips"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "restic-fips",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -32,32 +32,32 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZQ16088.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZQ16088.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-24051"
+      "url": "https://osv.dev/vulnerability/CVE-2026-24051",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-33186"
+      "url": "https://osv.dev/vulnerability/CVE-2026-33186",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq"
+      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vvgc-356p-c3xw"
+      "url": "https://osv.dev/vulnerability/ghsa-vvgc-356p-c3xw",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24051"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24051",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T09:19:26.689390Z",
