@@ -5,10 +5,6 @@
   "details": "Security vulnerability affects the cass-config-builder package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "cass-config-builder"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "cass-config-builder",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -29,12 +29,12 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZD01730.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZD01730.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq"
+      "url": "https://osv.dev/vulnerability/ghsa-72hv-8253-57qq",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T10:04:00.339391Z",
