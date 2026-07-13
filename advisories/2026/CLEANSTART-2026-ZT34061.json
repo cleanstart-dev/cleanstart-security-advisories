@@ -5,10 +5,6 @@
   "details": "Security vulnerability affects the trust-manager package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "trust-manager"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "trust-manager",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -29,16 +29,16 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZT34061.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZT34061.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61729"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T10:03:41.367762Z",
