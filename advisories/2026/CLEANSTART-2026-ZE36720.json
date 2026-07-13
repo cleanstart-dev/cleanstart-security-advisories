@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the mongodb package. During chain building, the amount of work that is done is not correctly limited when a large number of intermediate certificates are passed in VerifyOptions. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "mongodb"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "mongodb",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -36,72 +36,72 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZE36720.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZE36720.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-14847"
+      "url": "https://osv.dev/vulnerability/CVE-2025-14847",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58181"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58181",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61727"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61727",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-32280"
+      "url": "https://osv.dev/vulnerability/CVE-2026-32280",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-32281"
+      "url": "https://osv.dev/vulnerability/CVE-2026-32281",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-32282"
+      "url": "https://osv.dev/vulnerability/CVE-2026-32282",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-32283"
+      "url": "https://osv.dev/vulnerability/CVE-2026-32283",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-32289"
+      "url": "https://osv.dev/vulnerability/CVE-2026-32289",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14847"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14847",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58181"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58181",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61727"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61727",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32280",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32281"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32281",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32282"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32282",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32283"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32283",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32289"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32289",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-10T00:54:58.542811Z",
