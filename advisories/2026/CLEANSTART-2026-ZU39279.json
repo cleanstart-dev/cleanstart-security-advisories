@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the helm package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "helm"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "helm",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -44,132 +44,132 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZU39279.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZU39279.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58183"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58183",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58185"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58185",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58187"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58187",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58188"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58188",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-58189"
+      "url": "https://osv.dev/vulnerability/CVE-2025-58189",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61723"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61723",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61724"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61724",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61725"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61725",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61729"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61729",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61732"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-68121"
+      "url": "https://osv.dev/vulnerability/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-1229"
+      "url": "https://osv.dev/vulnerability/CVE-2026-1229",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-25679"
+      "url": "https://osv.dev/vulnerability/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27139"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27142"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27142",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q9hv-hpm4-hj6x"
+      "url": "https://osv.dev/vulnerability/ghsa-q9hv-hpm4-hj6x",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58183"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58183",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58185"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58185",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58187"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58187",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58189"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58189",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61723"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61723",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61724"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61724",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61729",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1229"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1229",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T09:57:38.807175Z",
