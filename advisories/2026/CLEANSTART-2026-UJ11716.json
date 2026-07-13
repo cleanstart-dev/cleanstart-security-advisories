@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UJ11716",
+  "summary": "Security fixes for CVE-2026-42504 applied in versions: 1.6.4-r0",
+  "details": "Security vulnerability affects the kyverno-policy-reporter-kyverno-plugin package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kyverno-policy-reporter-kyverno-plugin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.4-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-UJ11716.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-42504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42504"
+    }
+  ],
+  "published": "2026-07-13T06:15:35.165263Z",
+  "modified": "2026-06-10T12:58:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
