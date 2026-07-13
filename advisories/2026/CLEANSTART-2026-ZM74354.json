@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the sigstore-scaffolding package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "sigstore-scaffolding"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "sigstore-scaffolding",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -50,160 +50,160 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZM74354.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZM74354.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-61732"
+      "url": "https://osv.dev/vulnerability/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-66506"
+      "url": "https://osv.dev/vulnerability/CVE-2025-66506",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-66564"
+      "url": "https://osv.dev/vulnerability/CVE-2025-66564",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2025-68121"
+      "url": "https://osv.dev/vulnerability/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-22772"
+      "url": "https://osv.dev/vulnerability/CVE-2026-22772",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-23991"
+      "url": "https://osv.dev/vulnerability/CVE-2026-23991",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-23992"
+      "url": "https://osv.dev/vulnerability/CVE-2026-23992",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-24137"
+      "url": "https://osv.dev/vulnerability/CVE-2026-24137",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-24686"
+      "url": "https://osv.dev/vulnerability/CVE-2026-24686",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-25679"
+      "url": "https://osv.dev/vulnerability/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-26958"
+      "url": "https://osv.dev/vulnerability/CVE-2026-26958",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27137"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27137",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27138"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27138",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27139"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-27142"
+      "url": "https://osv.dev/vulnerability/CVE-2026-27142",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-33186"
+      "url": "https://osv.dev/vulnerability/CVE-2026-33186",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4qg8-fj49-pxjh"
+      "url": "https://osv.dev/vulnerability/ghsa-4qg8-fj49-pxjh",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-59jp-pj84-45mr"
+      "url": "https://osv.dev/vulnerability/ghsa-59jp-pj84-45mr",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-846p-jg2w-w324"
+      "url": "https://osv.dev/vulnerability/ghsa-846p-jg2w-w324",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fcv2-xgw5-pqxf"
+      "url": "https://osv.dev/vulnerability/ghsa-fcv2-xgw5-pqxf",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fphv-w9fq-2525"
+      "url": "https://osv.dev/vulnerability/ghsa-fphv-w9fq-2525",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jqc5-w2xx-5vq4"
+      "url": "https://osv.dev/vulnerability/ghsa-jqc5-w2xx-5vq4",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66506"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66506",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66564"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66564",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22772"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22772",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23991"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23991",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23992"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23992",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24137"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24137",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24686"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24686",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26958"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26958",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27137"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27137",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27138"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27138",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186",
+      "type": "WEB"
     }
   ],
   "published": "2026-04-01T09:34:33.540169Z",
