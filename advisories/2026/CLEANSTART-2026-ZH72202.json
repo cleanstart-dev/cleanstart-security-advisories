@@ -5,10 +5,6 @@
   "details": "Multiple security vulnerabilities affect the kor package. When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash. See references for individual vulnerability details.",
   "affected": [
     {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "kor"
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -21,7 +17,11 @@
             }
           ]
         }
-      ]
+      ],
+      "package": {
+        "name": "kor",
+        "ecosystem": "CleanStart"
+      }
     }
   ],
   "upstream": [
@@ -36,72 +36,72 @@
   ],
   "references": [
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZH72202.json"
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZH72202.json",
+      "type": "ADVISORY"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-33811"
+      "url": "https://osv.dev/vulnerability/CVE-2026-33811",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-33814"
+      "url": "https://osv.dev/vulnerability/CVE-2026-33814",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-39820"
+      "url": "https://osv.dev/vulnerability/CVE-2026-39820",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-39823"
+      "url": "https://osv.dev/vulnerability/CVE-2026-39823",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-39825"
+      "url": "https://osv.dev/vulnerability/CVE-2026-39825",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-39826"
+      "url": "https://osv.dev/vulnerability/CVE-2026-39826",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-39836"
+      "url": "https://osv.dev/vulnerability/CVE-2026-39836",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://osv.dev/vulnerability/CVE-2026-42499"
+      "url": "https://osv.dev/vulnerability/CVE-2026-42499",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33811"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33811",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33814"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33814",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39820"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39820",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39823"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39823",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39825"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39825",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39826"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39826",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39836"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39836",
+      "type": "WEB"
     },
     {
-      "type": "WEB",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42499"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42499",
+      "type": "WEB"
     }
   ],
   "published": "2026-06-10T00:59:24.602505Z",
