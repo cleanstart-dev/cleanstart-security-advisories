@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GS72812",
+  "summary": "Security fixes for CVE-2026-26958, ghsa-fw7p-63qq-7hpr applied in versions: 2.42.1-r1",
+  "details": "Multiple security vulnerabilities affect the dex package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "dex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.42.1-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-26958",
+    "ghsa-fw7p-63qq-7hpr"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-GS72812.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-26958"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-fw7p-63qq-7hpr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26958"
+    }
+  ],
+  "published": "2026-07-21T11:01:02.214473Z",
+  "modified": "2026-06-17T06:57:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
