@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MU22503",
+  "summary": "Security fixes for CVE-2026-39892, CVE-2026-44431, CVE-2026-44432, CVE-2026-4539, CVE-2026-45409, CVE-2026-48522, CVE-2026-48524, CVE-2026-48525, CVE-2026-48526, ghsa-537c-gmf6-5ccf, ghsa-58pv-8j8x-9vj2, ghsa-jm66-cg57-jjv5, ghsa-mrfv-m5wm-5w6w applied in versions: 2.81.0-r0, 2.83.0-r0, 2.83.0-r1, 2.83.0-r2, 2.83.0-r3",
+  "details": "Multiple security vulnerabilities affect the az package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "az"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.83.0-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39892",
+    "CVE-2026-44431",
+    "CVE-2026-44432",
+    "CVE-2026-4539",
+    "CVE-2026-45409",
+    "CVE-2026-48522",
+    "CVE-2026-48524",
+    "CVE-2026-48525",
+    "CVE-2026-48526",
+    "ghsa-537c-gmf6-5ccf",
+    "ghsa-58pv-8j8x-9vj2",
+    "ghsa-jm66-cg57-jjv5",
+    "ghsa-mrfv-m5wm-5w6w"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-MU22503.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-39892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-44431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-44432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-4539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-45409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-48522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-48524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-48525"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-48526"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-537c-gmf6-5ccf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-58pv-8j8x-9vj2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-jm66-cg57-jjv5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mrfv-m5wm-5w6w"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48525"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48526"
+    }
+  ],
+  "published": "2026-07-21T07:41:23.738089Z",
+  "modified": "2026-07-15T11:37:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
