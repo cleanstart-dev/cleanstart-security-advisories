@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LP61206",
+  "summary": "Security fixes for CVE-2023-45288, CVE-2026-35469, ghsa-pc3f-x583-g7j2 applied in versions: 3.6.19-r5",
+  "details": "Multiple security vulnerabilities affect the argo-workflows package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "argo-workflows"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.19-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45288",
+    "CVE-2026-35469",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LP61206.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-45288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-35469"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-pc3f-x583-g7j2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35469"
+    }
+  ],
+  "published": "2026-07-21T08:55:36.355418Z",
+  "modified": "2026-07-01T07:48:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
