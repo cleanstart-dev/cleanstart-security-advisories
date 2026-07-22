@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KV07585",
+  "summary": "Security fixes for CVE-2025-13281, CVE-2025-29786, CVE-2025-30204, CVE-2025-68156, CVE-2026-33186, CVE-2026-35469, ghsa-93mq-9ffx-83m2, ghsa-cfpf-hrx2-8rv6, ghsa-gxhx-2686-5h9g, ghsa-mh63-6h87-95cp, ghsa-p77j-4mvh-x3m3, ghsa-pc3f-x583-g7j2, ghsa-r6j8-c6r2-37rr applied in versions: 1.9.0-r0",
+  "details": "Multiple security vulnerabilities affect the argo-rollouts package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "argo-rollouts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-13281",
+    "CVE-2025-29786",
+    "CVE-2025-30204",
+    "CVE-2025-68156",
+    "CVE-2026-33186",
+    "CVE-2026-35469",
+    "ghsa-93mq-9ffx-83m2",
+    "ghsa-cfpf-hrx2-8rv6",
+    "ghsa-gxhx-2686-5h9g",
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-pc3f-x583-g7j2",
+    "ghsa-r6j8-c6r2-37rr"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-KV07585.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-13281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-29786"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-30204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-68156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-33186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-35469"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-93mq-9ffx-83m2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-cfpf-hrx2-8rv6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-gxhx-2686-5h9g"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mh63-6h87-95cp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-p77j-4mvh-x3m3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-pc3f-x583-g7j2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-r6j8-c6r2-37rr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29786"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35469"
+    }
+  ],
+  "published": "2026-07-21T09:29:13.077595Z",
+  "modified": "2026-06-29T12:57:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
