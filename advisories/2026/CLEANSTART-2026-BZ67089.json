@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BZ67089",
+  "summary": "Security fixes for CVE-2025-15558, CVE-2025-61726, CVE-2025-61728, CVE-2025-61730, CVE-2025-61731, CVE-2025-61732, CVE-2025-68119, CVE-2025-68121, CVE-2026-1229, CVE-2026-25679, CVE-2026-25934, CVE-2026-27139, CVE-2026-27142, CVE-2026-33186, CVE-2026-33762, CVE-2026-34165, ghsa-37cx-329c-33x3, ghsa-gm2x-2g9h-ccm8, ghsa-jhf3-xxhw-2wpp, ghsa-p436-gjf2-799p, ghsa-p77j-4mvh-x3m3, ghsa-q9hv-hpm4-hj6x applied in versions: 4.0.1-r0",
+  "details": "Multiple security vulnerabilities affect the flux-image-automation-controller-fips package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "flux-image-automation-controller-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15558",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730",
+    "CVE-2025-61731",
+    "CVE-2025-61732",
+    "CVE-2025-68119",
+    "CVE-2025-68121",
+    "CVE-2026-1229",
+    "CVE-2026-25679",
+    "CVE-2026-25934",
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-33186",
+    "CVE-2026-33762",
+    "CVE-2026-34165",
+    "ghsa-37cx-329c-33x3",
+    "ghsa-gm2x-2g9h-ccm8",
+    "ghsa-jhf3-xxhw-2wpp",
+    "ghsa-p436-gjf2-799p",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BZ67089.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-15558"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61728"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61730"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-61732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-68119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-68121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-1229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-25679"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-25934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-27139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-27142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-33186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-33762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-34165"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-37cx-329c-33x3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-gm2x-2g9h-ccm8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-jhf3-xxhw-2wpp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-p436-gjf2-799p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-p77j-4mvh-x3m3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-q9hv-hpm4-hj6x"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15558"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61728"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61730"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25679"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34165"
+    }
+  ],
+  "published": "2026-07-21T08:50:10.701348Z",
+  "modified": "2026-07-01T10:57:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
