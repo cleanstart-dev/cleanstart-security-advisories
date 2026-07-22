@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FI52228",
+  "summary": "Security fixes for CVE-2025-22227, CVE-2025-48924, ghsa-4q2v-9p7v-3v22, ghsa-j288-q9x7-2f5v applied in versions: 9.3.5-r0",
+  "details": "Multiple security vulnerabilities affect the elasticsearch package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "elasticsearch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.3.5-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22227",
+    "CVE-2025-48924",
+    "ghsa-4q2v-9p7v-3v22",
+    "ghsa-j288-q9x7-2f5v"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FI52228.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-22227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-48924"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-4q2v-9p7v-3v22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-j288-q9x7-2f5v"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48924"
+    }
+  ],
+  "published": "2026-07-21T09:36:26.499695Z",
+  "modified": "2026-06-26T12:53:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
