@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SC72563",
+  "summary": "Security fixes for CVE-2025-68121, CVE-2026-1229, CVE-2026-33813, CVE-2026-39822, CVE-2026-42505, CVE-2026-44740, CVE-2026-44973, CVE-2026-46601, CVE-2026-46602, CVE-2026-56852, ghsa-m3xc-h892-ggx6, ghsa-mqgf-5vvp-8fh8 applied in versions: 1.72.1-r1, 1.73.1-r0, 1.74.1-r0, 1.74.3-r0, 1.74.3-r1",
+  "details": "Multiple security vulnerabilities affect the rclone package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.74.3-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2026-1229",
+    "CVE-2026-33813",
+    "CVE-2026-39822",
+    "CVE-2026-42505",
+    "CVE-2026-44740",
+    "CVE-2026-44973",
+    "CVE-2026-46601",
+    "CVE-2026-46602",
+    "CVE-2026-56852",
+    "ghsa-m3xc-h892-ggx6",
+    "ghsa-mqgf-5vvp-8fh8"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-SC72563.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-68121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-1229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-33813"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-39822"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-42505"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-44740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-44973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-46601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-46602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-56852"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-m3xc-h892-ggx6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mqgf-5vvp-8fh8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33813"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39822"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42505"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44740"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56852"
+    }
+  ],
+  "published": "2026-07-21T06:54:46.036731Z",
+  "modified": "2026-07-20T06:15:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
