@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GN43215",
+  "summary": "Security fixes in prometheus-operator-fips 0.88.0-r1",
+  "details": "Package prometheus-operator-fips version 0.88.0-r1 fixes 2 vulnerabilities: CVE-2025-61732, CVE-2025-68121",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.88.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.88.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61732",
+    "CVE-2025-68121"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus-operator/prometheus-operator.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
