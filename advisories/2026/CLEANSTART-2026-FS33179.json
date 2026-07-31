@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FS33179",
+  "summary": "Security fixes in jitsucom-jitsu 2.14.0-r1",
+  "details": "Package jitsucom-jitsu version 2.14.0-r1 fixes 51 vulnerabilities: CVE-2026-42033, CVE-2026-42034, CVE-2026-42035, CVE-2026-42036, CVE-2026-42037...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-jitsu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42033",
+    "CVE-2026-42034",
+    "CVE-2026-42035",
+    "CVE-2026-42036",
+    "CVE-2026-42037",
+    "CVE-2026-42038",
+    "CVE-2026-42039",
+    "CVE-2026-42040",
+    "CVE-2026-42041",
+    "CVE-2026-42042",
+    "CVE-2026-42043",
+    "CVE-2026-42044",
+    "CVE-2026-42264",
+    "CVE-2026-44486",
+    "CVE-2026-44487",
+    "CVE-2026-44488",
+    "CVE-2026-44490",
+    "CVE-2026-44492",
+    "CVE-2026-44494",
+    "CVE-2026-44495",
+    "CVE-2026-44496",
+    "CVE-2025-62718",
+    "CVE-2026-40175",
+    "CVE-2026-41650",
+    "ghsa-r4q5-vmmm-2653",
+    "CVE-2026-44573",
+    "CVE-2026-44574",
+    "CVE-2026-44575",
+    "CVE-2026-44576",
+    "CVE-2026-44577",
+    "CVE-2026-44578",
+    "CVE-2026-44579",
+    "CVE-2026-44580",
+    "CVE-2026-44581",
+    "CVE-2026-44572",
+    "CVE-2026-44582",
+    "CVE-2026-45109",
+    "ghsa-8h8q-6873-q5fj",
+    "ghsa-q4gf-8mx6-v5v3",
+    "ghsa-vvjj-xcjg-gr5g",
+    "CVE-2026-41305",
+    "CVE-2026-41242",
+    "CVE-2026-44288",
+    "CVE-2026-44289",
+    "CVE-2026-44290",
+    "CVE-2026-44291",
+    "CVE-2026-44292",
+    "CVE-2026-44293",
+    "CVE-2026-44294",
+    "CVE-2026-45740",
+    "CVE-2026-41907"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/jitsu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
