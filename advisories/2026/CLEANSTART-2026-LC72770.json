@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LC72770",
+  "summary": "Security fixes in whereabouts 0.9.2-r1",
+  "details": "Package whereabouts version 0.9.2-r1 fixes 6 vulnerabilities: CVE-2026-25679, CVE-2026-27137, CVE-2026-27138, CVE-2026-27139, CVE-2026-27141...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "whereabouts",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.9.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27137",
+    "CVE-2026-27138",
+    "CVE-2026-27139",
+    "CVE-2026-27141",
+    "CVE-2026-27142"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8snetworkplumbingwg/whereabouts",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
