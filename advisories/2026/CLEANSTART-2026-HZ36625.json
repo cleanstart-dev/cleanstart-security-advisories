@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HZ36625",
+  "summary": "Security fixes in opentelemetry-collector-contrib-fips 0.142.0-r0",
+  "details": "Package opentelemetry-collector-contrib-fips version 0.142.0-r0 fixes 1 vulnerabilities: ghsa-cfpf-hrx2-8rv6",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.142.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentelemetry-collector-contrib-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.142.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cfpf-hrx2-8rv6"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
