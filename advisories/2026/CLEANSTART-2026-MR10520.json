@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MR10520",
+  "summary": "Security fixes in tensorflow-gpu-jupyter 2.20.0-r1",
+  "details": "Package tensorflow-gpu-jupyter version 2.20.0-r1 fixes 4 vulnerabilities: CVE-2026-25645, CVE-2026-59884, CVE-2026-59885, CVE-2026-59886",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tensorflow-gpu-jupyter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.20.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25645",
+    "CVE-2026-59884",
+    "CVE-2026-59885",
+    "CVE-2026-59886"
+  ],
+  "references": [
+    {
+      "url": "https://tensorflow.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
