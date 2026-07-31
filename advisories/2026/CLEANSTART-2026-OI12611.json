@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OI12611",
+  "summary": "Security fixes in tempo 2.9.0-r0",
+  "details": "Package tempo version 2.9.0-r0 fixes 10 vulnerabilities: ghsa-cfpf-hrx2-8rv6, ghsa-j5w8-q4qc-rx2x, ghsa-f6x5-jh6r-wrfv, CVE-2025-61726, CVE-2025-61729...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tempo",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.9.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cfpf-hrx2-8rv6",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-f6x5-jh6r-wrfv",
+    "CVE-2025-61726",
+    "CVE-2025-61729",
+    "CVE-2025-61730",
+    "CVE-2025-61728",
+    "CVE-2025-61731",
+    "CVE-2025-68119",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/tempo",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
