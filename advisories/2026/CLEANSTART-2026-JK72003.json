@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JK72003",
+  "summary": "Security fixes in clamav 1.0.1-r0",
+  "details": "Package clamav version 1.0.1-r0 fixes 2 vulnerabilities: CVE-2023-20032, CVE-2023-20052",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "clamav",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-20032",
+    "CVE-2023-20052"
+  ],
+  "references": [
+    {
+      "url": "https://www.clamav.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
