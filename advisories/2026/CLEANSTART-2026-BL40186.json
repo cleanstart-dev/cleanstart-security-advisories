@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BL40186",
+  "summary": "Security fixes in harbor 2.13.4-r1",
+  "details": "Package harbor version 2.13.4-r1 fixes 3 vulnerabilities: CVE-2025-15558, CVE-2026-27141, ghsa-p436-gjf2-799p",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.13.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15558",
+    "CVE-2026-27141",
+    "ghsa-p436-gjf2-799p"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/go$pkgname/$pkgname",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
