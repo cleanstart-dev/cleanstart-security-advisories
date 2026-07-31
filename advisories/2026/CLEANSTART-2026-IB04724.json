@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IB04724",
+  "summary": "Security fixes in mongodb 7.0.34-r2",
+  "details": "Package mongodb version 7.0.34-r2 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.34-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongodb",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.0.34-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://www.mongodb.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
