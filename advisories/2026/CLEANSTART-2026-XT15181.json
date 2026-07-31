@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XT15181",
+  "summary": "Security fixes in litellm-database 1.85.1-r0",
+  "details": "Package litellm-database version 1.85.1-r0 fixes 24 vulnerabilities: CVE-2026-48155, CVE-2026-48156, CVE-2026-48522, CVE-2026-48523, CVE-2026-48524...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.85.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "litellm-database",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.85.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48155",
+    "CVE-2026-48156",
+    "CVE-2026-48522",
+    "CVE-2026-48523",
+    "CVE-2026-48524",
+    "CVE-2026-48525",
+    "CVE-2026-48526",
+    "CVE-2026-48710",
+    "CVE-2026-48735",
+    "CVE-2026-48817",
+    "CVE-2026-48818",
+    "CVE-2026-49460",
+    "CVE-2026-49461",
+    "CVE-2026-53537",
+    "CVE-2026-53538",
+    "CVE-2026-53539",
+    "CVE-2026-53540",
+    "CVE-2026-54282",
+    "CVE-2026-54283",
+    "CVE-2026-54530",
+    "CVE-2026-54531",
+    "CVE-2026-54651",
+    "CVE-2026-57204",
+    "ghsa-jm82-fx9c-mx94"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
