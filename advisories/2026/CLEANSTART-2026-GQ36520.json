@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GQ36520",
+  "summary": "Security fixes in istio 1.29.1-r1",
+  "details": "Package istio version 1.29.1-r1 fixes 15 vulnerabilities: CVE-2026-27143, CVE-2026-27140, CVE-2026-27144, CVE-2026-32280, CVE-2026-32281...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.29.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.29.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27143",
+    "CVE-2026-27140",
+    "CVE-2026-27144",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "CVE-2025-15558",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:40Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
