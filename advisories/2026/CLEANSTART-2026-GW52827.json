@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GW52827",
+  "summary": "Security fixes in kube-vip 1.1.2-r2",
+  "details": "Package kube-vip version 1.1.2-r2 fixes 3 vulnerabilities: CVE-2026-42504, CVE-2026-42507, CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-vip",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.1.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504",
+    "CVE-2026-42507",
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kube-vip/kube-vip",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
