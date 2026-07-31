@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LT36147",
+  "summary": "Security fixes in kogito-apps 10.1.0-r1",
+  "details": "Package kogito-apps version 10.1.0-r1 fixes 8 vulnerabilities: CVE-2026-33870, ghsa-pwqr-wmgm-9rr8, CVE-2026-33871, ghsa-w9fj-cfpg-grvv, ghsa-72hv-8253-57qq...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kogito-apps",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "10.1.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33870",
+    "ghsa-pwqr-wmgm-9rr8",
+    "CVE-2026-33871",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2024-45993",
+    "CVE-2025-31344",
+    "CVE-2026-26740"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/incubator-kie-kogito-apps",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
