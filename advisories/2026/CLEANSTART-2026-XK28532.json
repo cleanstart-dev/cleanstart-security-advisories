@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XK28532",
+  "summary": "Security fixes in activemq 6.2.6-r0",
+  "details": "Package activemq version 6.2.6-r0 fixes 6 vulnerabilities: ghsa-qh8g-58pp-2wxh, ghsa-x96m-rh44-vgv8, CVE-2026-49268, CVE-2026-2332, CVE-2024-6763...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "activemq",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.2.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qh8g-58pp-2wxh",
+    "ghsa-x96m-rh44-vgv8",
+    "CVE-2026-49268",
+    "CVE-2026-2332",
+    "CVE-2024-6763",
+    "CVE-2025-11143"
+  ],
+  "references": [
+    {
+      "url": "https://activemq.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
