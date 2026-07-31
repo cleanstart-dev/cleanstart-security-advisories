@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YG59077",
+  "summary": "Security fixes in apache-hive 4.1.0-r1",
+  "details": "Package apache-hive version 4.1.0-r1 fixes 19 vulnerabilities: CVE-2025-48734, CVE-2026-24281, CVE-2026-24308, CVE-2026-0636, CVE-2025-59419...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-hive",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-48734",
+    "CVE-2026-24281",
+    "CVE-2026-24308",
+    "CVE-2026-0636",
+    "CVE-2025-59419",
+    "CVE-2025-58056",
+    "CVE-2025-67735",
+    "CVE-2026-33870",
+    "CVE-2025-55163",
+    "CVE-2026-33871",
+    "CVE-2025-58057",
+    "CVE-2025-25193",
+    "CVE-2025-24970",
+    "CVE-2025-53864",
+    "CVE-2024-38827",
+    "CVE-2024-6763",
+    "CVE-2025-11143",
+    "CVE-2026-2332",
+    "CVE-2024-47554"
+  ],
+  "references": [
+    {
+      "url": "https://hive.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
