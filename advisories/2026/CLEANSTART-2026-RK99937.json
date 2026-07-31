@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RK99937",
+  "summary": "Security fixes in prometheus-statsd-exporter 0.28.0-r0",
+  "details": "Package prometheus-statsd-exporter version 0.28.0-r0 fixes 14 vulnerabilities: CVE-2025-68119, CVE-2025-68121, CVE-2025-61726, CVE-2025-61728, CVE-2025-61730...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.28.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-statsd-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.28.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68119",
+    "CVE-2025-68121",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730",
+    "CVE-2025-61731",
+    "CVE-2025-61732",
+    "ghsa-v778-237x-gjrc",
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/statsd_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
