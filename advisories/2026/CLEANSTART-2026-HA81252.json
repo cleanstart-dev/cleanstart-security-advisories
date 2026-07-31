@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HA81252",
+  "summary": "Security fixes in consul 1.21.5-r0",
+  "details": "Package consul version 1.21.5-r0 fixes 13 vulnerabilities: ghsa-j5w8-q4qc-rx2x, ghsa-4f99-4q7p-p3gh, ghsa-p77j-4mvh-x3m3, ghsa-f6x5-jh6r-wrfv, ghsa-9h8m-3fm2-qjrq...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.21.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-4f99-4q7p-p3gh",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-9h8m-3fm2-qjrq",
+    "CVE-2025-65637",
+    "CVE-2026-24051",
+    "CVE-2025-47914",
+    "CVE-2025-58181",
+    "CVE-2026-33186",
+    "CVE-2025-47911",
+    "CVE-2025-58190",
+    "CVE-2025-47913"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
