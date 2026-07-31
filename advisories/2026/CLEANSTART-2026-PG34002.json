@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PG34002",
+  "summary": "Security fixes in dex 2.45.1-r5",
+  "details": "Package dex version 2.45.1-r5 fixes 5 vulnerabilities: CVE-2026-45808, CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.45.1-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.45.1-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45808",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/dexidp/dex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
