@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GF28056",
+  "summary": "Security fixes in minio-operator-fips 5.0.19-r0",
+  "details": "Package minio-operator-fips version 5.0.19-r0 fixes 4 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.19-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.0.19-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
