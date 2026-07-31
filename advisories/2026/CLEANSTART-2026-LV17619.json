@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LV17619",
+  "summary": "Security fixes in wavefront-proxy 13.9-r1",
+  "details": "Package wavefront-proxy version 13.9-r1 fixes 7 vulnerabilities: ghsa-72hv-8253-57qq, CVE-2026-33870, CVE-2026-41417, CVE-2026-33871, CVE-2026-34477...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.9-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wavefront-proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "13.9-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-33870",
+    "CVE-2026-41417",
+    "CVE-2026-33871",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34480"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wavefronthq/wavefront-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
