@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HA76708",
+  "summary": "Security fixes in runc 1.0.0_rc9-r0",
+  "details": "Package runc version 1.0.0_rc9-r0 fixes 1 vulnerabilities: CVE-2019-16884",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0_rc9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "runc",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.0_rc9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-16884"
+  ],
+  "references": [
+    {
+      "url": "https://www.opencontainers.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
