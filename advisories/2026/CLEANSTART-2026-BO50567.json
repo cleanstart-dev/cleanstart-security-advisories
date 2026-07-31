@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BO50567",
+  "summary": "Security fixes in argo-cd 3.1.12-r0",
+  "details": "Package argo-cd version 3.1.12-r0 fixes 3 vulnerabilities: CVE-2025-13281, CVE-2025-5187, CVE-2025-4563",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.12-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.12-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-13281",
+    "CVE-2025-5187",
+    "CVE-2025-4563"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
