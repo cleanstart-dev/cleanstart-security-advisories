@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NN78785",
+  "summary": "Security fixes in pritunl 1.30.3431.73-r0",
+  "details": "Package pritunl version 1.30.3431.73-r0 fixes 1 vulnerabilities: CVE-2026-39892",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.3431.73-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pritunl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.30.3431.73-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39892"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/pritunl/pritunl",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
