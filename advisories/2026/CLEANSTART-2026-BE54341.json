@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BE54341",
+  "summary": "Security fixes in cloudnative-pg-fips 1.25.4-r4",
+  "details": "Package cloudnative-pg-fips version 1.25.4-r4 fixes 16 vulnerabilities: ghsa-9jj7-4m8r-rfcm, ghsa-j88v-2chj-qfwx, CVE-2026-33815, CVE-2026-33816, CVE-2026-41889...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudnative-pg-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.25.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-9jj7-4m8r-rfcm",
+    "ghsa-j88v-2chj-qfwx",
+    "CVE-2026-33815",
+    "CVE-2026-33816",
+    "CVE-2026-41889",
+    "ghsa-pc3f-x583-g7j2",
+    "CVE-2026-35469",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-39820",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-39836",
+    "CVE-2026-42499",
+    "CVE-2026-34743"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
