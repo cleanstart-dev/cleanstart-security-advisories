@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NJ20727",
+  "summary": "Security fixes in playwright-python 1.54.0-r1",
+  "details": "Package playwright-python version 1.54.0-r1 fixes 7 vulnerabilities: CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.54.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "playwright-python",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.54.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-38469",
+    "CVE-2023-38470",
+    "CVE-2023-38471",
+    "CVE-2023-38472",
+    "CVE-2023-38473",
+    "CVE-2024-52615",
+    "CVE-2024-52616"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/microsoft/playwright-python",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
