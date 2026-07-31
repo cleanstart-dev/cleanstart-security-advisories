@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OD53116",
+  "summary": "Security fixes in terragrunt-fips 1.0.1-r1",
+  "details": "Package terragrunt-fips version 1.0.1-r1 fixes 1 vulnerabilities: ghsa-w8rr-5gcm-pp58",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terragrunt-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w8rr-5gcm-pp58"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
