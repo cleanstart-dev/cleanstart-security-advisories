@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FL96433",
+  "summary": "Security fixes in mongosh 2.6.0-r4",
+  "details": "Package mongosh version 2.6.0-r4 fixes 15 vulnerabilities: ghsa-rp42-5vxx-qpwr, ghsa-gh4j-gqv2-49f6, CVE-2026-41650, CVE-2026-33036, CVE-2026-33349...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongosh",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-rp42-5vxx-qpwr",
+    "ghsa-gh4j-gqv2-49f6",
+    "CVE-2026-41650",
+    "CVE-2026-33036",
+    "CVE-2026-33349",
+    "ghsa-w5hq-g745-h8pq",
+    "CVE-2025-69873",
+    "CVE-2022-33987",
+    "CVE-2022-25881",
+    "CVE-2026-23745",
+    "CVE-2026-23950",
+    "CVE-2026-24842",
+    "CVE-2026-26960",
+    "CVE-2026-29786",
+    "CVE-2026-31802"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/mongodb-js/mongosh",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
