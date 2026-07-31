@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FR38624",
+  "summary": "Security fixes in prometheus-mysqld-exporter 0.18.0-r4",
+  "details": "Package prometheus-mysqld-exporter version 0.18.0-r4 fixes 4 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.18.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-mysqld-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.18.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/mysqld_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
