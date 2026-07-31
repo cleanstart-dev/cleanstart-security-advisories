@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ON12540",
+  "summary": "Security fixes in nginx 1.20.2-r2",
+  "details": "Package nginx version 1.20.2-r2 fixes 4 vulnerabilities: CVE-2021-46461, CVE-2021-46462, CVE-2021-46463, CVE-2022-25139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nginx",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-46461",
+    "CVE-2021-46462",
+    "CVE-2021-46463",
+    "CVE-2022-25139"
+  ],
+  "references": [
+    {
+      "url": "https://www.nginx.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
