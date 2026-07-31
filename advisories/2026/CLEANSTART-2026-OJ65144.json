@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OJ65144",
+  "summary": "Security fixes in kaniko 1.24.0-r0",
+  "details": "Package kaniko version 1.24.0-r0 fixes 3 vulnerabilities: ghsa-cgrx-mc8f-2prm, ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.24.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kaniko",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.24.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/GoogleContainerTools/kaniko",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
