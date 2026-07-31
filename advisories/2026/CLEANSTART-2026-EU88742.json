@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EU88742",
+  "summary": "Security fixes in busybox 1.35.0-r17",
+  "details": "Package busybox version 1.35.0-r17 fixes 1 vulnerabilities: CVE-2022-30065",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.0-r17"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "busybox",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.0-r17"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-30065"
+  ],
+  "references": [
+    {
+      "url": "https://busybox.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
