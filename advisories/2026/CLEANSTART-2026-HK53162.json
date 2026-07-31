@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HK53162",
+  "summary": "Security fixes in az 2.81.0-r0",
+  "details": "Package az version 2.81.0-r0 fixes 3 vulnerabilities: ghsa-jm66-cg57-jjv5, ghsa-mrfv-m5wm-5w6w, ghsa-58pv-8j8x-9vj2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.81.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "az",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.81.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-jm66-cg57-jjv5",
+    "ghsa-mrfv-m5wm-5w6w",
+    "ghsa-58pv-8j8x-9vj2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Azure/azure-cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
