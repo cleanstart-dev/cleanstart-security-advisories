@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FS40471",
+  "summary": "Security fixes in cloudnative-pg-fips 1.24.4-r2",
+  "details": "Package cloudnative-pg-fips version 1.24.4-r2 fixes 3 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.24.4-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudnative-pg-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.24.4-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
