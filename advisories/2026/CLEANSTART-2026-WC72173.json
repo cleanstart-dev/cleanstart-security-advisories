@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WC72173",
+  "summary": "Security fixes in kafka-fips 4.0.2-r1",
+  "details": "Package kafka-fips version 4.0.2-r1 fixes 16 vulnerabilities: ghsa-6fmv-xxpf-w3cw, ghsa-445c-vh5m-36rj, ghsa-h383-gmxw-35v2, ghsa-3pxv-7cmr-fjr4, ghsa-6hg6-v5c8-fphq...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6fmv-xxpf-w3cw",
+    "ghsa-445c-vh5m-36rj",
+    "ghsa-h383-gmxw-35v2",
+    "ghsa-3pxv-7cmr-fjr4",
+    "ghsa-6hg6-v5c8-fphq",
+    "ghsa-xxh7-fcf3-rj7f",
+    "ghsa-wjpw-4j6x-6rwh",
+    "ghsa-355h-qmc2-wpwf",
+    "CVE-2026-34479",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34480",
+    "CVE-2025-67030",
+    "CVE-2026-2332",
+    "CVE-2025-11143",
+    "CVE-2026-1605"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
