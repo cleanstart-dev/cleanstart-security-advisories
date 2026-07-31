@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MU34721",
+  "summary": "Security fixes in minio-operator 6.0.4-r2",
+  "details": "Package minio-operator version 6.0.4-r2 fixes 4 vulnerabilities: ghsa-mh63-6h87-95cp, ghsa-29wx-vh33-7x7r, CVE-2025-30204, CVE-2024-51744",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.4-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.0.4-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-29wx-vh33-7x7r",
+    "CVE-2025-30204",
+    "CVE-2024-51744"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
