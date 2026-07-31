@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DM83032",
+  "summary": "Security fixes in cert-manager 1.17.4-r4",
+  "details": "Package cert-manager version 1.17.4-r4 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.17.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cert-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
