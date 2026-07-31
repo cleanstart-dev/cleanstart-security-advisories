@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VV35909",
+  "summary": "Security fixes in airflow-2 2.11.2-r3",
+  "details": "Package airflow-2 version 2.11.2-r3 fixes 5 vulnerabilities: CVE-2026-48522, CVE-2026-48523, CVE-2026-48524, CVE-2026-48525, CVE-2026-48526",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-2",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.11.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48522",
+    "CVE-2026-48523",
+    "CVE-2026-48524",
+    "CVE-2026-48525",
+    "CVE-2026-48526"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
