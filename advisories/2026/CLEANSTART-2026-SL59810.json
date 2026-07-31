@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SL59810",
+  "summary": "Security fixes in thingsboard 4.2.1.1-r1",
+  "details": "Package thingsboard version 4.2.1.1-r1 fixes 4 vulnerabilities: ghsa-6rw7-vpxm-498p, ghsa-8qq5-rm4j-mr97, ghsa-wqch-xfxh-vrr4, ghsa-73rr-hh4g-fpgx",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.1.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6rw7-vpxm-498p",
+    "ghsa-8qq5-rm4j-mr97",
+    "ghsa-wqch-xfxh-vrr4",
+    "ghsa-73rr-hh4g-fpgx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
