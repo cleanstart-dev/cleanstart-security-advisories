@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SR85048",
+  "summary": "Security fixes in runc 1.1.4-r7",
+  "details": "Package runc version 1.1.4-r7 fixes 1 vulnerabilities: CVE-2023-27561",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.4-r7"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "runc",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.1.4-r7"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-27561"
+  ],
+  "references": [
+    {
+      "url": "https://www.opencontainers.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
