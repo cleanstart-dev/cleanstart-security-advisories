@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VR62396",
+  "summary": "Security fixes in activemq 6.2.3-r0",
+  "details": "Package activemq version 6.2.3-r0 fixes 2 vulnerabilities: CVE-2026-22737, CVE-2026-22735",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "activemq",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.2.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-22737",
+    "CVE-2026-22735"
+  ],
+  "references": [
+    {
+      "url": "https://activemq.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
