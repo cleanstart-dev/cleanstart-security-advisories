@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CF63541",
+  "summary": "Security fixes in eks-distro-coredns-fips 1.35.7-r0",
+  "details": "Package eks-distro-coredns-fips version 1.35.7-r0 fixes 6 vulnerabilities: ghsa-cfpf-hrx2-8rv6, ghsa-p77j-4mvh-x3m3, ghsa-9h8m-3fm2-qjrq, CVE-2025-68156, CVE-2026-24051...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eks-distro-coredns-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cfpf-hrx2-8rv6",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-9h8m-3fm2-qjrq",
+    "CVE-2025-68156",
+    "CVE-2026-24051",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/eks-distro",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
