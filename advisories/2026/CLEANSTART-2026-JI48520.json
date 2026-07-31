@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JI48520",
+  "summary": "Security fixes in thingsboard-tb-web-ui 4.2.1.1-r1",
+  "details": "Package thingsboard-tb-web-ui version 4.2.1.1-r1 fixes 2 vulnerabilities: ghsa-73rr-hh4g-fpgx, ghsa-8qq5-rm4j-mr97",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard-tb-web-ui",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.1.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-73rr-hh4g-fpgx",
+    "ghsa-8qq5-rm4j-mr97"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
