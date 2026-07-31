@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PB59107",
+  "summary": "Security fixes in solr 10.0.0-r5",
+  "details": "Package solr version 10.0.0-r5 fixes 1 vulnerabilities: CVE-2026-54515",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.0.0-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "solr",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "10.0.0-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54515"
+  ],
+  "references": [
+    {
+      "url": "https://solr.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
