@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UU27733",
+  "summary": "Security fixes in opentofu-fips 1.11.6-r0",
+  "details": "Package opentofu-fips version 1.11.6-r0 fixes 9 vulnerabilities: ghsa-92mm-2pjq-r785, CVE-2026-4660, ghsa-78h2-9frx-2jm8, CVE-2026-34986, ghsa-hfvc-g4fc-pqhx...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.11.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-92mm-2pjq-r785",
+    "CVE-2026-4660",
+    "ghsa-78h2-9frx-2jm8",
+    "CVE-2026-34986",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-39883",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-39882",
+    "ghsa-xmrv-pmrh-hhx2"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
