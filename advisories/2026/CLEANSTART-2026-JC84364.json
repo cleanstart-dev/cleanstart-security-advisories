@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JC84364",
+  "summary": "Security fixes in terragrunt-fips 0.91.5-r0",
+  "details": "Package terragrunt-fips version 0.91.5-r0 fixes 5 vulnerabilities: CVE-2025-47913, CVE-2025-58181, CVE-2025-47914, CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.91.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terragrunt-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.91.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47913",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
