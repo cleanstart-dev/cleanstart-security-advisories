@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YH06541",
+  "summary": "Security fixes in airflow-3 3.1.8-r4",
+  "details": "Package airflow-3 version 3.1.8-r4 fixes 18 vulnerabilities: ghsa-hpj7-wq8m-9hgp, ghsa-xcgm-r5h9-7989, ghsa-2fqr-mr3j-6wp8, ghsa-4m7w-qmgq-4wj5, ghsa-6jv3-5f52-599m...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.8-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hpj7-wq8m-9hgp",
+    "ghsa-xcgm-r5h9-7989",
+    "ghsa-2fqr-mr3j-6wp8",
+    "ghsa-4m7w-qmgq-4wj5",
+    "ghsa-6jv3-5f52-599m",
+    "ghsa-v9pg-7xvm-68hf",
+    "ghsa-vffw-93wf-4j4q",
+    "ghsa-jp82-jpqv-5vv3",
+    "ghsa-cx3h-4qpv-8hc9",
+    "ghsa-x746-7m8f-x49c",
+    "ghsa-pw6j-qg29-8w7f",
+    "ghsa-4xpc-pv4p-pm3w",
+    "ghsa-537c-gmf6-5ccf",
+    "ghsa-5rvq-cxj2-64vf",
+    "ghsa-82w8-qh3p-5jfq",
+    "ghsa-wqp7-x3pw-xc5r",
+    "ghsa-3x9g-8vmp-wqvf",
+    "ghsa-mgf9-4vpg-hj56"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
