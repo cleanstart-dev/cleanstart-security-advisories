@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RP49501",
+  "summary": "Security fixes in grafana-alloy 1.15.0-r1",
+  "details": "Package grafana-alloy version 1.15.0-r1 fixes 4 vulnerabilities: ghsa-hfvc-g4fc-pqhx, ghsa-w8rr-5gcm-pp58, CVE-2026-39883, CVE-2026-39882",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-alloy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-39883",
+    "CVE-2026-39882"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/alloy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
