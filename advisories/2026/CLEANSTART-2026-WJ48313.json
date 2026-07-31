@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WJ48313",
+  "summary": "Security fixes in solr 9.9.0-r0",
+  "details": "Package solr version 9.9.0-r0 fixes 18 vulnerabilities: CVE-2025-12383, ghsa-7p63-w6x9-6gr7, CVE-2026-22022, CVE-2026-22444, ghsa-vc2w-4v3p-2mqw...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.9.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "solr",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.9.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-12383",
+    "ghsa-7p63-w6x9-6gr7",
+    "CVE-2026-22022",
+    "CVE-2026-22444",
+    "ghsa-vc2w-4v3p-2mqw",
+    "ghsa-qr3p-2xj2-q7hq",
+    "CVE-2025-68161",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34479",
+    "CVE-2026-34480",
+    "CVE-2026-34481",
+    "ghsa-3pxv-7cmr-fjr4",
+    "ghsa-445c-vh5m-36rj",
+    "ghsa-vc5p-v9hr-52mj",
+    "ghsa-6hg6-v5c8-fphq",
+    "ghsa-h383-gmxw-35v2",
+    "ghsa-w35j-pv5h-q9q9"
+  ],
+  "references": [
+    {
+      "url": "https://solr.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
