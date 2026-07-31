@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MV28194",
+  "summary": "Security fixes in sqlpad 7.5.7-r1",
+  "details": "Package sqlpad version 7.5.7-r1 fixes 4 vulnerabilities: CVE-2026-24842, CVE-2026-25547, CVE-2025-57350, CVE-2026-2391",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlpad",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.5.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24842",
+    "CVE-2026-25547",
+    "CVE-2025-57350",
+    "CVE-2026-2391"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sqlpad/sqlpad",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
