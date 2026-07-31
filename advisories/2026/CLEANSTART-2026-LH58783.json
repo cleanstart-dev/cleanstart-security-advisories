@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LH58783",
+  "summary": "Security fixes in minio-operator 7.1.1-r3",
+  "details": "Package minio-operator version 7.1.1-r3 fixes 15 vulnerabilities: ghsa-j5w8-q4qc-rx2x, CVE-2025-61726, CVE-2026-25679, CVE-2026-27142, CVE-2025-61729...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.1.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j5w8-q4qc-rx2x",
+    "CVE-2025-61726",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-61729",
+    "CVE-2025-68119",
+    "ghsa-f6x5-jh6r-wrfv",
+    "CVE-2025-61728",
+    "CVE-2025-68121",
+    "CVE-2025-61731",
+    "CVE-2025-61727",
+    "CVE-2025-61732",
+    "ghsa-p436-gjf2-799p",
+    "CVE-2025-61730",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
