@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OF30817",
+  "summary": "Security fixes in gpu-operator-fips 24.9.2-r0",
+  "details": "Package gpu-operator-fips version 24.9.2-r0 fixes 1 vulnerabilities: CVE-2025-22868",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.9.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gpu-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "24.9.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22868"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/NVIDIA/gpu-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
