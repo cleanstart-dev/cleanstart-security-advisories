@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PO79955",
+  "summary": "Security fixes in sqlite 3.28.0-r0",
+  "details": "Package sqlite version 3.28.0-r0 fixes 2 vulnerabilities: CVE-2019-5018, CVE-2019-8457",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.28.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlite",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.28.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-5018",
+    "CVE-2019-8457"
+  ],
+  "references": [
+    {
+      "url": "https://www.sqlite.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
