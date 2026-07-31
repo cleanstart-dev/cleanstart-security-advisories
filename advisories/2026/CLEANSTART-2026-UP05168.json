@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UP05168",
+  "summary": "Security fixes in sonarqube 26.3.0.120487-r4",
+  "details": "Package sonarqube version 26.3.0.120487-r4 fixes 11 vulnerabilities: CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, CVE-2026-54516...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.3.0.120487-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sonarqube",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.3.0.120487-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2026-54516",
+    "CVE-2026-54517",
+    "CVE-2026-54518",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-59888",
+    "CVE-2026-59889",
+    "CVE-2026-54428"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/SonarSource/sonarqube",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
