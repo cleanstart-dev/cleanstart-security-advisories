@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IS30019",
+  "summary": "Security fixes in grafana-mimir-fips 2.17.10-r0",
+  "details": "Package grafana-mimir-fips version 2.17.10-r0 fixes 3 vulnerabilities: ghsa-w8rr-5gcm-pp58, CVE-2026-27141, CVE-2026-39882",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-mimir-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.17.10-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-27141",
+    "CVE-2026-39882"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/mimir",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
