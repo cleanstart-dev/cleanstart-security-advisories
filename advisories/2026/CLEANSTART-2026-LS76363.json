@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LS76363",
+  "summary": "Security fixes in velero 1.17.0-r0",
+  "details": "Package velero version 1.17.0-r0 fixes 15 vulnerabilities: CVE-2025-61723, CVE-2025-61725, CVE-2025-58186, CVE-2025-61724, CVE-2025-58188...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.17.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61723",
+    "CVE-2025-61725",
+    "CVE-2025-58186",
+    "CVE-2025-61724",
+    "CVE-2025-58188",
+    "CVE-2025-58189",
+    "CVE-2025-58185",
+    "CVE-2025-58187",
+    "CVE-2025-58183",
+    "CVE-2025-47912",
+    "CVE-2025-46394",
+    "CVE-2025-58251",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-m6hq-p25p-ffr2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
