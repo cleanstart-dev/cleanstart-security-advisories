@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WZ41154",
+  "summary": "Security fixes in minio-operator 7.0.1-r3",
+  "details": "Package minio-operator version 7.0.1-r3 fixes 1 vulnerabilities: CVE-2025-30204",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.0.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30204"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
