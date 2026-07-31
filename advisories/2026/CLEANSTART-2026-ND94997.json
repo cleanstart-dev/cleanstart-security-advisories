@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ND94997",
+  "summary": "Security fixes in kafka-ui 1.4.2-r5",
+  "details": "Package kafka-ui version 1.4.2-r5 fixes 16 vulnerabilities: ghsa-w9fj-cfpg-grvv, ghsa-4773-3jfm-qmx3, ghsa-pwqr-wmgm-9rr8, ghsa-mf92-479x-3373, ghsa-6hcq-hmm3-jj3c...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-ui",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.4.2-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-4773-3jfm-qmx3",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-mf92-479x-3373",
+    "ghsa-6hcq-hmm3-jj3c",
+    "ghsa-qqpg-mvqg-649v",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-1225",
+    "CVE-2026-33870",
+    "CVE-2026-33871",
+    "CVE-2026-22732",
+    "CVE-2026-22737",
+    "CVE-2026-22735",
+    "CVE-2024-45993",
+    "CVE-2025-31344",
+    "CVE-2026-26740"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kafbat/kafka-ui",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
