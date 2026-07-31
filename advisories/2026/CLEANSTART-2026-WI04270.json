@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WI04270",
+  "summary": "Security fixes in tekton-pipelines 1.5.0-r4",
+  "details": "Package tekton-pipelines version 1.5.0-r4 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, ghsa-p436-gjf2-799p, ghsa-9h8m-3fm2-qjrq, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-pipelines",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "ghsa-p436-gjf2-799p",
+    "ghsa-9h8m-3fm2-qjrq",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/pipeline",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
