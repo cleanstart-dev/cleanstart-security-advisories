@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NM02536",
+  "summary": "Security fixes in qt6-qtbase 6.5.0-r5",
+  "details": "Package qt6-qtbase version 6.5.0-r5 fixes 2 vulnerabilities: CVE-2023-32762, CVE-2023-32763",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.5.0-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "qt6-qtbase",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.5.0-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-32762",
+    "CVE-2023-32763"
+  ],
+  "references": [
+    {
+      "url": "https://qt.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
