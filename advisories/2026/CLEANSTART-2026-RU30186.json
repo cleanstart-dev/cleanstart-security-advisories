@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RU30186",
+  "summary": "Security fixes in kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r6",
+  "details": "Package kyverno-policy-reporter-kyverno-plugin-fips version 1.4.2-r6 fixes 5 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, CVE-2026-33186, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.4.2-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/policy-reporter-kyverno-plugin",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
