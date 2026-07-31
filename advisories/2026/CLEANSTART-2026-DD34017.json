@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DD34017",
+  "summary": "Security fixes in curl 7.83.1-r0",
+  "details": "Package curl version 7.83.1-r0 fixes 6 vulnerabilities: CVE-2022-27778, CVE-2022-27779, CVE-2022-27780, CVE-2022-27781, CVE-2022-27782...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.83.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "curl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.83.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27778",
+    "CVE-2022-27779",
+    "CVE-2022-27780",
+    "CVE-2022-27781",
+    "CVE-2022-27782",
+    "CVE-2022-30115"
+  ],
+  "references": [
+    {
+      "url": "https://curl.se/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
