@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JI51120",
+  "summary": "Security fixes in kyverno-fips 1.16.3-r5",
+  "details": "Package kyverno-fips version 1.16.3-r5 fixes 1 vulnerabilities: CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.3-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.16.3-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
