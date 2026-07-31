@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DV96578",
+  "summary": "Security fixes in gitness 3.3.0-r2",
+  "details": "Package gitness version 3.3.0-r2 fixes 17 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gitness",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.3.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33540",
+    "CVE-2026-35172",
+    "ghsa-3p65-76g6-3w7r",
+    "ghsa-f2g3-hh2r-cwgc",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2025-58058",
+    "CVE-2026-1229",
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/harness/gitness",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
