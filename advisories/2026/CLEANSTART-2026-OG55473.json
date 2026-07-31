@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OG55473",
+  "summary": "Security fixes in spire-server 1.14.1-r4",
+  "details": "Package spire-server version 1.14.1-r4 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.1-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spire-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.1-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/spiffe/spire",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
