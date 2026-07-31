@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OQ91589",
+  "summary": "Security fixes in rabbitmq-messaging-topology-operator 1.18.3-r3",
+  "details": "Package rabbitmq-messaging-topology-operator version 1.18.3-r3 fixes 4 vulnerabilities: CVE-2026-42505, CVE-2026-39822, CVE-2026-56852, CVE-2026-46600",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.3-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rabbitmq-messaging-topology-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.3-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42505",
+    "CVE-2026-39822",
+    "CVE-2026-56852",
+    "CVE-2026-46600"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rabbitmq/messaging-topology-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
