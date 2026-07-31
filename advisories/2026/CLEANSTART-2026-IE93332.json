@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IE93332",
+  "summary": "Security fixes in tensorflow-gpu-jupyter 2.21.0-r9",
+  "details": "Package tensorflow-gpu-jupyter version 2.21.0-r9 fixes 1 vulnerabilities: ghsa-vmhf-c436-hxj4",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.0-r9"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tensorflow-gpu-jupyter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.21.0-r9"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vmhf-c436-hxj4"
+  ],
+  "references": [
+    {
+      "url": "https://tensorflow.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
