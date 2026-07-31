@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FD34188",
+  "summary": "Security fixes in apko 1.2.2-r1",
+  "details": "Package apko version 1.2.2-r1 fixes 19 vulnerabilities: ghsa-qw64-3x98-g7q2, ghsa-389r-gv7p-r3rp, ghsa-m3xc-h892-ggx6, CVE-2026-39820, CVE-2026-42501...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apko",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.2.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qw64-3x98-g7q2",
+    "ghsa-389r-gv7p-r3rp",
+    "ghsa-m3xc-h892-ggx6",
+    "CVE-2026-39820",
+    "CVE-2026-42501",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-45022",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-39836",
+    "CVE-2026-44740",
+    "CVE-2026-45570",
+    "CVE-2026-45571",
+    "CVE-2026-44973",
+    "CVE-2026-42499"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/chainguard-dev/apko",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
