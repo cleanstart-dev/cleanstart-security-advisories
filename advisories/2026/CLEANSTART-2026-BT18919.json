@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BT18919",
+  "summary": "Security fixes in trino 480-r3",
+  "details": "Package trino version 480-r3 fixes 18 vulnerabilities: CVE-2026-44894, CVE-2026-44893, CVE-2026-45536, CVE-2026-46340, CVE-2026-42583...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "480-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trino",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "480-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44894",
+    "CVE-2026-44893",
+    "CVE-2026-45536",
+    "CVE-2026-46340",
+    "CVE-2026-42583",
+    "CVE-2026-42579",
+    "CVE-2026-42584",
+    "CVE-2026-42587",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42585",
+    "CVE-2026-33871",
+    "CVE-2026-42582",
+    "CVE-2026-44248",
+    "CVE-2026-42586",
+    "CVE-2026-42578",
+    "CVE-2026-42577"
+  ],
+  "references": [
+    {
+      "url": "https://trino.io",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
