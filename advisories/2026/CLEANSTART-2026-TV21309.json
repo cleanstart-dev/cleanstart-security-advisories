@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TV21309",
+  "summary": "Security fixes in spark-sc213-jdk17-py311 4.1.1-r1",
+  "details": "Package spark-sc213-jdk17-py311 version 4.1.1-r1 fixes 2 vulnerabilities: ghsa-84h7-rjj3-6jx4, ghsa-vc5p-v9hr-52mj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc213-jdk17-py311",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-84h7-rjj3-6jx4",
+    "ghsa-vc5p-v9hr-52mj"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
