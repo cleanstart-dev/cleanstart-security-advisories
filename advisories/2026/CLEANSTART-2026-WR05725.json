@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WR05725",
+  "summary": "Security fixes in wazero 1.11.0-r0",
+  "details": "Package wazero version 1.11.0-r0 fixes 1 vulnerabilities: CVE-2025-61725",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wazero",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.11.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61725"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tetratelabs/wazero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
