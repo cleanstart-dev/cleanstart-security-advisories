@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZQ47367",
+  "summary": "Security fixes in metrics-server-fips 0.5.2-r3",
+  "details": "Package metrics-server-fips version 0.5.2-r3 fixes 4 vulnerabilities: ghsa-2xhq-gv6c-p224, ghsa-m425-mq94-257g, ghsa-wf43-55jj-vwq8, ghsa-wr2v-9rpq-c35q",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.5.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "metrics-server-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.5.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-2xhq-gv6c-p224",
+    "ghsa-m425-mq94-257g",
+    "ghsa-wf43-55jj-vwq8",
+    "ghsa-wr2v-9rpq-c35q"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/metrics-server",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
