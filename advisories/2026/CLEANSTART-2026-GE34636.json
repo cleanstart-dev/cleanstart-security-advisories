@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GE34636",
+  "summary": "Security fixes in renovate 43.123.8-r1",
+  "details": "Package renovate version 43.123.8-r1 fixes 10 vulnerabilities: CVE-2026-27143, CVE-2026-32281, CVE-2026-32280, CVE-2026-32283, CVE-2026-27140...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.123.8-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "renovate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "43.123.8-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27143",
+    "CVE-2026-32281",
+    "CVE-2026-32280",
+    "CVE-2026-32283",
+    "CVE-2026-27140",
+    "CVE-2026-33810",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-27144",
+    "CVE-2026-32288"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/renovatebot/renovate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
