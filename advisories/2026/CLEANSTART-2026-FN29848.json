@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FN29848",
+  "summary": "Security fixes in wavefront-proxy 13.7-r0",
+  "details": "Package wavefront-proxy version 13.7-r0 fixes 6 vulnerabilities: ghsa-72hv-8253-57qq, ghsa-pwqr-wmgm-9rr8, ghsa-w9fj-cfpg-grvv, ghsa-6hg6-v5c8-fphq, ghsa-3pxv-7cmr-fjr4...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wavefront-proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "13.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-6hg6-v5c8-fphq",
+    "ghsa-3pxv-7cmr-fjr4",
+    "ghsa-445c-vh5m-36rj"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wavefronthq/wavefront-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
