@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CB45837",
+  "summary": "Security fixes in certificate-transparency-trillian-ctserver 1.3.2-r1",
+  "details": "Package certificate-transparency-trillian-ctserver version 1.3.2-r1 fixes 9 vulnerabilities: CVE-2026-25679, CVE-2025-68121, ghsa-p77j-4mvh-x3m3, CVE-2026-27142, CVE-2025-61732...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "certificate-transparency-trillian-ctserver",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.3.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2025-68121",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-27142",
+    "CVE-2025-61732",
+    "ghsa-fw7p-63qq-7hpr",
+    "CVE-2026-27139",
+    "CVE-2026-33186",
+    "CVE-2026-26958"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/certificate-transparency-go",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
