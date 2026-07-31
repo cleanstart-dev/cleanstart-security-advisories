@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IJ98637",
+  "summary": "Security fixes in litellm-database 1.90.2-r1",
+  "details": "Package litellm-database version 1.90.2-r1 fixes 1 vulnerabilities: CVE-2026-0994",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.90.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "litellm-database",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.90.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-0994"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
