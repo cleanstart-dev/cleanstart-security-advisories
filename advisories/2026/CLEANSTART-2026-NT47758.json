@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NT47758",
+  "summary": "Security fixes in prometheus 2.27.1-r0",
+  "details": "Package prometheus version 2.27.1-r0 fixes 1 vulnerabilities: CVE-2021-29622",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.27.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.27.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-29622"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
