@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NK67867",
+  "summary": "Security fixes in harbor-trivy-adapter 0.36.0-r0",
+  "details": "Package harbor-trivy-adapter version 0.36.0-r0 fixes 5 vulnerabilities: CVE-2026-46595, CVE-2026-39821, CVE-2026-42508, CVE-2026-42504, CVE-2026-42499",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.36.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-trivy-adapter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.36.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46595",
+    "CVE-2026-39821",
+    "CVE-2026-42508",
+    "CVE-2026-42504",
+    "CVE-2026-42499"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor-scanner-trivy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
