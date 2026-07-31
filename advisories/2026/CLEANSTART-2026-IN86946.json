@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IN86946",
+  "summary": "Security fixes in argo-workflows-fips 3.7.8-r3",
+  "details": "Package argo-workflows-fips version 3.7.8-r3 fixes 4 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.8-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.8-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
