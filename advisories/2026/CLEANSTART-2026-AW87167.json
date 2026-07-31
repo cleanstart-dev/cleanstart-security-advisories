@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AW87167",
+  "summary": "Security fixes in logstash-fips 9.2.7-r1",
+  "details": "Package logstash-fips version 9.2.7-r1 fixes 7 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.2.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/logstash",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
