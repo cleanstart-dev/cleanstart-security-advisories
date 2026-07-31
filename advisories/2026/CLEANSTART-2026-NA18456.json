@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NA18456",
+  "summary": "Security fixes in docker-compose 5.1.0-r0",
+  "details": "Package docker-compose version 5.1.0-r0 fixes 19 vulnerabilities: ghsa-4c29-8rgm-jvjj, ghsa-4vrq-3vrq-g6gg, ghsa-p77j-4mvh-x3m3, ghsa-hfvc-g4fc-pqhx, ghsa-w8rr-5gcm-pp58...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "docker-compose",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.1.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4c29-8rgm-jvjj",
+    "ghsa-4vrq-3vrq-g6gg",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-27143",
+    "CVE-2026-32281",
+    "CVE-2026-32280",
+    "CVE-2026-32283",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-27144",
+    "CVE-2026-32288",
+    "CVE-2026-34040",
+    "CVE-2026-33747",
+    "CVE-2026-33748",
+    "CVE-2026-39882",
+    "CVE-2026-39883",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/docker/compose",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
