@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YE68746",
+  "summary": "Security fixes in kafka-fips 4.1.1-r0",
+  "details": "Package kafka-fips version 4.1.1-r0 fixes 1 vulnerabilities: ghsa-vc5p-v9hr-52mj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vc5p-v9hr-52mj"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
