@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FH20716",
+  "summary": "Security fixes in cloudprober 0.11.9-r0",
+  "details": "Package cloudprober version 0.11.9-r0 fixes 2 vulnerabilities: CVE-2024-45339, CVE-2025-22868",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudprober",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.11.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45339",
+    "CVE-2025-22868"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cloudprober/cloudprober",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
