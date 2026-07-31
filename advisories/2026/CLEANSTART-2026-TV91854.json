@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TV91854",
+  "summary": "Security fixes in trust-manager 0.23.0-r0",
+  "details": "Package trust-manager version 0.23.0-r0 fixes 4 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.23.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trust-manager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.23.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/trust-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
