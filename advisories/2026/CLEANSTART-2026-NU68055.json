@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NU68055",
+  "summary": "Security fixes in airflow-3 3.1.6-r2",
+  "details": "Package airflow-3 version 3.1.6-r2 fixes 2 vulnerabilities: ghsa-7j59-v9qr-6fq9, CVE-2026-44503",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.6-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.6-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-7j59-v9qr-6fq9",
+    "CVE-2026-44503"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
