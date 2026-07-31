@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BV40657",
+  "summary": "Security fixes in $pkgname-$CTARGET_ARCH 2.28-r1",
+  "details": "Package $pkgname-$CTARGET_ARCH version 2.28-r1 fixes 1 vulnerabilities: CVE-2017-7614",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.28-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-$CTARGET_ARCH",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.28-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-7614"
+  ],
+  "references": [
+    {
+      "url": "https://www.gnu.org/software/binutils/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
