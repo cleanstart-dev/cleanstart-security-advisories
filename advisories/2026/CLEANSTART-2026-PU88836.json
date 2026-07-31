@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PU88836",
+  "summary": "Security fixes in solr 9.8.1-r0",
+  "details": "Package solr version 9.8.1-r0 fixes 3 vulnerabilities: ghsa-3qp7-7mw8-wx86, ghsa-x4gw-5cx5-pgmh, ghsa-w573-9ffj-6ff9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.8.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "solr",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.8.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3qp7-7mw8-wx86",
+    "ghsa-x4gw-5cx5-pgmh",
+    "ghsa-w573-9ffj-6ff9"
+  ],
+  "references": [
+    {
+      "url": "https://solr.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
