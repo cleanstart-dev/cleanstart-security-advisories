@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TU16978",
+  "summary": "Security fixes in eck-operator 3.2.0-r1",
+  "details": "Package eck-operator version 3.2.0-r1 fixes 2 vulnerabilities: CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eck-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/cloud-on-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
