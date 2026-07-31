@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GH12482",
+  "summary": "Security fixes in kyverno-fips 1.17.0-r1",
+  "details": "Package kyverno-fips version 1.17.0-r1 fixes 2 vulnerabilities: ghsa-4qg8-fj49-pxjh, ghsa-whqx-f9j3-ch6m",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.17.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4qg8-fj49-pxjh",
+    "ghsa-whqx-f9j3-ch6m"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
