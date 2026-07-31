@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZR84349",
+  "summary": "Security fixes in configmap-reload 0.15.0-r1",
+  "details": "Package configmap-reload version 0.15.0-r1 fixes 1 vulnerabilities: CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "configmap-reload",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.15.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jimmidyson/configmap-reload",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
