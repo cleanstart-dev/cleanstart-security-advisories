@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YF59488",
+  "summary": "Security fixes in external-secrets 2.3.0-r1",
+  "details": "Package external-secrets version 2.3.0-r1 fixes 7 vulnerabilities: CVE-2026-32952, CVE-2026-29181, CVE-2026-2303, ghsa-pjcq-xvwq-hhpj, ghsa-mh2q-q3fh-2475...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-secrets",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.3.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32952",
+    "CVE-2026-29181",
+    "CVE-2026-2303",
+    "ghsa-pjcq-xvwq-hhpj",
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-cp6g-7hqx-qxhp",
+    "ghsa-mpwr-8vm7-h73f"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/external-secrets/external-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
