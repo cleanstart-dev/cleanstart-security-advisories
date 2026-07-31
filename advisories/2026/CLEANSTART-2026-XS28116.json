@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XS28116",
+  "summary": "Security fixes in kyverno-policy-reporter-fips 3.5.0-r0",
+  "details": "Package kyverno-policy-reporter-fips version 3.5.0-r0 fixes 1 vulnerabilities: ghsa-2464-8j7c-4cjm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-policy-reporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-2464-8j7c-4cjm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/policy-reporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
