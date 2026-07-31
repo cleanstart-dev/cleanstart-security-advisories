@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WM88594",
+  "summary": "Security fixes in cassandra-fips 3.11.19-r6",
+  "details": "Package cassandra-fips version 3.11.19-r6 fixes 9 vulnerabilities: ghsa-h46c-h94j-95f3, ghsa-jjjh-jjxp-wpff, ghsa-p979-4mfw-53vg, ghsa-rgv9-q543-rqg4, ghsa-rj7p-rfgp-852x...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.19-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.11.19-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-h46c-h94j-95f3",
+    "ghsa-jjjh-jjxp-wpff",
+    "ghsa-p979-4mfw-53vg",
+    "ghsa-rgv9-q543-rqg4",
+    "ghsa-rj7p-rfgp-852x",
+    "ghsa-wjxj-f8rg-99wx",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-vx85-mj8c-4qm6",
+    "ghsa-g2fg-mr77-6vrm"
+  ],
+  "references": [
+    {
+      "url": "https://cassandra.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
