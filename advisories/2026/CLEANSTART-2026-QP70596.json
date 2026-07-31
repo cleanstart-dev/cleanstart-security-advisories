@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QP70596",
+  "summary": "Security fixes in aws-cli 2.35.9-r2",
+  "details": "Package aws-cli version 2.35.9-r2 fixes 2 vulnerabilities: CVE-2026-45186, CVE-2026-41080",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.35.9-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "aws-cli",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.35.9-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45186",
+    "CVE-2026-41080"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/aws-cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
