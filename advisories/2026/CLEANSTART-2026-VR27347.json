@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VR27347",
+  "summary": "Security fixes in smarter-device-manager-fips 1.20.12-r1",
+  "details": "Package smarter-device-manager-fips version 1.20.12-r1 fixes 1 vulnerabilities: CVE-2026-27141",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.12-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "smarter-device-manager-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.12-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27141"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/smarter-project/smarter-device-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
