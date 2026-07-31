@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MB04227",
+  "summary": "Security fixes in redis 6.2.6-r0",
+  "details": "Package redis version 6.2.6-r0 fixes 8 vulnerabilities: CVE-2021-32626, CVE-2021-32627, CVE-2021-32628, CVE-2021-32672, CVE-2021-32675...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "redis",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.2.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-32626",
+    "CVE-2021-32627",
+    "CVE-2021-32628",
+    "CVE-2021-32672",
+    "CVE-2021-32675",
+    "CVE-2021-32687",
+    "CVE-2021-32762",
+    "CVE-2021-41099"
+  ],
+  "references": [
+    {
+      "url": "https://redis.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
