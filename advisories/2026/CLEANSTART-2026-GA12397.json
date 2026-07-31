@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GA12397",
+  "summary": "Security fixes in incubator-kie-kogito-data-index-ephemeral 10.1.0-r2",
+  "details": "Package incubator-kie-kogito-data-index-ephemeral version 10.1.0-r2 fixes 16 vulnerabilities: CVE-2026-44893, ghsa-cc37-9q2j-3hfv, CVE-2026-44249, ghsa-3qp7-7mw8-wx86, CVE-2026-45416...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.1.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "incubator-kie-kogito-data-index-ephemeral",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "10.1.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44893",
+    "ghsa-cc37-9q2j-3hfv",
+    "CVE-2026-44249",
+    "ghsa-3qp7-7mw8-wx86",
+    "CVE-2026-45416",
+    "ghsa-x4gw-5cx5-pgmh",
+    "CVE-2026-45674",
+    "ghsa-5pvg-856g-cp85",
+    "CVE-2026-47691",
+    "ghsa-676x-f7gg-47vc",
+    "CVE-2026-45673",
+    "ghsa-xmv7-r254-6q78",
+    "CVE-2026-47244",
+    "ghsa-5x3r-wrvg-rp6q",
+    "CVE-2026-6860",
+    "ghsa-3g76-f9xq-8vp6"
+  ],
+  "references": [
+    {
+      "url": "https://kie.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
