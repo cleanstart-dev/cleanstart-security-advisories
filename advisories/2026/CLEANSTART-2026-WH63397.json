@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WH63397",
+  "summary": "Security fixes in k8ssandra-client-fips 0.6.4-r5",
+  "details": "Package k8ssandra-client-fips version 0.6.4-r5 fixes 5 vulnerabilities: CVE-2025-61726, CVE-2025-61730, CVE-2025-61728, CVE-2025-68119, CVE-2025-61731",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.4-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8ssandra-client-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.6.4-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61730",
+    "CVE-2025-61728",
+    "CVE-2025-68119",
+    "CVE-2025-61731"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/k8ssandra-client",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
