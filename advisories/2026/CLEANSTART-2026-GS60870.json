@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GS60870",
+  "summary": "Security fixes in openjdk8 8.422.05-r0",
+  "details": "Package openjdk8 version 8.422.05-r0 fixes 10 vulnerabilities: CVE-2024-21011, CVE-2024-21068, CVE-2024-21085, CVE-2024-21094, CVE-2024-21131...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.422.05-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openjdk8",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.422.05-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-21011",
+    "CVE-2024-21068",
+    "CVE-2024-21085",
+    "CVE-2024-21094",
+    "CVE-2024-21131",
+    "CVE-2024-21138",
+    "CVE-2024-21140",
+    "CVE-2024-21144",
+    "CVE-2024-21145",
+    "CVE-2024-21147"
+  ],
+  "references": [
+    {
+      "url": "https://icedtea.classpath.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
