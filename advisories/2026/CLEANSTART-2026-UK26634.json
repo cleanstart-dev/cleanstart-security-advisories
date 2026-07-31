@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UK26634",
+  "summary": "Security fixes in kserve-rest-proxy 0.12.0-r0",
+  "details": "Package kserve-rest-proxy version 0.12.0-r0 fixes 2 vulnerabilities: ghsa-qxp5-gwg8-xv66, ghsa-vvgc-356p-c3xw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kserve-rest-proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.12.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kserve/rest-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
