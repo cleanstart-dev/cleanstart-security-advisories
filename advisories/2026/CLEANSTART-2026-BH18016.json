@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BH18016",
+  "summary": "Security fixes in kubernetes-dashboard 7.14.0-r0",
+  "details": "Package kubernetes-dashboard version 7.14.0-r0 fixes 3 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.14.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-dashboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.14.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/dashboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
