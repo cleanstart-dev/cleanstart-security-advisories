@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EN07986",
+  "summary": "Security fixes in mongodb 7.0.30-r0",
+  "details": "Package mongodb version 7.0.30-r0 fixes 3 vulnerabilities: CVE-2026-27142, CVE-2026-27139, CVE-2026-25679",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.30-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongodb",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.0.30-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-25679"
+  ],
+  "references": [
+    {
+      "url": "https://www.mongodb.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
