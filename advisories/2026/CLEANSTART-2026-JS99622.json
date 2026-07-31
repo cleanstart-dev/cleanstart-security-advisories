@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JS99622",
+  "summary": "Security fixes in consul-fips 1.22.2-r0",
+  "details": "Package consul-fips version 1.22.2-r0 fixes 4 vulnerabilities: CVE-2025-61730, CVE-2026-27139, CVE-2026-24051, ghsa-9h8m-3fm2-qjrq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61730",
+    "CVE-2026-27139",
+    "CVE-2026-24051",
+    "ghsa-9h8m-3fm2-qjrq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
