@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NF40329",
+  "summary": "Security fixes in openbao-fips 2.1.1-r10",
+  "details": "Package openbao-fips version 2.1.1-r10 fixes 3 vulnerabilities: ghsa-pjcq-xvwq-hhpj, ghsa-j88v-2chj-qfwx, CVE-2026-32952",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-r10"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.1.1-r10"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-pjcq-xvwq-hhpj",
+    "ghsa-j88v-2chj-qfwx",
+    "CVE-2026-32952"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
