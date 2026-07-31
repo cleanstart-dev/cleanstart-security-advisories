@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KY27727",
+  "summary": "Security fixes in kube-state-metrics 2.15.0-r3",
+  "details": "Package kube-state-metrics version 2.15.0-r3 fixes 3 vulnerabilities: CVE-2026-27145, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.15.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-state-metrics",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.15.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/kube-state-metrics",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
