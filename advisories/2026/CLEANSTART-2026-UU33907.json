@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UU33907",
+  "summary": "Security fixes in cassandra-reaper-fips 4.0.1-r1",
+  "details": "Package cassandra-reaper-fips version 4.0.1-r1 fixes 8 vulnerabilities: ghsa-72hv-8253-57qq, ghsa-25qh-j22f-pwp8, ghsa-qqpg-mvqg-649v, CVE-2025-11226, CVE-2026-1225...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-reaper-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-qqpg-mvqg-649v",
+    "CVE-2025-11226",
+    "CVE-2026-1225",
+    "ghsa-qh8g-58pp-2wxh",
+    "CVE-2024-6763",
+    "CVE-2025-11143"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thelastpickle/cassandra-reaper",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
