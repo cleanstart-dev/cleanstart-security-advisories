@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KX38027",
+  "summary": "Security fixes in pulumi-language-yaml 1.31.1-r0",
+  "details": "Package pulumi-language-yaml version 1.31.1-r0 fixes 1 vulnerabilities: ghsa-3xc5-wrhm-f963",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pulumi-language-yaml",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3xc5-wrhm-f963"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/pulumi/pulumi-yaml",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
