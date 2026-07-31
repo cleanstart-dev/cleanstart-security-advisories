@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XH27275",
+  "summary": "Security fixes in nfs-subdir-external-provisioner-fips 4.0.16-r0",
+  "details": "Package nfs-subdir-external-provisioner-fips version 4.0.16-r0 fixes 17 vulnerabilities: ghsa-27wf-5967-98gx, ghsa-7fxm-f474-hf8w, ghsa-82m2-cv7p-4m75, ghsa-f5f7-6478-qm6p, ghsa-hq6q-c2x6-hmch...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.16-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nfs-subdir-external-provisioner-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.16-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-27wf-5967-98gx",
+    "ghsa-7fxm-f474-hf8w",
+    "ghsa-82m2-cv7p-4m75",
+    "ghsa-f5f7-6478-qm6p",
+    "ghsa-hq6q-c2x6-hmch",
+    "ghsa-q78c-gwqw-jcmc",
+    "ghsa-c3h9-896r-86jm",
+    "ghsa-v778-237x-gjrc",
+    "ghsa-cg3q-j54f-5p7p",
+    "ghsa-8r3f-844c-mc37",
+    "ghsa-wqv3-8cm6-h6wg",
+    "ghsa-x6mj-w4jf-jmgw",
+    "ghsa-g42g-737j-qx6j",
+    "ghsa-mfv7-gq43-w965",
+    "ghsa-33c5-9fx5-fvjm",
+    "ghsa-8cfg-vx93-jvxw",
+    "ghsa-4x4m-3c2p-qppc"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
