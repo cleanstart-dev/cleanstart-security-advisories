@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MS91987",
+  "summary": "Security fixes in kubo 0.40.1-r0",
+  "details": "Package kubo version 0.40.1-r0 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.40.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubo",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.40.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/ipfs/kubo",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
