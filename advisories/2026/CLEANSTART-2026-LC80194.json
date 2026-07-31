@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LC80194",
+  "summary": "Security fixes in opentofu-fips 1.10.7-r2",
+  "details": "Package opentofu-fips version 1.10.7-r2 fixes 1 vulnerabilities: CVE-2025-52894",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-52894"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
