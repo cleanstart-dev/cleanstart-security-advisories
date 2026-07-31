@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZI30101",
+  "summary": "Security fixes in boring-registry 0.16.6-r0",
+  "details": "Package boring-registry version 0.16.6-r0 fixes 1 vulnerabilities: ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "boring-registry",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/TierMobility/boring-registry",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
