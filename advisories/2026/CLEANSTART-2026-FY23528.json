@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FY23528",
+  "summary": "Security fixes in harbor 2.14.2-r2",
+  "details": "Package harbor version 2.14.2-r2 fixes 2 vulnerabilities: CVE-2026-33186, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/go$pkgname/$pkgname",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
