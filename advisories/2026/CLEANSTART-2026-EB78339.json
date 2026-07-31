@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EB78339",
+  "summary": "Security fixes in cass-config-builder 1.0.17-r0",
+  "details": "Package cass-config-builder version 1.0.17-r0 fixes 1 vulnerabilities: ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.17-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cass-config-builder",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.17-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/datastax/cass-config-builder",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:40Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
