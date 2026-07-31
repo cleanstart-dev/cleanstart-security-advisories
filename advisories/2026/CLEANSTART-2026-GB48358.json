@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GB48358",
+  "summary": "Security fixes in logstash-fips 9.3.0-r1",
+  "details": "Package logstash-fips version 9.3.0-r1 fixes 2 vulnerabilities: ghsa-j4pr-3wm6-xx2r, ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.3.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.3.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j4pr-3wm6-xx2r",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/logstash",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
