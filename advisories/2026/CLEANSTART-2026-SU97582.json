@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SU97582",
+  "summary": "Security fixes in busybox 1.36.1-r25",
+  "details": "Package busybox version 1.36.1-r25 fixes 1 vulnerabilities: CVE-2023-42366",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.1-r25"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "busybox",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.36.1-r25"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-42366"
+  ],
+  "references": [
+    {
+      "url": "https://busybox.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
