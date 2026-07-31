@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VO06070",
+  "summary": "Security fixes in cluster-proportional-autoscaler 1.8.11-r0",
+  "details": "Package cluster-proportional-autoscaler version 1.8.11-r0 fixes 4 vulnerabilities: CVE-2024-24786, CVE-2024-45339, ghsa-6wxm-mpqj-6jpf, ghsa-8r3f-844c-mc37",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.11-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cluster-proportional-autoscaler",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.11-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-24786",
+    "CVE-2024-45339",
+    "ghsa-6wxm-mpqj-6jpf",
+    "ghsa-8r3f-844c-mc37"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/cluster-proportional-autoscaler",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
