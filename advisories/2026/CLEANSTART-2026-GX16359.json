@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GX16359",
+  "summary": "Security fixes in confluent-common-docker 7.6.9-r3",
+  "details": "Package confluent-common-docker version 7.6.9-r3 fixes 4 vulnerabilities: CVE-2025-11226, CVE-2026-1225, ghsa-25qh-j22f-pwp8, ghsa-qqpg-mvqg-649v",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.6.9-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "confluent-common-docker",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.6.9-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11226",
+    "CVE-2026-1225",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-qqpg-mvqg-649v"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/confluentinc/common-docker",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
