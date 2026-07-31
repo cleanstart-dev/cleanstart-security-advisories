@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KU78526",
+  "summary": "Security fixes in airflow-3 3.2.1-r3",
+  "details": "Package airflow-3 version 3.2.1-r3 fixes 2 vulnerabilities: ghsa-hg6j-4rv6-33pg, CVE-2026-45409",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hg6j-4rv6-33pg",
+    "CVE-2026-45409"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
