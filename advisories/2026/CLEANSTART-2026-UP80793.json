@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UP80793",
+  "summary": "Security fixes in kubernetes 1.35.0-r0",
+  "details": "Package kubernetes version 1.35.0-r0 fixes 5 vulnerabilities: CVE-2025-61726, CVE-2025-61728, CVE-2025-61731, CVE-2025-68119, CVE-2025-61730",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61731",
+    "CVE-2025-68119",
+    "CVE-2025-61730"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
