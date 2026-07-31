@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JB59425",
+  "summary": "Security fixes in argo-cd 3.4.3-r0",
+  "details": "Package argo-cd version 3.4.3-r0 fixes 4 vulnerabilities: CVE-2026-48978, ghsa-vh4v-2xq2-g5cg, CVE-2026-50162, CVE-2026-50151",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48978",
+    "ghsa-vh4v-2xq2-g5cg",
+    "CVE-2026-50162",
+    "CVE-2026-50151"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
