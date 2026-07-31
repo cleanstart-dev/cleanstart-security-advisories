@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NL48087",
+  "summary": "Security fixes in jupyterhub-k8s-hub 4.3.5-r1",
+  "details": "Package jupyterhub-k8s-hub version 4.3.5-r1 fixes 5 vulnerabilities: CVE-2026-48524, CVE-2026-48522, CVE-2026-48525, CVE-2026-48523, CVE-2026-48526",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jupyterhub-k8s-hub",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48524",
+    "CVE-2026-48522",
+    "CVE-2026-48525",
+    "CVE-2026-48523",
+    "CVE-2026-48526"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jupyterhub/zero-to-jupyterhub-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
