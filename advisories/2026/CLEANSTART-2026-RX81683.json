@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RX81683",
+  "summary": "Security fixes in terragrunt-fips 0.99.5-r0",
+  "details": "Package terragrunt-fips version 0.99.5-r0 fixes 9 vulnerabilities: CVE-2026-32280, ghsa-92mm-2pjq-r785, ghsa-78h2-9frx-2jm8, ghsa-w8rr-5gcm-pp58, ghsa-w8rr-5gcm-pp58...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terragrunt-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.99.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "ghsa-92mm-2pjq-r785",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-xmrv-pmrh-hhx2",
+    "CVE-2026-34986",
+    "CVE-2026-4660"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
