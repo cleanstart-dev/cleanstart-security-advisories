@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BX19944",
+  "summary": "Security fixes in argo-cd-fips 2.13.9-r4",
+  "details": "Package argo-cd-fips version 2.13.9-r4 fixes 1 vulnerabilities: ghsa-m6hq-p25p-ffr2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.9-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.13.9-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-m6hq-p25p-ffr2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
