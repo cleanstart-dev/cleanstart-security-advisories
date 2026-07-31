@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UV94685",
+  "summary": "Security fixes in nvidia-container-toolkit 1.18.2-r1",
+  "details": "Package nvidia-container-toolkit version 1.18.2-r1 fixes 3 vulnerabilities: CVE-2026-27145, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nvidia-container-toolkit",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/NVIDIA/nvidia-container-toolkit",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
