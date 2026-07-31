@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NL66273",
+  "summary": "Security fixes in stargate 2.0.44-r6",
+  "details": "Package stargate version 2.0.44-r6 fixes 51 vulnerabilities: CVE-2021-41973, CVE-2025-48734, CVE-2025-48924, CVE-2025-53864, CVE-2026-27315...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.44-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "stargate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.0.44-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-41973",
+    "CVE-2025-48734",
+    "CVE-2025-48924",
+    "CVE-2025-53864",
+    "CVE-2026-27315",
+    "CVE-2026-32588",
+    "ghsa-f2wh-grmh-r6jm",
+    "ghsa-fh34-c629-p8xj",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-qffm-gf3j-6mvg",
+    "ghsa-wxr5-93ph-8wr9",
+    "ghsa-xwmg-2g98-w7v9",
+    "CVE-2022-41881",
+    "CVE-2023-34462",
+    "CVE-2026-32588",
+    "CVE-2026-33870",
+    "CVE-2026-33871",
+    "CVE-2026-41409",
+    "CVE-2026-41417",
+    "CVE-2026-41635",
+    "CVE-2026-42578",
+    "CVE-2026-42579",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42583",
+    "CVE-2026-42584",
+    "CVE-2026-42585",
+    "CVE-2026-42586",
+    "CVE-2026-42587",
+    "CVE-2026-42778",
+    "CVE-2026-42779",
+    "CVE-2026-44248",
+    "ghsa-38f8-5428-x5cv",
+    "ghsa-45q3-82m4-75jr",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-8297-v2rf-2p32",
+    "ghsa-995c-6rp3-4m4x",
+    "ghsa-cm33-6792-r9fm",
+    "ghsa-f2wh-grmh-r6jm",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-fh34-c629-p8xj",
+    "ghsa-jfg9-48mv-9qgx",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-qffm-gf3j-6mvg",
+    "ghsa-rgrr-p7gp-5xj7",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-vf5j-865m-mq7c",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-xxqh-mfjm-7mv9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stargate/stargate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
