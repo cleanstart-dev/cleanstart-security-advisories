@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HV64932",
+  "summary": "Security fixes in cosign 3.0.2-r1",
+  "details": "Package cosign version 3.0.2-r1 fixes 1 vulnerabilities: CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cosign",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/cosign",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
