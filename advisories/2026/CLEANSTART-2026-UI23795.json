@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UI23795",
+  "summary": "Security fixes in minio 0.20260330.001845-r1",
+  "details": "Package minio version 0.20260330.001845-r1 fixes 3 vulnerabilities: CVE-2026-42507, CVE-2026-42504, CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20260330.001845-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.20260330.001845-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42507",
+    "CVE-2026-42504",
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/minio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
