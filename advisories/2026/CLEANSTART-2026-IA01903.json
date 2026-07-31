@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IA01903",
+  "summary": "Security fixes in renovate 43.4.3-r1",
+  "details": "Package renovate version 43.4.3-r1 fixes 49 vulnerabilities: ghsa-8wc6-vgrq-x6cf, CVE-2026-28292, ghsa-r275-fr43-pm7q, CVE-2026-25896, ghsa-m7jm-9gc2-mpf2...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.4.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "renovate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "43.4.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8wc6-vgrq-x6cf",
+    "CVE-2026-28292",
+    "ghsa-r275-fr43-pm7q",
+    "CVE-2026-25896",
+    "ghsa-m7jm-9gc2-mpf2",
+    "CVE-2026-25128",
+    "ghsa-37qj-frw5-hhjh",
+    "CVE-2026-26278",
+    "ghsa-jmr7-xgp7-cmfj",
+    "CVE-2026-33036",
+    "ghsa-8gc5-j5rx-235r",
+    "CVE-2026-27942",
+    "ghsa-fj3w-jwp8-x2g3",
+    "CVE-2026-26996",
+    "ghsa-3ppc-4f35-3m26",
+    "CVE-2026-27903",
+    "ghsa-7r86-cg39-jmmj",
+    "CVE-2026-27904",
+    "ghsa-23c5-xmqv-rm74",
+    "CVE-2026-27601",
+    "ghsa-qpx9-hpmf-5gmw",
+    "CVE-2025-69873",
+    "ghsa-2g4f-4pwh-qvx6",
+    "CVE-2026-32141",
+    "ghsa-25h7-pfq9-p65f",
+    "CVE-2026-25547",
+    "ghsa-7h2j-956f-4vf2",
+    "CVE-2026-2391",
+    "ghsa-w7fw-mjwx-w883",
+    "CVE-2026-26960",
+    "ghsa-83g3-92jg-28cx",
+    "CVE-2026-29786",
+    "ghsa-qffp-2rhf-9h96",
+    "CVE-2026-31802",
+    "ghsa-9ppj-qmqm-q256",
+    "CVE-2026-2327",
+    "ghsa-38c4-r59v-3vqw",
+    "CVE-2026-1525",
+    "ghsa-4992-7rv2-5pvq",
+    "CVE-2026-1526",
+    "ghsa-v9p9-hfj2-hcw8",
+    "CVE-2026-1527",
+    "ghsa-f269-vfmq-vjvj",
+    "CVE-2026-1528",
+    "ghsa-vrm6-8vpv-qv8q",
+    "CVE-2026-2229",
+    "ghsa-phc3-fgpg-7m6h",
+    "CVE-2026-2581",
+    "ghsa-2mjp-6q6p-2qxm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/renovatebot/renovate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
