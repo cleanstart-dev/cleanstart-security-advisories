@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PJ11836",
+  "summary": "Security fixes in gomplate-fips 4.3.3-r3",
+  "details": "Package gomplate-fips version 4.3.3-r3 fixes 4 vulnerabilities: CVE-2025-61729, CVE-2025-61727, ghsa-j5w8-q4qc-rx2x, ghsa-f6x5-jh6r-wrfv",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gomplate-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.3-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-f6x5-jh6r-wrfv"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hairyhenderson/gomplate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
