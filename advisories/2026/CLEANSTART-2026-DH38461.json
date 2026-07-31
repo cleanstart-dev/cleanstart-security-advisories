@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DH38461",
+  "summary": "Security fixes in kyverno-fips 1.17.1-r3",
+  "details": "Package kyverno-fips version 1.17.1-r3 fixes 6 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, CVE-2026-33186, CVE-2026-24051...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.17.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "CVE-2026-33186",
+    "CVE-2026-24051",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
