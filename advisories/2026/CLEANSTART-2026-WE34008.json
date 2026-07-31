@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WE34008",
+  "summary": "Security fixes in kustomize 5.7.1-r3",
+  "details": "Package kustomize version 5.7.1-r3 fixes 5 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-27137, CVE-2026-25679, CVE-2026-27138",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.7.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kustomize",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.7.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-27137",
+    "CVE-2026-25679",
+    "CVE-2026-27138"
+  ],
+  "references": [
+    {
+      "url": "https://kustomize.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
