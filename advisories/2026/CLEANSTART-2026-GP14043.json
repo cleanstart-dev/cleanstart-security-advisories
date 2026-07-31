@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GP14043",
+  "summary": "Security fixes in logstash-fips 8.19.12-r0",
+  "details": "Package logstash-fips version 8.19.12-r0 fixes 2 vulnerabilities: ghsa-j288-q9x7-2f5v, CVE-2025-48924",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.19.12-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.19.12-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j288-q9x7-2f5v",
+    "CVE-2025-48924"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/logstash",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
