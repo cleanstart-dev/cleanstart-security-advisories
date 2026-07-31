@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GB21733",
+  "summary": "Security fixes in kafka 4.0.1-r0",
+  "details": "Package kafka version 4.0.1-r0 fixes 2 vulnerabilities: ghsa-3677-xxcr-wjqv, ghsa-vc5p-v9hr-52mj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3677-xxcr-wjqv",
+    "ghsa-vc5p-v9hr-52mj"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
