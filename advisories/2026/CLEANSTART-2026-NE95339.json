@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NE95339",
+  "summary": "Security fixes in thingsboard 4.0.2-r0",
+  "details": "Package thingsboard version 4.0.2-r0 fixes 5 vulnerabilities: CVE-2025-22227, CVE-2025-48924, ghsa-j288-q9x7-2f5v, ghsa-4q2v-9p7v-3v22, ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22227",
+    "CVE-2025-48924",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-4q2v-9p7v-3v22",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
