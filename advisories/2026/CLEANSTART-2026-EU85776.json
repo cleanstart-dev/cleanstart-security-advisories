@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EU85776",
+  "summary": "Security fixes in minio-operator 7.1.1-r5",
+  "details": "Package minio-operator version 7.1.1-r5 fixes 3 vulnerabilities: CVE-2026-42507, CVE-2026-42504, CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.1.1-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42507",
+    "CVE-2026-42504",
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
