@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XV04666",
+  "summary": "Security fixes in openjdk8 8.222.10-r0",
+  "details": "Package openjdk8 version 8.222.10-r0 fixes 8 vulnerabilities: CVE-2019-2745, CVE-2019-2762, CVE-2019-2766, CVE-2019-2769, CVE-2019-2786...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.222.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openjdk8",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.222.10-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-2745",
+    "CVE-2019-2762",
+    "CVE-2019-2766",
+    "CVE-2019-2769",
+    "CVE-2019-2786",
+    "CVE-2019-2816",
+    "CVE-2019-2842",
+    "CVE-2019-7317"
+  ],
+  "references": [
+    {
+      "url": "https://icedtea.classpath.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
