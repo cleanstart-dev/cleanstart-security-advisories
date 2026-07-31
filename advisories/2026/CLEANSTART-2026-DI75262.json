@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DI75262",
+  "summary": "Security fixes in cloudwatch-exporter 0.16.0-r0",
+  "details": "Package cloudwatch-exporter version 0.16.0-r0 fixes 8 vulnerabilities: ghsa-4g8c-wm8x-jfhw, ghsa-prj3-ccx8-p6x4, ghsa-389x-839f-4rhx, ghsa-3p8m-j85q-pgmj, ghsa-84h7-rjj3-6jx4...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudwatch-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4g8c-wm8x-jfhw",
+    "ghsa-prj3-ccx8-p6x4",
+    "ghsa-389x-839f-4rhx",
+    "ghsa-3p8m-j85q-pgmj",
+    "ghsa-84h7-rjj3-6jx4",
+    "ghsa-xq3w-v528-46rv",
+    "ghsa-fghv-69vj-qj49",
+    "ghsa-g8m5-722r-8whq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/cloudwatch_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
