@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RH97316",
+  "summary": "Security fixes in wavefront-proxy 13.9-r2",
+  "details": "Package wavefront-proxy version 13.9-r2 fixes 1 vulnerabilities: CVE-2026-42577",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.9-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wavefront-proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "13.9-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42577"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wavefronthq/wavefront-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
