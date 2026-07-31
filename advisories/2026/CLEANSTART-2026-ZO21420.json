@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZO21420",
+  "summary": "Security fixes in apache-hive 4.0.0-r2",
+  "details": "Package apache-hive version 4.0.0-r2 fixes 3 vulnerabilities: CVE-2026-45205, CVE-2026-45300, ghsa-fmxf-pm6p-7xgm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-hive",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45205",
+    "CVE-2026-45300",
+    "ghsa-fmxf-pm6p-7xgm"
+  ],
+  "references": [
+    {
+      "url": "https://hive.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
