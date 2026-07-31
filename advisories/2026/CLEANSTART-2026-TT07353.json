@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TT07353",
+  "summary": "Security fixes in cosign 3.1.1-r2",
+  "details": "Package cosign version 3.1.1-r2 fixes 1 vulnerabilities: CVE-2026-49834",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cosign",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49834"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/cosign",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
