@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EJ66579",
+  "summary": "Security fixes in py3-langgraph 1.1.10-r0",
+  "details": "Package py3-langgraph version 1.1.10-r0 fixes 1 vulnerabilities: ghsa-f4xh-w4cj-qxq8",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3-langgraph",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.1.10-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f4xh-w4cj-qxq8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
