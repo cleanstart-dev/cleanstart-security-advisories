@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WN49818",
+  "summary": "Security fixes in cassandra-reaper-fips 3.6.1-r0",
+  "details": "Package cassandra-reaper-fips version 3.6.1-r0 fixes 1 vulnerabilities: ghsa-jc7h-c423-mpjc",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-reaper-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-jc7h-c423-mpjc"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thelastpickle/cassandra-reaper",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
