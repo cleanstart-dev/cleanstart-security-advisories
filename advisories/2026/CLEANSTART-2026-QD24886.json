@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QD24886",
+  "summary": "Security fixes in argo-workflows-fips 3.5.15-r1",
+  "details": "Package argo-workflows-fips version 3.5.15-r1 fixes 7 vulnerabilities: CVE-2025-54410, CVE-2025-8556, CVE-2025-58181, CVE-2025-47914, CVE-2025-32445...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.15-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.15-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-54410",
+    "CVE-2025-8556",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2025-32445",
+    "ghsa-xr7q-jx4m-x55m",
+    "ghsa-hmp7-x699-cvhq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
