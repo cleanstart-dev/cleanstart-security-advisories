@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KB85137",
+  "summary": "Security fixes in thingsboard 4.3.0.1-r1",
+  "details": "Package thingsboard version 4.3.0.1-r1 fixes 2 vulnerabilities: CVE-2026-4926, CVE-2026-4923",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.0.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.0.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-4926",
+    "CVE-2026-4923"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
