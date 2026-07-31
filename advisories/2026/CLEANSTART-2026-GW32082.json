@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GW32082",
+  "summary": "Security fixes in external-dns 0.21.0-r0",
+  "details": "Package external-dns version 0.21.0-r0 fixes 3 vulnerabilities: ghsa-x4mj-7f9g-29h4, CVE-2026-41246, CVE-2026-33814",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.21.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-dns",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.21.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-x4mj-7f9g-29h4",
+    "CVE-2026-41246",
+    "CVE-2026-33814"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/external-dns",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
