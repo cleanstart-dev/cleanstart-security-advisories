@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HY53963",
+  "summary": "Security fixes in node-problem-detector 0.8.19-r0",
+  "details": "Package node-problem-detector version 0.8.19-r0 fixes 1 vulnerabilities: ghsa-6v2p-p543-phr9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.19-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "node-problem-detector",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.8.19-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6v2p-p543-phr9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/node-problem-detector",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
