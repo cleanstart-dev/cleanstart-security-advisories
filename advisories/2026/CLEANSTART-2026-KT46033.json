@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KT46033",
+  "summary": "Security fixes in kubevela 1.10.8-r0",
+  "details": "Package kubevela version 1.10.8-r0 fixes 55 vulnerabilities: ghsa-3xc5-wrhm-f963, ghsa-pc3f-x583-g7j2, ghsa-6g7g-w4f8-9c9x, ghsa-557j-xg8c-q2mm, ghsa-p77j-4mvh-x3m3...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.8-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubevela",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.8-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3xc5-wrhm-f963",
+    "ghsa-pc3f-x583-g7j2",
+    "ghsa-6g7g-w4f8-9c9x",
+    "ghsa-557j-xg8c-q2mm",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-p436-gjf2-799p",
+    "ghsa-f9f8-9pmf-xv68",
+    "ghsa-4hfp-h4cw-hj8p",
+    "ghsa-9h84-qmv7-982p",
+    "ghsa-9h8m-3fm2-qjrq",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-q9hv-hpm4-hj6x",
+    "ghsa-5xqw-8hwv-wg92",
+    "ghsa-x744-4wpc-v9h2",
+    "ghsa-37cx-329c-33x3",
+    "ghsa-jhf3-xxhw-2wpp",
+    "ghsa-hr2v-4r36-88hr",
+    "ghsa-gm2x-2g9h-ccm8",
+    "ghsa-fqw6-gf59-qr4w",
+    "ghsa-qw64-3x98-g7q2",
+    "ghsa-389r-gv7p-r3rp",
+    "ghsa-m3xc-h892-ggx6",
+    "ghsa-crhj-59gh-8x96",
+    "ghsa-m7cr-m3pv-hgrp",
+    "CVE-2026-32285",
+    "CVE-2026-1229",
+    "CVE-2026-46680",
+    "CVE-2025-15558",
+    "CVE-2026-44973",
+    "CVE-2026-44740",
+    "CVE-2026-45022",
+    "CVE-2026-25934",
+    "CVE-2026-34165",
+    "CVE-2026-41506",
+    "CVE-2026-45571",
+    "CVE-2026-33762",
+    "CVE-2026-45570",
+    "CVE-2026-34040",
+    "CVE-2026-35469",
+    "CVE-2026-24051",
+    "CVE-2026-39883",
+    "CVE-2026-33186",
+    "CVE-2025-53547",
+    "CVE-2025-32386",
+    "CVE-2025-32387",
+    "CVE-2025-55198",
+    "CVE-2025-55199",
+    "CVE-2026-35206",
+    "CVE-2026-25680",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-39821",
+    "CVE-2026-42502",
+    "CVE-2026-42506",
+    "CVE-2024-41110"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubevela/kubevela",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
