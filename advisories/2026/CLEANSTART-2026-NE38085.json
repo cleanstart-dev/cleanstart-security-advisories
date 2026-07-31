@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NE38085",
+  "summary": "Security fixes in external-secrets-operator 2.6.0-r4",
+  "details": "Package external-secrets-operator version 2.6.0-r4 fixes 3 vulnerabilities: ghsa-gcjh-h69q-9w9g, CVE-2026-41178, ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-secrets-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gcjh-h69q-9w9g",
+    "CVE-2026-41178",
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/external-secrets/external-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
