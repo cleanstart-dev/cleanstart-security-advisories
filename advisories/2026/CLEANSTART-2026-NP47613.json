@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NP47613",
+  "summary": "Security fixes in management-api-for-apache-cassandra-5.0 0.1.108-r0",
+  "details": "Package management-api-for-apache-cassandra-5.0 version 0.1.108-r0 fixes 8 vulnerabilities: ghsa-4g8c-wm8x-jfhw, ghsa-jq43-27x9-3v86, ghsa-25qh-j22f-pwp8, ghsa-389x-839f-4rhx, ghsa-3p8m-j85q-pgmj...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.108-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "management-api-for-apache-cassandra-5.0",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.1.108-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4g8c-wm8x-jfhw",
+    "ghsa-jq43-27x9-3v86",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-389x-839f-4rhx",
+    "ghsa-3p8m-j85q-pgmj",
+    "ghsa-5jpm-x58v-624v",
+    "ghsa-xq3w-v528-46rv",
+    "ghsa-fghv-69vj-qj49"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/management-api-for-apache-cassandra",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
