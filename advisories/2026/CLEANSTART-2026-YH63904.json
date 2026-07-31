@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YH63904",
+  "summary": "Security fixes in gotenberg 8.30.1-r0",
+  "details": "Package gotenberg version 8.30.1-r0 fixes 4 vulnerabilities: CVE-2026-40890, ghsa-77fj-vx54-gvh7, CVE-2026-39882, ghsa-w8rr-5gcm-pp58",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.30.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gotenberg",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.30.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-40890",
+    "ghsa-77fj-vx54-gvh7",
+    "CVE-2026-39882",
+    "ghsa-w8rr-5gcm-pp58"
+  ],
+  "references": [
+    {
+      "url": "https://gotenberg.dev",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
