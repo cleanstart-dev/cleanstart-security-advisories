@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CT03980",
+  "summary": "Security fixes in expat 2.2.7-r1",
+  "details": "Package expat version 2.2.7-r1 fixes 1 vulnerabilities: CVE-2019-15903",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "expat",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-15903"
+  ],
+  "references": [
+    {
+      "url": "https://libexpat.github.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
