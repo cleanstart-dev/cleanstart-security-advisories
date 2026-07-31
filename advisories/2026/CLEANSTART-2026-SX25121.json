@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SX25121",
+  "summary": "Security fixes in falcoctl 0.11.0-r0",
+  "details": "Package falcoctl version 0.11.0-r0 fixes 14 vulnerabilities: ghsa-4qg8-fj49-pxjh, ghsa-6v2p-p543-phr9, ghsa-f83f-xpx7-ffpw, ghsa-hcg3-q754-cr77, ghsa-mh63-6h87-95cp...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "falcoctl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.11.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4qg8-fj49-pxjh",
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-f83f-xpx7-ffpw",
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-c6gw-w398-hv78",
+    "ghsa-c6gw-w398-hv78",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw",
+    "ghsa-2x5j-vhc8-9cwm",
+    "ghsa-4vq8-7jfc-9cvp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/falcosecurity/falcoctl",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
