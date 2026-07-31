@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VR71116",
+  "summary": "Security fixes in kafka-fips 3.8.1-r8",
+  "details": "Package kafka-fips version 3.8.1-r8 fixes 2 vulnerabilities: CVE-2025-12183, CVE-2025-66566",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.1-r8"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.1-r8"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-12183",
+    "CVE-2025-66566"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
