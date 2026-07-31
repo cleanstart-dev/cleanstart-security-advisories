@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MZ55626",
+  "summary": "Security fixes in jitsucom-jitsu 2.14.0-r2",
+  "details": "Package jitsucom-jitsu version 2.14.0-r2 fixes 3 vulnerabilities: ghsa-hmw2-7cc7-3qxx, ghsa-p6gq-j5cr-w38f, ghsa-45h5-66jx-r2wf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-jitsu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hmw2-7cc7-3qxx",
+    "ghsa-p6gq-j5cr-w38f",
+    "ghsa-45h5-66jx-r2wf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/jitsu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
