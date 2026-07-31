@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TX04059",
+  "summary": "Security fixes in openbao-fips 2.3.2-r3",
+  "details": "Package openbao-fips version 2.3.2-r3 fixes 5 vulnerabilities: CVE-2025-47913, CVE-2025-58190, CVE-2025-58181, CVE-2025-47914, CVE-2025-47911",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.3.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47913",
+    "CVE-2025-58190",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2025-47911"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
