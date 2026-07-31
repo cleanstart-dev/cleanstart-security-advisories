@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PQ18738",
+  "summary": "Security fixes in weaviate-fips 1.37.11-r0",
+  "details": "Package weaviate-fips version 1.37.11-r0 fixes 1 vulnerabilities: CVE-2026-2303",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.37.11-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "weaviate-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.37.11-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2303"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/weaviate/weaviate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
