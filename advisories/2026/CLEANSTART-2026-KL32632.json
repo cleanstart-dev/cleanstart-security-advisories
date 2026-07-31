@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KL32632",
+  "summary": "Security fixes in cortex-fips 1.20.1-r0",
+  "details": "Package cortex-fips version 1.20.1-r0 fixes 4 vulnerabilities: CVE-2025-61726, CVE-2025-61730, CVE-2025-61728, CVE-2025-61731",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cortex-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61730",
+    "CVE-2025-61728",
+    "CVE-2025-61731"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cortexproject/cortex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
