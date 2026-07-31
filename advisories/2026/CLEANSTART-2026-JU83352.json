@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JU83352",
+  "summary": "Security fixes in wildfly 40.0.1-r2",
+  "details": "Package wildfly version 40.0.1-r2 fixes 2 vulnerabilities: ghsa-5jmj-h7xm-6q6v, CVE-2026-54515",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "40.0.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wildfly",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "40.0.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-5jmj-h7xm-6q6v",
+    "CVE-2026-54515"
+  ],
+  "references": [
+    {
+      "url": "https://www.wildfly.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
