@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BI40968",
+  "summary": "Security fixes in grafana-rollout-operator 0.35.0-r0",
+  "details": "Package grafana-rollout-operator version 0.35.0-r0 fixes 7 vulnerabilities: CVE-2026-25679, ghsa-p77j-4mvh-x3m3, CVE-2026-27138, CVE-2026-27137, CVE-2026-27142...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.35.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-rollout-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.35.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-27138",
+    "CVE-2026-27137",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/rollout-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
