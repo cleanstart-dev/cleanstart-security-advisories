@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EI97312",
+  "summary": "Security fixes in kafka_exporter-fips 1.7.0-r0",
+  "details": "Package kafka_exporter-fips version 1.7.0-r0 fixes 1 vulnerabilities: ghsa-8r3f-844c-mc37",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka_exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8r3f-844c-mc37"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/danielqsj/kafka_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
