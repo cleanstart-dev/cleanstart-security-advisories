@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UE45525",
+  "summary": "Security fixes in hubble-ui 0.13.3-r0",
+  "details": "Package hubble-ui version 0.13.3-r0 fixes 6 vulnerabilities: CVE-2025-61726, CVE-2025-61730, CVE-2025-61728, CVE-2025-68119, CVE-2025-61731...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.13.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "hubble-ui",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.13.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61730",
+    "CVE-2025-61728",
+    "CVE-2025-68119",
+    "CVE-2025-61731",
+    "CVE-2025-64715"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cilium/hubble-ui",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
