@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IV57525",
+  "summary": "Security fixes in clamav 0.99.4-r0",
+  "details": "Package clamav version 0.99.4-r0 fixes 5 vulnerabilities: CVE-2012-6706, CVE-2017-6419, CVE-2017-11423, CVE-2018-0202, CVE-2018-1000085",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.99.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "clamav",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.99.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2012-6706",
+    "CVE-2017-6419",
+    "CVE-2017-11423",
+    "CVE-2018-0202",
+    "CVE-2018-1000085"
+  ],
+  "references": [
+    {
+      "url": "https://www.clamav.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
