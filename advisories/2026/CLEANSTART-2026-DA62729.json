@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DA62729",
+  "summary": "Security fixes in harbor-fips 2.13.4-r1",
+  "details": "Package harbor-fips version 2.13.4-r1 fixes 4 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.13.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
