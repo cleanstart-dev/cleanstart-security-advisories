@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ID94434",
+  "summary": "Security fixes in step-issuer 0.10.2-r3",
+  "details": "Package step-issuer version 0.10.2-r3 fixes 4 vulnerabilities: CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "step-issuer",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.10.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/smallstep/step-issuer",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
