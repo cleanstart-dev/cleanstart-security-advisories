@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QV76866",
+  "summary": "Security fixes in helm 3.19.5-r0",
+  "details": "Package helm version 3.19.5-r0 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2025-68121, CVE-2025-61732, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.19.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.19.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
