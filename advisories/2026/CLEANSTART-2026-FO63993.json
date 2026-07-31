@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FO63993",
+  "summary": "Security fixes in cert-manager 1.19.2-r2",
+  "details": "Package cert-manager version 1.19.2-r2 fixes 11 vulnerabilities: CVE-2026-29181, ghsa-mh2q-q3fh-2475, CVE-2026-32952, ghsa-pjcq-xvwq-hhpj, CVE-2026-33186...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29181",
+    "ghsa-mh2q-q3fh-2475",
+    "CVE-2026-32952",
+    "ghsa-pjcq-xvwq-hhpj",
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-34986",
+    "ghsa-78h2-9frx-2jm8",
+    "CVE-2026-39883",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-mpwr-8vm7-h73f"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cert-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
