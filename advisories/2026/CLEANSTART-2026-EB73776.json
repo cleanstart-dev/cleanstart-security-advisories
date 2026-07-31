@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EB73776",
+  "summary": "Security fixes in kyverno-policy-reporter-fips 3.4.2-r6",
+  "details": "Package kyverno-policy-reporter-fips version 3.4.2-r6 fixes 11 vulnerabilities: CVE-2026-39820, CVE-2026-42499, CVE-2026-33814, CVE-2026-33811, CVE-2026-39836...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.2-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-policy-reporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.2-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39820",
+    "CVE-2026-42499",
+    "CVE-2026-33814",
+    "CVE-2026-33811",
+    "CVE-2026-39836",
+    "CVE-2026-42501",
+    "CVE-2026-39817",
+    "CVE-2026-39826",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39819"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/policy-reporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
