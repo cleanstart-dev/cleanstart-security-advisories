@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GJ23876",
+  "summary": "Security fixes in cosign 2.2.1-r0",
+  "details": "Package cosign version 2.2.1-r0 fixes 1 vulnerabilities: CVE-2023-46737",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cosign",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-46737"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/cosign",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
