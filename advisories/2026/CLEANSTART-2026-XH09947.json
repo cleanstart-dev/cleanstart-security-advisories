@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XH09947",
+  "summary": "Security fixes in tekton-chains 0.26.0-r3",
+  "details": "Package tekton-chains version 0.26.0-r3 fixes 7 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, CVE-2025-68121, CVE-2026-24051...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.26.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-chains",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.26.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "CVE-2025-68121",
+    "CVE-2026-24051",
+    "CVE-2026-26958",
+    "CVE-2025-15558"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/chains",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
