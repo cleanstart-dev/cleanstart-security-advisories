@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IY75033",
+  "summary": "Security fixes in pgbouncer 1.16.1-r0",
+  "details": "Package pgbouncer version 1.16.1-r0 fixes 1 vulnerabilities: CVE-2021-3935",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pgbouncer",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.16.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3935"
+  ],
+  "references": [
+    {
+      "url": "https://www.pgbouncer.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
