@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CG30093",
+  "summary": "Security fixes in ztunnel-fips 1.25.5-r0",
+  "details": "Package ztunnel-fips version 1.25.5-r0 fixes 8 vulnerabilities: ghsa-rr8g-9fpq-6wmg, ghsa-xwfj-jgwm-7wp5, ghsa-2gh3-rmm4-6rq5, ghsa-37wc-h8xc-5hc4, ghsa-v7pc-74h8-xq2h...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ztunnel-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.25.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-rr8g-9fpq-6wmg",
+    "ghsa-xwfj-jgwm-7wp5",
+    "ghsa-2gh3-rmm4-6rq5",
+    "ghsa-37wc-h8xc-5hc4",
+    "ghsa-v7pc-74h8-xq2h",
+    "ghsa-4p46-pwfr-66x6",
+    "ghsa-c86p-w88r-qvqr",
+    "ghsa-pg9f-39pc-qf8g"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/ztunnel",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
