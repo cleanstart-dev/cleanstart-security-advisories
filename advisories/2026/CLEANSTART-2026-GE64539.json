@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GE64539",
+  "summary": "Security fixes in weaviate 1.35.2-r2",
+  "details": "Package weaviate version 1.35.2-r2 fixes 3 vulnerabilities: CVE-2026-33186, ghsa-6g7g-w4f8-9c9x, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "weaviate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "ghsa-6g7g-w4f8-9c9x",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/weaviate/weaviate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
