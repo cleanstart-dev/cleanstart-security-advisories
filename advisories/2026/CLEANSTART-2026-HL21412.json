@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HL21412",
+  "summary": "Security fixes in stargate 2.0.48-r0",
+  "details": "Package stargate version 2.0.48-r0 fixes 42 vulnerabilities: ghsa-995c-6rp3-4m4x, ghsa-vf5j-865m-mq7c, ghsa-f2wh-grmh-r6jm, ghsa-8297-v2rf-2p32, ghsa-mj4r-2hfc-f8p6...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.48-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "stargate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.0.48-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-995c-6rp3-4m4x",
+    "ghsa-vf5j-865m-mq7c",
+    "ghsa-f2wh-grmh-r6jm",
+    "ghsa-8297-v2rf-2p32",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-cm33-6792-r9fm",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-38f8-5428-x5cv",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-xxqh-mfjm-7mv9",
+    "ghsa-jfg9-48mv-9qgx",
+    "ghsa-rgrr-p7gp-5xj7",
+    "ghsa-45q3-82m4-75jr",
+    "ghsa-rwm7-x88c-3g2p",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-355h-qmc2-wpwf",
+    "ghsa-xwmg-2g98-w7v9",
+    "ghsa-j288-q9x7-2f5v",
+    "CVE-2026-41409",
+    "CVE-2026-41635",
+    "CVE-2026-42778",
+    "CVE-2026-42779",
+    "CVE-2026-42583",
+    "CVE-2026-42579",
+    "CVE-2026-33870",
+    "CVE-2026-42584",
+    "CVE-2026-42587",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42585",
+    "CVE-2026-33871",
+    "CVE-2026-44248",
+    "CVE-2026-42586",
+    "CVE-2026-42578",
+    "CVE-2026-42577",
+    "CVE-2026-2332",
+    "CVE-2025-53864",
+    "CVE-2025-48924"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stargate/stargate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
