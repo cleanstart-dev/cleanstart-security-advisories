@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FK41164",
+  "summary": "Security fixes in newrelic-prometheus-configurator 2.4.4-r0",
+  "details": "Package newrelic-prometheus-configurator version 2.4.4-r0 fixes 1 vulnerabilities: CVE-2025-68121",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "newrelic-prometheus-configurator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.4.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/newrelic/newrelic-prometheus-configurator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
