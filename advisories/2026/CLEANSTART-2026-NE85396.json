@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NE85396",
+  "summary": "Security fixes in external-secrets-operator 2.6.0-r3",
+  "details": "Package external-secrets-operator version 2.6.0-r3 fixes 5 vulnerabilities: ghsa-mpwr-8vm7-h73f, CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-secrets-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mpwr-8vm7-h73f",
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/external-secrets/external-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
