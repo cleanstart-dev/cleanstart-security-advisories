@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HW41013",
+  "summary": "Security fixes in postgresql15 15.3-r0",
+  "details": "Package postgresql15 version 15.3-r0 fixes 2 vulnerabilities: CVE-2023-2454, CVE-2023-2455",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgresql15",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "15.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2454",
+    "CVE-2023-2455"
+  ],
+  "references": [
+    {
+      "url": "https://www.postgresql.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
