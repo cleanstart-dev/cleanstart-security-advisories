@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BF90643",
+  "summary": "Security fixes in spire-server 1.14.1-r2",
+  "details": "Package spire-server version 1.14.1-r2 fixes 2 vulnerabilities: CVE-2025-68121, CVE-2025-61732",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spire-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61732"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/spiffe/spire",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
