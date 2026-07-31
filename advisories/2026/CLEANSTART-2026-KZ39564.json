@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KZ39564",
+  "summary": "Security fixes in kube-state-metrics-fips 2.14.0-r0",
+  "details": "Package kube-state-metrics-fips version 2.14.0-r0 fixes 6 vulnerabilities: CVE-2025-61727, CVE-2025-61729, ghsa-6v2p-p543-phr9, ghsa-hcg3-q754-cr77, ghsa-qxp5-gwg8-xv66...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-state-metrics-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61727",
+    "CVE-2025-61729",
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/kube-state-metrics",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
