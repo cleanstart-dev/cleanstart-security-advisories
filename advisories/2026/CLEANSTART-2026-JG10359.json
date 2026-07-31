@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JG10359",
+  "summary": "Security fixes in grafana-mimir 3.0.2-r0",
+  "details": "Package grafana-mimir version 3.0.2-r0 fixes 9 vulnerabilities: CVE-2025-68121, ghsa-9h8m-3fm2-qjrq, CVE-2025-61732, CVE-2026-24051, CVE-2026-25679...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-mimir",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "ghsa-9h8m-3fm2-qjrq",
+    "CVE-2025-61732",
+    "CVE-2026-24051",
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2020-8912",
+    "CVE-2020-8911"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/mimir",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
