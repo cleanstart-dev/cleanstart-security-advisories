@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HO24116",
+  "summary": "Security fixes in istio 1.29.0-r1",
+  "details": "Package istio version 1.29.0-r1 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.29.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.29.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
