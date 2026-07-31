@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LO97548",
+  "summary": "Security fixes in crossplane-provider-aws 2.3.0-r1",
+  "details": "Package crossplane-provider-aws version 2.3.0-r1 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139, CVE-2026-1229, ghsa-q9hv-hpm4-hj6x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "crossplane-provider-aws",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.3.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-1229",
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/crossplane-contrib/provider-upjet-aws",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
