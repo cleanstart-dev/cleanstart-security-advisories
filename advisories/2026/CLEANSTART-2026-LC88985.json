@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LC88985",
+  "summary": "Security fixes in ruby-fluentd-1.18 1.18.0-r5",
+  "details": "Package ruby-fluentd-1.18 version 1.18.0-r5 fixes 1 vulnerabilities: CVE-2026-54522",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ruby-fluentd-1.18",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.0-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54522"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluent/fluentd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
