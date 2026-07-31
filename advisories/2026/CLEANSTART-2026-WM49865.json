@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WM49865",
+  "summary": "Security fixes in prometheus 3.9.1-r2",
+  "details": "Package prometheus version 3.9.1-r2 fixes 3 vulnerabilities: CVE-2026-33186, CVE-2026-32285, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.9.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-32285",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
