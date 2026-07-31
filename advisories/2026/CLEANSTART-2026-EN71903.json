@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EN71903",
+  "summary": "Security fixes in mongodb 8.3.2-r0",
+  "details": "Package mongodb version 8.3.2-r0 fixes 1 vulnerabilities: CVE-2026-33814",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.3.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongodb",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.3.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33814"
+  ],
+  "references": [
+    {
+      "url": "https://www.mongodb.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
