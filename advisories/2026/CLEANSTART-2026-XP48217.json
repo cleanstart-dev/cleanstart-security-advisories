@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XP48217",
+  "summary": "Security fixes in forecastle 1.0.159-r2",
+  "details": "Package forecastle version 1.0.159-r2 fixes 6 vulnerabilities: ghsa-q6gg-9f92-r9wg, ghsa-f6x5-jh6r-wrfv, ghsa-gm3x-23wp-hc2c, ghsa-j5w8-q4qc-rx2x, ghsa-q82r-2j7m-9rv4...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.159-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "forecastle",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.159-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-q6gg-9f92-r9wg",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-gm3x-23wp-hc2c",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-q82r-2j7m-9rv4",
+    "ghsa-vrch-868g-9jx5"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stakater/Forecastle",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
