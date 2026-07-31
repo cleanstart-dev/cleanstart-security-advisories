@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GM37705",
+  "summary": "Security fixes in gotenberg 8.32.0-r0",
+  "details": "Package gotenberg version 8.32.0-r0 fixes 35 vulnerabilities: CVE-2025-47914, CVE-2025-48924, CVE-2025-58181, CVE-2026-25680, CVE-2026-25681...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gotenberg",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.32.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47914",
+    "CVE-2025-48924",
+    "CVE-2025-58181",
+    "CVE-2026-25680",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-27145",
+    "CVE-2026-33809",
+    "CVE-2026-33812",
+    "CVE-2026-33813",
+    "CVE-2026-39821",
+    "CVE-2026-39824",
+    "CVE-2026-39827",
+    "CVE-2026-39828",
+    "CVE-2026-39829",
+    "CVE-2026-39830",
+    "CVE-2026-39831",
+    "CVE-2026-39832",
+    "CVE-2026-39833",
+    "CVE-2026-39834",
+    "CVE-2026-39835",
+    "CVE-2026-42500",
+    "CVE-2026-42502",
+    "CVE-2026-42504",
+    "CVE-2026-42506",
+    "CVE-2026-42507",
+    "CVE-2026-42508",
+    "CVE-2026-46595",
+    "CVE-2026-46597",
+    "CVE-2026-46598",
+    "CVE-2026-46599",
+    "ghsa-44p7-9xx4-hf2g",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://gotenberg.dev",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
