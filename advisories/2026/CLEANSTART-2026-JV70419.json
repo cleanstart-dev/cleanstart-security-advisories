@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JV70419",
+  "summary": "Security fixes in loki 3.6.12-r0",
+  "details": "Package loki version 3.6.12-r0 fixes 4 vulnerabilities: CVE-2020-8911, CVE-2020-8912, CVE-2026-56852, CVE-2026-46600",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.12-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "loki",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.12-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-8911",
+    "CVE-2020-8912",
+    "CVE-2026-56852",
+    "CVE-2026-46600"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/loki",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
