@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EJ18230",
+  "summary": "Security fixes in az 2.84.0-r0",
+  "details": "Package az version 2.84.0-r0 fixes 2 vulnerabilities: CVE-2026-27459, CVE-2026-27448",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.84.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "az",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.84.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27459",
+    "CVE-2026-27448"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Azure/azure-cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
