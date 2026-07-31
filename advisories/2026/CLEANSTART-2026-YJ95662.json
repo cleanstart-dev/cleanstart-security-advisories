@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YJ95662",
+  "summary": "Security fixes in thingsboard 4.3.1.1-r0",
+  "details": "Package thingsboard version 4.3.1.1-r0 fixes 5 vulnerabilities: ghsa-w9fj-cfpg-grvv, ghsa-x2wq-9x2f-fhj7, ghsa-pwqr-wmgm-9rr8, CVE-2026-33870, CVE-2026-33871",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.1.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-x2wq-9x2f-fhj7",
+    "ghsa-pwqr-wmgm-9rr8",
+    "CVE-2026-33870",
+    "CVE-2026-33871"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
