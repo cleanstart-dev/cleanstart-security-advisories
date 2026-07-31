@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EN76789",
+  "summary": "Security fixes in velero-fips 1.17.2-r6",
+  "details": "Package velero-fips version 1.17.2-r6 fixes 2 vulnerabilities: CVE-2026-35469, ghsa-pc3f-x583-g7j2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.2-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.17.2-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35469",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
