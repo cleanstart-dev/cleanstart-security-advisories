@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MK96755",
+  "summary": "Security fixes in wavefront-proxy 13.9-r0",
+  "details": "Package wavefront-proxy version 13.9-r0 fixes 12 vulnerabilities: CVE-2024-47561, CVE-2025-33042, CVE-2025-24970, CVE-2025-55163, CVE-2025-67735...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wavefront-proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "13.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47561",
+    "CVE-2025-33042",
+    "CVE-2025-24970",
+    "CVE-2025-55163",
+    "CVE-2025-67735",
+    "CVE-2025-58057",
+    "CVE-2024-47535",
+    "CVE-2025-25193",
+    "CVE-2025-58056",
+    "CVE-2024-7254",
+    "CVE-2025-68161",
+    "CVE-2025-48924"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wavefronthq/wavefront-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
