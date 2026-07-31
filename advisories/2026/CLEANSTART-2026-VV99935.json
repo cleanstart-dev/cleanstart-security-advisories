@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VV99935",
+  "summary": "Security fixes in elasticsearch 9.3.5-r0",
+  "details": "Package elasticsearch version 9.3.5-r0 fixes 4 vulnerabilities: ghsa-4q2v-9p7v-3v22, ghsa-j288-q9x7-2f5v, CVE-2025-22227, CVE-2025-48924",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.3.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elasticsearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.3.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4q2v-9p7v-3v22",
+    "ghsa-j288-q9x7-2f5v",
+    "CVE-2025-22227",
+    "CVE-2025-48924"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/elasticsearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
