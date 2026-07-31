@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VP67440",
+  "summary": "Security fixes in velero-fips 1.18.0-r1",
+  "details": "Package velero-fips version 1.18.0-r1 fixes 5 vulnerabilities: CVE-2026-32288, CVE-2026-33810, CVE-2026-39883, ghsa-78h2-9frx-2jm8, ghsa-xmrv-pmrh-hhx2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32288",
+    "CVE-2026-33810",
+    "CVE-2026-39883",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-xmrv-pmrh-hhx2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
