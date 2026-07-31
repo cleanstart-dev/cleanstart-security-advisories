@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YW87628",
+  "summary": "Security fixes in step 0.28.7-r2",
+  "details": "Package step version 0.28.7-r2 fixes 6 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505, CVE-2025-66406...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.28.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "step",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.28.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505",
+    "CVE-2025-66406",
+    "CVE-2025-62820"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/smallstep/cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
