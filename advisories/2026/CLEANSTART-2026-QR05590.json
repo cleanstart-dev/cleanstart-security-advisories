@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QR05590",
+  "summary": "Security fixes in clickhouse-operator 0.25.5-r0",
+  "details": "Package clickhouse-operator version 0.25.5-r0 fixes 2 vulnerabilities: CVE-2025-22868, CVE-2025-22870",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.25.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "clickhouse-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.25.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22868",
+    "CVE-2025-22870"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Altinity/clickhouse-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
