@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YI13914",
+  "summary": "Security fixes in memcached-exporter 0.16.0-r1",
+  "details": "Package memcached-exporter version 0.16.0-r1 fixes 3 vulnerabilities: CVE-2026-27145, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "memcached-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/memcached_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
