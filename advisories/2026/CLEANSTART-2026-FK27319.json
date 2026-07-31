@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FK27319",
+  "summary": "Security fixes in istio-operator-fips 1.4.10-r6",
+  "details": "Package istio-operator-fips version 1.4.10-r6 fixes 2 vulnerabilities: CVE-2025-61727, CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.10-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.4.10-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
