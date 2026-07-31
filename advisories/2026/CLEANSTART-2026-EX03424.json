@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EX03424",
+  "summary": "Security fixes in apache-hive 4.0.0-r0",
+  "details": "Package apache-hive version 4.0.0-r0 fixes 46 vulnerabilities: CVE-2025-48734, CVE-2026-24281, CVE-2026-24308, CVE-2026-0636, CVE-2025-59419...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-hive",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-48734",
+    "CVE-2026-24281",
+    "CVE-2026-24308",
+    "CVE-2026-0636",
+    "CVE-2025-59419",
+    "CVE-2025-58056",
+    "CVE-2025-67735",
+    "CVE-2026-33870",
+    "CVE-2025-55163",
+    "CVE-2026-33871",
+    "CVE-2025-58057",
+    "CVE-2025-25193",
+    "CVE-2025-24970",
+    "CVE-2025-53864",
+    "CVE-2024-6763",
+    "CVE-2025-11143",
+    "CVE-2026-2332",
+    "CVE-2024-47554",
+    "CVE-2024-23454",
+    "CVE-2025-27821",
+    "CVE-2023-44981",
+    "CVE-2024-23944",
+    "CVE-2018-10237",
+    "CVE-2023-2976",
+    "CVE-2020-8908",
+    "CVE-2021-22569",
+    "CVE-2021-22570",
+    "CVE-2022-3171",
+    "CVE-2022-3509",
+    "CVE-2022-3510",
+    "CVE-2024-7254",
+    "CVE-2025-68161",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34480",
+    "CVE-2025-41249",
+    "CVE-2025-52999",
+    "CVE-2025-49128",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2025-48924",
+    "CVE-2025-53864",
+    "CVE-2025-8916",
+    "CVE-2026-5588",
+    "CVE-2026-0636",
+    "CVE-2020-8908",
+    "CVE-2023-2976"
+  ],
+  "references": [
+    {
+      "url": "https://hive.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
