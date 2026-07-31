@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YE85393",
+  "summary": "Security fixes in gptscript 0.9.8-r0",
+  "details": "Package gptscript version 0.9.8-r0 fixes 17 vulnerabilities: ghsa-wvj2-96wp-fq3f, ghsa-xw59-hvm2-8pj6, ghsa-p436-gjf2-799p, ghsa-jhf3-xxhw-2wpp, ghsa-q9hv-hpm4-hj6x...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.8-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gptscript",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.9.8-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-wvj2-96wp-fq3f",
+    "ghsa-xw59-hvm2-8pj6",
+    "ghsa-p436-gjf2-799p",
+    "ghsa-jhf3-xxhw-2wpp",
+    "ghsa-q9hv-hpm4-hj6x",
+    "ghsa-89xv-2j6f-qhc8",
+    "ghsa-gm2x-2g9h-ccm8",
+    "ghsa-37cx-329c-33x3",
+    "ghsa-q382-vc8q-7jhj",
+    "CVE-2026-1229",
+    "CVE-2025-15558",
+    "CVE-2026-25934",
+    "CVE-2026-34165",
+    "CVE-2026-33762",
+    "CVE-2026-27896",
+    "CVE-2026-33252",
+    "CVE-2026-34742"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gptscript-ai/gptscript",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
