@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TO51828",
+  "summary": "Security fixes in ollama-fips 0.21.0-r3",
+  "details": "Package ollama-fips version 0.21.0-r3 fixes 5 vulnerabilities: CVE-2026-46599, CVE-2026-42500, CVE-2026-27145, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.21.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ollama-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.21.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46599",
+    "CVE-2026-42500",
+    "CVE-2026-27145",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://ollama.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
