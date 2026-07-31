@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZT90564",
+  "summary": "Security fixes in argo-cd 3.2.7-r0",
+  "details": "Package argo-cd version 3.2.7-r0 fixes 1 vulnerabilities: ghsa-37cx-329c-33x3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-37cx-329c-33x3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
