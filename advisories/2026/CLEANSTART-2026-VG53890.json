@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VG53890",
+  "summary": "Security fixes in linkerd2 26.4.2",
+  "details": "Package linkerd2 version 26.4.2 fixes 4 vulnerabilities: CVE-2026-35469, CVE-2026-35206, ghsa-hr2v-4r36-88hr, ghsa-pc3f-x583-g7j2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.4.2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "linkerd2",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.4.2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35469",
+    "CVE-2026-35206",
+    "ghsa-hr2v-4r36-88hr",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/linkerd/linkerd2",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
