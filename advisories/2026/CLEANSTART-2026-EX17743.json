@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EX17743",
+  "summary": "Security fixes in harbor-fips 2.13.2-r1",
+  "details": "Package harbor-fips version 2.13.2-r1 fixes 6 vulnerabilities: CVE-2025-47907, CVE-2025-4673, ghsa-rq77-p4h8-4crw, ghsa-9h84-qmv7-982p, ghsa-mh63-6h87-95cp...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.13.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47907",
+    "CVE-2025-4673",
+    "ghsa-rq77-p4h8-4crw",
+    "ghsa-9h84-qmv7-982p",
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
