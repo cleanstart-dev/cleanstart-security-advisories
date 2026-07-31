@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FG73859",
+  "summary": "Security fixes in perl 5.26.3-r0",
+  "details": "Package perl version 5.26.3-r0 fixes 4 vulnerabilities: CVE-2018-18311, CVE-2018-18312, CVE-2018-18313, CVE-2018-18314",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.26.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "perl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.26.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-18311",
+    "CVE-2018-18312",
+    "CVE-2018-18313",
+    "CVE-2018-18314"
+  ],
+  "references": [
+    {
+      "url": "https://www.perl.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
