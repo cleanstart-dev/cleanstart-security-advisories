@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OV39402",
+  "summary": "Security fixes in kumactl 2.12.9-r0",
+  "details": "Package kumactl version 2.12.9-r0 fixes 8 vulnerabilities: CVE-2026-35206, CVE-2026-32288, CVE-2026-32289, CVE-2026-32282, CVE-2026-32280...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kumactl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.12.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35206",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kumahq/kuma",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
