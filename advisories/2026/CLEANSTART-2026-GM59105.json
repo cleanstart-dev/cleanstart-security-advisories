@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GM59105",
+  "summary": "Security fixes in opensearch 3.6.0-r4",
+  "details": "Package opensearch version 3.6.0-r4 fixes 14 vulnerabilities: CVE-2026-42585, CVE-2026-42584, CVE-2026-42584, CVE-2026-41417, CVE-2026-41417...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opensearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42585",
+    "CVE-2026-42584",
+    "CVE-2026-42584",
+    "CVE-2026-41417",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42581",
+    "ghsa-38f8-5428-x5cv",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-2c5c-chwr-9hqw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/opensearch-project/OpenSearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
