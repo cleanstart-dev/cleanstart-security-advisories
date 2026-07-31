@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AU26255",
+  "summary": "Security fixes in keycloak 26.2.12-r0",
+  "details": "Package keycloak version 26.2.12-r0 fixes 7 vulnerabilities: ghsa-3p8m-j85q-pgmj, ghsa-fghv-69vj-qj49, ghsa-h5fg-jpgr-rv9c, ghsa-45p5-v273-3qqr, ghsa-j288-q9x7-2f5v...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.2.12-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keycloak",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.2.12-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3p8m-j85q-pgmj",
+    "ghsa-fghv-69vj-qj49",
+    "ghsa-h5fg-jpgr-rv9c",
+    "ghsa-45p5-v273-3qqr",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-hq9p-pm7w-8p54",
+    "ghsa-9342-92gg-6v29"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/keycloak/keycloak",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
