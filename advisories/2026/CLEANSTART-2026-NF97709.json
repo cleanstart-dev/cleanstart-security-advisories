@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NF97709",
+  "summary": "Security fixes in k8s-sidecar 2.5.4-r0",
+  "details": "Package k8s-sidecar version 2.5.4-r0 fixes 2 vulnerabilities: CVE-2026-25645, ghsa-gc5v-m9x4-r6x2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8s-sidecar",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.5.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25645",
+    "ghsa-gc5v-m9x4-r6x2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kiwigrid/k8s-sidecar",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
