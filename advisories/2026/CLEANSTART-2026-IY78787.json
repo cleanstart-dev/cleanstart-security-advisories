@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IY78787",
+  "summary": "Security fixes in $pkgname-$CTARGET_ARCH 2.32-r0",
+  "details": "Package $pkgname-$CTARGET_ARCH version 2.32-r0 fixes 4 vulnerabilities: CVE-2018-19931, CVE-2018-19932, CVE-2018-20002, CVE-2018-20712",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.32-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-$CTARGET_ARCH",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.32-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-19931",
+    "CVE-2018-19932",
+    "CVE-2018-20002",
+    "CVE-2018-20712"
+  ],
+  "references": [
+    {
+      "url": "https://www.gnu.org/software/binutils/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
