@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HF84838",
+  "summary": "Security fixes in airflow-3 3.1.8-r1",
+  "details": "Package airflow-3 version 3.1.8-r1 fixes 1 vulnerabilities: ghsa-xqmj-j6mv-4862",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.8-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xqmj-j6mv-4862"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
