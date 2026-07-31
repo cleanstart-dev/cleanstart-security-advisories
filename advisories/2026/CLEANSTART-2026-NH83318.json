@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NH83318",
+  "summary": "Security fixes in renovate 43.123.8-r3",
+  "details": "Package renovate version 43.123.8-r3 fixes 2 vulnerabilities: CVE-2026-42338, ghsa-v2v4-37r5-5v8g",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.123.8-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "renovate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "43.123.8-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42338",
+    "ghsa-v2v4-37r5-5v8g"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/renovatebot/renovate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
