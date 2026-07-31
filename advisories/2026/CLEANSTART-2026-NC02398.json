@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NC02398",
+  "summary": "Security fixes in crossplane-provider-sql-fips 0.13.0-r1",
+  "details": "Package crossplane-provider-sql-fips version 0.13.0-r1 fixes 8 vulnerabilities: CVE-2026-32280, CVE-2026-32289, CVE-2026-32282, CVE-2026-27140, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.13.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "crossplane-provider-sql-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.13.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-27140",
+    "CVE-2026-32288",
+    "CVE-2026-32283",
+    "CVE-2026-32281",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/crossplane-contrib/provider-sql",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
