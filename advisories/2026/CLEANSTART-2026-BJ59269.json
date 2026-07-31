@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BJ59269",
+  "summary": "Security fixes in elastic-beats 8.18.1-r0",
+  "details": "Package elastic-beats version 8.18.1-r0 fixes 4 vulnerabilities: ghsa-p77j-4mvh-x3m3, ghsa-4vq8-7jfc-9cvp, CVE-2025-54410, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.18.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elastic-beats",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.18.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-4vq8-7jfc-9cvp",
+    "CVE-2025-54410",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/beats",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
