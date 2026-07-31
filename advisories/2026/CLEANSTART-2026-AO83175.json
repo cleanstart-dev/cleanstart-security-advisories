@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AO83175",
+  "summary": "Security fixes in argo-cd-fips 3.0.22-r0",
+  "details": "Package argo-cd-fips version 3.0.22-r0 fixes 2 vulnerabilities: ghsa-r6j8-c6r2-37rr, ghsa-2x5j-vhc8-9cwm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.22-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.22-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r6j8-c6r2-37rr",
+    "ghsa-2x5j-vhc8-9cwm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
