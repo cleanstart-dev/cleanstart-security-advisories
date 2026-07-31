@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MT87541",
+  "summary": "Security fixes in cert-manager 1.20.3-r2",
+  "details": "Package cert-manager version 1.20.3-r2 fixes 5 vulnerabilities: ghsa-mpwr-8vm7-h73f, CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.3-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mpwr-8vm7-h73f",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cert-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
