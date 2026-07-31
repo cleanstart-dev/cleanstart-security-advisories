@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XV62240",
+  "summary": "Security fixes in velero-plugin-for-aws 1.12.2-r7",
+  "details": "Package velero-plugin-for-aws version 1.12.2-r7 fixes 3 vulnerabilities: CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.2-r7"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-aws",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.12.2-r7"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
