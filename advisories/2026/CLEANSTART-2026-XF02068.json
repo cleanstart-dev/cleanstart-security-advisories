@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XF02068",
+  "summary": "Security fixes in temporal-server 1.31.0.153.3-r1",
+  "details": "Package temporal-server version 1.31.0.153.3-r1 fixes 1 vulnerabilities: ghsa-j88v-2chj-qfwx",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.0.153.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.0.153.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j88v-2chj-qfwx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
