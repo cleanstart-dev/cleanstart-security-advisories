@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AA85739",
+  "summary": "Security fixes in openbao-fips 2.2.2-r8",
+  "details": "Package openbao-fips version 2.2.2-r8 fixes 2 vulnerabilities: ghsa-pjcq-xvwq-hhpj, CVE-2026-32952",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.2-r8"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.2-r8"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-pjcq-xvwq-hhpj",
+    "CVE-2026-32952"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
