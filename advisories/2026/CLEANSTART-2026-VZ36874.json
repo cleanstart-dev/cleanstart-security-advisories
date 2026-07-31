@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VZ36874",
+  "summary": "Security fixes in paranoia 0.4.0-r0",
+  "details": "Package paranoia version 0.4.0-r0 fixes 9 vulnerabilities: ghsa-p436-gjf2-799p, CVE-2025-15558, CVE-2026-32280, CVE-2026-32281, CVE-2026-32282...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "paranoia",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.4.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p436-gjf2-799p",
+    "CVE-2025-15558",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jetstack/paranoia",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
