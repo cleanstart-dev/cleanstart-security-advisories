@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XH93530",
+  "summary": "Security fixes in nodejs 18.12.1-r0",
+  "details": "Package nodejs version 18.12.1-r0 fixes 3 vulnerabilities: CVE-2022-3602, CVE-2022-3786, CVE-2022-43548",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "18.12.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nodejs",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "18.12.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-3602",
+    "CVE-2022-3786",
+    "CVE-2022-43548"
+  ],
+  "references": [
+    {
+      "url": "https://nodejs.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
