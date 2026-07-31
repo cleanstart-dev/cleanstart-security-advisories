@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NR16791",
+  "summary": "Security fixes in kubernetes 1.32-10-r1",
+  "details": "Package kubernetes version 1.32-10-r1 fixes 2 vulnerabilities: CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32-10-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.32-10-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
