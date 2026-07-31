@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YP95633",
+  "summary": "Security fixes in grafana 12.2.10-r1",
+  "details": "Package grafana version 12.2.10-r1 fixes 13 vulnerabilities: ghsa-p4r4-xvrq-gvmc, ghsa-ffqx-q65f-36jf, CVE-2026-21728, CVE-2026-28377, ghsa-wg65-39gg-5wfj...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.2.10-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "12.2.10-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p4r4-xvrq-gvmc",
+    "ghsa-ffqx-q65f-36jf",
+    "CVE-2026-21728",
+    "CVE-2026-28377",
+    "ghsa-wg65-39gg-5wfj",
+    "ghsa-fw8g-cg8f-9j28",
+    "CVE-2026-42151",
+    "CVE-2026-44903",
+    "ghsa-cp6g-7hqx-qxhp",
+    "CVE-2026-2303",
+    "ghsa-8396-jffm-qx4w",
+    "CVE-2026-48096",
+    "ghsa-w8rr-5gcm-pp58"
+  ],
+  "references": [
+    {
+      "url": "https://grafana.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
