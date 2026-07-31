@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FB91968",
+  "summary": "Security fixes in apache-hive 4.2.0-r3",
+  "details": "Package apache-hive version 4.2.0-r3 fixes 12 vulnerabilities: CVE-2026-42579, CVE-2026-42583, CVE-2026-44248, CVE-2026-42586, CVE-2026-42578...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-hive",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42579",
+    "CVE-2026-42583",
+    "CVE-2026-44248",
+    "CVE-2026-42586",
+    "CVE-2026-42578",
+    "CVE-2026-45300",
+    "ghsa-cm33-6792-r9fm",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-jfg9-48mv-9qgx",
+    "ghsa-rgrr-p7gp-5xj7",
+    "ghsa-45q3-82m4-75jr",
+    "ghsa-fmxf-pm6p-7xgm"
+  ],
+  "references": [
+    {
+      "url": "https://hive.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
