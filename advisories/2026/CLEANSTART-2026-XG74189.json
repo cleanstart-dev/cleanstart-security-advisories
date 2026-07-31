@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XG74189",
+  "summary": "Security fixes in grafana 12.4.5-r1",
+  "details": "Package grafana version 12.4.5-r1 fixes 3 vulnerabilities: CVE-2026-46600, CVE-2026-56852, ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "12.4.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://grafana.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
