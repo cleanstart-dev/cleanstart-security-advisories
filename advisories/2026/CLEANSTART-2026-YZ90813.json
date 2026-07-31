@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YZ90813",
+  "summary": "Security fixes in pulumi-kubernetes-operator 1.16.0-r0",
+  "details": "Package pulumi-kubernetes-operator version 1.16.0-r0 fixes 4 vulnerabilities: CVE-2025-68121, CVE-2025-61732, ghsa-37cx-329c-33x3, CVE-2026-25934",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pulumi-kubernetes-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.16.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "ghsa-37cx-329c-33x3",
+    "CVE-2026-25934"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/pulumi/pulumi-kubernetes-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
