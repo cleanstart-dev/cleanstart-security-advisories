@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AL63069",
+  "summary": "Security fixes in consul-fips 1.22.7-r0",
+  "details": "Package consul-fips version 1.22.7-r0 fixes 1 vulnerabilities: ghsa-mh2q-q3fh-2475",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh2q-q3fh-2475"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
