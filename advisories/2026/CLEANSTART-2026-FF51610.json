@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FF51610",
+  "summary": "Security fixes in zlib 1.2.12-r2",
+  "details": "Package zlib version 1.2.12-r2 fixes 1 vulnerabilities: CVE-2022-37434",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.12-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "zlib",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.2.12-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-37434"
+  ],
+  "references": [
+    {
+      "url": "https://zlib.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
