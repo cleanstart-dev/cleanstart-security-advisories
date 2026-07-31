@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WC51274",
+  "summary": "Security fixes in cortex 1.21.1-r5",
+  "details": "Package cortex version 1.21.1-r5 fixes 2 vulnerabilities: CVE-2026-46600, CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.1-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cortex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.21.1-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cortexproject/cortex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
