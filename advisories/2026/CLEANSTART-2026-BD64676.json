@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BD64676",
+  "summary": "Security fixes in tempo 2.7.2-r2",
+  "details": "Package tempo version 2.7.2-r2 fixes 7 vulnerabilities: CVE-2026-24051, CVE-2026-39882, CVE-2026-39883, ghsa-9h8m-3fm2-qjrq, ghsa-hfvc-g4fc-pqhx...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tempo",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.7.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24051",
+    "CVE-2026-39882",
+    "CVE-2026-39883",
+    "ghsa-9h8m-3fm2-qjrq",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-28377"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/tempo",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
