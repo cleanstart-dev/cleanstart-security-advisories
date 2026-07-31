@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KR37026",
+  "summary": "Security fixes in descheduler 0.34.0-r0",
+  "details": "Package descheduler version 0.34.0-r0 fixes 7 vulnerabilities: CVE-2025-61726, CVE-2025-61728, CVE-2025-61731, CVE-2025-68119, CVE-2025-61730...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.34.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "descheduler",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.34.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61731",
+    "CVE-2025-68119",
+    "CVE-2025-61730",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/descheduler",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
