@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EW38690",
+  "summary": "Security fixes in vault 1.20.4-r4",
+  "details": "Package vault version 1.20.4-r4 fixes 19 vulnerabilities: CVE-2026-39820, CVE-2026-42499, CVE-2026-39836, CVE-2026-33814, CVE-2026-33811...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39820",
+    "CVE-2026-42499",
+    "CVE-2026-39836",
+    "CVE-2026-33814",
+    "CVE-2026-33811",
+    "CVE-2026-39817",
+    "CVE-2026-39826",
+    "CVE-2026-39825",
+    "CVE-2026-42501",
+    "CVE-2026-39823",
+    "CVE-2026-39819",
+    "ghsa-wf45-q9ch-q8gh",
+    "ghsa-pjcq-xvwq-hhpj",
+    "ghsa-7j59-v9qr-6fq9",
+    "ghsa-j88v-2chj-qfwx",
+    "CVE-2026-32952",
+    "CVE-2026-41602",
+    "CVE-2026-41889",
+    "CVE-2026-44503"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/vault.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
