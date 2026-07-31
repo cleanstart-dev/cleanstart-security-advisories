@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NF39529",
+  "summary": "Security fixes in k8ssandra-operator-fips 1.27.0-r0",
+  "details": "Package k8ssandra-operator-fips version 1.27.0-r0 fixes 2 vulnerabilities: CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8ssandra-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.27.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/k8ssandra-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
