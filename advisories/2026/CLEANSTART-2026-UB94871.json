@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UB94871",
+  "summary": "Security fixes in perl 5.30.3-r0",
+  "details": "Package perl version 5.30.3-r0 fixes 3 vulnerabilities: CVE-2020-10543, CVE-2020-10878, CVE-2020-12723",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.30.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "perl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.30.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-10543",
+    "CVE-2020-10878",
+    "CVE-2020-12723"
+  ],
+  "references": [
+    {
+      "url": "https://www.perl.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
