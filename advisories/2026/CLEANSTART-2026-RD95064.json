@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RD95064",
+  "summary": "Security fixes in sqlite 3.30.1-r3",
+  "details": "Package sqlite version 3.30.1-r3 fixes 1 vulnerabilities: CVE-2020-11655",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.30.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlite",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.30.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-11655"
+  ],
+  "references": [
+    {
+      "url": "https://www.sqlite.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
