@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CS37148",
+  "summary": "Security fixes in qdrant 1.16.3-r0",
+  "details": "Package qdrant version 1.16.3-r0 fixes 1 vulnerabilities: ghsa-8v2v-wjwg-vx6r",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "qdrant",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.16.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8v2v-wjwg-vx6r"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/qdrant/qdrant",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
