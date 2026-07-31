@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AT41104",
+  "summary": "Security fixes in opentofu-fips 1.8.11-r3",
+  "details": "Package opentofu-fips version 1.8.11-r3 fixes 2 vulnerabilities: ghsa-p77j-4mvh-x3m3, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.11-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.11-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
