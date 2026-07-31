@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AO77185",
+  "summary": "Security fixes in minio-operator-fips 5.0.18-r8",
+  "details": "Package minio-operator-fips version 5.0.18-r8 fixes 2 vulnerabilities: CVE-2025-15558, ghsa-p436-gjf2-799p",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.18-r8"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.0.18-r8"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15558",
+    "ghsa-p436-gjf2-799p"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
