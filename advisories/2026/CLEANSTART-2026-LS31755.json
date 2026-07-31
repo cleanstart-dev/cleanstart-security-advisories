@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LS31755",
+  "summary": "Security fixes in expat 2.6.0-r0",
+  "details": "Package expat version 2.6.0-r0 fixes 2 vulnerabilities: CVE-2023-52425, CVE-2023-52426",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "expat",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-52425",
+    "CVE-2023-52426"
+  ],
+  "references": [
+    {
+      "url": "https://libexpat.github.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
