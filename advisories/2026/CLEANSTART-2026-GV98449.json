@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GV98449",
+  "summary": "Security fixes in prometheus-redis-exporter-fips 1.82.0-r0",
+  "details": "Package prometheus-redis-exporter-fips version 1.82.0-r0 fixes 10 vulnerabilities: CVE-2026-27140, CVE-2026-32283, CVE-2026-32280, CVE-2026-32281, CVE-2026-33810...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.82.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-redis-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.82.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27140",
+    "CVE-2026-32283",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-33810",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-32288",
+    "CVE-2026-27143",
+    "CVE-2026-27144"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/oliver006/redis_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
