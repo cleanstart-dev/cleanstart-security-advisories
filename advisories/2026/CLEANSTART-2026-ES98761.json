@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ES98761",
+  "summary": "Security fixes in pgbouncer 1.25.1-r0",
+  "details": "Package pgbouncer version 1.25.1-r0 fixes 4 vulnerabilities: CVE-2026-6664, CVE-2026-6665, CVE-2026-6666, CVE-2026-6667",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pgbouncer",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.25.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-6664",
+    "CVE-2026-6665",
+    "CVE-2026-6666",
+    "CVE-2026-6667"
+  ],
+  "references": [
+    {
+      "url": "https://www.pgbouncer.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
