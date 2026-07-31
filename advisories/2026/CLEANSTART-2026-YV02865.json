@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YV02865",
+  "summary": "Security fixes in vault 1.20.4-r0",
+  "details": "Package vault version 1.20.4-r0 fixes 4 vulnerabilities: CVE-2026-26958, CVE-2026-1229, CVE-2026-24051, CVE-2025-63811",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-26958",
+    "CVE-2026-1229",
+    "CVE-2026-24051",
+    "CVE-2025-63811"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/vault.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
