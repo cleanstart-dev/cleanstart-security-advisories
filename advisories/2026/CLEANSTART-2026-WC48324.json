@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WC48324",
+  "summary": "Security fixes in ruby-fluentd-1.19 1.19.2-r4",
+  "details": "Package ruby-fluentd-1.19 version 1.19.2-r4 fixes 2 vulnerabilities: CVE-2026-41316, CVE-2026-54696",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.2-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ruby-fluentd-1.19",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19.2-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41316",
+    "CVE-2026-54696"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluent/fluentd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
