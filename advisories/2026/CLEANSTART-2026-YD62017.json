@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YD62017",
+  "summary": "Security fixes in keda-fips 2.18.3-r3",
+  "details": "Package keda-fips version 2.18.3-r3 fixes 45 vulnerabilities: CVE-2026-25679, CVE-2026-27139, CVE-2026-27142, CVE-2026-27143, CVE-2026-27144...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.18.3-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keda-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.18.3-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-27143",
+    "CVE-2026-27144",
+    "CVE-2026-27140",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33186",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-33815",
+    "CVE-2026-33816",
+    "CVE-2026-34986",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-39820",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-39836",
+    "CVE-2026-39882",
+    "CVE-2026-39883",
+    "CVE-2026-40179",
+    "CVE-2026-41889",
+    "CVE-2026-42151",
+    "CVE-2026-42154",
+    "CVE-2026-42499",
+    "CVE-2026-42501",
+    "CVE-2026-44903",
+    "ghsa-9jj7-4m8r-rfcm",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-8rm2-7qqf-34qm",
+    "ghsa-wg65-39gg-5wfj",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-vffh-x6r8-xx99",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-j88v-2chj-qfwx",
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-fw8g-cg8f-9j28"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kedacore/keda",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
