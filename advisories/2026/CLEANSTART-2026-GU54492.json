@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GU54492",
+  "summary": "Security fixes in kubernetes 1.31.13-r0",
+  "details": "Package kubernetes version 1.31.13-r0 fixes 1 vulnerabilities: ghsa-6v2p-p543-phr9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6v2p-p543-phr9"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
