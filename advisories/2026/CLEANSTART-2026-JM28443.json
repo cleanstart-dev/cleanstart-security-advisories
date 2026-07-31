@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JM28443",
+  "summary": "Security fixes in mongosh 2.8.2-r1",
+  "details": "Package mongosh version 2.8.2-r1 fixes 12 vulnerabilities: ghsa-chqc-8p9q-pq6q, ghsa-fvcv-3m26-pcqx, ghsa-r5fr-rjxr-66jc, ghsa-f23m-r3pf-42rh, ghsa-3p68-rc4w-qgx5...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongosh",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.8.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-chqc-8p9q-pq6q",
+    "ghsa-fvcv-3m26-pcqx",
+    "ghsa-r5fr-rjxr-66jc",
+    "ghsa-f23m-r3pf-42rh",
+    "ghsa-3p68-rc4w-qgx5",
+    "ghsa-6v7q-wjvx-w8wg",
+    "CVE-2025-62718",
+    "CVE-2026-40175",
+    "CVE-2026-39983",
+    "ghsa-r4q5-vmmm-2653",
+    "CVE-2026-4800",
+    "CVE-2026-2950"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/mongodb-js/mongosh",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
