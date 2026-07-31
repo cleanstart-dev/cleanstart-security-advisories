@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MS81480",
+  "summary": "Security fixes in git-lfs-fips 3.1.2-r4",
+  "details": "Package git-lfs-fips version 3.1.2-r4 fixes 1 vulnerabilities: CVE-2022-27191",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.2-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "git-lfs-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.2-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-27191"
+  ],
+  "references": [
+    {
+      "url": "https://git-lfs.github.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
