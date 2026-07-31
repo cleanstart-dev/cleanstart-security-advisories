@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SJ20797",
+  "summary": "Security fixes in trivy-fips 0.67.2-r0",
+  "details": "Package trivy-fips version 0.67.2-r0 fixes 5 vulnerabilities: ghsa-cgrx-mc8f-2prm, ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.67.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trivy-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.67.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aquasecurity/trivy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
