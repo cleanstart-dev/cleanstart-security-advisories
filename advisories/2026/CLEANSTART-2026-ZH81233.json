@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZH81233",
+  "summary": "Security fixes in elasticsearch 9.4.3-r1",
+  "details": "Package elasticsearch version 9.4.3-r1 fixes 7 vulnerabilities: ghsa-72hv-8253-57qq, CVE-2026-59949, CVE-2026-54399, CVE-2026-54428, CVE-2026-41715...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elasticsearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.4.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-59949",
+    "CVE-2026-54399",
+    "CVE-2026-54428",
+    "CVE-2026-41715",
+    "CVE-2026-42579",
+    "CVE-2026-45536"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/elasticsearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
