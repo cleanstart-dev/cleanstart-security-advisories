@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VC51610",
+  "summary": "Security fixes in prometheus-fips 3.11.2-r0",
+  "details": "Package prometheus-fips version 3.11.2-r0 fixes 4 vulnerabilities: ghsa-w8rr-5gcm-pp58, ghsa-hfvc-g4fc-pqhx, CVE-2026-39882, CVE-2026-39883",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.11.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-39882",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
