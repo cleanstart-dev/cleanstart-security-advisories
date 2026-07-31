@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WA91819",
+  "summary": "Security fixes in cert-manager-cmctl-fips 2.4.0-r1",
+  "details": "Package cert-manager-cmctl-fips version 2.4.0-r1 fixes 13 vulnerabilities: CVE-2025-61729, CVE-2025-61725, CVE-2025-61723, CVE-2025-58188, CVE-2025-58187...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager-cmctl-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.4.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61725",
+    "CVE-2025-61723",
+    "CVE-2025-58188",
+    "CVE-2025-58187",
+    "CVE-2025-61727",
+    "CVE-2025-47910",
+    "CVE-2025-61724",
+    "CVE-2025-58189",
+    "CVE-2025-58186",
+    "CVE-2025-58185",
+    "CVE-2025-47912",
+    "CVE-2025-58183"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cmctl",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
