@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EO57153",
+  "summary": "Security fixes in kubernetes 1.35.6-r2",
+  "details": "Package kubernetes version 1.35.6-r2 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.6-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.6-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
