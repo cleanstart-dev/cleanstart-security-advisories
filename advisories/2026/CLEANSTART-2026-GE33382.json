@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GE33382",
+  "summary": "Security fixes in neuvector-controller-fips 5.5.3-r0",
+  "details": "Package neuvector-controller-fips version 5.5.3-r0 fixes 3 vulnerabilities: CVE-2026-53488, CVE-2026-53492, CVE-2026-46680",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.5.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "neuvector-controller-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.5.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53488",
+    "CVE-2026-53492",
+    "CVE-2026-46680"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/neuvector/neuvector",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
