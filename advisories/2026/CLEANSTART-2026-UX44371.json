@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UX44371",
+  "summary": "Security fixes in karma-fips 0.122-r0",
+  "details": "Package karma-fips version 0.122-r0 fixes 1 vulnerabilities: ghsa-mqqf-5wvp-8fh8",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.122-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "karma-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.122-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mqqf-5wvp-8fh8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prymitive/karma",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
