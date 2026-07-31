@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UW51233",
+  "summary": "Security fixes in dynamic-localpv-provisioner 4.5.0-r1",
+  "details": "Package dynamic-localpv-provisioner version 4.5.0-r1 fixes 2 vulnerabilities: CVE-2026-35469, ghsa-pc3f-x583-g7j2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dynamic-localpv-provisioner",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.5.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35469",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openebs/dynamic-localpv-provisioner",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
