@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CZ02045",
+  "summary": "Security fixes in grafana-mimir-fips 3.0.5-r0",
+  "details": "Package grafana-mimir-fips version 3.0.5-r0 fixes 3 vulnerabilities: ghsa-xmrv-pmrh-hhx2, ghsa-78h2-9frx-2jm8, CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-mimir-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-78h2-9frx-2jm8",
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/mimir",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
