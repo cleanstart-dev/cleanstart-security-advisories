@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WM65354",
+  "summary": "Security fixes in gitness 3.2.0-r0",
+  "details": "Package gitness version 3.2.0-r0 fixes 4 vulnerabilities: CVE-2026-33186, CVE-2025-22868, ghsa-vrw8-fxc6-2r93, CVE-2025-30153",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gitness",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2025-22868",
+    "ghsa-vrw8-fxc6-2r93",
+    "CVE-2025-30153"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/harness/gitness",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
