@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AD01239",
+  "summary": "Security fixes in argo-cd-fips 3.2.5-r0",
+  "details": "Package argo-cd-fips version 3.2.5-r0 fixes 7 vulnerabilities: CVE-2026-1229, CVE-2026-25934, CVE-2026-24051, CVE-2026-33186, CVE-2026-25679...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1229",
+    "CVE-2026-25934",
+    "CVE-2026-24051",
+    "CVE-2026-33186",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
