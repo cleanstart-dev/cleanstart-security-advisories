@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VW62611",
+  "summary": "Security fixes in elastic-beats-fips 9.2.0-r2",
+  "details": "Package elastic-beats-fips version 9.2.0-r2 fixes 2 vulnerabilities: ghsa-j5w8-q4qc-rx2x, ghsa-f6x5-jh6r-wrfv",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elastic-beats-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.2.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-f6x5-jh6r-wrfv"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/beats",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
