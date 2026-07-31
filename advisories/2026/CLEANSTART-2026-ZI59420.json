@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZI59420",
+  "summary": "Security fixes in tekton-pipelines 1.5.0-r2",
+  "details": "Package tekton-pipelines version 1.5.0-r2 fixes 1 vulnerabilities: ghsa-fcv2-xgw5-pqxf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-pipelines",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-fcv2-xgw5-pqxf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/pipeline",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
