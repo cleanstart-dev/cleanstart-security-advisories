@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KX73577",
+  "summary": "Security fixes in kubernetes-csi-node-driver-registrar-fips 2.16.0-r2",
+  "details": "Package kubernetes-csi-node-driver-registrar-fips version 2.16.0-r2 fixes 7 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-node-driver-registrar-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.16.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/node-driver-registrar",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
