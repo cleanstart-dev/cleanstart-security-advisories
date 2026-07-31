@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CF28793",
+  "summary": "Security fixes in harbor 2.13.4-r0",
+  "details": "Package harbor version 2.13.4-r0 fixes 2 vulnerabilities: ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.13.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.13.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/go$pkgname/$pkgname",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
