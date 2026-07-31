@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JB83904",
+  "summary": "Security fixes in harbor-fips 2.14.2-r0",
+  "details": "Package harbor-fips version 2.14.2-r0 fixes 2 vulnerabilities: ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
