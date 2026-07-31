@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LT67611",
+  "summary": "Security fixes in kubernetes-dashboard-auth-fips 1.4.0-r1",
+  "details": "Package kubernetes-dashboard-auth-fips version 1.4.0-r1 fixes 5 vulnerabilities: CVE-2025-68121, CVE-2025-61732, CVE-2026-25679, CVE-2026-27142, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-dashboard-auth-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.4.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/dashboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
