@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DS26078",
+  "summary": "Security fixes in karpenter-fips 1.8.6-r1",
+  "details": "Package karpenter-fips version 1.8.6-r1 fixes 3 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "karpenter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.6-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/karpenter-provider-aws",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
