@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HB13446",
+  "summary": "Security fixes in consul 1.21.5-r5",
+  "details": "Package consul version 1.21.5-r5 fixes 1 vulnerabilities: CVE-2026-2303",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.5-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.21.5-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2303"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
