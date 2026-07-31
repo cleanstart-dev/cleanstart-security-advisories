@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TJ31990",
+  "summary": "Security fixes in wildfly 39.0.1-r0",
+  "details": "Package wildfly version 39.0.1-r0 fixes 42 vulnerabilities: ghsa-cm33-6792-r9fm, ghsa-f6hv-jmp6-3vwv, ghsa-mj4r-2hfc-f8p6, ghsa-57rv-r2g8-2cj3, ghsa-v8h7-rr48-vmmv...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wildfly",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "39.0.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cm33-6792-r9fm",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-xxqh-mfjm-7mv9",
+    "ghsa-38f8-5428-x5cv",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-45q3-82m4-75jr",
+    "CVE-2026-42583",
+    "CVE-2026-42579",
+    "CVE-2026-33870",
+    "CVE-2026-42584",
+    "CVE-2026-42587",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42585",
+    "CVE-2026-33871",
+    "CVE-2026-42578",
+    "ghsa-5qcv-4rpc-jp93",
+    "ghsa-wf66-mphr-4c4r",
+    "CVE-2026-35554",
+    "CVE-2026-33558",
+    "ghsa-g36m-9g3m-2vmp",
+    "ghsa-2hfh-9h53-qc24",
+    "ghsa-287c-fxr7-3w6c",
+    "CVE-2026-42402",
+    "CVE-2026-42403",
+    "CVE-2026-42404",
+    "ghsa-p93r-85wp-75v3",
+    "ghsa-cj8j-37rh-8475",
+    "ghsa-c3fc-8qff-9hwx",
+    "ghsa-wg6q-6289-32hp",
+    "CVE-2026-5598",
+    "CVE-2026-0636",
+    "CVE-2026-3505",
+    "CVE-2026-5588",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-3260"
+  ],
+  "references": [
+    {
+      "url": "https://www.wildfly.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
