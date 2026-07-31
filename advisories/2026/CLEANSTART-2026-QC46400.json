@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QC46400",
+  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.9-r2",
+  "details": "Package $pkgname-${pkgver%%.*} version 3.8.9-r2 fixes 2 vulnerabilities: ghsa-6fmv-xxpf-w3cw, CVE-2025-67030",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-${pkgver%%.*}",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.9-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6fmv-xxpf-w3cw",
+    "CVE-2025-67030"
+  ],
+  "references": [
+    {
+      "url": "https://maven.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
