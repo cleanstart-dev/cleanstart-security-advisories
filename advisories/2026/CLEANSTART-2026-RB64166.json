@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RB64166",
+  "summary": "Security fixes in redis 8.0.4-r0",
+  "details": "Package redis version 8.0.4-r0 fixes 4 vulnerabilities: CVE-2025-49844, CVE-2025-46817, CVE-2025-46818, CVE-2025-46819",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.0.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "redis",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.0.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-49844",
+    "CVE-2025-46817",
+    "CVE-2025-46818",
+    "CVE-2025-46819"
+  ],
+  "references": [
+    {
+      "url": "https://redis.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
