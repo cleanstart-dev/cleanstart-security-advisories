@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JN28813",
+  "summary": "Security fixes in kyverno-fips 1.14.4-r2",
+  "details": "Package kyverno-fips version 1.14.4-r2 fixes 3 vulnerabilities: ghsa-6m8w-jc87-6cr7, ghsa-vvgc-356p-c3xw, ghsa-2x5j-vhc8-9cwm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.4-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.4-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6m8w-jc87-6cr7",
+    "ghsa-vvgc-356p-c3xw",
+    "ghsa-2x5j-vhc8-9cwm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
