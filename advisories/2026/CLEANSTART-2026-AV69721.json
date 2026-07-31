@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AV69721",
+  "summary": "Security fixes in kyverno-policy-reporter-fips 3.0.7-r5",
+  "details": "Package kyverno-policy-reporter-fips version 3.0.7-r5 fixes 1 vulnerabilities: CVE-2025-47907",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.7-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-policy-reporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.7-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47907"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/policy-reporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
