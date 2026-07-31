@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EU34425",
+  "summary": "Security fixes in cassandra-reaper-fips 4.0.1-r4",
+  "details": "Package cassandra-reaper-fips version 4.0.1-r4 fixes 4 vulnerabilities: ghsa-mf9v-mfxr-j63j, ghsa-qccp-gfcp-xxvc, CVE-2026-44431, CVE-2026-44432",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-reaper-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.1-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mf9v-mfxr-j63j",
+    "ghsa-qccp-gfcp-xxvc",
+    "CVE-2026-44431",
+    "CVE-2026-44432"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thelastpickle/cassandra-reaper",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
