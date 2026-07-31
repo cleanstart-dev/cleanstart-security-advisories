@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AV56387",
+  "summary": "Security fixes in restic-fips 0.18.0-r0",
+  "details": "Package restic-fips version 0.18.0-r0 fixes 1 vulnerabilities: ghsa-vvgc-356p-c3xw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.18.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "restic-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.18.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://restic.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
