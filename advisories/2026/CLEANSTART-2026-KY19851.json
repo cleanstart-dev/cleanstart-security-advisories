@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KY19851",
+  "summary": "Security fixes in lvm-driver 1.7.0-r0",
+  "details": "Package lvm-driver version 1.7.0-r0 fixes 4 vulnerabilities: CVE-2025-47911, CVE-2025-58190, CVE-2025-22868, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "lvm-driver",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47911",
+    "CVE-2025-58190",
+    "CVE-2025-22868",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openebs/lvm-localpv",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
