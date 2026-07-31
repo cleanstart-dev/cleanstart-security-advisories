@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OY09839",
+  "summary": "Security fixes in apache-nifi-registry 2.9.0-r1",
+  "details": "Package apache-nifi-registry version 2.9.0-r1 fixes 16 vulnerabilities: ghsa-8v8j-3hxp-93wr, ghsa-wwpq-f5c3-7hvx, ghsa-4wrg-8wpc-h923, ghsa-4vrc-j85c-598c, ghsa-x2wq-9x2f-fhj7...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-nifi-registry",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.9.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8v8j-3hxp-93wr",
+    "ghsa-wwpq-f5c3-7hvx",
+    "ghsa-4wrg-8wpc-h923",
+    "ghsa-4vrc-j85c-598c",
+    "ghsa-x2wq-9x2f-fhj7",
+    "ghsa-vxf7-qj7q-83fh",
+    "ghsa-2jrg-rf5x-568g",
+    "ghsa-6p4f-wcwh-5vvm",
+    "ghsa-wg35-8jpf-2xv3",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-xxqh-mfjm-7mv9",
+    "ghsa-38f8-5428-x5cv"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/nifi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
