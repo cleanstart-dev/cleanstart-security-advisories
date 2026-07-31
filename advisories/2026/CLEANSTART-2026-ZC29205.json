@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZC29205",
+  "summary": "Security fixes in kaniko-fips 1.24.0-r0",
+  "details": "Package kaniko-fips version 1.24.0-r0 fixes 5 vulnerabilities: ghsa-cgrx-mc8f-2prm, ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2, CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.24.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kaniko-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.24.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2",
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/GoogleContainerTools/kaniko",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
