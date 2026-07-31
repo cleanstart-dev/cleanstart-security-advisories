@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DQ46814",
+  "summary": "Security fixes in tomcat11 11.0.18-r0",
+  "details": "Package tomcat11 version 11.0.18-r0 fixes 3 vulnerabilities: CVE-2026-25646, CVE-2026-25210, CVE-2026-24515",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.18-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tomcat11",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "11.0.18-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25646",
+    "CVE-2026-25210",
+    "CVE-2026-24515"
+  ],
+  "references": [
+    {
+      "url": "https://tomcat.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
