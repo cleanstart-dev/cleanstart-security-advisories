@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EO62577",
+  "summary": "Security fixes in airflow-2 2.11.2-r1",
+  "details": "Package airflow-2 version 2.11.2-r1 fixes 32 vulnerabilities: CVE-2026-22815, CVE-2026-34515, CVE-2026-34516, CVE-2026-34525, CVE-2026-26007...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-2",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.11.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-22815",
+    "CVE-2026-34515",
+    "CVE-2026-34516",
+    "CVE-2026-34525",
+    "CVE-2026-26007",
+    "CVE-2026-41066",
+    "CVE-2026-41205",
+    "CVE-2026-44307",
+    "CVE-2026-30922",
+    "CVE-2026-32597",
+    "CVE-2026-27459",
+    "CVE-2026-42561",
+    "CVE-2026-31958",
+    "CVE-2026-35536",
+    "CVE-2026-44431",
+    "CVE-2026-44432",
+    "CVE-2026-41425",
+    "CVE-2026-44681",
+    "CVE-2025-32962",
+    "CVE-2025-58065",
+    "CVE-2026-45409",
+    "CVE-2026-25645",
+    "CVE-2026-33936",
+    "CVE-2026-27205",
+    "CVE-2026-4539",
+    "CVE-2026-34513",
+    "CVE-2026-34514",
+    "CVE-2026-34517",
+    "CVE-2026-34518",
+    "CVE-2026-34519",
+    "CVE-2026-34520",
+    "ghsa-78cv-mqj4-43f7"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
