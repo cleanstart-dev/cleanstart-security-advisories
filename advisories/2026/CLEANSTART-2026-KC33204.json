@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KC33204",
+  "summary": "Security fixes in apache-hive 4.2.0-r6",
+  "details": "Package apache-hive version 4.2.0-r6 fixes 1 vulnerabilities: ghsa-hvcg-qmg6-jm4c",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-hive",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.0-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hvcg-qmg6-jm4c"
+  ],
+  "references": [
+    {
+      "url": "https://hive.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
