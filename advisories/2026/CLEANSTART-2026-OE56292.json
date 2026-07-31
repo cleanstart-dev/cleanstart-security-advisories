@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OE56292",
+  "summary": "Security fixes in logstash-exporter 1.9.1-r2",
+  "details": "Package logstash-exporter version 1.9.1-r2 fixes 6 vulnerabilities: CVE-2025-68121, CVE-2026-42499, CVE-2026-39836, CVE-2026-39820, CVE-2026-39824...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2026-42499",
+    "CVE-2026-39836",
+    "CVE-2026-39820",
+    "CVE-2026-39824",
+    "CVE-2026-32283"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kuskoman/logstash-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
