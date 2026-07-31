@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZK94752",
+  "summary": "Security fixes in sealed-secrets 0.37.0-r1",
+  "details": "Package sealed-secrets version 0.37.0-r1 fixes 4 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.37.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sealed-secrets",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.37.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/bitnami-labs/sealed-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
