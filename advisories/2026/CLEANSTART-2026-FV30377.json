@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FV30377",
+  "summary": "Security fixes in kubernetes 1.33.13-r0",
+  "details": "Package kubernetes version 1.33.13-r0 fixes 10 vulnerabilities: ghsa-gcjh-h69q-9w9g, CVE-2025-52881, CVE-2023-45142, CVE-2026-56852, ghsa-hrxh-6v49-42gf...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.33.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.33.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gcjh-h69q-9w9g",
+    "CVE-2025-52881",
+    "CVE-2023-45142",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-39822",
+    "CVE-2026-42505",
+    "CVE-2023-45142",
+    "CVE-2022-21698",
+    "CVE-2023-25151"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
