@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DH62377",
+  "summary": "Security fixes in prometheus-node-exporter-fips 1.10.2-r0",
+  "details": "Package prometheus-node-exporter-fips version 1.10.2-r0 fixes 2 vulnerabilities: CVE-2025-61727, CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-node-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/node_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
