@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OW49907",
+  "summary": "Security fixes in nodejs 14.16.0-r0",
+  "details": "Package nodejs version 14.16.0-r0 fixes 2 vulnerabilities: CVE-2021-22883, CVE-2021-22884",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14.16.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nodejs",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "14.16.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22883",
+    "CVE-2021-22884"
+  ],
+  "references": [
+    {
+      "url": "https://nodejs.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
