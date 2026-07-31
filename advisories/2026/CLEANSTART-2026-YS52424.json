@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YS52424",
+  "summary": "Security fixes in velero-plugin-for-microsoft-azure-fips 1.14.0-r0",
+  "details": "Package velero-plugin-for-microsoft-azure-fips version 1.14.0-r0 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-microsoft-azure-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-microsoft-azure",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
