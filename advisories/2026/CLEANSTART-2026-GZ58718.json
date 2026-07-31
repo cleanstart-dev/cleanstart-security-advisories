@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GZ58718",
+  "summary": "Security fixes in curl 7.84.0-r0",
+  "details": "Package curl version 7.84.0-r0 fixes 4 vulnerabilities: CVE-2022-32205, CVE-2022-32206, CVE-2022-32207, CVE-2022-32208",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.84.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "curl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.84.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-32205",
+    "CVE-2022-32206",
+    "CVE-2022-32207",
+    "CVE-2022-32208"
+  ],
+  "references": [
+    {
+      "url": "https://curl.se/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
