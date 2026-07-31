@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GL90020",
+  "summary": "Security fixes in cert-manager-fips 1.19.4-r0",
+  "details": "Package cert-manager-fips version 1.19.4-r0 fixes 6 vulnerabilities: CVE-2026-33186, CVE-2026-34986, CVE-2026-39883, ghsa-p77j-4mvh-x3m3, ghsa-78h2-9frx-2jm8...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cert-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
