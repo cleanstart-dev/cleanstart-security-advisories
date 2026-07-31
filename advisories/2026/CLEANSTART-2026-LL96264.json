@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LL96264",
+  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.9-r1",
+  "details": "Package $pkgname-${pkgver%%.*} version 3.8.9-r1 fixes 6 vulnerabilities: CVE-2023-2976, ghsa-7g45-4rm6-3mm3, CVE-2020-8908, ghsa-5mg8-w23w-74h3, CVE-2025-48924...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-${pkgver%%.*}",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.9-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2976",
+    "ghsa-7g45-4rm6-3mm3",
+    "CVE-2020-8908",
+    "ghsa-5mg8-w23w-74h3",
+    "CVE-2025-48924",
+    "ghsa-j288-q9x7-2f5v"
+  ],
+  "references": [
+    {
+      "url": "https://maven.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
