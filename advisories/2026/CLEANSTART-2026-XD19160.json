@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XD19160",
+  "summary": "Security fixes in tempo 2.10.3-r0",
+  "details": "Package tempo version 2.10.3-r0 fixes 16 vulnerabilities: CVE-2026-32287, CVE-2026-32285, CVE-2026-34986, CVE-2026-33186, ghsa-65xw-vw82-r86x...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tempo",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.10.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32287",
+    "CVE-2026-32285",
+    "CVE-2026-34986",
+    "CVE-2026-33186",
+    "ghsa-65xw-vw82-r86x",
+    "ghsa-6g7g-w4f8-9c9x",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "CVE-2026-27140"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/tempo",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
