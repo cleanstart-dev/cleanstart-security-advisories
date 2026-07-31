@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TO01101",
+  "summary": "Security fixes in openbao-fips 2.5.2-r0",
+  "details": "Package openbao-fips version 2.5.2-r0 fixes 16 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.5.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "ghsa-9jj7-4m8r-rfcm",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-j88v-2chj-qfwx",
+    "CVE-2026-34986",
+    "CVE-2026-34986",
+    "CVE-2026-33816",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
