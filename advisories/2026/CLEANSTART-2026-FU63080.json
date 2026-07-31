@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FU63080",
+  "summary": "Security fixes in airflow-2 2.10.3-r0",
+  "details": "Package airflow-2 version 2.10.3-r0 fixes 2 vulnerabilities: CVE-2026-44503, ghsa-7j59-v9qr-6fq9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "airflow-2",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.10.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44503",
+    "ghsa-7j59-v9qr-6fq9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/airflow",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
