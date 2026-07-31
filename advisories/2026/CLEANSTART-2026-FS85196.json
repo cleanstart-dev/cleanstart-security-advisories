@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FS85196",
+  "summary": "Security fixes in nodejs 18.14.1-r0",
+  "details": "Package nodejs version 18.14.1-r0 fixes 5 vulnerabilities: CVE-2023-23918, CVE-2023-23919, CVE-2023-23920, CVE-2023-23936, CVE-2023-24807",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "18.14.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nodejs",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "18.14.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-23918",
+    "CVE-2023-23919",
+    "CVE-2023-23920",
+    "CVE-2023-23936",
+    "CVE-2023-24807"
+  ],
+  "references": [
+    {
+      "url": "https://nodejs.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
