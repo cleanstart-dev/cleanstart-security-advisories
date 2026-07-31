@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SY46985",
+  "summary": "Security fixes in kube-bench 0.15.0-r0",
+  "details": "Package kube-bench version 0.15.0-r0 fixes 3 vulnerabilities: CVE-2026-35469, CVE-2026-33815, CVE-2026-33816",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-bench",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.15.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35469",
+    "CVE-2026-33815",
+    "CVE-2026-33816"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aquasecurity/kube-bench",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
