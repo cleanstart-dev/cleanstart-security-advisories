@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HU05639",
+  "summary": "Security fixes in minio-operator-fips 7.1.1-r9",
+  "details": "Package minio-operator-fips version 7.1.1-r9 fixes 10 vulnerabilities: CVE-2026-40179, CVE-2026-25679, CVE-2026-32280, CVE-2026-32281, CVE-2026-32283...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-r9"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.1.1-r9"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-40179",
+    "CVE-2026-25679",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-27142",
+    "CVE-2026-32282",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
