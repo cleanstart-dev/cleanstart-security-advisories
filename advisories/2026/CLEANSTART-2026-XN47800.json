@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XN47800",
+  "summary": "Security fixes in solr 9.8.0-r1",
+  "details": "Package solr version 9.8.0-r1 fixes 1 vulnerabilities: CVE-2026-42583",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.8.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "solr",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.8.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42583"
+  ],
+  "references": [
+    {
+      "url": "https://solr.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
