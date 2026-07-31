@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BA48090",
+  "summary": "Security fixes in karpenter-fips 1.8.6-r0",
+  "details": "Package karpenter-fips version 1.8.6-r0 fixes 2 vulnerabilities: CVE-2025-58190, CVE-2025-47911",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "karpenter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-58190",
+    "CVE-2025-47911"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/karpenter-provider-aws",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
