@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HV11484",
+  "summary": "Security fixes in kubernetes 1.35.3-r1",
+  "details": "Package kubernetes version 1.35.3-r1 fixes 8 vulnerabilities: CVE-2026-39883, CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39883",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
