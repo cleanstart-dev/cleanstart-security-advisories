@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IF40239",
+  "summary": "Security fixes in jupyterhub-k8s-hub 4.3.2-r0",
+  "details": "Package jupyterhub-k8s-hub version 4.3.2-r0 fixes 11 vulnerabilities: CVE-2026-32597, CVE-2026-30922, CVE-2026-31958, ghsa-jr27-m4p2-rc6r, ghsa-qjxf-f2mg-c6mc...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jupyterhub-k8s-hub",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32597",
+    "CVE-2026-30922",
+    "CVE-2026-31958",
+    "ghsa-jr27-m4p2-rc6r",
+    "ghsa-qjxf-f2mg-c6mc",
+    "ghsa-78cv-mqj4-43f7",
+    "ghsa-752w-5fwx-jx9f",
+    "ghsa-gc5v-m9x4-r6x2",
+    "ghsa-m959-cc7f-wv43",
+    "CVE-2026-25645",
+    "CVE-2026-34073"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jupyterhub/zero-to-jupyterhub-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
