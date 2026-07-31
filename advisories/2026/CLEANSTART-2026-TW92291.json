@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TW92291",
+  "summary": "Security fixes in dex 2.44.0-r1",
+  "details": "Package dex version 2.44.0-r1 fixes 2 vulnerabilities: ghsa-78h2-9frx-2jm8, CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.44.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.44.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-78h2-9frx-2jm8",
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/dexidp/dex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
