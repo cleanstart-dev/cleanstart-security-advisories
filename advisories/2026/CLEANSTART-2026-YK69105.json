@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YK69105",
+  "summary": "Security fixes in cloudwatch-exporter 0.16.0-r1",
+  "details": "Package cloudwatch-exporter version 0.16.0-r1 fixes 18 vulnerabilities: ghsa-w9fj-cfpg-grvv, ghsa-pwqr-wmgm-9rr8, ghsa-f6hv-jmp6-3vwv, ghsa-mj4r-2hfc-f8p6, ghsa-57rv-r2g8-2cj3...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudwatch-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-pwqr-wmgm-9rr8",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-xxqh-mfjm-7mv9",
+    "ghsa-38f8-5428-x5cv",
+    "CVE-2026-42583",
+    "CVE-2026-33870",
+    "CVE-2026-42584",
+    "CVE-2026-42587",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42585",
+    "CVE-2026-33871"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/cloudwatch_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
