@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BT56841",
+  "summary": "Security fixes in velero-plugin-for-aws 1.13.1-r3",
+  "details": "Package velero-plugin-for-aws version 1.13.1-r3 fixes 15 vulnerabilities: ghsa-p77j-4mvh-x3m3, CVE-2026-25679, CVE-2026-27138, CVE-2026-27137, CVE-2026-27142...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-aws",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.13.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-25679",
+    "CVE-2026-27138",
+    "CVE-2026-27137",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "ghsa-xmrv-pmrh-hhx2",
+    "CVE-2026-33186",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-aws",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
