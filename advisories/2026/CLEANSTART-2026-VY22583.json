@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VY22583",
+  "summary": "Security fixes in opensearch-k8s-operator-fips 2.6.1-r2",
+  "details": "Package opensearch-k8s-operator-fips version 2.6.1-r2 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2025-68121, CVE-2026-27142, CVE-2025-61732, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opensearch-k8s-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2025-68121",
+    "CVE-2026-27142",
+    "CVE-2025-61732",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/opensearch-project/opensearch-k8s-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
