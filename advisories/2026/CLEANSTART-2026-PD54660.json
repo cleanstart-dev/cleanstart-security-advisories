@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PD54660",
+  "summary": "Security fixes in kyverno-fips 1.13.6-r10",
+  "details": "Package kyverno-fips version 1.13.6-r10 fixes 20 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.6-r10"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.13.6-r10"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-27140",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-27144",
+    "CVE-2026-27143",
+    "CVE-2026-39883",
+    "CVE-2025-27144",
+    "CVE-2026-34986",
+    "CVE-2026-32952",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-pjcq-xvwq-hhpj",
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-c6gw-w398-hv78"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
