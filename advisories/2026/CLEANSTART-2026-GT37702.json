@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GT37702",
+  "summary": "Security fixes in ruby-fluentd-1.19 1.19.2-r2",
+  "details": "Package ruby-fluentd-1.19 version 1.19.2-r2 fixes 12 vulnerabilities: CVE-2026-42256, CVE-2026-42246, CVE-2026-42245, CVE-2026-42258, CVE-2026-42257...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ruby-fluentd-1.19",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42256",
+    "CVE-2026-42246",
+    "CVE-2026-42245",
+    "CVE-2026-42258",
+    "CVE-2026-42257",
+    "CVE-2026-33637",
+    "ghsa-5rv5-xj5j-3484",
+    "ghsa-q2mw-fvj9-vvcw",
+    "ghsa-hm49-wcqc-g2xg",
+    "ghsa-87pf-fpwv-p7m7",
+    "ghsa-vcgp-9326-pqcp",
+    "ghsa-75xq-5h9v-w6px"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluent/fluentd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
