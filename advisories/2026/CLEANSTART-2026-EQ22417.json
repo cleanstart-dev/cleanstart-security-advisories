@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EQ22417",
+  "summary": "Security fixes in curl 7.78.0-r0",
+  "details": "Package curl version 7.78.0-r0 fixes 4 vulnerabilities: CVE-2021-22922, CVE-2021-22923, CVE-2021-22924, CVE-2021-22925",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.78.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "curl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.78.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-22922",
+    "CVE-2021-22923",
+    "CVE-2021-22924",
+    "CVE-2021-22925"
+  ],
+  "references": [
+    {
+      "url": "https://curl.se/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
