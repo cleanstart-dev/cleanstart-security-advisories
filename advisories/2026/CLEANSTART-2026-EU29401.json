@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EU29401",
+  "summary": "Security fixes in helm-fips 3.19.0-r2",
+  "details": "Package helm-fips version 3.19.0-r2 fixes 4 vulnerabilities: ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.19.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.19.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
