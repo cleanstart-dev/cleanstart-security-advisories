@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TW62331",
+  "summary": "Security fixes in cassandra-fips 4.1.9-r0",
+  "details": "Package cassandra-fips version 4.1.9-r0 fixes 2 vulnerabilities: CVE-2025-23015, CVE-2024-27137",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-23015",
+    "CVE-2024-27137"
+  ],
+  "references": [
+    {
+      "url": "https://cassandra.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
