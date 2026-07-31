@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QS96651",
+  "summary": "Security fixes in cloud-provider-aws-1.34 1.34.1-r1",
+  "details": "Package cloud-provider-aws-1.34 version 1.34.1-r1 fixes 2 vulnerabilities: ghsa-f6x5-jh6r-wnfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloud-provider-aws-1.34",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.34.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6x5-jh6r-wnfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/cloud-provider-aws/tree/master",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
