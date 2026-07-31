@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VJ80514",
+  "summary": "Security fixes in harbor-fips 2.11.2-r5",
+  "details": "Package harbor-fips version 2.11.2-r5 fixes 4 vulnerabilities: CVE-2025-30223, CVE-2024-55885, CVE-2025-27144, CVE-2025-54410",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.2-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.11.2-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-30223",
+    "CVE-2024-55885",
+    "CVE-2025-27144",
+    "CVE-2025-54410"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
