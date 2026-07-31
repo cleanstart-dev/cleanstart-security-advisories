@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JO69693",
+  "summary": "Security fixes in syft 1.39.0-r1",
+  "details": "Package syft version 1.39.0-r1 fixes 1 vulnerabilities: ghsa-q9hv-hpm4-hj6x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.39.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "syft",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.39.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/anchore/syft",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
