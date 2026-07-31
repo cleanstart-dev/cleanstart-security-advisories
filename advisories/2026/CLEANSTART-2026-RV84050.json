@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RV84050",
+  "summary": "Security fixes in victoriametrics-operator-fips 0.68.5-r0",
+  "details": "Package victoriametrics-operator-fips version 0.68.5-r0 fixes 5 vulnerabilities: CVE-2026-39821, CVE-2026-42504, CVE-2026-42506, CVE-2026-39824, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.68.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "victoriametrics-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.68.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39821",
+    "CVE-2026-42504",
+    "CVE-2026-42506",
+    "CVE-2026-39824",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/VictoriaMetrics/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
