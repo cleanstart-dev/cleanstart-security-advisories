@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KO02228",
+  "summary": "Security fixes in cassandra-fips 4.1.10-r1",
+  "details": "Package cassandra-fips version 4.1.10-r1 fixes 8 vulnerabilities: ghsa-3mc7-4q67-w48m, ghsa-mjmj-j48q-9wg2, ghsa-98wm-3w3q-mw94, ghsa-9w3m-gqgf-c4p9, ghsa-c4r9-r8fh-9vj2...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.10-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.10-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3mc7-4q67-w48m",
+    "ghsa-mjmj-j48q-9wg2",
+    "ghsa-98wm-3w3q-mw94",
+    "ghsa-9w3m-gqgf-c4p9",
+    "ghsa-c4r9-r8fh-9vj2",
+    "ghsa-hhhw-99gj-p3c3",
+    "ghsa-pr98-23f8-jwxv",
+    "ghsa-w37g-rhq8-7m4j"
+  ],
+  "references": [
+    {
+      "url": "https://cassandra.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
