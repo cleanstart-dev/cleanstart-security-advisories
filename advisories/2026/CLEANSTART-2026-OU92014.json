@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OU92014",
+  "summary": "Security fixes in apache-activemq-artemis 2.51.0-r0",
+  "details": "Package apache-activemq-artemis version 2.51.0-r0 fixes 4 vulnerabilities: CVE-2026-24308, CVE-2026-24281, ghsa-7xrh-hqfc-g7qr, ghsa-crhr-qqj8-rpxc",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.51.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-activemq-artemis",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.51.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24308",
+    "CVE-2026-24281",
+    "ghsa-7xrh-hqfc-g7qr",
+    "ghsa-crhr-qqj8-rpxc"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/activemq-artemis",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
