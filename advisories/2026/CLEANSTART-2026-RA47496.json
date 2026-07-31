@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RA47496",
+  "summary": "Security fixes in spring-boot 3.4.13-r0",
+  "details": "Package spring-boot version 3.4.13-r0 fixes 2 vulnerabilities: ghsa-4265-ccf5-phj5, ghsa-4g9r-vxhx-9pgx",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spring-boot",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4265-ccf5-phj5",
+    "ghsa-4g9r-vxhx-9pgx"
+  ],
+  "references": [
+    {
+      "url": "https://spring.io/projects/spring-boot",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
