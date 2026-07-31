@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WZ23111",
+  "summary": "Security fixes in wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "Package wavefront-collector-for-kubernetes version 1.13.0-r0 fixes 40 vulnerabilities: ghsa-qppj-fm5r-hxr3, ghsa-4v7x-pqxf-cx7m, ghsa-45x7-px36-x8w8, ghsa-v778-237x-gjrc, ghsa-mrww-27vc-gghv...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wavefront-collector-for-kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.13.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qppj-fm5r-hxr3",
+    "ghsa-4v7x-pqxf-cx7m",
+    "ghsa-45x7-px36-x8w8",
+    "ghsa-v778-237x-gjrc",
+    "ghsa-mrww-27vc-gghv",
+    "ghsa-m7wr-2xf7-cm9p",
+    "ghsa-xrjj-mj9h-534m",
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-vvpx-j8f3-3w6h",
+    "ghsa-8r3f-844c-mc37",
+    "ghsa-4374-p667-p6c8",
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-2wrh-6pvc-2jm9",
+    "ghsa-fxg5-wq6x-vr4w",
+    "ghsa-vvgc-356p-c3xw",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-69ch-w2m2-3vjp",
+    "ghsa-4f99-4q7p-p3gh",
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-f6x5-jh6r-wrfv",
+    "CVE-2024-27289",
+    "CVE-2024-27304",
+    "CVE-2025-65637",
+    "CVE-2024-45337",
+    "CVE-2025-22869",
+    "CVE-2023-48795",
+    "CVE-2025-47914",
+    "CVE-2025-58181",
+    "CVE-2022-41721",
+    "CVE-2022-41723",
+    "CVE-2023-39325",
+    "CVE-2022-41717",
+    "CVE-2023-3978",
+    "CVE-2023-44487",
+    "CVE-2023-45288",
+    "CVE-2025-22870",
+    "CVE-2025-22872",
+    "CVE-2025-22868",
+    "CVE-2022-32149",
+    "CVE-2024-24786"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wavefrontHQ/wavefront-collector-for-kubernetes",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
