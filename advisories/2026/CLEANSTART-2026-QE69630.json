@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QE69630",
+  "summary": "Security fixes in kubernetes-csi-external-snapshotter-fips 8.5.0-r0",
+  "details": "Package kubernetes-csi-external-snapshotter-fips version 8.5.0-r0 fixes 3 vulnerabilities: CVE-2026-25679, CVE-2026-27139, CVE-2026-27142",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-external-snapshotter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.5.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27142"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/external-snapshotter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
