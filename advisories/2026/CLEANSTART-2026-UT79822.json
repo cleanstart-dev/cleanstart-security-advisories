@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UT79822",
+  "summary": "Security fixes in melange 0.50.0-r1",
+  "details": "Package melange version 0.50.0-r1 fixes 28 vulnerabilities: CVE-2026-39827, CVE-2026-39828, CVE-2026-39829, CVE-2026-39830, CVE-2026-39831...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.50.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "melange",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.50.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39827",
+    "CVE-2026-39828",
+    "CVE-2026-39829",
+    "CVE-2026-39830",
+    "CVE-2026-39831",
+    "CVE-2026-39832",
+    "CVE-2026-39833",
+    "CVE-2026-39834",
+    "CVE-2026-39835",
+    "CVE-2026-42508",
+    "CVE-2026-46595",
+    "CVE-2026-46597",
+    "CVE-2026-46598",
+    "CVE-2026-25680",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-39821",
+    "CVE-2026-42502",
+    "CVE-2026-42506",
+    "CVE-2026-39824",
+    "CVE-2026-42574",
+    "CVE-2026-42575",
+    "CVE-2026-42576",
+    "CVE-2026-44973",
+    "CVE-2026-44740",
+    "CVE-2026-45022",
+    "CVE-2026-45570",
+    "CVE-2026-45571"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/chainguard-dev/melange",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
