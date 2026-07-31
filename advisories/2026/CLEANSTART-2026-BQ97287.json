@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BQ97287",
+  "summary": "Security fixes in kubevela 1.10.5-r0",
+  "details": "Package kubevela version 1.10.5-r0 fixes 3 vulnerabilities: CVE-2025-61725, ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubevela",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61725",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubevela/kubevela",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
