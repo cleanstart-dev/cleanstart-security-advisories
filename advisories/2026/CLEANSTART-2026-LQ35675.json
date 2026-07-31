@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LQ35675",
+  "summary": "Security fixes in kubernetes-csi-driver-nfs-fips 4.12.1-r1",
+  "details": "Package kubernetes-csi-driver-nfs-fips version 4.12.1-r1 fixes 7 vulnerabilities: CVE-2026-27139, CVE-2025-61732, CVE-2026-27142, ghsa-r6j8-c6r2-37rr, CVE-2025-68121...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.12.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-driver-nfs-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.12.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2025-61732",
+    "CVE-2026-27142",
+    "ghsa-r6j8-c6r2-37rr",
+    "CVE-2025-68121",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-25679"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/csi-driver-nfs",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
