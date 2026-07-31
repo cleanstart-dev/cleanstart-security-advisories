@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VK72344",
+  "summary": "Security fixes in newrelic-infrastructure-agent 1.71.4-r0",
+  "details": "Package newrelic-infrastructure-agent version 1.71.4-r0 fixes 5 vulnerabilities: CVE-2025-68121, CVE-2026-25679, CVE-2026-27142, CVE-2026-27139, CVE-2025-61732",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.71.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "newrelic-infrastructure-agent",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.71.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2025-61732"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/newrelic/infrastructure-agent",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
