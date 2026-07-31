@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZC99226",
+  "summary": "Security fixes in consul-fips 1.22.2-r2",
+  "details": "Package consul-fips version 1.22.2-r2 fixes 5 vulnerabilities: CVE-2026-33810, CVE-2026-34986, CVE-2026-39883, CVE-2020-8911, CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33810",
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "CVE-2020-8911",
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
