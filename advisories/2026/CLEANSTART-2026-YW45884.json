@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YW45884",
+  "summary": "Security fixes in jitsucom-bulker 2.10.0-r0",
+  "details": "Package jitsucom-bulker version 2.10.0-r0 fixes 13 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-bulker",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.10.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-27140",
+    "CVE-2026-33810",
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-xmrv-pmrh-hhx2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/bulker",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
