@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IC30001",
+  "summary": "Security fixes in vault-k8s-fips 1.7.0-r0",
+  "details": "Package vault-k8s-fips version 1.7.0-r0 fixes 2 vulnerabilities: ghsa-qxp5-gwg8-xv66, ghsa-vvgc-356p-c3xw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault-k8s-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/vault-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
