@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RB35756",
+  "summary": "Security fixes in keycloak 26.5.5-r1",
+  "details": "Package keycloak version 26.5.5-r1 fixes 13 vulnerabilities: CVE-2026-42583, CVE-2026-42579, CVE-2026-42584, CVE-2026-41417, CVE-2026-42580...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.5.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keycloak",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.5.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42583",
+    "CVE-2026-42579",
+    "CVE-2026-42584",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "CVE-2026-42585",
+    "CVE-2026-42578",
+    "CVE-2026-42577",
+    "CVE-2026-42587",
+    "CVE-2026-42198",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-98qh-xjc8-98pq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/keycloak/keycloak",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
