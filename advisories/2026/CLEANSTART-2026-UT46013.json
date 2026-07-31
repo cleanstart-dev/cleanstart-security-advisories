@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UT46013",
+  "summary": "Security fixes in gomplate 4.3.3-r0",
+  "details": "Package gomplate version 4.3.3-r0 fixes 12 vulnerabilities: CVE-2026-27139, CVE-2026-39826, CVE-2026-33186, CVE-2025-58181, CVE-2026-39883...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gomplate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-39826",
+    "CVE-2026-33186",
+    "CVE-2025-58181",
+    "CVE-2026-39883",
+    "CVE-2026-34986",
+    "CVE-2026-45570",
+    "CVE-2026-44973",
+    "CVE-2026-1229",
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-xmrv-pmrh-hhx2",
+    "CVE-2025-47907"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hairyhenderson/gomplate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
