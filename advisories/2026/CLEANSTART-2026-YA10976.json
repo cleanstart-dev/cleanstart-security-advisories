@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YA10976",
+  "summary": "Security fixes in kube-logging-operator 6.2.2-r0",
+  "details": "Package kube-logging-operator version 6.2.2-r0 fixes 6 vulnerabilities: ghsa-mxw3-3hh2-x2mh, ghsa-jfh8-c2jp-hdph, ghsa-v9wx-v5z4-wgfj, ghsa-59gp-qqm7-cw4j, ghsa-g7gv-6qhm-4h2j...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-logging-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.2.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mxw3-3hh2-x2mh",
+    "ghsa-jfh8-c2jp-hdph",
+    "ghsa-v9wx-v5z4-wgfj",
+    "ghsa-59gp-qqm7-cw4j",
+    "ghsa-g7gv-6qhm-4h2j",
+    "ghsa-xc9x-jj77-9p9j"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kube-logging/logging-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
