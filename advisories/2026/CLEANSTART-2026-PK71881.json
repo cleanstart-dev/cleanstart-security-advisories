@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PK71881",
+  "summary": "Security fixes in tekton-chains 0.26.0-r1",
+  "details": "Package tekton-chains version 0.26.0-r1 fixes 5 vulnerabilities: ghsa-4qg8-fj49-pxjh, ghsa-whqx-f9j3-ch6m, ghsa-846p-jg2w-w324, ghsa-fphv-w9fq-2525, ghsa-59jp-pj84-45mr",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.26.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-chains",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.26.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4qg8-fj49-pxjh",
+    "ghsa-whqx-f9j3-ch6m",
+    "ghsa-846p-jg2w-w324",
+    "ghsa-fphv-w9fq-2525",
+    "ghsa-59jp-pj84-45mr"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/chains",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
