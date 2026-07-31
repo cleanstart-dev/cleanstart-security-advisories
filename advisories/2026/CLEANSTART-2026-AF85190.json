@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AF85190",
+  "summary": "Security fixes in apache-nifi 2.10.0-r2",
+  "details": "Package apache-nifi version 2.10.0-r2 fixes 8 vulnerabilities: CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, CVE-2026-54516...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-nifi",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.10.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2026-54516",
+    "CVE-2026-54517",
+    "CVE-2026-54518",
+    "CVE-2026-54428"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/nifi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
