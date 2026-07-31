@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GI20464",
+  "summary": "Security fixes in cass-operator 1.28.1-r2",
+  "details": "Package cass-operator version 1.28.1-r2 fixes 8 vulnerabilities: CVE-2026-39883, CVE-2026-32280, CVE-2026-32281, CVE-2026-32283, CVE-2026-33810...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cass-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.28.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39883",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-33810",
+    "CVE-2026-32282",
+    "CVE-2026-32288",
+    "CVE-2026-32289"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/cass-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
