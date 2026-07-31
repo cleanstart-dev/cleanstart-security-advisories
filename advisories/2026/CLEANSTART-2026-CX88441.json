@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CX88441",
+  "summary": "Security fixes in coredns 1.14.1-r1",
+  "details": "Package coredns version 1.14.1-r1 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-25679, CVE-2026-27139, CVE-2026-27138, CVE-2026-27137",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "coredns",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27138",
+    "CVE-2026-27137"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/coredns/coredns",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
