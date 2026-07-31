@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HO55656",
+  "summary": "Security fixes in grafana-alloy-fips 1.15.0-r1",
+  "details": "Package grafana-alloy-fips version 1.15.0-r1 fixes 3 vulnerabilities: CVE-2026-21726, ghsa-497x-rrr9-68jp, ghsa-3xc5-wrhm-f963",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-alloy-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21726",
+    "ghsa-497x-rrr9-68jp",
+    "ghsa-3xc5-wrhm-f963"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/alloy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
