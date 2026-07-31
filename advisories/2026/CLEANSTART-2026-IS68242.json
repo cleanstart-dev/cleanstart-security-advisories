@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IS68242",
+  "summary": "Security fixes in thingsboard-tb-web-ui 4.3.0.1-r0",
+  "details": "Package thingsboard-tb-web-ui version 4.3.0.1-r0 fixes 1 vulnerabilities: ghsa-5359-pvf2-pw78",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.0.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard-tb-web-ui",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.0.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-5359-pvf2-pw78"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
