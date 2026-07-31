@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BC71667",
+  "summary": "Security fixes in fluent-operator-fips 3.8.0-r0",
+  "details": "Package fluent-operator-fips version 3.8.0-r0 fixes 1 vulnerabilities: CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fluent-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluent/fluent-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
