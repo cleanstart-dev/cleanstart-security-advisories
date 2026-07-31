@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VB85755",
+  "summary": "Security fixes in postgresql 11.5-r0",
+  "details": "Package postgresql version 11.5-r0 fixes 2 vulnerabilities: CVE-2019-10208, CVE-2019-10209",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgresql",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "11.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-10208",
+    "CVE-2019-10209"
+  ],
+  "references": [
+    {
+      "url": "https://www.postgresql.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
