@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HL82879",
+  "summary": "Security fixes in keycloak 26.5.6-r3",
+  "details": "Package keycloak version 26.5.6-r3 fixes 3 vulnerabilities: ghsa-72hv-8253-57qq, ghsa-w9fj-cfpg-grvv, ghsa-pwqr-wmgm-9rr8",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.5.6-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keycloak",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.5.6-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "ghsa-w9fj-cfpg-grvv",
+    "ghsa-pwqr-wmgm-9rr8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/keycloak/keycloak",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
