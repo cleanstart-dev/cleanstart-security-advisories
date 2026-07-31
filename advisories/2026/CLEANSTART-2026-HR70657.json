@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HR70657",
+  "summary": "Security fixes in prometheus-node-exporter-fips 1.10.2-r1",
+  "details": "Package prometheus-node-exporter-fips version 1.10.2-r1 fixes 3 vulnerabilities: ghsa-cgrx-mc8f-2prm, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-node-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/node_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
