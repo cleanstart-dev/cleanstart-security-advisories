@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FY09649",
+  "summary": "Security fixes in clamav 0.104.2-r0",
+  "details": "Package clamav version 0.104.2-r0 fixes 1 vulnerabilities: CVE-2022-20698",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.104.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "clamav",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.104.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-20698"
+  ],
+  "references": [
+    {
+      "url": "https://www.clamav.net/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
