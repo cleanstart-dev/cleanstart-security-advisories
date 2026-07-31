@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HI65705",
+  "summary": "Security fixes in nfs-subdir-external-provisioner-fips 4.0.17-r0",
+  "details": "Package nfs-subdir-external-provisioner-fips version 4.0.17-r0 fixes 7 vulnerabilities: ghsa-v778-237x-gjrc, ghsa-cg3q-j54f-5p7p, ghsa-8r3f-844c-mc37, ghsa-6v2p-p543-phr9, ghsa-hp87-p4gw-j4gq...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.17-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nfs-subdir-external-provisioner-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.17-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-v778-237x-gjrc",
+    "ghsa-cg3q-j54f-5p7p",
+    "ghsa-8r3f-844c-mc37",
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-hp87-p4gw-j4gq",
+    "ghsa-vvgc-356p-c3xw",
+    "ghsa-6wxm-mpqj-6jpf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
