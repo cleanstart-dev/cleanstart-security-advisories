@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KE07618",
+  "summary": "Security fixes in helm-operator 1.42.3-r1",
+  "details": "Package helm-operator version 1.42.3-r1 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.42.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.42.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/operator-framework/operator-sdk",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
