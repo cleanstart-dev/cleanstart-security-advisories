@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZK11830",
+  "summary": "Security fixes in kyverno-fips 1.12.7-r0",
+  "details": "Package kyverno-fips version 1.12.7-r0 fixes 3 vulnerabilities: ghsa-mh63-6h87-95cp, ghsa-m5vv-6r4h-3vj9, ghsa-4vq8-7jfc-9cvp",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.12.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-m5vv-6r4h-3vj9",
+    "ghsa-4vq8-7jfc-9cvp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
