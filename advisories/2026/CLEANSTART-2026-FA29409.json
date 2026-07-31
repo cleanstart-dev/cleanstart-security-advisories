@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FA29409",
+  "summary": "Security fixes in cert-manager-cmctl-fips 2.1.1-r0",
+  "details": "Package cert-manager-cmctl-fips version 2.1.1-r0 fixes 12 vulnerabilities: CVE-2025-47913, CVE-2025-58181, CVE-2025-47914, CVE-2024-25621, CVE-2025-64329...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cert-manager-cmctl-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.1.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47913",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2024-25621",
+    "CVE-2025-64329",
+    "ghsa-557j-xg8c-q2mm",
+    "ghsa-4hfp-h4cw-hj8p",
+    "ghsa-5xqw-8hwv-wg92",
+    "ghsa-9h84-qmv7-982p",
+    "ghsa-f9f8-9pmf-xv68",
+    "ghsa-r4pg-vg54-wxx4",
+    "ghsa-4vq8-7jfc-9cvp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/cmctl",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
