@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XP56378",
+  "summary": "Security fixes in elasticsearch 9.2.8-r1",
+  "details": "Package elasticsearch version 9.2.8-r1 fixes 14 vulnerabilities: ghsa-r7wm-3cxj-wff9, ghsa-72hv-8253-57qq, CVE-2026-54515, CVE-2026-59889, ghsa-mhm7-754m-9p8w...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.8-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elasticsearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.2.8-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r7wm-3cxj-wff9",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2026-54515",
+    "CVE-2026-59889",
+    "ghsa-mhm7-754m-9p8w",
+    "CVE-2026-59901",
+    "CVE-2026-55831",
+    "CVE-2026-55833",
+    "CVE-2026-56745",
+    "CVE-2026-56746",
+    "CVE-2026-59898",
+    "CVE-2026-59899",
+    "CVE-2026-59921",
+    "CVE-2026-59900"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/elasticsearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:48Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
