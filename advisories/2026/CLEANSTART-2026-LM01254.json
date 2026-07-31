@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LM01254",
+  "summary": "Security fixes in postgres-operator-fips 1.15.1-r0",
+  "details": "Package postgres-operator-fips version 1.15.1-r0 fixes 3 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgres-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/zalando/postgres-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
