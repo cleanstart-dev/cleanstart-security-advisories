@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FE38987",
+  "summary": "Security fixes in schema-registry 8.1.2-r0",
+  "details": "Package schema-registry version 8.1.2-r0 fixes 5 vulnerabilities: CVE-2025-12383, CVE-2026-34477, CVE-2026-34478, CVE-2026-34479, CVE-2026-34480",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.1.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "schema-registry",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.1.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-12383",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34479",
+    "CVE-2026-34480"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/confluentinc/schema-registry",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
