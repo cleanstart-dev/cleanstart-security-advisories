@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WK26037",
+  "summary": "Security fixes in nginx-prometheus-exporter 1.5.1-r1",
+  "details": "Package nginx-prometheus-exporter version 1.5.1-r1 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2025-68121, CVE-2025-61732, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nginx-prometheus-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/nginxinc/nginx-prometheus-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
