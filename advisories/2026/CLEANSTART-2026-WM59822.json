@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WM59822",
+  "summary": "Security fixes in keycloak 26.4.7-r4",
+  "details": "Package keycloak version 26.4.7-r4 fixes 13 vulnerabilities: CVE-2026-44893, CVE-2026-48059, ghsa-h2qv-fj59-j46j, ghsa-cc37-9q2j-3hfv, ghsa-j3rv-43j4-c7qm...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.4.7-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keycloak",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.4.7-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44893",
+    "CVE-2026-48059",
+    "ghsa-h2qv-fj59-j46j",
+    "ghsa-cc37-9q2j-3hfv",
+    "ghsa-j3rv-43j4-c7qm",
+    "ghsa-rmj7-2vxq-3g9f",
+    "ghsa-5jmj-h7xm-6q6v",
+    "ghsa-hgj6-7826-r7m5",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/keycloak/keycloak",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
