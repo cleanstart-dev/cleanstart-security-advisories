@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KO49746",
+  "summary": "Security fixes in confluent-cp-docker-utils 1.0.8-r0",
+  "details": "Package confluent-cp-docker-utils version 1.0.8-r0 fixes 9 vulnerabilities: CVE-2026-27143, CVE-2026-27140, CVE-2026-27144, CVE-2026-32280, CVE-2026-32281...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.8-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "confluent-cp-docker-utils",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.8-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27143",
+    "CVE-2026-27140",
+    "CVE-2026-27144",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-32282",
+    "CVE-2026-32288",
+    "CVE-2026-32289"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/confluentinc/cp-docker-utils",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
