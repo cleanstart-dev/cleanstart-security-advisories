@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GO67814",
+  "summary": "Security fixes in opentofu-fips 1.9.4-r1",
+  "details": "Package opentofu-fips version 1.9.4-r1 fixes 5 vulnerabilities: CVE-2025-61729, CVE-2025-61727, CVE-2025-47913, CVE-2025-58181, CVE-2025-47914",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727",
+    "CVE-2025-47913",
+    "CVE-2025-58181",
+    "CVE-2025-47914"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
