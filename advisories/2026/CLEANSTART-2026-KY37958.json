@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KY37958",
+  "summary": "Security fixes in tkn-fips 0.44.2-r0",
+  "details": "Package tkn-fips version 0.44.2-r0 fixes 10 vulnerabilities: CVE-2026-46595, CVE-2026-39821, CVE-2026-34040, CVE-2026-40161, CVE-2026-48702...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.44.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tkn-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.44.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46595",
+    "CVE-2026-39821",
+    "CVE-2026-34040",
+    "CVE-2026-40161",
+    "CVE-2026-48702",
+    "CVE-2026-46597",
+    "CVE-2026-40938",
+    "CVE-2026-34986",
+    "CVE-2026-29181",
+    "ghsa-cp6g-7hqx-qxhp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
