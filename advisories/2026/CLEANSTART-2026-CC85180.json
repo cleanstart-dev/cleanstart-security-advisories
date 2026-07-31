@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CC85180",
+  "summary": "Security fixes in rabbitmq-cluster-operator 2.20.0-r1",
+  "details": "Package rabbitmq-cluster-operator version 2.20.0-r1 fixes 13 vulnerabilities: CVE-2026-27143, ghsa-pc3f-x583-g7j2, CVE-2026-32281, CVE-2026-32280, CVE-2026-32283...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rabbitmq-cluster-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.20.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27143",
+    "ghsa-pc3f-x583-g7j2",
+    "CVE-2026-32281",
+    "CVE-2026-32280",
+    "CVE-2026-32283",
+    "CVE-2026-39883",
+    "CVE-2026-33810",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-27144",
+    "CVE-2026-32288",
+    "CVE-2026-35469"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rabbitmq/cluster-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
