@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HC56265",
+  "summary": "Security fixes in prometheus-fips 3.5.0-r4",
+  "details": "Package prometheus-fips version 3.5.0-r4 fixes 6 vulnerabilities: CVE-2025-61729, CVE-2025-61727, CVE-2025-58181, CVE-2025-47914, CVE-2020-8911...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2020-8911",
+    "CVE-2020-8912"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
