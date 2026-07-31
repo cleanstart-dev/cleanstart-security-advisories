@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XM62269",
+  "summary": "Security fixes in git-lfs-fips 3.7.0-r2",
+  "details": "Package git-lfs-fips version 3.7.0-r2 fixes 11 vulnerabilities: CVE-2025-47911, CVE-2025-47914, CVE-2025-58181, CVE-2025-58190, CVE-2025-61730...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "git-lfs-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47911",
+    "CVE-2025-47914",
+    "CVE-2025-58181",
+    "CVE-2025-58190",
+    "CVE-2025-61730",
+    "CVE-2025-61728",
+    "CVE-2025-47913",
+    "CVE-2025-61726",
+    "CVE-2025-68121",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://git-lfs.github.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
