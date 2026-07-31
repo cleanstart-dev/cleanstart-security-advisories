@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FX11252",
+  "summary": "Security fixes in rabbitmq-messaging-topology-operator 1.15.0-r1",
+  "details": "Package rabbitmq-messaging-topology-operator version 1.15.0-r1 fixes 9 vulnerabilities: CVE-2024-45337, ghsa-v778-237x-gjrc, ghsa-6v2p-p943-phr9, ghsa-hcg3-p754-cr77, ghsa-c6gw-w398-hv78...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rabbitmq-messaging-topology-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45337",
+    "ghsa-v778-237x-gjrc",
+    "ghsa-6v2p-p943-phr9",
+    "ghsa-hcg3-p754-cr77",
+    "ghsa-c6gw-w398-hv78",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-qxp5-gw88-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rabbitmq/messaging-topology-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
