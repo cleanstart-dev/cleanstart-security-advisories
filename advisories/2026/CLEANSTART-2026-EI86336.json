@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EI86336",
+  "summary": "Security fixes in kubernetes-replicator-fips 2.12.2-r1",
+  "details": "Package kubernetes-replicator-fips version 2.12.2-r1 fixes 3 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-replicator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.12.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/mittwald/kubernetes-replicator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
