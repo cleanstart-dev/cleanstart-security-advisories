@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZL33696",
+  "summary": "Security fixes in orientdb 3.2.38-r0",
+  "details": "Package orientdb version 3.2.38-r0 fixes 10 vulnerabilities: ghsa-78wr-2p64-hpwj, ghsa-8xfc-gm6g-vgpv, ghsa-4h8f-2wvx-gg5w, ghsa-v435-xc8x-wvr9, ghsa-m44j-cfrm-g8qc...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.38-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "orientdb",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.38-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-78wr-2p64-hpwj",
+    "ghsa-8xfc-gm6g-vgpv",
+    "ghsa-4h8f-2wvx-gg5w",
+    "ghsa-v435-xc8x-wvr9",
+    "ghsa-m44j-cfrm-g8qc",
+    "ghsa-67mf-3cr5-8w23",
+    "ghsa-4cx2-fc23-5wg6",
+    "ghsa-h46c-h94j-95f3",
+    "ghsa-wf8f-6423-gfxg",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/orientechnologies/orientdb",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
