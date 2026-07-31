@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XR15745",
+  "summary": "Security fixes in rabbitmq-cluster-operator 2.18.0-r0",
+  "details": "Package rabbitmq-cluster-operator version 2.18.0-r0 fixes 39 vulnerabilities: CVE-2025-61726, CVE-2025-61728, CVE-2025-61730, CVE-2025-61731, CVE-2025-61732...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.18.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rabbitmq-cluster-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.18.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730",
+    "CVE-2025-61731",
+    "CVE-2025-61732",
+    "CVE-2025-68119",
+    "CVE-2025-68121",
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27140",
+    "CVE-2026-27142",
+    "CVE-2026-27143",
+    "CVE-2026-27144",
+    "CVE-2026-27145",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-35469",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-39820",
+    "CVE-2026-39821",
+    "CVE-2026-39823",
+    "CVE-2026-39824",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-39836",
+    "CVE-2026-42499",
+    "CVE-2026-42501",
+    "CVE-2026-42502",
+    "CVE-2026-42504",
+    "CVE-2026-42506",
+    "CVE-2026-42507",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rabbitmq/cluster-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
