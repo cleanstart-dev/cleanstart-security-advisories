@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OF22840",
+  "summary": "Security fixes in istio-fips 1.26.7-r1",
+  "details": "Package istio-fips version 1.26.7-r1 fixes 1 vulnerabilities: ghsa-jv3w-x3r3-g6rm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.26.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-jv3w-x3r3-g6rm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
