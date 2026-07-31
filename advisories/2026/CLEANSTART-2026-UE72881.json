@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UE72881",
+  "summary": "Security fixes in zot 2.1.13-r0",
+  "details": "Package zot version 2.1.13-r0 fixes 12 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2025-61726, CVE-2025-61728, CVE-2025-68119...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "zot",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.1.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-68119",
+    "CVE-2025-68121",
+    "CVE-2025-61731",
+    "CVE-2025-61732",
+    "CVE-2025-61730",
+    "CVE-2026-27139",
+    "CVE-2026-24051",
+    "ghsa-9h8m-3fm2-qjrq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/project-zot/zot",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
