@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EM84971",
+  "summary": "Security fixes in skaffold 2.16.1-r1",
+  "details": "Package skaffold version 2.16.1-r1 fixes 7 vulnerabilities: ghsa-pwhc-rpq9-4c8w, ghsa-m6hq-p25p-ffr2, ghsa-4vq8-7jfc-9cvp, ghsa-cgrx-mc8f-2prm, ghsa-f6x5-jh6r-wrfv...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.16.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "skaffold",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.16.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-m6hq-p25p-ffr2",
+    "ghsa-4vq8-7jfc-9cvp",
+    "ghsa-cgrx-mc8f-2prm",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-4vq8-7jfc-9cvp"
+  ],
+  "references": [
+    {
+      "url": "https://skaffold.dev/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
