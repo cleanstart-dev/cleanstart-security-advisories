@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GA47765",
+  "summary": "Security fixes in haproxy-ingress 0.15.1-r0",
+  "details": "Package haproxy-ingress version 0.15.1-r0 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2025-68121, CVE-2025-61732, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.15.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "haproxy-ingress",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.15.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jcmoraisjr/haproxy-ingress",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
