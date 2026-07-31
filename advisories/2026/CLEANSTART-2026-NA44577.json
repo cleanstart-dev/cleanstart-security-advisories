@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NA44577",
+  "summary": "Security fixes in elastic-beats 8.19.15-r5",
+  "details": "Package elastic-beats version 8.19.15-r5 fixes 13 vulnerabilities: CVE-2026-39827, CVE-2026-39828, CVE-2026-39829, CVE-2026-39830, CVE-2026-39831...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.19.15-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elastic-beats",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.19.15-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39827",
+    "CVE-2026-39828",
+    "CVE-2026-39829",
+    "CVE-2026-39830",
+    "CVE-2026-39831",
+    "CVE-2026-39832",
+    "CVE-2026-39833",
+    "CVE-2026-39834",
+    "CVE-2026-39835",
+    "CVE-2026-42508",
+    "CVE-2026-46595",
+    "CVE-2026-46597",
+    "CVE-2026-46598"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/beats",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
