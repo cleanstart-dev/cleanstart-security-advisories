@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FR04784",
+  "summary": "Security fixes in postgresql 12.4-r0",
+  "details": "Package postgresql version 12.4-r0 fixes 2 vulnerabilities: CVE-2020-14349, CVE-2020-14350",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgresql",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "12.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-14349",
+    "CVE-2020-14350"
+  ],
+  "references": [
+    {
+      "url": "https://www.postgresql.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
