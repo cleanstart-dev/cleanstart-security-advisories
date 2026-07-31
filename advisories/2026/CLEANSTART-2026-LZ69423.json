@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LZ69423",
+  "summary": "Security fixes in k8ssandra-client-fips 0.6.4-r8",
+  "details": "Package k8ssandra-client-fips version 0.6.4-r8 fixes 2 vulnerabilities: CVE-2026-35469, ghsa-pc3f-x583-g7j2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.4-r8"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8ssandra-client-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.6.4-r8"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-35469",
+    "ghsa-pc3f-x583-g7j2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/k8ssandra-client",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
