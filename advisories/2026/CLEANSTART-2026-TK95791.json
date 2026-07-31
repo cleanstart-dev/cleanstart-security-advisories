@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TK95791",
+  "summary": "Security fixes in promxy-fips 0.0.93-r0",
+  "details": "Package promxy-fips version 0.0.93-r0 fixes 2 vulnerabilities: CVE-2025-47914, CVE-2025-58181",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.93-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "promxy-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.0.93-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47914",
+    "CVE-2025-58181"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jacksontj/promxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
