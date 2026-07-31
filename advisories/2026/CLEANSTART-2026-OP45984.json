@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OP45984",
+  "summary": "Security fixes in tomcat10 10.0.27-r0",
+  "details": "Package tomcat10 version 10.0.27-r0 fixes 2 vulnerabilities: CVE-2023-44487, ghsa-qppj-fm5r-hxr3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.0.27-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tomcat10",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "10.0.27-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-44487",
+    "ghsa-qppj-fm5r-hxr3"
+  ],
+  "references": [
+    {
+      "url": "https://tomcat.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
