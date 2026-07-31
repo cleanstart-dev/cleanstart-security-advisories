@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TY63530",
+  "summary": "Security fixes in mongosh 2.6.0-r2",
+  "details": "Package mongosh version 2.6.0-r2 fixes 3 vulnerabilities: ghsa-3ppc-4f35-3m26, ghsa-7r86-cg39-jmmj, ghsa-23c5-xmqv-rm74",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mongosh",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3ppc-4f35-3m26",
+    "ghsa-7r86-cg39-jmmj",
+    "ghsa-23c5-xmqv-rm74"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/mongodb-js/mongosh",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
