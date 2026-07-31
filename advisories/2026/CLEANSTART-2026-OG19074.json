@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OG19074",
+  "summary": "Security fixes in s3proxy 3.3.0-r2",
+  "details": "Package s3proxy version 3.3.0-r2 fixes 2 vulnerabilities: CVE-2026-45536, ghsa-w573-9ffj-6ff9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "s3proxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.3.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-45536",
+    "ghsa-w573-9ffj-6ff9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gaul/s3proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
