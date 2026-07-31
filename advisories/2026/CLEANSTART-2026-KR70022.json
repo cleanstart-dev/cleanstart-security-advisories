@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KR70022",
+  "summary": "Security fixes in activemq 5.19.3-r1",
+  "details": "Package activemq version 5.19.3-r1 fixes 8 vulnerabilities: CVE-2026-34477, CVE-2026-34478, CVE-2026-34480, CVE-2024-38828, ghsa-445c-vh5m-36rj...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.19.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "activemq",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.19.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34480",
+    "CVE-2024-38828",
+    "ghsa-445c-vh5m-36rj",
+    "ghsa-3pxv-7cmr-fjr4",
+    "ghsa-6hg6-v5c8-fphq",
+    "ghsa-w3c8-7r8f-9jp8"
+  ],
+  "references": [
+    {
+      "url": "https://activemq.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
