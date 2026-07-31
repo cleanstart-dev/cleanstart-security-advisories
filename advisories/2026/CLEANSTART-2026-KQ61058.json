@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KQ61058",
+  "summary": "Security fixes in trillian 1.7.2-r2",
+  "details": "Package trillian version 1.7.2-r2 fixes 2 vulnerabilities: ghsa-p77j-4mvh-x3m3, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trillian",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/trillian",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
