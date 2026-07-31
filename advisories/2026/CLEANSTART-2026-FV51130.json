@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FV51130",
+  "summary": "Security fixes in argo-cd 3.1.9-r4",
+  "details": "Package argo-cd version 3.1.9-r4 fixes 4 vulnerabilities: ghsa-4x4m-3c2p-qppc, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x, ghsa-hj2p-8wj8-pfq4",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.9-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.9-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4x4m-3c2p-qppc",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-hj2p-8wj8-pfq4"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
