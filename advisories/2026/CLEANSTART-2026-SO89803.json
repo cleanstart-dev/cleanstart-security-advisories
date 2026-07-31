@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SO89803",
+  "summary": "Security fixes in istio-pilot-discovery 1.28.3-r1",
+  "details": "Package istio-pilot-discovery version 1.28.3-r1 fixes 18 vulnerabilities: ghsa-mh2q-q3fh-2475, ghsa-p77j-4mvh-x3m3, ghsa-78h2-9frx-2jm8, ghsa-pc3f-x583-g7j2, ghsa-8rm2-7qqf-34qm...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-pilot-discovery",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.28.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-pc3f-x583-g7j2",
+    "ghsa-8rm2-7qqf-34qm",
+    "ghsa-wg65-39gg-5wfj",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-vffh-x6r8-xx99",
+    "ghsa-fw8g-cg8f-9j28",
+    "CVE-2026-34986",
+    "CVE-2026-40179",
+    "CVE-2026-35469",
+    "CVE-2026-42151",
+    "CVE-2026-42154",
+    "CVE-2026-44903",
+    "CVE-2026-29181",
+    "CVE-2026-39883",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
