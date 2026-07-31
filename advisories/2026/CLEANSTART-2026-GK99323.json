@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GK99323",
+  "summary": "Security fixes in rekor-fips 1.5.1-r0",
+  "details": "Package rekor-fips version 1.5.1-r0 fixes 1 vulnerabilities: CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rekor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/rekor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
