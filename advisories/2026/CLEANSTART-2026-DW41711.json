@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DW41711",
+  "summary": "Security fixes in k8sgpt 0.4.26-r0",
+  "details": "Package k8sgpt version 0.4.26-r0 fixes 8 vulnerabilities: ghsa-6v2p-p543-phr9, ghsa-pwhc-rpq9-4c8w, ghsa-wrh5-cmwx-q2qr, ghsa-265r-hfxg-fhmg, ghsa-9h84-qmv7-982p...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.4.26-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8sgpt",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.4.26-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-pwhc-rpq9-4c8w",
+    "ghsa-wrh5-cmwx-q2qr",
+    "ghsa-265r-hfxg-fhmg",
+    "ghsa-9h84-qmv7-982p",
+    "ghsa-f9f8-9pmf-xv68",
+    "ghsa-m6hq-p25p-ffr2",
+    "ghsa-x9hg-5q6g-q3jr"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8sgpt-ai/k8sgpt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
