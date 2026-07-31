@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WO12990",
+  "summary": "Security fixes in spire-server 1.13.5-r0",
+  "details": "Package spire-server version 1.13.5-r0 fixes 5 vulnerabilities: CVE-2026-33816, ghsa-xmrv-pmrh-hhx2, CVE-2026-34986, CVE-2026-39984, CVE-2025-15558",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spire-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.13.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33816",
+    "ghsa-xmrv-pmrh-hhx2",
+    "CVE-2026-34986",
+    "CVE-2026-39984",
+    "CVE-2025-15558"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/spiffe/spire",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
