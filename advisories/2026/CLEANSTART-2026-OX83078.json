@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OX83078",
+  "summary": "Security fixes in eck-operator-fips 3.2.0-r0",
+  "details": "Package eck-operator-fips version 3.2.0-r0 fixes 12 vulnerabilities: CVE-2025-58187, CVE-2025-58188, CVE-2025-61723, CVE-2025-61725, CVE-2025-47912...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eck-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-58187",
+    "CVE-2025-58188",
+    "CVE-2025-61723",
+    "CVE-2025-61725",
+    "CVE-2025-47912",
+    "CVE-2025-58183",
+    "CVE-2025-58185",
+    "CVE-2025-58186",
+    "CVE-2025-58189",
+    "CVE-2025-61724",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/cloud-on-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
