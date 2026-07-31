@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SP10499",
+  "summary": "Security fixes in python3 3.11.14-r0",
+  "details": "Package python3 version 3.11.14-r0 fixes 5 vulnerabilities: CVE-2026-1703, CVE-2025-24049, CVE-2025-59375, CVE-2025-47273, CVE-2024-6345",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.14-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "python3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.11.14-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1703",
+    "CVE-2025-24049",
+    "CVE-2025-59375",
+    "CVE-2025-47273",
+    "CVE-2024-6345"
+  ],
+  "references": [
+    {
+      "url": "https://www.python.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
