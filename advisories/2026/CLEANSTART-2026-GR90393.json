@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GR90393",
+  "summary": "Security fixes in cadvisor 0.56.2-r0",
+  "details": "Package cadvisor version 0.56.2-r0 fixes 10 vulnerabilities: CVE-2026-27139, CVE-2026-32288, CVE-2026-27142, CVE-2026-32289, CVE-2026-32282...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.56.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cadvisor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.56.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-32288",
+    "CVE-2026-27142",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-25679",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32283",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/cadvisor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
