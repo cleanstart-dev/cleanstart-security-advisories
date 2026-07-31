@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FG49578",
+  "summary": "Security fixes in nats-server-fips 2.12.5-r1",
+  "details": "Package nats-server-fips version 2.12.5-r1 fixes 11 vulnerabilities: CVE-2026-33216, CVE-2026-33217, CVE-2026-33215, CVE-2026-33246, CVE-2026-33218...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nats-server-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.12.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33216",
+    "CVE-2026-33217",
+    "CVE-2026-33215",
+    "CVE-2026-33246",
+    "CVE-2026-33218",
+    "CVE-2026-33219",
+    "CVE-2026-33223",
+    "CVE-2026-33222",
+    "CVE-2026-33248",
+    "CVE-2026-33247",
+    "CVE-2026-33249"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/nats-io/nats-server",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
