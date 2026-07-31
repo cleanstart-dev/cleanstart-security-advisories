@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MM56295",
+  "summary": "Security fixes in spark-sc212-jdk17-py311 3.4.4-r0",
+  "details": "Package spark-sc212-jdk17-py311 version 3.4.4-r0 fixes 45 vulnerabilities: ghsa-mjmj-j48q-9wg2, CVE-2022-1471, ghsa-r7pg-v2c8-mfg3, CVE-2024-47561, CVE-2023-39410...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc212-jdk17-py311",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mjmj-j48q-9wg2",
+    "CVE-2022-1471",
+    "ghsa-r7pg-v2c8-mfg3",
+    "CVE-2024-47561",
+    "CVE-2023-39410",
+    "ghsa-rhrv-645h-fjfh",
+    "ghsa-jwp6-cvj8-fw65",
+    "CVE-2025-54920",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2025-52999",
+    "ghsa-72hv-8253-57qq",
+    "ghsa-h46c-h94j-95f3",
+    "ghsa-78wr-2p64-hpwj",
+    "CVE-2024-47554",
+    "ghsa-4265-ccf5-phj5",
+    "ghsa-4g9r-vxhx-9pgx",
+    "ghsa-cgwf-w82q-5jrr",
+    "CVE-2024-25710",
+    "CVE-2024-26308",
+    "CVE-2023-42503",
+    "ghsa-rj7p-rfgp-852x",
+    "ghsa-g2fg-mr77-6vrm",
+    "ghsa-7pwc-h2j2-rjgj",
+    "CVE-2019-0205",
+    "CVE-2020-13949",
+    "CVE-2026-43869",
+    "CVE-2019-0210",
+    "ghsa-mvr2-9pj6-7w5j",
+    "ghsa-5mg8-w23w-74h3",
+    "ghsa-7g45-4rm6-3mm3",
+    "CVE-2018-10237",
+    "CVE-2023-2976",
+    "ghsa-735f-pc8j-v9w8",
+    "ghsa-wrvw-hg22-4m67",
+    "CVE-2021-22569",
+    "CVE-2024-7254",
+    "ghsa-3cqm-mf7h-prrj",
+    "CVE-2021-0341",
+    "ghsa-p953-3j66-hg45",
+    "CVE-2024-23953",
+    "ghsa-3g76-f9xq-8vp6",
+    "CVE-2026-6860"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
