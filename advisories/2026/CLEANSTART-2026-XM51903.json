@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XM51903",
+  "summary": "Security fixes in docker-fips 26.0.0-r0",
+  "details": "Package docker-fips version 26.0.0-r0 fixes 1 vulnerabilities: CVE-2024-29018",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.0.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "docker-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.0.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-29018"
+  ],
+  "references": [
+    {
+      "url": "https://www.docker.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
