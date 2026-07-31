@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WY91111",
+  "summary": "Security fixes in helm 4.1.0-r0",
+  "details": "Package helm version 4.1.0-r0 fixes 1 vulnerabilities: CVE-2026-1229",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1229"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
