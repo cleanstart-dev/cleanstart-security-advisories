@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VY72501",
+  "summary": "Security fixes in helm-operator-fips 1.41.1-r0",
+  "details": "Package helm-operator-fips version 1.41.1-r0 fixes 3 vulnerabilities: ghsa-9h84-gmv7-982p, ghsa-mf38-5pwr-xv68, ghsa-x4rx-4gw5-53pq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.41.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.41.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-9h84-gmv7-982p",
+    "ghsa-mf38-5pwr-xv68",
+    "ghsa-x4rx-4gw5-53pq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/operator-framework/operator-sdk",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
