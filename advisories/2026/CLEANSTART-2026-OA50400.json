@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OA50400",
+  "summary": "Security fixes in kyverno-fips 1.14.4-r1",
+  "details": "Package kyverno-fips version 1.14.4-r1 fixes 1 vulnerabilities: CVE-2025-47907",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47907"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
