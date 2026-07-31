@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MC35029",
+  "summary": "Security fixes in prometheus-blackbox-exporter 0.18.0-r0",
+  "details": "Package prometheus-blackbox-exporter version 0.18.0-r0 fixes 1 vulnerabilities: CVE-2020-16248",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.18.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-blackbox-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.18.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-16248"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/blackbox_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:54Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
