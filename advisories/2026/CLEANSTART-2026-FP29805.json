@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FP29805",
+  "summary": "Security fixes in trust-manager 0.20.3-r1",
+  "details": "Package trust-manager version 0.20.3-r1 fixes 1 vulnerabilities: ghsa-mpwr-8vm7-h73f",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trust-manager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.20.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mpwr-8vm7-h73f"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/trust-manager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
