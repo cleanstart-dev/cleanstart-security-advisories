@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TT99758",
+  "summary": "Security fixes in velero-fips 1.14.1-r1",
+  "details": "Package velero-fips version 1.14.1-r1 fixes 5 vulnerabilities: ghsa-mh63-6h87-95cp, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x, CVE-2025-61727, CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x",
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
