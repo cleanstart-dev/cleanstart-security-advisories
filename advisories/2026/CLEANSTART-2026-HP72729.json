@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HP72729",
+  "summary": "Security fixes in spark-operator 2.1.1-r6",
+  "details": "Package spark-operator version 2.1.1-r6 fixes 5 vulnerabilities: CVE-2026-32281, CVE-2026-32288, CVE-2026-32289, CVE-2026-32280, CVE-2026-32282",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.1-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.1.1-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32281",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-32280",
+    "CVE-2026-32282"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubeflow/spark-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:05Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
