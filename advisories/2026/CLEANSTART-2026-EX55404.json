@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EX55404",
+  "summary": "Security fixes in calico-fips 3.31.2-r1",
+  "details": "Package calico-fips version 3.31.2-r1 fixes 8 vulnerabilities: CVE-2025-61729, CVE-2025-61727, CVE-2025-58181, CVE-2025-47914, CVE-2024-8006...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.31.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "calico-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.31.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727",
+    "CVE-2025-58181",
+    "CVE-2025-47914",
+    "CVE-2024-8006",
+    "CVE-2023-7256",
+    "CVE-2025-1767",
+    "CVE-2024-7598"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/projectcalico/calico",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
