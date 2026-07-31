@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OE19245",
+  "summary": "Security fixes in jitsucom-jitsu 2.11.0-r3",
+  "details": "Package jitsucom-jitsu version 2.11.0-r3 fixes 23 vulnerabilities: ghsa-r5fr-rjxr-66jc, ghsa-5m6q-g25r-mvwx, ghsa-f23m-r3pf-42rh, ghsa-q67f-28xg-22rw, ghsa-jp2q-39xq-3w4g...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-jitsu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.11.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r5fr-rjxr-66jc",
+    "ghsa-5m6q-g25r-mvwx",
+    "ghsa-f23m-r3pf-42rh",
+    "ghsa-q67f-28xg-22rw",
+    "ghsa-jp2q-39xq-3w4g",
+    "ghsa-2328-f5f3-gj25",
+    "ghsa-ppp5-5v6c-4jwp",
+    "ghsa-3x4c-7xq6-9pq8",
+    "ghsa-38f7-945m-qr2g",
+    "ghsa-vpq2-c234-7xj6",
+    "ghsa-737v-mqg7-c878",
+    "ghsa-c7w3-x93f-qmm8",
+    "CVE-2026-3449",
+    "CVE-2026-35209",
+    "CVE-2026-32887",
+    "CVE-2026-33349",
+    "CVE-2026-4800",
+    "CVE-2026-2950",
+    "CVE-2026-27980",
+    "CVE-2026-33891",
+    "CVE-2026-33894",
+    "CVE-2026-33895",
+    "CVE-2026-33896"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/jitsu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
