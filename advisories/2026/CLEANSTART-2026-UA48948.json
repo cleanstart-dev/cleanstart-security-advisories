@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UA48948",
+  "summary": "Security fixes in kyverno 1.18.1-r2",
+  "details": "Package kyverno version 1.18.1-r2 fixes 14 vulnerabilities: CVE-2026-48702, CVE-2026-49478, CVE-2026-49835, ghsa-qw64-3x98-g7q2, ghsa-m3xc-h892-ggx6...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-48702",
+    "CVE-2026-49478",
+    "CVE-2026-49835",
+    "ghsa-qw64-3x98-g7q2",
+    "ghsa-m3xc-h892-ggx6",
+    "CVE-2026-44973",
+    "CVE-2026-44740",
+    "ghsa-389r-gv7p-r3rp",
+    "ghsa-crhj-59gh-8x96",
+    "ghsa-m7cr-m3pv-hgrp",
+    "ghsa-w5pp-99ch-qj29",
+    "CVE-2026-45022",
+    "CVE-2026-45571",
+    "CVE-2026-45570"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
