@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LL52842",
+  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.9-r0",
+  "details": "Package $pkgname-${pkgver%%.*} version 3.8.9-r0 fixes 3 vulnerabilities: CVE-2024-45993, CVE-2025-31344, CVE-2026-26740",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-${pkgver%%.*}",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-45993",
+    "CVE-2025-31344",
+    "CVE-2026-26740"
+  ],
+  "references": [
+    {
+      "url": "https://maven.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
