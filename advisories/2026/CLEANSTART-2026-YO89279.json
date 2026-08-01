@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YO89279",
+  "summary": "Security fixes in jitsucom-jitsu 2.11.0-r2",
+  "details": "Package jitsucom-jitsu version 2.11.0-r2 fixes 19 vulnerabilities: ghsa-fjxv-7rqg-78g4, ghsa-4hjh-wcwx-xvwj, ghsa-43fc-jf86-j433, ghsa-rcmh-qjqh-p98v, ghsa-v9p9-hfj2-hcw8...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-jitsu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.11.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-fjxv-7rqg-78g4",
+    "ghsa-4hjh-wcwx-xvwj",
+    "ghsa-43fc-jf86-j433",
+    "ghsa-rcmh-qjqh-p98v",
+    "ghsa-v9p9-hfj2-hcw8",
+    "ghsa-f269-vfmq-vjvj",
+    "ghsa-jmr7-xgp7-cmfj",
+    "ghsa-m7jm-9gc2-mpf2",
+    "ghsa-vrm6-8vpv-qv8q",
+    "ghsa-968p-4wvh-cqc8",
+    "ghsa-xxjr-mmjv-4gpg",
+    "ghsa-33vc-wfww-vjfv",
+    "ghsa-9g9p-9gw9-jx7f",
+    "ghsa-9qr9-h5gf-34mp",
+    "ghsa-h25m-26qc-wcjf",
+    "ghsa-5jpx-9hw9-2fx4",
+    "ghsa-g9mf-h72j-4rw9",
+    "ghsa-4992-7rv2-5pvq",
+    "ghsa-2mjp-6q6p-2qxm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/jitsu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
