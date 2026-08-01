@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YQ29053",
+  "summary": "Security fixes in rundeck 6.0.0-r2",
+  "details": "Package rundeck version 6.0.0-r2 fixes 10 vulnerabilities: CVE-2026-49844, CVE-2026-59889, CVE-2026-59888, CVE-2026-54518, CVE-2026-54517...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rundeck",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.0.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49844",
+    "CVE-2026-59889",
+    "CVE-2026-59888",
+    "CVE-2026-54518",
+    "CVE-2026-54517",
+    "CVE-2026-54516",
+    "CVE-2026-54515",
+    "CVE-2026-54514",
+    "CVE-2026-54513",
+    "CVE-2026-54512"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rundeck/rundeck",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
