@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JZ98125",
+  "summary": "Security fixes in cassandra-reaper-fips 3.6.1-r3",
+  "details": "Package cassandra-reaper-fips version 3.6.1-r3 fixes 85 vulnerabilities: CVE-2026-23901, ghsa-c4qc-4q9p-m9q9, CVE-2026-1225, ghsa-qqpg-mvqg-649v, CVE-2024-12798...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-reaper-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-23901",
+    "ghsa-c4qc-4q9p-m9q9",
+    "CVE-2026-1225",
+    "ghsa-qqpg-mvqg-649v",
+    "CVE-2024-12798",
+    "CVE-2025-11226",
+    "CVE-2024-12801",
+    "ghsa-pr98-23f8-jwxv",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-6v67-2wr5-gvf4",
+    "CVE-2023-2976",
+    "CVE-2020-8908",
+    "ghsa-7g45-4rm6-3mm3",
+    "ghsa-5mg8-w23w-74h3",
+    "CVE-2025-24970",
+    "ghsa-4g8c-wm8x-jfhw",
+    "CVE-2023-34462",
+    "ghsa-6mjq-h674-j845",
+    "CVE-2022-24823",
+    "CVE-2024-47535",
+    "CVE-2025-25193",
+    "CVE-2025-58057",
+    "ghsa-xq3w-v528-46rv",
+    "ghsa-3p8m-j85q-pgmj",
+    "ghsa-389x-839f-4rhx",
+    "CVE-2022-1471",
+    "CVE-2022-38752",
+    "CVE-2022-41854",
+    "ghsa-mjmj-j48q-9wg2",
+    "ghsa-9w3m-gqgf-c4p9",
+    "ghsa-w37g-rhq8-7m4j",
+    "CVE-2025-48734",
+    "ghsa-wxr5-93ph-8wr9",
+    "CVE-2025-48924",
+    "ghsa-j288-q9x7-2f5v",
+    "CVE-2015-0886",
+    "ghsa-9h6p-92jq-888x",
+    "CVE-2025-52999",
+    "ghsa-72hv-8253-57qq",
+    "ghsa-h46c-h94j-95f3",
+    "CVE-2024-13009",
+    "CVE-2024-8184",
+    "CVE-2024-9823",
+    "ghsa-q4rv-gq96-w7c5",
+    "ghsa-g8m5-722r-8whq",
+    "ghsa-j26w-f9rq-mr2q",
+    "CVE-2022-1471",
+    "CVE-2022-38752",
+    "CVE-2022-41854",
+    "CVE-2025-52999",
+    "ghsa-72hv-8253-57qq",
+    "ghsa-h46c-h94j-95f3",
+    "CVE-2023-34462",
+    "ghsa-6mjq-h674-j845",
+    "CVE-2024-47535",
+    "ghsa-xq3w-v528-46rv",
+    "CVE-2025-25193",
+    "ghsa-389x-839f-4rhx",
+    "CVE-2022-24823",
+    "CVE-2025-58057",
+    "ghsa-3p8m-j85q-pgmj",
+    "CVE-2024-13009",
+    "ghsa-q4rv-gq96-w7c5",
+    "CVE-2024-8184",
+    "ghsa-g8m5-722r-8whq",
+    "CVE-2024-6763",
+    "ghsa-qh8g-58pp-2wxh",
+    "CVE-2025-11143",
+    "ghsa-wjpw-4j6x-6rwh",
+    "CVE-2024-9823",
+    "ghsa-j26w-f9rq-mr2q",
+    "CVE-2024-12798",
+    "CVE-2025-11226",
+    "CVE-2024-12801",
+    "CVE-2026-1225",
+    "ghsa-pr98-23f8-jwxv",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-6v67-2wr5-gvf4",
+    "ghsa-qqpg-mvqg-649v",
+    "CVE-2023-2976",
+    "ghsa-7g45-4rm6-3mm3",
+    "CVE-2025-48924",
+    "ghsa-j288-q9x7-2f5v",
+    "CVE-2015-0886",
+    "ghsa-9h6p-92jq-888x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thelastpickle/cassandra-reaper",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
