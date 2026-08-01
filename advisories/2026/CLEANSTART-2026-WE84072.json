@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WE84072",
+  "summary": "Security fixes in newrelic-infrastructure-bundle 3.3.31-r0",
+  "details": "Package newrelic-infrastructure-bundle version 3.3.31-r0 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.31-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "newrelic-infrastructure-bundle",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.3.31-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/newrelic/infrastructure-bundle",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:48Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
