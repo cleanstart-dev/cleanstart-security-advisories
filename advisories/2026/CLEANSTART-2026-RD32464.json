@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RD32464",
+  "summary": "Security fixes in npm 11.7.0-r0",
+  "details": "Package npm version 11.7.0-r0 fixes 3 vulnerabilities: CVE-2026-23745, CVE-2026-23950, CVE-2026-24001",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "npm",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "11.7.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-23745",
+    "CVE-2026-23950",
+    "CVE-2026-24001"
+  ],
+  "references": [
+    {
+      "url": "https://www.npmjs.com/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
