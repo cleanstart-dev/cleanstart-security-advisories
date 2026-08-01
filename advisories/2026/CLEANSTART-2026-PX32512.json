@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PX32512",
+  "summary": "Security fixes in tekton-pipelines 1.9.2-r0",
+  "details": "Package tekton-pipelines version 1.9.2-r0 fixes 10 vulnerabilities: ghsa-p77j-4mvh-x3m3, CVE-2026-33186, ghsa-mh2q-q3fh-2475, ghsa-78h2-9frx-2jm8, ghsa-hfvc-g4fc-pqhx...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-pipelines",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186",
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-34986",
+    "CVE-2026-39882",
+    "CVE-2026-39883",
+    "CVE-2025-15558"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/pipeline",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
