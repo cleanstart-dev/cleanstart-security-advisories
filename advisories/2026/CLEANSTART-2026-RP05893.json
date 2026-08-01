@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RP05893",
+  "summary": "Security fixes in activemq 5.19.3-r0",
+  "details": "Package activemq version 5.19.3-r0 fixes 1 vulnerabilities: ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.19.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "activemq",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.19.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://activemq.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
