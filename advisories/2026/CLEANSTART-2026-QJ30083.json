@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QJ30083",
+  "summary": "Security fixes in cass-operator 1.28.1-r1",
+  "details": "Package cass-operator version 1.28.1-r1 fixes 2 vulnerabilities: ghsa-p77j-4mvh-x3m3, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cass-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.28.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8ssandra/cass-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
