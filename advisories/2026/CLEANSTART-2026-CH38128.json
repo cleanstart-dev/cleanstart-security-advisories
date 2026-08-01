@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CH38128",
+  "summary": "Security fixes in tkn-fips 0.43.0-r1",
+  "details": "Package tkn-fips version 0.43.0-r1 fixes 2 vulnerabilities: ghsa-4qg8-fj49-pxjh, ghsa-f83f-xpx7-ffpw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.43.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tkn-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.43.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-4qg8-fj49-pxjh",
+    "ghsa-f83f-xpx7-ffpw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
