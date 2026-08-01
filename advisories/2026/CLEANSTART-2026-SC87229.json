@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SC87229",
+  "summary": "Security fixes in rclone 1.73.5-r5",
+  "details": "Package rclone version 1.73.5-r5 fixes 5 vulnerabilities: ghsa-hrxh-6v49-42gf, ghsa-259r-337f-4rfw, ghsa-3fxj-6jh8-hvhx, ghsa-9g5q-2w5x-hmxf, ghsa-rjr7-jggh-pgcp",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.73.5-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rclone",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.73.5-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-259r-337f-4rfw",
+    "ghsa-3fxj-6jh8-hvhx",
+    "ghsa-9g5q-2w5x-hmxf",
+    "ghsa-rjr7-jggh-pgcp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rclone/rclone",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
