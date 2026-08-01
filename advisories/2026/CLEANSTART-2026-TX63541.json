@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TX63541",
+  "summary": "Security fixes in wildfly 39.0.1-r7",
+  "details": "Package wildfly version 39.0.1-r7 fixes 2 vulnerabilities: CVE-2026-59949, ghsa-mfg7-5gfp-c4w3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r7"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wildfly",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "39.0.1-r7"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59949",
+    "ghsa-mfg7-5gfp-c4w3"
+  ],
+  "references": [
+    {
+      "url": "https://www.wildfly.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
