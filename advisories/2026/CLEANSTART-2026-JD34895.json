@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JD34895",
+  "summary": "Security fixes in minio-operator-fips 7.1.1-r7",
+  "details": "Package minio-operator-fips version 7.1.1-r7 fixes 2 vulnerabilities: ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-r7"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.1.1-r7"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
