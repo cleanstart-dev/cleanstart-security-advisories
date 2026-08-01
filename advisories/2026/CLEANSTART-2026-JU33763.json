@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JU33763",
+  "summary": "Security fixes in trino 480-r1",
+  "details": "Package trino version 480-r1 fixes 3 vulnerabilities: CVE-2026-42499, CVE-2026-39836, CVE-2026-39826",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "480-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trino",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "480-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42499",
+    "CVE-2026-39836",
+    "CVE-2026-39826"
+  ],
+  "references": [
+    {
+      "url": "https://trino.io",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
