@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WF12497",
+  "summary": "Security fixes in consul-k8s-fips 1.9.1-r2",
+  "details": "Package consul-k8s-fips version 1.9.1-r2 fixes 4 vulnerabilities: CVE-2026-33186, CVE-2026-25679, CVE-2026-27142, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-k8s-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
