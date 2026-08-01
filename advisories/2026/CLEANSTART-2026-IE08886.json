@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IE08886",
+  "summary": "Security fixes in helm-fips 4.0.5-r1",
+  "details": "Package helm-fips version 4.0.5-r1 fixes 2 vulnerabilities: CVE-2026-1229, ghsa-q9hv-hpm4-hj6x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1229",
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
