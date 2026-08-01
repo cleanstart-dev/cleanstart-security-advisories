@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IL48239",
+  "summary": "Security fixes in ztunnel-fips 1.30.0-r0",
+  "details": "Package ztunnel-fips version 1.30.0-r0 fixes 3 vulnerabilities: ghsa-3v94-mw7p-v465, ghsa-q2qq-hmj6-3wpp, ghsa-cq8v-f236-94qc",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ztunnel-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.30.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3v94-mw7p-v465",
+    "ghsa-q2qq-hmj6-3wpp",
+    "ghsa-cq8v-f236-94qc"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/ztunnel",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
