@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QL65483",
+  "summary": "Security fixes in harbor-trivy-adapter-fips 0.36.0-r0",
+  "details": "Package harbor-trivy-adapter-fips version 0.36.0-r0 fixes 3 vulnerabilities: CVE-2026-49835, CVE-2026-50151, CVE-2026-39822",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.36.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor-trivy-adapter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.36.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49835",
+    "CVE-2026-50151",
+    "CVE-2026-39822"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/goharbor/harbor-scanner-trivy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
