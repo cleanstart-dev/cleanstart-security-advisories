@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YQ27471",
+  "summary": "Security fixes in melange 0.46.1-r0",
+  "details": "Package melange version 0.46.1-r0 fixes 3 vulnerabilities: CVE-2026-34040, CVE-2026-34986, CVE-2026-34165",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.46.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "melange",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.46.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34040",
+    "CVE-2026-34986",
+    "CVE-2026-34165"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/chainguard-dev/melange",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
