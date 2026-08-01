@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WE49959",
+  "summary": "Security fixes in ollama 0.30.10-r0",
+  "details": "Package ollama version 0.30.10-r0 fixes 6 vulnerabilities: CVE-2026-46595, CVE-2026-42508, CVE-2026-39821, CVE-2026-25680, CVE-2026-33813...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.30.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ollama",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.30.10-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46595",
+    "CVE-2026-42508",
+    "CVE-2026-39821",
+    "CVE-2026-25680",
+    "CVE-2026-33813",
+    "CVE-2026-46601"
+  ],
+  "references": [
+    {
+      "url": "https://ollama.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
