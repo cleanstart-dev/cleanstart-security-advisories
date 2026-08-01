@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SD03557",
+  "summary": "Security fixes in elasticsearch 9.2.8-r2",
+  "details": "Package elasticsearch version 9.2.8-r2 fixes 6 vulnerabilities: CVE-2025-68161, CVE-2026-34477, CVE-2026-34478, CVE-2026-34480, CVE-2026-34479...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.8-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elasticsearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.2.8-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68161",
+    "CVE-2026-34477",
+    "CVE-2026-34478",
+    "CVE-2026-34480",
+    "CVE-2026-34479",
+    "CVE-2026-59949"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/elasticsearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:48Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
