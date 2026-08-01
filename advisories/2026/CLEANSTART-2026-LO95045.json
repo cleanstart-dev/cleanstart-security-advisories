@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LO95045",
+  "summary": "Security fixes in syft 1.39.0-r3",
+  "details": "Package syft version 1.39.0-r3 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.39.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "syft",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.39.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/anchore/syft",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
