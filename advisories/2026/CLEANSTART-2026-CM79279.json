@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CM79279",
+  "summary": "Security fixes in py3-jupyterhub 5.4.4-r0",
+  "details": "Package py3-jupyterhub version 5.4.4-r0 fixes 2 vulnerabilities: CVE-2026-44432, CVE-2026-44431",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3-jupyterhub",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.4.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44432",
+    "CVE-2026-44431"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jupyterhub/jupyterhub",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
