@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KV83814",
+  "summary": "Security fixes in py3-jupyterhub 5.4.6-r3",
+  "details": "Package py3-jupyterhub version 5.4.6-r3 fixes 1 vulnerabilities: ghsa-537c-gmf6-5ccf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.4.6-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3-jupyterhub",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.4.6-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-537c-gmf6-5ccf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jupyterhub/jupyterhub",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
