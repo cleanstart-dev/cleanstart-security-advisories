@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TR90585",
+  "summary": "Security fixes in terragrunt-fips 0.97.2-r3",
+  "details": "Package terragrunt-fips version 0.97.2-r3 fixes 3 vulnerabilities: CVE-2026-34986, ghsa-xmrv-pmrh-hhx2, ghsa-xmrv-pmrh-hhx2",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.97.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terragrunt-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.97.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986",
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-xmrv-pmrh-hhx2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
