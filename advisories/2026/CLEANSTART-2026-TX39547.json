@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TX39547",
+  "summary": "Security fixes in curl 7.50.3-r0",
+  "details": "Package curl version 7.50.3-r0 fixes 1 vulnerabilities: CVE-2016-7167",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.50.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "curl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.50.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-7167"
+  ],
+  "references": [
+    {
+      "url": "https://curl.se/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
