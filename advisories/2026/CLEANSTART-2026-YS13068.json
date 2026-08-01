@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YS13068",
+  "summary": "Security fixes in docker 23.0.2-r0",
+  "details": "Package docker version 23.0.2-r0 fixes 1 vulnerabilities: CVE-2023-26054",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "23.0.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "docker",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "23.0.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-26054"
+  ],
+  "references": [
+    {
+      "url": "https://www.docker.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
