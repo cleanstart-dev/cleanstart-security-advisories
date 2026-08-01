@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AD69953",
+  "summary": "Security fixes in argo-cd-fips 3.1.14-r0",
+  "details": "Package argo-cd-fips version 3.1.14-r0 fixes 14 vulnerabilities: ghsa-mh2q-q3fh-2475, ghsa-p77j-4mvh-x3m3, ghsa-pc3f-x583-g7j2, ghsa-78h2-9frx-2jm8, ghsa-hfvc-g4fc-pqhx...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.14-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.14-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-pc3f-x583-g7j2",
+    "ghsa-78h2-9frx-2jm8",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-jhf3-xxhw-2wpp",
+    "ghsa-gm2x-2g9h-ccm8",
+    "ghsa-3xc5-wrhm-f963",
+    "CVE-2026-34165",
+    "CVE-2026-33762",
+    "CVE-2026-34986",
+    "CVE-2026-35469",
+    "CVE-2026-39883",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
