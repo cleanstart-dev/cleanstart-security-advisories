@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QJ84375",
+  "summary": "Security fixes in prometheus-elasticsearch-exporter 1.10.0-r1",
+  "details": "Package prometheus-elasticsearch-exporter version 1.10.0-r1 fixes 3 vulnerabilities: CVE-2026-25679, CVE-2026-27139, CVE-2026-27142",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-elasticsearch-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27142"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus-community/elasticsearch_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
