@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LN96571",
+  "summary": "Security fixes in opentofu-fips 1.11.7-r0",
+  "details": "Package opentofu-fips version 1.11.7-r0 fixes 2 vulnerabilities: ghsa-pjcq-xvwq-hhpj, CVE-2026-32952",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.11.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-pjcq-xvwq-hhpj",
+    "CVE-2026-32952"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
