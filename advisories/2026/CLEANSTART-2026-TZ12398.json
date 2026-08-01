@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TZ12398",
+  "summary": "Security fixes in elastic-beats 9.4.3-r0",
+  "details": "Package elastic-beats version 9.4.3-r0 fixes 3 vulnerabilities: CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elastic-beats",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.4.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/beats",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
