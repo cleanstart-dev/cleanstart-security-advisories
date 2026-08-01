@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RH30892",
+  "summary": "Security fixes in vault 1.20.4-r1",
+  "details": "Package vault version 1.20.4-r1 fixes 2 vulnerabilities: CVE-2026-34986, ghsa-78h2-9frx-2jm8",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986",
+    "ghsa-78h2-9frx-2jm8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/vault.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
