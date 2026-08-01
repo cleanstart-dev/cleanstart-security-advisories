@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KN99693",
+  "summary": "Security fixes in distribution-fips 3.1.0-r0",
+  "details": "Package distribution-fips version 3.1.0-r0 fixes 4 vulnerabilities: ghsa-hfvc-g4fc-pqhx, ghsa-w8rr-5gcm-pp58, CVE-2026-39882, CVE-2026-39883",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "distribution-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-39882",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/distribution/distribution",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
