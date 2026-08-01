@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BK52923",
+  "summary": "Security fixes in thingsboard 4.3.0.1-r2",
+  "details": "Package thingsboard version 4.3.0.1-r2 fixes 24 vulnerabilities: CVE-2026-29145, CVE-2026-24734, CVE-2026-34483, CVE-2026-34487, CVE-2025-66614...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.0.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.0.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-29145",
+    "CVE-2026-24734",
+    "CVE-2026-34483",
+    "CVE-2026-34487",
+    "CVE-2025-66614",
+    "CVE-2026-25854",
+    "CVE-2026-34500",
+    "CVE-2026-24733",
+    "CVE-2026-24880",
+    "CVE-2026-24281",
+    "CVE-2026-24308",
+    "CVE-2026-35554",
+    "CVE-2026-33870",
+    "CVE-2026-33871",
+    "CVE-2026-22737",
+    "CVE-2026-22735",
+    "CVE-2025-41254",
+    "CVE-2025-8916",
+    "CVE-2026-5588",
+    "CVE-2026-0636",
+    "ghsa-72hv-8253-57qq",
+    "CVE-2025-7962",
+    "CVE-2026-1225",
+    "CVE-2023-3635"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
