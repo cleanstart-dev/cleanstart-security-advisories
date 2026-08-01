@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YB29217",
+  "summary": "Security fixes in fabric-peer 2.5.16-r1",
+  "details": "Package fabric-peer version 2.5.16-r1 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.16-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fabric-peer",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.5.16-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hyperledger/fabric",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
