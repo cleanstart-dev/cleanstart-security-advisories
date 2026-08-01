@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LW15803",
+  "summary": "Security fixes in cloudnative-pg 1.27.4-r1",
+  "details": "Package cloudnative-pg version 1.27.4-r1 fixes 5 vulnerabilities: CVE-2026-46600, CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cloudnative-pg",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.27.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
