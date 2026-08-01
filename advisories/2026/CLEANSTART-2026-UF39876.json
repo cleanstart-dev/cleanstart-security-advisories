@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UF39876",
+  "summary": "Security fixes in grafana-alloy 1.14.1-r0",
+  "details": "Package grafana-alloy version 1.14.1-r0 fixes 5 vulnerabilities: CVE-2026-33186, CVE-2026-32287, CVE-2026-24051, CVE-2026-33186, ghsa-6g7g-w4f8-9c9x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-alloy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-32287",
+    "CVE-2026-24051",
+    "CVE-2026-33186",
+    "ghsa-6g7g-w4f8-9c9x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/alloy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
