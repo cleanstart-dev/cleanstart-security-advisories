@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UP35142",
+  "summary": "Security fixes in logstash-fips 9.2.6-r2",
+  "details": "Package logstash-fips version 9.2.6-r2 fixes 4 vulnerabilities: CVE-2026-33210, CVE-2025-48924, ghsa-3m6g-2423-7cp3, ghsa-j288-q9x7-2f5v",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.6-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.2.6-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33210",
+    "CVE-2025-48924",
+    "ghsa-3m6g-2423-7cp3",
+    "ghsa-j288-q9x7-2f5v"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/logstash",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
