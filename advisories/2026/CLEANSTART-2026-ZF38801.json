@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZF38801",
+  "summary": "Security fixes in kafka-fips 3.8.1-r11",
+  "details": "Package kafka-fips version 3.8.1-r11 fixes 4 vulnerabilities: ghsa-mj4r-2hfc-f8p6, ghsa-rwm7-x88c-3g2p, CVE-2026-42583, CVE-2026-42577",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.1-r11"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.1-r11"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mj4r-2hfc-f8p6",
+    "ghsa-rwm7-x88c-3g2p",
+    "CVE-2026-42583",
+    "CVE-2026-42577"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
