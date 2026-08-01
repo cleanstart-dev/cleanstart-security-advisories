@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ME41456",
+  "summary": "Security fixes in opentofu-fips 1.9.4-r0",
+  "details": "Package opentofu-fips version 1.9.4-r0 fixes 5 vulnerabilities: ghsa-hcg3-q754-cr77, ghsa-mh63-6h87-95cp, ghsa-c6gw-w398-hv78, ghsa-qxp5-gwg8-xv66, ghsa-vvgc-356p-c3xw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentofu-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-c6gw-w398-hv78",
+    "ghsa-qxp5-gwg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://opentofu.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
