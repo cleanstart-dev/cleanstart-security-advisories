@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VB84129",
+  "summary": "Security fixes in kapp-controller 0.59.0-r0",
+  "details": "Package kapp-controller version 0.59.0-r0 fixes 3 vulnerabilities: ghsa-6v2p-p543-phr9, ghsa-f6x5-jh6r-wrfv, ghsa-j5w8-q4qc-rx2x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.59.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kapp-controller",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.59.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6v2p-p543-phr9",
+    "ghsa-f6x5-jh6r-wrfv",
+    "ghsa-j5w8-q4qc-rx2x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/carvel-dev/kapp-controller",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
