@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KV79736",
+  "summary": "Security fixes in rabbitmq-cluster-operator 2.19.2-r5",
+  "details": "Package rabbitmq-cluster-operator version 2.19.2-r5 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.19.2-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rabbitmq-cluster-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.19.2-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rabbitmq/cluster-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
