@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CR65103",
+  "summary": "Security fixes in vault-k8s 1.6.2-r0",
+  "details": "Package vault-k8s version 1.6.2-r0 fixes 3 vulnerabilities: CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vault-k8s",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.6.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/vault-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
