@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ML98617",
+  "summary": "Security fixes in coredns 1.14.2-r1",
+  "details": "Package coredns version 1.14.2-r1 fixes 13 vulnerabilities: CVE-2026-32282, CVE-2026-32289, CVE-2026-33810, CVE-2026-27144, CVE-2026-27143...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "coredns",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32282",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "CVE-2026-27144",
+    "CVE-2026-27143",
+    "CVE-2026-32288",
+    "CVE-2026-32283",
+    "CVE-2026-27140",
+    "CVE-2026-32936",
+    "CVE-2026-33190",
+    "CVE-2026-33489",
+    "CVE-2026-32934",
+    "CVE-2026-35579"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/coredns/coredns",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
