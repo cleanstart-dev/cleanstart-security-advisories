@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BI94608",
+  "summary": "Security fixes in dex-fips 2.43.1-r5",
+  "details": "Package dex-fips version 2.43.1-r5 fixes 19 vulnerabilities: ghsa-mh2q-q3fh-2475, CVE-2026-39820, ghsa-pjcq-xvwq-hhpj, ghsa-479m-364c-43vc, ghsa-fw7p-63qq-7hpr...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.43.1-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dex-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.43.1-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh2q-q3fh-2475",
+    "CVE-2026-39820",
+    "ghsa-pjcq-xvwq-hhpj",
+    "ghsa-479m-364c-43vc",
+    "ghsa-fw7p-63qq-7hpr",
+    "CVE-2026-42499",
+    "CVE-2026-33487",
+    "CVE-2026-29181",
+    "CVE-2026-26958",
+    "CVE-2026-32952",
+    "CVE-2026-39836",
+    "CVE-2026-33814",
+    "CVE-2026-33811",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-39823",
+    "CVE-2026-39826",
+    "CVE-2026-39825",
+    "CVE-2026-42501"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/dexidp/dex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
