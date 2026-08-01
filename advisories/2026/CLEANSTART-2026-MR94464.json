@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MR94464",
+  "summary": "Security fixes in istio 1.27.9-r1",
+  "details": "Package istio version 1.27.9-r1 fixes 4 vulnerabilities: CVE-2026-42504, CVE-2026-27145, CVE-2026-39821, CVE-2026-25680",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.9-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.27.9-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504",
+    "CVE-2026-27145",
+    "CVE-2026-39821",
+    "CVE-2026-25680"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
