@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DC00064",
+  "summary": "Security fixes in sonarqube 26.3.0.120487-r1",
+  "details": "Package sonarqube version 26.3.0.120487-r1 fixes 1 vulnerabilities: CVE-2026-42198",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.3.0.120487-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sonarqube",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.3.0.120487-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42198"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/SonarSource/sonarqube",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
