@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ML96673",
+  "summary": "Security fixes in apache-zookeeper 3.7.2-r6",
+  "details": "Package apache-zookeeper version 3.7.2-r6 fixes 1 vulnerabilities: CVE-2026-2332",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.2-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-zookeeper",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.2-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2332"
+  ],
+  "references": [
+    {
+      "url": "https://zookeeper.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
