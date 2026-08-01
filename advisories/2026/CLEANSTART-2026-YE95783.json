@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YE95783",
+  "summary": "Security fixes in tigera-operator 1.40.2-r0",
+  "details": "Package tigera-operator version 1.40.2-r0 fixes 1 vulnerabilities: CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.40.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tigera-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.40.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tigera/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:48Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
