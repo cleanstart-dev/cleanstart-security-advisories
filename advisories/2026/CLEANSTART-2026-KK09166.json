@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KK09166",
+  "summary": "Security fixes in helm 4.2.0-r2",
+  "details": "Package helm version 4.2.0-r2 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
