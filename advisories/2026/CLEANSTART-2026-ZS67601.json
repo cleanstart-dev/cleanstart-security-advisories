@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZS67601",
+  "summary": "Security fixes in istio-fips 1.28.1-r0",
+  "details": "Package istio-fips version 1.28.1-r0 fixes 3 vulnerabilities: CVE-2025-47913, CVE-2025-58181, CVE-2025-47914",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.28.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47913",
+    "CVE-2025-58181",
+    "CVE-2025-47914"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
