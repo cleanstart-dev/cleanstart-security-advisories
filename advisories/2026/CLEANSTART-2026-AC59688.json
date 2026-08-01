@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AC59688",
+  "summary": "Security fixes in kube-fluentd-operator 1.18.2-r1",
+  "details": "Package kube-fluentd-operator version 1.18.2-r1 fixes 4 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-fluentd-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware/kube-fluentd-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
