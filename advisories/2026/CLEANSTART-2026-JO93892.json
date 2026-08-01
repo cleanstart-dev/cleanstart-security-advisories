@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JO93892",
+  "summary": "Security fixes in temporal-ui-server-fips 2.48.2-r0",
+  "details": "Package temporal-ui-server-fips version 2.48.2-r0 fixes 4 vulnerabilities: ghsa-77fj-vx54-gvh7, ghsa-p77j-4mvh-x3m3, CVE-2026-40890, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.48.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-ui-server-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.48.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-77fj-vx54-gvh7",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-40890",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/ui-server",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
