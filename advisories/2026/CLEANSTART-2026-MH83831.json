@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MH83831",
+  "summary": "Security fixes in pulumi-language-dotnet 3.103.0-r1",
+  "details": "Package pulumi-language-dotnet version 3.103.0-r1 fixes 1 vulnerabilities: ghsa-3xc5-wrhm-f963",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.103.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pulumi-language-dotnet",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.103.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3xc5-wrhm-f963"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/pulumi/pulumi-dotnet",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
