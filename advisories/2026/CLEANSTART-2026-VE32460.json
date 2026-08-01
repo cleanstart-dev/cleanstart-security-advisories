@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VE32460",
+  "summary": "Security fixes in wave 0.10.0-r1",
+  "details": "Package wave version 0.10.0-r1 fixes 1 vulnerabilities: CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wave",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.10.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/wave-k8s/wave",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
