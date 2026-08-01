@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HY00225",
+  "summary": "Security fixes in gnupg 2.2.8-r0",
+  "details": "Package gnupg version 2.2.8-r0 fixes 1 vulnerabilities: CVE-2018-12020",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.8-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gnupg",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.8-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-12020"
+  ],
+  "references": [
+    {
+      "url": "https://www.gnupg.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
