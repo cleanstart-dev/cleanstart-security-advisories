@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VS76315",
+  "summary": "Security fixes in cassandra-fips 5.0.6-r1",
+  "details": "Package cassandra-fips version 5.0.6-r1 fixes 3 vulnerabilities: ghsa-5mg8-w23w-74h3, ghsa-7g45-4rm6-3mm3, ghsa-25qh-j22f-pwp8",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.6-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.0.6-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-5mg8-w23w-74h3",
+    "ghsa-7g45-4rm6-3mm3",
+    "ghsa-25qh-j22f-pwp8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/cassandra",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
