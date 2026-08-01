@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UF04910",
+  "summary": "Security fixes in node-problem-detector 0.8.19-r2",
+  "details": "Package node-problem-detector version 0.8.19-r2 fixes 5 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139, CVE-2026-27137, CVE-2026-27138",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.19-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "node-problem-detector",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.8.19-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-27137",
+    "CVE-2026-27138"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/node-problem-detector",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
