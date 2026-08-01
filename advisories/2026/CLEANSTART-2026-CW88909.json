@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CW88909",
+  "summary": "Security fixes in tigera-operator 1.42.1-r1",
+  "details": "Package tigera-operator version 1.42.1-r1 fixes 4 vulnerabilities: CVE-2026-50151, CVE-2026-50162, ghsa-vh4v-2xq2-g5cg, CVE-2026-48978",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.42.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tigera-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.42.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50151",
+    "CVE-2026-50162",
+    "ghsa-vh4v-2xq2-g5cg",
+    "CVE-2026-48978"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tigera/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
