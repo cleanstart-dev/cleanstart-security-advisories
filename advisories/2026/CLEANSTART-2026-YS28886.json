@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YS28886",
+  "summary": "Security fixes in postgresql 15.2-r0",
+  "details": "Package postgresql version 15.2-r0 fixes 1 vulnerabilities: CVE-2022-41862",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgresql",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "15.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41862"
+  ],
+  "references": [
+    {
+      "url": "https://www.postgresql.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
