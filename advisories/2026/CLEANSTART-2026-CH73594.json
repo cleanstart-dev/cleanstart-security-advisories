@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CH73594",
+  "summary": "Security fixes in vertical-pod-autoscaler-fips 1.5.1-r0",
+  "details": "Package vertical-pod-autoscaler-fips version 1.5.1-r0 fixes 2 vulnerabilities: CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "vertical-pod-autoscaler-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/autoscaler",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
