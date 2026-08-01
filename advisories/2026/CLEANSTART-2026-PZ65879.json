@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PZ65879",
+  "summary": "Security fixes in flux-kustomize-controller-fips 1.8.5-r0",
+  "details": "Package flux-kustomize-controller-fips version 1.8.5-r0 fixes 8 vulnerabilities: CVE-2026-46595, CVE-2026-39821, CVE-2026-42508, CVE-2026-33186, CVE-2026-34986...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "flux-kustomize-controller-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46595",
+    "CVE-2026-39821",
+    "CVE-2026-42508",
+    "CVE-2026-33186",
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "CVE-2026-1229",
+    "CVE-2026-26958"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluxcd/kustomize-controller",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
