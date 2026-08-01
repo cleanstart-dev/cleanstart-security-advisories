@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QX66018",
+  "summary": "Security fixes in gitlab-kas 18.5.1-r0",
+  "details": "Package gitlab-kas version 18.5.1-r0 fixes 8 vulnerabilities: CVE-2025-68121, CVE-2026-46595, CVE-2026-39821, CVE-2026-33186, CVE-2026-29181...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "18.5.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gitlab-kas",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "18.5.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2026-46595",
+    "CVE-2026-39821",
+    "CVE-2026-33186",
+    "CVE-2026-29181",
+    "CVE-2026-39883",
+    "CVE-2026-39882",
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
