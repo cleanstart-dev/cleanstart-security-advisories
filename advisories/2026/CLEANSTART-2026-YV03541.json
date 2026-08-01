@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YV03541",
+  "summary": "Security fixes in curl 8.1.0-r0",
+  "details": "Package curl version 8.1.0-r0 fixes 4 vulnerabilities: CVE-2023-28319, CVE-2023-28320, CVE-2023-28321, CVE-2023-28322",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.1.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "curl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.1.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28319",
+    "CVE-2023-28320",
+    "CVE-2023-28321",
+    "CVE-2023-28322"
+  ],
+  "references": [
+    {
+      "url": "https://curl.se/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
