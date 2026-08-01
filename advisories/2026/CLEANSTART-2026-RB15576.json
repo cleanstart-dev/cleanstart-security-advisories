@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RB15576",
+  "summary": "Security fixes in kyverno-policy-reporter-fips 3.7.3-r1",
+  "details": "Package kyverno-policy-reporter-fips version 3.7.3-r1 fixes 3 vulnerabilities: ghsa-xmrv-pmrh-hhx2, CVE-2026-34986, CVE-2026-39883",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno-policy-reporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xmrv-pmrh-hhx2",
+    "CVE-2026-34986",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/policy-reporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
