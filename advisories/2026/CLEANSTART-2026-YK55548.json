@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YK55548",
+  "summary": "Security fixes in syft 1.39.0-r2",
+  "details": "Package syft version 1.39.0-r2 fixes 6 vulnerabilities: CVE-2025-15558, CVE-2026-25679, CVE-2026-27142, CVE-2026-27137, CVE-2026-27138...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.39.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "syft",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.39.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-15558",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27137",
+    "CVE-2026-27138",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/anchore/syft",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
