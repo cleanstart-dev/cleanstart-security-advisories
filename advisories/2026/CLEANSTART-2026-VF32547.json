@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VF32547",
+  "summary": "Security fixes in prometheus 3.5.2:r0",
+  "details": "Package prometheus version 3.5.2:r0 fixes 6 vulnerabilities: ghsa-p77j-4mvh-x3m3, ghsa-w8rr-5gcm-pp58, ghsa-hfvc-g4fc-pqhx, CVE-2026-39882, CVE-2026-39883...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.2:r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.2:r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-39882",
+    "CVE-2026-39883",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:09Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
