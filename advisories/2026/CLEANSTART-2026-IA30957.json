@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IA30957",
+  "summary": "Security fixes in strimzi-kafka-operator 0.51.0-r0",
+  "details": "Package strimzi-kafka-operator version 0.51.0-r0 fixes 3 vulnerabilities: CVE-2025-11143, CVE-2026-1605, ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.51.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "strimzi-kafka-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.51.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11143",
+    "CVE-2026-1605",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/strimzi/strimzi-kafka-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
