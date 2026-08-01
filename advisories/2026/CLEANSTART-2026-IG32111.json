@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IG32111",
+  "summary": "Security fixes in aws-efs-csi-driver 2.2.0-r1",
+  "details": "Package aws-efs-csi-driver version 2.2.0-r1 fixes 8 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27138, CVE-2026-27137, CVE-2026-27139...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "aws-efs-csi-driver",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27138",
+    "CVE-2026-27137",
+    "CVE-2026-27139",
+    "CVE-2024-7598",
+    "CVE-2025-1767",
+    "CVE-2026-27141"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/aws-efs-csi-driver",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
