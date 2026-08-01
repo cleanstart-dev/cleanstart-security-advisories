@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WE99006",
+  "summary": "Security fixes in junit 4.13.1-r0",
+  "details": "Package junit version 4.13.1-r0 fixes 1 vulnerabilities: CVE-2020-15250",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.13.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "junit",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.13.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-15250"
+  ],
+  "references": [
+    {
+      "url": "https://junit.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
