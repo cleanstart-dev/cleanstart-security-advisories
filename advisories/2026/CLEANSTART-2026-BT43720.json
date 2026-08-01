@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BT43720",
+  "summary": "Security fixes in distribution 3.0.0-r1",
+  "details": "Package distribution version 3.0.0-r1 fixes 7 vulnerabilities: CVE-2025-68121, CVE-2025-61732, CVE-2026-25679, CVE-2026-27142, CVE-2026-27139...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "distribution",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121",
+    "CVE-2025-61732",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-24051",
+    "ghsa-9h8m-3fm2-qjrq"
+  ],
+  "references": [
+    {
+      "url": "https://distribution.github.io/distribution",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
