@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BF40413",
+  "summary": "Security fixes in stargate 2.0.44-r5",
+  "details": "Package stargate version 2.0.44-r5 fixes 8 vulnerabilities: ghsa-qh8g-58pp-2wxh, ghsa-wjpw-4j6x-6rwh, ghsa-pvp8-3xj6-8c6x, ghsa-xwmg-2g98-w7v9, CVE-2024-6763...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.44-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "stargate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.0.44-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qh8g-58pp-2wxh",
+    "ghsa-wjpw-4j6x-6rwh",
+    "ghsa-pvp8-3xj6-8c6x",
+    "ghsa-xwmg-2g98-w7v9",
+    "CVE-2024-6763",
+    "CVE-2025-11143",
+    "CVE-2025-46392",
+    "CVE-2025-53864"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stargate/stargate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
