@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KA69781",
+  "summary": "Security fixes in pulumi 3.299.0-r0",
+  "details": "Package pulumi version 3.299.0-r0 fixes 6 vulnerabilities: ghsa-hfvc-g4fc-pqhx, ghsa-xmrv-pmrh-hhx2, ghsa-3xc5-wrhm-f963, CVE-2026-34040, CVE-2026-33997...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.299.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "pulumi",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.299.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-3xc5-wrhm-f963",
+    "CVE-2026-34040",
+    "CVE-2026-33997",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/pulumi/pulumi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
