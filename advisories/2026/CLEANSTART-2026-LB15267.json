@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LB15267",
+  "summary": "Security fixes in terraform 1.15.1-r0",
+  "details": "Package terraform version 1.15.1-r0 fixes 2 vulnerabilities: ghsa-w8rr-5gcm-pp58, CVE-2026-39882",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terraform",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-39882"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/terraform",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
