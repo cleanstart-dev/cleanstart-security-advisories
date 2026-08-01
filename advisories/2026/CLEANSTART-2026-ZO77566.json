@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZO77566",
+  "summary": "Security fixes in grafana-alloy 1.14.2-r2",
+  "details": "Package grafana-alloy version 1.14.2-r2 fixes 16 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana-alloy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "ghsa-xmrv-pmrh-hhx2",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-rwvp-r38j-9rgg",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-34040",
+    "CVE-2026-33997",
+    "CVE-2025-11579",
+    "CVE-2026-39882",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/alloy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
