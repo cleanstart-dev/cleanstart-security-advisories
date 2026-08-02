@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ES48341",
+  "summary": "Security fixes in prometheus-node-exporter-fips 1.11.0-r0",
+  "details": "Package prometheus-node-exporter-fips version 1.11.0-r0 fixes 18 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-27145, CVE-2026-39822, CVE-2026-42504...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-node-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.11.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-27145",
+    "CVE-2026-39822",
+    "CVE-2026-42504",
+    "CVE-2026-42505",
+    "CVE-2026-42507",
+    "CVE-2026-42501",
+    "CVE-2026-33811",
+    "CVE-2026-33814",
+    "CVE-2026-39817",
+    "CVE-2026-39819",
+    "CVE-2026-39820",
+    "CVE-2026-39823",
+    "CVE-2026-39825",
+    "CVE-2026-39826",
+    "CVE-2026-39836",
+    "CVE-2026-42499"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/node_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
