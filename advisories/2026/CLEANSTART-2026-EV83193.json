@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EV83193",
+  "summary": "Security fixes in elastic-beats 8.19.15-r3",
+  "details": "Package elastic-beats version 8.19.15-r3 fixes 1 vulnerabilities: ghsa-wg65-39gg-5wfj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.19.15-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elastic-beats",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.19.15-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-wg65-39gg-5wfj"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/beats",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
