@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FT09267",
+  "summary": "Security fixes in gptscript 0.9.9-r2",
+  "details": "Package gptscript version 0.9.9-r2 fixes 1 vulnerabilities: CVE-2026-33814",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.9-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gptscript",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.9.9-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33814"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gptscript-ai/gptscript",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
