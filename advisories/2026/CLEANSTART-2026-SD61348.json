@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SD61348",
+  "summary": "Security fixes in istio-fips 1.26.8-r4",
+  "details": "Package istio-fips version 1.26.8-r4 fixes 19 vulnerabilities: CVE-2026-25680, CVE-2026-25681, CVE-2026-27136, CVE-2026-39821, CVE-2026-42502...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.8-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.26.8-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25680",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-39821",
+    "CVE-2026-42502",
+    "CVE-2026-42506",
+    "CVE-2026-39835",
+    "CVE-2026-46598",
+    "CVE-2026-39828",
+    "CVE-2026-39827",
+    "CVE-2026-39829",
+    "CVE-2026-46597",
+    "CVE-2026-39830",
+    "CVE-2026-39831",
+    "CVE-2026-39832",
+    "CVE-2026-39833",
+    "CVE-2026-39834",
+    "CVE-2026-42508",
+    "CVE-2026-46595"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
