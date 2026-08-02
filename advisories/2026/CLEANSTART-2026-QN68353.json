@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QN68353",
+  "summary": "Security fixes in spark-sc213-jdk17-py312 4.0.3-r0",
+  "details": "Package spark-sc213-jdk17-py312 version 4.0.3-r0 fixes 10 vulnerabilities: CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, ghsa-3g76-f9xq-8vp6...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc213-jdk17-py312",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "ghsa-3g76-f9xq-8vp6",
+    "CVE-2026-6860",
+    "ghsa-2r2c-cx56-8933",
+    "ghsa-47qp-hqvx-6r3f",
+    "ghsa-337m-mw94-2v6g",
+    "CVE-2026-45205"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
