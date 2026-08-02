@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EL49861",
+  "summary": "Security fixes in prometheus 3.10.0-r5",
+  "details": "Package prometheus version 3.10.0-r5 fixes 1 vulnerabilities: CVE-2026-2303",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.10.0-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.10.0-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2303"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
