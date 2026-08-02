@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EM10035",
+  "summary": "Security fixes in nginx 1.20.1-r1",
+  "details": "Package nginx version 1.20.1-r1 fixes 1 vulnerabilities: CVE-2021-3618",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nginx",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3618"
+  ],
+  "references": [
+    {
+      "url": "https://www.nginx.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
