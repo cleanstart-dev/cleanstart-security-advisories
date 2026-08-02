@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QU37048",
+  "summary": "Security fixes in wait-for-port 1.0.10-r6",
+  "details": "Package wait-for-port version 1.0.10-r6 fixes 2 vulnerabilities: CVE-2026-42505, CVE-2026-39822",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.10-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wait-for-port",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.10-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42505",
+    "CVE-2026-39822"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/bitnami/wait-for-port",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
