@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EL29865",
+  "summary": "Security fixes in miniforge3 26.3.2.0-r0",
+  "details": "Package miniforge3 version 26.3.2.0-r0 fixes 2 vulnerabilities: ghsa-6v7p-g79w-8964, CVE-2026-57585",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.3.2.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "miniforge3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.3.2.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6v7p-g79w-8964",
+    "CVE-2026-57585"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/conda-forge/miniforge",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
