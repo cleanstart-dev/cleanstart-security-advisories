@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EC51762",
+  "summary": "Security fixes in minio-client-fips 0.20250416181326-r0",
+  "details": "Package minio-client-fips version 0.20250416181326-r0 fixes 1 vulnerabilities: CVE-2022-41717",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20250416181326-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-client-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.20250416181326-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41717"
+  ],
+  "references": [
+    {
+      "url": "https://min.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
