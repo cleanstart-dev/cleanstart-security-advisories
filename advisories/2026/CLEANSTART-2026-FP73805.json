@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FP73805",
+  "summary": "Security fixes in trillian 1.7.2-r1",
+  "details": "Package trillian version 1.7.2-r1 fixes 7 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27138, CVE-2026-27137, CVE-2026-27139...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trillian",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27138",
+    "CVE-2026-27137",
+    "CVE-2026-27139",
+    "CVE-2026-26958",
+    "CVE-2026-24051"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/trillian",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
