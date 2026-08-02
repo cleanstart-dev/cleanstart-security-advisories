@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FI63843",
+  "summary": "Security fixes in tekton-pipelines-fips 1.7.0-r0",
+  "details": "Package tekton-pipelines-fips version 1.7.0-r0 fixes 14 vulnerabilities: ghsa-p77j-4mvh-x3m3, ghsa-p436-gjf2-799p, ghsa-78h2-9frx-2jm8, CVE-2025-15558, CVE-2026-34986...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-pipelines-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-p436-gjf2-799p",
+    "ghsa-78h2-9frx-2jm8",
+    "CVE-2025-15558",
+    "CVE-2026-34986",
+    "CVE-2026-33186",
+    "ghsa-mh2q-q3fh-2475",
+    "ghsa-9h8m-3fm2-qjrq",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "CVE-2026-39882",
+    "CVE-2026-24051",
+    "CVE-2026-39883",
+    "CVE-2025-15558"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/pipeline",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
