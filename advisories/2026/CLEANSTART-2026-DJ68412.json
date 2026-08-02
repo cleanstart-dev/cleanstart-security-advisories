@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DJ68412",
+  "summary": "Security fixes in kafka-fips 4.0.1-r2",
+  "details": "Package kafka-fips version 4.0.1-r2 fixes 2 vulnerabilities: CVE-2025-11143, CVE-2026-1605",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-11143",
+    "CVE-2026-1605"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
