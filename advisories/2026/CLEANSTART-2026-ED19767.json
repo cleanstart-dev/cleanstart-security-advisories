@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ED19767",
+  "summary": "Security fixes in opensearch-dashboards-fips 3.6.0-r4",
+  "details": "Package opensearch-dashboards-fips version 3.6.0-r4 fixes 7 vulnerabilities: ghsa-cmwh-pvxp-8882, CVE-2026-12143, CVE-2026-46625, CVE-2026-53550, CVE-2026-53655...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opensearch-dashboards-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cmwh-pvxp-8882",
+    "CVE-2026-12143",
+    "CVE-2026-46625",
+    "CVE-2026-53550",
+    "CVE-2026-53655",
+    "CVE-2026-44979",
+    "CVE-2026-45249"
+  ],
+  "references": [
+    {
+      "url": "https://opensearch.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
