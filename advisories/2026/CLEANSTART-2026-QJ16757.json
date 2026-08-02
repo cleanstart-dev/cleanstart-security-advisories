@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QJ16757",
+  "summary": "Security fixes in harbor 2.12.4-r1",
+  "details": "Package harbor version 2.12.4-r1 fixes 1 vulnerabilities: CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "harbor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.12.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/go$pkgname/$pkgname",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
