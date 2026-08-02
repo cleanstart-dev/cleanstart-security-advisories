@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QY68123",
+  "summary": "Security fixes in nginx 1.16.1-r6",
+  "details": "Package nginx version 1.16.1-r6 fixes 1 vulnerabilities: CVE-2019-20372",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.1-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nginx",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.16.1-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-20372"
+  ],
+  "references": [
+    {
+      "url": "https://www.nginx.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
