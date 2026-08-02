@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SK95653",
+  "summary": "Security fixes in kapp-controller 0.57.0-r0",
+  "details": "Package kapp-controller version 0.57.0-r0 fixes 6 vulnerabilities: ghsa-hfvc-g4fc-pqhx, ghsa-p77j-4mvh-x3m3, ghsa-mh2q-q3fh-2475, CVE-2026-33186, CVE-2026-39883...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.57.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kapp-controller",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.57.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-mh2q-q3fh-2475",
+    "CVE-2026-33186",
+    "CVE-2026-39883",
+    "CVE-2026-24051"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/carvel-dev/kapp-controller",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
