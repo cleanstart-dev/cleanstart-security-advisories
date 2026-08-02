@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DO90015",
+  "summary": "Security fixes in dex 2.44.0-r4",
+  "details": "Package dex version 2.44.0-r4 fixes 3 vulnerabilities: CVE-2026-42504, CVE-2026-42507, CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.44.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.44.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504",
+    "CVE-2026-42507",
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/dexidp/dex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
