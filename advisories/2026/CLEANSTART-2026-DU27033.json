@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DU27033",
+  "summary": "Security fixes in apache-superset 5.0.0-r8",
+  "details": "Package apache-superset version 5.0.0-r8 fixes 6 vulnerabilities: ghsa-537c-gmf6-5ccf, CVE-2026-34180, ghsa-6v7p-g79w-8964, CVE-2026-57585, CVE-2026-44405...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.0.0-r8"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-superset",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "5.0.0-r8"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-537c-gmf6-5ccf",
+    "CVE-2026-34180",
+    "ghsa-6v7p-g79w-8964",
+    "CVE-2026-57585",
+    "CVE-2026-44405",
+    "CVE-2026-7246"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/superset",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
