@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SP33530",
+  "summary": "Security fixes in prometheus-nats-exporter 0.16.0-r0",
+  "details": "Package prometheus-nats-exporter version 0.16.0-r0 fixes 1 vulnerabilities: ghsa-fhg8-qxh5-7q3w",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-nats-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-fhg8-qxh5-7q3w"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/nats-io/prometheus-nats-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
