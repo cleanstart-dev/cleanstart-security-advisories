@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QN62418",
+  "summary": "Security fixes in opensearch-dashboards-fips 3.5.0-r0",
+  "details": "Package opensearch-dashboards-fips version 3.5.0-r0 fixes 30 vulnerabilities: ghsa-jg4p-7fhp-p32p, ghsa-2w6w-674q-4c4q, ghsa-9cx6-37pm-9jff, ghsa-r5fr-rjxr-66jc, ghsa-3v7f-55p6-f55p...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opensearch-dashboards-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-jg4p-7fhp-p32p",
+    "ghsa-2w6w-674q-4c4q",
+    "ghsa-9cx6-37pm-9jff",
+    "ghsa-r5fr-rjxr-66jc",
+    "ghsa-3v7f-55p6-f55p",
+    "ghsa-3mfm-83xf-c92r",
+    "ghsa-2qvq-rjwj-gvw9",
+    "ghsa-xhpv-hc6g-r9c6",
+    "ghsa-f23m-r3pf-42rh",
+    "ghsa-c2c7-rcm5-vvqj",
+    "ghsa-f886-m6hf-6m8v",
+    "ghsa-2g4f-4pwh-qvx6",
+    "ghsa-xjpj-3mr7-gcpf",
+    "ghsa-r4q5-vmmm-2653",
+    "ghsa-7rx3-28cr-v5wh",
+    "ghsa-w5hq-g745-h8pq",
+    "ghsa-442j-39wm-28r2",
+    "CVE-2026-35213",
+    "CVE-2025-69873",
+    "CVE-2026-33750",
+    "CVE-2026-33937",
+    "CVE-2026-33938",
+    "CVE-2026-33939",
+    "CVE-2026-33940",
+    "CVE-2026-33941",
+    "CVE-2026-33916",
+    "CVE-2026-4800",
+    "CVE-2026-2950",
+    "CVE-2026-33671",
+    "CVE-2026-33672"
+  ],
+  "references": [
+    {
+      "url": "https://opensearch.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
