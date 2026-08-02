@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QT21347",
+  "summary": "Security fixes in go-discover-fips 0_git20250325-r1",
+  "details": "Package go-discover-fips version 0_git20250325-r1 fixes 3 vulnerabilities: CVE-2025-61726, CVE-2025-61728, CVE-2025-61730",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0_git20250325-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "go-discover-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0_git20250325-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/go-discover",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
