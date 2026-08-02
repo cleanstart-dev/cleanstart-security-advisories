@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DU61286",
+  "summary": "Security fixes in kubernetes-csi-livenessprobe-fips 2.17.0-r3",
+  "details": "Package kubernetes-csi-livenessprobe-fips version 2.17.0-r3 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.17.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-livenessprobe-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.17.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/livenessprobe",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
