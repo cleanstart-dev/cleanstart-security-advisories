@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SZ09294",
+  "summary": "Security fixes in fluent-operator-fips 3.7.0-r2",
+  "details": "Package fluent-operator-fips version 3.7.0-r2 fixes 6 vulnerabilities: CVE-2026-27143, CVE-2026-32281, CVE-2026-32280, CVE-2026-27140, CVE-2026-32283...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fluent-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27143",
+    "CVE-2026-32281",
+    "CVE-2026-32280",
+    "CVE-2026-27140",
+    "CVE-2026-32283",
+    "ghsa-hfvc-g4fc-pqhx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/fluent/fluent-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
