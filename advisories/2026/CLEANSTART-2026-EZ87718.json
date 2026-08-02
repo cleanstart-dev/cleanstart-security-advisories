@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EZ87718",
+  "summary": "Security fixes in percona-xtradb-cluster-operator-fips 1.18.0-r1",
+  "details": "Package percona-xtradb-cluster-operator-fips version 1.18.0-r1 fixes 8 vulnerabilities: CVE-2025-61726, CVE-2025-61730, CVE-2025-68121, CVE-2025-61728, CVE-2025-68119...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "percona-xtradb-cluster-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61730",
+    "CVE-2025-68121",
+    "CVE-2025-61728",
+    "CVE-2025-68119",
+    "CVE-2025-61732",
+    "CVE-2025-61731",
+    "CVE-2026-25518"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/percona/percona-xtradb-cluster-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
