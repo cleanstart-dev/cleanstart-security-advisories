@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DV50056",
+  "summary": "Security fixes in miniforge3 26.1.0.0-r1",
+  "details": "Package miniforge3 version 26.1.0.0-r1 fixes 8 vulnerabilities: ghsa-mf9v-mfxr-j63j, ghsa-qccp-gfcp-xxvc, CVE-2026-44431, CVE-2026-44432, ghsa-jp4c-xjxw-mgf9...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.1.0.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "miniforge3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.1.0.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mf9v-mfxr-j63j",
+    "ghsa-qccp-gfcp-xxvc",
+    "CVE-2026-44431",
+    "CVE-2026-44432",
+    "ghsa-jp4c-xjxw-mgf9",
+    "CVE-2026-6357",
+    "ghsa-gc5v-m9x4-r6x2",
+    "CVE-2026-25645"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/conda-forge/miniforge",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
