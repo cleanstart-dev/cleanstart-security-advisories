@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DJ44755",
+  "summary": "Security fixes in aws-privateca-issuer-fips 1.7.0-r1",
+  "details": "Package aws-privateca-issuer-fips version 1.7.0-r1 fixes 23 vulnerabilities: CVE-2026-39820, CVE-2026-25679, CVE-2026-42499, CVE-2026-33814, CVE-2026-27143...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "aws-privateca-issuer-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39820",
+    "CVE-2026-25679",
+    "CVE-2026-42499",
+    "CVE-2026-33814",
+    "CVE-2026-27143",
+    "CVE-2026-39836",
+    "CVE-2026-32281",
+    "CVE-2026-32280",
+    "CVE-2026-32283",
+    "CVE-2026-33811",
+    "CVE-2026-27140",
+    "CVE-2026-39826",
+    "CVE-2026-39817",
+    "CVE-2026-42501",
+    "CVE-2026-39825",
+    "CVE-2026-39823",
+    "CVE-2026-27142",
+    "CVE-2026-32289",
+    "CVE-2026-32282",
+    "CVE-2026-27144",
+    "CVE-2026-39819",
+    "CVE-2026-32288",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cert-manager/aws-privateca-issuer",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
