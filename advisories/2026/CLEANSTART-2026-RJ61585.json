@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RJ61585",
+  "summary": "Security fixes in git-sync 4.5.1-r1",
+  "details": "Package git-sync version 4.5.1-r1 fixes 10 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2025-61726, CVE-2025-61728, CVE-2025-68119...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "git-sync",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.5.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-68119",
+    "CVE-2025-68121",
+    "CVE-2025-61731",
+    "CVE-2025-61732",
+    "CVE-2025-61730",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/git-sync",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
