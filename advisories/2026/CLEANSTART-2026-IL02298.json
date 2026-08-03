@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IL02298",
+  "summary": "Security fixes in argo-events 1.9.7-r1",
+  "details": "Package argo-events version 1.9.7-r1 fixes 2 vulnerabilities: ghsa-mh63-6h87-95cp, ghsa-2464-8j7c-4cjm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-events",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.9.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh63-6h87-95cp",
+    "ghsa-2464-8j7c-4cjm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-events",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
