@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HK48026",
+  "summary": "Security fixes in jitsucom-jitsu 2.14.0-r0",
+  "details": "Package jitsucom-jitsu version 2.14.0-r0 fixes 3 vulnerabilities: ghsa-vpq2-c234-7xj6, ghsa-c7w3-x93f-qmm8, CVE-2026-3449",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "jitsucom-jitsu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vpq2-c234-7xj6",
+    "ghsa-c7w3-x93f-qmm8",
+    "CVE-2026-3449"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jitsucom/jitsu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:40:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
