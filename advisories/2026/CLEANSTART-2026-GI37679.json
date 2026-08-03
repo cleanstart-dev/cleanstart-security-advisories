@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GI37679",
+  "summary": "Security fixes in apache-zookeeper 3.6.4-r4",
+  "details": "Package apache-zookeeper version 3.6.4-r4 fixes 1 vulnerabilities: ghsa-72hv-8253-57qq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-zookeeper",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://zookeeper.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
