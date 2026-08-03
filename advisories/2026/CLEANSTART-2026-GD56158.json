@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GD56158",
+  "summary": "Security fixes in spark-sc213-jdk17-py312 4.0.2-r1",
+  "details": "Package spark-sc213-jdk17-py312 version 4.0.2-r1 fixes 1 vulnerabilities: ghsa-c3fc-8qff-9hwx",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc213-jdk17-py312",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-c3fc-8qff-9hwx"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
