@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HJ82328",
+  "summary": "Security fixes in helm-fips 3.20.2-r0",
+  "details": "Package helm-fips version 3.20.2-r0 fixes 2 vulnerabilities: CVE-2026-33186, ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.20.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.20.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
