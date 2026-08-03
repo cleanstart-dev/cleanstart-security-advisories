@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HP02816",
+  "summary": "Security fixes in eks-distro-kube-controller-manager-fips 1.34.2-r0",
+  "details": "Package eks-distro-kube-controller-manager-fips version 1.34.2-r0 fixes 21 vulnerabilities: CVE-2026-25679, CVE-2026-27142, CVE-2026-27139, CVE-2026-32280, CVE-2026-32281...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eks-distro-kube-controller-manager-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.34.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139",
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "ghsa-j5w8-q4qc-rx2x",
+    "ghsa-f6x5-jh6r-wrfv",
+    "CVE-2025-47914",
+    "CVE-2025-58181",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186",
+    "ghsa-9h8m-3fm2-qjrq",
+    "CVE-2026-24051",
+    "ghsa-hfvc-g4fc-pqhx",
+    "CVE-2026-39883",
+    "ghsa-cgrx-mc8f-2prm",
+    "CVE-2025-52881"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/eks-distro",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
