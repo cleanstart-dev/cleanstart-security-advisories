@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GP84289",
+  "summary": "Security fixes in kubernetes-fips 1.33.6-r0",
+  "details": "Package kubernetes-fips version 1.33.6-r0 fixes 2 vulnerabilities: CVE-2025-61729, CVE-2025-61727",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.33.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.33.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729",
+    "CVE-2025-61727"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
