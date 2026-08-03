@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GW85948",
+  "summary": "Security fixes in kyverno 1.18.1-r0",
+  "details": "Package kyverno version 1.18.1-r0 fixes 4 vulnerabilities: CVE-2026-39821, CVE-2026-25680, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.18.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kyverno",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.18.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39821",
+    "CVE-2026-25680",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kyverno/kyverno",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
