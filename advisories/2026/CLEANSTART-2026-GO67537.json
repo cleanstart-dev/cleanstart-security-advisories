@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GO67537",
+  "summary": "Security fixes in gosu 1.19-r1",
+  "details": "Package gosu version 1.19-r1 fixes 3 vulnerabilities: CVE-2025-61726, CVE-2025-61728, CVE-2025-61730",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gosu",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tianon/gosu",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
