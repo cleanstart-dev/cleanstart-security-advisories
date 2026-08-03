@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GX65617",
+  "summary": "Security fixes in kafka_exporter-fips 1.6.0-r1",
+  "details": "Package kafka_exporter-fips version 1.6.0-r1 fixes 8 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka_exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.6.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810",
+    "CVE-2026-27140"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/danielqsj/kafka_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
