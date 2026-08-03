@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZQ06753",
+  "summary": "Security fixes in consul-k8s 1.7.13-r0",
+  "details": "Package consul-k8s version 1.7.13-r0 fixes 5 vulnerabilities: CVE-2026-42507, CVE-2026-39824, CVE-2026-25680, CVE-2026-39834, CVE-2026-34986",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-k8s",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42507",
+    "CVE-2026-39824",
+    "CVE-2026-25680",
+    "CVE-2026-39834",
+    "CVE-2026-34986"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
