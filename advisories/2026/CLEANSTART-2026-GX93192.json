@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GX93192",
+  "summary": "Security fixes in kube-state-metrics 2.10.1-r2",
+  "details": "Package kube-state-metrics version 2.10.1-r2 fixes 19 vulnerabilities: CVE-2026-39835, CVE-2026-39828, CVE-2026-39827, CVE-2026-25681, CVE-2026-27136...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-state-metrics",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.10.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39835",
+    "CVE-2026-39828",
+    "CVE-2026-39827",
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-42502",
+    "CVE-2026-42506",
+    "CVE-2026-25680",
+    "CVE-2026-39824",
+    "CVE-2026-39829",
+    "CVE-2026-46597",
+    "CVE-2026-39830",
+    "CVE-2026-39831",
+    "CVE-2026-39832",
+    "CVE-2026-39833",
+    "CVE-2026-39834",
+    "CVE-2026-42508",
+    "CVE-2026-46595",
+    "CVE-2026-39821"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/kube-state-metrics",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
