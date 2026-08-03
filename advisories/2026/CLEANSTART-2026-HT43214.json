@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HT43214",
+  "summary": "Security fixes in cadvisor 0.60.2-r1",
+  "details": "Package cadvisor version 0.60.2-r1 fixes 2 vulnerabilities: ghsa-xjvp-4fhw-gc47, CVE-2026-41579",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cadvisor",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.60.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xjvp-4fhw-gc47",
+    "CVE-2026-41579"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/cadvisor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
