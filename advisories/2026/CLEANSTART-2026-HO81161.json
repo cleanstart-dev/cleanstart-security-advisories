@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HO81161",
+  "summary": "Security fixes in apache-nifi 2.8.0-r0",
+  "details": "Package apache-nifi version 2.8.0-r0 fixes 4 vulnerabilities: ghsa-x2wq-9x2f-fhj7, ghsa-72hv-8253-57qq, ghsa-6v53-7c9g-w56r, ghsa-2m67-wjpj-xhg9",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-nifi",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.8.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-x2wq-9x2f-fhj7",
+    "ghsa-72hv-8253-57qq",
+    "ghsa-6v53-7c9g-w56r",
+    "ghsa-2m67-wjpj-xhg9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/nifi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
