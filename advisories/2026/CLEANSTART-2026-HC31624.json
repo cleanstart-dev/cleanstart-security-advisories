@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HC31624",
+  "summary": "Security fixes in openbao-fips 2.4.4-r4",
+  "details": "Package openbao-fips version 2.4.4-r4 fixes 4 vulnerabilities: CVE-2026-33186, CVE-2026-25679, CVE-2026-27142, CVE-2020-8911",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.4.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2020-8911"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
