@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GC35580",
+  "summary": "Security fixes in apicurio-registry 3.1.7-r6",
+  "details": "Package apicurio-registry version 3.1.7-r6 fixes 8 vulnerabilities: CVE-2025-59250, ghsa-m494-w24q-6f7w, CVE-2026-1002, CVE-2025-11965, CVE-2025-11966...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.7-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apicurio-registry",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.1.7-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-59250",
+    "ghsa-m494-w24q-6f7w",
+    "CVE-2026-1002",
+    "CVE-2025-11965",
+    "CVE-2025-11966",
+    "CVE-2024-57699",
+    "CVE-2025-67735",
+    "ghsa-72hv-8253-57qq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Apicurio/apicurio-registry",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
