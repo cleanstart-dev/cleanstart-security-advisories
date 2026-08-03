@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GU60850",
+  "summary": "Security fixes in istio-fips 1.27.7-r1",
+  "details": "Package istio-fips version 1.27.7-r1 fixes 4 vulnerabilities: CVE-2026-27139, CVE-2026-27142, CVE-2026-25679, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.27.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
