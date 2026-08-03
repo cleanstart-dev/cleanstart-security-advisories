@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GX33351",
+  "summary": "Security fixes in openbao-fips 2.4.4-r6",
+  "details": "Package openbao-fips version 2.4.4-r6 fixes 3 vulnerabilities: ghsa-9jj7-4m8r-rfcm, CVE-2026-33816, CVE-2026-33815",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.4-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "openbao-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.4.4-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-9jj7-4m8r-rfcm",
+    "CVE-2026-33816",
+    "CVE-2026-33815"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/openbao/openbao",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
