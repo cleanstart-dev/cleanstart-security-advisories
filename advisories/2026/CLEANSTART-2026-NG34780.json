@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NG34780",
+  "summary": "Security fixes in confluent-kafka 8.2.0-r1",
+  "details": "Package confluent-kafka version 8.2.0-r1 fixes 3 vulnerabilities: ghsa-72hv-8253-57qq, ghsa-6fmv-xxpf-w3cw, CVE-2025-67030",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "confluent-kafka",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-72hv-8253-57qq",
+    "ghsa-6fmv-xxpf-w3cw",
+    "CVE-2025-67030"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/confluentinc/kafka",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
