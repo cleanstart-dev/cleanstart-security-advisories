@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OI46313",
+  "summary": "Security fixes in az 2.83.0-r3",
+  "details": "Package az version 2.83.0-r3 fixes 1 vulnerabilities: ghsa-537c-gmf6-5ccf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.83.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "az",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.83.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-537c-gmf6-5ccf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Azure/azure-cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
