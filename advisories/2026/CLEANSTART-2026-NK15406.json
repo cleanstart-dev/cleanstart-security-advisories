@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NK15406",
+  "summary": "Security fixes in stakater-reloader-fips 1.2.1-r1",
+  "details": "Package stakater-reloader-fips version 1.2.1-r1 fixes 2 vulnerabilities: CVE-2025-61727, CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "stakater-reloader-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.2.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stakater/Reloader",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
