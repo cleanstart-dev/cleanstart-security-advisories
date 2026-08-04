@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OG41205",
+  "summary": "Security fixes in istio 1.30.3-r0",
+  "details": "Package istio version 1.30.3-r0 fixes 2 vulnerabilities: CVE-2026-46600, CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "istio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.30.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
