@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ON72015",
+  "summary": "Security fixes in logstash-fips 9.0.8-r4",
+  "details": "Package logstash-fips version 9.0.8-r4 fixes 3 vulnerabilities: ghsa-gh9q-2xrm-x6qv, ghsa-mhwm-jh88-3gjf, ghsa-vqg5-3255-v292",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.8-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.0.8-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gh9q-2xrm-x6qv",
+    "ghsa-mhwm-jh88-3gjf",
+    "ghsa-vqg5-3255-v292"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/logstash",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
