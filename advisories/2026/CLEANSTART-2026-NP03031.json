@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NP03031",
+  "summary": "Security fixes in apache-zookeeper 3.9.5-r5",
+  "details": "Package apache-zookeeper version 3.9.5-r5 fixes 4 vulnerabilities: ghsa-r7wm-3cxj-wff9, CVE-2026-54515, CVE-2026-59889, ghsa-mhm7-754m-9p8w",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.5-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-zookeeper",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.9.5-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r7wm-3cxj-wff9",
+    "CVE-2026-54515",
+    "CVE-2026-59889",
+    "ghsa-mhm7-754m-9p8w"
+  ],
+  "references": [
+    {
+      "url": "https://zookeeper.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
