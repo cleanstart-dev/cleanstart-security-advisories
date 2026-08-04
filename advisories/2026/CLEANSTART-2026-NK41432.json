@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NK41432",
+  "summary": "Security fixes in fabric-peer 2.5.15-r2",
+  "details": "Package fabric-peer version 2.5.15-r2 fixes 1 vulnerabilities: CVE-2026-42504",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.15-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fabric-peer",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.5.15-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hyperledger/fabric",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
