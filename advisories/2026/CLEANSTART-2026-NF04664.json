@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NF04664",
+  "summary": "Security fixes in helm-fips 4.0.1-r0",
+  "details": "Package helm-fips version 4.0.1-r0 fixes 2 vulnerabilities: CVE-2025-61727, CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61727",
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
