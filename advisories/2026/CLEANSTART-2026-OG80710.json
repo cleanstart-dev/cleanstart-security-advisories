@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OG80710",
+  "summary": "Security fixes in docker 20.10.11-r0",
+  "details": "Package docker version 20.10.11-r0 fixes 1 vulnerabilities: CVE-2021-41190",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20.10.11-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "docker",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "20.10.11-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-41190"
+  ],
+  "references": [
+    {
+      "url": "https://www.docker.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
