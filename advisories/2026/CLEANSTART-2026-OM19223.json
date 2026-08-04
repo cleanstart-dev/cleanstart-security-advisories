@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OM19223",
+  "summary": "Security fixes in redis 6.2.0-r0",
+  "details": "Package redis version 6.2.0-r0 fixes 2 vulnerabilities: CVE-2021-21309, CVE-2021-3470",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "redis",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "6.2.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-21309",
+    "CVE-2021-3470"
+  ],
+  "references": [
+    {
+      "url": "https://redis.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:39:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
