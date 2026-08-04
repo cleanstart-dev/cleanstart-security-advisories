@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OL83036",
+  "summary": "Security fixes in prometheus-fips 2.40.4-r1",
+  "details": "Package prometheus-fips version 2.40.4-r1 fixes 1 vulnerabilities: CVE-2022-46146",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.40.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.40.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-46146"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:30:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
