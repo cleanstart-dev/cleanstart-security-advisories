@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OT78804",
+  "summary": "Security fixes in argo-cd 3.3.1-r1",
+  "details": "Package argo-cd version 3.3.1-r1 fixes 1 vulnerabilities: CVE-2026-24051",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.3.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24051"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:45Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
