@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IX81409",
+  "summary": "Security fixes in kserve 0.16.0-r0",
+  "details": "Package kserve version 0.16.0-r0 fixes 12 vulnerabilities: CVE-2026-24051, CVE-2026-27139, CVE-2025-61730, CVE-2025-61732, CVE-2025-61731...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.16.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kserve",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.16.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-24051",
+    "CVE-2026-27139",
+    "CVE-2025-61730",
+    "CVE-2025-61732",
+    "CVE-2025-61731",
+    "CVE-2025-68121",
+    "CVE-2025-68119",
+    "CVE-2025-61728",
+    "CVE-2025-61726",
+    "CVE-2026-27142",
+    "CVE-2026-25679",
+    "ghsa-9h8m-3fm2-qjrq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kserve/kserve",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
