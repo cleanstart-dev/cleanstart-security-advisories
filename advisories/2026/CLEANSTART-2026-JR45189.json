@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JR45189",
+  "summary": "Security fixes in ztunnel-fips 1.27.5-r1",
+  "details": "Package ztunnel-fips version 1.27.5-r1 fixes 3 vulnerabilities: ghsa-xwfj-jgwm-7wp5, ghsa-2gh3-rmm4-6rq5, ghsa-rhfx-m35p-ff5j",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ztunnel-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.27.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xwfj-jgwm-7wp5",
+    "ghsa-2gh3-rmm4-6rq5",
+    "ghsa-rhfx-m35p-ff5j"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/istio/ztunnel",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
