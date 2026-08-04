@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NF83419",
+  "summary": "Security fixes in sealed-secrets 0.36.1-r0",
+  "details": "Package sealed-secrets version 0.36.1-r0 fixes 7 vulnerabilities: CVE-2026-32280, CVE-2026-32281, CVE-2026-32282, CVE-2026-32283, CVE-2026-32288...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.36.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sealed-secrets",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.36.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-32280",
+    "CVE-2026-32281",
+    "CVE-2026-32282",
+    "CVE-2026-32283",
+    "CVE-2026-32288",
+    "CVE-2026-32289",
+    "CVE-2026-33810"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/bitnami-labs/sealed-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
