@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NM43340",
+  "summary": "Security fixes in knative-serving 1.22.1-r0",
+  "details": "Package knative-serving version 1.22.1-r0 fixes 2 vulnerabilities: CVE-2026-46600, CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "knative-serving",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://knative.dev/docs/serving/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
