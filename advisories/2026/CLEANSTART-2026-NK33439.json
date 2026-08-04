@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NK33439",
+  "summary": "Security fixes in velero-plugin-for-csi 0.7.1-r4",
+  "details": "Package velero-plugin-for-csi version 0.7.1-r4 fixes 3 vulnerabilities: CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.7.1-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-csi",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.7.1-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-csi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
