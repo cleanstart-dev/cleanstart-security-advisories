@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MZ32099",
+  "summary": "Security fixes in argo-cd 3.2.12-r0",
+  "details": "Package argo-cd version 3.2.12-r0 fixes 14 vulnerabilities: CVE-2026-44973, CVE-2026-44740, ghsa-qw64-3x98-g7q2, ghsa-m3xc-h892-ggx6, CVE-2026-45022...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.12-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-cd",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.2.12-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44973",
+    "CVE-2026-44740",
+    "ghsa-qw64-3x98-g7q2",
+    "ghsa-m3xc-h892-ggx6",
+    "CVE-2026-45022",
+    "CVE-2026-45571",
+    "ghsa-w5pp-99ch-qj29",
+    "CVE-2026-45570",
+    "ghsa-389r-gv7p-r3rp",
+    "ghsa-m7cr-m3pv-hgrp",
+    "ghsa-crhj-59gh-8x96",
+    "ghsa-gxhx-2686-5h9g",
+    "CVE-2026-2303",
+    "ghsa-cp6g-7hqx-qxhp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-cd",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
