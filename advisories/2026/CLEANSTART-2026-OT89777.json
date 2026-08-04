@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OT89777",
+  "summary": "Security fixes in druid-exporter-fips 0.11-r0",
+  "details": "Package druid-exporter-fips version 0.11-r0 fixes 4 vulnerabilities: CVE-2023-45142, CVE-2023-25151, CVE-2022-21698, CVE-2022-29526",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.11-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "druid-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.11-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45142",
+    "CVE-2023-25151",
+    "CVE-2022-21698",
+    "CVE-2022-29526"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/opstree/druid-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
