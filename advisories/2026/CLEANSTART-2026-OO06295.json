@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OO06295",
+  "summary": "Security fixes in nodejs 14.15.5-r0",
+  "details": "Package nodejs version 14.15.5-r0 fixes 1 vulnerabilities: CVE-2021-21148",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14.15.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nodejs",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "14.15.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-21148"
+  ],
+  "references": [
+    {
+      "url": "https://nodejs.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
