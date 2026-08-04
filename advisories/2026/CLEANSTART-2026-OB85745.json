@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OB85745",
+  "summary": "Security fixes in minio-operator 7.1.1-r6",
+  "details": "Package minio-operator version 7.1.1-r6 fixes 4 vulnerabilities: CVE-2026-46600, CVE-2026-56852, CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.1-r6"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "minio-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.1.1-r6"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/minio/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
