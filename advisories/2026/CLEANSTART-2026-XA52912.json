@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XA52912",
+  "summary": "Security fixes in sonarqube 25.12.0.117093-r0",
+  "details": "Package sonarqube version 25.12.0.117093-r0 fixes 2 vulnerabilities: ghsa-qf7c-7r9h-mm92, CVE-2025-68384",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "25.12.0.117093-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sonarqube",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "25.12.0.117093-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-qf7c-7r9h-mm92",
+    "CVE-2025-68384"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/SonarSource/sonarqube",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
