@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XM11339",
+  "summary": "Security fixes in calico-fips 3.27.5-r0",
+  "details": "Package calico-fips version 3.27.5-r0 fixes 4 vulnerabilities: ghsa-v778-237x-gjrc, ghsa-hcg3-q754-cr77, ghsa-qxpb-5wg8-xv66, ghsa-vvgc-356p-c3xw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.27.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "calico-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.27.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-v778-237x-gjrc",
+    "ghsa-hcg3-q754-cr77",
+    "ghsa-qxpb-5wg8-xv66",
+    "ghsa-vvgc-356p-c3xw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/projectcalico/calico",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:34:00Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
