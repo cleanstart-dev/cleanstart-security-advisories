@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QB06725",
+  "summary": "Security fixes in prometheus-operator 0.91.0-r1",
+  "details": "Package prometheus-operator version 0.91.0-r1 fixes 3 vulnerabilities: CVE-2026-42504, CVE-2026-42507, CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.91.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.91.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42504",
+    "CVE-2026-42507",
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus-operator/prometheus-operator.git",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
