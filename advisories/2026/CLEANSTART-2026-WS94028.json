@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WS94028",
+  "summary": "Security fixes in docker-fips 25.0.2-r0",
+  "details": "Package docker-fips version 25.0.2-r0 fixes 5 vulnerabilities: CVE-2024-23651, CVE-2024-23652, CVE-2024-23653, CVE-2024-23650, CVE-2024-24557",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "25.0.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "docker-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "25.0.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-23651",
+    "CVE-2024-23652",
+    "CVE-2024-23653",
+    "CVE-2024-23650",
+    "CVE-2024-24557"
+  ],
+  "references": [
+    {
+      "url": "https://www.docker.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
