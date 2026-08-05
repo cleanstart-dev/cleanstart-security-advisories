@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OY61921",
+  "summary": "Security fixes in druid-exporter-fips 0.10-r0",
+  "details": "Package druid-exporter-fips version 0.10-r0 fixes 1 vulnerabilities: CVE-2025-47907",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.10-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "druid-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.10-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47907"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/opstree/druid-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
