@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PW00774",
+  "summary": "Security fixes in py3-urllib3 1.25.9-r0",
+  "details": "Package py3-urllib3 version 1.25.9-r0 fixes 1 vulnerabilities: CVE-2020-26137",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.9-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3-urllib3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.25.9-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-26137"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/urllib3/urllib3",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:35Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
