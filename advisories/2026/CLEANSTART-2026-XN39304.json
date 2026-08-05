@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XN39304",
+  "summary": "Security fixes in terragrunt-fips 0.94.0-r1",
+  "details": "Package terragrunt-fips version 0.94.0-r1 fixes 4 vulnerabilities: CVE-2026-33186, CVE-2026-25679, CVE-2026-27142, CVE-2026-27139",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.94.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terragrunt-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.94.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2026-25679",
+    "CVE-2026-27142",
+    "CVE-2026-27139"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
