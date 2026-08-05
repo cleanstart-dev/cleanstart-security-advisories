@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PQ61538",
+  "summary": "Security fixes in tomcat10 9.0.70-r0",
+  "details": "Package tomcat10 version 9.0.70-r0 fixes 1 vulnerabilities: CVE-2022-45143",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.70-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tomcat10",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.0.70-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-45143"
+  ],
+  "references": [
+    {
+      "url": "https://tomcat.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:29:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
