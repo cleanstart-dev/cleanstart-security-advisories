@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XN05312",
+  "summary": "Security fixes in apache-nifi 1.25.0-r1",
+  "details": "Package apache-nifi version 1.25.0-r1 fixes 3 vulnerabilities: CVE-2024-22257, CVE-2024-38821, CVE-2024-47561",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "apache-nifi",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.25.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-22257",
+    "CVE-2024-38821",
+    "CVE-2024-47561"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/nifi",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
