@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QG73743",
+  "summary": "Security fixes in spring-boot 3.5.13-r0",
+  "details": "Package spring-boot version 3.5.13-r0 fixes 1 vulnerabilities: ghsa-j288-q9x7-2f5v",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.13-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spring-boot",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.5.13-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j288-q9x7-2f5v"
+  ],
+  "references": [
+    {
+      "url": "https://spring.io/projects/spring-boot",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
