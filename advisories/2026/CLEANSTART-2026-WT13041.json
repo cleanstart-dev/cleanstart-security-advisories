@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WT13041",
+  "summary": "Security fixes in argo-workflows-fips 3.6.17-r0",
+  "details": "Package argo-workflows-fips version 3.6.17-r0 fixes 1 vulnerabilities: CVE-2025-68121",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.17-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.6.17-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-68121"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:35:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
