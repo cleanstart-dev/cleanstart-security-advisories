@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WT26396",
+  "summary": "Security fixes in temporal-server 1.31.0.153.3-r0",
+  "details": "Package temporal-server version 1.31.0.153.3-r0 fixes 4 vulnerabilities: CVE-2026-33815, CVE-2026-33816, CVE-2026-34986, CVE-2026-39883",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.0.153.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.0.153.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33815",
+    "CVE-2026-33816",
+    "CVE-2026-34986",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:32:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
