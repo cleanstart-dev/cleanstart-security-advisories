@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WT51447",
+  "summary": "Security fixes in libpng 1.6.37-r0",
+  "details": "Package libpng version 1.6.37-r0 fixes 3 vulnerabilities: CVE-2019-7317, CVE-2018-14048, CVE-2018-14550",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.37-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "libpng",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.6.37-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2019-7317",
+    "CVE-2018-14048",
+    "CVE-2018-14550"
+  ],
+  "references": [
+    {
+      "url": "http://www.libpng.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
