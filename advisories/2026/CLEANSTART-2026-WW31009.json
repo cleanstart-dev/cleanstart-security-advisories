@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WW31009",
+  "summary": "Security fixes in kafka-ui 1.2.0-r1",
+  "details": "Package kafka-ui version 1.2.0-r1 fixes 16 vulnerabilities: ghsa-9pp5-9c7g-4r83, ghsa-8v5q-rhf3-jphm, ghsa-mg83-c7gq-rv5c, ghsa-hh3m-g4qj-4835, ghsa-jmp9-x22r-554x...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kafka-ui",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-9pp5-9c7g-4r83",
+    "ghsa-8v5q-rhf3-jphm",
+    "ghsa-mg83-c7gq-rv5c",
+    "ghsa-hh3m-g4qj-4835",
+    "ghsa-jmp9-x22r-554x",
+    "ghsa-6r3c-xf4w-jxjm",
+    "ghsa-4wp7-92pw-q264",
+    "ghsa-rc42-6c7j-7h5r",
+    "ghsa-prj3-ccx8-p6x4",
+    "ghsa-3p8m-j85q-pgmj",
+    "ghsa-84h7-rjj3-6jx4",
+    "ghsa-fghv-69vj-qj49",
+    "ghsa-25qh-j22f-pwp8",
+    "ghsa-4q2v-9p7v-3v22",
+    "ghsa-j288-q9x7-2f5v",
+    "ghsa-xwmg-2g98-w7v9"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kafbat/kafka-ui",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
