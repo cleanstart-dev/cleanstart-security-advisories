@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PL06997",
+  "summary": "Security fixes in cortex 1.20.0-r0",
+  "details": "Package cortex version 1.20.0-r0 fixes 1 vulnerabilities: CVE-2025-61729",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cortex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cortexproject/cortex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:33:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
