@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PW64435",
+  "summary": "Security fixes in prometheus-statsd-exporter 0.28.0-r1",
+  "details": "Package prometheus-statsd-exporter version 0.28.0-r1 fixes 4 vulnerabilities: CVE-2026-25679, CVE-2026-27139, CVE-2026-27142, CVE-2026-27141",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.28.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-statsd-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.28.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25679",
+    "CVE-2026-27139",
+    "CVE-2026-27142",
+    "CVE-2026-27141"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/statsd_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:37:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
