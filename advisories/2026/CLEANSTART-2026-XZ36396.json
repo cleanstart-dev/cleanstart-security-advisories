@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XZ36396",
+  "summary": "Security fixes in external-secrets-fips 0.20.4-r3",
+  "details": "Package external-secrets-fips version 0.20.4-r3 fixes 2 vulnerabilities: CVE-2026-1229, ghsa-q9hv-hpm4-hj6x",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.20.4-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-secrets-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.20.4-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-1229",
+    "ghsa-q9hv-hpm4-hj6x"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/external-secrets/external-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:31:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
