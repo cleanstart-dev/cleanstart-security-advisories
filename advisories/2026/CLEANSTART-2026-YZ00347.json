@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YZ00347",
+  "summary": "Security fixes in argo-workflows 4.0.4-r0",
+  "details": "Package argo-workflows version 4.0.4-r0 fixes 6 vulnerabilities: CVE-2026-34986, CVE-2026-39883, CVE-2026-39882, ghsa-hfvc-g4fc-pqhx, ghsa-w8rr-5gcm-pp58...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.4-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.4-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34986",
+    "CVE-2026-39883",
+    "CVE-2026-39882",
+    "ghsa-hfvc-g4fc-pqhx",
+    "ghsa-w8rr-5gcm-pp58",
+    "ghsa-78h2-9frx-2jm8"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:38:01Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
