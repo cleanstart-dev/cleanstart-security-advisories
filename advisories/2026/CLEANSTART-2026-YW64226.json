@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YW64226",
+  "summary": "Security fixes in velero-fips 1.15.2-r0",
+  "details": "Package velero-fips version 1.15.2-r0 fixes 1 vulnerabilities: ghsa-mh63-6h87-95cp",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mh63-6h87-95cp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-07-30T07:10:53Z",
+  "modified": "2026-07-30T09:36:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
