@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LS76656",
+  "summary": "Security fixes in opentelemetry-collector 0.154.0-r1",
+  "details": "Package opentelemetry-collector version 0.154.0-r1 fixes 1 vulnerabilities: CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.154.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentelemetry-collector",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.154.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:07Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
