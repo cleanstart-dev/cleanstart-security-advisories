@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IK70425",
+  "summary": "Security fixes in kubernetes-csi-external-snapshotter 8.6.0-r4",
+  "details": "Package kubernetes-csi-external-snapshotter version 8.6.0-r4 fixes 1 vulnerabilities: CVE-2026-39822",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.6.0-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-external-snapshotter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "8.6.0-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39822"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/external-snapshotter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
