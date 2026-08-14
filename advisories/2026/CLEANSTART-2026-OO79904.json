@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OO79904",
+  "summary": "Security fixes in terraform 1.15.7-r2",
+  "details": "Package terraform version 1.15.7-r2 fixes 1 vulnerabilities: CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "terraform",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.15.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/terraform",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
