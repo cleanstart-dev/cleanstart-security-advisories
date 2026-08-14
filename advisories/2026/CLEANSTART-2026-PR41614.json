@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PR41614",
+  "summary": "Security fixes in k8sgpt-operator 0.2.27-r2",
+  "details": "Package k8sgpt-operator version 0.2.27-r2 fixes 1 vulnerabilities: CVE-2026-27145",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.27-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8sgpt-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.2.27-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8sgpt-ai/k8sgpt-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
