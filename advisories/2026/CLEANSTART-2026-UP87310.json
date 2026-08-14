@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UP87310",
+  "summary": "Security fixes in cadvisor-fips 0.60.3-r2",
+  "details": "Package cadvisor-fips version 0.60.3-r2 fixes 1 vulnerabilities: CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.60.3-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cadvisor-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.60.3-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/google/cadvisor",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
