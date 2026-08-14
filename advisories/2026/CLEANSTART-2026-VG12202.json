@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VG12202",
+  "summary": "Security fixes in git-sync-fips 4.7.0-r2",
+  "details": "Package git-sync-fips version 4.7.0-r2 fixes 1 vulnerabilities: CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.7.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "git-sync-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.7.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/git-sync",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
