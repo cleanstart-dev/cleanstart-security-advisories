@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DH17348",
+  "summary": "Security fixes in amazon-k8s-cni-fips 1.22.3-r1",
+  "details": "Package amazon-k8s-cni-fips version 1.22.3-r1 fixes 1 vulnerabilities: ghsa-p77j-4mvh-x3m3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "amazon-k8s-cni-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p77j-4mvh-x3m3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/amazon-vpc-cni-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
