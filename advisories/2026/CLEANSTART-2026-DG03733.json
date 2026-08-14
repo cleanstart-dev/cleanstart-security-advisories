@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DG03733",
+  "summary": "Security fixes in eck-operator-fips 3.4.1-r2",
+  "details": "Package eck-operator-fips version 3.4.1-r2 fixes 1 vulnerabilities: CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eck-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/cloud-on-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
