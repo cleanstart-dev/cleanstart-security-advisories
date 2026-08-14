@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QH85825",
+  "summary": "Security fixes in opentelemetry-collector-contrib 0.153.0-r2",
+  "details": "Package opentelemetry-collector-contrib version 0.153.0-r2 fixes 5 vulnerabilities: CVE-2026-2303, CVE-2026-46384, ghsa-mc57-h6j3-3hmv, CVE-2026-46385, ghsa-w8j3-pq8g-8m7w",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.153.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "opentelemetry-collector-contrib",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.153.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2303",
+    "CVE-2026-46384",
+    "ghsa-mc57-h6j3-3hmv",
+    "CVE-2026-46385",
+    "ghsa-w8j3-pq8g-8m7w"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:36Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
