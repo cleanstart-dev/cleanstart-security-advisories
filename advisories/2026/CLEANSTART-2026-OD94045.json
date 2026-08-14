@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OD94045",
+  "summary": "Security fixes in aws-network-policy-agent-fips 1.3.7-r1",
+  "details": "Package aws-network-policy-agent-fips version 1.3.7-r1 fixes 2 vulnerabilities: CVE-2026-46600, CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.7-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "aws-network-policy-agent-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.3.7-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/aws-network-policy-agent",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
