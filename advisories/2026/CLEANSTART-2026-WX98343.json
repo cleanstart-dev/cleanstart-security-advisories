@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WX98343",
+  "summary": "Security fixes in grafana 12.4.6-r0",
+  "details": "Package grafana version 12.4.6-r0 fixes 4 vulnerabilities: ghsa-jpcw-4wr7-c3vq, ghsa-r277-6w6q-xmqw, ghsa-gcjh-h69q-9w9g, ghsa-259r-337f-4rfw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.4.6-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "12.4.6-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-jpcw-4wr7-c3vq",
+    "ghsa-r277-6w6q-xmqw",
+    "ghsa-gcjh-h69q-9w9g",
+    "ghsa-259r-337f-4rfw"
+  ],
+  "references": [
+    {
+      "url": "https://grafana.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
