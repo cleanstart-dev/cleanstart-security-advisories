@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MW79791",
+  "summary": "Security fixes in prometheus 3.13.1-r2",
+  "details": "Package prometheus version 3.13.1-r2 fixes 2 vulnerabilities: ghsa-hrxh-6v49-42gf, ghsa-259r-337f-4rfw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.13.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.13.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-259r-337f-4rfw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
