@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RO58683",
+  "summary": "Security fixes in langfuse 3.210.0-r1",
+  "details": "Package langfuse version 3.210.0-r1 fixes 4 vulnerabilities: ghsa-p6gq-j5cr-w38f, CVE-2026-41907, CVE-2026-53550, CVE-2026-59869",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.210.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "langfuse",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.210.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-p6gq-j5cr-w38f",
+    "CVE-2026-41907",
+    "CVE-2026-53550",
+    "CVE-2026-59869"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
