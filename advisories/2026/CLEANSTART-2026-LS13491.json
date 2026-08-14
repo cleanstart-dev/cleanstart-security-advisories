@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LS13491",
+  "summary": "Security fixes in kubernetes-dns-node-cache-fips 1.26.0-r1",
+  "details": "Package kubernetes-dns-node-cache-fips version 1.26.0-r1 fixes 18 vulnerabilities: CVE-2025-47950, CVE-2023-28452, CVE-2024-0874, CVE-2025-58063, ghsa-cvx7-x8pj-x2gw...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-dns-node-cache-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.26.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-47950",
+    "CVE-2023-28452",
+    "CVE-2024-0874",
+    "CVE-2025-58063",
+    "ghsa-cvx7-x8pj-x2gw",
+    "CVE-2026-26017",
+    "CVE-2026-26018",
+    "ghsa-h75p-j8xm-m278",
+    "ghsa-vp29-5652-4fw9",
+    "ghsa-2wpx-qpw2-g5h5",
+    "ghsa-h8mm-c463-wjq3",
+    "ghsa-qhmp-q7xh-99rh",
+    "CVE-2026-32934",
+    "CVE-2026-32936",
+    "CVE-2026-33190",
+    "CVE-2026-33489",
+    "CVE-2026-35579",
+    "ghsa-63cw-r7xf-jmwr"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/dns",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:11Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
