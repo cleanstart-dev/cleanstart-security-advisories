@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AV59470",
+  "summary": "Security fixes in prometheus-node-exporter 1.12.1-r0",
+  "details": "Package prometheus-node-exporter version 1.12.1-r0 fixes 1 vulnerabilities: CVE-2026-28735",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-node-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.12.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-28735"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/node_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
