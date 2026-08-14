@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DJ79575",
+  "summary": "Security fixes in amazon-cloudwatch-agent-fips 1.300069.0-r1",
+  "details": "Package amazon-cloudwatch-agent-fips version 1.300069.0-r1 fixes 10 vulnerabilities: CVE-2026-34040, CVE-2026-33997, CVE-2026-42151, CVE-2026-44903, ghsa-fw8g-cg8f-9j28...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.300069.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "amazon-cloudwatch-agent-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.300069.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-34040",
+    "CVE-2026-33997",
+    "CVE-2026-42151",
+    "CVE-2026-44903",
+    "ghsa-fw8g-cg8f-9j28",
+    "ghsa-wg65-39gg-5wfj",
+    "CVE-2026-2303",
+    "CVE-2026-41178",
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-xmrv-pmrh-hhx2"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/aws/amazon-cloudwatch-agent",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
