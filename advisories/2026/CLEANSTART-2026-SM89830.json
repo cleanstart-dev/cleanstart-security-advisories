@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SM89830",
+  "summary": "Security fixes in kumactl 2.14.0-r2",
+  "details": "Package kumactl version 2.14.0-r2 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kumactl",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.14.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kumahq/kuma",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
