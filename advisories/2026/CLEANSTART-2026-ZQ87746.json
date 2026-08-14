@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZQ87746",
+  "summary": "Security fixes in logstash-exporter-fips 1.7.1-r1",
+  "details": "Package logstash-exporter-fips version 1.7.1-r1 fixes 1 vulnerabilities: CVE-2025-61726",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "logstash-exporter-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.7.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-61726"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kuskoman/logstash-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
