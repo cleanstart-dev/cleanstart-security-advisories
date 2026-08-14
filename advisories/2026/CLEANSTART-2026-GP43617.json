@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GP43617",
+  "summary": "Security fixes in argo-workflows 3.7.17-r2",
+  "details": "Package argo-workflows version 3.7.17-r2 fixes 1 vulnerabilities: ghsa-259r-337f-4rfw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.17-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.17-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-259r-337f-4rfw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
