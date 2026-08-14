@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NK80806",
+  "summary": "Security fixes in eck-operator-fips 3.4.1-r1",
+  "details": "Package eck-operator-fips version 3.4.1-r1 fixes 2 vulnerabilities: ghsa-hrxh-6v49-42gf, ghsa-gcjh-h69q-9w9g",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "eck-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-gcjh-h69q-9w9g"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/elastic/cloud-on-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
