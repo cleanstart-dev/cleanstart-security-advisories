@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IJ26025",
+  "summary": "Security fixes in metrics-server 0.8.1-r3",
+  "details": "Package metrics-server version 0.8.1-r3 fixes 13 vulnerabilities: CVE-2026-33186, ghsa-p77j-4mvh-x3m3, ghsa-hrxh-6v49-42gf, CVE-2026-42151, CVE-2026-42154...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "metrics-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.8.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-42151",
+    "CVE-2026-42154",
+    "CVE-2026-44903",
+    "ghsa-8rm2-7qqf-34qm",
+    "ghsa-fw8g-cg8f-9j28",
+    "ghsa-wg65-39gg-5wfj",
+    "CVE-2026-24051",
+    "CVE-2026-39883",
+    "ghsa-9h8m-3fm2-qjrq",
+    "ghsa-hfvc-g4fc-pqhx"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/metrics-server",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
