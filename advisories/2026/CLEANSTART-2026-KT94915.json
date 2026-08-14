@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KT94915",
+  "summary": "Security fixes in knative-net-istio 1.22.1-r0",
+  "details": "Package knative-net-istio version 1.22.1-r0 fixes 4 vulnerabilities: CVE-2026-46600, CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "knative-net-istio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.22.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/knative-extensions/net-istio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
