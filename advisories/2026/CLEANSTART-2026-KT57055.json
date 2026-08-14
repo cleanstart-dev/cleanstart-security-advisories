@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KT57055",
+  "summary": "Security fixes in knative-serving 1.20.3-r0",
+  "details": "Package knative-serving version 1.20.3-r0 fixes 2 vulnerabilities: ghsa-259r-337f-4rfw, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "knative-serving",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.20.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-259r-337f-4rfw",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://knative.dev/docs/serving/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
