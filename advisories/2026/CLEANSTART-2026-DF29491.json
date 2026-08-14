@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DF29491",
+  "summary": "Security fixes in falco-exporter 0.8.7-r2",
+  "details": "Package falco-exporter version 0.8.7-r2 fixes 1 vulnerabilities: CVE-2026-46600",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "falco-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.8.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/falcosecurity/falco-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
