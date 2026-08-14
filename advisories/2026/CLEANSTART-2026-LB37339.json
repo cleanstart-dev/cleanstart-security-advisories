@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LB37339",
+  "summary": "Security fixes in kubernetes-csi-external-resizer-fips 2.2.1-r1",
+  "details": "Package kubernetes-csi-external-resizer-fips version 2.2.1-r1 fixes 1 vulnerabilities: CVE-2026-46600",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-csi-external-resizer-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.2.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-csi/external-resizer",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
