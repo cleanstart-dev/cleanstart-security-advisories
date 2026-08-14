@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KC96979",
+  "summary": "Security fixes in temporal-server 1.31.1-r2",
+  "details": "Package temporal-server version 1.31.1-r2 fixes 8 vulnerabilities: ghsa-q98v-9f9w-f49q, ghsa-hmhp-gh8m-c8xp, ghsa-p2gr-hm8g-q772, ghsa-xpg8-3hhp-p7w8, CVE-2025-14987...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-q98v-9f9w-f49q",
+    "ghsa-hmhp-gh8m-c8xp",
+    "ghsa-p2gr-hm8g-q772",
+    "ghsa-xpg8-3hhp-p7w8",
+    "CVE-2025-14987",
+    "CVE-2026-5724",
+    "CVE-2025-14986",
+    "CVE-2026-5199"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
