@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WS96350",
+  "summary": "Security fixes in kube-vip-fips 1.0.4-r1",
+  "details": "Package kube-vip-fips version 1.0.4-r1 fixes 3 vulnerabilities: ghsa-hrxh-6v49-42gf, ghsa-p77j-4mvh-x3m3, CVE-2026-33186",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-vip-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.0.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kube-vip/kube-vip",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
