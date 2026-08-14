@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DW12764",
+  "summary": "Security fixes in bank-vaults 1.32.1-r1",
+  "details": "Package bank-vaults version 1.32.1-r1 fixes 3 vulnerabilities: ghsa-vgwf-h737-ff37, ghsa-f5wc-c3c7-36mc, ghsa-5cgq-3rg8-m6cv",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.32.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "bank-vaults",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.32.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vgwf-h737-ff37",
+    "ghsa-f5wc-c3c7-36mc",
+    "ghsa-5cgq-3rg8-m6cv"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/bank-vaults/bank-vaults",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
