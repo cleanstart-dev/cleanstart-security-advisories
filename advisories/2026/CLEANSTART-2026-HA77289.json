@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HA77289",
+  "summary": "Security fixes in keda-fips 2.19.0-r1",
+  "details": "Package keda-fips version 2.19.0-r1 fixes 8 vulnerabilities: CVE-2026-42151, CVE-2026-42154, CVE-2026-40179, CVE-2026-44903, ghsa-8rm2-7qqf-34qm...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.19.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "keda-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.19.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42151",
+    "CVE-2026-42154",
+    "CVE-2026-40179",
+    "CVE-2026-44903",
+    "ghsa-8rm2-7qqf-34qm",
+    "ghsa-wg65-39gg-5wfj",
+    "ghsa-vffh-x6r8-xx99",
+    "ghsa-fw8g-cg8f-9j28"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kedacore/keda",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
