@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZB13095",
+  "summary": "Security fixes in temporal-server-fips 1.31.1-r1",
+  "details": "Package temporal-server-fips version 1.31.1-r1 fixes 5 vulnerabilities: CVE-2026-41602, ghsa-wf45-q9ch-q8gh, ghsa-p77j-4mvh-x3m3, CVE-2026-27145, CVE-2026-33811",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-server-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.31.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41602",
+    "ghsa-wf45-q9ch-q8gh",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2026-27145",
+    "CVE-2026-33811"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
