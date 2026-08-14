@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PY70964",
+  "summary": "Security fixes in sqlpad 7.5.7-r4",
+  "details": "Package sqlpad version 7.5.7-r4 fixes 2 vulnerabilities: ghsa-v422-hmwv-36x6, CVE-2026-12590",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlpad",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.5.7-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-v422-hmwv-36x6",
+    "CVE-2026-12590"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sqlpad/sqlpad",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
