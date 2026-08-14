@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JB93591",
+  "summary": "Security fixes in thingsboard 4.3.1.3-r4",
+  "details": "Package thingsboard version 4.3.1.3-r4 fixes 4 vulnerabilities: CVE-2026-59869, ghsa-52cp-r559-cp3m, ghsa-h67p-54hq-rp68, CVE-2026-53550",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1.3-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "thingsboard",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.3.1.3-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59869",
+    "ghsa-52cp-r559-cp3m",
+    "ghsa-h67p-54hq-rp68",
+    "CVE-2026-53550"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thingsboard/thingsboard",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:04Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
