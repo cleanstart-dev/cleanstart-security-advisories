@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IU92725",
+  "summary": "Security fixes in prometheus-alertmanager 0.32.0-r0",
+  "details": "Package prometheus-alertmanager version 0.32.0-r0 fixes 2 vulnerabilities: CVE-2026-39882, CVE-2026-39883",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.32.0-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-alertmanager",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.32.0-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39882",
+    "CVE-2026-39883"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/alertmanager",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
