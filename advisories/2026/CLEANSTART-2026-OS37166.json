@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OS37166",
+  "summary": "Security fixes in tempo-fips 3.0.2-r2",
+  "details": "Package tempo-fips version 3.0.2-r2 fixes 1 vulnerabilities: CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.2-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tempo-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.0.2-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/grafana/tempo",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
