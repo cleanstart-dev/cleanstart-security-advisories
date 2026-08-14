@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OI22406",
+  "summary": "Security fixes in litestream 0.3.14-r3",
+  "details": "Package litestream version 0.3.14-r3 fixes 3 vulnerabilities: ghsa-5cgq-3rg8-m6cv, ghsa-v778-237x-gjrc, ghsa-hcg3-q754-cr77",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "litestream",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.3.14-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-5cgq-3rg8-m6cv",
+    "ghsa-v778-237x-gjrc",
+    "ghsa-hcg3-q754-cr77"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/benbjohnson/litestream",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:40Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
