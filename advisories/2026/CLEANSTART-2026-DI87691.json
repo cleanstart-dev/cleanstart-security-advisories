@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DI87691",
+  "summary": "Security fixes in kube-rbac-proxy-fips 0.22.0-r1",
+  "details": "Package kube-rbac-proxy-fips version 0.22.0-r1 fixes 1 vulnerabilities: CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.22.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-rbac-proxy-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.22.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/brancz/kube-rbac-proxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
