@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AG43501",
+  "summary": "Security fixes in sqlpad 7.5.7-r2",
+  "details": "Package sqlpad version 7.5.7-r2 fixes 26 vulnerabilities: ghsa-2v35-w6hq-6mfw, ghsa-f6ww-3ggp-fr8h, ghsa-wh4c-j3r5-mjhp, ghsa-x6wf-f3px-wcqx, ghsa-j759-j44w-7fr8...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlpad",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.5.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-2v35-w6hq-6mfw",
+    "ghsa-f6ww-3ggp-fr8h",
+    "ghsa-wh4c-j3r5-mjhp",
+    "ghsa-x6wf-f3px-wcqx",
+    "ghsa-j759-j44w-7fr8",
+    "CVE-2026-34601",
+    "CVE-2026-41672",
+    "CVE-2026-41673",
+    "CVE-2026-41674",
+    "CVE-2026-41675",
+    "ghsa-xcpc-8h2w-3j85",
+    "CVE-2026-39244",
+    "ghsa-6457-6jrx-69cr",
+    "CVE-2026-30951",
+    "ghsa-378v-28hj-76wf",
+    "CVE-2026-2739",
+    "ghsa-v2v4-37r5-5v8g",
+    "CVE-2026-42338",
+    "ghsa-w5hq-g745-h8pq",
+    "CVE-2026-41907",
+    "ghsa-r5mx-6wc6-7h9w",
+    "CVE-2026-27837",
+    "ghsa-v422-hmwv-36x6",
+    "CVE-2026-12590",
+    "ghsa-vpq2-c234-7xj6",
+    "CVE-2026-3449"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sqlpad/sqlpad",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
