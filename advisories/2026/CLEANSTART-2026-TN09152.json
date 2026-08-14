@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TN09152",
+  "summary": "Security fixes in helm 4.2.3-r0",
+  "details": "Package helm version 4.2.3-r0 fixes 1 vulnerabilities: CVE-2026-50163",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.3-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "helm",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.3-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50163"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/helm/helm",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
