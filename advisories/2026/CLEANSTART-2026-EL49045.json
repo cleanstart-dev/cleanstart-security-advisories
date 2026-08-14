@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EL49045",
+  "summary": "Security fixes in velero-plugin-for-gcp-fips 1.14.2-r1",
+  "details": "Package velero-plugin-for-gcp-fips version 1.14.2-r1 fixes 2 vulnerabilities: CVE-2026-39822, CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "velero-plugin-for-gcp-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39822",
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/vmware-tanzu/velero-plugin-for-gcp",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
