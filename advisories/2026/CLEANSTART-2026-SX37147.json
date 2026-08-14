@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SX37147",
+  "summary": "Security fixes in ollama-fips 0.30.11-r1",
+  "details": "Package ollama-fips version 0.30.11-r1 fixes 4 vulnerabilities: CVE-2026-33813, CVE-2026-46601, CVE-2026-46602, CVE-2026-46604",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.30.11-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "ollama-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.30.11-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33813",
+    "CVE-2026-46601",
+    "CVE-2026-46602",
+    "CVE-2026-46604"
+  ],
+  "references": [
+    {
+      "url": "https://ollama.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
