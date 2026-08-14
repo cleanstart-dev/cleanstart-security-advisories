@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RZ47271",
+  "summary": "Security fixes in elasticsearch 9.4.4-r5",
+  "details": "Package elasticsearch version 9.4.4-r5 fixes 2 vulnerabilities: CVE-2026-71497, CVE-2026-45292",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.4-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "elasticsearch",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "9.4.4-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-71497",
+    "CVE-2026-45292"
+  ],
+  "references": [
+    {
+      "url": "https://www.elastic.co/products/elasticsearch",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
