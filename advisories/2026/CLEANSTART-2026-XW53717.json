@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XW53717",
+  "summary": "Security fixes in miniforge3 26.1.1.2-r0",
+  "details": "Package miniforge3 version 26.1.1.2-r0 fixes 1 vulnerabilities: CVE-2026-59890",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.1.1.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "miniforge3",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.1.1.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59890"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/conda-forge/miniforge",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
