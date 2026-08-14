@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CU90508",
+  "summary": "Security fixes in trino 483-r1",
+  "details": "Package trino version 483-r1 fixes 10 vulnerabilities: CVE-2026-56852, ghsa-f4v5-65jj-pcr2, ghsa-7p3p-8qv8-m2vh, CVE-2026-10051, CVE-2026-6790...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "483-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "trino",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "483-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852",
+    "ghsa-f4v5-65jj-pcr2",
+    "ghsa-7p3p-8qv8-m2vh",
+    "CVE-2026-10051",
+    "CVE-2026-6790",
+    "ghsa-jhq6-gfmj-v8fx",
+    "ghsa-p47f-322f-whfh",
+    "CVE-2026-10532",
+    "CVE-2026-9828",
+    "ghsa-r7wm-3cxj-wff9"
+  ],
+  "references": [
+    {
+      "url": "https://trino.io",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
