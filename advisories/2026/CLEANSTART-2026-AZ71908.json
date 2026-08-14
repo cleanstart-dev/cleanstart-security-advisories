@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AZ71908",
+  "summary": "Security fixes in yunikorn-k8shim 1.5.2-r1",
+  "details": "Package yunikorn-k8shim version 1.5.2-r1 fixes 7 vulnerabilities: CVE-2026-25681, CVE-2026-27136, CVE-2026-39821, CVE-2026-25680, CVE-2026-42502...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "yunikorn-k8shim",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25681",
+    "CVE-2026-27136",
+    "CVE-2026-39821",
+    "CVE-2026-25680",
+    "CVE-2026-42502",
+    "CVE-2026-42506",
+    "ghsa-5cv4-jp36-h3mw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/apache/yunikorn-k8shim",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
