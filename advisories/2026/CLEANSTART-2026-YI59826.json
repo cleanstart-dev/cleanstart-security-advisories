@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YI59826",
+  "summary": "Security fixes in gitea 1.26.4-r1",
+  "details": "Package gitea version 1.26.4-r1 fixes 9 vulnerabilities: ghsa-hrxh-6v49-42gf, CVE-2026-56852, CVE-2026-71556, CVE-2026-71557, ghsa-259r-337f-4rfw...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gitea",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.26.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-56852",
+    "CVE-2026-71556",
+    "CVE-2026-71557",
+    "ghsa-259r-337f-4rfw",
+    "CVE-2026-46600",
+    "ghsa-3fxj-6jh8-hvhx",
+    "ghsa-9g5q-2w5x-hmxf",
+    "ghsa-rjr7-jggh-pgcp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/go-gitea/gitea",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
