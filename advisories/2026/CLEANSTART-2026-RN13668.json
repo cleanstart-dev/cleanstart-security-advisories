@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RN13668",
+  "summary": "Security fixes in cosign 2.6.4-r2",
+  "details": "Package cosign version 2.6.4-r2 fixes 2 vulnerabilities: CVE-2026-54787, ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.4-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cosign",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.6.4-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54787",
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/cosign",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
