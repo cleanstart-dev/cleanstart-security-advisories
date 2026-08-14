@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BC43331",
+  "summary": "Security fixes in k8sgpt 0.1.8-r3",
+  "details": "Package k8sgpt version 0.1.8-r3 fixes 2 vulnerabilities: CVE-2026-27145, CVE-2026-33811",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.8-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "k8sgpt",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.1.8-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-33811"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/k8sgpt-ai/k8sgpt",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
