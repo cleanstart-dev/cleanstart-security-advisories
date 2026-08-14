@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   auto-merge-or-close:
+    if: false  # temporarily disabled — remove this line to re-enable
     runs-on: ubuntu-latest
 
     steps:
@@ -32,15 +33,6 @@ jobs:
             echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
             echo "Found PR #$PR_NUMBER"
           fi
-
-      - name: Approve PR (required for branch protection bypass)
-        if: steps.get-pr.outputs.pr_number != '' && github.event.workflow_run.conclusion == 'success'
-        env:
-          GH_TOKEN: ${{ secrets.ADMIN_TOKEN }}
-          REPO: ${{ github.repository }}
-          PR_NUMBER: ${{ steps.get-pr.outputs.pr_number }}
-        run: |
-          gh pr review $PR_NUMBER --repo $REPO --approve --body "Auto-approved: OSV validation passed." || true
 
       - name: Merge or Close PR
         if: steps.get-pr.outputs.pr_number != ''
