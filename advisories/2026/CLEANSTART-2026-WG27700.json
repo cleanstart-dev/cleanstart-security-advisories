@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WG27700",
+  "summary": "Security fixes in sonarqube 26.8.0.126808-r2",
+  "details": "Package sonarqube version 26.8.0.126808-r2 fixes 5 vulnerabilities: CVE-2026-59645, CVE-2026-56819, CVE-2026-59900, CVE-2026-59901, ghsa-mfg7-5gfp-c4w3",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.8.0.126808-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sonarqube",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.8.0.126808-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59645",
+    "CVE-2026-56819",
+    "CVE-2026-59900",
+    "CVE-2026-59901",
+    "ghsa-mfg7-5gfp-c4w3"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/SonarSource/sonarqube",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
