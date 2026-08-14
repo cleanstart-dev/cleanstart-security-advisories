@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FV97418",
+  "summary": "Security fixes in victoriametrics-operator 0.71.0-r2",
+  "details": "Package victoriametrics-operator version 0.71.0-r2 fixes 2 vulnerabilities: CVE-2026-46600, CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.71.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "victoriametrics-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.71.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/VictoriaMetrics/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
