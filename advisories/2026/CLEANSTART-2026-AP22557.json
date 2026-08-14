@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AP22557",
+  "summary": "Security fixes in external-secrets-fips 2.7.0-r1",
+  "details": "Package external-secrets-fips version 2.7.0-r1 fixes 5 vulnerabilities: CVE-2026-2303, ghsa-cp6g-7hqx-qxhp, ghsa-hrxh-6v49-42gf, ghsa-gcjh-h69q-9w9g, ghsa-mpwr-8vm7-h73f",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "external-secrets-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.7.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-2303",
+    "ghsa-cp6g-7hqx-qxhp",
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-gcjh-h69q-9w9g",
+    "ghsa-mpwr-8vm7-h73f"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/external-secrets/external-secrets",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:39Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
