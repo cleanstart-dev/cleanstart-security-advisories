@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EU00318",
+  "summary": "Security fixes in argo-workflows 3.7.17-r1",
+  "details": "Package argo-workflows version 3.7.17-r1 fixes 16 vulnerabilities: ghsa-3ppc-4f35-3m26, ghsa-7r86-cg39-jmmj, ghsa-23c5-xmqv-rm74, ghsa-xv26-6w52-cph6, ghsa-q3j6-qgpj-74h6...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.17-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.7.17-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3ppc-4f35-3m26",
+    "ghsa-7r86-cg39-jmmj",
+    "ghsa-23c5-xmqv-rm74",
+    "ghsa-xv26-6w52-cph6",
+    "ghsa-q3j6-qgpj-74h6",
+    "ghsa-v39h-62p7-jpjc",
+    "ghsa-8fgc-7cc6-rx7x",
+    "ghsa-38r7-794h-5758",
+    "CVE-2024-45296",
+    "CVE-2026-33671",
+    "CVE-2026-33672",
+    "CVE-2025-68157",
+    "CVE-2025-68458",
+    "CVE-2026-54466",
+    "CVE-2026-54490",
+    "CVE-2026-48779"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
