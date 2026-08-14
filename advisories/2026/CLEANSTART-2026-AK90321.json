@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AK90321",
+  "summary": "Security fixes in promxy 0.0.96-r3",
+  "details": "Package promxy version 0.0.96-r3 fixes 3 vulnerabilities: ghsa-vgwf-h737-ff37, ghsa-f5wc-c3c7-36mc, ghsa-5cgq-3rg8-m6cv",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.96-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "promxy",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.0.96-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vgwf-h737-ff37",
+    "ghsa-f5wc-c3c7-36mc",
+    "ghsa-5cgq-3rg8-m6cv"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/jacksontj/promxy",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
