@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BE94448",
+  "summary": "Security fixes in nats-streaming 0.23.2-r1",
+  "details": "Package nats-streaming version 0.23.2-r1 fixes 1 vulnerabilities: ghsa-259r-337f-4rfw",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.23.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "nats-streaming",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.23.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-259r-337f-4rfw"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/nats-io/nats-streaming-server",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
