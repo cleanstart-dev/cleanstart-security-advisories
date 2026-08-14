@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UT09437",
+  "summary": "Security fixes in coredns 1.14.4-r4",
+  "details": "Package coredns version 1.14.4-r4 fixes 1 vulnerabilities: CVE-2026-42505",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.4-r4"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "coredns",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.4-r4"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42505"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/coredns/coredns",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:58:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
