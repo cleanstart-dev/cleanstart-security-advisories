@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CB76425",
+  "summary": "Security fixes in consul-k8s 2.0.1-r1",
+  "details": "Package consul-k8s version 2.0.1-r1 fixes 9 vulnerabilities: CVE-2026-46600, CVE-2026-56852, ghsa-hrxh-6v49-42gf, CVE-2026-50151, CVE-2026-50162...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-k8s",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.0.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600",
+    "CVE-2026-56852",
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-50151",
+    "CVE-2026-50162",
+    "CVE-2026-48978",
+    "ghsa-8xwf-rjm4-xvhv",
+    "ghsa-xf85-363p-868w",
+    "ghsa-vh4v-2xq2-g5cg"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
