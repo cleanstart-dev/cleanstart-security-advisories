@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AU73245",
+  "summary": "Security fixes in consul-k8s-fips 1.8.14-r1",
+  "details": "Package consul-k8s-fips version 1.8.14-r1 fixes 2 vulnerabilities: CVE-2026-27145, CVE-2026-33811",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.14-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "consul-k8s-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.14-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-33811"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/hashicorp/consul-k8s",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
