@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QH76136",
+  "summary": "Security fixes in argo-workflows-fips 4.0.6-r1",
+  "details": "Package argo-workflows-fips version 4.0.6-r1 fixes 8 vulnerabilities: ghsa-crhj-59gh-8x96, ghsa-389r-gv7p-r3rp, ghsa-m7cr-m3pv-hgrp, ghsa-w5pp-99ch-qj29, CVE-2026-45022...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.6-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "argo-workflows-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.0.6-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-crhj-59gh-8x96",
+    "ghsa-389r-gv7p-r3rp",
+    "ghsa-m7cr-m3pv-hgrp",
+    "ghsa-w5pp-99ch-qj29",
+    "CVE-2026-45022",
+    "CVE-2026-45571",
+    "CVE-2026-45570",
+    "CVE-2022-30635"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/argoproj/argo-workflows",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
