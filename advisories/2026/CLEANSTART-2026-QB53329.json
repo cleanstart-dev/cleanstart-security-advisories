@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QB53329",
+  "summary": "Security fixes in local-static-provisioner-fips 2.7.0-r1",
+  "details": "Package local-static-provisioner-fips version 2.7.0-r1 fixes 4 vulnerabilities: CVE-2026-33186, ghsa-p77j-4mvh-x3m3, CVE-2025-52881, ghsa-cgrx-mc8f-2prm",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "local-static-provisioner-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.7.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "ghsa-p77j-4mvh-x3m3",
+    "CVE-2025-52881",
+    "ghsa-cgrx-mc8f-2prm"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:14Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
