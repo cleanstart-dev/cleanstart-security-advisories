@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WU53412",
+  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.6-r1",
+  "details": "Package $pkgname-${pkgver%%.*} version 3.8.6-r1 fixes 4 vulnerabilities: CVE-2023-2976, CVE-2020-8908, CVE-2025-48924, CVE-2025-67030",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.6-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "$pkgname-${pkgver%%.*}",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.8.6-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-2976",
+    "CVE-2020-8908",
+    "CVE-2025-48924",
+    "CVE-2025-67030"
+  ],
+  "references": [
+    {
+      "url": "https://maven.apache.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
