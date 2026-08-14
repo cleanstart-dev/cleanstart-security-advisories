@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QQ48355",
+  "summary": "Security fixes in kserve-modelmesh 0.12.0-r17",
+  "details": "Package kserve-modelmesh version 0.12.0-r17 fixes 53 vulnerabilities: ghsa-f6hv-jmp6-3vwv, ghsa-57rv-r2g8-2cj3, ghsa-xxqh-mfjm-7mv9, ghsa-m4cv-j2px-7723, ghsa-v8h7-rr48-vmmv...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.0-r17"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kserve-modelmesh",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.12.0-r17"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-57rv-r2g8-2cj3",
+    "ghsa-xxqh-mfjm-7mv9",
+    "ghsa-m4cv-j2px-7723",
+    "ghsa-v8h7-rr48-vmmv",
+    "ghsa-38f8-5428-x5cv",
+    "ghsa-hvcg-qmg6-jm4c",
+    "CVE-2026-42584",
+    "CVE-2026-42587",
+    "CVE-2026-41417",
+    "CVE-2026-42580",
+    "CVE-2026-42581",
+    "ghsa-rmj7-2vxq-3g9f",
+    "ghsa-j3rv-43j4-c7qm",
+    "ghsa-5gvw-p9qm-jgwh",
+    "ghsa-5jmj-h7xm-6q6v",
+    "ghsa-3pjw-73gf-8qr5",
+    "ghsa-hgj6-7826-r7m5",
+    "ghsa-mhm7-754m-9p8w",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2026-59888",
+    "CVE-2026-59889",
+    "ghsa-3qp7-7mw8-wx86",
+    "ghsa-x4gw-5cx5-pgmh",
+    "ghsa-c653-97m9-rcg9",
+    "ghsa-mj4r-2hfc-f8p6",
+    "CVE-2026-42583",
+    "ghsa-c2gf-v879-257j",
+    "ghsa-563q-j3cm-6jxm",
+    "ghsa-5x3r-wrvg-rp6q",
+    "ghsa-574f-3g2m-x479",
+    "ghsa-c3fc-8qff-9hwx",
+    "ghsa-45q3-82m4-75jr",
+    "ghsa-wg6q-6289-32hp",
+    "ghsa-w573-9ffj-6ff9",
+    "ghsa-r7wm-3cxj-wff9",
+    "CVE-2026-50020",
+    "CVE-2026-42585",
+    "CVE-2026-50560",
+    "CVE-2026-47244",
+    "CVE-2026-48043",
+    "CVE-2026-50010",
+    "CVE-2026-44249",
+    "CVE-2026-45416",
+    "CVE-2026-42578",
+    "CVE-2026-45536",
+    "CVE-2026-43869",
+    "CVE-2026-5588",
+    "CVE-2025-14813",
+    "CVE-2026-0636"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kserve/modelmesh",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
