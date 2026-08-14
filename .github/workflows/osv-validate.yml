@@ -28,8 +28,9 @@ jobs:
         run: |
           SCHEMA_URL="https://raw.githubusercontent.com/ossf/osv-schema/main/validation/schema.json"
 
-          # PR mein change hue JSON files nikaalo
-          files=$(git diff --name-only origin/${{ github.base_ref }} | grep '.json$' || true)
+          # Only get ADDED or MODIFIED files in THIS PR (three-dot diff avoids race condition
+          # where concurrent PR merges add files to main that aren't in the current branch)
+          files=$(git diff --name-only --diff-filter=AM origin/${{ github.base_ref }}...HEAD -- | grep \.json$ || true)
 
           if [ -z "$files" ]; then
             echo "No JSON files changed. Skipping validation."
@@ -38,8 +39,12 @@ jobs:
 
           echo "Using schema: $SCHEMA_URL"
 
-          # Har JSON file ko OSV schema se validate karo
+          # Validate only files that exist in the current checkout
           for file in $files; do
-            echo "Validating: $file"
-            check-jsonschema --schemafile "$SCHEMA_URL" "$file"
+            if [ -f "$file" ]; then
+              echo "Validating: $file"
+              check-jsonschema --schemafile "$SCHEMA_URL" "$file"
+            else
+              echo "Skipping (not in this branch): $file"
+            fi
           done
