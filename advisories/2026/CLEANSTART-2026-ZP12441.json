@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZP12441",
+  "summary": "Security fixes in kubernetes 1.35.7-r0",
+  "details": "Package kubernetes version 1.35.7-r0 fixes 1 vulnerabilities: ghsa-gcjh-h69q-9w9g",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gcjh-h69q-9w9g"
+  ],
+  "references": [
+    {
+      "url": "https://kubernetes.io/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:58:03Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
