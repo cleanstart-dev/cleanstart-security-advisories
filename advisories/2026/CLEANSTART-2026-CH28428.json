@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CH28428",
+  "summary": "Security fixes in langfuse 3.224.1-r1",
+  "details": "Package langfuse version 3.224.1-r1 fixes 5 vulnerabilities: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591, ghsa-f88m-g3jw-g9cj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.224.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "langfuse",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.224.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33327",
+    "CVE-2026-33328",
+    "CVE-2026-35590",
+    "CVE-2026-35591",
+    "ghsa-f88m-g3jw-g9cj"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
