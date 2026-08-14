@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LP75251",
+  "summary": "Security fixes in dynatrace-operator 1.10.0-r1",
+  "details": "Package dynatrace-operator version 1.10.0-r1 fixes 1 vulnerabilities: CVE-2026-46600",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "dynatrace-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-46600"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Dynatrace/dynatrace-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:13Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
