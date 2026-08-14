@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RD68609",
+  "summary": "Security fixes in tigera-operator-fips 1.40.13-r1",
+  "details": "Package tigera-operator-fips version 1.40.13-r1 fixes 3 vulnerabilities: CVE-2026-27145, CVE-2026-42504, CVE-2026-42507",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.40.13-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tigera-operator-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.40.13-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27145",
+    "CVE-2026-42504",
+    "CVE-2026-42507"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tigera/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
