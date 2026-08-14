@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VR80248",
+  "summary": "Security fixes in git-sync 4.6.0-r3",
+  "details": "Package git-sync version 4.6.0-r3 fixes 1 vulnerabilities: CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.0-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "git-sync",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.6.0-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/git-sync",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
