@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EA64846",
+  "summary": "Security fixes in spark-sc213-jdk17-py312 4.2.0-r1",
+  "details": "Package spark-sc213-jdk17-py312 version 4.2.0-r1 fixes 1 vulnerabilities: ghsa-mhm7-754m-9p8w",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc213-jdk17-py312",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mhm7-754m-9p8w"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
