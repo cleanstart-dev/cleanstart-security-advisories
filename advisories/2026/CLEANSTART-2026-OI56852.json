@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OI56852",
+  "summary": "Security fixes in spark-sc213-jdk17-py312 3.4.4-r1",
+  "details": "Package spark-sc213-jdk17-py312 version 3.4.4-r1 fixes 26 vulnerabilities: CVE-2024-47561, ghsa-rhrv-645h-fjfh, CVE-2023-39410, ghsa-r7pg-v2c8-mfg3, CVE-2024-7254...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spark-sc213-jdk17-py312",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.4.4-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-47561",
+    "ghsa-rhrv-645h-fjfh",
+    "CVE-2023-39410",
+    "ghsa-r7pg-v2c8-mfg3",
+    "CVE-2024-7254",
+    "ghsa-wrvw-hg22-4m67",
+    "CVE-2021-22569",
+    "ghsa-h4h5-3hr4-j3g2",
+    "CVE-2022-3171",
+    "CVE-2021-22570",
+    "CVE-2022-3509",
+    "CVE-2022-3510",
+    "ghsa-735f-pc8j-v9w8",
+    "CVE-2024-47554",
+    "ghsa-78wr-2p64-hpwj",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "ghsa-j3rv-43j4-c7qm",
+    "ghsa-hgj6-7826-r7m5",
+    "ghsa-rmj7-2vxq-3g9f",
+    "CVE-2025-12183",
+    "ghsa-vqf4-7m7x-wgfc",
+    "CVE-2025-52999",
+    "ghsa-h46c-h94j-95f3"
+  ],
+  "references": [
+    {
+      "url": "https://spark.apache.org",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
