@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OB13434",
+  "summary": "Security fixes in wso2is 7.3.0-r1",
+  "details": "Package wso2is version 7.3.0-r1 fixes 11 vulnerabilities: CVE-2025-59340, CVE-2026-25526, CVE-2025-8671, CVE-2026-54399, CVE-2026-54428...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.3.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "wso2is",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.3.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-59340",
+    "CVE-2026-25526",
+    "CVE-2025-8671",
+    "CVE-2026-54399",
+    "CVE-2026-54428",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2026-59888",
+    "CVE-2026-59889"
+  ],
+  "references": [
+    {
+      "url": "https://wso2.com/identity-server/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
