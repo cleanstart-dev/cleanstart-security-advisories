@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KB74242",
+  "summary": "Security fixes in strimzi-kafka-operator 1.1.0-r1",
+  "details": "Package strimzi-kafka-operator version 1.1.0-r1 fixes 22 vulnerabilities: CVE-2026-42587, CVE-2026-47244, CVE-2026-48043, CVE-2026-50560, CVE-2026-54512...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "strimzi-kafka-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.1.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-42587",
+    "CVE-2026-47244",
+    "CVE-2026-48043",
+    "CVE-2026-50560",
+    "CVE-2026-54512",
+    "CVE-2026-54513",
+    "CVE-2026-54514",
+    "CVE-2026-54515",
+    "CVE-2026-54516",
+    "CVE-2026-54517",
+    "CVE-2026-54518",
+    "ghsa-f6hv-jmp6-3vwv",
+    "ghsa-c2gf-v879-257j",
+    "ghsa-563q-j3cm-6jxm",
+    "ghsa-5x3r-wrvg-rp6q",
+    "ghsa-rmj7-2vxq-3g9f",
+    "ghsa-j3rv-43j4-c7qm",
+    "ghsa-5jmj-h7xm-6q6v",
+    "ghsa-9fxm-vc8v-hj55",
+    "ghsa-5hh8-q8hv-fr38",
+    "ghsa-rcqc-6cw3-h962",
+    "ghsa-hgj6-7826-r7m5"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/strimzi/strimzi-kafka-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:48Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
