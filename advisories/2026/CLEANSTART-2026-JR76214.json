@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JR76214",
+  "summary": "Security fixes in mailpit 1.30.3-r1",
+  "details": "Package mailpit version 1.30.3-r1 fixes 1 vulnerabilities: CVE-2026-56852",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.3-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "mailpit",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.30.3-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56852"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/axllent/mailpit",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:44Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
