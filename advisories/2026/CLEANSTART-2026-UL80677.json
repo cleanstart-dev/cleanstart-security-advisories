@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UL80677",
+  "summary": "Security fixes in cedar 4.11.2-r1",
+  "details": "Package cedar version 4.11.2-r1 fixes 3 vulnerabilities: CVE-2026-25727, ghsa-r6v5-fh4h-64xc, ghsa-7gcf-g7xr-8hxj",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.11.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cedar",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.11.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-25727",
+    "ghsa-r6v5-fh4h-64xc",
+    "ghsa-7gcf-g7xr-8hxj"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cedar-policy/cedar",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:56Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
