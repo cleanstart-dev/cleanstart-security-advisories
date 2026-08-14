@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FZ96699",
+  "summary": "Security fixes in postgres-operator 1.13.0-r1",
+  "details": "Package postgres-operator version 1.13.0-r1 fixes 3 vulnerabilities: ghsa-vgwf-h737-ff37, ghsa-5cgq-3rg8-m6cv, ghsa-rm3j-f69w-wqmq",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "postgres-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.13.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vgwf-h737-ff37",
+    "ghsa-5cgq-3rg8-m6cv",
+    "ghsa-rm3j-f69w-wqmq"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/zalando/postgres-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
