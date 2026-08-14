@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NG02512",
+  "summary": "Security fixes in langfuse 3.146.0-r1",
+  "details": "Package langfuse version 3.146.0-r1 fixes 1 vulnerabilities: ghsa-6475-r3vj-m8vf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.146.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "langfuse",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.146.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-6475-r3vj-m8vf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
