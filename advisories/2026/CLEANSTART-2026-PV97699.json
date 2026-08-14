@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PV97699",
+  "summary": "Security fixes in tekton-pipelines-fips 1.14.0-r2",
+  "details": "Package tekton-pipelines-fips version 1.14.0-r2 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tekton-pipelines-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/pipeline",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
