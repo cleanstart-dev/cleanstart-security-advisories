@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TD64731",
+  "summary": "Security fixes in fulcio 1.8.7-r2",
+  "details": "Package fulcio version 1.8.7-r2 fixes 3 vulnerabilities: ghsa-vgwf-h737-ff37, ghsa-f5wc-c3c7-36mc, ghsa-5cgq-3rg8-m6cv",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.7-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fulcio",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.7-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vgwf-h737-ff37",
+    "ghsa-f5wc-c3c7-36mc",
+    "ghsa-5cgq-3rg8-m6cv"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/fulcio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:23Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
