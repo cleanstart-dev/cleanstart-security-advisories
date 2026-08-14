@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ET14314",
+  "summary": "Security fixes in cortex 1.19.1-r2",
+  "details": "Package cortex version 1.19.1-r2 fixes 2 vulnerabilities: ghsa-259r-337f-4rfw, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cortex",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.19.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-259r-337f-4rfw",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/cortexproject/cortex",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:56:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
