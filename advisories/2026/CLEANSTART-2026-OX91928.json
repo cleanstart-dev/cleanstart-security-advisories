@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OX91928",
+  "summary": "Security fixes in sqlpad 7.5.7-r5",
+  "details": "Package sqlpad version 7.5.7-r5 fixes 1 vulnerabilities: ghsa-r292-9mhp-454m",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r5"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "sqlpad",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.5.7-r5"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r292-9mhp-454m"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sqlpad/sqlpad",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-08-13T12:10:09Z",
+  "modified": "2026-08-14T05:57:24Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
