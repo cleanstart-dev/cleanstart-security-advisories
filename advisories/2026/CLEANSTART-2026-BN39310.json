@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BN39310",
+  "summary": "Security fixes in atlantis-fips 0.47.1-r1",
+  "details": "Package atlantis-fips version 0.47.1-r1 fixes 10 vulnerabilities: CVE-2026-56860, CVE-2026-56858, CVE-2026-33818, CVE-2026-46600, CVE-2026-56853...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.47.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "atlantis-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.47.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56860",
+    "CVE-2026-56858",
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56859",
+    "CVE-2026-56862",
+    "CVE-2026-39821",
+    "CVE-2026-56864",
+    "CVE-2026-56865"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/runatlantis/atlantis",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
