@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-PK78207",
+  "summary": "Security fixes in tigera-operator 1.40.15-r1",
+  "details": "Package tigera-operator version 1.40.15-r1 fixes 1 vulnerabilities: CVE-2026-50163",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.40.15-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tigera-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.40.15-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-50163"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tigera/operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:37:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
