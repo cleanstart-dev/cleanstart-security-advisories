@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MJ04112",
+  "summary": "Security fixes in atlantis 0.44.1-r0",
+  "details": "Package atlantis version 0.44.1-r0 fixes 2 vulnerabilities: CVE-2026-56864, CVE-2026-56865",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.44.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "atlantis",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.44.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56864",
+    "CVE-2026-56865"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/runatlantis/atlantis",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:38Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
