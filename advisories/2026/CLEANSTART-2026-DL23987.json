@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DL23987",
+  "summary": "Security fixes in kubernetes-event-exporter 1.5-r1",
+  "details": "Package kubernetes-event-exporter version 1.5-r1 fixes 1 vulnerabilities: ghsa-hrxh-6v49-42gf",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kubernetes-event-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/resmoio/kubernetes-event-exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:59Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
