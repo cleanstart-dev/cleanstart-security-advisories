@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AE85889",
+  "summary": "Security fixes in gradle 7.2-r0",
+  "details": "Package gradle version 7.2-r0 fixes 1 vulnerabilities: CVE-2021-32751",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.2-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "gradle",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "7.2-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-32751"
+  ],
+  "references": [
+    {
+      "url": "https://gradle.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
