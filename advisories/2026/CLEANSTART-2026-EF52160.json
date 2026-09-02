@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EF52160",
+  "summary": "Security fixes in grype 0.117.0-r1",
+  "details": "Package grype version 0.117.0-r1 fixes 3 vulnerabilities: CVE-2026-56864, CVE-2026-56865, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.117.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grype",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.117.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/anchore/grype",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:20Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
