@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SK94653",
+  "summary": "Security fixes in kube-state-metrics-fips 2.20.0-r1",
+  "details": "Package kube-state-metrics-fips version 2.20.0-r1 fixes 9 vulnerabilities: CVE-2026-56860, CVE-2026-56858, CVE-2026-33818, CVE-2026-46600, CVE-2026-56853...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kube-state-metrics-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.20.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56860",
+    "CVE-2026-56858",
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56859",
+    "CVE-2026-56862",
+    "CVE-2026-39821",
+    "ghsa-gcjh-h69q-9w9g"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/kube-state-metrics",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:55Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
