@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BH94852",
+  "summary": "Security fixes in langfuse-worker 3.224.1-r2",
+  "details": "Package langfuse-worker version 3.224.1-r2 fixes 4 vulnerabilities: CVE-2026-14257, CVE-2026-69152, ghsa-r28c-9q8g-f849, CVE-2026-69153",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.224.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "langfuse-worker",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.224.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-14257",
+    "CVE-2026-69152",
+    "ghsa-r28c-9q8g-f849",
+    "CVE-2026-69153"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:40:31Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
