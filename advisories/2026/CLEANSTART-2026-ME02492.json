@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ME02492",
+  "summary": "Security fixes in az 2.89.1-r2",
+  "details": "Package az version 2.89.1-r2 fixes 3 vulnerabilities: CVE-2026-69247, CVE-2026-69248, CVE-2026-69249",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.89.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "az",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.89.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-69247",
+    "CVE-2026-69248",
+    "CVE-2026-69249"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/Azure/azure-cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
