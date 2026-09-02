@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HW17175",
+  "summary": "Security fixes in prometheus-fips 3.11.3-r2",
+  "details": "Package prometheus-fips version 3.11.3-r2 fixes 15 vulnerabilities: CVE-2026-56860, CVE-2026-56858, CVE-2026-33818, CVE-2026-46600, CVE-2026-56853...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.3-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "3.11.3-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56860",
+    "CVE-2026-56858",
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56859",
+    "CVE-2026-56862",
+    "CVE-2026-39821",
+    "CVE-2026-33997",
+    "CVE-2026-41567",
+    "CVE-2026-42306",
+    "CVE-2026-34040",
+    "CVE-2026-41568",
+    "CVE-2026-2303",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/prometheus",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
