@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UF80970",
+  "summary": "Security fixes in cluster-autoscaler 1.35.2-r3",
+  "details": "Package cluster-autoscaler version 1.35.2-r3 fixes 3 vulnerabilities: CVE-2026-56864, CVE-2026-56865, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.35.2-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cluster-autoscaler",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.35.2-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/autoscaler",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:32Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
