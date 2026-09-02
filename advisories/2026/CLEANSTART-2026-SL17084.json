@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SL17084",
+  "summary": "Security fixes in step-ca 0.27.5-r0",
+  "details": "Package step-ca version 0.27.5-r0 fixes 14 vulnerabilities: CVE-2026-33186, CVE-2025-27144, CVE-2026-34986, CVE-2025-22868, CVE-2026-25793...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.27.5-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "step-ca",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.27.5-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33186",
+    "CVE-2025-27144",
+    "CVE-2026-34986",
+    "CVE-2025-22868",
+    "CVE-2026-25793",
+    "CVE-2025-62820",
+    "CVE-2024-45339",
+    "CVE-2026-26958",
+    "CVE-2025-30204",
+    "ghsa-vrw8-fxc6-2r93",
+    "ghsa-9g5q-2w5x-hmxf",
+    "ghsa-rjr7-jggh-pgcp",
+    "ghsa-259r-337f-4rfw",
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/smallstep/certificates",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
