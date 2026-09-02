@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KQ21500",
+  "summary": "Security fixes in grafana 12.3.10-r1",
+  "details": "Package grafana version 12.3.10-r1 fixes 15 vulnerabilities: ghsa-r277-6w6q-xmqw, ghsa-jpcw-4wr7-c3vq, ghsa-gcjh-h69q-9w9g, CVE-2026-21728, CVE-2026-28377...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.3.10-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "grafana",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "12.3.10-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r277-6w6q-xmqw",
+    "ghsa-jpcw-4wr7-c3vq",
+    "ghsa-gcjh-h69q-9w9g",
+    "CVE-2026-21728",
+    "CVE-2026-28377",
+    "CVE-2026-48096",
+    "CVE-2026-55689",
+    "CVE-2026-55170",
+    "CVE-2026-42151",
+    "CVE-2026-44903",
+    "CVE-2026-40179",
+    "CVE-2026-2303",
+    "CVE-2026-39882",
+    "ghsa-259r-337f-4rfw",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://grafana.com",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:22Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
