@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DB39840",
+  "summary": "Security fixes in cluster-autoscaler 1.36.1-r1",
+  "details": "Package cluster-autoscaler version 1.36.1-r1 fixes 7 vulnerabilities: ghsa-hrxh-6v49-42gf, CVE-2026-56864, CVE-2026-56865, CVE-2026-39883, CVE-2026-56852...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.36.1-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cluster-autoscaler",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.36.1-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "CVE-2026-39883",
+    "CVE-2026-56852",
+    "CVE-2026-73500",
+    "ghsa-gcjh-h69q-9w9g"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/kubernetes/autoscaler",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:19Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
