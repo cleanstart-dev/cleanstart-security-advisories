@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LI34904",
+  "summary": "Security fixes in strimzi-kafka-operator 1.2.0-r1",
+  "details": "Package strimzi-kafka-operator version 1.2.0-r1 fixes 2 vulnerabilities: CVE-2026-59949, CVE-2026-59903",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "strimzi-kafka-operator",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59949",
+    "CVE-2026-59903"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/strimzi/strimzi-kafka-operator",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:37:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
