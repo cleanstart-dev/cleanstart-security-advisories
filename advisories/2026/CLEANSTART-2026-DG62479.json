@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DG62479",
+  "summary": "Security fixes in cassandra-reaper-fips 4.1.1-r3",
+  "details": "Package cassandra-reaper-fips version 4.1.1-r3 fixes 4 vulnerabilities: CVE-2026-44249, CVE-2026-45416, CVE-2026-50010, CVE-2026-10050",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.1-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "cassandra-reaper-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.1.1-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-44249",
+    "CVE-2026-45416",
+    "CVE-2026-50010",
+    "CVE-2026-10050"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/thelastpickle/cassandra-reaper",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:40:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
