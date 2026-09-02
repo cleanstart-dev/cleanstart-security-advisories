@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WA17635",
+  "summary": "Security fixes in prometheus-pushgateway 1.10.0-r1",
+  "details": "Package prometheus-pushgateway version 1.10.0-r1 fixes 4 vulnerabilities: CVE-2025-22868, CVE-2026-40179, CVE-2026-56852, CVE-2026-39824",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-pushgateway",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.10.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-22868",
+    "CVE-2026-40179",
+    "CVE-2026-56852",
+    "CVE-2026-39824"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/prometheus/pushgateway",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:36:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
