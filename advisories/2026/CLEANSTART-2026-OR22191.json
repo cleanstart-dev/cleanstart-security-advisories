@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-OR22191",
+  "summary": "Security fixes in prometheus-mongodb-exporter 0.53.0-r1",
+  "details": "Package prometheus-mongodb-exporter version 0.53.0-r1 fixes 4 vulnerabilities: ghsa-hrxh-6v49-42gf, CVE-2026-56864, CVE-2026-56865, CVE-2026-41178",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.53.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "prometheus-mongodb-exporter",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.53.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf",
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/percona/mongodb_exporter",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:21Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
