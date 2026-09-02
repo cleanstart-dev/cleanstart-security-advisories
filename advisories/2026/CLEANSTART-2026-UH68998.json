@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UH68998",
+  "summary": "Security fixes in langfuse 4.2.0-r1",
+  "details": "Package langfuse version 4.2.0-r1 fixes 7 vulnerabilities: CVE-2026-18446, CVE-2026-69207, CVE-2026-13697, CVE-2026-14643, CVE-2026-15157...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "langfuse",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "4.2.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-18446",
+    "CVE-2026-69207",
+    "CVE-2026-13697",
+    "CVE-2026-14643",
+    "CVE-2026-15157",
+    "CVE-2026-16728",
+    "CVE-2026-16729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:15Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
