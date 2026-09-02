@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WI70284",
+  "summary": "Security fixes in py3.11-pip 26.2-r1",
+  "details": "Package py3.11-pip version 26.2-r1 fixes 4 vulnerabilities: CVE-2026-57585, ghsa-6v7p-g79w-8964, CVE-2025-47273, CVE-2026-59890",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "py3.11-pip",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "26.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-57585",
+    "ghsa-6v7p-g79w-8964",
+    "CVE-2025-47273",
+    "CVE-2026-59890"
+  ],
+  "references": [
+    {
+      "url": "https://pip.pypa.io",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
