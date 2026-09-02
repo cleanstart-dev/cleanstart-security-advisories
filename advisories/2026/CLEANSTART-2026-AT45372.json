@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AT45372",
+  "summary": "Security fixes in tkn 0.46.0-r1",
+  "details": "Package tkn version 0.46.0-r1 fixes 6 vulnerabilities: CVE-2026-33818, CVE-2026-46600, CVE-2026-56853, CVE-2026-56859, CVE-2026-56862...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.46.0-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "tkn",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "0.46.0-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56859",
+    "CVE-2026-56862",
+    "CVE-2026-39821"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/tektoncd/cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:36:30Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
