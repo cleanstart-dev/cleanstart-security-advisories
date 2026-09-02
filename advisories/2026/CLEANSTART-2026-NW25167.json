@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NW25167",
+  "summary": "Security fixes in kots 1.127.2-r1",
+  "details": "Package kots version 1.127.2-r1 fixes 1 vulnerabilities: CVE-2026-53492",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.127.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "kots",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.127.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-53492"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/replicatedhq/kots",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
