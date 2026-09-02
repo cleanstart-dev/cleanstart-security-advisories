@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VR52142",
+  "summary": "Security fixes in fulcio-fips 1.5.1-r2",
+  "details": "Package fulcio-fips version 1.5.1-r2 fixes 10 vulnerabilities: CVE-2026-33818, CVE-2026-56853, CVE-2026-56858, CVE-2026-56859, CVE-2026-56860...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "fulcio-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.5.1-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-33818",
+    "CVE-2026-56853",
+    "CVE-2026-56858",
+    "CVE-2026-56859",
+    "CVE-2026-56860",
+    "CVE-2026-39821",
+    "CVE-2026-34986",
+    "CVE-2025-27144",
+    "CVE-2026-24137",
+    "CVE-2026-33186"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/sigstore/fulcio",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
