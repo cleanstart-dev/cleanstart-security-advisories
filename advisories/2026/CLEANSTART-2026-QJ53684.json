@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QJ53684",
+  "summary": "Security fixes in rust 1.71.1-r0",
+  "details": "Package rust version 1.71.1-r0 fixes 1 vulnerabilities: CVE-2023-38497",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.71.1-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rust",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.71.1-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-38497"
+  ],
+  "references": [
+    {
+      "url": "https://www.rust-lang.org/",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:37:17Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
