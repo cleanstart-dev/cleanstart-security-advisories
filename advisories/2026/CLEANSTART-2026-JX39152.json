@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JX39152",
+  "summary": "Security fixes in spire-server 1.14.7-r0",
+  "details": "Package spire-server version 1.14.7-r0 fixes 16 vulnerabilities: CVE-2026-49834, CVE-2026-24122, CVE-2026-39395, CVE-2026-41178, CVE-2026-41568...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.7-r0"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "spire-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.14.7-r0"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-49834",
+    "CVE-2026-24122",
+    "CVE-2026-39395",
+    "CVE-2026-41178",
+    "CVE-2026-41568",
+    "CVE-2026-41889",
+    "CVE-2026-48702",
+    "CVE-2026-49834",
+    "CVE-2026-49835",
+    "CVE-2026-54787",
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "ghsa-259r-337f-4rfw",
+    "ghsa-3fxj-6jh8-hvhx",
+    "ghsa-9g5q-2w5x-hmxf",
+    "ghsa-rjr7-jggh-pgcp"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/spiffe/spire",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:40:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
