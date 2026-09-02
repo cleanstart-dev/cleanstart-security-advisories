@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VM28699",
+  "summary": "Security fixes in temporal 1.8.2-r1",
+  "details": "Package temporal version 1.8.2-r1 fixes 1 vulnerabilities: CVE-2026-55677",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.2-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.8.2-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-55677"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/cli",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
