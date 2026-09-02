@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BC21308",
+  "summary": "Security fixes in rancher-agent 2.12.11-r3",
+  "details": "Package rancher-agent version 2.12.11-r3 fixes 8 vulnerabilities: CVE-2026-56864, CVE-2026-56865, CVE-2026-50163, CVE-2026-48978, CVE-2026-50151...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.12.11-r3"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "rancher-agent",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "2.12.11-r3"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56864",
+    "CVE-2026-56865",
+    "CVE-2026-50163",
+    "CVE-2026-48978",
+    "CVE-2026-50151",
+    "CVE-2026-50162",
+    "ghsa-vh4v-2xq2-g5cg",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/rancher/rancher",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:40:41Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
