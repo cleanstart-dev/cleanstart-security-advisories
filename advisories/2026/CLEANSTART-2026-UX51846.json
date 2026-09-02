@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UX51846",
+  "summary": "Security fixes in renovate 44.31.0-r2",
+  "details": "Package renovate version 44.31.0-r2 fixes 21 vulnerabilities: CVE-2026-59873, CVE-2026-59871, CVE-2026-59875, CVE-2026-59874, ghsa-r292-9mhp-454m...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "44.31.0-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "renovate",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "44.31.0-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-59873",
+    "CVE-2026-59871",
+    "CVE-2026-59875",
+    "CVE-2026-59874",
+    "ghsa-r292-9mhp-454m",
+    "CVE-2026-53655",
+    "CVE-2026-14257",
+    "CVE-2026-69152",
+    "CVE-2026-69192",
+    "CVE-2026-54272",
+    "CVE-2026-69198",
+    "CVE-2026-42338",
+    "CVE-2026-67213",
+    "CVE-2026-33671",
+    "CVE-2026-33672",
+    "CVE-2026-48815",
+    "CVE-2026-48758",
+    "CVE-2026-48816",
+    "CVE-2026-15157",
+    "CVE-2026-16728",
+    "CVE-2026-16729"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/renovatebot/renovate",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
