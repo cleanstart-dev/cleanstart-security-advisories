@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IB62904",
+  "summary": "Security fixes in temporal-server 1.28.4-r2",
+  "details": "Package temporal-server version 1.28.4-r2 fixes 15 vulnerabilities: CVE-2026-39821, CVE-2026-33818, CVE-2026-46600, CVE-2026-56853, CVE-2026-56858...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.28.4-r2"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "temporal-server",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.28.4-r2"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-39821",
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56858",
+    "CVE-2026-56859",
+    "CVE-2026-56860",
+    "CVE-2026-56862",
+    "CVE-2026-5724",
+    "CVE-2025-14987",
+    "CVE-2025-14986",
+    "CVE-2026-5199",
+    "ghsa-hrxh-6v49-42gf",
+    "ghsa-259r-337f-4rfw",
+    "CVE-2026-41178"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/temporalio/temporal",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:38:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
