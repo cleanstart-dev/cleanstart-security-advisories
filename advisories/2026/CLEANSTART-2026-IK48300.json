@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IK48300",
+  "summary": "Security fixes in stakater-reloader-fips 1.4.19-r1",
+  "details": "Package stakater-reloader-fips version 1.4.19-r1 fixes 8 vulnerabilities: CVE-2026-56860, CVE-2026-56858, CVE-2026-33818, CVE-2026-46600, CVE-2026-56853...",
+  "affected": [
+    {
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.19-r1"
+            }
+          ]
+        }
+      ],
+      "package": {
+        "name": "stakater-reloader-fips",
+        "ecosystem": "Alpine"
+      },
+      "versions": [
+        "1.4.19-r1"
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56860",
+    "CVE-2026-56858",
+    "CVE-2026-33818",
+    "CVE-2026-46600",
+    "CVE-2026-56853",
+    "CVE-2026-56859",
+    "CVE-2026-56862",
+    "CVE-2026-39821"
+  ],
+  "references": [
+    {
+      "url": "https://github.com/stakater/Reloader",
+      "type": "WEB"
+    }
+  ],
+  "published": "2026-09-01T11:17:16Z",
+  "modified": "2026-09-02T06:39:25Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
