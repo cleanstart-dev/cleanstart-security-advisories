@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QC46400",
-  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.9-r2",
-  "details": "Package $pkgname-${pkgver%%.*} version 3.8.9-r2 fixes 2 vulnerabilities: ghsa-6fmv-xxpf-w3cw, CVE-2025-67030",
+  "summary": "Security fixes in maven 3.8.9-r2",
+  "details": "Package maven version 3.8.9-r2 fixes 2 vulnerabilities: ghsa-6fmv-xxpf-w3cw, CVE-2025-67030",
   "affected": [
     {
       "ranges": [
@@ -19,7 +19,7 @@
         }
       ],
       "package": {
-        "name": "$pkgname-${pkgver%%.*}",
+        "name": "maven",
         "ecosystem": "CleanStart"
       },
       "versions": [

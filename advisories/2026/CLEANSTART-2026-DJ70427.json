@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DJ70427",
-  "summary": "Security fixes in ${pkgname}-compat 1.33.9-r1",
-  "details": "Package ${pkgname}-compat version 1.33.9-r1 fixes 11 vulnerabilities: CVE-2026-39820, CVE-2026-42499, CVE-2026-39836, CVE-2026-33814, CVE-2026-33811...",
+  "summary": "Security fixes in azuredisk-csi-fips 1.33.9-r1",
+  "details": "Package azuredisk-csi-fips version 1.33.9-r1 fixes 11 vulnerabilities: CVE-2026-39820, CVE-2026-42499, CVE-2026-39836, CVE-2026-33814, CVE-2026-33811...",
   "affected": [
     {
       "ranges": [
@@ -19,7 +19,7 @@
         }
       ],
       "package": {
-        "name": "${pkgname}-compat",
+        "name": "azuredisk-csi-fips",
         "ecosystem": "CleanStart"
       },
       "versions": [

@@ -2,12 +2,12 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-EQ25508",
   "summary": "Security fixes for CVE-2025-11082, CVE-2025-11083 applied in versions: 2.46.0-r0",
-  "details": "Multiple security vulnerabilities affect the $pkgname-$CTARGET_ARCH package. These issues are resolved in later releases. See references for individual vulnerability details.",
+  "details": "Multiple security vulnerabilities affect the binutils package. These issues are resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "$pkgname-$CTARGET_ARCH"
+        "name": "binutils"
       },
       "ranges": [
         {

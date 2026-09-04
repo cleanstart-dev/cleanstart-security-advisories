@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RX57306",
-  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.9.7-r1",
-  "details": "Package $pkgname-${pkgver%%.*} version 3.9.7-r1 fixes 2 vulnerabilities: ghsa-6fmv-xxpf-w3cw, ghsa-j288-q9x7-2f5v",
+  "summary": "Security fixes in maven 3.9.7-r1",
+  "details": "Package maven version 3.9.7-r1 fixes 2 vulnerabilities: ghsa-6fmv-xxpf-w3cw, ghsa-j288-q9x7-2f5v",
   "affected": [
     {
       "ranges": [
@@ -19,7 +19,7 @@
         }
       ],
       "package": {
-        "name": "$pkgname-${pkgver%%.*}",
+        "name": "maven",
         "ecosystem": "CleanStart"
       },
       "versions": [
