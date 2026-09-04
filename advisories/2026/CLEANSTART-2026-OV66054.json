@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OV66054",
-  "summary": "Security fixes in $pkgname-$CTARGET_ARCH 2.40-r10",
-  "details": "Package $pkgname-$CTARGET_ARCH version 2.40-r10 fixes 1 vulnerabilities: CVE-2023-1972",
+  "summary": "Security fixes in binutils 2.40-r10",
+  "details": "Package binutils version 2.40-r10 fixes 1 vulnerabilities: CVE-2023-1972",
   "affected": [
     {
       "ranges": [
@@ -19,8 +19,8 @@
         }
       ],
       "package": {
-        "name": "$pkgname-$CTARGET_ARCH",
-        "ecosystem": "Alpine"
+        "name": "binutils",
+        "ecosystem": "CleanStart"
       },
       "versions": [
         "2.40-r10"
@@ -37,7 +37,7 @@
     }
   ],
   "published": "2026-07-30T07:10:53Z",
-  "modified": "2026-07-30T09:38:56Z",
+  "modified": "2026-09-04T13:04:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

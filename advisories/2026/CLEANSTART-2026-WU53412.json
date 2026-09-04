@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WU53412",
-  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.8.6-r1",
-  "details": "Package $pkgname-${pkgver%%.*} version 3.8.6-r1 fixes 4 vulnerabilities: CVE-2023-2976, CVE-2020-8908, CVE-2025-48924, CVE-2025-67030",
+  "summary": "Security fixes in maven 3.8.6-r1",
+  "details": "Package maven version 3.8.6-r1 fixes 4 vulnerabilities: CVE-2023-2976, CVE-2020-8908, CVE-2025-48924, CVE-2025-67030",
   "affected": [
     {
       "ranges": [
@@ -19,8 +19,8 @@
         }
       ],
       "package": {
-        "name": "$pkgname-${pkgver%%.*}",
-        "ecosystem": "Alpine"
+        "name": "maven",
+        "ecosystem": "CleanStart"
       },
       "versions": [
         "3.8.6-r1"
@@ -40,7 +40,7 @@
     }
   ],
   "published": "2026-08-13T12:10:09Z",
-  "modified": "2026-08-14T05:57:59Z",
+  "modified": "2026-09-04T13:04:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZJ57830",
-  "summary": "Security fixes in $pkgname-$CTARGET_ARCH 2.39-r2",
-  "details": "Package $pkgname-$CTARGET_ARCH version 2.39-r2 fixes 1 vulnerabilities: CVE-2022-38533",
+  "summary": "Security fixes in binutils 2.39-r2",
+  "details": "Package binutils version 2.39-r2 fixes 1 vulnerabilities: CVE-2022-38533",
   "affected": [
     {
       "ranges": [
@@ -19,8 +19,8 @@
         }
       ],
       "package": {
-        "name": "$pkgname-$CTARGET_ARCH",
-        "ecosystem": "Alpine"
+        "name": "binutils",
+        "ecosystem": "CleanStart"
       },
       "versions": [
         "2.39-r2"
@@ -37,7 +37,7 @@
     }
   ],
   "published": "2026-07-30T07:10:53Z",
-  "modified": "2026-07-30T09:38:55Z",
+  "modified": "2026-09-04T13:04:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

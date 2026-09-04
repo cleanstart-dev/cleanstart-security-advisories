@@ -2,12 +2,12 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HF39630",
   "summary": "potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf",
-  "details": "Multiple security vulnerabilities affect the $pkgname-$CTARGET_ARCH package. A potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf. See references for individual vulnerability details.",
+  "details": "Multiple security vulnerabilities affect the binutils package. A potential heap based buffer overflow was found in _bfd_elf_slurp_version_tables() in bfd/elf. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "$pkgname-$CTARGET_ARCH"
+        "name": "binutils"
       },
       "ranges": [
         {
@@ -114,7 +114,7 @@
     }
   ],
   "published": "2026-01-30T17:20:56.632450Z",
-  "modified": "2026-01-29T18:58:54Z",
+  "modified": "2026-09-04T13:04:46Z",
   "severity": [
     {
       "type": "CVSS_V3",

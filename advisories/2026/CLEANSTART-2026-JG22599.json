@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JG22599",
-  "summary": "Security fixes in $pkgname-${pkgver%%.*} 3.9.14-r1",
-  "details": "Package $pkgname-${pkgver%%.*} version 3.9.14-r1 fixes 1 vulnerabilities: CVE-2025-67030",
+  "summary": "Security fixes in maven 3.9.14-r1",
+  "details": "Package maven version 3.9.14-r1 fixes 1 vulnerabilities: CVE-2025-67030",
   "affected": [
     {
       "ranges": [
@@ -19,8 +19,8 @@
         }
       ],
       "package": {
-        "name": "$pkgname-${pkgver%%.*}",
-        "ecosystem": "Alpine"
+        "name": "maven",
+        "ecosystem": "CleanStart"
       },
       "versions": [
         "3.9.14-r1"
@@ -37,7 +37,7 @@
     }
   ],
   "published": "2026-07-30T07:10:53Z",
-  "modified": "2026-07-30T09:39:20Z",
+  "modified": "2026-09-04T13:04:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}
