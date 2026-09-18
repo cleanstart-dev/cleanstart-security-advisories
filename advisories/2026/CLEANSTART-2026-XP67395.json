@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XP67395",
+  "summary": "Security fix for ghsa-h8mm-c463-wjq3 applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
+  "details": "ghsa-h8mm-c463-wjq3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes-dns-node-cache"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes-dns-node-cache-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-h8mm-c463-wjq3"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XP67395.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-h8mm-c463-wjq3"
+    }
+  ],
+  "published": "2026-09-18T09:50:36.674392Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
