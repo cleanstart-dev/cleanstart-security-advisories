@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MJ84127",
+  "summary": "Security fix for ghsa-3v94-mw7p-v465 applied in: ztunnel-fips 1.30.0-r0",
+  "details": "Security vulnerability affects the ztunnel-fips package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "ztunnel-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.30.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-3v94-mw7p-v465"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-MJ84127.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-3v94-mw7p-v465"
+    }
+  ],
+  "published": "2026-09-18T10:10:40.166848Z",
+  "modified": "2026-05-20T05:12:26Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
