@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LT48571",
+  "summary": "Security fix for ghsa-8mp2-v27r-99xp applied in: tensorflow-gpu-jupyter 2.21.0-r5",
+  "details": "Security vulnerability affects the tensorflow-gpu-jupyter package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "tensorflow-gpu-jupyter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.0-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8mp2-v27r-99xp"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LT48571.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-8mp2-v27r-99xp"
+    }
+  ],
+  "published": "2026-09-18T09:43:32.277436Z",
+  "modified": "2026-08-14T12:25:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
