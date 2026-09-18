@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LT14460",
+  "summary": "Security fix for ghsa-mrww-27vc-gghv applied in: wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "Security vulnerability affects the wavefront-collector-for-kubernetes package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wavefront-collector-for-kubernetes"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mrww-27vc-gghv"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LT14460.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mrww-27vc-gghv"
+    }
+  ],
+  "published": "2026-09-18T10:01:58.195724Z",
+  "modified": "2026-06-10T18:14:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

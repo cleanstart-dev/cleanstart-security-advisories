@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LW03100",
+  "summary": "Security fix for ghsa-fmxf-pm6p-7xgm applied in: apache-hive 4.0.0-r2, apache-hive 4.2.0-r3",
+  "details": "ghsa-fmxf-pm6p-7xgm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.0-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-fmxf-pm6p-7xgm"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LW03100.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-fmxf-pm6p-7xgm"
+    }
+  ],
+  "published": "2026-09-18T10:07:50.028412Z",
+  "modified": "2026-05-26T07:06:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
