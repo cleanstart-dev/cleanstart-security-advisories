@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-AV82595",
+  "summary": "Security fix for ghsa-v98h-vmpc-fpqv applied in: thingsboard-tb-web-ui 4.3.1.1-r1",
+  "details": "Security vulnerability affects the thingsboard-tb-web-ui package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "thingsboard-tb-web-ui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1.1-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-v98h-vmpc-fpqv"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-AV82595.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-v98h-vmpc-fpqv"
+    }
+  ],
+  "published": "2026-09-18T09:55:08.533068Z",
+  "modified": "2026-07-15T13:21:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
