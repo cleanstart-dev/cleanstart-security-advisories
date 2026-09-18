@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-BE90013",
+  "summary": "Security fix for ghsa-9j3m-fr7q-jxfw applied in: harbor-fips 2.10.3-r0",
+  "details": "Security vulnerability affects the harbor-fips package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "harbor-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.3-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-9j3m-fr7q-jxfw"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-BE90013.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-9j3m-fr7q-jxfw"
+    }
+  ],
+  "published": "2026-09-18T10:32:41.344757Z",
+  "modified": "2025-10-28T13:17:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
