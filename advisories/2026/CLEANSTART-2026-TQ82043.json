@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TQ82043",
+  "summary": "Security fix for CVE-2025-63811 applied in: amazon-cloudwatch-agent 1.300070.0-r1, vault 1.20.4-r0",
+  "details": "CVE-2025-63811 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "amazon-cloudwatch-agent"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.300070.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "vault"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-63811"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-TQ82043.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-63811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63811"
+    }
+  ],
+  "published": "2026-09-18T09:28:53.713383Z",
+  "modified": "2026-09-03T12:49:58Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
