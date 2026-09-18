@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CZ76970",
+  "summary": "Security fix for ghsa-r399-636x-v7f6 applied in: kibana 9.3.2-r3",
+  "details": "Security vulnerability affects the kibana package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kibana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.3.2-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r399-636x-v7f6"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-CZ76970.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-r399-636x-v7f6"
+    }
+  ],
+  "published": "2026-09-18T10:10:41.564869Z",
+  "modified": "2026-05-21T06:39:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
