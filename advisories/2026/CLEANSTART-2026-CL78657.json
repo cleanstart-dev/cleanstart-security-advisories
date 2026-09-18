@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-CL78657",
+  "summary": "Security fix for ghsa-2c5c-chwr-9hqw applied in: opensearch 3.6.0-r4",
+  "details": "Security vulnerability affects the opensearch package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "opensearch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.0-r4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-2c5c-chwr-9hqw"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-CL78657.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-2c5c-chwr-9hqw"
+    }
+  ],
+  "published": "2026-09-18T10:13:56.287024Z",
+  "modified": "2026-05-13T11:05:53Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
