@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZP61425",
+  "summary": "Security fix for ghsa-gvpg-vgmx-xg6w applied in: druid-fips 35.0.0-r1, stargate 1.0.90-r4",
+  "details": "ghsa-gvpg-vgmx-xg6w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "druid-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "35.0.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "stargate"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.90-r4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-gvpg-vgmx-xg6w"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZP61425.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-gvpg-vgmx-xg6w"
+    }
+  ],
+  "published": "2026-09-18T10:31:08.243377Z",
+  "modified": "2025-12-16T10:06:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
