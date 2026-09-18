@@ -29,6 +29,11 @@
     "GHSA-qxp5-gwg8-xv66",
     "GHSA-vvgc-356p-c3xw"
   ],
+  "related": [
+    "CLEANSTART-2026-GQ95457",
+    "CLEANSTART-2026-IV22792",
+    "CLEANSTART-2026-QA69007"
+  ],
   "references": [
     {
       "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-CN65903.json",
@@ -48,5 +53,6 @@
     }
   ],
   "published": "2026-01-16T12:00:42.667592Z",
-  "modified": "2025-09-29T13:20:40Z"
+  "withdrawn": "2026-09-18T11:59:01.768079Z",
+  "modified": "2026-09-18T11:59:01.768079Z"
 }
