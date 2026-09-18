@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-UU22048",
+  "summary": "Security fix for ghsa-wpv5-97wm-hp9c applied in: logstash-fips 9.0.8-r2",
+  "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "logstash-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.0.8-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-wpv5-97wm-hp9c"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-UU22048.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-wpv5-97wm-hp9c"
+    }
+  ],
+  "published": "2026-09-18T10:30:28.720784Z",
+  "modified": "2025-12-26T19:47:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
