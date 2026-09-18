@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DT32496",
+  "summary": "Security fix for ghsa-76c9-3jph-rj3q applied in: thingsboard-tb-web-ui 4.1-r1",
+  "details": "Security vulnerability affects the thingsboard-tb-web-ui package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "thingsboard-tb-web-ui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-76c9-3jph-rj3q"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-DT32496.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-76c9-3jph-rj3q"
+    }
+  ],
+  "published": "2026-09-18T10:02:06.951367Z",
+  "modified": "2026-06-10T16:34:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
