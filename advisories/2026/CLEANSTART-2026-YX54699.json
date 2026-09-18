@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YX54699",
-  "summary": "race condition in the Apache Kafka Java producer client’s buffer pool management can cause messages to be silently delivered to incorrect topics",
-  "details": "Multiple security vulnerabilities affect the strimzi-kafka-operator package. A race condition in the Apache Kafka Java producer client’s buffer pool management can cause messages to be silently delivered to incorrect topics. See references for individual vulnerability details.",
+  "summary": "race condition in the Apache Kafka Java producer client\u2019s buffer pool management can cause messages to be silently delivered to incorrect topics",
+  "details": "Multiple security vulnerabilities affect the strimzi-kafka-operator package. A race condition in the Apache Kafka Java producer client\u2019s buffer pool management can cause messages to be silently delivered to incorrect topics. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -99,8 +99,8 @@
     }
   ],
   "published": "2026-04-25T00:46:03.660621Z",
-  "withdrawn": "2026-09-18T11:59:01.768079Z",
-  "modified": "2026-09-18T11:59:01.768079Z",
+  "withdrawn": "2026-09-18T12:43:08.627431Z",
+  "modified": "2026-09-18T12:43:08.627431Z",
   "severity": [
     {
       "type": "CVSS_V3",
