@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YM30518",
+  "summary": "Security fix for ghsa-497x-rrr9-68jp applied in: grafana-alloy 1.15.1-r1, grafana-alloy-fips 1.14.2-r1, grafana-alloy-fips 1.15.0-r2, grafana-alloy-fips 1.15.1-r0",
+  "details": "ghsa-497x-rrr9-68jp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.1-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.2-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.0-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.15.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-497x-rrr9-68jp"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-YM30518.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-497x-rrr9-68jp"
+    }
+  ],
+  "published": "2026-09-18T10:18:46.275931Z",
+  "modified": "2026-05-02T05:46:50Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

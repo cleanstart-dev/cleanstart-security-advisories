@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XN13622",
+  "summary": "Security fix for ghsa-vvjj-xcjg-gr5g applied in: jitsucom-jitsu 2.14.0-r1, kibana 9.3.2-r3",
+  "details": "ghsa-vvjj-xcjg-gr5g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "jitsucom-jitsu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kibana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.3.2-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vvjj-xcjg-gr5g"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XN13622.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-vvjj-xcjg-gr5g"
+    }
+  ],
+  "published": "2026-09-18T10:10:48.864071Z",
+  "modified": "2026-05-21T06:39:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
