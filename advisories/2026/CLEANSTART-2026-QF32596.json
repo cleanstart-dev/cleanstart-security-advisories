@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QF32596",
+  "summary": "Security fix for ghsa-xw73-rw38-6vjc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, paranoia 0.2.1-r0",
+  "details": "ghsa-xw73-rw38-6vjc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.2-r4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "paranoia"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xw73-rw38-6vjc"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QF32596.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-xw73-rw38-6vjc"
+    }
+  ],
+  "published": "2026-09-18T10:22:53.217939Z",
+  "modified": "2026-04-10T08:56:47Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
