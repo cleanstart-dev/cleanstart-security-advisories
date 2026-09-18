@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NY40082",
+  "summary": "Security fix for ghsa-h4gh-qq45-vh27 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
+  "details": "ghsa-h4gh-qq45-vh27 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.3-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-h4gh-qq45-vh27"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-NY40082.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-h4gh-qq45-vh27"
+    }
+  ],
+  "published": "2026-09-18T10:00:04.429352Z",
+  "modified": "2026-06-19T06:30:37Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
