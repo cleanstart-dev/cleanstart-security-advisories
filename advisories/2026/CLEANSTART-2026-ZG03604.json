@@ -35,6 +35,7 @@
     "ghsa-f6x5-jh6r-wrfv",
     "ghsa-j5w8-q4qc-rx2x"
   ],
+  "related": [],
   "references": [
     {
       "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZG03604.json",
@@ -102,14 +103,14 @@
     }
   ],
   "published": "2026-04-09T00:59:37.747133Z",
-  "modified": "2026-04-08T06:55:13Z",
+  "withdrawn": "2026-09-18T11:59:01.768079Z",
+  "modified": "2026-09-18T11:59:01.768079Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "related": [],
   "credits": [],
   "database_specific": {}
 }

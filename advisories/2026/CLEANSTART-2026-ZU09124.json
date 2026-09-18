@@ -50,6 +50,7 @@
     "ghsa-w8rr-5gcm-pp58",
     "ghsa-xmrv-pmrh-hhx2"
   ],
+  "related": [],
   "references": [
     {
       "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZU09124.json",
@@ -217,14 +218,14 @@
     }
   ],
   "published": "2026-04-15T00:54:41.368436Z",
-  "modified": "2026-04-14T07:01:38Z",
+  "withdrawn": "2026-09-18T11:59:01.768079Z",
+  "modified": "2026-09-18T11:59:01.768079Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "related": [],
   "credits": [],
   "database_specific": {}
 }
