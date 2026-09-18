@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RZ55639",
+  "summary": "Security fix for ghsa-xhf5-7wjv-pqxp applied in: helm 3.21.1-r1, helm-operator 1.42.2-r2, tigera-operator 1.42.1-r0",
+  "details": "ghsa-xhf5-7wjv-pqxp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "helm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.21.1-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "helm-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.42.2-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "tigera-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.42.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-xhf5-7wjv-pqxp"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-RZ55639.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-xhf5-7wjv-pqxp"
+    }
+  ],
+  "published": "2026-09-18T09:52:10.542127Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

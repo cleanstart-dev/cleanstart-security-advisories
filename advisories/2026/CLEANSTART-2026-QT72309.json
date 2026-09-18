@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QT72309",
+  "summary": "Security fix for ghsa-v87v-83h2-53w7 applied in: tensorflow-gpu-jupyter 2.21.0-r5",
+  "details": "Security vulnerability affects the tensorflow-gpu-jupyter package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "tensorflow-gpu-jupyter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.21.0-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-v87v-83h2-53w7"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QT72309.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-v87v-83h2-53w7"
+    }
+  ],
+  "published": "2026-09-18T09:43:35.740195Z",
+  "modified": "2026-08-14T12:25:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

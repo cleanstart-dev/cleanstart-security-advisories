@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DE70000",
+  "summary": "Security fix for ghsa-2hfh-9h53-qc24 applied in: wildfly 39.0.1-r0",
+  "details": "Security vulnerability affects the wildfly package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wildfly"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-2hfh-9h53-qc24"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-DE70000.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-2hfh-9h53-qc24"
+    }
+  ],
+  "published": "2026-09-18T09:59:01.190565Z",
+  "modified": "2026-06-18T09:44:08Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

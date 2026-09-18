@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RB54563",
+  "summary": "Security fix for ghsa-cbdj-484d-3x9q applied in: keycloak 26.5.0-r2",
+  "details": "Security vulnerability affects the keycloak package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "keycloak"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.5.0-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cbdj-484d-3x9q"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-RB54563.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-cbdj-484d-3x9q"
+    }
+  ],
+  "published": "2026-09-18T10:14:19.389955Z",
+  "modified": "2026-05-13T10:46:16Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

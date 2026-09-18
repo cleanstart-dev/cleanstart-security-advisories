@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XP93276",
+  "summary": "Security fix for CVE-2025-54920 applied in: spark-sc212-jdk17-py311 3.4.4-r0",
+  "details": "Security vulnerability affects the spark-sc212-jdk17-py311 package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "spark-sc212-jdk17-py311"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-54920"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XP93276.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-54920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54920"
+    }
+  ],
+  "published": "2026-09-18T09:57:27.341362Z",
+  "modified": "2026-06-29T12:58:12Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

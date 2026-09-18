@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GN98127",
+  "summary": "Security fix for ghsa-44p7-9xx4-hf2g applied in: gitea-fips 1.25.5-r0, gotenberg 8.31.0-r0, gotenberg 8.32.0-r0",
+  "details": "ghsa-44p7-9xx4-hf2g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gitea-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.5-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gotenberg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.31.0-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gotenberg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.32.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-44p7-9xx4-hf2g"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-GN98127.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-44p7-9xx4-hf2g"
+    }
+  ],
+  "published": "2026-09-18T10:22:12.807534Z",
+  "modified": "2026-04-13T12:49:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

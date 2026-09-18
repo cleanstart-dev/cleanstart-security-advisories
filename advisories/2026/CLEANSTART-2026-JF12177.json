@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JF12177",
+  "summary": "Security fix for ghsa-hmw2-7cc7-3qxx applied in: jitsucom-jitsu 2.14.0-r2, sqlpad 7.5.7-r1",
+  "details": "ghsa-hmw2-7cc7-3qxx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "jitsucom-jitsu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.14.0-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sqlpad"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hmw2-7cc7-3qxx"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-JF12177.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-hmw2-7cc7-3qxx"
+    }
+  ],
+  "published": "2026-09-18T09:58:28.148866Z",
+  "modified": "2026-06-30T11:51:34Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BK21255",
+  "summary": "Security fix for ghsa-47m2-4cr7-mhcw applied in: kubernetes-dns-node-cache 1.26.0-r1",
+  "details": "Security vulnerability affects the kubernetes-dns-node-cache package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes-dns-node-cache"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.26.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-47m2-4cr7-mhcw"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BK21255.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-47m2-4cr7-mhcw"
+    }
+  ],
+  "published": "2026-09-18T09:50:42.032960Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

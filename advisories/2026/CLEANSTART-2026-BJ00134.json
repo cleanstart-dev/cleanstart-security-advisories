@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BJ00134",
+  "summary": "Security fix for ghsa-w37m-7fhw-fmv9 applied in: jitsucom-jitsu 2.11.0-r0",
+  "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "jitsucom-jitsu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.11.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-w37m-7fhw-fmv9"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BJ00134.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-w37m-7fhw-fmv9"
+    }
+  ],
+  "published": "2026-09-18T10:26:28.424445Z",
+  "modified": "2026-03-19T12:59:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

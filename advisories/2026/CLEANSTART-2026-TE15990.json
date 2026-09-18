@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TE15990",
+  "summary": "Security fix for CVE-2021-21285 applied in: docker 20.10.3-r0, docker-fips 20.10.3-r0",
+  "details": "CVE-2021-21285 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20.10.3-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "docker-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20.10.3-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-21285"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-TE15990.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-21285"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21285"
+    }
+  ],
+  "published": "2026-09-18T10:33:32.304493Z",
+  "modified": "2025-04-01T13:38:46Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

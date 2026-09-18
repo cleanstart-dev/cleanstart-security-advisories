@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XH67541",
+  "summary": "Security fix for ghsa-cmxv-58fp-fm3g applied in: apache-hive 4.2.0-r2",
+  "details": "Security vulnerability affects the apache-hive package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.0-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-cmxv-58fp-fm3g"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XH67541.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-cmxv-58fp-fm3g"
+    }
+  ],
+  "published": "2026-09-18T09:38:56.841313Z",
+  "modified": "2026-08-19T09:13:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

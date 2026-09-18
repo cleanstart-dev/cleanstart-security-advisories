@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QJ97143",
+  "summary": "Security fix for ghsa-5w86-c3rq-vjj7 applied in: hazelcast 5.7.0-r1, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1",
+  "details": "ghsa-5w86-c3rq-vjj7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "hazelcast"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.7.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "thingsboard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.2.3-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "thingsboard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1.3-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-5w86-c3rq-vjj7"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QJ97143.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-5w86-c3rq-vjj7"
+    }
+  ],
+  "published": "2026-09-18T09:49:32.974788Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

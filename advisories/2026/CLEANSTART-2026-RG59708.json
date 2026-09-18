@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RG59708",
+  "summary": "Security fix for ghsa-mqgf-5vvp-8fh8 applied in: rclone 1.72.1-r1",
+  "details": "Security vulnerability affects the rclone package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.72.1-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-mqgf-5vvp-8fh8"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-RG59708.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-mqgf-5vvp-8fh8"
+    }
+  ],
+  "published": "2026-09-18T10:10:32.273135Z",
+  "modified": "2026-05-24T09:42:10Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

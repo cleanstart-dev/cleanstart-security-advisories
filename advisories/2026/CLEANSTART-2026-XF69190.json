@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XF69190",
+  "summary": "Security fix for ghsa-j92g-9f8w-j867 applied in: thingsboard 4.3.1.3-r2",
+  "details": "Security vulnerability affects the thingsboard package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "thingsboard"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.1.3-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-j92g-9f8w-j867"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XF69190.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-j92g-9f8w-j867"
+    }
+  ],
+  "published": "2026-09-18T09:41:12.188634Z",
+  "modified": "2026-08-14T12:25:42Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

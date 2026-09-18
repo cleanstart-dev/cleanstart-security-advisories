@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LY45593",
+  "summary": "Security fix for ghsa-x96m-rh44-vgv8 applied in: activemq 6.2.6-r0",
+  "details": "Security vulnerability affects the activemq package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "activemq"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.6-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-x96m-rh44-vgv8"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LY45593.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-x96m-rh44-vgv8"
+    }
+  ],
+  "published": "2026-09-18T09:58:02.880182Z",
+  "modified": "2026-06-23T05:29:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
