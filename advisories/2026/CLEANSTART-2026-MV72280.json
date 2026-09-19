@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MV72280",
+  "summary": "Security fix for ghsa-8wmf-6v46-5gfg applied in: knative-net-istio 1.20.4-r5",
+  "details": "Security vulnerability affects the knative-net-istio package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "knative-net-istio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.4-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-8wmf-6v46-5gfg"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-MV72280.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-8wmf-6v46-5gfg"
+    }
+  ],
+  "published": "2026-09-19T00:36:32.001540Z",
+  "modified": "2026-09-18T14:20:27Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
