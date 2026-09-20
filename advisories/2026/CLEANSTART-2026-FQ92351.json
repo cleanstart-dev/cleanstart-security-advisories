@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FQ92351",
+  "summary": "RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes",
+  "details": "Security vulnerability affects the apache-nifi package. The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-nifi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.10.0-r10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-75516"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FQ92351.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-75516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75516"
+    }
+  ],
+  "published": "2026-09-20T00:37:20.172622Z",
+  "modified": "2026-09-19T09:28:43Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
