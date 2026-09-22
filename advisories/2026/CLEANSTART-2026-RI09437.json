@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-RI09437",
+  "summary": "Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS",
+  "details": "CVE-2026-56858 affects multiple packages. Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cortex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.1-r8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "argo-cd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.7-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-56858"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-RI09437.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-56858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56858"
+    }
+  ],
+  "published": "2026-09-22T00:36:11.197215Z",
+  "modified": "2026-09-21T05:57:25Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
