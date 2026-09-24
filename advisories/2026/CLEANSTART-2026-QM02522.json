@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QM02522",
+  "summary": "gRPC-Go is the Go language implementation of gRPC",
+  "details": "CVE-2026-84303 affects multiple packages. gRPC-Go is the Go language implementation of gRPC. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "fluent-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.9.0-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "helm-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.39.2-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-84303"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QM02522.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-84303"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84303"
+    }
+  ],
+  "published": "2026-09-24T06:49:36.267398Z",
+  "modified": "2026-09-23T09:17:29Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
