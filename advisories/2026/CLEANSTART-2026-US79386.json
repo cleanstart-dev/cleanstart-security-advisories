@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-US79386",
+  "summary": "Security fix for ghsa-hfvc-g4fc-pqhx applied in: loki 3.7.1-r0",
+  "details": "Security vulnerability affects the loki package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hfvc-g4fc-pqhx"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-US79386.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-hfvc-g4fc-pqhx"
+    }
+  ],
+  "published": "2026-09-26T00:38:01.225697Z",
+  "modified": "2026-09-25T10:23:02Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
