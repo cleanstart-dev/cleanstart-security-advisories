@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FL97476",
+  "summary": "jackson-core contains core low-level incremental (\"streaming\") parser and generator abstractions used by Jackson Data Processor",
+  "details": "Security vulnerability affects the spark-sc212-jdk17-py311 package. jackson-core contains core low-level incremental (\"streaming\") parser and generator abstractions used by Jackson Data Processor.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "spark-sc212-jdk17-py311"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-52999"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FL97476.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-52999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52999"
+    }
+  ],
+  "published": "2026-09-29T00:34:09.219484Z",
+  "modified": "2026-09-28T12:39:52Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
