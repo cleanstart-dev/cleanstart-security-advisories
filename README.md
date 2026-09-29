@@ -5,14 +5,14 @@ Official vulnerability database for Cleanstart OS in OSV format.
 This repository contains vulnerabilities and security advisories for CleanStart OS packages. All vulnerabilities and respective advisories are formatted according to the OSV schema.
 
 ## Usage
-- Browse vulnerabilities in `/vulnerabilities/` directory
+- Browse vulnerabilities in `/advisories/` directory
 - Organized by year
 - Each file represents one vulnerability
 - OSV database syncs from this repository
 
 ## Data Format
 - OSV Schema version: OSV 1.7.3
-- Ecosystem: CLEANSTART
+- Ecosystem: CleanStart
 - ID Format: CLEANSTART-YYYY-AZNNNNN 
 
 ## Validation
