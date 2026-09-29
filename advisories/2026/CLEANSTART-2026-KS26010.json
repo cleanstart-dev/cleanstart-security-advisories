@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KS26010",
+  "summary": "flaw was found in RESTEasy's CorsFilter, which, when configured to allow all origins (\"*\"), reflects the request's Origin header back in the Access-Control-Allow-Origin response together with Acces...",
+  "details": "Security vulnerability affects the wildfly package. A flaw was found in RESTEasy's CorsFilter, which, when configured to allow all origins (\"*\"), reflects the request's Origin header back in the Access-Control-Allow-Origin response together with Access-Control-Allow-Credentials: true.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wildfly"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-89058"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-KS26010.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-89058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89058"
+    }
+  ],
+  "published": "2026-09-29T00:34:01.767361Z",
+  "modified": "2026-09-28T12:45:55Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
