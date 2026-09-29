@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SR26981",
+  "summary": "Security fix for ghsa-r7wm-3cxj-wff9 applied in: spark-sc212-jdk17-py311 3.4.4-r1, sonarqube 26.7.0.124771-r4",
+  "details": "ghsa-r7wm-3cxj-wff9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "spark-sc212-jdk17-py311"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.4-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sonarqube"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.7.0.124771-r4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-r7wm-3cxj-wff9"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-SR26981.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-r7wm-3cxj-wff9"
+    }
+  ],
+  "published": "2026-09-29T00:37:05.195637Z",
+  "modified": "2026-09-28T06:09:57Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
