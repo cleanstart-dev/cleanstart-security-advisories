@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-FB56877",
+  "summary": "Array index error in the apply_rcs_change function in rcs",
+  "details": "Security vulnerability affects the cvs package. Array index error in the apply_rcs_change function in rcs.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cvs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.12-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2010-3846"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-FB56877.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2010-3846"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-3846"
+    }
+  ],
+  "published": "2026-09-30T20:47:01.729190Z",
+  "modified": "2023-04-20T03:49:25Z",
+  "severity": [
+    {
+      "type": "CVSS_V2",
+      "score": "AV:L/AC:M/Au:N/C:C/I:C/A:C"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
