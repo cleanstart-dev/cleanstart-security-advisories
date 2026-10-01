@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-JX19003",
+  "summary": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux",
+  "details": "Security vulnerability affects the flatpak package. Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "flatpak"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.2-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-41133"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-JX19003.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-41133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41133"
+    }
+  ],
+  "published": "2026-10-01T08:09:06.999653Z",
+  "modified": "2024-08-16T10:21:06Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

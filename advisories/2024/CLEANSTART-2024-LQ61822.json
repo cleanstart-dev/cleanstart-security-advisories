@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-LQ61822",
+  "summary": "Security fix for CVE-2021-21167 applied in: chromium 89.0.4389.72-r0",
+  "details": "Security vulnerability affects the chromium package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "chromium"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "89.0.4389.72-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-21167"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-LQ61822.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-21167"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21167"
+    }
+  ],
+  "published": "2026-10-01T08:59:14.593829Z",
+  "modified": "2024-11-06T11:07:49Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
