@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-ED53515",
+  "summary": "In Alpine before 2",
+  "details": "Security vulnerability affects the alpine package. In Alpine before 2.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "alpine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.25-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-38370"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-ED53515.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-38370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-38370"
+    }
+  ],
+  "published": "2026-09-30T19:02:42.708702Z",
+  "modified": "2024-04-25T07:09:06Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
