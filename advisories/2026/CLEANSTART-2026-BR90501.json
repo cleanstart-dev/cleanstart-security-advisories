@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BR90501",
+  "summary": "non-blocking (asynchronous) JSON parser in jackson-core does not enforce the maxNumberLength constraint defined in StreamReadConstraints (default: 1000 characters)",
+  "details": "Security vulnerability affects the apache-nifi package. The non-blocking (asynchronous) JSON parser in jackson-core does not enforce the maxNumberLength constraint defined in StreamReadConstraints (default: 1000 characters).",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-nifi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-18401"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BR90501.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-18401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18401"
+    }
+  ],
+  "published": "2026-10-01T00:35:24.702363Z",
+  "modified": "2026-09-30T08:59:33Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
