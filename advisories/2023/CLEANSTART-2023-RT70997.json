@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-RT70997",
+  "summary": "Heap-based buffer overflow in the proxy_connect function in src/client",
+  "details": "Security vulnerability affects the cvs package. Heap-based buffer overflow in the proxy_connect function in src/client.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cvs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.12-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2012-0804"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-RT70997.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2012-0804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-0804"
+    }
+  ],
+  "published": "2026-09-30T20:47:19.876646Z",
+  "modified": "2023-04-20T03:49:25Z",
+  "severity": [
+    {
+      "type": "CVSS_V2",
+      "score": "AV:N/AC:L/Au:N/C:C/I:C/A:C"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
