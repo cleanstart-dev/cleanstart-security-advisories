@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-NY71898",
+  "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER",
+  "details": "Security vulnerability affects the ncurses package. Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "ncurses"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.1_p20180414-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2018-10754"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-NY71898.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2018-10754"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10754"
+    }
+  ],
+  "published": "2026-10-01T03:58:07.709108Z",
+  "modified": "2024-12-06T14:02:18Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
