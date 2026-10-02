@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GZ69579",
+  "summary": "Security fix for ghsa-hrxh-6v49-42gf applied in: consul 1.20.6-r3",
+  "details": "Security vulnerability affects the consul package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "consul"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.6-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-hrxh-6v49-42gf"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-GZ69579.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-hrxh-6v49-42gf"
+    }
+  ],
+  "published": "2026-10-02T00:35:51.085163Z",
+  "modified": "2026-10-01T12:14:06Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
