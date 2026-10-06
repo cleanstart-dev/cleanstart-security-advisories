@@ -2,27 +2,8 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CU90484",
   "summary": "tar",
-  "details": "CVE-2026-32288 affects multiple packages. tar. See references for individual vulnerability details.",
+  "details": "Security vulnerability affects the docker-cli-buildx package. tar.",
   "affected": [
-    {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "cri-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.29.0-r5"
-            }
-          ]
-        }
-      ]
-    },
     {
       "package": {
         "ecosystem": "CleanStart",
@@ -61,14 +42,16 @@
     }
   ],
   "published": "2026-10-01T06:43:42.111234Z",
-  "modified": "2026-07-27T10:57:37Z",
+  "modified": "2026-10-06T13:34:26Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
     }
   ],
-  "related": [],
+  "related": [
+    "CLEANSTART-2026-BJ66525"
+  ],
   "credits": [],
   "database_specific": {}
 }

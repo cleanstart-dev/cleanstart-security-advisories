@@ -2,27 +2,8 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-EG84666",
   "summary": "On Linux, if the target of Root",
-  "details": "CVE-2026-32282 affects multiple packages. On Linux, if the target of Root. See references for individual vulnerability details.",
+  "details": "Security vulnerability affects the docker-cli-buildx package. On Linux, if the target of Root.",
   "affected": [
-    {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "cri-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.29.0-r5"
-            }
-          ]
-        }
-      ]
-    },
     {
       "package": {
         "ecosystem": "CleanStart",
@@ -61,14 +42,16 @@
     }
   ],
   "published": "2026-10-01T06:42:35.258537Z",
-  "modified": "2026-07-27T10:57:37Z",
+  "modified": "2026-10-06T13:34:26Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "related": [],
+  "related": [
+    "CLEANSTART-2026-FS98881"
+  ],
   "credits": [],
   "database_specific": {}
 }

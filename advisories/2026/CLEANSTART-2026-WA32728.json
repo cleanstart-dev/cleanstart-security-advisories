@@ -42,14 +42,17 @@
     }
   ],
   "published": "2026-10-01T06:48:28.369259Z",
-  "modified": "2026-07-27T10:57:37Z",
+  "modified": "2026-10-06T13:34:26Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "related": [],
+  "related": [
+    "CLEANSTART-2026-QL84214"
+  ],
+  "withdrawn": "2026-10-06T13:34:26Z",
   "credits": [],
   "database_specific": {}
 }
