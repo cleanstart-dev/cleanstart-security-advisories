@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZL19560",
-  "summary": "Security fix for ghsa-9h8m-3fm2-qjrq applied in: consul 1.21.5-r0, cosign 3.0.5-r0",
-  "details": "ghsa-9h8m-3fm2-qjrq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for ghsa-9h8m-3fm2-qjrq applied in: consul 1.21.5-r0",
+  "details": "Security vulnerability affects the consul package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
       "package": {
@@ -18,25 +18,6 @@
             },
             {
               "fixed": "1.21.5-r0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "cosign"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.0.5-r0"
             }
           ]
         }
@@ -57,8 +38,10 @@
     }
   ],
   "published": "2026-10-02T00:35:55.915865Z",
-  "modified": "2026-10-01T12:15:40Z",
-  "related": [],
+  "modified": "2026-10-06T13:34:26Z",
+  "related": [
+    "CLEANSTART-2026-WS51251"
+  ],
   "credits": [],
   "database_specific": {}
 }

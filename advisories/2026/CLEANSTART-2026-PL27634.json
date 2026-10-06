@@ -2,27 +2,8 @@
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PL27634",
   "summary": "Validating certificate chains which use policies is unexpectedly inefficient when certificates in the chain contain a very large number of policy mappings, possibly causing denial of service",
-  "details": "CVE-2026-32281 affects multiple packages. Validating certificate chains which use policies is unexpectedly inefficient when certificates in the chain contain a very large number of policy mappings, possibly causing denial of service. See references for individual vulnerability details.",
+  "details": "Security vulnerability affects the docker-cli-buildx package. Validating certificate chains which use policies is unexpectedly inefficient when certificates in the chain contain a very large number of policy mappings, possibly causing denial of service.",
   "affected": [
-    {
-      "package": {
-        "ecosystem": "CleanStart",
-        "name": "cri-tools"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.29.0-r5"
-            }
-          ]
-        }
-      ]
-    },
     {
       "package": {
         "ecosystem": "CleanStart",
@@ -61,14 +42,16 @@
     }
   ],
   "published": "2026-10-01T06:42:00.672937Z",
-  "modified": "2026-07-27T10:57:37Z",
+  "modified": "2026-10-06T13:34:26Z",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "related": [],
+  "related": [
+    "CLEANSTART-2026-YV91270"
+  ],
   "credits": [],
   "database_specific": {}
 }
