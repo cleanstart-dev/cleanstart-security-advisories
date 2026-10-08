@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "knative-net-istio"
+        "name": "knative-net-istio",
+        "purl": "pkg:apk/cleanstart/knative-net-istio"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-19T00:36:32.001540Z",
-  "modified": "2026-09-18T14:20:27Z",
+  "modified": "2026-10-08T14:25:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

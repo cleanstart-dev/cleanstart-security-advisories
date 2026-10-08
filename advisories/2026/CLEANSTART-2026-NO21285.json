@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgresql16"
+        "name": "postgresql16",
+        "purl": "pkg:apk/cleanstart/postgresql16"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:32:45.383569Z",
-  "modified": "2025-10-28T08:05:25Z",
+  "modified": "2026-10-08T14:25:52Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc212-jdk17-py311"
+        "name": "spark-sc212-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc212-jdk17-py311"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-hive"
+        "name": "apache-hive",
+        "purl": "pkg:apk/cleanstart/apache-hive"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-29T00:38:57.957160Z",
-  "modified": "2026-09-28T06:29:54Z",
+  "modified": "2026-10-08T15:57:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

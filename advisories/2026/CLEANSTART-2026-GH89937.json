@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "alertmanager"
+        "name": "alertmanager",
+        "purl": "pkg:apk/cleanstart/alertmanager"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-30T20:15:06.442705Z",
-  "modified": "2026-09-14T11:53:31Z",
+  "modified": "2026-10-08T14:25:33Z",
   "severity": [
     {
       "type": "CVSS_V3",

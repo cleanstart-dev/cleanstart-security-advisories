@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nghttp2"
+        "name": "nghttp2",
+        "purl": "pkg:apk/cleanstart/nghttp2"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T04:00:19.768495Z",
-  "modified": "2026-03-27T10:43:16Z",
+  "modified": "2026-10-08T14:25:25Z",
   "severity": [
     {
       "type": "CVSS_V3",

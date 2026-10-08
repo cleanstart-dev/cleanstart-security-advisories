@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aws-efs-csi-driver"
+        "name": "aws-efs-csi-driver",
+        "purl": "pkg:apk/cleanstart/aws-efs-csi-driver"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "calico-fips"
+        "name": "calico-fips",
+        "purl": "pkg:apk/cleanstart/calico-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi-kubernetes-operator"
+        "name": "pulumi-kubernetes-operator",
+        "purl": "pkg:apk/cleanstart/pulumi-kubernetes-operator"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:25:12.902215Z",
-  "modified": "2026-03-26T05:50:06Z",
+  "modified": "2026-10-08T15:57:40Z",
   "related": [],
   "credits": [],
   "database_specific": {}

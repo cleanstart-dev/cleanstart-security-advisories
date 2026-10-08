@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:07:52.034956Z",
-  "modified": "2026-05-26T11:14:26Z",
+  "modified": "2026-10-08T15:17:52Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse-worker"
+        "name": "langfuse-worker",
+        "purl": "pkg:apk/cleanstart/langfuse-worker"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:43:42.992339Z",
-  "modified": "2026-10-07T10:38:47Z",
+  "modified": "2026-10-08T14:25:47Z",
   "related": [],
   "credits": [],
   "database_specific": {}

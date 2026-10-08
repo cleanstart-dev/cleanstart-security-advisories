@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gradle8"
+        "name": "gradle8",
+        "purl": "pkg:apk/cleanstart/gradle8?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:59:54.223812Z",
-  "modified": "2026-03-26T13:10:59Z",
+  "modified": "2026-10-08T15:57:41Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "qdrant"
+        "name": "qdrant",
+        "purl": "pkg:apk/cleanstart/qdrant"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-29T00:37:29.409148Z",
-  "modified": "2026-09-28T05:11:03Z",
+  "modified": "2026-10-08T15:18:04Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch"
+        "name": "opensearch",
+        "purl": "pkg:apk/cleanstart/opensearch"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:13:56.287024Z",
-  "modified": "2026-05-13T11:05:53Z",
+  "modified": "2026-10-08T15:57:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

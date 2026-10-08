@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-19T00:38:31.391168Z",
-  "modified": "2026-09-18T14:07:51Z",
+  "modified": "2026-10-08T15:57:49Z",
   "severity": [
     {
       "type": "CVSS_V3",

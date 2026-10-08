@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "clamav"
+        "name": "clamav",
+        "purl": "pkg:apk/cleanstart/clamav"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:33:38.324441Z",
-  "modified": "2025-04-18T12:03:30Z",
+  "modified": "2026-10-08T14:25:30Z",
   "related": [],
   "credits": [],
   "database_specific": {}

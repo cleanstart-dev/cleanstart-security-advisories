@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "multus-cni-fips"
+        "name": "multus-cni-fips",
+        "purl": "pkg:apk/cleanstart/multus-cni-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat10"
+        "name": "tomcat10",
+        "purl": "pkg:apk/cleanstart/tomcat10?arch=noarch"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -95,7 +99,7 @@
     }
   ],
   "published": "2026-09-18T10:31:43.655480Z",
-  "modified": "2025-12-10T11:14:02Z",
+  "modified": "2026-10-08T15:57:53Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jupyterhub-k8s-hub"
+        "name": "jupyterhub-k8s-hub",
+        "purl": "pkg:apk/cleanstart/jupyterhub-k8s-hub"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-jupyterhub"
+        "name": "py3-jupyterhub",
+        "purl": "pkg:apk/cleanstart/py3-jupyterhub?arch=noarch"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:26:27.016535Z",
-  "modified": "2026-03-19T07:37:35Z",
+  "modified": "2026-10-08T15:58:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

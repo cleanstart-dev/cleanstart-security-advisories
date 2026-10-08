@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra"
+        "name": "cassandra",
+        "purl": "pkg:apk/cleanstart/cassandra"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-storage-controller"
+        "name": "kserve-storage-controller",
+        "purl": "pkg:apk/cleanstart/kserve-storage-controller"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "python3"
+        "name": "python3",
+        "purl": "pkg:apk/cleanstart/python3"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T10:29:14.664992Z",
-  "modified": "2026-02-10T10:49:01Z",
+  "modified": "2026-10-08T15:58:03Z",
   "related": [],
   "credits": [],
   "database_specific": {}

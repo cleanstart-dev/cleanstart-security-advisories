@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8s-sidecar"
+        "name": "k8s-sidecar",
+        "purl": "pkg:apk/cleanstart/k8s-sidecar"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-driver-nfs-fips"
+        "name": "kubernetes-csi-driver-nfs-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-driver-nfs-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "python3"
+        "name": "python3",
+        "purl": "pkg:apk/cleanstart/python3"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "python3"
+        "name": "python3",
+        "purl": "pkg:apk/cleanstart/python3"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:29:12.933077Z",
-  "modified": "2026-02-10T10:49:01Z",
+  "modified": "2026-10-08T15:17:56Z",
   "related": [],
   "credits": [],
   "database_specific": {}

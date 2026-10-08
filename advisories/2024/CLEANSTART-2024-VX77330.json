@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "libidn2"
+        "name": "libidn2",
+        "purl": "pkg:apk/cleanstart/libidn2"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T03:53:42.126241Z",
-  "modified": "2024-12-06T14:02:18Z",
+  "modified": "2026-10-08T14:25:12Z",
   "severity": [
     {
       "type": "CVSS_V3",

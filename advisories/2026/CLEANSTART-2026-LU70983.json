@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
+        "name": "apache-zookeeper",
+        "purl": "pkg:apk/cleanstart/apache-zookeeper?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "libpng"
+        "name": "libpng",
+        "purl": "pkg:apk/cleanstart/libpng"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat11"
+        "name": "tomcat11",
+        "purl": "pkg:apk/cleanstart/tomcat11?arch=noarch"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:28:53.223987Z",
-  "modified": "2026-02-13T10:17:36Z",
+  "modified": "2026-10-08T15:57:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}

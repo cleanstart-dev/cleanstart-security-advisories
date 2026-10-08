@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spring-boot"
+        "name": "spring-boot",
+        "purl": "pkg:apk/cleanstart/spring-boot?arch=noarch"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -118,7 +123,7 @@
     }
   ],
   "published": "2026-09-18T09:28:46.359552Z",
-  "modified": "2026-09-09T04:57:59Z",
+  "modified": "2026-10-08T15:57:23Z",
   "related": [],
   "credits": [],
   "database_specific": {}

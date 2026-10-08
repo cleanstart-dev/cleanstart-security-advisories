@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "libpng"
+        "name": "libpng",
+        "purl": "pkg:apk/cleanstart/libpng"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "openjdk8"
+        "name": "openjdk8",
+        "purl": "pkg:apk/cleanstart/openjdk8"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:28:53.854677Z",
-  "modified": "2026-02-13T10:17:36Z",
+  "modified": "2026-10-08T14:25:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "binutils"
+        "name": "binutils",
+        "purl": "pkg:apk/cleanstart/binutils"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:24:53.855533Z",
-  "modified": "2026-03-26T13:10:59Z",
+  "modified": "2026-10-08T14:25:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

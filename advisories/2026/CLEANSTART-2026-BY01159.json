@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "azure-functions-node"
+        "name": "azure-functions-node",
+        "purl": "pkg:apk/cleanstart/azure-functions-node"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jitsucom-jitsu"
+        "name": "jitsucom-jitsu",
+        "purl": "pkg:apk/cleanstart/jitsucom-jitsu"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:58:49.480126Z",
-  "modified": "2026-06-30T11:51:34Z",
+  "modified": "2026-10-08T15:57:22Z",
   "related": [],
   "credits": [],
   "database_specific": {}

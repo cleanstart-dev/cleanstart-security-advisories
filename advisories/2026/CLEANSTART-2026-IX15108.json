@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rekor-backfill-index"
+        "name": "rekor-backfill-index",
+        "purl": "pkg:apk/cleanstart/rekor-backfill-index"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:08:05.503262Z",
-  "modified": "2026-05-25T14:13:09Z",
+  "modified": "2026-10-08T15:57:37Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:56:41.503291Z",
-  "modified": "2026-07-07T13:34:48Z",
+  "modified": "2026-10-08T15:57:20Z",
   "related": [],
   "credits": [],
   "database_specific": {}

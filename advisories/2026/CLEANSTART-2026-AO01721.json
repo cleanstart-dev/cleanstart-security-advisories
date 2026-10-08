@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "patch"
+        "name": "patch",
+        "purl": "pkg:apk/cleanstart/patch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:28:26.794163Z",
-  "modified": "2026-03-03T12:11:07Z",
+  "modified": "2026-10-08T14:25:20Z",
   "related": [],
   "credits": [],
   "database_specific": {}

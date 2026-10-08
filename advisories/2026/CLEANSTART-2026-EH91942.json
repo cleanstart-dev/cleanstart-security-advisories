@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-storage-controller"
+        "name": "kserve-storage-controller",
+        "purl": "pkg:apk/cleanstart/kserve-storage-controller"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "litellm-database"
+        "name": "litellm-database",
+        "purl": "pkg:apk/cleanstart/litellm-database"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "litellm-database"
+        "name": "litellm-database",
+        "purl": "pkg:apk/cleanstart/litellm-database"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "litellm-database"
+        "name": "litellm-database",
+        "purl": "pkg:apk/cleanstart/litellm-database"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T09:55:48.869349Z",
-  "modified": "2026-07-14T04:36:17Z",
+  "modified": "2026-10-08T15:57:27Z",
   "related": [],
   "credits": [],
   "database_specific": {}

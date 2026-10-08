@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:30:29.649145Z",
-  "modified": "2025-12-23T13:10:38Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

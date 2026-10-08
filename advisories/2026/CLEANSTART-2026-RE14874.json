@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-ui"
+        "name": "kafka-ui",
+        "purl": "pkg:apk/cleanstart/kafka-ui"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:01:38.358350Z",
-  "modified": "2026-06-11T05:53:15Z",
+  "modified": "2026-10-08T15:57:52Z",
   "related": [],
   "credits": [],
   "database_specific": {}

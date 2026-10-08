@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aws-cli"
+        "name": "aws-cli",
+        "purl": "pkg:apk/cleanstart/aws-cli"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ingress-nginx-controller"
+        "name": "ingress-nginx-controller",
+        "purl": "pkg:apk/cleanstart/ingress-nginx-controller"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T09:57:40.528548Z",
-  "modified": "2026-06-24T12:33:41Z",
+  "modified": "2026-10-08T15:18:00Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "multus-cni-fips"
+        "name": "multus-cni-fips",
+        "purl": "pkg:apk/cleanstart/multus-cni-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:31:06.815811Z",
-  "modified": "2025-12-15T12:45:26Z",
+  "modified": "2026-10-08T15:18:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

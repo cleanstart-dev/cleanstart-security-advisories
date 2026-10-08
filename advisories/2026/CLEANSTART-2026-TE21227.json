@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-superset"
+        "name": "apache-superset",
+        "purl": "pkg:apk/cleanstart/apache-superset"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-29T00:36:59.201888Z",
-  "modified": "2026-09-28T06:24:22Z",
+  "modified": "2026-10-08T15:18:23Z",
   "severity": [
     {
       "type": "CVSS_V3",

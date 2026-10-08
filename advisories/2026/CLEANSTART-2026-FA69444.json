@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgresql15"
+        "name": "postgresql15",
+        "purl": "pkg:apk/cleanstart/postgresql15"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgresql16"
+        "name": "postgresql16",
+        "purl": "pkg:apk/cleanstart/postgresql16"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgresql17"
+        "name": "postgresql17",
+        "purl": "pkg:apk/cleanstart/postgresql17"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgresql18"
+        "name": "postgresql18",
+        "purl": "pkg:apk/cleanstart/postgresql18"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:32:47.018173Z",
-  "modified": "2025-10-28T08:05:25Z",
+  "modified": "2026-10-08T15:57:29Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "qt6-qtbase"
+        "name": "qt6-qtbase",
+        "purl": "pkg:apk/cleanstart/qt6-qtbase"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:26:43.247566Z",
-  "modified": "2026-03-17T13:11:05Z",
+  "modified": "2026-10-08T14:26:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

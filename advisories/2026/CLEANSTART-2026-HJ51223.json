@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner"
+        "name": "local-static-provisioner",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:52:00.588234Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:57:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

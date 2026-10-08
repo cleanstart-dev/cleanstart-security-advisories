@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:27:45.616000Z",
-  "modified": "2026-09-09T09:34:20Z",
+  "modified": "2026-10-08T15:18:04Z",
   "related": [],
   "credits": [],
   "database_specific": {}

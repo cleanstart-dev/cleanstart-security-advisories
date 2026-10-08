@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "blender"
+        "name": "blender",
+        "purl": "pkg:apk/cleanstart/blender"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:09:52.956538Z",
-  "modified": "2024-04-25T07:05:10Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

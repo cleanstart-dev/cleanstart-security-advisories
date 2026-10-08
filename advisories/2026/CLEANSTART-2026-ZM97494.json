@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator"
+        "name": "helm-operator",
+        "purl": "pkg:apk/cleanstart/helm-operator"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8sgpt"
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "neuvector-controller-fips"
+        "name": "neuvector-controller-fips",
+        "purl": "pkg:apk/cleanstart/neuvector-controller-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "newrelic-infrastructure-agent"
+        "name": "newrelic-infrastructure-agent",
+        "purl": "pkg:apk/cleanstart/newrelic-infrastructure-agent"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-agent"
+        "name": "rancher-agent",
+        "purl": "pkg:apk/cleanstart/rancher-agent"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-agent"
+        "name": "rancher-agent",
+        "purl": "pkg:apk/cleanstart/rancher-agent"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-agent"
+        "name": "rancher-agent",
+        "purl": "pkg:apk/cleanstart/rancher-agent"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-fleet-agent"
+        "name": "rancher-fleet-agent",
+        "purl": "pkg:apk/cleanstart/rancher-fleet-agent"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tigera-operator"
+        "name": "tigera-operator",
+        "purl": "pkg:apk/cleanstart/tigera-operator"
       },
       "ranges": [
         {
@@ -327,7 +343,7 @@
     }
   ],
   "published": "2026-09-18T10:07:38.689582Z",
-  "modified": "2026-05-26T11:14:26Z",
+  "modified": "2026-10-08T15:58:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

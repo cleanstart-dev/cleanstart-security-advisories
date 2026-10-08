@@ -1,13 +1,14 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RG79000",
-  "summary": "Vault and Vault Enterprise’s (“Vault”) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period",
-  "details": "Security vulnerability affects the vault package. Vault and Vault Enterprise’s (“Vault”) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period.",
+  "summary": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period",
+  "details": "Security vulnerability affects the vault package. Vault and Vault Enterprise\u2019s (\u201cVault\u201d) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-19T00:38:31.652346Z",
-  "modified": "2026-09-18T14:07:51Z",
+  "modified": "2026-10-08T15:57:52Z",
   "severity": [
     {
       "type": "CVSS_V3",

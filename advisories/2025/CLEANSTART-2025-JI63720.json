@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:30:09.073059Z",
-  "modified": "2025-12-31T06:34:51Z",
+  "modified": "2026-10-08T15:17:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

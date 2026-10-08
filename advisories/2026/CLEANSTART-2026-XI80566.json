@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark"
+        "name": "spark",
+        "purl": "pkg:apk/cleanstart/spark"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:44:59.177729Z",
-  "modified": "2026-08-13T12:50:28Z",
+  "modified": "2026-10-08T14:26:16Z",
   "related": [],
   "credits": [],
   "database_specific": {}

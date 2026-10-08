@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc212-jdk17-py311"
+        "name": "spark-sc212-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc212-jdk17-py311"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:57:26.578448Z",
-  "modified": "2026-06-29T12:58:12Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

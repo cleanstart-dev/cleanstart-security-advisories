@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "logstash-fips"
+        "name": "logstash-fips",
+        "purl": "pkg:apk/cleanstart/logstash-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:49:37.214484Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T14:25:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

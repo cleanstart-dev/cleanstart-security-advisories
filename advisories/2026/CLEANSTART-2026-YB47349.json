@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nats-server-fips"
+        "name": "nats-server-fips",
+        "purl": "pkg:apk/cleanstart/nats-server-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:08:18.998478Z",
-  "modified": "2026-05-25T05:19:42Z",
+  "modified": "2026-10-08T14:26:18Z",
   "related": [],
   "credits": [],
   "database_specific": {}

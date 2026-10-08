@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:30:26.233119Z",
-  "modified": "2025-12-23T13:10:38Z",
+  "modified": "2026-10-08T15:57:19Z",
   "related": [],
   "credits": [],
   "database_specific": {}

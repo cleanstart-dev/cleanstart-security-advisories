@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "connman"
+        "name": "connman",
+        "purl": "pkg:apk/cleanstart/connman"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:24:12.337755Z",
-  "modified": "2024-07-13T15:42:23Z",
+  "modified": "2026-10-08T14:25:05Z",
   "severity": [
     {
       "type": "CVSS_V3",

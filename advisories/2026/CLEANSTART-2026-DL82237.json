@@ -1,13 +1,14 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DL82237",
-  "summary": "Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities",
+  "summary": "Apache CXF reads a top-level WSDL through its hardened StaxUtils\u00a0path, which disables XML DTDs and external entities",
   "details": "Security vulnerability affects the wildfly package. Apache CXF reads a top-level WSDL through its hardened StaxUtils path, which disables XML DTDs and external entities.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wildfly"
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-19T00:40:30.140051Z",
-  "modified": "2026-09-18T14:11:27Z",
+  "modified": "2026-10-08T15:57:26Z",
   "severity": [
     {
       "type": "CVSS_V3",

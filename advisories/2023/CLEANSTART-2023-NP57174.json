@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cvs"
+        "name": "cvs",
+        "purl": "pkg:apk/cleanstart/cvs"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T20:47:35.950278Z",
-  "modified": "2023-04-20T03:49:25Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

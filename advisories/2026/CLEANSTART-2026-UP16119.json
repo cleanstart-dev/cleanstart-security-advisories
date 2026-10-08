@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nfs-subdir-external-provisioner"
+        "name": "nfs-subdir-external-provisioner",
+        "purl": "pkg:apk/cleanstart/nfs-subdir-external-provisioner"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-10-06T00:35:40.499027Z",
-  "modified": "2026-10-05T12:29:09Z",
+  "modified": "2026-10-08T15:18:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jupyterhub-k8s-hub"
+        "name": "jupyterhub-k8s-hub",
+        "purl": "pkg:apk/cleanstart/jupyterhub-k8s-hub"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:15:08.617579Z",
-  "modified": "2026-05-12T12:08:41Z",
+  "modified": "2026-10-08T15:18:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

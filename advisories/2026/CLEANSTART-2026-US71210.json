@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "curl"
+        "name": "curl",
+        "purl": "pkg:apk/cleanstart/curl"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:27:40.434065Z",
-  "modified": "2026-03-16T17:22:25Z",
+  "modified": "2026-10-08T14:26:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

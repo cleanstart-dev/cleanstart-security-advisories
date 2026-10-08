@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama"
+        "name": "ollama",
+        "purl": "pkg:apk/cleanstart/ollama?arch=x86_64"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama"
+        "name": "ollama",
+        "purl": "pkg:apk/cleanstart/ollama?arch=x86_64"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T10:01:24.983363Z",
-  "modified": "2026-06-11T05:21:09Z",
+  "modified": "2026-10-08T15:58:03Z",
   "related": [],
   "credits": [],
   "database_specific": {}

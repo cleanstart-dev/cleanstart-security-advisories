@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "metrics-server-fips"
+        "name": "metrics-server-fips",
+        "purl": "pkg:apk/cleanstart/metrics-server-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:30:27.276547Z",
-  "modified": "2025-12-23T05:35:53Z",
+  "modified": "2026-10-08T15:57:19Z",
   "related": [],
   "credits": [],
   "database_specific": {}

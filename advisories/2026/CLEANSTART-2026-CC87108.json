@@ -1,13 +1,14 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CC87108",
-  "summary": "It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3",
+  "summary": "It is possible to bypass the\u00a0maximum number of normalized policy alternatives that was introduced in Apache Neethi 3",
   "details": "Security vulnerability affects the wildfly package. It is possible to bypass the maximum number of normalized policy alternatives that was introduced in Apache Neethi 3.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wildfly"
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-19T00:40:30.286933Z",
-  "modified": "2026-09-18T14:11:27Z",
+  "modified": "2026-10-08T15:57:23Z",
   "severity": [
     {
       "type": "CVSS_V3",

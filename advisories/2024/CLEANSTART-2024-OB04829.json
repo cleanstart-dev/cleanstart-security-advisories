@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "docker-cli-compose"
+        "name": "docker-cli-compose",
+        "purl": "pkg:apk/cleanstart/docker-cli-compose"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T06:03:31.586672Z",
-  "modified": "2024-07-07T17:34:20Z",
+  "modified": "2026-10-08T14:25:08Z",
   "severity": [
     {
       "type": "CVSS_V3",

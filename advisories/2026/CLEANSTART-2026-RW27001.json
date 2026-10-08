@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-client-fips"
+        "name": "minio-client-fips",
+        "purl": "pkg:apk/cleanstart/minio-client-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-client-fips"
+        "name": "minio-client-fips",
+        "purl": "pkg:apk/cleanstart/minio-client-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-client-fips"
+        "name": "minio-client-fips",
+        "purl": "pkg:apk/cleanstart/minio-client-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-client-fips"
+        "name": "minio-client-fips",
+        "purl": "pkg:apk/cleanstart/minio-client-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T10:33:10.547319Z",
-  "modified": "2025-08-21T12:52:44Z",
+  "modified": "2026-10-08T15:57:54Z",
   "related": [],
   "credits": [],
   "database_specific": {}

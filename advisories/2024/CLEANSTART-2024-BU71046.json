@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gnome-shell"
+        "name": "gnome-shell",
+        "purl": "pkg:apk/cleanstart/gnome-shell"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:53:32.321677Z",
-  "modified": "2024-04-25T12:39:14Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

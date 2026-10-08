@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kumactl"
+        "name": "kumactl",
+        "purl": "pkg:apk/cleanstart/kumactl"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:21:20.363674Z",
-  "modified": "2026-04-17T04:49:08Z",
+  "modified": "2026-10-08T14:25:45Z",
   "related": [],
   "credits": [],
   "database_specific": {}

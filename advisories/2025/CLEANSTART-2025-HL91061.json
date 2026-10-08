@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "dotnet8-runtime"
+        "name": "dotnet8-runtime",
+        "purl": "pkg:apk/cleanstart/dotnet8-runtime"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T07:10:20.230792Z",
-  "modified": "2025-07-30T12:25:59Z",
+  "modified": "2026-10-08T14:25:16Z",
   "severity": [
     {
       "type": "CVSS_V3",

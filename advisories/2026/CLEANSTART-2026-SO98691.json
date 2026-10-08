@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu"
+        "name": "opentofu",
+        "purl": "pkg:apk/cleanstart/opentofu"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-10-08T00:43:20.232997Z",
-  "modified": "2026-10-07T10:21:28Z",
+  "modified": "2026-10-08T14:26:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

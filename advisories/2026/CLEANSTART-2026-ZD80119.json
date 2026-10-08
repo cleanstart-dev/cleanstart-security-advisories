@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "httpbin"
+        "name": "httpbin",
+        "purl": "pkg:apk/cleanstart/httpbin"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8s-sidecar"
+        "name": "k8s-sidecar",
+        "purl": "pkg:apk/cleanstart/k8s-sidecar"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-29T00:35:11.901632Z",
-  "modified": "2026-09-28T06:21:12Z",
+  "modified": "2026-10-08T15:18:32Z",
   "severity": [
     {
       "type": "CVSS_V3",

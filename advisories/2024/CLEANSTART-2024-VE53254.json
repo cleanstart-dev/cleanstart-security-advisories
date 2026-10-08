@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gegl"
+        "name": "gegl",
+        "purl": "pkg:apk/cleanstart/gegl"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:41:57.915715Z",
-  "modified": "2024-02-12T03:02:16Z",
+  "modified": "2026-10-08T14:25:12Z",
   "severity": [
     {
       "type": "CVSS_V3",

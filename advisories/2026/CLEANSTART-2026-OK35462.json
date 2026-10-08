@@ -1,13 +1,14 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OK35462",
-  "summary": "Memory allocation with excessive size value, Allocation of resources without limits or throttling vulnerability in Apache Thrift Go, netstd, OCaml, Erlang, JavaME, Rust, C++, Java, Kotlin and D lan...",
+  "summary": "Memory allocation with excessive size value, Allocation of resources without limits or throttling vulnerability in Apache Thrift Go,\u00a0netstd, OCaml, Erlang, JavaME,\u00a0Rust, C++, Java,\u00a0Kotlin and\u00a0D lan...",
   "details": "Security vulnerability affects the spark-sc213-jdk17-py312 package. Memory allocation with excessive size value, Allocation of resources without limits or throttling vulnerability in Apache Thrift Go, netstd, OCaml, Erlang, JavaME, Rust, C++, Java, Kotlin and D language bindings.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py312"
+        "name": "spark-sc213-jdk17-py312",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py312"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:42:11.407435Z",
-  "modified": "2026-10-07T12:13:30Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

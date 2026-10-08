@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ingress-nginx-controller"
+        "name": "ingress-nginx-controller",
+        "purl": "pkg:apk/cleanstart/ingress-nginx-controller"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ingress-nginx-controller"
+        "name": "ingress-nginx-controller",
+        "purl": "pkg:apk/cleanstart/ingress-nginx-controller"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:29:17.164726Z",
-  "modified": "2026-08-31T18:36:01Z",
+  "modified": "2026-10-08T15:18:33Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:38:11.591651Z",
-  "modified": "2026-10-07T12:30:24Z",
+  "modified": "2026-10-08T15:57:30Z",
   "severity": [
     {
       "type": "CVSS_V3",

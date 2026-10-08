@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cedar"
+        "name": "cedar",
+        "purl": "pkg:apk/cleanstart/cedar"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ztunnel-fips"
+        "name": "ztunnel-fips",
+        "purl": "pkg:apk/cleanstart/ztunnel-fips"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:19:00.456106Z",
-  "modified": "2026-04-29T14:16:02Z",
+  "modified": "2026-10-08T15:17:55Z",
   "related": [],
   "credits": [],
   "database_specific": {}

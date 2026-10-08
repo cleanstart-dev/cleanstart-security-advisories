@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-hpack"
+        "name": "py3-hpack",
+        "purl": "pkg:apk/cleanstart/py3-hpack?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T00:34:41.662840Z",
-  "modified": "2026-09-30T07:55:58Z",
+  "modified": "2026-10-08T14:26:19Z",
   "related": [],
   "credits": [],
   "database_specific": {}

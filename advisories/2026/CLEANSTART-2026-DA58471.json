@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-hive"
+        "name": "apache-hive",
+        "purl": "pkg:apk/cleanstart/apache-hive"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2am"
+        "name": "wso2am",
+        "purl": "pkg:apk/cleanstart/wso2am"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-10-08T00:55:28.589130Z",
-  "modified": "2026-10-07T12:25:35Z",
+  "modified": "2026-10-08T15:57:25Z",
   "severity": [
     {
       "type": "CVSS_V3",

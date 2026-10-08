@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows-fips"
+        "name": "argo-workflows-fips",
+        "purl": "pkg:apk/cleanstart/argo-workflows-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:31:58.580383Z",
-  "modified": "2025-12-08T14:46:05Z",
+  "modified": "2026-10-08T15:18:12Z",
   "related": [],
   "credits": [],
   "database_specific": {}

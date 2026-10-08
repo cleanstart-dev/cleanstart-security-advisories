@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nodejs"
+        "name": "nodejs",
+        "purl": "pkg:apk/cleanstart/nodejs"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:25:34.016181Z",
-  "modified": "2026-09-14T05:44:54Z",
+  "modified": "2026-10-08T14:25:35Z",
   "related": [],
   "credits": [],
   "database_specific": {}

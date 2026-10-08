@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "go1.27"
+        "name": "go1.27",
+        "purl": "pkg:apk/cleanstart/go1.27"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-10-06T00:35:14.687352Z",
-  "modified": "2026-10-05T12:29:08Z",
+  "modified": "2026-10-08T15:57:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

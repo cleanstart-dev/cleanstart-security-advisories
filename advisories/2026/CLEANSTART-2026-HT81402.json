@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm"
+        "name": "helm",
+        "purl": "pkg:apk/cleanstart/helm"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:27:53.395089Z",
-  "modified": "2026-03-09T13:33:56Z",
+  "modified": "2026-10-08T14:25:37Z",
   "related": [],
   "credits": [],
   "database_specific": {}

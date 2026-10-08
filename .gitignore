@@ -4,3 +4,11 @@ normalize.py
 check_duplicates.sh
 duplicate_upstream_sets.txt
 scripts/find_duplicate_advisories.py
+scripts/update_introduced_versions.py
+scripts/osv_cache.json
+scripts/introduced_updates.json
+scripts/introduced_mismatches.json
+scripts/introduced_no_data.json
+scripts/introduced_multi_cve_skipped.json
+scripts/nvd_cache.json
+__pycache__/

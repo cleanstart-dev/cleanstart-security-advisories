@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "e2guardian"
+        "name": "e2guardian",
+        "purl": "pkg:apk/cleanstart/e2guardian"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T07:20:48.946462Z",
-  "modified": "2024-03-02T00:27:17Z",
+  "modified": "2026-10-08T14:25:04Z",
   "severity": [
     {
       "type": "CVSS_V3",

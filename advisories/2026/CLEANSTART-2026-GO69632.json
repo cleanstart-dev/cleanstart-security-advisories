@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wildfly"
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:58:58.946767Z",
-  "modified": "2026-06-18T09:44:08Z",
+  "modified": "2026-10-08T15:57:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse"
+        "name": "langfuse",
+        "purl": "pkg:apk/cleanstart/langfuse"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-29T00:39:58.464923Z",
-  "modified": "2026-09-28T06:15:17Z",
+  "modified": "2026-10-08T15:57:59Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8sgpt"
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:00:50.324064Z",
-  "modified": "2026-06-12T13:32:04Z",
+  "modified": "2026-10-08T14:25:54Z",
   "related": [],
   "credits": [],
   "database_specific": {}

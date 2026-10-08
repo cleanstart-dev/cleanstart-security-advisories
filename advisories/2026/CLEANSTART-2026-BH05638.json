@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "calico"
+        "name": "calico",
+        "purl": "pkg:apk/cleanstart/calico"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:26:23.214241Z",
-  "modified": "2026-09-09T05:05:36Z",
+  "modified": "2026-10-08T15:17:47Z",
   "related": [],
   "credits": [],
   "database_specific": {}

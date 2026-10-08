@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "perl"
+        "name": "perl",
+        "purl": "pkg:apk/cleanstart/perl"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:07:19.951635Z",
-  "modified": "2026-05-27T05:04:36Z",
+  "modified": "2026-10-08T14:26:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

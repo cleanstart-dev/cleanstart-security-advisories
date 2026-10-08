@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rundeck"
+        "name": "rundeck",
+        "purl": "pkg:apk/cleanstart/rundeck"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:54:10.792160Z",
-  "modified": "2026-07-27T09:07:43Z",
+  "modified": "2026-10-08T15:58:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

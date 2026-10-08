@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats-fips"
+        "name": "elastic-beats-fips",
+        "purl": "pkg:apk/cleanstart/elastic-beats-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:30:59.432563Z",
-  "modified": "2025-12-16T07:55:57Z",
+  "modified": "2026-10-08T14:25:14Z",
   "related": [],
   "credits": [],
   "database_specific": {}

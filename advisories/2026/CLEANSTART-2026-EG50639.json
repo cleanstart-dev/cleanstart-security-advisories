@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "npm"
+        "name": "npm",
+        "purl": "pkg:apk/cleanstart/npm?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:29:56.194192Z",
-  "modified": "2026-08-31T18:21:31Z",
+  "modified": "2026-10-08T14:25:30Z",
   "related": [],
   "credits": [],
   "database_specific": {}

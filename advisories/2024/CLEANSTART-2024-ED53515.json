@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "alpine"
+        "name": "alpine",
+        "purl": "pkg:apk/cleanstart/alpine"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:02:42.708702Z",
-  "modified": "2024-04-25T07:09:06Z",
+  "modified": "2026-10-08T14:25:03Z",
   "severity": [
     {
       "type": "CVSS_V3",

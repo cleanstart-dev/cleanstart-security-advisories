@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitlab-shell"
+        "name": "gitlab-shell",
+        "purl": "pkg:apk/cleanstart/gitlab-shell"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitlab-shell-fips"
+        "name": "gitlab-shell-fips",
+        "purl": "pkg:apk/cleanstart/gitlab-shell-fips"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:29:57.172112Z",
-  "modified": "2026-01-09T06:01:09Z",
+  "modified": "2026-10-08T15:57:28Z",
   "related": [],
   "credits": [],
   "database_specific": {}

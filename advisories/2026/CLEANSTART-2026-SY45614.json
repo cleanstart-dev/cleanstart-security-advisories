@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-tornado"
+        "name": "py3-tornado",
+        "purl": "pkg:apk/cleanstart/py3-tornado"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:22:16.991286Z",
-  "modified": "2026-09-15T13:59:37Z",
+  "modified": "2026-10-08T14:26:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

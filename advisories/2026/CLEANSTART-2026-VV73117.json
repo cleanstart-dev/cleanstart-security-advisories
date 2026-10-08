@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-logging-operator"
+        "name": "kube-logging-operator",
+        "purl": "pkg:apk/cleanstart/kube-logging-operator"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:07:47.320031Z",
-  "modified": "2026-05-26T05:32:25Z",
+  "modified": "2026-10-08T15:18:27Z",
   "related": [],
   "credits": [],
   "database_specific": {}

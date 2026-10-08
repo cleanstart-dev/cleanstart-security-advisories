@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "zlib"
+        "name": "zlib",
+        "purl": "pkg:apk/cleanstart/zlib"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:08:10.699672Z",
-  "modified": "2026-05-25T05:19:42Z",
+  "modified": "2026-10-08T14:25:29Z",
   "related": [],
   "credits": [],
   "database_specific": {}

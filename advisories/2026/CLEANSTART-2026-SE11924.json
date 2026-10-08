@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-superset"
+        "name": "apache-superset",
+        "purl": "pkg:apk/cleanstart/apache-superset"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:53:00.733625Z",
-  "modified": "2026-07-31T04:19:52Z",
+  "modified": "2026-10-08T15:18:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

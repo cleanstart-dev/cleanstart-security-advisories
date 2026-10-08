@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis"
+        "name": "atlantis",
+        "purl": "pkg:apk/cleanstart/atlantis"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis-fips"
+        "name": "atlantis-fips",
+        "purl": "pkg:apk/cleanstart/atlantis-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -95,7 +99,7 @@
     }
   ],
   "published": "2026-09-18T10:32:24.163058Z",
-  "modified": "2025-11-14T05:06:08Z",
+  "modified": "2026-10-08T15:17:47Z",
   "related": [],
   "credits": [],
   "database_specific": {}

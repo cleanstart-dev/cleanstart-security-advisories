@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:26:07.527132Z",
-  "modified": "2026-03-23T07:56:09Z",
+  "modified": "2026-10-08T15:18:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

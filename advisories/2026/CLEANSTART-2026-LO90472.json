@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cadvisor-fips"
+        "name": "cadvisor-fips",
+        "purl": "pkg:apk/cleanstart/cadvisor-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "melange"
+        "name": "melange",
+        "purl": "pkg:apk/cleanstart/melange"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "paranoia"
+        "name": "paranoia",
+        "purl": "pkg:apk/cleanstart/paranoia"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spire-server-fips"
+        "name": "spire-server-fips",
+        "purl": "pkg:apk/cleanstart/spire-server-fips"
       },
       "ranges": [
         {
@@ -114,7 +119,7 @@
     }
   ],
   "published": "2026-09-18T10:22:56.222500Z",
-  "modified": "2026-04-10T08:56:47Z",
+  "modified": "2026-10-08T15:57:42Z",
   "related": [],
   "credits": [],
   "database_specific": {}

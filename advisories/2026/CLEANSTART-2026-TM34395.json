@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sonarqube"
+        "name": "sonarqube",
+        "purl": "pkg:apk/cleanstart/sonarqube"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-06T00:39:17.345537Z",
-  "modified": "2026-10-05T12:32:21Z",
+  "modified": "2026-10-08T15:18:23Z",
   "severity": [
     {
       "type": "CVSS_V3",

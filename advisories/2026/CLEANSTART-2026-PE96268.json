@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kibana"
+        "name": "kibana",
+        "purl": "pkg:apk/cleanstart/kibana"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -152,7 +159,7 @@
     }
   ],
   "published": "2026-09-18T10:17:17.971847Z",
-  "modified": "2026-05-06T06:24:38Z",
+  "modified": "2026-10-08T15:57:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

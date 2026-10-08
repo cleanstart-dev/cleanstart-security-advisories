@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kibana"
+        "name": "kibana",
+        "purl": "pkg:apk/cleanstart/kibana"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:20:48.864311Z",
-  "modified": "2026-04-20T04:54:21Z",
+  "modified": "2026-10-08T15:57:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

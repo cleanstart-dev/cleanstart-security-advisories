@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy"
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-29T00:35:03.276396Z",
-  "modified": "2026-09-28T06:30:11Z",
+  "modified": "2026-10-08T15:58:03Z",
   "related": [],
   "credits": [],
   "database_specific": {}

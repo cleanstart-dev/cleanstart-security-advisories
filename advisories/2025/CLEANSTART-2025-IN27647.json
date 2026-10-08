@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ztunnel-fips"
+        "name": "ztunnel-fips",
+        "purl": "pkg:apk/cleanstart/ztunnel-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:32:24.955023Z",
-  "modified": "2025-11-21T09:15:42Z",
+  "modified": "2026-10-08T15:17:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio"
+        "name": "fulcio",
+        "purl": "pkg:apk/cleanstart/fulcio"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:37:42.960817Z",
-  "modified": "2026-08-18T11:57:10Z",
+  "modified": "2026-10-08T14:26:13Z",
   "related": [],
   "credits": [],
   "database_specific": {}

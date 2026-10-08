@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "litellm-database"
+        "name": "litellm-database",
+        "purl": "pkg:apk/cleanstart/litellm-database"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "litellm-database"
+        "name": "litellm-database",
+        "purl": "pkg:apk/cleanstart/litellm-database"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T09:46:41.316481Z",
-  "modified": "2026-08-14T09:49:27Z",
+  "modified": "2026-10-08T15:57:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

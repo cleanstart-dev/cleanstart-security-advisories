@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "dex-fips"
+        "name": "dex-fips",
+        "purl": "pkg:apk/cleanstart/dex-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nfs-subdir-external-provisioner"
+        "name": "nfs-subdir-external-provisioner",
+        "purl": "pkg:apk/cleanstart/nfs-subdir-external-provisioner"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server"
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-10-06T00:36:16.131600Z",
-  "modified": "2026-10-05T09:59:04Z",
+  "modified": "2026-10-08T15:18:14Z",
   "related": [],
   "credits": [],
   "database_specific": {}

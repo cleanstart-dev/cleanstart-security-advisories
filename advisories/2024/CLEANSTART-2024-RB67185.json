@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "croc"
+        "name": "croc",
+        "purl": "pkg:apk/cleanstart/croc"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T20:44:17.964451Z",
-  "modified": "2024-08-06T18:15:02Z",
+  "modified": "2026-10-08T14:25:10Z",
   "severity": [
     {
       "type": "CVSS_V3",

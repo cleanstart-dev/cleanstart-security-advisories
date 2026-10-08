@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "c-ares"
+        "name": "c-ares",
+        "purl": "pkg:apk/cleanstart/c-ares"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-10-01T03:48:40.313647Z",
-  "modified": "2026-02-06T06:43:17Z",
+  "modified": "2026-10-08T14:26:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

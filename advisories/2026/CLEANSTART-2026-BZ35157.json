@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tkn-fips"
+        "name": "tkn-fips",
+        "purl": "pkg:apk/cleanstart/tkn-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:05:47.327127Z",
-  "modified": "2026-06-03T10:14:20Z",
+  "modified": "2026-10-08T14:25:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

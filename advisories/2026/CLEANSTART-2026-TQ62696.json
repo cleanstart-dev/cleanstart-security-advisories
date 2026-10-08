@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul"
+        "name": "consul",
+        "purl": "pkg:apk/cleanstart/consul"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-02T00:35:51.187668Z",
-  "modified": "2026-10-01T12:14:06Z",
+  "modified": "2026-10-08T15:18:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

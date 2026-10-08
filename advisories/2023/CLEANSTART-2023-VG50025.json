@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "freeimage"
+        "name": "freeimage",
+        "purl": "pkg:apk/cleanstart/freeimage"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:12:11.522619Z",
-  "modified": "2023-04-12T01:37:43Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics-fips"
+        "name": "kube-state-metrics-fips",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:32:58.453502Z",
-  "modified": "2025-09-16T09:15:09Z",
+  "modified": "2026-10-08T15:17:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}
