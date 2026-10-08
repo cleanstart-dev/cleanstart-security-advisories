@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KV94279",
+  "summary": "pgjdbc is an open source postgresql JDBC Driver",
+  "details": "Security vulnerability affects the apache-hive package. pgjdbc is an open source postgresql JDBC Driver.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "apache-hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.3-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-54291"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-KV94279.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-54291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54291"
+    }
+  ],
+  "published": "2026-10-08T00:41:12.004598Z",
+  "modified": "2026-10-07T12:33:38Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
