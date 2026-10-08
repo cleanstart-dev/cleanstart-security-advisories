@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "hazelcast"
+        "name": "hazelcast",
+        "purl": "pkg:apk/cleanstart/hazelcast"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:50:13.113556Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T14:26:03Z",
   "related": [],
   "credits": [],
   "database_specific": {}

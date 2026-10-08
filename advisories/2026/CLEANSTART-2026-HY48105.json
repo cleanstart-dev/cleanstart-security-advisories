@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
+        "name": "apache-zookeeper",
+        "purl": "pkg:apk/cleanstart/apache-zookeeper?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
+        "name": "apache-zookeeper",
+        "purl": "pkg:apk/cleanstart/apache-zookeeper?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -232,7 +243,7 @@
     }
   ],
   "published": "2026-09-18T09:32:18.736641Z",
-  "modified": "2026-08-21T12:22:39Z",
+  "modified": "2026-10-08T15:57:35Z",
   "related": [],
   "credits": [],
   "database_specific": {}

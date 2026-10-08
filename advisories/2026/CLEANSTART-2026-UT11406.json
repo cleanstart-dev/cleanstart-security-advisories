@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "schema-registry"
+        "name": "schema-registry",
+        "purl": "pkg:apk/cleanstart/schema-registry?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:26:13.889125Z",
-  "modified": "2026-03-23T07:56:09Z",
+  "modified": "2026-10-08T15:57:59Z",
   "related": [],
   "credits": [],
   "database_specific": {}

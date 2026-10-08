@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "redis"
+        "name": "redis",
+        "purl": "pkg:apk/cleanstart/redis"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "valkey"
+        "name": "valkey",
+        "purl": "pkg:apk/cleanstart/valkey"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:33:13.640213Z",
-  "modified": "2025-08-29T06:30:36Z",
+  "modified": "2026-10-08T14:26:12Z",
   "related": [],
   "credits": [],
   "database_specific": {}

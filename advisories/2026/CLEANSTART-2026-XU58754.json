@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "activemq"
+        "name": "activemq",
+        "purl": "pkg:apk/cleanstart/activemq"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:13:43.722291Z",
-  "modified": "2026-05-13T14:13:05Z",
+  "modified": "2026-10-08T15:58:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

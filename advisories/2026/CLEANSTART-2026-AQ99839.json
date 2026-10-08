@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-chains"
+        "name": "tekton-chains",
+        "purl": "pkg:apk/cleanstart/tekton-chains"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-chains-fips"
+        "name": "tekton-chains-fips",
+        "purl": "pkg:apk/cleanstart/tekton-chains-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:26:54.869081Z",
-  "modified": "2026-03-19T06:58:14Z",
+  "modified": "2026-10-08T14:25:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "confluent-kafka"
+        "name": "confluent-kafka",
+        "purl": "pkg:apk/cleanstart/confluent-kafka"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -171,7 +179,7 @@
     }
   ],
   "published": "2026-09-18T10:13:44.119814Z",
-  "modified": "2026-05-13T11:56:08Z",
+  "modified": "2026-10-08T15:57:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

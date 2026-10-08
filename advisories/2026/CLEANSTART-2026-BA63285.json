@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudwatch-exporter"
+        "name": "cloudwatch-exporter",
+        "purl": "pkg:apk/cleanstart/cloudwatch-exporter"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "management-api-for-apache-cassandra-5.0"
+        "name": "management-api-for-apache-cassandra-5.0",
+        "purl": "pkg:apk/cleanstart/management-api-for-apache-cassandra-5.0"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "management-api-for-apache-cassandra-5.0"
+        "name": "management-api-for-apache-cassandra-5.0",
+        "purl": "pkg:apk/cleanstart/management-api-for-apache-cassandra-5.0"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "management-api-for-apache-cassandra-5.0"
+        "name": "management-api-for-apache-cassandra-5.0",
+        "purl": "pkg:apk/cleanstart/management-api-for-apache-cassandra-5.0"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -190,7 +199,7 @@
     }
   ],
   "published": "2026-09-18T10:32:36.886257Z",
-  "modified": "2025-10-31T09:28:15Z",
+  "modified": "2026-10-08T15:57:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

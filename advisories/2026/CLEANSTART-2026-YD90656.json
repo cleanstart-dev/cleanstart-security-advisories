@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "logstash-fips"
+        "name": "logstash-fips",
+        "purl": "pkg:apk/cleanstart/logstash-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T09:49:11.826740Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:18:31Z",
   "related": [],
   "credits": [],
   "database_specific": {}

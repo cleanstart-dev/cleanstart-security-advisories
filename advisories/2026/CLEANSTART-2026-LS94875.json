@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-2"
+        "name": "airflow-2",
+        "purl": "pkg:apk/cleanstart/airflow-2"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T09:59:34.810185Z",
-  "modified": "2026-06-19T06:30:37Z",
+  "modified": "2026-10-08T15:57:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}

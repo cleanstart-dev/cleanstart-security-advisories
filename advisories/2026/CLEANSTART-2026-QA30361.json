@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py311"
+        "name": "spark-sc213-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py311"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:19:38.328779Z",
-  "modified": "2026-04-27T07:31:14Z",
+  "modified": "2026-10-08T15:57:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

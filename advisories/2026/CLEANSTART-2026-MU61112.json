@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-operator"
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero-plugin-for-csi"
+        "name": "velero-plugin-for-csi",
+        "purl": "pkg:apk/cleanstart/velero-plugin-for-csi"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:08:04.952013Z",
-  "modified": "2026-05-25T14:13:09Z",
+  "modified": "2026-10-08T15:18:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

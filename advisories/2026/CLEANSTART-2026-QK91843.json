@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "victoriametrics-operator"
+        "name": "victoriametrics-operator",
+        "purl": "pkg:apk/cleanstart/victoriametrics-operator"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "victoriametrics-operator-fips"
+        "name": "victoriametrics-operator-fips",
+        "purl": "pkg:apk/cleanstart/victoriametrics-operator-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:26:36.932102Z",
-  "modified": "2026-03-19T07:08:56Z",
+  "modified": "2026-10-08T14:26:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

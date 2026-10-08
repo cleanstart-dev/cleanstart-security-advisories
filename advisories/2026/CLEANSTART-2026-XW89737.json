@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kogito-apps"
+        "name": "kogito-apps",
+        "purl": "pkg:apk/cleanstart/kogito-apps?arch=noarch"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T10:32:01.019847Z",
-  "modified": "2025-12-09T06:36:02Z",
+  "modified": "2026-10-08T15:58:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

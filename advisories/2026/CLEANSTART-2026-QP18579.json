@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
+        "name": "apache-zookeeper",
+        "purl": "pkg:apk/cleanstart/apache-zookeeper?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudnative-pg-fips"
+        "name": "cloudnative-pg-fips",
+        "purl": "pkg:apk/cleanstart/cloudnative-pg-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudnative-pg-fips"
+        "name": "cloudnative-pg-fips",
+        "purl": "pkg:apk/cleanstart/cloudnative-pg-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "curl"
+        "name": "curl",
+        "purl": "pkg:apk/cleanstart/curl"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "curl"
+        "name": "curl",
+        "purl": "pkg:apk/cleanstart/curl"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "curl"
+        "name": "curl",
+        "purl": "pkg:apk/cleanstart/curl"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-exporter-fips"
+        "name": "druid-exporter-fips",
+        "purl": "pkg:apk/cleanstart/druid-exporter-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-exporter-fips"
+        "name": "druid-exporter-fips",
+        "purl": "pkg:apk/cleanstart/druid-exporter-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-exporter-fips"
+        "name": "druid-exporter-fips",
+        "purl": "pkg:apk/cleanstart/druid-exporter-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-exporter-fips"
+        "name": "druid-exporter-fips",
+        "purl": "pkg:apk/cleanstart/druid-exporter-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "expat"
+        "name": "expat",
+        "purl": "pkg:apk/cleanstart/expat"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-operator-fips"
+        "name": "minio-operator-fips",
+        "purl": "pkg:apk/cleanstart/minio-operator-fips"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat11"
+        "name": "tomcat11",
+        "purl": "pkg:apk/cleanstart/tomcat11?arch=noarch"
       },
       "ranges": [
         {
@@ -308,7 +323,7 @@
     }
   ],
   "published": "2026-09-18T10:29:16.112262Z",
-  "modified": "2026-02-10T10:44:33Z",
+  "modified": "2026-10-08T15:57:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

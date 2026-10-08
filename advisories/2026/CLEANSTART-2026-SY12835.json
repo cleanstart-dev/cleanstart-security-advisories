@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3.11-pip"
+        "name": "py3.11-pip",
+        "purl": "pkg:apk/cleanstart/py3.11-pip?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "python3"
+        "name": "python3",
+        "purl": "pkg:apk/cleanstart/python3"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:00:24.820784Z",
-  "modified": "2026-06-14T15:17:02Z",
+  "modified": "2026-10-08T14:26:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

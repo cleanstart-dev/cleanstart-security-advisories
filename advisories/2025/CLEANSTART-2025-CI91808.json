@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-issuer-fips"
+        "name": "step-issuer-fips",
+        "purl": "pkg:apk/cleanstart/step-issuer-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:30:48.179630Z",
-  "modified": "2025-12-18T11:35:24Z",
+  "modified": "2026-10-08T15:17:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}

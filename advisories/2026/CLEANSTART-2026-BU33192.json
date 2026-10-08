@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rundeck"
+        "name": "rundeck",
+        "purl": "pkg:apk/cleanstart/rundeck"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-06T00:34:49.827508Z",
-  "modified": "2026-10-05T12:42:50Z",
+  "modified": "2026-10-08T15:57:21Z",
   "severity": [
     {
       "type": "CVSS_V3",

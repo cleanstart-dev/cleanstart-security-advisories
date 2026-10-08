@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:29:33.053129Z",
-  "modified": "2026-01-22T10:55:03Z",
+  "modified": "2026-10-08T15:18:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

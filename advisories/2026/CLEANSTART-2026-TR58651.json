@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "schema-registry"
+        "name": "schema-registry",
+        "purl": "pkg:apk/cleanstart/schema-registry?arch=noarch"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -209,7 +219,7 @@
     }
   ],
   "published": "2026-09-18T10:19:25.919749Z",
-  "modified": "2026-04-27T12:39:42Z",
+  "modified": "2026-10-08T15:57:57Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:32:38.780648Z",
-  "modified": "2025-11-19T07:44:01Z",
+  "modified": "2026-10-08T15:57:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

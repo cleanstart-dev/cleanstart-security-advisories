@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero"
+        "name": "velero",
+        "purl": "pkg:apk/cleanstart/velero"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:29:33.655874Z",
-  "modified": "2026-02-03T05:02:13Z",
+  "modified": "2026-10-08T15:18:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

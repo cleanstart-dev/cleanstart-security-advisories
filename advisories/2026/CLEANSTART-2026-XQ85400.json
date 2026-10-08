@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana"
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gomplate"
+        "name": "gomplate",
+        "purl": "pkg:apk/cleanstart/gomplate"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-30T00:36:12.584386Z",
-  "modified": "2026-09-29T04:41:08Z",
+  "modified": "2026-10-08T14:26:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

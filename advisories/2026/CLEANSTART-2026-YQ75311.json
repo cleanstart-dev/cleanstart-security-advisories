@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-2"
+        "name": "airflow-2",
+        "purl": "pkg:apk/cleanstart/airflow-2"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "az"
+        "name": "az",
+        "purl": "pkg:apk/cleanstart/az"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pritunl"
+        "name": "pritunl",
+        "purl": "pkg:apk/cleanstart/pritunl"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T10:28:47.299280Z",
-  "modified": "2026-02-18T07:18:39Z",
+  "modified": "2026-10-08T15:58:08Z",
   "related": [],
   "credits": [],
   "database_specific": {}

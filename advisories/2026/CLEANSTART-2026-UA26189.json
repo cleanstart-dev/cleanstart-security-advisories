@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat9"
+        "name": "tomcat9",
+        "purl": "pkg:apk/cleanstart/tomcat9?arch=noarch"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:19:23.988710Z",
-  "modified": "2026-04-27T12:31:49Z",
+  "modified": "2026-10-08T14:26:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

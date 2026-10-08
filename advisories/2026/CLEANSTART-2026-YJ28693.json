@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-fips"
+        "name": "helm-fips",
+        "purl": "pkg:apk/cleanstart/helm-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8sgpt"
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:31:24.355311Z",
-  "modified": "2025-12-13T11:34:20Z",
+  "modified": "2026-10-08T15:18:31Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mongosh"
+        "name": "mongosh",
+        "purl": "pkg:apk/cleanstart/mongosh"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:17:15.098404Z",
-  "modified": "2026-05-06T06:24:38Z",
+  "modified": "2026-10-08T15:57:58Z",
   "related": [],
   "credits": [],
   "database_specific": {}

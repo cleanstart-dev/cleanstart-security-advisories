@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "amazon-cloudwatch-agent-fips"
+        "name": "amazon-cloudwatch-agent-fips",
+        "purl": "pkg:apk/cleanstart/amazon-cloudwatch-agent-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "certificate-transparency-trillian-ctserver"
+        "name": "certificate-transparency-trillian-ctserver",
+        "purl": "pkg:apk/cleanstart/certificate-transparency-trillian-ctserver"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "certificate-transparency-trillian-ctserver-fips"
+        "name": "certificate-transparency-trillian-ctserver-fips",
+        "purl": "pkg:apk/cleanstart/certificate-transparency-trillian-ctserver-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats"
+        "name": "elastic-beats",
+        "purl": "pkg:apk/cleanstart/elastic-beats"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats"
+        "name": "elastic-beats",
+        "purl": "pkg:apk/cleanstart/elastic-beats"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana"
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator-fips"
+        "name": "helm-operator-fips",
+        "purl": "pkg:apk/cleanstart/helm-operator-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio"
+        "name": "istio",
+        "purl": "pkg:apk/cleanstart/istio"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio-fips"
+        "name": "istio-fips",
+        "purl": "pkg:apk/cleanstart/istio-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio-pilot-discovery"
+        "name": "istio-pilot-discovery",
+        "purl": "pkg:apk/cleanstart/istio-pilot-discovery"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio-pilot-discovery-fips"
+        "name": "istio-pilot-discovery-fips",
+        "purl": "pkg:apk/cleanstart/istio-pilot-discovery-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda"
+        "name": "keda",
+        "purl": "pkg:apk/cleanstart/keda"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda-fips"
+        "name": "keda-fips",
+        "purl": "pkg:apk/cleanstart/keda-fips"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda-fips"
+        "name": "keda-fips",
+        "purl": "pkg:apk/cleanstart/keda-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "metrics-server"
+        "name": "metrics-server",
+        "purl": "pkg:apk/cleanstart/metrics-server"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -361,7 +379,7 @@
     }
   ],
   "published": "2026-09-18T10:12:28.331640Z",
-  "modified": "2026-05-18T14:02:31Z",
+  "modified": "2026-10-08T16:19:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

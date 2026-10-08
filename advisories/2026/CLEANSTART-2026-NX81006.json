@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "openjdk8"
+        "name": "openjdk8",
+        "purl": "pkg:apk/cleanstart/openjdk8"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:11:37.315624Z",
-  "modified": "2026-06-03T12:58:22Z",
+  "modified": "2026-10-08T14:25:53Z",
   "related": [],
   "credits": [],
   "database_specific": {}

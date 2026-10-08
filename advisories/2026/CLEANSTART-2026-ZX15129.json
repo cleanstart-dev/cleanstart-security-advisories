@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "incubator-kie-kogito-data-index-ephemeral"
+        "name": "incubator-kie-kogito-data-index-ephemeral",
+        "purl": "pkg:apk/cleanstart/incubator-kie-kogito-data-index-ephemeral"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kogito-apps"
+        "name": "kogito-apps",
+        "purl": "pkg:apk/cleanstart/kogito-apps?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py311"
+        "name": "spark-sc213-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py311"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -171,7 +179,7 @@
     }
   ],
   "published": "2026-09-18T10:29:03.065225Z",
-  "modified": "2026-02-10T10:57:31Z",
+  "modified": "2026-10-08T15:58:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

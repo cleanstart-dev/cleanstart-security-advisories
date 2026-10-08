@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "s3proxy"
+        "name": "s3proxy",
+        "purl": "pkg:apk/cleanstart/s3proxy?arch=noarch"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc212-jdk17-py311"
+        "name": "spark-sc212-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc212-jdk17-py311"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -133,7 +139,7 @@
     }
   ],
   "published": "2026-09-18T10:26:20.741066Z",
-  "modified": "2026-03-24T10:05:19Z",
+  "modified": "2026-10-08T15:57:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

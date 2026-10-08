@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "calico-fips"
+        "name": "calico-fips",
+        "purl": "pkg:apk/cleanstart/calico-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:32:44.805867Z",
-  "modified": "2025-10-15T07:18:38Z",
+  "modified": "2026-10-08T15:17:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

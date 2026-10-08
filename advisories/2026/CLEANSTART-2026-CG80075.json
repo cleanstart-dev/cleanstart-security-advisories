@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-dns"
+        "name": "external-dns",
+        "purl": "pkg:apk/cleanstart/external-dns"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy"
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "eks-distro-kube-scheduler"
+        "name": "eks-distro-kube-scheduler",
+        "purl": "pkg:apk/cleanstart/eks-distro-kube-scheduler"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "eks-distro-kube-controller-manager-fips"
+        "name": "eks-distro-kube-controller-manager-fips",
+        "purl": "pkg:apk/cleanstart/eks-distro-kube-controller-manager-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "eks-distro-kube-apiserver"
+        "name": "eks-distro-kube-apiserver",
+        "purl": "pkg:apk/cleanstart/eks-distro-kube-apiserver"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "eks-distro-kube-apiserver-fips"
+        "name": "eks-distro-kube-apiserver-fips",
+        "purl": "pkg:apk/cleanstart/eks-distro-kube-apiserver-fips"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-10-08T00:43:18.804681Z",
-  "modified": "2026-10-07T10:26:51Z",
+  "modified": "2026-10-08T15:57:23Z",
   "related": [],
   "credits": [],
   "database_specific": {}

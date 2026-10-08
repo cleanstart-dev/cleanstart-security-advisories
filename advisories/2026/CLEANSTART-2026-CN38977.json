@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nginx"
+        "name": "nginx",
+        "purl": "pkg:apk/cleanstart/nginx"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:30:30.995989Z",
-  "modified": "2025-12-26T13:38:39Z",
+  "modified": "2026-10-08T14:25:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

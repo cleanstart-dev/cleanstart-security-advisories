@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gnupg"
+        "name": "gnupg",
+        "purl": "pkg:apk/cleanstart/gnupg"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:33:03.386974Z",
-  "modified": "2025-09-08T08:45:23Z",
+  "modified": "2026-10-08T14:26:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

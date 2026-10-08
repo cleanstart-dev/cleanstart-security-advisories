@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rabbitmq-messaging-topology-operator"
+        "name": "rabbitmq-messaging-topology-operator",
+        "purl": "pkg:apk/cleanstart/rabbitmq-messaging-topology-operator"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:30:14.946911Z",
-  "modified": "2025-12-30T10:33:37Z",
+  "modified": "2026-10-08T15:58:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

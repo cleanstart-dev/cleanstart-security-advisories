@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-dns-node-cache-fips"
+        "name": "kubernetes-dns-node-cache-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-dns-node-cache-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:50:14.749959Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:57:52Z",
   "related": [],
   "credits": [],
   "database_specific": {}

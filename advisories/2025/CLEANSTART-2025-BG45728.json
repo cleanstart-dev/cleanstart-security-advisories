@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aardvark-dns"
+        "name": "aardvark-dns",
+        "purl": "pkg:apk/cleanstart/aardvark-dns"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:01:05.266584Z",
-  "modified": "2026-05-28T06:11:48Z",
+  "modified": "2026-10-08T14:25:15Z",
   "severity": [
     {
       "type": "CVSS_V3",

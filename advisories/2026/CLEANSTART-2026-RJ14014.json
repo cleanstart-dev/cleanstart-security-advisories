@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jitsucom-jitsu"
+        "name": "jitsucom-jitsu",
+        "purl": "pkg:apk/cleanstart/jitsucom-jitsu"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse"
+        "name": "langfuse",
+        "purl": "pkg:apk/cleanstart/langfuse"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse-worker"
+        "name": "langfuse-worker",
+        "purl": "pkg:apk/cleanstart/langfuse-worker"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse-worker"
+        "name": "langfuse-worker",
+        "purl": "pkg:apk/cleanstart/langfuse-worker"
       },
       "ranges": [
         {
@@ -95,7 +99,7 @@
     }
   ],
   "published": "2026-09-18T09:58:28.561649Z",
-  "modified": "2026-06-30T11:51:34Z",
+  "modified": "2026-10-08T15:57:53Z",
   "related": [],
   "credits": [],
   "database_specific": {}

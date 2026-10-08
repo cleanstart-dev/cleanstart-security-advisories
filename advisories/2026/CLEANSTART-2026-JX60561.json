@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:54:06.395252Z",
-  "modified": "2026-07-28T10:51:54Z",
+  "modified": "2026-10-08T14:25:42Z",
   "related": [],
   "credits": [],
   "database_specific": {}

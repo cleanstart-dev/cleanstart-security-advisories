@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry"
+        "name": "harbor-registry",
+        "purl": "pkg:apk/cleanstart/harbor-registry"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -194,7 +203,7 @@
     }
   ],
   "published": "2026-09-18T10:26:25.449162Z",
-  "modified": "2026-03-22T07:02:21Z",
+  "modified": "2026-10-08T15:18:12Z",
   "related": [],
   "credits": [],
   "database_specific": {}

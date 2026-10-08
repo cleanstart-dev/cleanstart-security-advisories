@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "runc"
+        "name": "runc",
+        "purl": "pkg:apk/cleanstart/runc"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:00:50.035975Z",
-  "modified": "2026-06-17T05:57:52Z",
+  "modified": "2026-10-08T14:25:26Z",
   "related": [],
   "credits": [],
   "database_specific": {}

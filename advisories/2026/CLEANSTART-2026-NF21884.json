@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kibana"
+        "name": "kibana",
+        "purl": "pkg:apk/cleanstart/kibana"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -95,7 +99,7 @@
     }
   ],
   "published": "2026-09-18T10:10:34.159424Z",
-  "modified": "2026-05-21T06:39:47Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T09:40:18.961260Z",
-  "modified": "2026-08-14T12:25:42Z",
+  "modified": "2026-10-08T15:57:42Z",
   "related": [],
   "credits": [],
   "database_specific": {}

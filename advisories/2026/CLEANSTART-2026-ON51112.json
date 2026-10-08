@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nvidia-device-plugin"
+        "name": "nvidia-device-plugin",
+        "purl": "pkg:apk/cleanstart/nvidia-device-plugin"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:44:47.721323Z",
-  "modified": "2026-08-14T09:41:55Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-blackbox-exporter"
+        "name": "prometheus-blackbox-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-blackbox-exporter"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:32:17.856311Z",
-  "modified": "2025-12-04T12:16:38Z",
+  "modified": "2026-10-08T14:26:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

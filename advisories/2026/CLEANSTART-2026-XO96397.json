@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T09:45:27.368607Z",
-  "modified": "2026-08-11T06:22:33Z",
+  "modified": "2026-10-08T14:26:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

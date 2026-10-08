@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:01:59.468319Z",
-  "modified": "2026-06-10T18:14:12Z",
+  "modified": "2026-10-08T15:57:40Z",
   "related": [],
   "credits": [],
   "database_specific": {}

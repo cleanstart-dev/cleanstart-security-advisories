@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-alertmanager"
+        "name": "prometheus-alertmanager",
+        "purl": "pkg:apk/cleanstart/prometheus-alertmanager"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "promxy"
+        "name": "promxy",
+        "purl": "pkg:apk/cleanstart/promxy"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "promxy-fips"
+        "name": "promxy-fips",
+        "purl": "pkg:apk/cleanstart/promxy-fips"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:21:53.446731Z",
-  "modified": "2026-04-15T09:50:38Z",
+  "modified": "2026-10-08T15:57:36Z",
   "related": [],
   "credits": [],
   "database_specific": {}

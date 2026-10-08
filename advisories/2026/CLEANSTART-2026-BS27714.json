@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apko"
+        "name": "apko",
+        "purl": "pkg:apk/cleanstart/apko"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno"
+        "name": "kyverno",
+        "purl": "pkg:apk/cleanstart/kyverno"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi-kubernetes-operator"
+        "name": "pulumi-kubernetes-operator",
+        "purl": "pkg:apk/cleanstart/pulumi-kubernetes-operator"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "timoni"
+        "name": "timoni",
+        "purl": "pkg:apk/cleanstart/timoni"
       },
       "ranges": [
         {
@@ -285,7 +299,7 @@
     }
   ],
   "published": "2026-09-18T10:12:55.939414Z",
-  "modified": "2026-05-15T02:36:55Z",
+  "modified": "2026-10-08T15:17:47Z",
   "related": [],
   "credits": [],
   "database_specific": {}

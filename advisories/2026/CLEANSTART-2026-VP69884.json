@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi"
+        "name": "pulumi",
+        "purl": "pkg:apk/cleanstart/pulumi"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:34:15.246609Z",
-  "modified": "2026-08-19T09:19:17Z",
+  "modified": "2026-10-08T14:26:12Z",
   "related": [],
   "credits": [],
   "database_specific": {}

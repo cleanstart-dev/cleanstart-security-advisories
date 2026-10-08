@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "docker"
+        "name": "docker",
+        "purl": "pkg:apk/cleanstart/docker"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "docker-fips"
+        "name": "docker-fips",
+        "purl": "pkg:apk/cleanstart/docker-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "paranoia"
+        "name": "paranoia",
+        "purl": "pkg:apk/cleanstart/paranoia"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:33:27.832896Z",
-  "modified": "2025-04-01T13:38:46Z",
+  "modified": "2026-10-08T15:57:20Z",
   "related": [],
   "credits": [],
   "database_specific": {}

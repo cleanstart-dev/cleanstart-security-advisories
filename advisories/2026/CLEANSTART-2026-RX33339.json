@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-urllib3"
+        "name": "py3-urllib3",
+        "purl": "pkg:apk/cleanstart/py3-urllib3?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:30:13.554678Z",
-  "modified": "2025-12-30T06:57:12Z",
+  "modified": "2026-10-08T14:26:03Z",
   "related": [],
   "credits": [],
   "database_specific": {}

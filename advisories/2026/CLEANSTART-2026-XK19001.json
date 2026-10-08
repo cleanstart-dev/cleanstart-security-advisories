@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator-fips"
+        "name": "helm-operator-fips",
+        "purl": "pkg:apk/cleanstart/helm-operator-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:31:34.070350Z",
-  "modified": "2025-12-11T21:02:51Z",
+  "modified": "2026-10-08T15:18:29Z",
   "related": [],
   "credits": [],
   "database_specific": {}

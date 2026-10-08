@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "erlang"
+        "name": "erlang",
+        "purl": "pkg:apk/cleanstart/erlang"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:22:21.455280Z",
-  "modified": "2026-09-17T09:12:07Z",
+  "modified": "2026-10-08T14:25:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

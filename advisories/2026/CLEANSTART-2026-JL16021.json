@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:55:54.710080Z",
-  "modified": "2026-07-07T07:16:31Z",
+  "modified": "2026-10-08T16:19:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "go-fips-1.24"
+        "name": "go-fips-1.24",
+        "purl": "pkg:apk/cleanstart/go-fips-1.24"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "go1.24"
+        "name": "go1.24",
+        "purl": "pkg:apk/cleanstart/go1.24"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:32:30.548580Z",
-  "modified": "2025-11-06T06:52:50Z",
+  "modified": "2026-10-08T15:58:02Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:28:29.663627Z",
-  "modified": "2026-02-27T12:53:57Z",
+  "modified": "2026-10-08T15:17:58Z",
   "related": [],
   "credits": [],
   "database_specific": {}

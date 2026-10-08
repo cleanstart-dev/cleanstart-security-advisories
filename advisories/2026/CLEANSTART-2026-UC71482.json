@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows-fips"
+        "name": "argo-workflows-fips",
+        "purl": "pkg:apk/cleanstart/argo-workflows-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows-fips"
+        "name": "argo-workflows-fips",
+        "purl": "pkg:apk/cleanstart/argo-workflows-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-notification-controller-fips"
+        "name": "flux-notification-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-notification-controller-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "policy-controller"
+        "name": "policy-controller",
+        "purl": "pkg:apk/cleanstart/policy-controller"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T10:30:41.024859Z",
-  "modified": "2025-12-19T20:43:20Z",
+  "modified": "2026-10-08T15:57:58Z",
   "related": [],
   "credits": [],
   "database_specific": {}

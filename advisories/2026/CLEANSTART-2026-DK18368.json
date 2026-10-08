@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-cmctl"
+        "name": "cert-manager-cmctl",
+        "purl": "pkg:apk/cleanstart/cert-manager-cmctl"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-fips"
+        "name": "helm-fips",
+        "purl": "pkg:apk/cleanstart/helm-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-fips"
+        "name": "helm-fips",
+        "purl": "pkg:apk/cleanstart/helm-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-fips"
+        "name": "helm-fips",
+        "purl": "pkg:apk/cleanstart/helm-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8sgpt"
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kaniko"
+        "name": "kaniko",
+        "purl": "pkg:apk/cleanstart/kaniko"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kaniko-fips"
+        "name": "kaniko-fips",
+        "purl": "pkg:apk/cleanstart/kaniko-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "skaffold"
+        "name": "skaffold",
+        "purl": "pkg:apk/cleanstart/skaffold"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trivy-fips"
+        "name": "trivy-fips",
+        "purl": "pkg:apk/cleanstart/trivy-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero"
+        "name": "velero",
+        "purl": "pkg:apk/cleanstart/velero"
       },
       "ranges": [
         {
@@ -304,7 +319,7 @@
     }
   ],
   "published": "2026-09-18T10:32:29.284065Z",
-  "modified": "2025-11-19T07:44:01Z",
+  "modified": "2026-10-08T15:57:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

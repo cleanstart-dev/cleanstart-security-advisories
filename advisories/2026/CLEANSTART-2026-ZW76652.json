@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudnative-pg"
+        "name": "cloudnative-pg",
+        "purl": "pkg:apk/cleanstart/cloudnative-pg"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T09:57:00.381296Z",
-  "modified": "2026-06-30T13:20:18Z",
+  "modified": "2026-10-08T15:18:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra"
+        "name": "cassandra",
+        "purl": "pkg:apk/cleanstart/cassandra"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "confluent-kafka"
+        "name": "confluent-kafka",
+        "purl": "pkg:apk/cleanstart/confluent-kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "hazelcast"
+        "name": "hazelcast",
+        "purl": "pkg:apk/cleanstart/hazelcast"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "logstash-fips"
+        "name": "logstash-fips",
+        "purl": "pkg:apk/cleanstart/logstash-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "s3proxy"
+        "name": "s3proxy",
+        "purl": "pkg:apk/cleanstart/s3proxy?arch=noarch"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark"
+        "name": "spark",
+        "purl": "pkg:apk/cleanstart/spark"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py312"
+        "name": "spark-sc213-jdk17-py312",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py312"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -266,7 +279,7 @@
     }
   ],
   "published": "2026-09-18T09:55:59.491475Z",
-  "modified": "2026-07-13T09:36:35Z",
+  "modified": "2026-10-08T15:57:54Z",
   "related": [],
   "credits": [],
   "database_specific": {}

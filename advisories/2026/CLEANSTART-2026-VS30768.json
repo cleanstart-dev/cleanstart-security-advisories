@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitea"
+        "name": "gitea",
+        "purl": "pkg:apk/cleanstart/gitea"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:21:59.592043Z",
-  "modified": "2026-09-16T10:38:10Z",
+  "modified": "2026-10-08T14:26:12Z",
   "related": [],
   "credits": [],
   "database_specific": {}

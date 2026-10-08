@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jupyterhub-k8s-hub"
+        "name": "jupyterhub-k8s-hub",
+        "purl": "pkg:apk/cleanstart/jupyterhub-k8s-hub"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-storage-controller"
+        "name": "kserve-storage-controller",
+        "purl": "pkg:apk/cleanstart/kserve-storage-controller"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:58:42.675256Z",
-  "modified": "2026-06-17T13:38:24Z",
+  "modified": "2026-10-08T15:18:14Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apicurio-registry"
+        "name": "apicurio-registry",
+        "purl": "pkg:apk/cleanstart/apicurio-registry"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:26:45.165550Z",
-  "modified": "2026-03-18T09:26:06Z",
+  "modified": "2026-10-08T15:57:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

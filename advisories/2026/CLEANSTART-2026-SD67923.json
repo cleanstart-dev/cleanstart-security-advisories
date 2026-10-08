@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "git-lfs"
+        "name": "git-lfs",
+        "purl": "pkg:apk/cleanstart/git-lfs"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "git-lfs-fips"
+        "name": "git-lfs-fips",
+        "purl": "pkg:apk/cleanstart/git-lfs-fips"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:28:56.497760Z",
-  "modified": "2026-02-24T10:30:17Z",
+  "modified": "2026-10-08T15:57:54Z",
   "related": [],
   "credits": [],
   "database_specific": {}

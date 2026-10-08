@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:32:38.857346Z",
-  "modified": "2025-10-28T13:17:51Z",
+  "modified": "2026-10-08T15:17:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-image-automation-controller-fips"
+        "name": "flux-image-automation-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-image-automation-controller-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitea-fips"
+        "name": "gitea-fips",
+        "purl": "pkg:apk/cleanstart/gitea-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitlab-runner"
+        "name": "gitlab-runner",
+        "purl": "pkg:apk/cleanstart/gitlab-runner"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gptscript"
+        "name": "gptscript",
+        "purl": "pkg:apk/cleanstart/gptscript"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy"
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy-fips"
+        "name": "grafana-alloy-fips",
+        "purl": "pkg:apk/cleanstart/grafana-alloy-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy-fips"
+        "name": "grafana-alloy-fips",
+        "purl": "pkg:apk/cleanstart/grafana-alloy-fips"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi-kubernetes-operator"
+        "name": "pulumi-kubernetes-operator",
+        "purl": "pkg:apk/cleanstart/pulumi-kubernetes-operator"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "syft"
+        "name": "syft",
+        "purl": "pkg:apk/cleanstart/syft"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "timoni"
+        "name": "timoni",
+        "purl": "pkg:apk/cleanstart/timoni"
       },
       "ranges": [
         {
@@ -323,7 +339,7 @@
     }
   ],
   "published": "2026-09-18T10:24:23.735164Z",
-  "modified": "2026-04-02T12:23:39Z",
+  "modified": "2026-10-08T15:58:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

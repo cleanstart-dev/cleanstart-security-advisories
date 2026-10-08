@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-2"
+        "name": "airflow-2",
+        "purl": "pkg:apk/cleanstart/airflow-2"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-2"
+        "name": "airflow-2",
+        "purl": "pkg:apk/cleanstart/airflow-2"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -133,7 +139,7 @@
     }
   ],
   "published": "2026-09-18T10:14:25.802412Z",
-  "modified": "2026-05-13T09:48:58Z",
+  "modified": "2026-10-08T15:58:02Z",
   "related": [],
   "credits": [],
   "database_specific": {}

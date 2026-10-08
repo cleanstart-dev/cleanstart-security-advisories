@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T10:32:01.528602Z",
-  "modified": "2025-12-09T07:10:58Z",
+  "modified": "2026-10-08T15:57:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

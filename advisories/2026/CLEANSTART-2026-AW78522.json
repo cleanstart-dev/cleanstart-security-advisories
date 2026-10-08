@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rundeck"
+        "name": "rundeck",
+        "purl": "pkg:apk/cleanstart/rundeck"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:19:38.593565Z",
-  "modified": "2026-04-29T09:17:07Z",
+  "modified": "2026-10-08T15:57:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

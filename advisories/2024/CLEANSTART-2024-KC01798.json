@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "collectd"
+        "name": "collectd",
+        "purl": "pkg:apk/cleanstart/collectd"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:21:39.158821Z",
-  "modified": "2024-04-25T14:44:52Z",
+  "modified": "2026-10-08T14:25:06Z",
   "severity": [
     {
       "type": "CVSS_V3",

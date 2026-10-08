@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T09:40:25.438039Z",
-  "modified": "2026-08-14T12:25:42Z",
+  "modified": "2026-10-08T15:57:52Z",
   "related": [],
   "credits": [],
   "database_specific": {}

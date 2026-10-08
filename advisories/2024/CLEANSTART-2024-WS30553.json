@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "discover"
+        "name": "discover",
+        "purl": "pkg:apk/cleanstart/discover"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T20:49:07.647076Z",
-  "modified": "2024-05-22T09:14:00Z",
+  "modified": "2026-10-08T14:25:13Z",
   "severity": [
     {
       "type": "CVSS_V3",

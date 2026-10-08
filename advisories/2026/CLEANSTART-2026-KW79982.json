@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aws-network-policy-agent"
+        "name": "aws-network-policy-agent",
+        "purl": "pkg:apk/cleanstart/aws-network-policy-agent"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "caddy"
+        "name": "caddy",
+        "purl": "pkg:apk/cleanstart/caddy"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-dns-node-cache"
+        "name": "kubernetes-dns-node-cache",
+        "purl": "pkg:apk/cleanstart/kubernetes-dns-node-cache"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step"
+        "name": "step",
+        "purl": "pkg:apk/cleanstart/step"
       },
       "ranges": [
         {
@@ -152,7 +159,7 @@
     }
   ],
   "published": "2026-10-08T00:37:23.618119Z",
-  "modified": "2026-10-07T13:07:40Z",
+  "modified": "2026-10-08T15:57:41Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "openssl"
+        "name": "openssl",
+        "purl": "pkg:apk/cleanstart/openssl"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:28:48.138316Z",
-  "modified": "2026-09-16T11:12:11Z",
+  "modified": "2026-10-08T14:25:49Z",
   "related": [],
   "credits": [],
   "database_specific": {}

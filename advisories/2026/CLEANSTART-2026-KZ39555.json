@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda"
+        "name": "keda",
+        "purl": "pkg:apk/cleanstart/keda"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda"
+        "name": "keda",
+        "purl": "pkg:apk/cleanstart/keda"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentelemetry-collector-contrib"
+        "name": "opentelemetry-collector-contrib",
+        "purl": "pkg:apk/cleanstart/opentelemetry-collector-contrib"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T09:26:57.805293Z",
-  "modified": "2026-09-07T09:15:24Z",
+  "modified": "2026-10-08T15:57:41Z",
   "related": [],
   "credits": [],
   "database_specific": {}

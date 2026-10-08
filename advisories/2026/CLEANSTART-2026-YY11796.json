@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "calico"
+        "name": "calico",
+        "purl": "pkg:apk/cleanstart/calico"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-alertmanager"
+        "name": "prometheus-alertmanager",
+        "purl": "pkg:apk/cleanstart/prometheus-alertmanager"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-22T00:36:16.243726Z",
-  "modified": "2026-09-21T05:53:54Z",
+  "modified": "2026-10-08T15:58:08Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitlab-runner"
+        "name": "gitlab-runner",
+        "purl": "pkg:apk/cleanstart/gitlab-runner"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy"
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -251,7 +263,7 @@
     }
   ],
   "published": "2026-09-18T10:23:48.732862Z",
-  "modified": "2026-04-07T05:33:50Z",
+  "modified": "2026-10-08T15:57:41Z",
   "related": [],
   "credits": [],
   "database_specific": {}

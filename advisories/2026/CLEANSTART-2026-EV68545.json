@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat10"
+        "name": "tomcat10",
+        "purl": "pkg:apk/cleanstart/tomcat10?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:23:32.959165Z",
-  "modified": "2026-04-07T17:47:06Z",
+  "modified": "2026-10-08T14:25:31Z",
   "related": [],
   "credits": [],
   "database_specific": {}

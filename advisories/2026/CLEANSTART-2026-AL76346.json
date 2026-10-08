@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jitsucom-jitsu"
+        "name": "jitsucom-jitsu",
+        "purl": "pkg:apk/cleanstart/jitsucom-jitsu"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:17:52.483176Z",
-  "modified": "2026-05-10T11:41:43Z",
+  "modified": "2026-10-08T16:19:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

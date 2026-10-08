@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "boring-registry"
+        "name": "boring-registry",
+        "purl": "pkg:apk/cleanstart/boring-registry"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-operator"
+        "name": "external-secrets-operator",
+        "purl": "pkg:apk/cleanstart/external-secrets-operator"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitea"
+        "name": "gitea",
+        "purl": "pkg:apk/cleanstart/gitea"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitea"
+        "name": "gitea",
+        "purl": "pkg:apk/cleanstart/gitea"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gomplate"
+        "name": "gomplate",
+        "purl": "pkg:apk/cleanstart/gomplate"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno"
+        "name": "kyverno",
+        "purl": "pkg:apk/cleanstart/kyverno"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno"
+        "name": "kyverno",
+        "purl": "pkg:apk/cleanstart/kyverno"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi"
+        "name": "pulumi",
+        "purl": "pkg:apk/cleanstart/pulumi"
       },
       "ranges": [
         {
@@ -308,7 +323,7 @@
     }
   ],
   "published": "2026-09-18T09:42:33.019635Z",
-  "modified": "2026-08-14T12:25:42Z",
+  "modified": "2026-10-08T16:19:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

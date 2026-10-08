@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "akhq"
+        "name": "akhq",
+        "purl": "pkg:apk/cleanstart/akhq?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:45:12.899945Z",
-  "modified": "2026-08-13T12:53:07Z",
+  "modified": "2026-10-08T14:25:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}

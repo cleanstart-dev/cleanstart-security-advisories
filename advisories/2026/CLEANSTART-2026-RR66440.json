@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "s3proxy"
+        "name": "s3proxy",
+        "purl": "pkg:apk/cleanstart/s3proxy?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:20:25.707675Z",
-  "modified": "2026-04-22T06:13:27Z",
+  "modified": "2026-10-08T15:57:53Z",
   "related": [],
   "credits": [],
   "database_specific": {}

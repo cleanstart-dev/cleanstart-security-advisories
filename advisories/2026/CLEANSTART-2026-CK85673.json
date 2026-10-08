@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse-worker"
+        "name": "langfuse-worker",
+        "purl": "pkg:apk/cleanstart/langfuse-worker"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "langfuse"
+        "name": "langfuse",
+        "purl": "pkg:apk/cleanstart/langfuse"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-10-08T00:44:55.501048Z",
-  "modified": "2026-10-07T10:56:29Z",
+  "modified": "2026-10-08T15:57:24Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-ui-server-fips"
+        "name": "temporal-ui-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-ui-server-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:17:36.418561Z",
-  "modified": "2026-05-02T09:31:20Z",
+  "modified": "2026-10-08T15:17:57Z",
   "related": [],
   "credits": [],
   "database_specific": {}

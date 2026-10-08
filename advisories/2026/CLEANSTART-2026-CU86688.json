@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-dns"
+        "name": "external-dns",
+        "purl": "pkg:apk/cleanstart/external-dns"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-19T00:37:05.838798Z",
-  "modified": "2026-09-18T14:08:41Z",
+  "modified": "2026-10-08T15:17:50Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero"
+        "name": "velero",
+        "purl": "pkg:apk/cleanstart/velero"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero"
+        "name": "velero",
+        "purl": "pkg:apk/cleanstart/velero"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero"
+        "name": "velero",
+        "purl": "pkg:apk/cleanstart/velero"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics-fips"
+        "name": "kube-state-metrics-fips",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics-fips"
+        "name": "kube-state-metrics-fips",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes"
+        "name": "kubernetes",
+        "purl": "pkg:apk/cleanstart/kubernetes"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "restic"
+        "name": "restic",
+        "purl": "pkg:apk/cleanstart/restic"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentelemetry-collector-contrib"
+        "name": "opentelemetry-collector-contrib",
+        "purl": "pkg:apk/cleanstart/opentelemetry-collector-contrib"
       },
       "ranges": [
         {
@@ -175,7 +183,7 @@
     }
   ],
   "published": "2026-09-29T00:35:07.130163Z",
-  "modified": "2026-09-28T06:26:15Z",
+  "modified": "2026-10-08T15:17:45Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "bareos"
+        "name": "bareos",
+        "purl": "pkg:apk/cleanstart/bareos"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:09:08.904567Z",
-  "modified": "2024-03-14T15:19:47Z",
+  "modified": "2026-10-08T14:25:09Z",
   "severity": [
     {
       "type": "CVSS_V3",

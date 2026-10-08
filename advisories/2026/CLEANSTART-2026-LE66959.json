@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubescape"
+        "name": "kubescape",
+        "purl": "pkg:apk/cleanstart/kubescape"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-policy-reporter-kyverno-plugin-fips"
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-policy-reporter-kyverno-plugin-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sigstore-scaffolding"
+        "name": "sigstore-scaffolding",
+        "purl": "pkg:apk/cleanstart/sigstore-scaffolding"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tkn"
+        "name": "tkn",
+        "purl": "pkg:apk/cleanstart/tkn"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tkn-fips"
+        "name": "tkn-fips",
+        "purl": "pkg:apk/cleanstart/tkn-fips"
       },
       "ranges": [
         {
@@ -213,7 +223,7 @@
     }
   ],
   "published": "2026-09-18T10:26:09.515797Z",
-  "modified": "2026-03-23T06:32:11Z",
+  "modified": "2026-10-08T15:57:42Z",
   "related": [],
   "credits": [],
   "database_specific": {}

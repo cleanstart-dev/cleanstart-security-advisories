@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cri-tools"
+        "name": "cri-tools",
+        "purl": "pkg:apk/cleanstart/cri-tools"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T07:02:29.688778Z",
-  "modified": "2026-07-27T10:57:37Z",
+  "modified": "2026-10-08T14:26:05Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitness"
+        "name": "gitness",
+        "purl": "pkg:apk/cleanstart/gitness"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "zot"
+        "name": "zot",
+        "purl": "pkg:apk/cleanstart/zot"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:20:24.277005Z",
-  "modified": "2026-04-21T09:40:31Z",
+  "modified": "2026-10-08T15:58:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

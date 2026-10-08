@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-exporter-fips"
+        "name": "druid-exporter-fips",
+        "purl": "pkg:apk/cleanstart/druid-exporter-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes"
+        "name": "kubernetes",
+        "purl": "pkg:apk/cleanstart/kubernetes"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:33:07.543246Z",
-  "modified": "2025-08-26T10:12:05Z",
+  "modified": "2026-10-08T15:18:08Z",
   "related": [],
   "credits": [],
   "database_specific": {}

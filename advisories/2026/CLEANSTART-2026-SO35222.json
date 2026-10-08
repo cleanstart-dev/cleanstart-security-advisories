@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "dnsmasq"
+        "name": "dnsmasq",
+        "purl": "pkg:apk/cleanstart/dnsmasq"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:31:14.050274Z",
-  "modified": "2026-09-03T10:27:17Z",
+  "modified": "2026-10-08T14:26:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

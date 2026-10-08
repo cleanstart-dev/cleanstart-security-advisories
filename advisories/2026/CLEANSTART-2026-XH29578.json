@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:14:17.431597Z",
-  "modified": "2026-05-13T11:44:57Z",
+  "modified": "2026-10-08T15:58:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

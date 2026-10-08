@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:42:42.962039Z",
-  "modified": "2026-10-07T10:33:28Z",
+  "modified": "2026-10-08T14:26:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

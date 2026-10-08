@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "hazelcast"
+        "name": "hazelcast",
+        "purl": "pkg:apk/cleanstart/hazelcast"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py311"
+        "name": "spark-sc213-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py311"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:19:30.399501Z",
-  "modified": "2026-04-27T07:31:14Z",
+  "modified": "2026-10-08T15:57:31Z",
   "related": [],
   "credits": [],
   "database_specific": {}

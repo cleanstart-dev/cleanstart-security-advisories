@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-metrics-adapter"
+        "name": "kube-metrics-adapter",
+        "purl": "pkg:apk/cleanstart/kube-metrics-adapter"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:23:44.414840Z",
-  "modified": "2026-09-14T12:06:48Z",
+  "modified": "2026-10-08T15:57:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

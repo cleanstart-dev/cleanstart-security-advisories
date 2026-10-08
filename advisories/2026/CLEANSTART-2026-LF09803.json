@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "openldap"
+        "name": "openldap",
+        "purl": "pkg:apk/cleanstart/openldap"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:25:33.951351Z",
-  "modified": "2026-09-10T11:14:23Z",
+  "modified": "2026-10-08T14:25:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

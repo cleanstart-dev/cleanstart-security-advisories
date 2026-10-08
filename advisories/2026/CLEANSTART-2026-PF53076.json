@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat10"
+        "name": "tomcat10",
+        "purl": "pkg:apk/cleanstart/tomcat10?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat11"
+        "name": "tomcat11",
+        "purl": "pkg:apk/cleanstart/tomcat11?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat9"
+        "name": "tomcat9",
+        "purl": "pkg:apk/cleanstart/tomcat9?arch=noarch"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:32:45.605397Z",
-  "modified": "2025-10-28T08:02:29Z",
+  "modified": "2026-10-08T15:57:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

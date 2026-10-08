@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubescape"
+        "name": "kubescape",
+        "purl": "pkg:apk/cleanstart/kubescape"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:24:47.570000Z",
-  "modified": "2026-03-28T10:05:13Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

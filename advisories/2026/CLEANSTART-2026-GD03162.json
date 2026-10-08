@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "util-linux"
+        "name": "util-linux",
+        "purl": "pkg:apk/cleanstart/util-linux"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T04:03:33.577493Z",
-  "modified": "2025-12-18T07:41:59Z",
+  "modified": "2026-10-08T14:25:33Z",
   "severity": [
     {
       "type": "CVSS_V3",

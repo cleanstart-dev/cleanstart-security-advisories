@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio"
+        "name": "fulcio",
+        "purl": "pkg:apk/cleanstart/fulcio"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-fips"
+        "name": "kyverno-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-ca"
+        "name": "step-ca",
+        "purl": "pkg:apk/cleanstart/step-ca"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -251,7 +263,7 @@
     }
   ],
   "published": "2026-09-18T10:32:37.009448Z",
-  "modified": "2025-10-28T13:17:51Z",
+  "modified": "2026-10-08T15:58:02Z",
   "related": [],
   "credits": [],
   "database_specific": {}

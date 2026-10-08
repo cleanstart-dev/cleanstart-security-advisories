@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-zookeeper"
+        "name": "apache-zookeeper",
+        "purl": "pkg:apk/cleanstart/apache-zookeeper?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:19:09.228114Z",
-  "modified": "2026-04-29T09:35:44Z",
+  "modified": "2026-10-08T15:57:23Z",
   "related": [],
   "credits": [],
   "database_specific": {}

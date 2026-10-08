@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spire-server-fips"
+        "name": "spire-server-fips",
+        "purl": "pkg:apk/cleanstart/spire-server-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T09:48:34.591940Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T14:25:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

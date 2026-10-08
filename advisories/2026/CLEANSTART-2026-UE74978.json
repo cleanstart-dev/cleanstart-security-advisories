@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "n8n"
+        "name": "n8n",
+        "purl": "pkg:apk/cleanstart/n8n"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "npm"
+        "name": "npm",
+        "purl": "pkg:apk/cleanstart/npm?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi"
+        "name": "pulumi",
+        "purl": "pkg:apk/cleanstart/pulumi"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sqlpad"
+        "name": "sqlpad",
+        "purl": "pkg:apk/cleanstart/sqlpad"
       },
       "ranges": [
         {
@@ -175,7 +183,7 @@
     }
   ],
   "published": "2026-09-18T09:52:29.637687Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:57:58Z",
   "related": [],
   "credits": [],
   "database_specific": {}

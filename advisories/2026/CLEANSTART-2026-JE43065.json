@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-cmctl-fips"
+        "name": "cert-manager-cmctl-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-cmctl-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats"
+        "name": "elastic-beats",
+        "purl": "pkg:apk/cleanstart/elastic-beats"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats"
+        "name": "elastic-beats",
+        "purl": "pkg:apk/cleanstart/elastic-beats"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats"
+        "name": "elastic-beats",
+        "purl": "pkg:apk/cleanstart/elastic-beats"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "falcoctl"
+        "name": "falcoctl",
+        "purl": "pkg:apk/cleanstart/falcoctl"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitness"
+        "name": "gitness",
+        "purl": "pkg:apk/cleanstart/gitness"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-fips"
+        "name": "kyverno-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-policy-reporter-kyverno-plugin-fips"
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-policy-reporter-kyverno-plugin-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "paranoia"
+        "name": "paranoia",
+        "purl": "pkg:apk/cleanstart/paranoia"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "skaffold"
+        "name": "skaffold",
+        "purl": "pkg:apk/cleanstart/skaffold"
       },
       "ranges": [
         {
@@ -228,7 +239,7 @@
     }
   ],
   "published": "2026-09-18T10:32:49.344875Z",
-  "modified": "2025-10-03T13:13:40Z",
+  "modified": "2026-10-08T15:57:37Z",
   "related": [],
   "credits": [],
   "database_specific": {}

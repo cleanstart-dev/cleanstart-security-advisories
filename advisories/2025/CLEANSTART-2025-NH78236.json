@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "zstd"
+        "name": "zstd",
+        "purl": "pkg:apk/cleanstart/zstd"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T18:34:43.634843Z",
-  "modified": "2025-05-26T12:37:43Z",
+  "modified": "2026-10-08T14:25:17Z",
   "severity": [
     {
       "type": "CVSS_V3",

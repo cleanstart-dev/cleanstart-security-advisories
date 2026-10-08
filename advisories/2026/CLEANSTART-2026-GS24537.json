@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:25:02.710803Z",
-  "modified": "2026-04-07T11:57:21Z",
+  "modified": "2026-10-08T14:25:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

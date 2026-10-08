@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cadvisor"
+        "name": "cadvisor",
+        "purl": "pkg:apk/cleanstart/cadvisor"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cadvisor-fips"
+        "name": "cadvisor-fips",
+        "purl": "pkg:apk/cleanstart/cadvisor-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cass-operator-fips"
+        "name": "cass-operator-fips",
+        "purl": "pkg:apk/cleanstart/cass-operator-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager"
+        "name": "cert-manager",
+        "purl": "pkg:apk/cleanstart/cert-manager"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager"
+        "name": "cert-manager",
+        "purl": "pkg:apk/cleanstart/cert-manager"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-cmctl-fips"
+        "name": "cert-manager-cmctl-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-cmctl-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "certificate-transparency-trillian-ctserver"
+        "name": "certificate-transparency-trillian-ctserver",
+        "purl": "pkg:apk/cleanstart/certificate-transparency-trillian-ctserver"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "chartmuseum-fips"
+        "name": "chartmuseum-fips",
+        "purl": "pkg:apk/cleanstart/chartmuseum-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cilium"
+        "name": "cilium",
+        "purl": "pkg:apk/cleanstart/cilium"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cilium"
+        "name": "cilium",
+        "purl": "pkg:apk/cleanstart/cilium"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cilium"
+        "name": "cilium",
+        "purl": "pkg:apk/cleanstart/cilium"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudprober-fips"
+        "name": "cloudprober-fips",
+        "purl": "pkg:apk/cleanstart/cloudprober-fips"
       },
       "ranges": [
         {
@@ -349,7 +367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudprober-fips"
+        "name": "cloudprober-fips",
+        "purl": "pkg:apk/cleanstart/cloudprober-fips"
       },
       "ranges": [
         {
@@ -368,7 +387,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-fips"
+        "name": "consul-fips",
+        "purl": "pkg:apk/cleanstart/consul-fips"
       },
       "ranges": [
         {
@@ -387,7 +407,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "dex"
+        "name": "dex",
+        "purl": "pkg:apk/cleanstart/dex"
       },
       "ranges": [
         {
@@ -406,7 +427,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "dex-fips"
+        "name": "dex-fips",
+        "purl": "pkg:apk/cleanstart/dex-fips"
       },
       "ranges": [
         {
@@ -425,7 +447,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elastic-beats-fips"
+        "name": "elastic-beats-fips",
+        "purl": "pkg:apk/cleanstart/elastic-beats-fips"
       },
       "ranges": [
         {
@@ -444,7 +467,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets"
+        "name": "external-secrets",
+        "purl": "pkg:apk/cleanstart/external-secrets"
       },
       "ranges": [
         {
@@ -463,7 +487,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets"
+        "name": "external-secrets",
+        "purl": "pkg:apk/cleanstart/external-secrets"
       },
       "ranges": [
         {
@@ -482,7 +507,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets"
+        "name": "external-secrets",
+        "purl": "pkg:apk/cleanstart/external-secrets"
       },
       "ranges": [
         {
@@ -501,7 +527,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -520,7 +547,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -539,7 +567,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-operator"
+        "name": "external-secrets-operator",
+        "purl": "pkg:apk/cleanstart/external-secrets-operator"
       },
       "ranges": [
         {
@@ -558,7 +587,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-image-automation-controller"
+        "name": "flux-image-automation-controller",
+        "purl": "pkg:apk/cleanstart/flux-image-automation-controller"
       },
       "ranges": [
         {
@@ -577,7 +607,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-mimir-fips"
+        "name": "grafana-mimir-fips",
+        "purl": "pkg:apk/cleanstart/grafana-mimir-fips"
       },
       "ranges": [
         {
@@ -596,7 +627,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator"
+        "name": "helm-operator",
+        "purl": "pkg:apk/cleanstart/helm-operator"
       },
       "ranges": [
         {
@@ -615,7 +647,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator"
+        "name": "helm-operator",
+        "purl": "pkg:apk/cleanstart/helm-operator"
       },
       "ranges": [
         {
@@ -634,7 +667,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator-fips"
+        "name": "helm-operator-fips",
+        "purl": "pkg:apk/cleanstart/helm-operator-fips"
       },
       "ranges": [
         {
@@ -653,7 +687,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio"
+        "name": "istio",
+        "purl": "pkg:apk/cleanstart/istio"
       },
       "ranges": [
         {
@@ -672,7 +707,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio"
+        "name": "istio",
+        "purl": "pkg:apk/cleanstart/istio"
       },
       "ranges": [
         {
@@ -691,7 +727,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio-pilot-discovery"
+        "name": "istio-pilot-discovery",
+        "purl": "pkg:apk/cleanstart/istio-pilot-discovery"
       },
       "ranges": [
         {
@@ -710,7 +747,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio-pilot-discovery-fips"
+        "name": "istio-pilot-discovery-fips",
+        "purl": "pkg:apk/cleanstart/istio-pilot-discovery-fips"
       },
       "ranges": [
         {
@@ -729,7 +767,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -748,7 +787,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -767,7 +807,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -786,7 +827,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -805,7 +847,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kapp-controller"
+        "name": "kapp-controller",
+        "purl": "pkg:apk/cleanstart/kapp-controller"
       },
       "ranges": [
         {
@@ -824,7 +867,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kapp-controller"
+        "name": "kapp-controller",
+        "purl": "pkg:apk/cleanstart/kapp-controller"
       },
       "ranges": [
         {
@@ -843,7 +887,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kapp-controller"
+        "name": "kapp-controller",
+        "purl": "pkg:apk/cleanstart/kapp-controller"
       },
       "ranges": [
         {
@@ -862,7 +907,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kapp-controller"
+        "name": "kapp-controller",
+        "purl": "pkg:apk/cleanstart/kapp-controller"
       },
       "ranges": [
         {
@@ -881,7 +927,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kapp-controller"
+        "name": "kapp-controller",
+        "purl": "pkg:apk/cleanstart/kapp-controller"
       },
       "ranges": [
         {
@@ -900,7 +947,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve"
+        "name": "kserve",
+        "purl": "pkg:apk/cleanstart/kserve"
       },
       "ranges": [
         {
@@ -919,7 +967,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy"
+        "name": "kube-rbac-proxy",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy"
       },
       "ranges": [
         {
@@ -938,7 +987,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy"
+        "name": "kube-rbac-proxy",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy"
       },
       "ranges": [
         {
@@ -957,7 +1007,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -976,7 +1027,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-driver-nfs-fips"
+        "name": "kubernetes-csi-driver-nfs-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-driver-nfs-fips"
       },
       "ranges": [
         {
@@ -995,7 +1047,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-driver-nfs-fips"
+        "name": "kubernetes-csi-driver-nfs-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-driver-nfs-fips"
       },
       "ranges": [
         {
@@ -1014,7 +1067,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-external-resizer-fips"
+        "name": "kubernetes-csi-external-resizer-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-external-resizer-fips"
       },
       "ranges": [
         {
@@ -1033,7 +1087,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-external-resizer-fips"
+        "name": "kubernetes-csi-external-resizer-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-external-resizer-fips"
       },
       "ranges": [
         {
@@ -1052,7 +1107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-node-driver-registrar-fips"
+        "name": "kubernetes-csi-node-driver-registrar-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-node-driver-registrar-fips"
       },
       "ranges": [
         {
@@ -1071,7 +1127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-node-driver-registrar-fips"
+        "name": "kubernetes-csi-node-driver-registrar-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-node-driver-registrar-fips"
       },
       "ranges": [
         {
@@ -1090,7 +1147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kumactl"
+        "name": "kumactl",
+        "purl": "pkg:apk/cleanstart/kumactl"
       },
       "ranges": [
         {
@@ -1109,7 +1167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-fips"
+        "name": "kyverno-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-fips"
       },
       "ranges": [
         {
@@ -1128,7 +1187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "linkerd2"
+        "name": "linkerd2",
+        "purl": "pkg:apk/cleanstart/linkerd2"
       },
       "ranges": [
         {
@@ -1147,7 +1207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "modelmesh-runtime-adapter"
+        "name": "modelmesh-runtime-adapter",
+        "purl": "pkg:apk/cleanstart/modelmesh-runtime-adapter"
       },
       "ranges": [
         {
@@ -1166,7 +1227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "modelmesh-runtime-adapter"
+        "name": "modelmesh-runtime-adapter",
+        "purl": "pkg:apk/cleanstart/modelmesh-runtime-adapter"
       },
       "ranges": [
         {
@@ -1185,7 +1247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "modelmesh-runtime-adapter"
+        "name": "modelmesh-runtime-adapter",
+        "purl": "pkg:apk/cleanstart/modelmesh-runtime-adapter"
       },
       "ranges": [
         {
@@ -1204,7 +1267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "percona-xtradb-cluster-operator-fips"
+        "name": "percona-xtradb-cluster-operator-fips",
+        "purl": "pkg:apk/cleanstart/percona-xtradb-cluster-operator-fips"
       },
       "ranges": [
         {
@@ -1223,7 +1287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -1242,7 +1307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rclone"
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
       },
       "ranges": [
         {
@@ -1261,7 +1327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-operator"
+        "name": "spark-operator",
+        "purl": "pkg:apk/cleanstart/spark-operator"
       },
       "ranges": [
         {
@@ -1280,7 +1347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -1299,7 +1367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-issuer"
+        "name": "step-issuer",
+        "purl": "pkg:apk/cleanstart/step-issuer"
       },
       "ranges": [
         {
@@ -1318,7 +1387,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-pipelines"
+        "name": "tekton-pipelines",
+        "purl": "pkg:apk/cleanstart/tekton-pipelines"
       },
       "ranges": [
         {
@@ -1337,7 +1407,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-pipelines"
+        "name": "tekton-pipelines",
+        "purl": "pkg:apk/cleanstart/tekton-pipelines"
       },
       "ranges": [
         {
@@ -1356,7 +1427,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-pipelines-fips"
+        "name": "tekton-pipelines-fips",
+        "purl": "pkg:apk/cleanstart/tekton-pipelines-fips"
       },
       "ranges": [
         {
@@ -1375,7 +1447,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tekton-pipelines-fips"
+        "name": "tekton-pipelines-fips",
+        "purl": "pkg:apk/cleanstart/tekton-pipelines-fips"
       },
       "ranges": [
         {
@@ -1394,7 +1467,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server"
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
       },
       "ranges": [
         {
@@ -1413,7 +1487,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server"
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
       },
       "ranges": [
         {
@@ -1432,7 +1507,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server-fips"
+        "name": "temporal-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-server-fips"
       },
       "ranges": [
         {
@@ -1451,7 +1527,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server-fips"
+        "name": "temporal-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-server-fips"
       },
       "ranges": [
         {
@@ -1470,7 +1547,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero-plugin-for-gcp-fips"
+        "name": "velero-plugin-for-gcp-fips",
+        "purl": "pkg:apk/cleanstart/velero-plugin-for-gcp-fips"
       },
       "ranges": [
         {
@@ -1501,7 +1579,7 @@
     }
   ],
   "published": "2026-09-18T10:19:14.881417Z",
-  "modified": "2026-04-29T05:34:49Z",
+  "modified": "2026-10-08T16:19:26Z",
   "related": [],
   "credits": [],
   "database_specific": {}

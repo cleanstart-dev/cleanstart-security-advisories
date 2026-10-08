@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "git"
+        "name": "git",
+        "purl": "pkg:apk/cleanstart/git"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T18:20:10.903665Z",
-  "modified": "2026-07-03T09:44:40Z",
+  "modified": "2026-10-08T14:25:39Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-fips"
+        "name": "consul-fips",
+        "purl": "pkg:apk/cleanstart/consul-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "crossplane-provider-sql-fips"
+        "name": "crossplane-provider-sql-fips",
+        "purl": "pkg:apk/cleanstart/crossplane-provider-sql-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "distribution"
+        "name": "distribution",
+        "purl": "pkg:apk/cleanstart/distribution"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-agent-operator"
+        "name": "grafana-agent-operator",
+        "purl": "pkg:apk/cleanstart/grafana-agent-operator"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgres-operator"
+        "name": "postgres-operator",
+        "purl": "pkg:apk/cleanstart/postgres-operator"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgres-operator"
+        "name": "postgres-operator",
+        "purl": "pkg:apk/cleanstart/postgres-operator"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-ui-server-fips"
+        "name": "temporal-ui-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-ui-server-fips"
       },
       "ranges": [
         {
@@ -190,7 +199,7 @@
     }
   ],
   "published": "2026-09-18T09:52:56.376838Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:58:06Z",
   "related": [],
   "credits": [],
   "database_specific": {}

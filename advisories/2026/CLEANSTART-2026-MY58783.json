@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "vault"
+        "name": "vault",
+        "purl": "pkg:apk/cleanstart/vault"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T09:24:51.968877Z",
-  "modified": "2026-09-10T11:24:13Z",
+  "modified": "2026-10-08T15:57:45Z",
   "related": [],
   "credits": [],
   "database_specific": {}

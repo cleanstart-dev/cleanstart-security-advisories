@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rust"
+        "name": "rust",
+        "purl": "pkg:apk/cleanstart/rust"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:31:36.699843Z",
-  "modified": "2026-08-21T12:59:12Z",
+  "modified": "2026-10-08T14:26:07Z",
   "related": [],
   "credits": [],
   "database_specific": {}

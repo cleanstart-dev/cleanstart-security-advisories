@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "bash"
+        "name": "bash",
+        "purl": "pkg:apk/cleanstart/bash"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:21:39.378613Z",
-  "modified": "2026-09-16T11:42:48Z",
+  "modified": "2026-10-08T14:25:33Z",
   "related": [],
   "credits": [],
   "database_specific": {}

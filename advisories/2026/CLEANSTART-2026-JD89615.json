@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-fips"
+        "name": "prometheus-fips",
+        "purl": "pkg:apk/cleanstart/prometheus-fips"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:33:03.175955Z",
-  "modified": "2025-08-29T09:51:37Z",
+  "modified": "2026-10-08T14:25:40Z",
   "related": [],
   "credits": [],
   "database_specific": {}

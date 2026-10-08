@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfengine"
+        "name": "cfengine",
+        "purl": "pkg:apk/cleanstart/cfengine"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:12:18.065811Z",
-  "modified": "2024-03-11T10:01:18Z",
+  "modified": "2026-10-08T14:25:03Z",
   "severity": [
     {
       "type": "CVSS_V3",

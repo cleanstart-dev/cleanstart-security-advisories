@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul"
+        "name": "consul",
+        "purl": "pkg:apk/cleanstart/consul"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-10-02T00:35:55.915865Z",
-  "modified": "2026-10-06T13:34:26Z",
+  "modified": "2026-10-08T15:18:33Z",
   "related": [
     "CLEANSTART-2026-WS51251"
   ],

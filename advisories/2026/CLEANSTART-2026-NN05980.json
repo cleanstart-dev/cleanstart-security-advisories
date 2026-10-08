@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi-registry"
+        "name": "apache-nifi-registry",
+        "purl": "pkg:apk/cleanstart/apache-nifi-registry"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra"
+        "name": "cassandra",
+        "purl": "pkg:apk/cleanstart/cassandra"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloud-config-server"
+        "name": "cloud-config-server",
+        "purl": "pkg:apk/cleanstart/cloud-config-server?arch=noarch"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "hazelcast"
+        "name": "hazelcast",
+        "purl": "pkg:apk/cleanstart/hazelcast"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -349,7 +367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -368,7 +387,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -387,7 +407,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -406,7 +427,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "s3proxy"
+        "name": "s3proxy",
+        "purl": "pkg:apk/cleanstart/s3proxy?arch=noarch"
       },
       "ranges": [
         {
@@ -425,7 +447,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -444,7 +467,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -463,7 +487,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wildfly"
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly"
       },
       "ranges": [
         {
@@ -498,7 +523,7 @@
     }
   ],
   "published": "2026-09-18T09:58:10.344356Z",
-  "modified": "2026-06-23T10:59:43Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

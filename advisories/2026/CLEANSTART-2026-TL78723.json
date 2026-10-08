@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts"
+        "name": "argo-rollouts",
+        "purl": "pkg:apk/cleanstart/argo-rollouts"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts-fips"
+        "name": "argo-rollouts-fips",
+        "purl": "pkg:apk/cleanstart/argo-rollouts-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "eks-distro-coredns-fips"
+        "name": "eks-distro-coredns-fips",
+        "purl": "pkg:apk/cleanstart/eks-distro-coredns-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda"
+        "name": "keda",
+        "purl": "pkg:apk/cleanstart/keda"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keda"
+        "name": "keda",
+        "purl": "pkg:apk/cleanstart/keda"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T10:24:45.861364Z",
-  "modified": "2026-03-26T14:38:42Z",
+  "modified": "2026-10-08T15:57:57Z",
   "related": [],
   "credits": [],
   "database_specific": {}

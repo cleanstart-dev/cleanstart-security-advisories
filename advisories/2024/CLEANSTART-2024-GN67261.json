@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "freerdp"
+        "name": "freerdp",
+        "purl": "pkg:apk/cleanstart/freerdp"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:32:44.358670Z",
-  "modified": "2024-04-05T23:14:08Z",
+  "modified": "2026-10-08T14:25:04Z",
   "severity": [
     {
       "type": "CVSS_V3",

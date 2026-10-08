@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-policy-reporter-kyverno-plugin-fips"
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-policy-reporter-kyverno-plugin-fips"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:30:07.302782Z",
-  "modified": "2025-12-31T06:34:51Z",
+  "modified": "2026-10-08T15:17:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

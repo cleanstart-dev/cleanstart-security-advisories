@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cluster-proportional-autoscaler"
+        "name": "cluster-proportional-autoscaler",
+        "purl": "pkg:apk/cleanstart/cluster-proportional-autoscaler"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-notification-controller-fips"
+        "name": "flux-notification-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-notification-controller-fips"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:19:27.250453Z",
-  "modified": "2026-04-28T14:16:35Z",
+  "modified": "2026-10-08T15:57:43Z",
   "related": [],
   "credits": [],
   "database_specific": {}

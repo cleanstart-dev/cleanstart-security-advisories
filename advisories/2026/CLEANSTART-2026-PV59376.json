@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-fips"
+        "name": "druid-fips",
+        "purl": "pkg:apk/cleanstart/druid-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py312"
+        "name": "spark-sc213-jdk17-py312",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py312"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:31:12.655919Z",
-  "modified": "2025-12-16T10:06:52Z",
+  "modified": "2026-10-08T15:57:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

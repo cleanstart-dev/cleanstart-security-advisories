@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-ui"
+        "name": "kafka-ui",
+        "purl": "pkg:apk/cleanstart/kafka-ui"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kogito-apps"
+        "name": "kogito-apps",
+        "purl": "pkg:apk/cleanstart/kogito-apps?arch=noarch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "logstash-fips"
+        "name": "logstash-fips",
+        "purl": "pkg:apk/cleanstart/logstash-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "logstash-fips"
+        "name": "logstash-fips",
+        "purl": "pkg:apk/cleanstart/logstash-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -175,7 +183,7 @@
     }
   ],
   "published": "2026-09-18T10:24:05.386983Z",
-  "modified": "2026-04-06T10:49:28Z",
+  "modified": "2026-10-08T15:57:33Z",
   "related": [],
   "credits": [],
   "database_specific": {}

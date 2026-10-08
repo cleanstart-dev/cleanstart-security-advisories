@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "evince"
+        "name": "evince",
+        "purl": "pkg:apk/cleanstart/evince"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T07:31:09.446607Z",
-  "modified": "2024-05-15T10:56:09Z",
+  "modified": "2026-10-08T14:25:10Z",
   "severity": [
     {
       "type": "CVSS_V3",

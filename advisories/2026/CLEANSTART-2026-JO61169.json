@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-hive"
+        "name": "apache-hive",
+        "purl": "pkg:apk/cleanstart/apache-hive"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-hive"
+        "name": "apache-hive",
+        "purl": "pkg:apk/cleanstart/apache-hive"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-proxy"
+        "name": "wavefront-proxy",
+        "purl": "pkg:apk/cleanstart/wavefront-proxy"
       },
       "ranges": [
         {
@@ -175,7 +183,7 @@
     }
   ],
   "published": "2026-09-18T10:25:01.474104Z",
-  "modified": "2026-04-06T10:01:34Z",
+  "modified": "2026-10-08T15:57:38Z",
   "related": [],
   "credits": [],
   "database_specific": {}

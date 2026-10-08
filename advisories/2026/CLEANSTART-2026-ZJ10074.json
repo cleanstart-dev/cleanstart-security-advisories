@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kibana"
+        "name": "kibana",
+        "purl": "pkg:apk/cleanstart/kibana"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sqlpad"
+        "name": "sqlpad",
+        "purl": "pkg:apk/cleanstart/sqlpad"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T10:15:12.709913Z",
-  "modified": "2026-05-13T14:10:22Z",
+  "modified": "2026-10-08T16:19:28Z",
   "related": [],
   "credits": [],
   "database_specific": {}

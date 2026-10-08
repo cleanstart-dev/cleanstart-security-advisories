@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:25:02.663928Z",
-  "modified": "2026-04-06T10:01:34Z",
+  "modified": "2026-10-08T14:25:51Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cluster-proportional-autoscaler"
+        "name": "cluster-proportional-autoscaler",
+        "purl": "pkg:apk/cleanstart/cluster-proportional-autoscaler"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nfs-subdir-external-provisioner-fips"
+        "name": "nfs-subdir-external-provisioner-fips",
+        "purl": "pkg:apk/cleanstart/nfs-subdir-external-provisioner-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nfs-subdir-external-provisioner-fips"
+        "name": "nfs-subdir-external-provisioner-fips",
+        "purl": "pkg:apk/cleanstart/nfs-subdir-external-provisioner-fips"
       },
       "ranges": [
         {
@@ -133,7 +139,7 @@
     }
   ],
   "published": "2026-09-18T10:32:40.001242Z",
-  "modified": "2025-10-28T13:17:51Z",
+  "modified": "2026-10-08T15:57:23Z",
   "related": [],
   "credits": [],
   "database_specific": {}

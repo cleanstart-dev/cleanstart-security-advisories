@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-fips"
+        "name": "harbor-fips",
+        "purl": "pkg:apk/cleanstart/harbor-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry"
+        "name": "harbor-registry",
+        "purl": "pkg:apk/cleanstart/harbor-registry"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry-fips"
+        "name": "harbor-registry-fips",
+        "purl": "pkg:apk/cleanstart/harbor-registry-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-scanner-trivy"
+        "name": "harbor-scanner-trivy",
+        "purl": "pkg:apk/cleanstart/harbor-scanner-trivy"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-scanner-trivy-fips"
+        "name": "harbor-scanner-trivy-fips",
+        "purl": "pkg:apk/cleanstart/harbor-scanner-trivy-fips"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-trivy-adapter-fips"
+        "name": "harbor-trivy-adapter-fips",
+        "purl": "pkg:apk/cleanstart/harbor-trivy-adapter-fips"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rekor-backfill-index"
+        "name": "rekor-backfill-index",
+        "purl": "pkg:apk/cleanstart/rekor-backfill-index"
       },
       "ranges": [
         {
@@ -365,7 +383,7 @@
     }
   ],
   "published": "2026-09-18T10:31:38.000699Z",
-  "modified": "2025-12-10T05:34:50Z",
+  "modified": "2026-10-08T15:57:59Z",
   "related": [],
   "credits": [],
   "database_specific": {}

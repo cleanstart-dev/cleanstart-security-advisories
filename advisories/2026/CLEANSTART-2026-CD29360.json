@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana"
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:57:08.824056Z",
-  "modified": "2026-06-30T13:20:18Z",
+  "modified": "2026-10-08T14:25:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

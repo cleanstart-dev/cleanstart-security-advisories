@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-cmctl-fips"
+        "name": "cert-manager-cmctl-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-cmctl-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "percona-xtradb-cluster-operator"
+        "name": "percona-xtradb-cluster-operator",
+        "purl": "pkg:apk/cleanstart/percona-xtradb-cluster-operator"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "percona-xtradb-cluster-operator-fips"
+        "name": "percona-xtradb-cluster-operator-fips",
+        "purl": "pkg:apk/cleanstart/percona-xtradb-cluster-operator-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-issuer"
+        "name": "step-issuer",
+        "purl": "pkg:apk/cleanstart/step-issuer"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:23:46.347764Z",
-  "modified": "2026-04-07T10:02:18Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

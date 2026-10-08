@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts"
+        "name": "argo-rollouts",
+        "purl": "pkg:apk/cleanstart/argo-rollouts"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts-fips"
+        "name": "argo-rollouts-fips",
+        "purl": "pkg:apk/cleanstart/argo-rollouts-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:21:03.308633Z",
-  "modified": "2026-04-17T13:08:08Z",
+  "modified": "2026-10-08T15:17:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

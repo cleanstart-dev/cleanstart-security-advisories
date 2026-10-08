@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "redis"
+        "name": "redis",
+        "purl": "pkg:apk/cleanstart/redis"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:27:18.669690Z",
-  "modified": "2026-09-17T08:45:15Z",
+  "modified": "2026-10-08T14:26:07Z",
   "related": [],
   "credits": [],
   "database_specific": {}

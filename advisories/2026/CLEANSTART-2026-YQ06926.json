@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "activemq"
+        "name": "activemq",
+        "purl": "pkg:apk/cleanstart/activemq"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "activemq"
+        "name": "activemq",
+        "purl": "pkg:apk/cleanstart/activemq"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sonarqube"
+        "name": "sonarqube",
+        "purl": "pkg:apk/cleanstart/sonarqube"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sonarqube"
+        "name": "sonarqube",
+        "purl": "pkg:apk/cleanstart/sonarqube"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py311"
+        "name": "spark-sc213-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py311"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "strimzi-kafka-operator"
+        "name": "strimzi-kafka-operator",
+        "purl": "pkg:apk/cleanstart/strimzi-kafka-operator"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-proxy"
+        "name": "wavefront-proxy",
+        "purl": "pkg:apk/cleanstart/wavefront-proxy"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-proxy"
+        "name": "wavefront-proxy",
+        "purl": "pkg:apk/cleanstart/wavefront-proxy"
       },
       "ranges": [
         {
@@ -304,7 +319,7 @@
     }
   ],
   "published": "2026-09-18T10:21:55.036279Z",
-  "modified": "2026-04-15T10:18:15Z",
+  "modified": "2026-10-08T15:58:07Z",
   "related": [],
   "credits": [],
   "database_specific": {}

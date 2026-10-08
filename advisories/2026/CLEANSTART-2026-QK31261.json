@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "akhq"
+        "name": "akhq",
+        "purl": "pkg:apk/cleanstart/akhq?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "elasticsearch"
+        "name": "elasticsearch",
+        "purl": "pkg:apk/cleanstart/elasticsearch"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "keycloak"
+        "name": "keycloak",
+        "purl": "pkg:apk/cleanstart/keycloak?arch=noarch"
       },
       "ranges": [
         {
@@ -156,7 +163,7 @@
     }
   ],
   "published": "2026-09-18T09:45:38.375832Z",
-  "modified": "2026-08-10T10:11:07Z",
+  "modified": "2026-10-08T14:26:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

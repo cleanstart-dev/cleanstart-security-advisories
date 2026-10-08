@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd"
+        "name": "argo-cd",
+        "purl": "pkg:apk/cleanstart/argo-cd"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-cd-fips"
+        "name": "argo-cd-fips",
+        "purl": "pkg:apk/cleanstart/argo-cd-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "calico-fips"
+        "name": "calico-fips",
+        "purl": "pkg:apk/cleanstart/calico-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner"
+        "name": "local-static-provisioner",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nfs-subdir-external-provisioner-fips"
+        "name": "nfs-subdir-external-provisioner-fips",
+        "purl": "pkg:apk/cleanstart/nfs-subdir-external-provisioner-fips"
       },
       "ranges": [
         {
@@ -171,7 +179,7 @@
     }
   ],
   "published": "2026-09-18T10:32:51.083240Z",
-  "modified": "2025-09-29T12:54:18Z",
+  "modified": "2026-10-08T15:57:32Z",
   "related": [],
   "credits": [],
   "database_specific": {}

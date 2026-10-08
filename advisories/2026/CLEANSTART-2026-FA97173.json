@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mailpit"
+        "name": "mailpit",
+        "purl": "pkg:apk/cleanstart/mailpit"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "mailpit-fips"
+        "name": "mailpit-fips",
+        "purl": "pkg:apk/cleanstart/mailpit-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama"
+        "name": "ollama",
+        "purl": "pkg:apk/cleanstart/ollama?arch=x86_64"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama"
+        "name": "ollama",
+        "purl": "pkg:apk/cleanstart/ollama?arch=x86_64"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama"
+        "name": "ollama",
+        "purl": "pkg:apk/cleanstart/ollama?arch=x86_64"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ollama-fips"
+        "name": "ollama-fips",
+        "purl": "pkg:apk/cleanstart/ollama-fips"
       },
       "ranges": [
         {
@@ -232,7 +243,7 @@
     }
   ],
   "published": "2026-09-18T10:03:11.372586Z",
-  "modified": "2026-06-09T16:48:37Z",
+  "modified": "2026-10-08T15:57:29Z",
   "related": [],
   "credits": [],
   "database_specific": {}

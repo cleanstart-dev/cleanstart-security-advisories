@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-metrics-adapter"
+        "name": "kube-metrics-adapter",
+        "purl": "pkg:apk/cleanstart/kube-metrics-adapter"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal"
+        "name": "temporal",
+        "purl": "pkg:apk/cleanstart/temporal"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:29:53.900244Z",
-  "modified": "2026-08-31T11:50:10Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

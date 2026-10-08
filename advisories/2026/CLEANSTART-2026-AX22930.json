@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts"
+        "name": "argo-rollouts",
+        "purl": "pkg:apk/cleanstart/argo-rollouts"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-rollouts-fips"
+        "name": "argo-rollouts-fips",
+        "purl": "pkg:apk/cleanstart/argo-rollouts-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "boring-registry-fips"
+        "name": "boring-registry-fips",
+        "purl": "pkg:apk/cleanstart/boring-registry-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio"
+        "name": "fulcio",
+        "purl": "pkg:apk/cleanstart/fulcio"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-operator"
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "minio-operator"
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rclone"
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-ca"
+        "name": "step-ca",
+        "purl": "pkg:apk/cleanstart/step-ca"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -349,7 +367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero-plugin-for-csi"
+        "name": "velero-plugin-for-csi",
+        "purl": "pkg:apk/cleanstart/velero-plugin-for-csi"
       },
       "ranges": [
         {
@@ -384,7 +403,7 @@
     }
   ],
   "published": "2026-09-18T10:24:10.493448Z",
-  "modified": "2026-04-07T11:57:21Z",
+  "modified": "2026-10-08T15:57:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "composer"
+        "name": "composer",
+        "purl": "pkg:apk/cleanstart/composer?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:29:15.836487Z",
-  "modified": "2026-09-03T05:48:18Z",
+  "modified": "2026-10-08T14:26:10Z",
   "related": [],
   "credits": [],
   "database_specific": {}

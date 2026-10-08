@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloud-config-server"
+        "name": "cloud-config-server",
+        "purl": "pkg:apk/cleanstart/cloud-config-server?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloud-config-server"
+        "name": "cloud-config-server",
+        "purl": "pkg:apk/cleanstart/cloud-config-server?arch=noarch"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T10:07:02.307183Z",
-  "modified": "2026-05-26T14:05:23Z",
+  "modified": "2026-10-08T15:57:59Z",
   "related": [],
   "credits": [],
   "database_specific": {}

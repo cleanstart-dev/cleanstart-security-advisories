@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "etcd-fips"
+        "name": "etcd-fips",
+        "purl": "pkg:apk/cleanstart/etcd-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgres-operator"
+        "name": "postgres-operator",
+        "purl": "pkg:apk/cleanstart/postgres-operator"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "smarter-device-manager-fips"
+        "name": "smarter-device-manager-fips",
+        "purl": "pkg:apk/cleanstart/smarter-device-manager-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo"
+        "name": "tempo",
+        "purl": "pkg:apk/cleanstart/tempo"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-ui-server-fips"
+        "name": "temporal-ui-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-ui-server-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "velero-plugin-for-aws-fips"
+        "name": "velero-plugin-for-aws-fips",
+        "purl": "pkg:apk/cleanstart/velero-plugin-for-aws-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "yunikorn-k8shim"
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
       },
       "ranges": [
         {
@@ -171,7 +179,7 @@
     }
   ],
   "published": "2026-09-18T09:52:46.631949Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:17:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

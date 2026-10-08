@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "git-lfs"
+        "name": "git-lfs",
+        "purl": "pkg:apk/cleanstart/git-lfs"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kustomize"
+        "name": "kustomize",
+        "purl": "pkg:apk/cleanstart/kustomize"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-09-18T09:54:13.037999Z",
-  "modified": "2026-07-23T11:11:18Z",
+  "modified": "2026-10-08T14:25:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aws-flb-kinesis"
+        "name": "aws-flb-kinesis",
+        "purl": "pkg:apk/cleanstart/aws-flb-kinesis"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudprober"
+        "name": "cloudprober",
+        "purl": "pkg:apk/cleanstart/cloudprober"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cluster-proportional-autoscaler"
+        "name": "cluster-proportional-autoscaler",
+        "purl": "pkg:apk/cleanstart/cluster-proportional-autoscaler"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-fluentd-operator"
+        "name": "kube-fluentd-operator",
+        "purl": "pkg:apk/cleanstart/kube-fluentd-operator"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-policy-reporter-kyverno-plugin"
+        "name": "kyverno-policy-reporter-kyverno-plugin",
+        "purl": "pkg:apk/cleanstart/kyverno-policy-reporter-kyverno-plugin"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner"
+        "name": "local-static-provisioner",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner-fips"
+        "name": "local-static-provisioner-fips",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "metallb"
+        "name": "metallb",
+        "purl": "pkg:apk/cleanstart/metallb"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-mysqld-exporter"
+        "name": "prometheus-mysqld-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-mysqld-exporter"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-node-exporter"
+        "name": "prometheus-node-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "zookeeper-operator"
+        "name": "zookeeper-operator",
+        "purl": "pkg:apk/cleanstart/zookeeper-operator"
       },
       "ranges": [
         {
@@ -365,7 +383,7 @@
     }
   ],
   "published": "2026-09-18T10:31:09.934619Z",
-  "modified": "2025-12-17T07:37:35Z",
+  "modified": "2026-10-08T15:57:27Z",
   "related": [],
   "credits": [],
   "database_specific": {}

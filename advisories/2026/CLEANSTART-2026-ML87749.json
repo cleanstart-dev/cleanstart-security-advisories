@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "clickhouse-operator"
+        "name": "clickhouse-operator",
+        "purl": "pkg:apk/cleanstart/clickhouse-operator"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-fluentd-operator"
+        "name": "kube-fluentd-operator",
+        "purl": "pkg:apk/cleanstart/kube-fluentd-operator"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-rbac-proxy-fips"
+        "name": "kube-rbac-proxy-fips",
+        "purl": "pkg:apk/cleanstart/kube-rbac-proxy-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "metallb"
+        "name": "metallb",
+        "purl": "pkg:apk/cleanstart/metallb"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "multus-cni-fips"
+        "name": "multus-cni-fips",
+        "purl": "pkg:apk/cleanstart/multus-cni-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wave-fips"
+        "name": "wave-fips",
+        "purl": "pkg:apk/cleanstart/wave-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wave-fips"
+        "name": "wave-fips",
+        "purl": "pkg:apk/cleanstart/wave-fips"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wave-fips"
+        "name": "wave-fips",
+        "purl": "pkg:apk/cleanstart/wave-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -228,7 +239,7 @@
     }
   ],
   "published": "2026-09-18T10:32:39.808502Z",
-  "modified": "2025-10-28T13:17:51Z",
+  "modified": "2026-10-08T15:57:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

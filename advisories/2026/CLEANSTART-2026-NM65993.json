@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "n8n"
+        "name": "n8n",
+        "purl": "pkg:apk/cleanstart/n8n"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:38:05.070010Z",
-  "modified": "2026-08-19T05:10:40Z",
+  "modified": "2026-10-08T15:57:46Z",
   "related": [],
   "credits": [],
   "database_specific": {}

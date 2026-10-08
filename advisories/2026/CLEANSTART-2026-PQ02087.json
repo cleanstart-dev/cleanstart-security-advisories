@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step"
+        "name": "step",
+        "purl": "pkg:apk/cleanstart/step"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step"
+        "name": "step",
+        "purl": "pkg:apk/cleanstart/step"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-ca"
+        "name": "step-ca",
+        "purl": "pkg:apk/cleanstart/step-ca"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-cli"
+        "name": "step-cli",
+        "purl": "pkg:apk/cleanstart/step-cli"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-issuer"
+        "name": "step-issuer",
+        "purl": "pkg:apk/cleanstart/step-issuer"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-issuer-fips"
+        "name": "step-issuer-fips",
+        "purl": "pkg:apk/cleanstart/step-issuer-fips"
       },
       "ranges": [
         {
@@ -156,7 +163,7 @@
     }
   ],
   "published": "2026-09-18T10:32:19.093544Z",
-  "modified": "2025-12-06T13:34:11Z",
+  "modified": "2026-10-08T15:57:50Z",
   "related": [],
   "credits": [],
   "database_specific": {}

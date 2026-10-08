@@ -1,13 +1,14 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AF89785",
-  "summary": "Potential problem for users of the org",
+  "summary": "Potential problem for users of the\u00a0org",
   "details": "CVE-2026-73334 affects multiple packages. Potential problem for users of the org. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-nifi"
+        "name": "apache-nifi",
+        "purl": "pkg:apk/cleanstart/apache-nifi"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py312"
+        "name": "spark-sc213-jdk17-py312",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py312"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-10-08T00:42:13.118978Z",
-  "modified": "2026-10-07T12:13:30Z",
+  "modified": "2026-10-08T15:57:20Z",
   "severity": [
     {
       "type": "CVSS_V3",

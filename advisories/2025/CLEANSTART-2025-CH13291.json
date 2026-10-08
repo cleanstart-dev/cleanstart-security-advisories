@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-fips"
+        "name": "cassandra-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "druid-fips"
+        "name": "druid-fips",
+        "purl": "pkg:apk/cleanstart/druid-fips"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:31:11.224447Z",
-  "modified": "2025-12-16T10:06:52Z",
+  "modified": "2026-10-08T15:57:19Z",
   "related": [],
   "credits": [],
   "database_specific": {}

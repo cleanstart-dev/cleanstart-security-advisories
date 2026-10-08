@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-hive"
+        "name": "apache-hive",
+        "purl": "pkg:apk/cleanstart/apache-hive"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:55:30.711352Z",
-  "modified": "2026-10-07T12:25:35Z",
+  "modified": "2026-10-08T15:58:06Z",
   "severity": [
     {
       "type": "CVSS_V3",

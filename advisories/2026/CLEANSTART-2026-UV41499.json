@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kibana"
+        "name": "kibana",
+        "purl": "pkg:apk/cleanstart/kibana"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opensearch-dashboards-fips"
+        "name": "opensearch-dashboards-fips",
+        "purl": "pkg:apk/cleanstart/opensearch-dashboards-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "proxy-agent"
+        "name": "proxy-agent",
+        "purl": "pkg:apk/cleanstart/proxy-agent?arch=noarch"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sqlpad"
+        "name": "sqlpad",
+        "purl": "pkg:apk/cleanstart/sqlpad"
       },
       "ranges": [
         {
@@ -133,7 +139,7 @@
     }
   ],
   "published": "2026-09-18T10:17:40.585997Z",
-  "modified": "2026-05-10T11:41:43Z",
+  "modified": "2026-10-08T16:19:26Z",
   "related": [],
   "credits": [],
   "database_specific": {}

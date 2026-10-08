@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "apache-activemq-artemis"
+        "name": "apache-activemq-artemis",
+        "purl": "pkg:apk/cleanstart/apache-activemq-artemis"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "confluent-common-docker"
+        "name": "confluent-common-docker",
+        "purl": "pkg:apk/cleanstart/confluent-common-docker?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh"
+        "name": "kserve-modelmesh",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "spark-sc213-jdk17-py311"
+        "name": "spark-sc213-jdk17-py311",
+        "purl": "pkg:apk/cleanstart/spark-sc213-jdk17-py311"
       },
       "ranges": [
         {
@@ -133,7 +139,7 @@
     }
   ],
   "published": "2026-09-18T10:23:15.446876Z",
-  "modified": "2026-04-08T15:41:55Z",
+  "modified": "2026-10-08T15:57:39Z",
   "related": [],
   "credits": [],
   "database_specific": {}

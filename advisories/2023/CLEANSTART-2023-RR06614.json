@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cabextract"
+        "name": "cabextract",
+        "purl": "pkg:apk/cleanstart/cabextract"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:11:30.619280Z",
-  "modified": "2023-04-12T01:37:43Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

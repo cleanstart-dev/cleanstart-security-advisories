@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "solr"
+        "name": "solr",
+        "purl": "pkg:apk/cleanstart/solr"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T10:10:32.221977Z",
-  "modified": "2026-05-20T13:34:02Z",
+  "modified": "2026-10-08T15:57:27Z",
   "related": [],
   "credits": [],
   "database_specific": {}

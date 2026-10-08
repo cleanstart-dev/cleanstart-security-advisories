@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "docker-compose"
+        "name": "docker-compose",
+        "purl": "pkg:apk/cleanstart/docker-compose"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:17:57.808253Z",
-  "modified": "2026-05-02T09:10:22Z",
+  "modified": "2026-10-08T15:18:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pgbouncer"
+        "name": "pgbouncer",
+        "purl": "pkg:apk/cleanstart/pgbouncer"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:37:45.026628Z",
-  "modified": "2026-08-18T19:58:40Z",
+  "modified": "2026-10-08T14:25:45Z",
   "related": [],
   "credits": [],
   "database_specific": {}

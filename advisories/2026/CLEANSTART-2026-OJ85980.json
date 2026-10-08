@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "confluent-kafka"
+        "name": "confluent-kafka",
+        "purl": "pkg:apk/cleanstart/confluent-kafka"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka"
+        "name": "kafka",
+        "purl": "pkg:apk/cleanstart/kafka"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kafka-fips"
+        "name": "kafka-fips",
+        "purl": "pkg:apk/cleanstart/kafka-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "maven"
+        "name": "maven",
+        "purl": "pkg:apk/cleanstart/maven?arch=noarch"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rundeck"
+        "name": "rundeck",
+        "purl": "pkg:apk/cleanstart/rundeck"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2is"
+        "name": "wso2is",
+        "purl": "pkg:apk/cleanstart/wso2is"
       },
       "ranges": [
         {
@@ -251,7 +263,7 @@
     }
   ],
   "published": "2026-09-18T10:19:58.607696Z",
-  "modified": "2026-04-21T13:47:35Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

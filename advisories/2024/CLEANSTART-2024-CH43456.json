@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "glib-networking"
+        "name": "glib-networking",
+        "purl": "pkg:apk/cleanstart/glib-networking"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-01T08:50:37.616758Z",
-  "modified": "2024-03-18T12:17:07Z",
+  "modified": "2026-10-08T14:25:02Z",
   "severity": [
     {
       "type": "CVSS_V3",

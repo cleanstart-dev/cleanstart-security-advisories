@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cluster-proportional-autoscaler"
+        "name": "cluster-proportional-autoscaler",
+        "purl": "pkg:apk/cleanstart/cluster-proportional-autoscaler"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:19:25.631571Z",
-  "modified": "2026-04-28T14:16:35Z",
+  "modified": "2026-10-08T15:57:53Z",
   "related": [],
   "credits": [],
   "database_specific": {}

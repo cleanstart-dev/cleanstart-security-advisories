@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "hazelcast"
+        "name": "hazelcast",
+        "purl": "pkg:apk/cleanstart/hazelcast"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T09:50:29.567097Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:58:04Z",
   "related": [],
   "credits": [],
   "database_specific": {}

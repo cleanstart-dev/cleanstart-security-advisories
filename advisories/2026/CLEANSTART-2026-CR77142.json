@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-operator"
+        "name": "prometheus-operator",
+        "purl": "pkg:apk/cleanstart/prometheus-operator"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -118,7 +123,7 @@
     }
   ],
   "published": "2026-09-25T00:36:58.888037Z",
-  "modified": "2026-09-24T07:02:42Z",
+  "modified": "2026-10-08T15:57:24Z",
   "severity": [
     {
       "type": "CVSS_V3",

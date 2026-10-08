@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-vip"
+        "name": "kube-vip",
+        "purl": "pkg:apk/cleanstart/kube-vip"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:47:01.761446Z",
-  "modified": "2026-08-05T05:59:10Z",
+  "modified": "2026-10-08T15:18:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

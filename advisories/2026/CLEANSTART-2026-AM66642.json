@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "activemq"
+        "name": "activemq",
+        "purl": "pkg:apk/cleanstart/activemq"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:49:30.564098Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T14:25:20Z",
   "related": [],
   "credits": [],
   "database_specific": {}

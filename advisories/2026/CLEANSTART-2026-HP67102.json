@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner"
+        "name": "local-static-provisioner",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "local-static-provisioner-fips"
+        "name": "local-static-provisioner-fips",
+        "purl": "pkg:apk/cleanstart/local-static-provisioner-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nginx"
+        "name": "nginx",
+        "purl": "pkg:apk/cleanstart/nginx"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nodejs"
+        "name": "nodejs",
+        "purl": "pkg:apk/cleanstart/nodejs"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "stargate"
+        "name": "stargate",
+        "purl": "pkg:apk/cleanstart/stargate"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tomcat10"
+        "name": "tomcat10",
+        "purl": "pkg:apk/cleanstart/tomcat10?arch=noarch"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "zookeeper-operator"
+        "name": "zookeeper-operator",
+        "purl": "pkg:apk/cleanstart/zookeeper-operator"
       },
       "ranges": [
         {
@@ -270,7 +283,7 @@
     }
   ],
   "published": "2026-09-18T10:31:03.486624Z",
-  "modified": "2025-12-17T07:32:51Z",
+  "modified": "2026-10-08T15:57:34Z",
   "related": [],
   "credits": [],
   "database_specific": {}

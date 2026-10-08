@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows-fips"
+        "name": "argo-workflows-fips",
+        "purl": "pkg:apk/cleanstart/argo-workflows-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis"
+        "name": "atlantis",
+        "purl": "pkg:apk/cleanstart/atlantis"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis-fips"
+        "name": "atlantis-fips",
+        "purl": "pkg:apk/cleanstart/atlantis-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis-fips"
+        "name": "atlantis-fips",
+        "purl": "pkg:apk/cleanstart/atlantis-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "atlantis-fips"
+        "name": "atlantis-fips",
+        "purl": "pkg:apk/cleanstart/atlantis-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "crossplane-provider-aws"
+        "name": "crossplane-provider-aws",
+        "purl": "pkg:apk/cleanstart/crossplane-provider-aws"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-secrets-fips"
+        "name": "external-secrets-fips",
+        "purl": "pkg:apk/cleanstart/external-secrets-fips"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-image-automation-controller-fips"
+        "name": "flux-image-automation-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-image-automation-controller-fips"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-notification-controller-fips"
+        "name": "flux-notification-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-notification-controller-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gitness"
+        "name": "gitness",
+        "purl": "pkg:apk/cleanstart/gitness"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gptscript"
+        "name": "gptscript",
+        "purl": "pkg:apk/cleanstart/gptscript"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-alloy-fips"
+        "name": "grafana-alloy-fips",
+        "purl": "pkg:apk/cleanstart/grafana-alloy-fips"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm"
+        "name": "helm",
+        "purl": "pkg:apk/cleanstart/helm"
       },
       "ranges": [
         {
@@ -349,7 +367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-fips"
+        "name": "helm-fips",
+        "purl": "pkg:apk/cleanstart/helm-fips"
       },
       "ranges": [
         {
@@ -368,7 +387,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubescape"
+        "name": "kubescape",
+        "purl": "pkg:apk/cleanstart/kubescape"
       },
       "ranges": [
         {
@@ -387,7 +407,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -406,7 +427,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-fips"
+        "name": "kyverno-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-fips"
       },
       "ranges": [
         {
@@ -425,7 +447,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "openbao"
+        "name": "openbao",
+        "purl": "pkg:apk/cleanstart/openbao"
       },
       "ranges": [
         {
@@ -444,7 +467,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -463,7 +487,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu-fips"
+        "name": "opentofu-fips",
+        "purl": "pkg:apk/cleanstart/opentofu-fips"
       },
       "ranges": [
         {
@@ -482,7 +507,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "policy-controller"
+        "name": "policy-controller",
+        "purl": "pkg:apk/cleanstart/policy-controller"
       },
       "ranges": [
         {
@@ -501,7 +527,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "syft"
+        "name": "syft",
+        "purl": "pkg:apk/cleanstart/syft"
       },
       "ranges": [
         {
@@ -520,7 +547,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -539,7 +567,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -558,7 +587,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -577,7 +607,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -596,7 +627,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -615,7 +647,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "terragrunt-fips"
+        "name": "terragrunt-fips",
+        "purl": "pkg:apk/cleanstart/terragrunt-fips"
       },
       "ranges": [
         {
@@ -646,7 +679,7 @@
     }
   ],
   "published": "2026-09-18T10:28:00.922679Z",
-  "modified": "2026-03-06T05:35:04Z",
+  "modified": "2026-10-08T15:57:49Z",
   "related": [],
   "credits": [],
   "database_specific": {}

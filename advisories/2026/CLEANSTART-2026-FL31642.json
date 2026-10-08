@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3.12-pip"
+        "name": "py3.12-pip",
+        "purl": "pkg:apk/cleanstart/py3.12-pip?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-pip"
+        "name": "py3-pip",
+        "purl": "pkg:apk/cleanstart/py3-pip?arch=noarch"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-10-06T00:37:07.013856Z",
-  "modified": "2026-10-05T11:48:36Z",
+  "modified": "2026-10-08T14:25:32Z",
   "severity": [
     {
       "type": "CVSS_V3",

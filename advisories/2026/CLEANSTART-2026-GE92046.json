@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "npm"
+        "name": "npm",
+        "purl": "pkg:apk/cleanstart/npm?arch=noarch"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pulumi"
+        "name": "pulumi",
+        "purl": "pkg:apk/cleanstart/pulumi"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -137,7 +143,7 @@
     }
   ],
   "published": "2026-09-18T09:57:59.994921Z",
-  "modified": "2026-06-24T11:27:01Z",
+  "modified": "2026-10-08T15:57:31Z",
   "related": [],
   "credits": [],
   "database_specific": {}

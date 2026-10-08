@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-k8s-fips"
+        "name": "consul-k8s-fips",
+        "purl": "pkg:apk/cleanstart/consul-k8s-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor"
+        "name": "harbor",
+        "purl": "pkg:apk/cleanstart/harbor"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8sgpt"
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -118,7 +123,7 @@
     }
   ],
   "published": "2026-09-18T10:32:53.887160Z",
-  "modified": "2025-09-29T13:16:21Z",
+  "modified": "2026-10-08T15:18:16Z",
   "related": [],
   "credits": [],
   "database_specific": {}

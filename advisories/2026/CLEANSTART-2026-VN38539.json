@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jupyterhub-k8s-hub"
+        "name": "jupyterhub-k8s-hub",
+        "purl": "pkg:apk/cleanstart/jupyterhub-k8s-hub"
       },
       "ranges": [
         {
@@ -76,7 +79,7 @@
     }
   ],
   "published": "2026-09-18T10:15:23.556140Z",
-  "modified": "2026-05-12T12:08:41Z",
+  "modified": "2026-10-08T15:18:27Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-2"
+        "name": "airflow-2",
+        "purl": "pkg:apk/cleanstart/airflow-2"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "az"
+        "name": "az",
+        "purl": "pkg:apk/cleanstart/az"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pritunl"
+        "name": "pritunl",
+        "purl": "pkg:apk/cleanstart/pritunl"
       },
       "ranges": [
         {
@@ -118,7 +123,7 @@
     }
   ],
   "published": "2026-09-18T10:21:43.349992Z",
-  "modified": "2026-04-16T05:05:15Z",
+  "modified": "2026-10-08T15:58:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

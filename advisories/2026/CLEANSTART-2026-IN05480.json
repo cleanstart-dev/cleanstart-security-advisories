@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "istio"
+        "name": "istio",
+        "purl": "pkg:apk/cleanstart/istio"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:25:53.504348Z",
-  "modified": "2026-03-23T07:49:41Z",
+  "modified": "2026-10-08T15:18:01Z",
   "related": [],
   "credits": [],
   "database_specific": {}

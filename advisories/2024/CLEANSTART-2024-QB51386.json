@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "clojure"
+        "name": "clojure",
+        "purl": "pkg:apk/cleanstart/clojure"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:19:36.832383Z",
-  "modified": "2024-04-24T22:33:35Z",
+  "modified": "2026-10-08T14:25:09Z",
   "severity": [
     {
       "type": "CVSS_V3",

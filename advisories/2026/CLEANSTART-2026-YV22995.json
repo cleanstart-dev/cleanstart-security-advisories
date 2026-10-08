@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "amazon-cloudwatch-agent"
+        "name": "amazon-cloudwatch-agent",
+        "purl": "pkg:apk/cleanstart/amazon-cloudwatch-agent"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "bank-vaults"
+        "name": "bank-vaults",
+        "purl": "pkg:apk/cleanstart/bank-vaults"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-fips"
+        "name": "consul-fips",
+        "purl": "pkg:apk/cleanstart/consul-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "crossplane-provider-sql-fips"
+        "name": "crossplane-provider-sql-fips",
+        "purl": "pkg:apk/cleanstart/crossplane-provider-sql-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "distribution"
+        "name": "distribution",
+        "purl": "pkg:apk/cleanstart/distribution"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "distribution-fips"
+        "name": "distribution-fips",
+        "purl": "pkg:apk/cleanstart/distribution-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-image-automation-controller"
+        "name": "flux-image-automation-controller",
+        "purl": "pkg:apk/cleanstart/flux-image-automation-controller"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio"
+        "name": "fulcio",
+        "purl": "pkg:apk/cleanstart/fulcio"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fulcio-fips"
+        "name": "fulcio-fips",
+        "purl": "pkg:apk/cleanstart/fulcio-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "grafana-agent-operator"
+        "name": "grafana-agent-operator",
+        "purl": "pkg:apk/cleanstart/grafana-agent-operator"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kaniko"
+        "name": "kaniko",
+        "purl": "pkg:apk/cleanstart/kaniko"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes"
+        "name": "kubernetes",
+        "purl": "pkg:apk/cleanstart/kubernetes"
       },
       "ranges": [
         {
@@ -254,7 +267,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-dns-node-cache-fips"
+        "name": "kubernetes-dns-node-cache-fips",
+        "purl": "pkg:apk/cleanstart/kubernetes-dns-node-cache-fips"
       },
       "ranges": [
         {
@@ -273,7 +287,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "metrics-server-fips"
+        "name": "metrics-server-fips",
+        "purl": "pkg:apk/cleanstart/metrics-server-fips"
       },
       "ranges": [
         {
@@ -292,7 +307,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "node-problem-detector"
+        "name": "node-problem-detector",
+        "purl": "pkg:apk/cleanstart/node-problem-detector"
       },
       "ranges": [
         {
@@ -311,7 +327,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "postgres-operator"
+        "name": "postgres-operator",
+        "purl": "pkg:apk/cleanstart/postgres-operator"
       },
       "ranges": [
         {
@@ -330,7 +347,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-adapter"
+        "name": "prometheus-adapter",
+        "purl": "pkg:apk/cleanstart/prometheus-adapter"
       },
       "ranges": [
         {
@@ -349,7 +367,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "promxy"
+        "name": "promxy",
+        "purl": "pkg:apk/cleanstart/promxy"
       },
       "ranges": [
         {
@@ -368,7 +387,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-ca-fips"
+        "name": "step-ca-fips",
+        "purl": "pkg:apk/cleanstart/step-ca-fips"
       },
       "ranges": [
         {
@@ -387,7 +407,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "syft"
+        "name": "syft",
+        "purl": "pkg:apk/cleanstart/syft"
       },
       "ranges": [
         {
@@ -406,7 +427,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-ui-server-fips"
+        "name": "temporal-ui-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-ui-server-fips"
       },
       "ranges": [
         {
@@ -425,7 +447,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trillian-fips"
+        "name": "trillian-fips",
+        "purl": "pkg:apk/cleanstart/trillian-fips"
       },
       "ranges": [
         {
@@ -444,7 +467,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "yunikorn-k8shim"
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
       },
       "ranges": [
         {
@@ -463,7 +487,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "yunikorn-k8shim-fips"
+        "name": "yunikorn-k8shim-fips",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim-fips"
       },
       "ranges": [
         {
@@ -494,7 +519,7 @@
     }
   ],
   "published": "2026-09-18T09:52:49.821640Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:58:08Z",
   "related": [],
   "credits": [],
   "database_specific": {}

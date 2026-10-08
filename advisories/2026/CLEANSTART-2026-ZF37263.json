@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8s-sidecar"
+        "name": "k8s-sidecar",
+        "purl": "pkg:apk/cleanstart/k8s-sidecar"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3-requests"
+        "name": "py3-requests",
+        "purl": "pkg:apk/cleanstart/py3-requests?arch=noarch"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "py3.14-requests"
+        "name": "py3.14-requests",
+        "purl": "pkg:apk/cleanstart/py3.14-requests?arch=noarch"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:30:44.834255Z",
-  "modified": "2025-12-18T07:41:59Z",
+  "modified": "2026-10-08T15:58:09Z",
   "related": [],
   "credits": [],
   "database_specific": {}

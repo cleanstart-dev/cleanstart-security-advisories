@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "aws-network-policy-agent"
+        "name": "aws-network-policy-agent",
+        "purl": "pkg:apk/cleanstart/aws-network-policy-agent"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-dns-node-cache"
+        "name": "kubernetes-dns-node-cache",
+        "purl": "pkg:apk/cleanstart/kubernetes-dns-node-cache"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "pdfcpu"
+        "name": "pdfcpu",
+        "purl": "pkg:apk/cleanstart/pdfcpu"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server-fips"
+        "name": "temporal-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-server-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "gotenberg"
+        "name": "gotenberg",
+        "purl": "pkg:apk/cleanstart/gotenberg"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "trino"
+        "name": "trino",
+        "purl": "pkg:apk/cleanstart/trino"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-loglevel"
+        "name": "rancher-loglevel",
+        "purl": "pkg:apk/cleanstart/rancher-loglevel"
       },
       "ranges": [
         {
@@ -194,7 +203,7 @@
     }
   ],
   "published": "2026-10-08T00:43:21.645319Z",
-  "modified": "2026-10-07T10:20:22Z",
+  "modified": "2026-10-08T15:57:41Z",
   "severity": [
     {
       "type": "CVSS_V3",

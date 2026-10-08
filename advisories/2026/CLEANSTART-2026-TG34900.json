@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sigstore-scaffolding"
+        "name": "sigstore-scaffolding",
+        "purl": "pkg:apk/cleanstart/sigstore-scaffolding"
       },
       "ranges": [
         {
@@ -80,7 +83,7 @@
     }
   ],
   "published": "2026-09-18T10:26:13.689858Z",
-  "modified": "2026-03-23T06:32:11Z",
+  "modified": "2026-10-08T14:26:07Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "external-dns"
+        "name": "external-dns",
+        "purl": "pkg:apk/cleanstart/external-dns"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:00:10.271133Z",
-  "modified": "2026-06-15T10:54:22Z",
+  "modified": "2026-10-08T15:18:16Z",
   "related": [],
   "credits": [],
   "database_specific": {}

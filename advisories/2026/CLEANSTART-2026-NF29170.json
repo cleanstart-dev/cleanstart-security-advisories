@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "temporal-server-fips"
+        "name": "temporal-server-fips",
+        "purl": "pkg:apk/cleanstart/temporal-server-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu"
+        "name": "opentofu",
+        "purl": "pkg:apk/cleanstart/opentofu"
       },
       "ranges": [
         {
@@ -61,7 +63,7 @@
     }
   ],
   "published": "2026-10-08T00:43:20.158680Z",
-  "modified": "2026-10-07T10:21:28Z",
+  "modified": "2026-10-08T14:25:51Z",
   "severity": [
     {
       "type": "CVSS_V3",

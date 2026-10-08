@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-cmctl-fips"
+        "name": "cert-manager-cmctl-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-cmctl-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "chartmuseum-fips"
+        "name": "chartmuseum-fips",
+        "purl": "pkg:apk/cleanstart/chartmuseum-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator"
+        "name": "helm-operator",
+        "purl": "pkg:apk/cleanstart/helm-operator"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "helm-operator-fips"
+        "name": "helm-operator-fips",
+        "purl": "pkg:apk/cleanstart/helm-operator-fips"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8ssandra-client-fips"
+        "name": "k8ssandra-client-fips",
+        "purl": "pkg:apk/cleanstart/k8ssandra-client-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubevela"
+        "name": "kubevela",
+        "purl": "pkg:apk/cleanstart/kubevela"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "linkerd2"
+        "name": "linkerd2",
+        "purl": "pkg:apk/cleanstart/linkerd2"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "linkerd2"
+        "name": "linkerd2",
+        "purl": "pkg:apk/cleanstart/linkerd2"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tigera-operator"
+        "name": "tigera-operator",
+        "purl": "pkg:apk/cleanstart/tigera-operator"
       },
       "ranges": [
         {
@@ -209,7 +219,7 @@
     }
   ],
   "published": "2026-09-18T10:18:47.732134Z",
-  "modified": "2026-05-01T09:05:07Z",
+  "modified": "2026-10-08T15:57:19Z",
   "related": [],
   "credits": [],
   "database_specific": {}

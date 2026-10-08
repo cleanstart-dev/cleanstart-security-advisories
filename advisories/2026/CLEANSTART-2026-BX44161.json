@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cert-manager-webhook-pdns-fips"
+        "name": "cert-manager-webhook-pdns-fips",
+        "purl": "pkg:apk/cleanstart/cert-manager-webhook-pdns-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cfssl"
+        "name": "cfssl",
+        "purl": "pkg:apk/cleanstart/cfssl"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-fluentd-operator"
+        "name": "kube-fluentd-operator",
+        "purl": "pkg:apk/cleanstart/kube-fluentd-operator"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kube-state-metrics"
+        "name": "kube-state-metrics",
+        "purl": "pkg:apk/cleanstart/kube-state-metrics"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-pushgateway"
+        "name": "prometheus-pushgateway",
+        "purl": "pkg:apk/cleanstart/prometheus-pushgateway"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-pushgateway-fips"
+        "name": "prometheus-pushgateway-fips",
+        "purl": "pkg:apk/cleanstart/prometheus-pushgateway-fips"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rclone"
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "tempo-fips"
+        "name": "tempo-fips",
+        "purl": "pkg:apk/cleanstart/tempo-fips"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wavefront-collector-for-kubernetes"
+        "name": "wavefront-collector-for-kubernetes",
+        "purl": "pkg:apk/cleanstart/wavefront-collector-for-kubernetes"
       },
       "ranges": [
         {
@@ -232,7 +243,7 @@
     }
   ],
   "published": "2026-09-18T10:31:05.927215Z",
-  "modified": "2025-12-17T07:37:35Z",
+  "modified": "2026-10-08T15:57:22Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "libpng"
+        "name": "libpng",
+        "purl": "pkg:apk/cleanstart/libpng"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:28:55.067504Z",
-  "modified": "2026-02-13T10:17:36Z",
+  "modified": "2026-10-08T14:26:05Z",
   "related": [],
   "credits": [],
   "database_specific": {}

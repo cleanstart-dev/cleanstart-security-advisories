@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "airflow-3"
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:31:52.709337Z",
-  "modified": "2026-09-07T06:35:09Z",
+  "modified": "2026-10-08T15:18:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-workflows"
+        "name": "argo-workflows",
+        "purl": "pkg:apk/cleanstart/argo-workflows"
       },
       "ranges": [
         {
@@ -38,7 +39,7 @@
     }
   ],
   "published": "2026-09-18T09:35:26.297263Z",
-  "modified": "2026-08-19T11:09:28Z",
+  "modified": "2026-10-08T15:18:21Z",
   "related": [],
   "credits": [],
   "database_specific": {}

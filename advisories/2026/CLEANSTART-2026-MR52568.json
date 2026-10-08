@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-k8s-fips"
+        "name": "consul-k8s-fips",
+        "purl": "pkg:apk/cleanstart/consul-k8s-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-k8s-fips"
+        "name": "consul-k8s-fips",
+        "purl": "pkg:apk/cleanstart/consul-k8s-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "consul-k8s-fips"
+        "name": "consul-k8s-fips",
+        "purl": "pkg:apk/cleanstart/consul-k8s-fips"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cosign"
+        "name": "cosign",
+        "purl": "pkg:apk/cleanstart/cosign"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "flux-notification-controller-fips"
+        "name": "flux-notification-controller-fips",
+        "purl": "pkg:apk/cleanstart/flux-notification-controller-fips"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "go-discover-fips"
+        "name": "go-discover-fips",
+        "purl": "pkg:apk/cleanstart/go-discover-fips"
       },
       "ranges": [
         {
@@ -140,7 +147,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "harbor-registry"
+        "name": "harbor-registry",
+        "purl": "pkg:apk/cleanstart/harbor-registry"
       },
       "ranges": [
         {
@@ -159,7 +167,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ingress-nginx-controller"
+        "name": "ingress-nginx-controller",
+        "purl": "pkg:apk/cleanstart/ingress-nginx-controller"
       },
       "ranges": [
         {
@@ -178,7 +187,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-csi-node-driver-registrar"
+        "name": "kubernetes-csi-node-driver-registrar",
+        "purl": "pkg:apk/cleanstart/kubernetes-csi-node-driver-registrar"
       },
       "ranges": [
         {
@@ -197,7 +207,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nvidia-container-toolkit"
+        "name": "nvidia-container-toolkit",
+        "purl": "pkg:apk/cleanstart/nvidia-container-toolkit"
       },
       "ranges": [
         {
@@ -216,7 +227,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-node-exporter"
+        "name": "prometheus-node-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter"
       },
       "ranges": [
         {
@@ -235,7 +247,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "runc"
+        "name": "runc",
+        "purl": "pkg:apk/cleanstart/runc"
       },
       "ranges": [
         {
@@ -270,7 +283,7 @@
     }
   ],
   "published": "2026-09-18T10:32:55.745546Z",
-  "modified": "2025-09-29T13:16:21Z",
+  "modified": "2026-10-08T15:57:44Z",
   "related": [],
   "credits": [],
   "database_specific": {}

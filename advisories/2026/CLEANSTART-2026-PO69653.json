@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus"
+        "name": "prometheus",
+        "purl": "pkg:apk/cleanstart/prometheus"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-fips"
+        "name": "prometheus-fips",
+        "purl": "pkg:apk/cleanstart/prometheus-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-node-exporter"
+        "name": "prometheus-node-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "prometheus-node-exporter-fips"
+        "name": "prometheus-node-exporter-fips",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter-fips"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-09-18T10:33:02.640081Z",
-  "modified": "2025-08-29T09:51:37Z",
+  "modified": "2026-10-08T14:25:58Z",
   "related": [],
   "credits": [],
   "database_specific": {}

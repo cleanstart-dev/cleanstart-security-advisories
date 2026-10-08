@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "k8s-sidecar"
+        "name": "k8s-sidecar",
+        "purl": "pkg:apk/cleanstart/k8s-sidecar"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T10:09:21.593997Z",
-  "modified": "2026-05-24T17:14:01Z",
+  "modified": "2026-10-08T15:18:24Z",
   "related": [],
   "credits": [],
   "database_specific": {}

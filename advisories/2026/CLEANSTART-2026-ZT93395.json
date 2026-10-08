@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "fabric-peer"
+        "name": "fabric-peer",
+        "purl": "pkg:apk/cleanstart/fabric-peer"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kubernetes-dns-node-cache"
+        "name": "kubernetes-dns-node-cache",
+        "purl": "pkg:apk/cleanstart/kubernetes-dns-node-cache"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "opentofu"
+        "name": "opentofu",
+        "purl": "pkg:apk/cleanstart/opentofu"
       },
       "ranges": [
         {
@@ -99,7 +103,7 @@
     }
   ],
   "published": "2026-10-08T00:43:19.916945Z",
-  "modified": "2026-10-07T10:21:28Z",
+  "modified": "2026-10-08T15:58:10Z",
   "severity": [
     {
       "type": "CVSS_V3",

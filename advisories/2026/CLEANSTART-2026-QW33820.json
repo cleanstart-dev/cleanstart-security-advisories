@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ruby"
+        "name": "ruby",
+        "purl": "pkg:apk/cleanstart/ruby"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:30:27.301407Z",
-  "modified": "2026-09-10T11:25:51Z",
+  "modified": "2026-10-08T14:26:02Z",
   "related": [],
   "credits": [],
   "database_specific": {}

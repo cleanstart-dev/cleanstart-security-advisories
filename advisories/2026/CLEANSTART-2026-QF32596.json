@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kyverno-policy-reporter-kyverno-plugin-fips"
+        "name": "kyverno-policy-reporter-kyverno-plugin-fips",
+        "purl": "pkg:apk/cleanstart/kyverno-policy-reporter-kyverno-plugin-fips"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "paranoia"
+        "name": "paranoia",
+        "purl": "pkg:apk/cleanstart/paranoia"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:22:53.217939Z",
-  "modified": "2026-04-10T08:56:47Z",
+  "modified": "2026-10-08T15:18:17Z",
   "related": [],
   "credits": [],
   "database_specific": {}

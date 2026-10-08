@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "sqlpad"
+        "name": "sqlpad",
+        "purl": "pkg:apk/cleanstart/sqlpad"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard"
+        "name": "thingsboard",
+        "purl": "pkg:apk/cleanstart/thingsboard"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "thingsboard-tb-web-ui"
+        "name": "thingsboard-tb-web-ui",
+        "purl": "pkg:apk/cleanstart/thingsboard-tb-web-ui?arch=noarch"
       },
       "ranges": [
         {
@@ -95,7 +99,7 @@
     }
   ],
   "published": "2026-09-18T09:55:09.788820Z",
-  "modified": "2026-07-15T13:21:27Z",
+  "modified": "2026-10-08T15:17:47Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "wso2mi"
+        "name": "wso2mi",
+        "purl": "pkg:apk/cleanstart/wso2mi?arch=noarch"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-10-08T00:40:10.821147Z",
-  "modified": "2026-10-07T12:32:54Z",
+  "modified": "2026-10-08T15:58:00Z",
   "related": [],
   "credits": [],
   "database_specific": {}

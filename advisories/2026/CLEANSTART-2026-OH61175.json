@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "rancher-agent"
+        "name": "rancher-agent",
+        "purl": "pkg:apk/cleanstart/rancher-agent"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:38:51.624652Z",
-  "modified": "2026-08-17T12:41:30Z",
+  "modified": "2026-10-08T15:57:48Z",
   "related": [],
   "credits": [],
   "database_specific": {}

@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "coredns"
+        "name": "coredns",
+        "purl": "pkg:apk/cleanstart/coredns"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-30T19:30:33.460246Z",
-  "modified": "2025-01-15T09:33:55Z",
+  "modified": "2026-10-08T14:25:16Z",
   "severity": [
     {
       "type": "CVSS_V3",

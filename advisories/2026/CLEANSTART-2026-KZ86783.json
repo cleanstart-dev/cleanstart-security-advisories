@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "jitsucom-jitsu"
+        "name": "jitsucom-jitsu",
+        "purl": "pkg:apk/cleanstart/jitsucom-jitsu"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "renovate"
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T10:23:28.577833Z",
-  "modified": "2026-04-08T15:58:36Z",
+  "modified": "2026-10-08T15:57:42Z",
   "related": [],
   "credits": [],
   "database_specific": {}

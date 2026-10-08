@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "nvidia-container-toolkit"
+        "name": "nvidia-container-toolkit",
+        "purl": "pkg:apk/cleanstart/nvidia-container-toolkit"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:55:30.874260Z",
-  "modified": "2026-07-13T11:46:04Z",
+  "modified": "2026-10-08T15:57:38Z",
   "related": [],
   "credits": [],
   "database_specific": {}

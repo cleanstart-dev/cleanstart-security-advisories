@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "argo-events"
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "kserve-modelmesh-serving"
+        "name": "kserve-modelmesh-serving",
+        "purl": "pkg:apk/cleanstart/kserve-modelmesh-serving"
       },
       "ranges": [
         {
@@ -57,7 +59,7 @@
     }
   ],
   "published": "2026-09-18T09:52:18.852485Z",
-  "modified": "2026-08-03T09:45:51Z",
+  "modified": "2026-10-08T15:17:57Z",
   "related": [],
   "credits": [],
   "database_specific": {}

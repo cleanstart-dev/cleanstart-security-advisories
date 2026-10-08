@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudprober"
+        "name": "cloudprober",
+        "purl": "pkg:apk/cleanstart/cloudprober"
       },
       "ranges": [
         {
@@ -26,7 +27,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cloudprober-fips"
+        "name": "cloudprober-fips",
+        "purl": "pkg:apk/cleanstart/cloudprober-fips"
       },
       "ranges": [
         {
@@ -45,7 +47,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cluster-proportional-autoscaler"
+        "name": "cluster-proportional-autoscaler",
+        "purl": "pkg:apk/cleanstart/cluster-proportional-autoscaler"
       },
       "ranges": [
         {
@@ -64,7 +67,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -83,7 +87,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -102,7 +107,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "ip-masq-agent"
+        "name": "ip-masq-agent",
+        "purl": "pkg:apk/cleanstart/ip-masq-agent"
       },
       "ranges": [
         {
@@ -121,7 +127,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "step-ca"
+        "name": "step-ca",
+        "purl": "pkg:apk/cleanstart/step-ca"
       },
       "ranges": [
         {
@@ -156,7 +163,7 @@
     }
   ],
   "published": "2026-09-18T10:22:00.940355Z",
-  "modified": "2026-04-14T11:35:55Z",
+  "modified": "2026-10-08T15:57:25Z",
   "related": [],
   "credits": [],
   "database_specific": {}

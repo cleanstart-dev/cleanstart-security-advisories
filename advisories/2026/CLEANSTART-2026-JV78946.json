@@ -7,7 +7,8 @@
     {
       "package": {
         "ecosystem": "CleanStart",
-        "name": "cassandra-reaper-fips"
+        "name": "cassandra-reaper-fips",
+        "purl": "pkg:apk/cleanstart/cassandra-reaper-fips"
       },
       "ranges": [
         {
@@ -42,7 +43,7 @@
     }
   ],
   "published": "2026-09-18T09:42:39.311298Z",
-  "modified": "2026-08-14T12:25:42Z",
+  "modified": "2026-10-08T15:57:39Z",
   "related": [],
   "credits": [],
   "database_specific": {}
