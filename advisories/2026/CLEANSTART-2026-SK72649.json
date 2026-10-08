@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SK72649",
+  "summary": "Rejected reason: This CVE ID has been rejected as a duplicate",
+  "details": "Security vulnerability affects the elasticsearch package. Rejected reason: This CVE ID has been rejected as a duplicate.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "elasticsearch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.5-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-100656"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-SK72649.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-100656"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100656"
+    }
+  ],
+  "published": "2026-10-08T00:42:42.962039Z",
+  "modified": "2026-10-07T10:33:28Z",
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
