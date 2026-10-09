@@ -283,7 +283,17 @@
     }
   ],
   "published": "2026-09-18T09:46:25.881178Z",
-  "modified": "2026-10-08T15:58:05Z",
+  "modified": "2026-10-09T06:42:45Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:Amber"
+    }
+  ],
   "related": [],
   "credits": [],
   "database_specific": {}

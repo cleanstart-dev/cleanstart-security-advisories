@@ -79,7 +79,17 @@
     }
   ],
   "published": "2026-09-18T09:59:59.865176Z",
-  "modified": "2026-10-08T15:57:38Z",
+  "modified": "2026-10-09T03:02:06Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
   "related": [],
   "credits": [],
   "database_specific": {}
