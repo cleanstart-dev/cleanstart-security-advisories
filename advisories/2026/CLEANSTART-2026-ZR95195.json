@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZR95195",
+  "summary": "Security fix for ghsa-f6x5-jh6r-wnfv applied in: cloud-provider-aws 1.34.1-r1",
+  "details": "Security vulnerability affects the cloud-provider-aws package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "cloud-provider-aws",
+        "purl": "pkg:apk/cleanstart/cloud-provider-aws"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.1-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-f6x5-jh6r-wnfv"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZR95195.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-f6x5-jh6r-wnfv"
+    }
+  ],
+  "published": "2026-10-09T00:37:22.179918Z",
+  "modified": "2026-10-08T04:43:37Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
