@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-YE37392",
+  "summary": "Security fix for ghsa-c2m8-h5v5-343r applied in: airflow-3 3.1.8-r13, airflow-3 3.2.1-r11, airflow-3 3.0.6-r9",
+  "details": "ghsa-c2m8-h5v5-343r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.8-r13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.1-r11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "airflow-3",
+        "purl": "pkg:apk/cleanstart/airflow-3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.6-r9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-c2m8-h5v5-343r"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-YE37392.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-c2m8-h5v5-343r"
+    }
+  ],
+  "published": "2026-10-10T00:38:55.940598Z",
+  "modified": "2026-10-09T07:39:05Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
