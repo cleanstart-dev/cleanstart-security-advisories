@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LS90448",
+  "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ncgroup/cpuset: remove kernfs active break\n\nA warning was found:\n\nWARNING: CPU: 10 PID: 3486953 at fs/kernfs/file",
+  "details": "Security vulnerability affects the openjdk11 package. In the Linux kernel, the following vulnerability has been resolved: cgroup/cpuset: remove kernfs active break A warning was found: WARNING: CPU: 10 PID: 3486953 at fs/kernfs/file.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "openjdk11",
+        "purl": "pkg:apk/cleanstart/openjdk11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "11.0.30_p7-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2025-21634"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LS90448.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2025-21634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21634"
+    }
+  ],
+  "published": "2026-10-14T00:45:25.758983Z",
+  "modified": "2026-10-13T07:09:36Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
