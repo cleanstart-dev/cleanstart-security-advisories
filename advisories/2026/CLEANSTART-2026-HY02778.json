@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-HY02778",
+  "summary": "Security fix for ghsa-vcvr-r3jv-pc5j applied in: langfuse 4.35.0-r1",
+  "details": "Security vulnerability affects the langfuse package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "langfuse",
+        "purl": "pkg:apk/cleanstart/langfuse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.35.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "ghsa-vcvr-r3jv-pc5j"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-HY02778.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/ghsa-vcvr-r3jv-pc5j"
+    }
+  ],
+  "published": "2026-10-15T00:40:44.784195Z",
+  "modified": "2026-10-14T12:19:50Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
