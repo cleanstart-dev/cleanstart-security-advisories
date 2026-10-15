@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CF50280",
-  "summary": "Security fix for ghsa-5p4m-2wfm-xmqj applied in: renovate 44.154.1-r1, renovate 44.152.0-r1",
-  "details": "ghsa-5p4m-2wfm-xmqj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-5p4m-2wfm-xmqj applied in: renovate 44.154.1-r1, renovate 44.152.0-r1",
+  "details": "GHSA-5p4m-2wfm-xmqj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5p4m-2wfm-xmqj"
+    "GHSA-5p4m-2wfm-xmqj"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5p4m-2wfm-xmqj"
+      "url": "https://osv.dev/vulnerability/GHSA-5p4m-2wfm-xmqj"
     }
   ],
   "published": "2026-10-15T00:38:02.211788Z",
-  "modified": "2026-10-14T12:16:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

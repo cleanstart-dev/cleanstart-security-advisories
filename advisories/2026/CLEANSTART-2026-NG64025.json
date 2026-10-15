@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NG64025",
-  "summary": "Security fix for ghsa-x44p-gvrj-pj2r applied in: apache-nifi 2.7.2-r0",
+  "summary": "Security fix for GHSA-x44p-gvrj-pj2r applied in: apache-nifi 2.7.2-r0",
   "details": "Security vulnerability affects the apache-nifi package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x44p-gvrj-pj2r"
+    "GHSA-x44p-gvrj-pj2r"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x44p-gvrj-pj2r"
+      "url": "https://osv.dev/vulnerability/GHSA-x44p-gvrj-pj2r"
     }
   ],
   "published": "2026-09-18T09:58:07.325943Z",
-  "modified": "2026-10-09T04:02:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

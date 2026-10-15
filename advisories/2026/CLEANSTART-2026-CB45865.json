@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CB45865",
-  "summary": "Security fix for ghsa-g84x-mcqj-x9qq applied in: airflow-2 2.10.3-r2",
+  "summary": "Security fix for GHSA-g84x-mcqj-x9qq applied in: airflow-2 2.10.3-r2",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-g84x-mcqj-x9qq"
+    "GHSA-g84x-mcqj-x9qq"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-g84x-mcqj-x9qq"
+      "url": "https://osv.dev/vulnerability/GHSA-g84x-mcqj-x9qq"
     }
   ],
   "published": "2026-09-18T09:59:46.280409Z",
-  "modified": "2026-10-08T18:21:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

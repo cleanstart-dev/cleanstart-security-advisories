@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-BE90013",
-  "summary": "Security fix for ghsa-9j3m-fr7q-jxfw applied in: harbor-fips 2.10.3-r0",
+  "summary": "Security fix for GHSA-9j3m-fr7q-jxfw applied in: harbor-fips 2.10.3-r0",
   "details": "Security vulnerability affects the harbor-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9j3m-fr7q-jxfw"
+    "GHSA-9j3m-fr7q-jxfw"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9j3m-fr7q-jxfw"
+      "url": "https://osv.dev/vulnerability/GHSA-9j3m-fr7q-jxfw"
     }
   ],
   "published": "2026-09-18T10:32:41.344757Z",
-  "modified": "2026-10-08T17:54:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

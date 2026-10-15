@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HQ10523",
-  "summary": "Security fix for ghsa-h5fg-jpgr-rv9c applied in: incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, keycloak 26.1.4-r1, keycloak 26.2.12-r0, keycloak 26.5.0-r0, keycloak 26.5.0-r2, keycloak 26.5.7-r0, kogito-apps 10.1.0-r0",
-  "details": "ghsa-h5fg-jpgr-rv9c affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-h5fg-jpgr-rv9c applied in: incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, keycloak 26.1.4-r1, keycloak 26.2.12-r0, keycloak 26.5.0-r0, keycloak 26.5.0-r2, keycloak 26.5.7-r0, kogito-apps 10.1.0-r0",
+  "details": "GHSA-h5fg-jpgr-rv9c affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-h5fg-jpgr-rv9c"
+    "GHSA-h5fg-jpgr-rv9c"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-h5fg-jpgr-rv9c"
+      "url": "https://osv.dev/vulnerability/GHSA-h5fg-jpgr-rv9c"
     }
   ],
   "published": "2026-09-18T10:31:58.854231Z",
-  "modified": "2026-10-08T19:36:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NI80451",
-  "summary": "Security fix for ghsa-wf43-55jj-vwq8 applied in: chartmuseum-fips 0.15.0-r4, metrics-server-fips 0.5.2-r3",
-  "details": "ghsa-wf43-55jj-vwq8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wf43-55jj-vwq8 applied in: chartmuseum-fips 0.15.0-r4, metrics-server-fips 0.5.2-r3",
+  "details": "GHSA-wf43-55jj-vwq8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wf43-55jj-vwq8"
+    "GHSA-wf43-55jj-vwq8"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wf43-55jj-vwq8"
+      "url": "https://osv.dev/vulnerability/GHSA-wf43-55jj-vwq8"
     }
   ],
   "published": "2026-09-18T10:31:33.785210Z",
-  "modified": "2026-10-09T04:04:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

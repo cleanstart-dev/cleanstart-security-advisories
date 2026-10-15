@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KC19825",
-  "summary": "Security fix for ghsa-p8q5-cvwx-wvwp applied in: airflow-2 2.10.3-r2",
+  "summary": "Security fix for GHSA-p8q5-cvwx-wvwp applied in: airflow-2 2.10.3-r2",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p8q5-cvwx-wvwp"
+    "GHSA-p8q5-cvwx-wvwp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p8q5-cvwx-wvwp"
+      "url": "https://osv.dev/vulnerability/GHSA-p8q5-cvwx-wvwp"
     }
   ],
   "published": "2026-09-18T09:59:39.053909Z",
-  "modified": "2026-10-09T03:15:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

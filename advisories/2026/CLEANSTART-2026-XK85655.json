@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XK85655",
-  "summary": "Security fix for ghsa-6chq-wfr3-2hj9 applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-6chq-wfr3-2hj9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6chq-wfr3-2hj9 applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-6chq-wfr3-2hj9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6chq-wfr3-2hj9"
+    "GHSA-6chq-wfr3-2hj9"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6chq-wfr3-2hj9"
+      "url": "https://osv.dev/vulnerability/GHSA-6chq-wfr3-2hj9"
     }
   ],
   "published": "2026-09-18T10:16:58.346623Z",
-  "modified": "2026-10-09T06:46:06Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

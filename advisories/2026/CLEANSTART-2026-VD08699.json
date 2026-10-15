@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VD08699",
-  "summary": "Security fix for ghsa-w5hq-g745-h8pq applied in: kibana 9.3.2-r3, mongosh 2.5.10-r5, mongosh 2.6.0-r4, mongosh 2.8.2-r2, opensearch-dashboards-fips 3.5.0-r0, sqlpad 7.5.7-r3",
-  "details": "ghsa-w5hq-g745-h8pq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w5hq-g745-h8pq applied in: kibana 9.3.2-r3, mongosh 2.5.10-r5, mongosh 2.6.0-r4, mongosh 2.8.2-r2, opensearch-dashboards-fips 3.5.0-r0, sqlpad 7.5.7-r3",
+  "details": "GHSA-w5hq-g745-h8pq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w5hq-g745-h8pq"
+    "GHSA-w5hq-g745-h8pq"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w5hq-g745-h8pq"
+      "url": "https://osv.dev/vulnerability/GHSA-w5hq-g745-h8pq"
     }
   ],
   "published": "2026-09-18T10:17:18.773728Z",
-  "modified": "2026-10-09T06:15:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DP92831",
-  "summary": "Security fix for ghsa-j5w8-q4qc-rx2x applied in: go1.27 1.25.5-r0",
+  "summary": "Security fix for GHSA-j5w8-q4qc-rx2x applied in: go1.27 1.25.5-r0",
   "details": "Security vulnerability affects the go1.27 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-j5w8-q4qc-rx2x"
+    "GHSA-j5w8-q4qc-rx2x"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-j5w8-q4qc-rx2x"
+      "url": "https://osv.dev/vulnerability/GHSA-j5w8-q4qc-rx2x"
     }
   ],
   "published": "2026-10-06T00:35:16.574917Z",
-  "modified": "2026-10-08T18:45:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

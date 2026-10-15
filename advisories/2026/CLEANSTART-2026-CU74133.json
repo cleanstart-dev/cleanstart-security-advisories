@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CU74133",
-  "summary": "Security fix for ghsa-jq35-85cj-fj4p applied in: paranoia 0.2.1-r0",
+  "summary": "Security fix for GHSA-jq35-85cj-fj4p applied in: paranoia 0.2.1-r0",
   "details": "Security vulnerability affects the paranoia package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jq35-85cj-fj4p"
+    "GHSA-jq35-85cj-fj4p"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jq35-85cj-fj4p"
+      "url": "https://osv.dev/vulnerability/GHSA-jq35-85cj-fj4p"
     }
   ],
   "published": "2026-09-18T10:22:59.066147Z",
-  "modified": "2026-10-08T18:32:57Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

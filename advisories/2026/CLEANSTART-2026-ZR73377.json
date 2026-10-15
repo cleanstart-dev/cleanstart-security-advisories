@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZR73377",
-  "summary": "Security fix for ghsa-jcj7-v34w-v9vv applied in: valkey 9.1.2-r0",
+  "summary": "Security fix for GHSA-jcj7-v34w-v9vv applied in: valkey 9.1.2-r0",
   "details": "Security vulnerability affects the valkey package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jcj7-v34w-v9vv"
+    "GHSA-jcj7-v34w-v9vv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jcj7-v34w-v9vv"
+      "url": "https://osv.dev/vulnerability/GHSA-jcj7-v34w-v9vv"
     }
   ],
   "published": "2026-10-14T00:37:01.495872Z",
-  "modified": "2026-10-13T12:18:02Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AZ59995",
-  "summary": "Security fix for ghsa-gc5v-m9x4-r6x2 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, cassandra-reaper-fips 3.6.1-r2, cassandra-reaper-fips 3.7.1-r4, cassandra-reaper-fips 3.8.0-r3, cassandra-reaper-fips 4.0.1-r2, jupyterhub-k8s-hub 4.3.2-r0, k8s-sidecar 2.5.4-r0, miniforge3 26.1.0.0-r1",
-  "details": "ghsa-gc5v-m9x4-r6x2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gc5v-m9x4-r6x2 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, cassandra-reaper-fips 3.6.1-r2, cassandra-reaper-fips 3.7.1-r4, cassandra-reaper-fips 3.8.0-r3, cassandra-reaper-fips 4.0.1-r2, jupyterhub-k8s-hub 4.3.2-r0, k8s-sidecar 2.5.4-r0, miniforge3 26.1.0.0-r1",
+  "details": "GHSA-gc5v-m9x4-r6x2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -206,7 +206,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gc5v-m9x4-r6x2"
+    "GHSA-gc5v-m9x4-r6x2"
   ],
   "references": [
     {
@@ -215,11 +215,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gc5v-m9x4-r6x2"
+      "url": "https://osv.dev/vulnerability/GHSA-gc5v-m9x4-r6x2"
     }
   ],
   "published": "2026-09-18T10:24:53.729096Z",
-  "modified": "2026-10-08T18:07:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

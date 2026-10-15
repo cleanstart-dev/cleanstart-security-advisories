@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SJ63169",
-  "summary": "Security fix for ghsa-jv3w-x3r3-g6rm applied in: istio-fips 1.25.5-r1, istio-fips 1.26.7-r1, istio-fips 1.27.4-r1, istio-fips 1.28.1-r1",
-  "details": "ghsa-jv3w-x3r3-g6rm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jv3w-x3r3-g6rm applied in: istio-fips 1.25.5-r1, istio-fips 1.26.7-r1, istio-fips 1.27.4-r1, istio-fips 1.28.1-r1",
+  "details": "GHSA-jv3w-x3r3-g6rm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jv3w-x3r3-g6rm"
+    "GHSA-jv3w-x3r3-g6rm"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jv3w-x3r3-g6rm"
+      "url": "https://osv.dev/vulnerability/GHSA-jv3w-x3r3-g6rm"
     }
   ],
   "published": "2026-09-18T10:30:53.107425Z",
-  "modified": "2026-10-09T05:39:27Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

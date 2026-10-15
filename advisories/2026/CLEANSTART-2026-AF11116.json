@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AF11116",
-  "summary": "Security fix for ghsa-j759-j44w-7fr8 applied in: sqlpad 7.5.7-r3",
+  "summary": "Security fix for GHSA-j759-j44w-7fr8 applied in: sqlpad 7.5.7-r3",
   "details": "Security vulnerability affects the sqlpad package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-j759-j44w-7fr8"
+    "GHSA-j759-j44w-7fr8"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-j759-j44w-7fr8"
+      "url": "https://osv.dev/vulnerability/GHSA-j759-j44w-7fr8"
     }
   ],
   "published": "2026-09-18T09:52:01.650757Z",
-  "modified": "2026-10-08T17:56:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

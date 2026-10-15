@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UA31108",
-  "summary": "Security fix for ghsa-vqfr-h8mv-ghfj applied in: airflow-2 2.10.3-r2",
+  "summary": "Security fix for GHSA-vqfr-h8mv-ghfj applied in: airflow-2 2.10.3-r2",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vqfr-h8mv-ghfj"
+    "GHSA-vqfr-h8mv-ghfj"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vqfr-h8mv-ghfj"
+      "url": "https://osv.dev/vulnerability/GHSA-vqfr-h8mv-ghfj"
     }
   ],
   "published": "2026-09-18T09:59:39.553645Z",
-  "modified": "2026-10-09T05:59:36Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

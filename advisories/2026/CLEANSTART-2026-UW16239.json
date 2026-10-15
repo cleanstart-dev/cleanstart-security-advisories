@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UW16239",
-  "summary": "Security fix for ghsa-2v5j-vhc3-9cwm applied in: argo-cd 3.1.4-r0, argo-cd-fips 3.0.16-r0, argo-cd-fips 3.1.4-r0",
-  "details": "ghsa-2v5j-vhc3-9cwm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2v5j-vhc3-9cwm applied in: argo-cd 3.1.4-r0, argo-cd-fips 3.0.16-r0, argo-cd-fips 3.1.4-r0",
+  "details": "GHSA-2v5j-vhc3-9cwm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2v5j-vhc3-9cwm"
+    "GHSA-2v5j-vhc3-9cwm"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2v5j-vhc3-9cwm"
+      "url": "https://osv.dev/vulnerability/GHSA-2v5j-vhc3-9cwm"
     }
   ],
   "published": "2026-09-18T10:32:42.747098Z",
-  "modified": "2026-10-09T06:12:04Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WG07848",
-  "summary": "Security fix for ghsa-4h8f-2wvx-gg5w applied in: orientdb 3.2.38-r0",
+  "summary": "Security fix for GHSA-4h8f-2wvx-gg5w applied in: orientdb 3.2.38-r0",
   "details": "Security vulnerability affects the orientdb package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4h8f-2wvx-gg5w"
+    "GHSA-4h8f-2wvx-gg5w"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4h8f-2wvx-gg5w"
+      "url": "https://osv.dev/vulnerability/GHSA-4h8f-2wvx-gg5w"
     }
   ],
   "published": "2026-09-18T10:20:31.750627Z",
-  "modified": "2026-10-09T06:31:28Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

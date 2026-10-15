@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LB17279",
-  "summary": "Security fix for ghsa-4cx2-fc23-5wg6 applied in: keycloak 26.1.4-r1, kserve-modelmesh 0.12.0-r16, logstash-fips 9.0.8-r3, orientdb 3.2.38-r0",
-  "details": "ghsa-4cx2-fc23-5wg6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-4cx2-fc23-5wg6 applied in: keycloak 26.1.4-r1, kserve-modelmesh 0.12.0-r16, logstash-fips 9.0.8-r3, orientdb 3.2.38-r0",
+  "details": "GHSA-4cx2-fc23-5wg6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4cx2-fc23-5wg6"
+    "GHSA-4cx2-fc23-5wg6"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4cx2-fc23-5wg6"
+      "url": "https://osv.dev/vulnerability/GHSA-4cx2-fc23-5wg6"
     }
   ],
   "published": "2026-09-18T10:32:02.193935Z",
-  "modified": "2026-10-09T03:30:34Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

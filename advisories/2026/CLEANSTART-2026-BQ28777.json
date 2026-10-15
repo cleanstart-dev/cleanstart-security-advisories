@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BQ28777",
-  "summary": "Security fix for ghsa-8wc6-vgrq-x6cf applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-8wc6-vgrq-x6cf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-8wc6-vgrq-x6cf applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-8wc6-vgrq-x6cf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8wc6-vgrq-x6cf"
+    "GHSA-8wc6-vgrq-x6cf"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8wc6-vgrq-x6cf"
+      "url": "https://osv.dev/vulnerability/GHSA-8wc6-vgrq-x6cf"
     }
   ],
   "published": "2026-09-18T10:26:42.864177Z",
-  "modified": "2026-10-08T18:14:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

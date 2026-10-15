@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LJ83599",
-  "summary": "Security fix for ghsa-q4f6-jm68-57ww applied in: hazelcast 5.7.0-r1, logstash-fips 9.4.3-r1, strimzi-kafka-operator 1.1.0-r2",
-  "details": "ghsa-q4f6-jm68-57ww affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-q4f6-jm68-57ww applied in: hazelcast 5.7.0-r1, logstash-fips 9.4.3-r1, strimzi-kafka-operator 1.1.0-r2",
+  "details": "GHSA-q4f6-jm68-57ww affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q4f6-jm68-57ww"
+    "GHSA-q4f6-jm68-57ww"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q4f6-jm68-57ww"
+      "url": "https://osv.dev/vulnerability/GHSA-q4f6-jm68-57ww"
     }
   ],
   "published": "2026-09-18T09:50:01.652073Z",
-  "modified": "2026-10-09T03:35:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

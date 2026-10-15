@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-QE77299",
-  "summary": "Security fix for ghsa-x6mj-w4jf-jmgw applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
+  "summary": "Security fix for GHSA-x6mj-w4jf-jmgw applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
   "details": "Security vulnerability affects the nfs-subdir-external-provisioner-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x6mj-w4jf-jmgw"
+    "GHSA-x6mj-w4jf-jmgw"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x6mj-w4jf-jmgw"
+      "url": "https://osv.dev/vulnerability/GHSA-x6mj-w4jf-jmgw"
     }
   ],
   "published": "2026-09-18T10:30:45.069969Z",
-  "modified": "2026-10-08T17:54:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

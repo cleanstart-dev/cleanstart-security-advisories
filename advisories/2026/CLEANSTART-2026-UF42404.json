@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UF42404",
-  "summary": "Security fix for ghsa-cj8j-37rh-8475 applied in: apache-nifi 2.9.0-r0, apache-nifi-registry 2.9.0-r0, wildfly 39.0.1-r0",
-  "details": "ghsa-cj8j-37rh-8475 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cj8j-37rh-8475 applied in: apache-nifi 2.9.0-r0, apache-nifi-registry 2.9.0-r0, wildfly 39.0.1-r0",
+  "details": "GHSA-cj8j-37rh-8475 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cj8j-37rh-8475"
+    "GHSA-cj8j-37rh-8475"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cj8j-37rh-8475"
+      "url": "https://osv.dev/vulnerability/GHSA-cj8j-37rh-8475"
     }
   ],
   "published": "2026-09-18T09:59:04.249761Z",
-  "modified": "2026-10-09T06:04:04Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

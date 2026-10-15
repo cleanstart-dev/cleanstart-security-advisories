@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZL19560",
-  "summary": "Security fix for ghsa-9h8m-3fm2-qjrq applied in: consul 1.21.5-r0",
+  "summary": "Security fix for GHSA-9h8m-3fm2-qjrq applied in: consul 1.21.5-r0",
   "details": "Security vulnerability affects the consul package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9h8m-3fm2-qjrq"
+    "GHSA-9h8m-3fm2-qjrq"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq"
+      "url": "https://osv.dev/vulnerability/GHSA-9h8m-3fm2-qjrq"
     }
   ],
   "published": "2026-10-02T00:35:55.915865Z",
-  "modified": "2026-10-09T07:13:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

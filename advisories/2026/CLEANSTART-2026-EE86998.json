@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-EE86998",
-  "summary": "Security fix for ghsa-9mqv-5hh9-4cgg applied in: langfuse-worker 3.194.1-r2, langfuse-worker 3.216.0-r2, langfuse-worker 3.217.0-r2, langfuse-worker 3.218.0-r2, langfuse-worker 3.219.0-r2, langfuse-worker 3.224.2-r2, langfuse-worker 3.225.0-r2",
-  "details": "ghsa-9mqv-5hh9-4cgg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9mqv-5hh9-4cgg applied in: langfuse-worker 3.194.1-r2, langfuse-worker 3.216.0-r2, langfuse-worker 3.217.0-r2, langfuse-worker 3.218.0-r2, langfuse-worker 3.219.0-r2, langfuse-worker 3.224.2-r2, langfuse-worker 3.225.0-r2",
+  "details": "GHSA-9mqv-5hh9-4cgg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9mqv-5hh9-4cgg"
+    "GHSA-9mqv-5hh9-4cgg"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9mqv-5hh9-4cgg"
+      "url": "https://osv.dev/vulnerability/GHSA-9mqv-5hh9-4cgg"
     }
   ],
   "published": "2026-09-18T09:42:00.404389Z",
-  "modified": "2026-10-08T18:52:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

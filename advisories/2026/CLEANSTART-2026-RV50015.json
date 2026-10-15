@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RV50015",
-  "summary": "Security fix for ghsa-269q-hmxg-m83q applied in: stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-269q-hmxg-m83q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-269q-hmxg-m83q applied in: stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-269q-hmxg-m83q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-269q-hmxg-m83q"
+    "GHSA-269q-hmxg-m83q"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-269q-hmxg-m83q"
+      "url": "https://osv.dev/vulnerability/GHSA-269q-hmxg-m83q"
     }
   ],
   "published": "2026-09-18T10:24:34.071638Z",
-  "modified": "2026-10-09T05:05:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YY44822",
-  "summary": "Security fix for ghsa-wx95-c6cv-8532 applied in: logstash-fips 9.3.1-r0",
+  "summary": "Security fix for GHSA-wx95-c6cv-8532 applied in: logstash-fips 9.3.1-r0",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wx95-c6cv-8532"
+    "GHSA-wx95-c6cv-8532"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wx95-c6cv-8532"
+      "url": "https://osv.dev/vulnerability/GHSA-wx95-c6cv-8532"
     }
   ],
   "published": "2026-09-18T10:23:30.112591Z",
-  "modified": "2026-10-09T07:07:11Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

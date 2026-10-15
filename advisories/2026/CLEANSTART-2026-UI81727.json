@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UI81727",
-  "summary": "Security fix for ghsa-xq3w-v528-46rv applied in: cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, cloudwatch-exporter 0.16.0-r0, kserve-modelmesh 0.12.0-r16, management-api-for-apache-cassandra-5.0 0.1.107-r0, management-api-for-apache-cassandra-5.0 0.1.108-r0, management-api-for-apache-cassandra-5.0 0.1.109-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-xq3w-v528-46rv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-xq3w-v528-46rv applied in: cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, cloudwatch-exporter 0.16.0-r0, kserve-modelmesh 0.12.0-r16, management-api-for-apache-cassandra-5.0 0.1.107-r0, management-api-for-apache-cassandra-5.0 0.1.108-r0, management-api-for-apache-cassandra-5.0 0.1.109-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-xq3w-v528-46rv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -186,7 +186,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xq3w-v528-46rv"
+    "GHSA-xq3w-v528-46rv"
   ],
   "references": [
     {
@@ -195,11 +195,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xq3w-v528-46rv"
+      "url": "https://osv.dev/vulnerability/GHSA-xq3w-v528-46rv"
     }
   ],
   "published": "2026-09-18T10:32:38.573921Z",
-  "modified": "2026-10-09T06:05:39Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

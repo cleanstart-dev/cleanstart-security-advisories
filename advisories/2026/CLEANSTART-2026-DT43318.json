@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DT43318",
-  "summary": "Security fix for ghsa-c2j3-45gr-mqc4 applied in: langfuse-worker 3.194.1-r1, langfuse-worker 3.212.0-r1, langfuse-worker 3.213.0-r1, langfuse-worker 3.214.0-r1, langfuse-worker 3.215.0-r1, langfuse-worker 3.216.0-r1, langfuse-worker 3.217.0-r1, langfuse-worker 3.218.0-r1, langfuse-worker 3.219.0-r1, langfuse-worker 3.220.0-r1, langfuse-worker 3.221.1-r2, langfuse-worker 3.223.0-r2, langfuse-worker 3.224.0-r1",
-  "details": "ghsa-c2j3-45gr-mqc4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c2j3-45gr-mqc4 applied in: langfuse-worker 3.194.1-r1, langfuse-worker 3.212.0-r1, langfuse-worker 3.213.0-r1, langfuse-worker 3.214.0-r1, langfuse-worker 3.215.0-r1, langfuse-worker 3.216.0-r1, langfuse-worker 3.217.0-r1, langfuse-worker 3.218.0-r1, langfuse-worker 3.219.0-r1, langfuse-worker 3.220.0-r1, langfuse-worker 3.221.1-r2, langfuse-worker 3.223.0-r2, langfuse-worker 3.224.0-r1",
+  "details": "GHSA-c2j3-45gr-mqc4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -266,7 +266,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c2j3-45gr-mqc4"
+    "GHSA-c2j3-45gr-mqc4"
   ],
   "references": [
     {
@@ -275,11 +275,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c2j3-45gr-mqc4"
+      "url": "https://osv.dev/vulnerability/GHSA-c2j3-45gr-mqc4"
     }
   ],
   "published": "2026-09-18T09:42:03.356150Z",
-  "modified": "2026-10-08T18:47:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZA79508",
-  "summary": "Security fix for ghsa-q4gf-8mx6-v5v3 applied in: jitsucom-jitsu 2.14.0-r1",
+  "summary": "Security fix for GHSA-q4gf-8mx6-v5v3 applied in: jitsucom-jitsu 2.14.0-r1",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q4gf-8mx6-v5v3"
+    "GHSA-q4gf-8mx6-v5v3"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q4gf-8mx6-v5v3"
+      "url": "https://osv.dev/vulnerability/GHSA-q4gf-8mx6-v5v3"
     }
   ],
   "published": "2026-09-18T09:58:47.759532Z",
-  "modified": "2026-10-09T07:08:03Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

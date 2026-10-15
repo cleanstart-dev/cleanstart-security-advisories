@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LD17391",
-  "summary": "Security fix for ghsa-cfh3-3jmp-rvhc applied in: apache-superset 6.0.0-r5",
+  "summary": "Security fix for GHSA-cfh3-3jmp-rvhc applied in: apache-superset 6.0.0-r5",
   "details": "Security vulnerability affects the apache-superset package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cfh3-3jmp-rvhc"
+    "GHSA-cfh3-3jmp-rvhc"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cfh3-3jmp-rvhc"
+      "url": "https://osv.dev/vulnerability/GHSA-cfh3-3jmp-rvhc"
     }
   ],
   "published": "2026-09-18T09:52:54.522166Z",
-  "modified": "2026-10-09T03:31:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

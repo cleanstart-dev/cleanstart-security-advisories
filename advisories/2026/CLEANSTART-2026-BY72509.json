@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BY72509",
-  "summary": "Security fix for ghsa-f2r5-5m7w-p5cx applied in: opentelemetry-collector-contrib 0.153.0-r1",
+  "summary": "Security fix for GHSA-f2r5-5m7w-p5cx applied in: opentelemetry-collector-contrib 0.153.0-r1",
   "details": "Security vulnerability affects the opentelemetry-collector-contrib package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-f2r5-5m7w-p5cx"
+    "GHSA-f2r5-5m7w-p5cx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-f2r5-5m7w-p5cx"
+      "url": "https://osv.dev/vulnerability/GHSA-f2r5-5m7w-p5cx"
     }
   ],
   "published": "2026-09-18T09:52:28.899046Z",
-  "modified": "2026-10-08T18:19:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

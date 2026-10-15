@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZU56180",
-  "summary": "Security fix for ghsa-h7pq-86h8-rp5x applied in: tigera-operator 1.39.3-r1",
+  "summary": "Security fix for GHSA-h7pq-86h8-rp5x applied in: tigera-operator 1.39.3-r1",
   "details": "Security vulnerability affects the tigera-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-h7pq-86h8-rp5x"
+    "GHSA-h7pq-86h8-rp5x"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-h7pq-86h8-rp5x"
+      "url": "https://osv.dev/vulnerability/GHSA-h7pq-86h8-rp5x"
     }
   ],
   "published": "2026-09-18T09:51:45.857335Z",
-  "modified": "2026-10-09T07:18:10Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

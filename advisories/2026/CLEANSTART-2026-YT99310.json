@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YT99310",
-  "summary": "Security fix for ghsa-8m3c-c648-2xjj applied in: langfuse 3.225.9-r0",
+  "summary": "Security fix for GHSA-8m3c-c648-2xjj applied in: langfuse 3.225.9-r0",
   "details": "Security vulnerability affects the langfuse package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8m3c-c648-2xjj"
+    "GHSA-8m3c-c648-2xjj"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8m3c-c648-2xjj"
+      "url": "https://osv.dev/vulnerability/GHSA-8m3c-c648-2xjj"
     }
   ],
   "published": "2026-10-08T00:44:56.789559Z",
-  "modified": "2026-10-09T07:05:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RE14874",
-  "summary": "Security fix for ghsa-5843-p793-ghmm applied in: kafka-ui 1.4.2-r6",
+  "summary": "Security fix for GHSA-5843-p793-ghmm applied in: kafka-ui 1.4.2-r6",
   "details": "Security vulnerability affects the kafka-ui package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5843-p793-ghmm"
+    "GHSA-5843-p793-ghmm"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5843-p793-ghmm"
+      "url": "https://osv.dev/vulnerability/GHSA-5843-p793-ghmm"
     }
   ],
   "published": "2026-09-18T10:01:38.358350Z",
-  "modified": "2026-10-09T04:55:52Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

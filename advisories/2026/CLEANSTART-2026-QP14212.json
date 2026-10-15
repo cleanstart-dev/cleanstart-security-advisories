@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QP14212",
-  "summary": "Security fix for ghsa-vgwf-h737-ff37 applied in: amazon-cloudwatch-agent 1.300065.0-r1, bank-vaults 1.32.1-r1, cert-manager-webhook-pdns-fips 2.5.5-r1, cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, distribution-fips 3.1.1-r1, flux-image-automation-controller 1.2.1-r1, fulcio 1.8.7-r2, fulcio-fips 1.8.7-r1, grafana-agent-operator 0.44.3-r1, kaniko 1.24.0-r2, kubernetes 1.34.10-r2, kubernetes-dns-node-cache-fips 1.25.0-r1, metrics-server-fips 0.8.1-r3, node-problem-detector 1.35.2-r1, postgres-operator 1.12.2-r2, postgres-operator 1.13.0-r1, prometheus-adapter 0.12.0-r1, promxy 0.0.96-r3, step-ca-fips 0.30.2-r1, syft 1.43.0-r1, temporal-ui-server-fips 2.51.1-r1, trillian-fips 1.7.3-r1, yunikorn-k8shim 1.8.0-r1, yunikorn-k8shim-fips 1.8.0-r2",
-  "details": "ghsa-vgwf-h737-ff37 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vgwf-h737-ff37 applied in: amazon-cloudwatch-agent 1.300065.0-r1, bank-vaults 1.32.1-r1, cert-manager-webhook-pdns-fips 2.5.5-r1, cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, distribution-fips 3.1.1-r1, flux-image-automation-controller 1.2.1-r1, fulcio 1.8.7-r2, fulcio-fips 1.8.7-r1, grafana-agent-operator 0.44.3-r1, kaniko 1.24.0-r2, kubernetes 1.34.10-r2, kubernetes-dns-node-cache-fips 1.25.0-r1, metrics-server-fips 0.8.1-r3, node-problem-detector 1.35.2-r1, postgres-operator 1.12.2-r2, postgres-operator 1.13.0-r1, prometheus-adapter 0.12.0-r1, promxy 0.0.96-r3, step-ca-fips 0.30.2-r1, syft 1.43.0-r1, temporal-ui-server-fips 2.51.1-r1, trillian-fips 1.7.3-r1, yunikorn-k8shim 1.8.0-r1, yunikorn-k8shim-fips 1.8.0-r2",
+  "details": "GHSA-vgwf-h737-ff37 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -546,7 +546,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vgwf-h737-ff37"
+    "GHSA-vgwf-h737-ff37"
   ],
   "references": [
     {
@@ -555,11 +555,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vgwf-h737-ff37"
+      "url": "https://osv.dev/vulnerability/GHSA-vgwf-h737-ff37"
     }
   ],
   "published": "2026-09-18T09:52:57.603570Z",
-  "modified": "2026-10-09T04:47:10Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PK67408",
-  "summary": "Security fix for ghsa-gr75-jv2w-4656 applied in: py3-langgraph-prebuilt 1.1.0-r0",
+  "summary": "Security fix for GHSA-gr75-jv2w-4656 applied in: py3-langgraph-prebuilt 1.1.0-r0",
   "details": "Security vulnerability affects the py3-langgraph-prebuilt package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gr75-jv2w-4656"
+    "GHSA-gr75-jv2w-4656"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gr75-jv2w-4656"
+      "url": "https://osv.dev/vulnerability/GHSA-gr75-jv2w-4656"
     }
   ],
   "published": "2026-09-18T09:57:41.481485Z",
-  "modified": "2026-10-09T04:31:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-GN45223",
-  "summary": "Security fix for ghsa-xr7q-jx4m-x55m applied in: argo-workflows-fips 3.5.15-r1",
+  "summary": "Security fix for GHSA-xr7q-jx4m-x55m applied in: argo-workflows-fips 3.5.15-r1",
   "details": "Security vulnerability affects the argo-workflows-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xr7q-jx4m-x55m"
+    "GHSA-xr7q-jx4m-x55m"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xr7q-jx4m-x55m"
+      "url": "https://osv.dev/vulnerability/GHSA-xr7q-jx4m-x55m"
     }
   ],
   "published": "2026-09-18T10:30:43.228578Z",
-  "modified": "2026-10-08T17:54:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

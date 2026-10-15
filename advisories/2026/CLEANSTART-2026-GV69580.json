@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GV69580",
-  "summary": "Security fix for ghsa-537c-gmf6-5ccf applied in: airflow-2 2.11.0-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4, apache-superset 5.0.0-r8, apache-superset 6.0.0-r6, az 2.83.0-r3, az 2.84.0-r4, jupyterhub-k8s-hub 4.3.5-r2, k8s-sidecar 2.4.0-r1, k8s-sidecar 2.5.5-r0, litellm-database 1.90.2-r0, py3-jupyterhub 5.4.6-r3, tensorflow-gpu-jupyter 2.21.0-r8",
-  "details": "ghsa-537c-gmf6-5ccf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-537c-gmf6-5ccf applied in: airflow-2 2.11.0-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4, apache-superset 5.0.0-r8, apache-superset 6.0.0-r6, az 2.83.0-r3, az 2.84.0-r4, jupyterhub-k8s-hub 4.3.5-r2, k8s-sidecar 2.4.0-r1, k8s-sidecar 2.5.5-r0, litellm-database 1.90.2-r0, py3-jupyterhub 5.4.6-r3, tensorflow-gpu-jupyter 2.21.0-r8",
+  "details": "GHSA-537c-gmf6-5ccf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -286,7 +286,7 @@
     }
   ],
   "upstream": [
-    "ghsa-537c-gmf6-5ccf"
+    "GHSA-537c-gmf6-5ccf"
   ],
   "references": [
     {
@@ -295,11 +295,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-537c-gmf6-5ccf"
+      "url": "https://osv.dev/vulnerability/GHSA-537c-gmf6-5ccf"
     }
   ],
   "published": "2026-09-18T09:58:44.992222Z",
-  "modified": "2026-10-08T19:25:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FW53154",
-  "summary": "Security fix for ghsa-r277-6w6q-xmqw applied in: grafana 12.3.10-r1, grafana 12.3.8-r2, grafana 12.4.5-r2, grafana 12.4.6-r0, grafana 12.4.7-r1, grafana 12.4.9-r1, grafana 13.0.5-r1, grafana 13.0.7-r1",
-  "details": "ghsa-r277-6w6q-xmqw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r277-6w6q-xmqw applied in: grafana 12.3.10-r1, grafana 12.3.8-r2, grafana 12.4.5-r2, grafana 12.4.6-r0, grafana 12.4.7-r1, grafana 12.4.9-r1, grafana 13.0.5-r1, grafana 13.0.7-r1",
+  "details": "GHSA-r277-6w6q-xmqw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r277-6w6q-xmqw"
+    "GHSA-r277-6w6q-xmqw"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r277-6w6q-xmqw"
+      "url": "https://osv.dev/vulnerability/GHSA-r277-6w6q-xmqw"
     }
   ],
   "published": "2026-09-18T09:46:14.035364Z",
-  "modified": "2026-10-08T19:14:52Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

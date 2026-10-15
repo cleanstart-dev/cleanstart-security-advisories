@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RV38622",
-  "summary": "Security fix for ghsa-wmfp-5q7x-987x applied in: kibana 9.3.2-r3",
+  "summary": "Security fix for GHSA-wmfp-5q7x-987x applied in: kibana 9.3.2-r3",
   "details": "Security vulnerability affects the kibana package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wmfp-5q7x-987x"
+    "GHSA-wmfp-5q7x-987x"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wmfp-5q7x-987x"
+      "url": "https://osv.dev/vulnerability/GHSA-wmfp-5q7x-987x"
     }
   ],
   "published": "2026-09-18T10:10:37.731906Z",
-  "modified": "2026-10-09T05:04:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

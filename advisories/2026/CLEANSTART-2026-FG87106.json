@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FG87106",
-  "summary": "Security fix for ghsa-w9fj-cfpg-grvv applied in: cloud-config-server 4.3.2-r3, cloudwatch-exporter 0.16.0-r1, elasticsearch 9.2.7-r0, incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, kafka-ui 1.2.0-r4, kafka-ui 1.3.0-r2, kafka-ui 1.4.2-r5, keycloak 26.4.10-r0, keycloak 26.4.11-r2, keycloak 26.5.6-r3, keycloak 26.5.6-r5, keycloak 26.5.7-r0, keycloak 26.6.1-r1, kogito-apps 10.1.0-r1, kserve-modelmesh 0.10.0-r0, kserve-modelmesh 0.12.0-r0, management-api-for-apache-cassandra-5.0 0.1.111-r2, management-api-for-apache-cassandra-5.0 0.1.118-r2, s3proxy 3.3.0-r1, sonarqube 25.12.0.117093-r3, sonarqube 26.4.0.121862-r2, spark-sc213-jdk17-py311 4.1.1-r2, stargate 2.0.44-r6, stargate 2.0.48-r0, strimzi-kafka-operator 0.50.1-r1, thingsboard 4.3.1-r1, thingsboard 4.3.1.1-r0, wavefront-proxy 13.7-r0, wavefront-proxy 13.8-r0, wildfly 39.0.1-r0",
-  "details": "ghsa-w9fj-cfpg-grvv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w9fj-cfpg-grvv applied in: cloud-config-server 4.3.2-r3, cloudwatch-exporter 0.16.0-r1, elasticsearch 9.2.7-r0, incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, kafka-ui 1.2.0-r4, kafka-ui 1.3.0-r2, kafka-ui 1.4.2-r5, keycloak 26.4.10-r0, keycloak 26.4.11-r2, keycloak 26.5.6-r3, keycloak 26.5.6-r5, keycloak 26.5.7-r0, keycloak 26.6.1-r1, kogito-apps 10.1.0-r1, kserve-modelmesh 0.10.0-r0, kserve-modelmesh 0.12.0-r0, management-api-for-apache-cassandra-5.0 0.1.111-r2, management-api-for-apache-cassandra-5.0 0.1.118-r2, s3proxy 3.3.0-r1, sonarqube 25.12.0.117093-r3, sonarqube 26.4.0.121862-r2, spark-sc213-jdk17-py311 4.1.1-r2, stargate 2.0.44-r6, stargate 2.0.48-r0, strimzi-kafka-operator 0.50.1-r1, thingsboard 4.3.1-r1, thingsboard 4.3.1.1-r0, wavefront-proxy 13.7-r0, wavefront-proxy 13.8-r0, wildfly 39.0.1-r0",
+  "details": "GHSA-w9fj-cfpg-grvv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -606,7 +606,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w9fj-cfpg-grvv"
+    "GHSA-w9fj-cfpg-grvv"
   ],
   "references": [
     {
@@ -615,11 +615,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w9fj-cfpg-grvv"
+      "url": "https://osv.dev/vulnerability/GHSA-w9fj-cfpg-grvv"
     }
   ],
   "published": "2026-09-18T10:24:16.208517Z",
-  "modified": "2026-10-08T19:06:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

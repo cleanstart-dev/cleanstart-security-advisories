@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FR04537",
-  "summary": "Security fix for ghsa-pwv6-vv43-88gr applied in: apache-superset 6.0.0-r5",
+  "summary": "Security fix for GHSA-pwv6-vv43-88gr applied in: apache-superset 6.0.0-r5",
   "details": "Security vulnerability affects the apache-superset package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pwv6-vv43-88gr"
+    "GHSA-pwv6-vv43-88gr"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pwv6-vv43-88gr"
+      "url": "https://osv.dev/vulnerability/GHSA-pwv6-vv43-88gr"
     }
   ],
   "published": "2026-09-18T09:52:51.974818Z",
-  "modified": "2026-10-08T19:11:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

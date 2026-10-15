@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZB76140",
-  "summary": "Security fix for ghsa-fjxv-7rqg-78g4 applied in: jitsucom-jitsu 2.11.0-r2, mongosh 2.8.1-r0",
-  "details": "ghsa-fjxv-7rqg-78g4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fjxv-7rqg-78g4 applied in: jitsucom-jitsu 2.11.0-r2, mongosh 2.8.1-r0",
+  "details": "GHSA-fjxv-7rqg-78g4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fjxv-7rqg-78g4"
+    "GHSA-fjxv-7rqg-78g4"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fjxv-7rqg-78g4"
+      "url": "https://osv.dev/vulnerability/GHSA-fjxv-7rqg-78g4"
     }
   ],
   "published": "2026-09-18T10:26:33.731167Z",
-  "modified": "2026-10-09T07:08:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

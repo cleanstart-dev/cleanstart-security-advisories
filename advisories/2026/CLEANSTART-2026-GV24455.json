@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GV24455",
-  "summary": "Security fix for ghsa-mf9w-mj56-hr94 applied in: airflow-2 2.10.3-r2, apache-superset 5.0.0-r7",
-  "details": "ghsa-mf9w-mj56-hr94 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mf9w-mj56-hr94 applied in: airflow-2 2.10.3-r2, apache-superset 5.0.0-r7",
+  "details": "GHSA-mf9w-mj56-hr94 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mf9w-mj56-hr94"
+    "GHSA-mf9w-mj56-hr94"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mf9w-mj56-hr94"
+      "url": "https://osv.dev/vulnerability/GHSA-mf9w-mj56-hr94"
     }
   ],
   "published": "2026-09-18T10:00:02.765570Z",
-  "modified": "2026-10-08T19:25:34Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

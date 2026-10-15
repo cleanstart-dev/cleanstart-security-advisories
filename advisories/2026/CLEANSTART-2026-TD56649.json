@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TD56649",
-  "summary": "Security fix for ghsa-9g9p-9gw9-jx7f applied in: jitsucom-jitsu 2.11.0-r2",
+  "summary": "Security fix for GHSA-9g9p-9gw9-jx7f applied in: jitsucom-jitsu 2.11.0-r2",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9g9p-9gw9-jx7f"
+    "GHSA-9g9p-9gw9-jx7f"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9g9p-9gw9-jx7f"
+      "url": "https://osv.dev/vulnerability/GHSA-9g9p-9gw9-jx7f"
     }
   ],
   "published": "2026-09-18T10:26:41.084805Z",
-  "modified": "2026-10-09T05:49:24Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

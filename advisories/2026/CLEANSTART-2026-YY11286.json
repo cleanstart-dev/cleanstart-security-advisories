@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YY11286",
-  "summary": "Security fix for ghsa-p88m-4jfj-68fv applied in: npm 11.14.0-r4, npm 11.17.0-r1",
-  "details": "ghsa-p88m-4jfj-68fv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-p88m-4jfj-68fv applied in: npm 11.14.0-r4, npm 11.17.0-r1",
+  "details": "GHSA-p88m-4jfj-68fv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p88m-4jfj-68fv"
+    "GHSA-p88m-4jfj-68fv"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p88m-4jfj-68fv"
+      "url": "https://osv.dev/vulnerability/GHSA-p88m-4jfj-68fv"
     }
   ],
   "published": "2026-09-18T09:57:55.726649Z",
-  "modified": "2026-10-09T07:07:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

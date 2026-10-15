@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QL10579",
-  "summary": "Security fix for ghsa-hfvc-g4fc-pqhx applied in: gcp-compute-persistent-disk-csi-driver 1.25.0-r0",
+  "summary": "Security fix for GHSA-hfvc-g4fc-pqhx applied in: gcp-compute-persistent-disk-csi-driver 1.25.0-r0",
   "details": "Security vulnerability affects the gcp-compute-persistent-disk-csi-driver package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hfvc-g4fc-pqhx"
+    "GHSA-hfvc-g4fc-pqhx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hfvc-g4fc-pqhx"
+      "url": "https://osv.dev/vulnerability/GHSA-hfvc-g4fc-pqhx"
     }
   ],
   "published": "2026-10-09T00:36:43.637534Z",
-  "modified": "2026-10-08T10:26:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

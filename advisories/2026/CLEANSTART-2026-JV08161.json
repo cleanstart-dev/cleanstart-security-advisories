@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JV08161",
-  "summary": "Security fix for ghsa-fvcv-3m26-pcqx applied in: mongosh 2.8.2-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-fvcv-3m26-pcqx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fvcv-3m26-pcqx applied in: mongosh 2.8.2-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-fvcv-3m26-pcqx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fvcv-3m26-pcqx"
+    "GHSA-fvcv-3m26-pcqx"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fvcv-3m26-pcqx"
+      "url": "https://osv.dev/vulnerability/GHSA-fvcv-3m26-pcqx"
     }
   ],
   "published": "2026-09-18T10:20:46.036648Z",
-  "modified": "2026-10-09T03:11:58Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

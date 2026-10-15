@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RG68334",
-  "summary": "Security fix for ghsa-jm66-cg57-jjv5 applied in: airflow-2 2.10.3-r2, az 2.81.0-r0",
-  "details": "ghsa-jm66-cg57-jjv5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jm66-cg57-jjv5 applied in: airflow-2 2.10.3-r2, az 2.81.0-r0",
+  "details": "GHSA-jm66-cg57-jjv5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jm66-cg57-jjv5"
+    "GHSA-jm66-cg57-jjv5"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jm66-cg57-jjv5"
+      "url": "https://osv.dev/vulnerability/GHSA-jm66-cg57-jjv5"
     }
   ],
   "published": "2026-09-18T10:24:55.926997Z",
-  "modified": "2026-10-09T04:56:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

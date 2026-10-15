@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VP00419",
-  "summary": "Security fix for ghsa-p782-xgp4-8hr8 applied in: go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0",
-  "details": "ghsa-p782-xgp4-8hr8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-p782-xgp4-8hr8 applied in: go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0",
+  "details": "GHSA-p782-xgp4-8hr8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p782-xgp4-8hr8"
+    "GHSA-p782-xgp4-8hr8"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p782-xgp4-8hr8"
+      "url": "https://osv.dev/vulnerability/GHSA-p782-xgp4-8hr8"
     }
   ],
   "published": "2026-09-18T10:32:30.548580Z",
-  "modified": "2026-10-09T06:22:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

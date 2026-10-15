@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-DJ05365",
-  "summary": "Security fix for ghsa-2464-837c-4c3m applied in: kube-state-metrics-fips 2.17.0-r0",
+  "summary": "Security fix for GHSA-2464-837c-4c3m applied in: kube-state-metrics-fips 2.17.0-r0",
   "details": "Security vulnerability affects the kube-state-metrics-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2464-837c-4c3m"
+    "GHSA-2464-837c-4c3m"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2464-837c-4c3m"
+      "url": "https://osv.dev/vulnerability/GHSA-2464-837c-4c3m"
     }
   ],
   "published": "2026-09-18T10:32:58.453502Z",
-  "modified": "2026-10-08T17:54:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

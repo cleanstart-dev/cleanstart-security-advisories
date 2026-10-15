@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZL12705",
-  "summary": "Security fix for ghsa-cgp8-4m63-fhh5 applied in: druid-fips 35.0.0-r1, spark-sc213-jdk17-py312 3.5.8-r0",
-  "details": "ghsa-cgp8-4m63-fhh5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cgp8-4m63-fhh5 applied in: druid-fips 35.0.0-r1, spark-sc213-jdk17-py312 3.5.8-r0",
+  "details": "GHSA-cgp8-4m63-fhh5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cgp8-4m63-fhh5"
+    "GHSA-cgp8-4m63-fhh5"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cgp8-4m63-fhh5"
+      "url": "https://osv.dev/vulnerability/GHSA-cgp8-4m63-fhh5"
     }
   ],
   "published": "2026-09-18T10:31:19.243049Z",
-  "modified": "2026-10-09T07:13:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

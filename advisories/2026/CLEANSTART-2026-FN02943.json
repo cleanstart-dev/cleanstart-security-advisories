@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FN02943",
-  "summary": "Security fix for ghsa-r275-fr43-pm7q applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-r275-fr43-pm7q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r275-fr43-pm7q applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-r275-fr43-pm7q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r275-fr43-pm7q"
+    "GHSA-r275-fr43-pm7q"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r275-fr43-pm7q"
+      "url": "https://osv.dev/vulnerability/GHSA-r275-fr43-pm7q"
     }
   ],
   "published": "2026-09-18T10:26:44.628189Z",
-  "modified": "2026-10-08T19:09:11Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PI18727",
-  "summary": "Security fix for ghsa-v2wj-7wpq-c8vv applied in: opensearch-dashboards-fips 3.5.0-r1",
+  "summary": "Security fix for GHSA-v2wj-7wpq-c8vv applied in: opensearch-dashboards-fips 3.5.0-r1",
   "details": "Security vulnerability affects the opensearch-dashboards-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v2wj-7wpq-c8vv"
+    "GHSA-v2wj-7wpq-c8vv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v2wj-7wpq-c8vv"
+      "url": "https://osv.dev/vulnerability/GHSA-v2wj-7wpq-c8vv"
     }
   ],
   "published": "2026-09-18T10:15:14.219962Z",
-  "modified": "2026-10-09T04:29:57Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

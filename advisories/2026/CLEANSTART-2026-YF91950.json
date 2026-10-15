@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YF91950",
-  "summary": "Security fix for ghsa-m7cr-m3pv-hgrp applied in: apko 1.2.13-r0, argo-cd 3.1.16-r1, argo-cd 3.2.12-r0, argo-cd 3.2.7-r3, argo-cd 3.3.11-r0, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r2, argo-events 1.9.10-r1, argo-workflows 4.0.5-r0, argo-workflows-fips 4.0.6-r1, external-secrets-fips 0.17.0-r2, kubevela 1.10.8-r0, kyverno 1.18.1-r2, pulumi-kubernetes-operator 2.7.0-r0",
-  "details": "ghsa-m7cr-m3pv-hgrp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-m7cr-m3pv-hgrp applied in: apko 1.2.13-r0, argo-cd 3.1.16-r1, argo-cd 3.2.12-r0, argo-cd 3.2.7-r3, argo-cd 3.3.11-r0, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r2, argo-events 1.9.10-r1, argo-workflows 4.0.5-r0, argo-workflows-fips 4.0.6-r1, external-secrets-fips 0.17.0-r2, kubevela 1.10.8-r0, kyverno 1.18.1-r2, pulumi-kubernetes-operator 2.7.0-r0",
+  "details": "GHSA-m7cr-m3pv-hgrp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -286,7 +286,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m7cr-m3pv-hgrp"
+    "GHSA-m7cr-m3pv-hgrp"
   ],
   "references": [
     {
@@ -295,11 +295,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m7cr-m3pv-hgrp"
+      "url": "https://osv.dev/vulnerability/GHSA-m7cr-m3pv-hgrp"
     }
   ],
   "published": "2026-09-18T10:09:08.219752Z",
-  "modified": "2026-10-09T06:57:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

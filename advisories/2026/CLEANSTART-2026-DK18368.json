@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DK18368",
-  "summary": "Security fix for ghsa-m6hq-p25p-ffr2 applied in: argo-cd-fips 2.13.9-r4, cert-manager-cmctl 2.3.0-r0, helm-fips 3.17-4-r1, helm-fips 3.19.0-r1, helm-fips 3.19.0-r2, k8sgpt 0.4.26-r0, k8ssandra-client-fips 0.7.0-r2, k8ssandra-client-fips 0.7.0-r4, kaniko 1.24.0-r0, kaniko-fips 1.24.0-r0, kubevela 1.10.4-r0, kubevela 1.10.5-r0, skaffold 2.16.1-r1, trivy-fips 0.67.2-r0, velero 1.17.0-r0",
-  "details": "ghsa-m6hq-p25p-ffr2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-m6hq-p25p-ffr2 applied in: argo-cd-fips 2.13.9-r4, cert-manager-cmctl 2.3.0-r0, helm-fips 3.17-4-r1, helm-fips 3.19.0-r1, helm-fips 3.19.0-r2, k8sgpt 0.4.26-r0, k8ssandra-client-fips 0.7.0-r2, k8ssandra-client-fips 0.7.0-r4, kaniko 1.24.0-r0, kaniko-fips 1.24.0-r0, kubevela 1.10.4-r0, kubevela 1.10.5-r0, skaffold 2.16.1-r1, trivy-fips 0.67.2-r0, velero 1.17.0-r0",
+  "details": "GHSA-m6hq-p25p-ffr2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -306,7 +306,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m6hq-p25p-ffr2"
+    "GHSA-m6hq-p25p-ffr2"
   ],
   "references": [
     {
@@ -315,11 +315,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m6hq-p25p-ffr2"
+      "url": "https://osv.dev/vulnerability/GHSA-m6hq-p25p-ffr2"
     }
   ],
   "published": "2026-09-18T10:32:29.284065Z",
-  "modified": "2026-10-08T18:40:54Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VJ88910",
-  "summary": "Security fix for ghsa-mj87-hwqh-73pj applied in: airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
-  "details": "ghsa-mj87-hwqh-73pj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mj87-hwqh-73pj applied in: airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
+  "details": "GHSA-mj87-hwqh-73pj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mj87-hwqh-73pj"
+    "GHSA-mj87-hwqh-73pj"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mj87-hwqh-73pj"
+      "url": "https://osv.dev/vulnerability/GHSA-mj87-hwqh-73pj"
     }
   ],
   "published": "2026-09-18T09:46:47.228381Z",
-  "modified": "2026-10-09T06:19:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

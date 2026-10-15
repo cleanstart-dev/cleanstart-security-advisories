@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HD42236",
-  "summary": "Security fix for ghsa-r5fr-rjxr-66jc applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r1, mongosh 2.8.2-r2, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.123.6-r0, sqlpad 7.5.7-r1",
-  "details": "ghsa-r5fr-rjxr-66jc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r5fr-rjxr-66jc applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r1, mongosh 2.8.2-r2, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.123.6-r0, sqlpad 7.5.7-r1",
+  "details": "GHSA-r5fr-rjxr-66jc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -226,7 +226,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r5fr-rjxr-66jc"
+    "GHSA-r5fr-rjxr-66jc"
   ],
   "references": [
     {
@@ -235,11 +235,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r5fr-rjxr-66jc"
+      "url": "https://osv.dev/vulnerability/GHSA-r5fr-rjxr-66jc"
     }
   ],
   "published": "2026-09-18T10:23:21.353731Z",
-  "modified": "2026-10-08T19:30:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

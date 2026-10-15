@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HH77101",
-  "summary": "Security fix for ghsa-h2qv-fj59-j46j applied in: keycloak 26.4.2-r0, keycloak 26.4.7-r4, keycloak 26.5.6-r6, keycloak 26.5.7-r1, keycloak 26.6.3-r2, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1",
-  "details": "ghsa-h2qv-fj59-j46j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-h2qv-fj59-j46j applied in: keycloak 26.4.2-r0, keycloak 26.4.7-r4, keycloak 26.5.6-r6, keycloak 26.5.7-r1, keycloak 26.6.3-r2, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1",
+  "details": "GHSA-h2qv-fj59-j46j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-h2qv-fj59-j46j"
+    "GHSA-h2qv-fj59-j46j"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-h2qv-fj59-j46j"
+      "url": "https://osv.dev/vulnerability/GHSA-h2qv-fj59-j46j"
     }
   ],
   "published": "2026-09-18T10:00:01.180509Z",
-  "modified": "2026-10-08T19:32:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

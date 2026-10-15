@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RW00799",
-  "summary": "Security fix for ghsa-f6x5-jh6r-wrfv applied in: consul 1.21.5-r0",
+  "summary": "Security fix for GHSA-f6x5-jh6r-wrfv applied in: consul 1.21.5-r0",
   "details": "Security vulnerability affects the consul package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-f6x5-jh6r-wrfv"
+    "GHSA-f6x5-jh6r-wrfv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-f6x5-jh6r-wrfv"
+      "url": "https://osv.dev/vulnerability/GHSA-f6x5-jh6r-wrfv"
     }
   ],
   "published": "2026-10-02T00:35:55.840612Z",
-  "modified": "2026-10-09T05:05:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

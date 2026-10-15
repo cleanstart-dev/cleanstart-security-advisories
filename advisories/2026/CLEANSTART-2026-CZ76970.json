@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CZ76970",
-  "summary": "Security fix for ghsa-r399-636x-v7f6 applied in: kibana 9.3.2-r3",
+  "summary": "Security fix for GHSA-r399-636x-v7f6 applied in: kibana 9.3.2-r3",
   "details": "Security vulnerability affects the kibana package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r399-636x-v7f6"
+    "GHSA-r399-636x-v7f6"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r399-636x-v7f6"
+      "url": "https://osv.dev/vulnerability/GHSA-r399-636x-v7f6"
     }
   ],
   "published": "2026-09-18T10:10:41.564869Z",
-  "modified": "2026-10-08T18:34:58Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

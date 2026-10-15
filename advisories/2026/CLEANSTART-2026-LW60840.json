@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LW60840",
-  "summary": "Security fix for ghsa-6jqx-86gh-f27w applied in: logstash-fips 9.4.3-r1, strimzi-kafka-operator 1.1.0-r2",
-  "details": "ghsa-6jqx-86gh-f27w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6jqx-86gh-f27w applied in: logstash-fips 9.4.3-r1, strimzi-kafka-operator 1.1.0-r2",
+  "details": "GHSA-6jqx-86gh-f27w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6jqx-86gh-f27w"
+    "GHSA-6jqx-86gh-f27w"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6jqx-86gh-f27w"
+      "url": "https://osv.dev/vulnerability/GHSA-6jqx-86gh-f27w"
     }
   ],
   "published": "2026-09-18T09:49:10.274281Z",
-  "modified": "2026-10-09T03:42:10Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

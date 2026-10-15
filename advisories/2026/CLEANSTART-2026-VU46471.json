@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VU46471",
-  "summary": "Security fix for ghsa-9g5q-2w5x-hmxf applied in: step-ca 0.28.4-r5",
+  "summary": "Security fix for GHSA-9g5q-2w5x-hmxf applied in: step-ca 0.28.4-r5",
   "details": "Security vulnerability affects the step-ca package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9g5q-2w5x-hmxf"
+    "GHSA-9g5q-2w5x-hmxf"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9g5q-2w5x-hmxf"
+      "url": "https://osv.dev/vulnerability/GHSA-9g5q-2w5x-hmxf"
     }
   ],
   "published": "2026-09-29T00:34:07.512019Z",
-  "modified": "2026-10-09T06:24:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

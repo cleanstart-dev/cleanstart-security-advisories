@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FG96390",
-  "summary": "Security fix for ghsa-8wmf-6v46-5gfg applied in: kube-state-metrics-fips 2.19.1-r2",
+  "summary": "Security fix for GHSA-8wmf-6v46-5gfg applied in: kube-state-metrics-fips 2.19.1-r2",
   "details": "Security vulnerability affects the kube-state-metrics-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8wmf-6v46-5gfg"
+    "GHSA-8wmf-6v46-5gfg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8wmf-6v46-5gfg"
+      "url": "https://osv.dev/vulnerability/GHSA-8wmf-6v46-5gfg"
     }
   ],
   "published": "2026-10-01T00:35:01.728297Z",
-  "modified": "2026-10-08T19:07:01Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

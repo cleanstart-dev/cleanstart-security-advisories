@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NU42168",
-  "summary": "Security fix for ghsa-m6qw-4cw2-hm4m applied in: airflow-2 2.10.3-r3",
+  "summary": "Security fix for GHSA-m6qw-4cw2-hm4m applied in: airflow-2 2.10.3-r3",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m6qw-4cw2-hm4m"
+    "GHSA-m6qw-4cw2-hm4m"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m6qw-4cw2-hm4m"
+      "url": "https://osv.dev/vulnerability/GHSA-m6qw-4cw2-hm4m"
     }
   ],
   "published": "2026-09-18T09:59:29.550079Z",
-  "modified": "2026-10-09T04:09:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

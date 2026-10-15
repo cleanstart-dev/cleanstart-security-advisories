@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-UI83674",
-  "summary": "Security fix for ghsa-rr8g-9fpq-6wmg applied in: ztunnel-fips 1.25.5-r0",
+  "summary": "Security fix for GHSA-rr8g-9fpq-6wmg applied in: ztunnel-fips 1.25.5-r0",
   "details": "Security vulnerability affects the ztunnel-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rr8g-9fpq-6wmg"
+    "GHSA-rr8g-9fpq-6wmg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rr8g-9fpq-6wmg"
+      "url": "https://osv.dev/vulnerability/GHSA-rr8g-9fpq-6wmg"
     }
   ],
   "published": "2026-09-18T10:32:23.554457Z",
-  "modified": "2026-10-08T17:54:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

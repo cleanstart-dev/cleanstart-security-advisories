@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NC69748",
-  "summary": "Security fix for ghsa-2464-8j7c-4cjm applied in: argo-events 1.9.7-r1, argo-workflows 3.6.16-r0, fulcio 1.7.1-r0, istio 1.27.1-r0, istio 1.28.7-r0, kyverno-fips 1.13.6-r1, kyverno-policy-reporter-fips 3.4.2-r0, kyverno-policy-reporter-fips 3.5.0-r0, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, opentofu-fips 1.10.7-r0, opentofu-fips 1.10.7-r1, spark-operator 2.2.1-r0, tempo 2.7.2-r0, tempo 2.8.3-r0, tempo-fips 2.7.2-r0, tempo-fips 2.8.3-r0, tempo-fips 2.9.1-r0",
-  "details": "ghsa-2464-8j7c-4cjm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2464-8j7c-4cjm applied in: argo-events 1.9.7-r1, argo-workflows 3.6.16-r0, fulcio 1.7.1-r0, istio 1.27.1-r0, istio 1.28.7-r0, kyverno-fips 1.13.6-r1, kyverno-policy-reporter-fips 3.4.2-r0, kyverno-policy-reporter-fips 3.5.0-r0, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, opentofu-fips 1.10.7-r0, opentofu-fips 1.10.7-r1, spark-operator 2.2.1-r0, tempo 2.7.2-r0, tempo 2.8.3-r0, tempo-fips 2.7.2-r0, tempo-fips 2.8.3-r0, tempo-fips 2.9.1-r0",
+  "details": "GHSA-2464-8j7c-4cjm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -346,7 +346,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2464-8j7c-4cjm"
+    "GHSA-2464-8j7c-4cjm"
   ],
   "references": [
     {
@@ -355,11 +355,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2464-8j7c-4cjm"
+      "url": "https://osv.dev/vulnerability/GHSA-2464-8j7c-4cjm"
     }
   ],
   "published": "2026-09-18T10:32:51.750487Z",
-  "modified": "2026-10-09T03:58:05Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

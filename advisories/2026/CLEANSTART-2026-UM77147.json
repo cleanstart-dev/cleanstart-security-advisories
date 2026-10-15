@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UM77147",
-  "summary": "Security fix for ghsa-9g5q-2w5x-hmxf applied in: caddy 2.11.4-r1, step 0.30.2-r4",
-  "details": "ghsa-9g5q-2w5x-hmxf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9g5q-2w5x-hmxf applied in: caddy 2.11.4-r1, step 0.30.2-r4",
+  "details": "GHSA-9g5q-2w5x-hmxf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9g5q-2w5x-hmxf"
+    "GHSA-9g5q-2w5x-hmxf"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9g5q-2w5x-hmxf"
+      "url": "https://osv.dev/vulnerability/GHSA-9g5q-2w5x-hmxf"
     }
   ],
   "published": "2026-10-09T00:36:58.434290Z",
-  "modified": "2026-10-08T05:52:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

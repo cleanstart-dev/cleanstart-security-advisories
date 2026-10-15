@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BN31244",
-  "summary": "Security fix for ghsa-q8mj-m7cp-5q26 applied in: sqlpad 7.5.7-r1, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1, thingsboard-tb-web-ui 4.3.1.1-r1",
-  "details": "ghsa-q8mj-m7cp-5q26 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-q8mj-m7cp-5q26 applied in: sqlpad 7.5.7-r1, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1, thingsboard-tb-web-ui 4.3.1.1-r1",
+  "details": "GHSA-q8mj-m7cp-5q26 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q8mj-m7cp-5q26"
+    "GHSA-q8mj-m7cp-5q26"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q8mj-m7cp-5q26"
+      "url": "https://osv.dev/vulnerability/GHSA-q8mj-m7cp-5q26"
     }
   ],
   "published": "2026-09-18T09:55:09.788820Z",
-  "modified": "2026-10-08T18:12:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

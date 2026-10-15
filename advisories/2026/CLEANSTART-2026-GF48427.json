@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GF48427",
-  "summary": "Security fix for ghsa-5xqw-8hwv-wg92 applied in: cert-manager-cmctl-fips 2.1.1-r0, chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4, kubevela 1.10.8-r0",
-  "details": "ghsa-5xqw-8hwv-wg92 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-5xqw-8hwv-wg92 applied in: cert-manager-cmctl-fips 2.1.1-r0, chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4, kubevela 1.10.8-r0",
+  "details": "GHSA-5xqw-8hwv-wg92 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5xqw-8hwv-wg92"
+    "GHSA-5xqw-8hwv-wg92"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5xqw-8hwv-wg92"
+      "url": "https://osv.dev/vulnerability/GHSA-5xqw-8hwv-wg92"
     }
   ],
   "published": "2026-09-18T10:31:28.354662Z",
-  "modified": "2026-10-08T19:19:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

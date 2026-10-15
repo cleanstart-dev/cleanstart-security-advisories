@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-MP55739",
-  "summary": "Security fix for ghsa-f6x5-jh6r-wnfv applied in: cloud-provider-aws-1.34 1.34.1-r1",
+  "summary": "Security fix for GHSA-f6x5-jh6r-wnfv applied in: cloud-provider-aws-1.34 1.34.1-r1",
   "details": "Security vulnerability affects the cloud-provider-aws-1.34 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-f6x5-jh6r-wnfv"
+    "GHSA-f6x5-jh6r-wnfv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-f6x5-jh6r-wnfv"
+      "url": "https://osv.dev/vulnerability/GHSA-f6x5-jh6r-wnfv"
     }
   ],
   "published": "2026-09-18T10:32:19.308967Z",
-  "modified": "2026-10-08T17:54:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

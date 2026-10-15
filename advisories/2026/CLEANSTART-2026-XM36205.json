@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XM36205",
-  "summary": "Security fix for ghsa-f4gw-2p7v-4548 applied in: n8n 2.28.0-r2",
+  "summary": "Security fix for GHSA-f4gw-2p7v-4548 applied in: n8n 2.28.0-r2",
   "details": "Security vulnerability affects the n8n package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-f4gw-2p7v-4548"
+    "GHSA-f4gw-2p7v-4548"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-f4gw-2p7v-4548"
+      "url": "https://osv.dev/vulnerability/GHSA-f4gw-2p7v-4548"
     }
   ],
   "published": "2026-09-18T09:38:20.071079Z",
-  "modified": "2026-10-09T06:46:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

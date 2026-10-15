@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BJ08880",
-  "summary": "Security fix for ghsa-37cx-329c-33x3 applied in: argo-cd 3.2.7-r0, argo-cd-fips 3.0.21-r0, argo-cd-fips 3.2.3-r0, argo-cd-fips 3.2.7-r0, argo-workflows 3.6.18-r0, argo-workflows 3.7.9-r0, argo-workflows-fips 3.6.16-r0, argo-workflows-fips 3.6.17-r1, argo-workflows-fips 3.6.18-r0, argo-workflows-fips 3.7.9-r0, argo-workflows-fips 3.7.9-r1, external-secrets-fips 0.17.0-r2, flux-image-automation-controller-fips 4.0.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.13.2-r0, kubescape 3.0.47-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 1.16.0-r0, timoni 0.25.2-r0",
-  "details": "ghsa-37cx-329c-33x3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-37cx-329c-33x3 applied in: argo-cd 3.2.7-r0, argo-cd-fips 3.0.21-r0, argo-cd-fips 3.2.3-r0, argo-cd-fips 3.2.7-r0, argo-workflows 3.6.18-r0, argo-workflows 3.7.9-r0, argo-workflows-fips 3.6.16-r0, argo-workflows-fips 3.6.17-r1, argo-workflows-fips 3.6.18-r0, argo-workflows-fips 3.7.9-r0, argo-workflows-fips 3.7.9-r1, external-secrets-fips 0.17.0-r2, flux-image-automation-controller-fips 4.0.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.13.2-r0, kubescape 3.0.47-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 1.16.0-r0, timoni 0.25.2-r0",
+  "details": "GHSA-37cx-329c-33x3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -386,7 +386,7 @@
     }
   ],
   "upstream": [
-    "ghsa-37cx-329c-33x3"
+    "GHSA-37cx-329c-33x3"
   ],
   "references": [
     {
@@ -395,11 +395,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-37cx-329c-33x3"
+      "url": "https://osv.dev/vulnerability/GHSA-37cx-329c-33x3"
     }
   ],
   "published": "2026-09-18T10:28:34.734329Z",
-  "modified": "2026-10-08T18:10:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

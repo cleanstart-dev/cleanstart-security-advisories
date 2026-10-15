@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UB80318",
-  "summary": "Security fix for ghsa-gcjh-h69q-9w9g applied in: kube-state-metrics 2.19.1-r3, kube-state-metrics 2.17.0-r6, kube-state-metrics 2.18.0-r9",
-  "details": "ghsa-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gcjh-h69q-9w9g applied in: kube-state-metrics 2.19.1-r3, kube-state-metrics 2.17.0-r6, kube-state-metrics 2.18.0-r9",
+  "details": "GHSA-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gcjh-h69q-9w9g"
+    "GHSA-gcjh-h69q-9w9g"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gcjh-h69q-9w9g"
+      "url": "https://osv.dev/vulnerability/GHSA-gcjh-h69q-9w9g"
     }
   ],
   "published": "2026-09-25T00:37:01.634996Z",
-  "modified": "2026-10-09T06:00:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

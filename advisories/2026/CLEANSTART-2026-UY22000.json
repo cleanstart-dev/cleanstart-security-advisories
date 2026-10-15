@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UY22000",
-  "summary": "Security fix for ghsa-m5qp-6w8w-w647 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
-  "details": "ghsa-m5qp-6w8w-w647 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-m5qp-6w8w-w647 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
+  "details": "GHSA-m5qp-6w8w-w647 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m5qp-6w8w-w647"
+    "GHSA-m5qp-6w8w-w647"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m5qp-6w8w-w647"
+      "url": "https://osv.dev/vulnerability/GHSA-m5qp-6w8w-w647"
     }
   ],
   "published": "2026-09-18T09:59:55.296483Z",
-  "modified": "2026-10-09T06:12:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

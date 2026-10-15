@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OZ34344",
-  "summary": "Security fix for ghsa-8396-jffm-qx4w applied in: grafana-fips 13.1.0-r1",
+  "summary": "Security fix for GHSA-8396-jffm-qx4w applied in: grafana-fips 13.1.0-r1",
   "details": "Security vulnerability affects the grafana-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8396-jffm-qx4w"
+    "GHSA-8396-jffm-qx4w"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8396-jffm-qx4w"
+      "url": "https://osv.dev/vulnerability/GHSA-8396-jffm-qx4w"
     }
   ],
   "published": "2026-10-15T00:39:01.294969Z",
-  "modified": "2026-10-14T12:16:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

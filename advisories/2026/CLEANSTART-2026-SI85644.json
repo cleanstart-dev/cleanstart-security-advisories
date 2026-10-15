@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SI85644",
-  "summary": "Security fix for ghsa-cq8v-f236-94qc applied in: wasmtime 40.0.0-r0, ztunnel-fips 1.27.8-r3, ztunnel-fips 1.28.5-r1, ztunnel-fips 1.28.7-r0, ztunnel-fips 1.29.1-r1, ztunnel-fips 1.30.0-r0",
-  "details": "ghsa-cq8v-f236-94qc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cq8v-f236-94qc applied in: wasmtime 40.0.0-r0, ztunnel-fips 1.27.8-r3, ztunnel-fips 1.28.5-r1, ztunnel-fips 1.28.7-r0, ztunnel-fips 1.29.1-r1, ztunnel-fips 1.30.0-r0",
+  "details": "GHSA-cq8v-f236-94qc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cq8v-f236-94qc"
+    "GHSA-cq8v-f236-94qc"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cq8v-f236-94qc"
+      "url": "https://osv.dev/vulnerability/GHSA-cq8v-f236-94qc"
     }
   ],
   "published": "2026-09-18T10:19:39.499805Z",
-  "modified": "2026-10-09T05:38:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

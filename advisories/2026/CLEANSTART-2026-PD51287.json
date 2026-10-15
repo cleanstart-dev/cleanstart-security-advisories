@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PD51287",
-  "summary": "Security fix for ghsa-29wx-vh33-7x7r applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, minio-operator 6.0.4-r5",
-  "details": "ghsa-29wx-vh33-7x7r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-29wx-vh33-7x7r applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, minio-operator 6.0.4-r5",
+  "details": "GHSA-29wx-vh33-7x7r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-29wx-vh33-7x7r"
+    "GHSA-29wx-vh33-7x7r"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-29wx-vh33-7x7r"
+      "url": "https://osv.dev/vulnerability/GHSA-29wx-vh33-7x7r"
     }
   ],
   "published": "2026-09-18T10:02:25.575778Z",
-  "modified": "2026-10-09T04:27:11Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

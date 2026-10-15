@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HD46315",
-  "summary": "Security fix for ghsa-9w3m-gqgf-c4p9 applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1, cassandra-reaper-fips 3.6.1-r3",
-  "details": "ghsa-9w3m-gqgf-c4p9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9w3m-gqgf-c4p9 applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1, cassandra-reaper-fips 3.6.1-r3",
+  "details": "GHSA-9w3m-gqgf-c4p9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9w3m-gqgf-c4p9"
+    "GHSA-9w3m-gqgf-c4p9"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9w3m-gqgf-c4p9"
+      "url": "https://osv.dev/vulnerability/GHSA-9w3m-gqgf-c4p9"
     }
   ],
   "published": "2026-09-18T10:26:22.146254Z",
-  "modified": "2026-10-08T19:30:01Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JE55781",
-  "summary": "Security fix for ghsa-phc3-fgpg-7m6h applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-phc3-fgpg-7m6h affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-phc3-fgpg-7m6h applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-phc3-fgpg-7m6h affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-phc3-fgpg-7m6h"
+    "GHSA-phc3-fgpg-7m6h"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-phc3-fgpg-7m6h"
+      "url": "https://osv.dev/vulnerability/GHSA-phc3-fgpg-7m6h"
     }
   ],
   "published": "2026-09-18T10:27:20.112002Z",
-  "modified": "2026-10-08T20:00:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

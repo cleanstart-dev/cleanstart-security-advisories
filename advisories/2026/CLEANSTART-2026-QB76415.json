@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QB76415",
-  "summary": "Security fix for ghsa-wf45-q9ch-q8gh applied in: amazon-cloudwatch-agent-fips 1.300066.1-r0, grafana-alloy 1.16.0-r0, kubernetes-event-exporter 1.7-r1, kubernetes-event-exporter-fips 1.7-r0, tempo 2.10.4-r1, temporal-server 1.31.1-r1, temporal-server-fips 1.31.1-r1, vault 1.20.4-r4, vault 1.21.4-r4, vault 2.0.0-r1",
-  "details": "ghsa-wf45-q9ch-q8gh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wf45-q9ch-q8gh applied in: amazon-cloudwatch-agent-fips 1.300066.1-r0, grafana-alloy 1.16.0-r0, kubernetes-event-exporter 1.7-r1, kubernetes-event-exporter-fips 1.7-r0, tempo 2.10.4-r1, temporal-server 1.31.1-r1, temporal-server-fips 1.31.1-r1, vault 1.20.4-r4, vault 1.21.4-r4, vault 2.0.0-r1",
+  "details": "GHSA-wf45-q9ch-q8gh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -206,7 +206,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wf45-q9ch-q8gh"
+    "GHSA-wf45-q9ch-q8gh"
   ],
   "references": [
     {
@@ -215,11 +215,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wf45-q9ch-q8gh"
+      "url": "https://osv.dev/vulnerability/GHSA-wf45-q9ch-q8gh"
     }
   ],
   "published": "2026-09-18T10:15:39.356357Z",
-  "modified": "2026-10-09T04:40:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

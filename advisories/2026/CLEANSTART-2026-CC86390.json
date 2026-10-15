@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CC86390",
-  "summary": "Security fix for ghsa-q83h-524g-xf6h applied in: ztunnel-fips 1.29.8-r0, ztunnel-fips 1.30.5-r0",
-  "details": "ghsa-q83h-524g-xf6h affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-q83h-524g-xf6h applied in: ztunnel-fips 1.29.8-r0, ztunnel-fips 1.30.5-r0",
+  "details": "GHSA-q83h-524g-xf6h affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q83h-524g-xf6h"
+    "GHSA-q83h-524g-xf6h"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q83h-524g-xf6h"
+      "url": "https://osv.dev/vulnerability/GHSA-q83h-524g-xf6h"
     }
   ],
   "published": "2026-09-29T00:37:06.038479Z",
-  "modified": "2026-10-08T18:22:39Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RX78395",
-  "summary": "Security fix for ghsa-gcjh-h69q-9w9g applied in: kube-state-metrics-fips 2.20.0-r3, eks-distro-kube-scheduler 1.36.9-r2, eks-distro-kube-controller-manager-fips 1.36.8-r0, eks-distro-kube-apiserver 1.36.8-r0, eks-distro-kube-apiserver-fips 1.36.8-r0",
-  "details": "ghsa-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gcjh-h69q-9w9g applied in: kube-state-metrics-fips 2.20.0-r3, eks-distro-kube-scheduler 1.36.9-r2, eks-distro-kube-controller-manager-fips 1.36.8-r0, eks-distro-kube-apiserver 1.36.8-r0, eks-distro-kube-apiserver-fips 1.36.8-r0",
+  "details": "GHSA-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gcjh-h69q-9w9g"
+    "GHSA-gcjh-h69q-9w9g"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gcjh-h69q-9w9g"
+      "url": "https://osv.dev/vulnerability/GHSA-gcjh-h69q-9w9g"
     }
   ],
   "published": "2026-10-08T00:43:18.898963Z",
-  "modified": "2026-10-09T05:06:31Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

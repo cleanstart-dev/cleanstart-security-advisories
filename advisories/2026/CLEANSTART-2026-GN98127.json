@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GN98127",
-  "summary": "Security fix for ghsa-44p7-9xx4-hf2g applied in: gitea-fips 1.25.5-r0, gotenberg 8.31.0-r0, gotenberg 8.32.0-r0",
-  "details": "ghsa-44p7-9xx4-hf2g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-44p7-9xx4-hf2g applied in: gitea-fips 1.25.5-r0, gotenberg 8.31.0-r0, gotenberg 8.32.0-r0",
+  "details": "GHSA-44p7-9xx4-hf2g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-44p7-9xx4-hf2g"
+    "GHSA-44p7-9xx4-hf2g"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-44p7-9xx4-hf2g"
+      "url": "https://osv.dev/vulnerability/GHSA-44p7-9xx4-hf2g"
     }
   ],
   "published": "2026-09-18T10:22:12.807534Z",
-  "modified": "2026-10-08T19:22:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

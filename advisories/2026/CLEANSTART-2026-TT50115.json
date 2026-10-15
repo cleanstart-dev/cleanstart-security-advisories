@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TT50115",
-  "summary": "Security fix for ghsa-5m6q-g25r-mvwx applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-5m6q-g25r-mvwx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-5m6q-g25r-mvwx applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-5m6q-g25r-mvwx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5m6q-g25r-mvwx"
+    "GHSA-5m6q-g25r-mvwx"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5m6q-g25r-mvwx"
+      "url": "https://osv.dev/vulnerability/GHSA-5m6q-g25r-mvwx"
     }
   ],
   "published": "2026-09-18T10:23:21.960534Z",
-  "modified": "2026-10-09T05:56:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

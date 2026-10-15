@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PY60272",
-  "summary": "Security fix for ghsa-xw73-rw38-6vjc applied in: crane 0.19.2-r0",
+  "summary": "Security fix for GHSA-xw73-rw38-6vjc applied in: crane 0.19.2-r0",
   "details": "Security vulnerability affects the crane package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xw73-rw38-6vjc"
+    "GHSA-xw73-rw38-6vjc"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xw73-rw38-6vjc"
+      "url": "https://osv.dev/vulnerability/GHSA-xw73-rw38-6vjc"
     }
   ],
   "published": "2026-09-30T20:24:57.937569Z",
-  "modified": "2026-10-09T04:39:23Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

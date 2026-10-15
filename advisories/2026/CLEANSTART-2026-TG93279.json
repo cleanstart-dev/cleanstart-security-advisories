@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TG93279",
-  "summary": "Security fix for ghsa-gm2x-2g9h-ccm8 applied in: argo-cd 3.2.7-r2, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r0, argo-cd-fips 3.2.9-r0, flux-image-automation-controller-fips 4.0.1-r0, gitea-fips 1.25.5-r0, gitlab-runner 18.11.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 2.7.0-r0, syft 1.42.4-r0, timoni 0.25.2-r0",
-  "details": "ghsa-gm2x-2g9h-ccm8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gm2x-2g9h-ccm8 applied in: argo-cd 3.2.7-r2, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r0, argo-cd-fips 3.2.9-r0, flux-image-automation-controller-fips 4.0.1-r0, gitea-fips 1.25.5-r0, gitlab-runner 18.11.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 2.7.0-r0, syft 1.42.4-r0, timoni 0.25.2-r0",
+  "details": "GHSA-gm2x-2g9h-ccm8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -306,7 +306,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gm2x-2g9h-ccm8"
+    "GHSA-gm2x-2g9h-ccm8"
   ],
   "references": [
     {
@@ -315,11 +315,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gm2x-2g9h-ccm8"
+      "url": "https://osv.dev/vulnerability/GHSA-gm2x-2g9h-ccm8"
     }
   ],
   "published": "2026-09-18T10:24:24.305612Z",
-  "modified": "2026-10-09T05:51:11Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

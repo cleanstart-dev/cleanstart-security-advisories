@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PG06501",
-  "summary": "Security fix for ghsa-563q-j3cm-6jxm applied in: apache-nifi 2.10.0-r1, apache-nifi 2.9.0-r1, cloud-config-server 4.3.2-r3, hazelcast 5.7.0-r1, keycloak 26.4.10-r1, keycloak 26.4.2-r0, keycloak 26.4.7-r3, keycloak 26.5.7-r1, keycloak 26.6.3-r2, kserve-modelmesh 0.12.0-r17, s3proxy 3.3.0-r1, strimzi-kafka-operator 1.1.0-r1, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1, wildfly 41.0.0-r1",
-  "details": "ghsa-563q-j3cm-6jxm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-563q-j3cm-6jxm applied in: apache-nifi 2.10.0-r1, apache-nifi 2.9.0-r1, cloud-config-server 4.3.2-r3, hazelcast 5.7.0-r1, keycloak 26.4.10-r1, keycloak 26.4.2-r0, keycloak 26.4.7-r3, keycloak 26.5.7-r1, keycloak 26.6.3-r2, kserve-modelmesh 0.12.0-r17, s3proxy 3.3.0-r1, strimzi-kafka-operator 1.1.0-r1, thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1, wildfly 41.0.0-r1",
+  "details": "GHSA-563q-j3cm-6jxm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -306,7 +306,7 @@
     }
   ],
   "upstream": [
-    "ghsa-563q-j3cm-6jxm"
+    "GHSA-563q-j3cm-6jxm"
   ],
   "references": [
     {
@@ -315,11 +315,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-563q-j3cm-6jxm"
+      "url": "https://osv.dev/vulnerability/GHSA-563q-j3cm-6jxm"
     }
   ],
   "published": "2026-09-18T09:58:19.550650Z",
-  "modified": "2026-10-09T04:28:56Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

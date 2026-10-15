@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KP17501",
-  "summary": "Security fix for ghsa-8495-4g3g-x7pr applied in: airflow-2 2.10.3-r2",
+  "summary": "Security fix for GHSA-8495-4g3g-x7pr applied in: airflow-2 2.10.3-r2",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8495-4g3g-x7pr"
+    "GHSA-8495-4g3g-x7pr"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8495-4g3g-x7pr"
+      "url": "https://osv.dev/vulnerability/GHSA-8495-4g3g-x7pr"
     }
   ],
   "published": "2026-09-18T09:59:38.003785Z",
-  "modified": "2026-10-09T03:24:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

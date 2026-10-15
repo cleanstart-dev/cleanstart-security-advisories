@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RT77723",
-  "summary": "Security fix for ghsa-pr7j-96cj-549h applied in: kube-logging-operator 6.7.0-r2",
+  "summary": "Security fix for GHSA-pr7j-96cj-549h applied in: kube-logging-operator 6.7.0-r2",
   "details": "Security vulnerability affects the kube-logging-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pr7j-96cj-549h"
+    "GHSA-pr7j-96cj-549h"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pr7j-96cj-549h"
+      "url": "https://osv.dev/vulnerability/GHSA-pr7j-96cj-549h"
     }
   ],
   "published": "2026-09-18T09:50:19.250174Z",
-  "modified": "2026-10-09T05:03:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

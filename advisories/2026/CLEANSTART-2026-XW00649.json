@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XW00649",
-  "summary": "Security fix for ghsa-mhm7-754m-9p8w applied in: activemq 6.2.8-r2, activemq 6.3.1-r1, apache-hive 4.1.0-r5, apache-nifi 2.10.0-r3, apache-zookeeper 3.8.6-r5, apache-zookeeper 3.9.5-r5, elasticsearch 9.2.8-r1, hazelcast 5.7.0-r1, keycloak 26.4.13-r1, kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1, spark-sc213-jdk17-py312 4.2.0-r1",
-  "details": "ghsa-mhm7-754m-9p8w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mhm7-754m-9p8w applied in: activemq 6.2.8-r2, activemq 6.3.1-r1, apache-hive 4.1.0-r5, apache-nifi 2.10.0-r3, apache-zookeeper 3.8.6-r5, apache-zookeeper 3.9.5-r5, elasticsearch 9.2.8-r1, hazelcast 5.7.0-r1, keycloak 26.4.13-r1, kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1, spark-sc213-jdk17-py312 4.2.0-r1",
+  "details": "GHSA-mhm7-754m-9p8w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -246,7 +246,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mhm7-754m-9p8w"
+    "GHSA-mhm7-754m-9p8w"
   ],
   "references": [
     {
@@ -255,11 +255,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mhm7-754m-9p8w"
+      "url": "https://osv.dev/vulnerability/GHSA-mhm7-754m-9p8w"
     }
   ],
   "published": "2026-09-18T09:50:49.622257Z",
-  "modified": "2026-10-09T06:53:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

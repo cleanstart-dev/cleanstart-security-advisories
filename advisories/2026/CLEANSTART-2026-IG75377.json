@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IG75377",
-  "summary": "Security fix for ghsa-m2v6-2jmh-4c68 applied in: tigera-operator 1.39.3-r1",
+  "summary": "Security fix for GHSA-m2v6-2jmh-4c68 applied in: tigera-operator 1.39.3-r1",
   "details": "Security vulnerability affects the tigera-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m2v6-2jmh-4c68"
+    "GHSA-m2v6-2jmh-4c68"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m2v6-2jmh-4c68"
+      "url": "https://osv.dev/vulnerability/GHSA-m2v6-2jmh-4c68"
     }
   ],
   "published": "2026-09-18T09:51:46.444524Z",
-  "modified": "2026-10-08T19:44:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

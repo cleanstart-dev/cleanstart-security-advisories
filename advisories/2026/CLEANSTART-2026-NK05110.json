@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NK05110",
-  "summary": "Security fix for ghsa-4hjh-wcwx-xvwj applied in: jitsucom-jitsu 2.11.0-r2",
+  "summary": "Security fix for GHSA-4hjh-wcwx-xvwj applied in: jitsucom-jitsu 2.11.0-r2",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4hjh-wcwx-xvwj"
+    "GHSA-4hjh-wcwx-xvwj"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4hjh-wcwx-xvwj"
+      "url": "https://osv.dev/vulnerability/GHSA-4hjh-wcwx-xvwj"
     }
   ],
   "published": "2026-09-18T10:26:34.336211Z",
-  "modified": "2026-10-09T04:04:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

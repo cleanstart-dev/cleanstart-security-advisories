@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZW38878",
-  "summary": "Security fix for ghsa-vv39-3w5q-974q applied in: argo-cd-fips 2.14.20-r1, argo-cd-fips 3.0.20-r2",
-  "details": "ghsa-vv39-3w5q-974q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vv39-3w5q-974q applied in: argo-cd-fips 2.14.20-r1, argo-cd-fips 3.0.20-r2",
+  "details": "GHSA-vv39-3w5q-974q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vv39-3w5q-974q"
+    "GHSA-vv39-3w5q-974q"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vv39-3w5q-974q"
+      "url": "https://osv.dev/vulnerability/GHSA-vv39-3w5q-974q"
     }
   ],
   "published": "2026-09-18T10:31:55.821808Z",
-  "modified": "2026-10-09T07:18:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

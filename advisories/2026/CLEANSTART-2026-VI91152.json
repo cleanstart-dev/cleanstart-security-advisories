@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VI91152",
-  "summary": "Security fix for ghsa-w9pc-fmgc-vxvw applied in: logstash-fips 9.0.8-r2",
+  "summary": "Security fix for GHSA-w9pc-fmgc-vxvw applied in: logstash-fips 9.0.8-r2",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w9pc-fmgc-vxvw"
+    "GHSA-w9pc-fmgc-vxvw"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w9pc-fmgc-vxvw"
+      "url": "https://osv.dev/vulnerability/GHSA-w9pc-fmgc-vxvw"
     }
   ],
   "published": "2026-09-18T10:30:27.947128Z",
-  "modified": "2026-10-09T06:18:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AQ42255",
-  "summary": "Security fix for ghsa-mqcg-5x36-vfcg applied in: tensorflow-gpu-jupyter 2.21.0-r5",
+  "summary": "Security fix for GHSA-mqcg-5x36-vfcg applied in: tensorflow-gpu-jupyter 2.21.0-r5",
   "details": "Security vulnerability affects the tensorflow-gpu-jupyter package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mqcg-5x36-vfcg"
+    "GHSA-mqcg-5x36-vfcg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mqcg-5x36-vfcg"
+      "url": "https://osv.dev/vulnerability/GHSA-mqcg-5x36-vfcg"
     }
   ],
   "published": "2026-09-18T09:43:26.887627Z",
-  "modified": "2026-10-08T18:02:36Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

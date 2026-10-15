@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QA30361",
-  "summary": "Security fix for ghsa-w35j-pv5h-q9q9 applied in: spark-sc213-jdk17-py311 4.1.1-r2, strimzi-kafka-operator 0.51.0-r1",
-  "details": "ghsa-w35j-pv5h-q9q9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w35j-pv5h-q9q9 applied in: spark-sc213-jdk17-py311 4.1.1-r2, strimzi-kafka-operator 0.51.0-r1",
+  "details": "GHSA-w35j-pv5h-q9q9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w35j-pv5h-q9q9"
+    "GHSA-w35j-pv5h-q9q9"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w35j-pv5h-q9q9"
+      "url": "https://osv.dev/vulnerability/GHSA-w35j-pv5h-q9q9"
     }
   ],
   "published": "2026-09-18T10:19:38.328779Z",
-  "modified": "2026-10-09T04:40:06Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

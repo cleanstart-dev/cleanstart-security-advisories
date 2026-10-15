@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ON59462",
-  "summary": "Security fix for ghsa-gxhx-2686-5h9g applied in: argo-cd 3.2.12-r0, argo-cd 3.2.7-r2, argo-cd 3.3.11-r0, argo-cd 3.3.5-r0, argo-cd-fips 3.0.23-r1, argo-cd-fips 3.1.14-r2, argo-events 1.9.10-r1, argo-rollouts 1.9.0-r0, argo-rollouts-fips 1.9.0-r0, atlantis-fips 0.38.0-r1, atlantis-fips 0.39.0-r1, atlantis-fips 0.40.0-r1, atlantis-fips 0.41.0-r1, kubernetes-event-exporter 1.7-r1, kubernetes-event-exporter-fips 1.7-r0, kubewatch 2.12.0-r0",
-  "details": "ghsa-gxhx-2686-5h9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gxhx-2686-5h9g applied in: argo-cd 3.2.12-r0, argo-cd 3.2.7-r2, argo-cd 3.3.11-r0, argo-cd 3.3.5-r0, argo-cd-fips 3.0.23-r1, argo-cd-fips 3.1.14-r2, argo-events 1.9.10-r1, argo-rollouts 1.9.0-r0, argo-rollouts-fips 1.9.0-r0, atlantis-fips 0.38.0-r1, atlantis-fips 0.39.0-r1, atlantis-fips 0.40.0-r1, atlantis-fips 0.41.0-r1, kubernetes-event-exporter 1.7-r1, kubernetes-event-exporter-fips 1.7-r0, kubewatch 2.12.0-r0",
+  "details": "GHSA-gxhx-2686-5h9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -326,7 +326,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gxhx-2686-5h9g"
+    "GHSA-gxhx-2686-5h9g"
   ],
   "references": [
     {
@@ -335,11 +335,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gxhx-2686-5h9g"
+      "url": "https://osv.dev/vulnerability/GHSA-gxhx-2686-5h9g"
     }
   ],
   "published": "2026-09-18T10:10:44.089611Z",
-  "modified": "2026-10-09T04:20:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

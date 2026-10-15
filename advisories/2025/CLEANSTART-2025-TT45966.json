@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-TT45966",
-  "summary": "Security fix for ghsa-rq77-p4h8-4crw applied in: harbor-fips 2.10.3-r0, harbor-fips 2.12.4-r1, harbor-fips 2.13.2-r1",
-  "details": "ghsa-rq77-p4h8-4crw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rq77-p4h8-4crw applied in: harbor-fips 2.10.3-r0, harbor-fips 2.12.4-r1, harbor-fips 2.13.2-r1",
+  "details": "GHSA-rq77-p4h8-4crw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rq77-p4h8-4crw"
+    "GHSA-rq77-p4h8-4crw"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rq77-p4h8-4crw"
+      "url": "https://osv.dev/vulnerability/GHSA-rq77-p4h8-4crw"
     }
   ],
   "published": "2026-09-18T10:32:45.166362Z",
-  "modified": "2026-10-08T17:54:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

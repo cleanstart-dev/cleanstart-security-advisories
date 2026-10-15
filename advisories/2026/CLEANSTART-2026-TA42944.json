@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TA42944",
-  "summary": "Security fix for ghsa-pr98-23f8-jwxv applied in: cassandra 5.0.6-r2, cassandra-fips 4.0.19-r3, cassandra-fips 4.1.10-r1, cassandra-fips 5.0.6-r2, cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, stargate 1.0.90-r4",
-  "details": "ghsa-pr98-23f8-jwxv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-pr98-23f8-jwxv applied in: cassandra 5.0.6-r2, cassandra-fips 4.0.19-r3, cassandra-fips 4.1.10-r1, cassandra-fips 5.0.6-r2, cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, stargate 1.0.90-r4",
+  "details": "GHSA-pr98-23f8-jwxv affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pr98-23f8-jwxv"
+    "GHSA-pr98-23f8-jwxv"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pr98-23f8-jwxv"
+      "url": "https://osv.dev/vulnerability/GHSA-pr98-23f8-jwxv"
     }
   ],
   "published": "2026-09-18T10:26:23.059915Z",
-  "modified": "2026-10-09T05:47:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

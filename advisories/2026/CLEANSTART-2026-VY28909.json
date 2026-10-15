@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VY28909",
-  "summary": "Security fix for ghsa-wjv4-x9w8-wm3h applied in: logstash-fips 9.4.3-r1",
+  "summary": "Security fix for GHSA-wjv4-x9w8-wm3h applied in: logstash-fips 9.4.3-r1",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wjv4-x9w8-wm3h"
+    "GHSA-wjv4-x9w8-wm3h"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wjv4-x9w8-wm3h"
+      "url": "https://osv.dev/vulnerability/GHSA-wjv4-x9w8-wm3h"
     }
   ],
   "published": "2026-09-18T09:49:50.891576Z",
-  "modified": "2026-10-09T06:27:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

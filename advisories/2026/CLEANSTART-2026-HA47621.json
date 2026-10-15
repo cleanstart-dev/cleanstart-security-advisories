@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HA47621",
-  "summary": "Security fix for ghsa-rmvr-2pp2-xj38 applied in: mongosh 2.5.10-r2, mongosh 2.6.0-r1",
-  "details": "ghsa-rmvr-2pp2-xj38 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rmvr-2pp2-xj38 applied in: mongosh 2.5.10-r2, mongosh 2.6.0-r1",
+  "details": "GHSA-rmvr-2pp2-xj38 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rmvr-2pp2-xj38"
+    "GHSA-rmvr-2pp2-xj38"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rmvr-2pp2-xj38"
+      "url": "https://osv.dev/vulnerability/GHSA-rmvr-2pp2-xj38"
     }
   ],
   "published": "2026-09-18T10:24:55.967949Z",
-  "modified": "2026-10-08T19:27:29Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

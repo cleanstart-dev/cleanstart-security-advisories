@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SU00653",
-  "summary": "Security fix for ghsa-p2gr-hm8g-q772 applied in: temporal-server 1.31.1-r5",
+  "summary": "Security fix for GHSA-p2gr-hm8g-q772 applied in: temporal-server 1.31.1-r5",
   "details": "Security vulnerability affects the temporal-server package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p2gr-hm8g-q772"
+    "GHSA-p2gr-hm8g-q772"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p2gr-hm8g-q772"
+      "url": "https://osv.dev/vulnerability/GHSA-p2gr-hm8g-q772"
     }
   ],
   "published": "2026-09-18T09:51:42.066095Z",
-  "modified": "2026-10-09T05:44:07Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

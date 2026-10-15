@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PW41000",
-  "summary": "Security fix for ghsa-6v7p-g79w-8964 applied in: k8s-sidecar 2.8.2-r1",
+  "summary": "Security fix for GHSA-6v7p-g79w-8964 applied in: k8s-sidecar 2.8.2-r1",
   "details": "Security vulnerability affects the k8s-sidecar package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6v7p-g79w-8964"
+    "GHSA-6v7p-g79w-8964"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6v7p-g79w-8964"
+      "url": "https://osv.dev/vulnerability/GHSA-6v7p-g79w-8964"
     }
   ],
   "published": "2026-10-13T00:36:01.605261Z",
-  "modified": "2026-10-12T10:49:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

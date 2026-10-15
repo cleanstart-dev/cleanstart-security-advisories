@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QF63101",
-  "summary": "Security fix for ghsa-9m57-25v3-79x9 applied in: postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
-  "details": "ghsa-9m57-25v3-79x9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9m57-25v3-79x9 applied in: postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
+  "details": "GHSA-9m57-25v3-79x9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9m57-25v3-79x9"
+    "GHSA-9m57-25v3-79x9"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9m57-25v3-79x9"
+      "url": "https://osv.dev/vulnerability/GHSA-9m57-25v3-79x9"
     }
   ],
   "published": "2026-09-18T09:52:49.166347Z",
-  "modified": "2026-10-09T04:42:31Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

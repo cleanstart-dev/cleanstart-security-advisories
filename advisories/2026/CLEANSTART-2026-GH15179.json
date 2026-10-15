@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GH15179",
-  "summary": "Security fix for ghsa-x2wq-9x2f-fhj7 applied in: apache-nifi 2.8.0-r0, apache-nifi 2.9.0-r1, apache-nifi-registry 2.9.0-r1, kafka-ui 1.4.2-r6, thingsboard 4.3.1-r1, thingsboard 4.3.1.1-r0",
-  "details": "ghsa-x2wq-9x2f-fhj7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-x2wq-9x2f-fhj7 applied in: apache-nifi 2.8.0-r0, apache-nifi 2.9.0-r1, apache-nifi-registry 2.9.0-r1, kafka-ui 1.4.2-r6, thingsboard 4.3.1-r1, thingsboard 4.3.1.1-r0",
+  "details": "GHSA-x2wq-9x2f-fhj7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x2wq-9x2f-fhj7"
+    "GHSA-x2wq-9x2f-fhj7"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x2wq-9x2f-fhj7"
+      "url": "https://osv.dev/vulnerability/GHSA-x2wq-9x2f-fhj7"
     }
   ],
   "published": "2026-09-18T10:19:00.968898Z",
-  "modified": "2026-10-08T19:19:25Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

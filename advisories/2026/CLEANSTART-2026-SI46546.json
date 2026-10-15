@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SI46546",
-  "summary": "Security fix for ghsa-rj7p-rfgp-852x applied in: cassandra-fips 3.11.19-r6, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, stargate 2.0.44-r4",
-  "details": "ghsa-rj7p-rfgp-852x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rj7p-rfgp-852x applied in: cassandra-fips 3.11.19-r6, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, stargate 2.0.44-r4",
+  "details": "GHSA-rj7p-rfgp-852x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rj7p-rfgp-852x"
+    "GHSA-rj7p-rfgp-852x"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rj7p-rfgp-852x"
+      "url": "https://osv.dev/vulnerability/GHSA-rj7p-rfgp-852x"
     }
   ],
   "published": "2026-09-18T10:30:27.377972Z",
-  "modified": "2026-10-09T05:38:40Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

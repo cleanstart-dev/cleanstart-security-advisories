@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WK70378",
-  "summary": "Security fix for ghsa-cj63-jhhr-wcxv applied in: opensearch-dashboards-fips 3.5.0-r1",
+  "summary": "Security fix for GHSA-cj63-jhhr-wcxv applied in: opensearch-dashboards-fips 3.5.0-r1",
   "details": "Security vulnerability affects the opensearch-dashboards-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cj63-jhhr-wcxv"
+    "GHSA-cj63-jhhr-wcxv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cj63-jhhr-wcxv"
+      "url": "https://osv.dev/vulnerability/GHSA-cj63-jhhr-wcxv"
     }
   ],
   "published": "2026-09-18T10:15:18.722309Z",
-  "modified": "2026-10-09T06:33:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

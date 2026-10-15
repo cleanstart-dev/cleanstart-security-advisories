@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HZ83743",
-  "summary": "Security fix for ghsa-q82r-2j7m-9rv4 applied in: forecastle 1.0.159-r2",
+  "summary": "Security fix for GHSA-q82r-2j7m-9rv4 applied in: forecastle 1.0.159-r2",
   "details": "Security vulnerability affects the forecastle package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q82r-2j7m-9rv4"
+    "GHSA-q82r-2j7m-9rv4"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q82r-2j7m-9rv4"
+      "url": "https://osv.dev/vulnerability/GHSA-q82r-2j7m-9rv4"
     }
   ],
   "published": "2026-09-18T10:30:02.418407Z",
-  "modified": "2026-10-08T19:41:02Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

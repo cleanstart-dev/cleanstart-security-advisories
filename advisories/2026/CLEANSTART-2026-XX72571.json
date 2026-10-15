@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XX72571",
-  "summary": "Security fix for ghsa-rm3j-f69w-wqmq applied in: cert-manager-webhook-pdns-fips 2.5.5-r1, cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, grafana-agent-operator 0.44.3-r1, postgres-operator 1.12.2-r2, postgres-operator 1.13.0-r1, temporal-ui-server-fips 2.51.1-r1",
-  "details": "ghsa-rm3j-f69w-wqmq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rm3j-f69w-wqmq applied in: cert-manager-webhook-pdns-fips 2.5.5-r1, cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, grafana-agent-operator 0.44.3-r1, postgres-operator 1.12.2-r2, postgres-operator 1.13.0-r1, temporal-ui-server-fips 2.51.1-r1",
+  "details": "GHSA-rm3j-f69w-wqmq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -186,7 +186,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rm3j-f69w-wqmq"
+    "GHSA-rm3j-f69w-wqmq"
   ],
   "references": [
     {
@@ -195,11 +195,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rm3j-f69w-wqmq"
+      "url": "https://osv.dev/vulnerability/GHSA-rm3j-f69w-wqmq"
     }
   ],
   "published": "2026-09-18T09:52:56.376838Z",
-  "modified": "2026-10-09T06:54:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

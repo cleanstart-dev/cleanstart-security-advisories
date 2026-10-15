@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RS62088",
-  "summary": "Security fix for ghsa-j7c9-79x7-8hpr applied in: step-cli 0.27.5-r0, step-issuer-fips 0.9.9-r3",
-  "details": "ghsa-j7c9-79x7-8hpr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-j7c9-79x7-8hpr applied in: step-cli 0.27.5-r0, step-issuer-fips 0.9.9-r3",
+  "details": "GHSA-j7c9-79x7-8hpr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-j7c9-79x7-8hpr"
+    "GHSA-j7c9-79x7-8hpr"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-j7c9-79x7-8hpr"
+      "url": "https://osv.dev/vulnerability/GHSA-j7c9-79x7-8hpr"
     }
   ],
   "published": "2026-09-18T10:30:39.189268Z",
-  "modified": "2026-10-09T05:02:18Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

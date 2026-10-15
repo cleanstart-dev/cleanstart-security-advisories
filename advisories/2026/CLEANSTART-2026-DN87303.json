@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DN87303",
-  "summary": "Security fix for ghsa-8gc5-j5rx-235r applied in: kibana 9.3.2-r3, mongosh 2.8.1-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-8gc5-j5rx-235r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-8gc5-j5rx-235r applied in: kibana 9.3.2-r3, mongosh 2.8.1-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-8gc5-j5rx-235r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8gc5-j5rx-235r"
+    "GHSA-8gc5-j5rx-235r"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8gc5-j5rx-235r"
+      "url": "https://osv.dev/vulnerability/GHSA-8gc5-j5rx-235r"
     }
   ],
   "published": "2026-09-18T10:26:50.690034Z",
-  "modified": "2026-10-08T18:43:31Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

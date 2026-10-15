@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RY69809",
-  "summary": "Security fix for ghsa-3g8r-4pfx-jmfh applied in: hazelcast 5.7.0-r1",
+  "summary": "Security fix for GHSA-3g8r-4pfx-jmfh applied in: hazelcast 5.7.0-r1",
   "details": "Security vulnerability affects the hazelcast package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3g8r-4pfx-jmfh"
+    "GHSA-3g8r-4pfx-jmfh"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3g8r-4pfx-jmfh"
+      "url": "https://osv.dev/vulnerability/GHSA-3g8r-4pfx-jmfh"
     }
   ],
   "published": "2026-09-18T09:50:13.113556Z",
-  "modified": "2026-10-09T05:07:04Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

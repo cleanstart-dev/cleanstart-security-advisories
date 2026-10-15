@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-FI25096",
-  "summary": "Security fix for ghsa-fhg8-qxh5-7q3w applied in: prometheus-nats-exporter 0.15.0-r0, prometheus-nats-exporter 0.16.0-r0",
-  "details": "ghsa-fhg8-qxh5-7q3w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fhg8-qxh5-7q3w applied in: prometheus-nats-exporter 0.15.0-r0, prometheus-nats-exporter 0.16.0-r0",
+  "details": "GHSA-fhg8-qxh5-7q3w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fhg8-qxh5-7q3w"
+    "GHSA-fhg8-qxh5-7q3w"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fhg8-qxh5-7q3w"
+      "url": "https://osv.dev/vulnerability/GHSA-fhg8-qxh5-7q3w"
     }
   ],
   "published": "2026-09-18T10:30:32.192417Z",
-  "modified": "2026-10-08T17:54:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

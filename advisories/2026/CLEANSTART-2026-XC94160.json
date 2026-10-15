@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XC94160",
-  "summary": "Security fix for ghsa-xq3m-2v4x-88gg applied in: kibana 9.3.2-r3, renovate 43.123.6-r0",
-  "details": "ghsa-xq3m-2v4x-88gg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-xq3m-2v4x-88gg applied in: kibana 9.3.2-r3, renovate 43.123.6-r0",
+  "details": "GHSA-xq3m-2v4x-88gg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xq3m-2v4x-88gg"
+    "GHSA-xq3m-2v4x-88gg"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xq3m-2v4x-88gg"
+      "url": "https://osv.dev/vulnerability/GHSA-xq3m-2v4x-88gg"
     }
   ],
   "published": "2026-09-18T10:14:32.313865Z",
-  "modified": "2026-10-09T06:42:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

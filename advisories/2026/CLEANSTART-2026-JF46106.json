@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JF46106",
-  "summary": "Security fix for ghsa-394x-vwmw-crm3 applied in: ztunnel-fips 1.26.8-r1, ztunnel-fips 1.27.6-r1, ztunnel-fips 1.27.8-r0, ztunnel-fips 1.28.4-r1, ztunnel-fips 1.28.5-r0, ztunnel-fips 1.29.1-r0",
-  "details": "ghsa-394x-vwmw-crm3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-394x-vwmw-crm3 applied in: ztunnel-fips 1.26.8-r1, ztunnel-fips 1.27.6-r1, ztunnel-fips 1.27.8-r0, ztunnel-fips 1.28.4-r1, ztunnel-fips 1.28.5-r0, ztunnel-fips 1.29.1-r0",
+  "details": "GHSA-394x-vwmw-crm3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-394x-vwmw-crm3"
+    "GHSA-394x-vwmw-crm3"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-394x-vwmw-crm3"
+      "url": "https://osv.dev/vulnerability/GHSA-394x-vwmw-crm3"
     }
   ],
   "published": "2026-09-18T10:25:26.658061Z",
-  "modified": "2026-10-08T20:01:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

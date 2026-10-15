@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QF71813",
-  "summary": "Security fix for ghsa-c4r9-r8fh-9vj2 applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1",
-  "details": "ghsa-c4r9-r8fh-9vj2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c4r9-r8fh-9vj2 applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1",
+  "details": "GHSA-c4r9-r8fh-9vj2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c4r9-r8fh-9vj2"
+    "GHSA-c4r9-r8fh-9vj2"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c4r9-r8fh-9vj2"
+      "url": "https://osv.dev/vulnerability/GHSA-c4r9-r8fh-9vj2"
     }
   ],
   "published": "2026-09-18T10:26:22.836639Z",
-  "modified": "2026-10-09T04:42:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

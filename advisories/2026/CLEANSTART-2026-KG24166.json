@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KG24166",
-  "summary": "Security fix for ghsa-574f-3g2m-x479 applied in: kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1",
-  "details": "ghsa-574f-3g2m-x479 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-574f-3g2m-x479 applied in: kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1",
+  "details": "GHSA-574f-3g2m-x479 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-574f-3g2m-x479"
+    "GHSA-574f-3g2m-x479"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-574f-3g2m-x479"
+      "url": "https://osv.dev/vulnerability/GHSA-574f-3g2m-x479"
     }
   ],
   "published": "2026-09-18T09:50:59.601538Z",
-  "modified": "2026-10-09T03:18:27Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

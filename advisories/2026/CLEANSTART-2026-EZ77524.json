@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-EZ77524",
-  "summary": "Security fix for ghsa-3wgm-2mw2-vh5m applied in: argo-cd 2.13.9-r0, argo-cd-fips 2.13.9-r0",
-  "details": "ghsa-3wgm-2mw2-vh5m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-3wgm-2mw2-vh5m applied in: argo-cd 2.13.9-r0, argo-cd-fips 2.13.9-r0",
+  "details": "GHSA-3wgm-2mw2-vh5m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3wgm-2mw2-vh5m"
+    "GHSA-3wgm-2mw2-vh5m"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3wgm-2mw2-vh5m"
+      "url": "https://osv.dev/vulnerability/GHSA-3wgm-2mw2-vh5m"
     }
   ],
   "published": "2026-09-18T10:32:39.278756Z",
-  "modified": "2026-10-08T19:02:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

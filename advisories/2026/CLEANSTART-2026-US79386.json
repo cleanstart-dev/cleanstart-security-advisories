@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-US79386",
-  "summary": "Security fix for ghsa-hfvc-g4fc-pqhx applied in: loki 3.7.1-r0",
+  "summary": "Security fix for GHSA-hfvc-g4fc-pqhx applied in: loki 3.7.1-r0",
   "details": "Security vulnerability affects the loki package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hfvc-g4fc-pqhx"
+    "GHSA-hfvc-g4fc-pqhx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hfvc-g4fc-pqhx"
+      "url": "https://osv.dev/vulnerability/GHSA-hfvc-g4fc-pqhx"
     }
   ],
   "published": "2026-09-26T00:38:01.225697Z",
-  "modified": "2026-10-09T06:10:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

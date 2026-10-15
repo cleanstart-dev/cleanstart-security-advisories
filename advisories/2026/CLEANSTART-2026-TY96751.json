@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TY96751",
-  "summary": "Security fix for ghsa-p423-j2cm-9vmq applied in: k8s-sidecar 1.25.2-r1",
+  "summary": "Security fix for GHSA-p423-j2cm-9vmq applied in: k8s-sidecar 1.25.2-r1",
   "details": "Security vulnerability affects the k8s-sidecar package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p423-j2cm-9vmq"
+    "GHSA-p423-j2cm-9vmq"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p423-j2cm-9vmq"
+      "url": "https://osv.dev/vulnerability/GHSA-p423-j2cm-9vmq"
     }
   ],
   "published": "2026-09-18T10:09:16.662782Z",
-  "modified": "2026-10-09T05:59:06Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

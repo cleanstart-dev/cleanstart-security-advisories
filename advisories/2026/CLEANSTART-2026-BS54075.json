@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BS54075",
-  "summary": "Security fix for ghsa-35p6-xmwp-9g52 applied in: npm 11.14.0-r4, npm 11.17.0-r1",
-  "details": "ghsa-35p6-xmwp-9g52 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-35p6-xmwp-9g52 applied in: npm 11.14.0-r4, npm 11.17.0-r1",
+  "details": "GHSA-35p6-xmwp-9g52 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-35p6-xmwp-9g52"
+    "GHSA-35p6-xmwp-9g52"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-35p6-xmwp-9g52"
+      "url": "https://osv.dev/vulnerability/GHSA-35p6-xmwp-9g52"
     }
   ],
   "published": "2026-09-18T09:57:56.621837Z",
-  "modified": "2026-10-08T18:15:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

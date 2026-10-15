@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LI24140",
-  "summary": "Security fix for ghsa-9342-92gg-6v29 applied in: keycloak 26.1.4-r1, keycloak 26.2.12-r0, sonarqube 25.12.0.117093-r3, sonarqube 26.4.0.121862-r2",
-  "details": "ghsa-9342-92gg-6v29 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9342-92gg-6v29 applied in: keycloak 26.1.4-r1, keycloak 26.2.12-r0, sonarqube 25.12.0.117093-r3, sonarqube 26.4.0.121862-r2",
+  "details": "GHSA-9342-92gg-6v29 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9342-92gg-6v29"
+    "GHSA-9342-92gg-6v29"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9342-92gg-6v29"
+      "url": "https://osv.dev/vulnerability/GHSA-9342-92gg-6v29"
     }
   ],
   "published": "2026-09-18T10:32:01.598608Z",
-  "modified": "2026-10-09T03:34:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

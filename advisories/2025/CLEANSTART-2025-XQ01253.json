@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-XQ01253",
-  "summary": "Security fix for ghsa-hq4m-4948-64cc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.3.1-r5",
+  "summary": "Security fix for GHSA-hq4m-4948-64cc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.3.1-r5",
   "details": "Security vulnerability affects the kyverno-policy-reporter-kyverno-plugin-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hq4m-4948-64cc"
+    "GHSA-hq4m-4948-64cc"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hq4m-4948-64cc"
+      "url": "https://osv.dev/vulnerability/GHSA-hq4m-4948-64cc"
     }
   ],
   "published": "2026-09-18T10:30:07.302782Z",
-  "modified": "2026-10-08T17:54:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

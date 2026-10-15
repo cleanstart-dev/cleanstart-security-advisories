@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NF76249",
-  "summary": "Security fix for ghsa-jwp6-cvj8-fw65 applied in: spark-sc212-jdk17-py311 3.4.4-r0",
+  "summary": "Security fix for GHSA-jwp6-cvj8-fw65 applied in: spark-sc212-jdk17-py311 3.4.4-r0",
   "details": "Security vulnerability affects the spark-sc212-jdk17-py311 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jwp6-cvj8-fw65"
+    "GHSA-jwp6-cvj8-fw65"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jwp6-cvj8-fw65"
+      "url": "https://osv.dev/vulnerability/GHSA-jwp6-cvj8-fw65"
     }
   ],
   "published": "2026-09-18T09:57:26.578448Z",
-  "modified": "2026-10-09T04:01:52Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

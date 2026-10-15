@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XV88619",
-  "summary": "Security fix for ghsa-65ch-62r8-g69g applied in: jitsucom-jitsu 2.11.0-r0",
+  "summary": "Security fix for GHSA-65ch-62r8-g69g applied in: jitsucom-jitsu 2.11.0-r0",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-65ch-62r8-g69g"
+    "GHSA-65ch-62r8-g69g"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-65ch-62r8-g69g"
+      "url": "https://osv.dev/vulnerability/GHSA-65ch-62r8-g69g"
     }
   ],
   "published": "2026-09-18T10:26:33.001914Z",
-  "modified": "2026-10-09T06:53:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

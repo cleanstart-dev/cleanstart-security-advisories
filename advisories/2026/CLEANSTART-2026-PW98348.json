@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PW98348",
-  "summary": "Security fix for ghsa-g9g8-vgvw-g3vf applied in: logstash-fips 9.4.3-r1",
+  "summary": "Security fix for GHSA-g9g8-vgvw-g3vf applied in: logstash-fips 9.4.3-r1",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-g9g8-vgvw-g3vf"
+    "GHSA-g9g8-vgvw-g3vf"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-g9g8-vgvw-g3vf"
+      "url": "https://osv.dev/vulnerability/GHSA-g9g8-vgvw-g3vf"
     }
   ],
   "published": "2026-09-18T09:49:52.027301Z",
-  "modified": "2026-10-09T04:38:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HI15259",
-  "summary": "Security fix for ghsa-5pwr-322w-8jr4 applied in: pritunl 1.30.3431.73-r1",
+  "summary": "Security fix for GHSA-5pwr-322w-8jr4 applied in: pritunl 1.30.3431.73-r1",
   "details": "Security vulnerability affects the pritunl package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5pwr-322w-8jr4"
+    "GHSA-5pwr-322w-8jr4"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5pwr-322w-8jr4"
+      "url": "https://osv.dev/vulnerability/GHSA-5pwr-322w-8jr4"
     }
   ],
   "published": "2026-09-18T10:21:35.465572Z",
-  "modified": "2026-10-08T19:32:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

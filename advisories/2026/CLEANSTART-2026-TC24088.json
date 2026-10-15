@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TC24088",
-  "summary": "Security fix for ghsa-x744-4wpc-v9h2 applied in: crane 0.18.0-r1, crane 0.19.2-r0",
-  "details": "ghsa-x744-4wpc-v9h2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-x744-4wpc-v9h2 applied in: crane 0.18.0-r1, crane 0.19.2-r0",
+  "details": "GHSA-x744-4wpc-v9h2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x744-4wpc-v9h2"
+    "GHSA-x744-4wpc-v9h2"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x744-4wpc-v9h2"
+      "url": "https://osv.dev/vulnerability/GHSA-x744-4wpc-v9h2"
     }
   ],
   "published": "2026-09-30T20:22:24.312174Z",
-  "modified": "2026-10-09T05:48:20Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

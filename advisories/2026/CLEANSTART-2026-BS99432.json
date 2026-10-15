@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BS99432",
-  "summary": "Security fix for ghsa-735f-pc8j-v9w8 applied in: druid-fips 35.0.0-r1, kserve-modelmesh 0.12.0-r16, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.4.4-r1, spark-sc213-jdk17-py312 3.5.8-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-735f-pc8j-v9w8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-735f-pc8j-v9w8 applied in: druid-fips 35.0.0-r1, kserve-modelmesh 0.12.0-r16, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.4.4-r1, spark-sc213-jdk17-py312 3.5.8-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-735f-pc8j-v9w8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-735f-pc8j-v9w8"
+    "GHSA-735f-pc8j-v9w8"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-735f-pc8j-v9w8"
+      "url": "https://osv.dev/vulnerability/GHSA-735f-pc8j-v9w8"
     }
   ],
   "published": "2026-09-18T10:31:04.207391Z",
-  "modified": "2026-10-08T18:16:11Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

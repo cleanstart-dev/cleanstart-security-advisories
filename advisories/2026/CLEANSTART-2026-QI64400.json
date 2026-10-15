@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QI64400",
-  "summary": "Security fix for ghsa-67mf-3cr5-8w23 applied in: orientdb 3.2.38-r0",
+  "summary": "Security fix for GHSA-67mf-3cr5-8w23 applied in: orientdb 3.2.38-r0",
   "details": "Security vulnerability affects the orientdb package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-67mf-3cr5-8w23"
+    "GHSA-67mf-3cr5-8w23"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-67mf-3cr5-8w23"
+      "url": "https://osv.dev/vulnerability/GHSA-67mf-3cr5-8w23"
     }
   ],
   "published": "2026-09-18T10:20:32.913390Z",
-  "modified": "2026-10-09T04:44:02Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JX60561",
-  "summary": "Security fix for ghsa-g9gq-3pfx-2gw2 applied in: keycloak 26.4.7-r3",
+  "summary": "Security fix for GHSA-g9gq-3pfx-2gw2 applied in: keycloak 26.4.7-r3",
   "details": "Security vulnerability affects the keycloak package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-g9gq-3pfx-2gw2"
+    "GHSA-g9gq-3pfx-2gw2"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-g9gq-3pfx-2gw2"
+      "url": "https://osv.dev/vulnerability/GHSA-g9gq-3pfx-2gw2"
     }
   ],
   "published": "2026-09-18T09:54:06.395252Z",
-  "modified": "2026-10-09T03:13:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

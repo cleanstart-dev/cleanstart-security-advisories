@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QH82064",
-  "summary": "Security fix for ghsa-4c29-8rgm-jvjj applied in: docker 29.3.0-r1, docker-compose 5.1.0-r0",
-  "details": "ghsa-4c29-8rgm-jvjj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-4c29-8rgm-jvjj applied in: docker 29.3.0-r1, docker-compose 5.1.0-r0",
+  "details": "GHSA-4c29-8rgm-jvjj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4c29-8rgm-jvjj"
+    "GHSA-4c29-8rgm-jvjj"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4c29-8rgm-jvjj"
+      "url": "https://osv.dev/vulnerability/GHSA-4c29-8rgm-jvjj"
     }
   ],
   "published": "2026-09-18T10:18:49.335625Z",
-  "modified": "2026-10-09T04:43:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

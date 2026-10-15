@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DK58903",
-  "summary": "Security fix for ghsa-527x-5wrf-22m2 applied in: kubernetes-dns-node-cache 1.26.7-r0, kubernetes-dns-node-cache-fips 1.26.7-r0",
-  "details": "ghsa-527x-5wrf-22m2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-527x-5wrf-22m2 applied in: kubernetes-dns-node-cache 1.26.7-r0, kubernetes-dns-node-cache-fips 1.26.7-r0",
+  "details": "GHSA-527x-5wrf-22m2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-527x-5wrf-22m2"
+    "GHSA-527x-5wrf-22m2"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-527x-5wrf-22m2"
+      "url": "https://osv.dev/vulnerability/GHSA-527x-5wrf-22m2"
     }
   ],
   "published": "2026-09-18T10:24:38.591017Z",
-  "modified": "2026-10-08T18:40:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

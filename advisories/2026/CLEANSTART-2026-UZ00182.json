@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UZ00182",
-  "summary": "Security fix for ghsa-wg35-8jpf-2xv3 applied in: activemq 6.2.3-r1, apache-nifi-registry 2.9.0-r1, kafka-ui 1.4.2-r6",
-  "details": "ghsa-wg35-8jpf-2xv3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wg35-8jpf-2xv3 applied in: activemq 6.2.3-r1, apache-nifi-registry 2.9.0-r1, kafka-ui 1.4.2-r6",
+  "details": "GHSA-wg35-8jpf-2xv3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wg35-8jpf-2xv3"
+    "GHSA-wg35-8jpf-2xv3"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wg35-8jpf-2xv3"
+      "url": "https://osv.dev/vulnerability/GHSA-wg35-8jpf-2xv3"
     }
   ],
   "published": "2026-09-18T10:09:56.996065Z",
-  "modified": "2026-10-09T06:13:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

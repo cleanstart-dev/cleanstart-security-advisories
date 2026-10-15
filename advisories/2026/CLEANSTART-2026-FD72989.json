@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FD72989",
-  "summary": "Security fix for ghsa-6r3c-xf4w-jxjm applied in: kafka-ui 1.2.0-r1, kafka-ui 1.3.0-r1",
-  "details": "ghsa-6r3c-xf4w-jxjm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6r3c-xf4w-jxjm applied in: kafka-ui 1.2.0-r1, kafka-ui 1.3.0-r1",
+  "details": "GHSA-6r3c-xf4w-jxjm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6r3c-xf4w-jxjm"
+    "GHSA-6r3c-xf4w-jxjm"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6r3c-xf4w-jxjm"
+      "url": "https://osv.dev/vulnerability/GHSA-6r3c-xf4w-jxjm"
     }
   ],
   "published": "2026-09-18T10:23:19.752944Z",
-  "modified": "2026-10-08T19:04:57Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

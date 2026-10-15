@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IL87436",
-  "summary": "Security fix for ghsa-x527-x647-q7gg applied in: cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, grafana-agent-operator 0.44.3-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
-  "details": "ghsa-x527-x647-q7gg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-x527-x647-q7gg applied in: cfssl 1.5.0-r1, consul-fips 2.0.1-r1, crossplane-provider-sql-fips 0.15.0-r3, distribution 3.1.1-r1, grafana-agent-operator 0.44.3-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
+  "details": "GHSA-x527-x647-q7gg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x527-x647-q7gg"
+    "GHSA-x527-x647-q7gg"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x527-x647-q7gg"
+      "url": "https://osv.dev/vulnerability/GHSA-x527-x647-q7gg"
     }
   ],
   "published": "2026-09-18T09:52:59.665330Z",
-  "modified": "2026-10-08T19:46:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

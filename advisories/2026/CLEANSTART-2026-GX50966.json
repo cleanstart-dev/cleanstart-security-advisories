@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GX50966",
-  "summary": "Security fix for ghsa-w7vc-732c-9m39 applied in: airflow-2 2.11.0-r3",
+  "summary": "Security fix for GHSA-w7vc-732c-9m39 applied in: airflow-2 2.11.0-r3",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w7vc-732c-9m39"
+    "GHSA-w7vc-732c-9m39"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w7vc-732c-9m39"
+      "url": "https://osv.dev/vulnerability/GHSA-w7vc-732c-9m39"
     }
   ],
   "published": "2026-09-18T09:57:28.946957Z",
-  "modified": "2026-10-08T19:26:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

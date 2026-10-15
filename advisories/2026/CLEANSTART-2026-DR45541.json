@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DR45541",
-  "summary": "Security fix for ghsa-67fx-wx78-jx33 applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
-  "details": "ghsa-67fx-wx78-jx33 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-67fx-wx78-jx33 applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
+  "details": "GHSA-67fx-wx78-jx33 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-67fx-wx78-jx33"
+    "GHSA-67fx-wx78-jx33"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-67fx-wx78-jx33"
+      "url": "https://osv.dev/vulnerability/GHSA-67fx-wx78-jx33"
     }
   ],
   "published": "2026-09-18T10:31:28.928635Z",
-  "modified": "2026-10-08T18:45:48Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QB65982",
-  "summary": "Security fix for ghsa-6xv5-86q9-7xr8 applied in: modelmesh-runtime-adapter 0.10.0-r0, modelmesh-runtime-adapter 0.11.2-r0, modelmesh-runtime-adapter 0.9.0-r0",
-  "details": "ghsa-6xv5-86q9-7xr8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6xv5-86q9-7xr8 applied in: modelmesh-runtime-adapter 0.10.0-r0, modelmesh-runtime-adapter 0.11.2-r0, modelmesh-runtime-adapter 0.9.0-r0",
+  "details": "GHSA-6xv5-86q9-7xr8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6xv5-86q9-7xr8"
+    "GHSA-6xv5-86q9-7xr8"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6xv5-86q9-7xr8"
+      "url": "https://osv.dev/vulnerability/GHSA-6xv5-86q9-7xr8"
     }
   ],
   "published": "2026-09-18T10:15:59.981808Z",
-  "modified": "2026-10-09T04:40:38Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

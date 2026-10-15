@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UV37642",
-  "summary": "Security fix for ghsa-mvxr-6m87-mv2q applied in: ruby-fluentd-1.18 1.18.0-r7, ruby-fluentd-1.19 1.19.3-r1",
-  "details": "ghsa-mvxr-6m87-mv2q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mvxr-6m87-mv2q applied in: ruby-fluentd-1.18 1.18.0-r7, ruby-fluentd-1.19 1.19.3-r1",
+  "details": "GHSA-mvxr-6m87-mv2q affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mvxr-6m87-mv2q"
+    "GHSA-mvxr-6m87-mv2q"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mvxr-6m87-mv2q"
+      "url": "https://osv.dev/vulnerability/GHSA-mvxr-6m87-mv2q"
     }
   ],
   "published": "2026-09-18T09:31:06.162949Z",
-  "modified": "2026-10-09T06:11:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

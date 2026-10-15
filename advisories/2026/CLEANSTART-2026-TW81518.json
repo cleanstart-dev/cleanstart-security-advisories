@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TW81518",
-  "summary": "Security fix for ghsa-752w-5fwx-jx9f applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, jupyterhub-k8s-hub 4.3.2-r0",
-  "details": "ghsa-752w-5fwx-jx9f affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-752w-5fwx-jx9f applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, jupyterhub-k8s-hub 4.3.2-r0",
+  "details": "GHSA-752w-5fwx-jx9f affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-752w-5fwx-jx9f"
+    "GHSA-752w-5fwx-jx9f"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-752w-5fwx-jx9f"
+      "url": "https://osv.dev/vulnerability/GHSA-752w-5fwx-jx9f"
     }
   ],
   "published": "2026-09-18T10:15:20.799301Z",
-  "modified": "2026-10-09T05:58:29Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-PK28736",
-  "summary": "Security fix for ghsa-ppp9-7jff-5vj2 applied in: multus-cni-fips 3.9.3-r2",
+  "summary": "Security fix for GHSA-ppp9-7jff-5vj2 applied in: multus-cni-fips 3.9.3-r2",
   "details": "Security vulnerability affects the multus-cni-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-ppp9-7jff-5vj2"
+    "GHSA-ppp9-7jff-5vj2"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-ppp9-7jff-5vj2"
+      "url": "https://osv.dev/vulnerability/GHSA-ppp9-7jff-5vj2"
     }
   ],
   "published": "2026-09-18T10:31:12.384435Z",
-  "modified": "2026-10-08T17:54:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

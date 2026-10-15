@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OR44215",
-  "summary": "Security fix for ghsa-whj4-6x5x-4v2j applied in: apache-superset 6.0.0-r5",
+  "summary": "Security fix for GHSA-whj4-6x5x-4v2j applied in: apache-superset 6.0.0-r5",
   "details": "Security vulnerability affects the apache-superset package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-whj4-6x5x-4v2j"
+    "GHSA-whj4-6x5x-4v2j"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-whj4-6x5x-4v2j"
+      "url": "https://osv.dev/vulnerability/GHSA-whj4-6x5x-4v2j"
     }
   ],
   "published": "2026-09-18T09:52:53.112996Z",
-  "modified": "2026-10-09T04:22:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

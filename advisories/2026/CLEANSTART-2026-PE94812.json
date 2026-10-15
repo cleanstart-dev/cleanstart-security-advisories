@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PE94812",
-  "summary": "Security fix for ghsa-fjpj-2g6w-x25r applied in: stargate 1.0.90-r4",
+  "summary": "Security fix for GHSA-fjpj-2g6w-x25r applied in: stargate 1.0.90-r4",
   "details": "Security vulnerability affects the stargate package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fjpj-2g6w-x25r"
+    "GHSA-fjpj-2g6w-x25r"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fjpj-2g6w-x25r"
+      "url": "https://osv.dev/vulnerability/GHSA-fjpj-2g6w-x25r"
     }
   ],
   "published": "2026-09-18T10:24:25.985069Z",
-  "modified": "2026-10-09T04:28:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

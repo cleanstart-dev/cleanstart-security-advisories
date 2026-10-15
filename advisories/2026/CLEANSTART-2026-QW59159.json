@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QW59159",
-  "summary": "Security fix for ghsa-8v2v-wjwg-vx6r applied in: qdrant 1.16.3-r0",
+  "summary": "Security fix for GHSA-8v2v-wjwg-vx6r applied in: qdrant 1.16.3-r0",
   "details": "Security vulnerability affects the qdrant package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8v2v-wjwg-vx6r"
+    "GHSA-8v2v-wjwg-vx6r"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8v2v-wjwg-vx6r"
+      "url": "https://osv.dev/vulnerability/GHSA-8v2v-wjwg-vx6r"
     }
   ],
   "published": "2026-09-18T10:26:26.784396Z",
-  "modified": "2026-10-09T04:51:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

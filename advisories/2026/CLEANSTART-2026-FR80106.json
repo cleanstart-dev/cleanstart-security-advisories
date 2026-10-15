@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FR80106",
-  "summary": "Security fix for ghsa-p6xx-57qc-3wxr applied in: opensearch-dashboards-fips 2.19.5-r0",
+  "summary": "Security fix for GHSA-p6xx-57qc-3wxr applied in: opensearch-dashboards-fips 2.19.5-r0",
   "details": "Security vulnerability affects the opensearch-dashboards-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p6xx-57qc-3wxr"
+    "GHSA-p6xx-57qc-3wxr"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p6xx-57qc-3wxr"
+      "url": "https://osv.dev/vulnerability/GHSA-p6xx-57qc-3wxr"
     }
   ],
   "published": "2026-09-18T10:17:05.097932Z",
-  "modified": "2026-10-08T19:11:52Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

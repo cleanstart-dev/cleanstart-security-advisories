@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OC06333",
-  "summary": "Security fix for ghsa-wf8f-6423-gfxg applied in: druid-fips 35.0.0-r1, orientdb 3.2.38-r0",
-  "details": "ghsa-wf8f-6423-gfxg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wf8f-6423-gfxg applied in: druid-fips 35.0.0-r1, orientdb 3.2.38-r0",
+  "details": "GHSA-wf8f-6423-gfxg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wf8f-6423-gfxg"
+    "GHSA-wf8f-6423-gfxg"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wf8f-6423-gfxg"
+      "url": "https://osv.dev/vulnerability/GHSA-wf8f-6423-gfxg"
     }
   ],
   "published": "2026-09-18T10:31:09.916803Z",
-  "modified": "2026-10-09T04:12:38Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

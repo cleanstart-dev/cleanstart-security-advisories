@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AH15669",
-  "summary": "Security fix for ghsa-259r-337f-4rfw applied in: crane 0.19.2-r1, crane 0.20.7-r3, crane 0.20.7-r4",
-  "details": "ghsa-259r-337f-4rfw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-259r-337f-4rfw applied in: crane 0.19.2-r1, crane 0.20.7-r3, crane 0.20.7-r4",
+  "details": "GHSA-259r-337f-4rfw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-259r-337f-4rfw"
+    "GHSA-259r-337f-4rfw"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-259r-337f-4rfw"
+      "url": "https://osv.dev/vulnerability/GHSA-259r-337f-4rfw"
     }
   ],
   "published": "2026-09-30T20:34:53.118246Z",
-  "modified": "2026-10-08T17:57:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

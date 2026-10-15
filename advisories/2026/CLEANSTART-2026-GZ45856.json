@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GZ45856",
-  "summary": "Security fix for ghsa-m7jm-9gc2-mpf2 applied in: jitsucom-jitsu 2.11.0-r2, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-m7jm-9gc2-mpf2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-m7jm-9gc2-mpf2 applied in: jitsucom-jitsu 2.11.0-r2, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-m7jm-9gc2-mpf2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m7jm-9gc2-mpf2"
+    "GHSA-m7jm-9gc2-mpf2"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m7jm-9gc2-mpf2"
+      "url": "https://osv.dev/vulnerability/GHSA-m7jm-9gc2-mpf2"
     }
   ],
   "published": "2026-09-18T10:26:46.310230Z",
-  "modified": "2026-10-08T19:27:19Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

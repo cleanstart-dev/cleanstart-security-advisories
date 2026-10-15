@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UK29776",
-  "summary": "Security fix for ghsa-fqwm-6jpj-5wxc applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
-  "details": "ghsa-fqwm-6jpj-5wxc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fqwm-6jpj-5wxc applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
+  "details": "GHSA-fqwm-6jpj-5wxc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fqwm-6jpj-5wxc"
+    "GHSA-fqwm-6jpj-5wxc"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fqwm-6jpj-5wxc"
+      "url": "https://osv.dev/vulnerability/GHSA-fqwm-6jpj-5wxc"
     }
   ],
   "published": "2026-09-18T09:59:54.016271Z",
-  "modified": "2026-10-09T06:06:48Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

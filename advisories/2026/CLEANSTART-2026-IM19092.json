@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IM19092",
-  "summary": "Security fix for ghsa-gv8r-9rw9-9697 applied in: forecastle 1.0.159-r1",
+  "summary": "Security fix for GHSA-gv8r-9rw9-9697 applied in: forecastle 1.0.159-r1",
   "details": "Security vulnerability affects the forecastle package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gv8r-9rw9-9697"
+    "GHSA-gv8r-9rw9-9697"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gv8r-9rw9-9697"
+      "url": "https://osv.dev/vulnerability/GHSA-gv8r-9rw9-9697"
     }
   ],
   "published": "2026-09-18T09:51:37.945084Z",
-  "modified": "2026-10-08T19:47:05Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

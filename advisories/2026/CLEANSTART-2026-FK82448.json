@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FK82448",
-  "summary": "Security fix for ghsa-r6j8-c6r2-37rr applied in: argo-cd 3.0.22-r0, argo-cd-fips 3.0.21-r0, argo-cd-fips 3.0.22-r0, argo-rollouts 1.9.0-r0, argo-rollouts-fips 1.9.0-r0, ip-masq-agent 2.12.6-r1, kubernetes-csi-driver-nfs 4.12.1-r0, kubernetes-csi-driver-nfs-fips 4.12.1-r1, local-static-provisioner 2.8.0-r2, node-feature-discovery 0.18.3-r1, node-feature-discovery 0.18.3-r3",
-  "details": "ghsa-r6j8-c6r2-37rr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r6j8-c6r2-37rr applied in: argo-cd 3.0.22-r0, argo-cd-fips 3.0.21-r0, argo-cd-fips 3.0.22-r0, argo-rollouts 1.9.0-r0, argo-rollouts-fips 1.9.0-r0, ip-masq-agent 2.12.6-r1, kubernetes-csi-driver-nfs 4.12.1-r0, kubernetes-csi-driver-nfs-fips 4.12.1-r1, local-static-provisioner 2.8.0-r2, node-feature-discovery 0.18.3-r1, node-feature-discovery 0.18.3-r3",
+  "details": "GHSA-r6j8-c6r2-37rr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -226,7 +226,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r6j8-c6r2-37rr"
+    "GHSA-r6j8-c6r2-37rr"
   ],
   "references": [
     {
@@ -235,11 +235,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r6j8-c6r2-37rr"
+      "url": "https://osv.dev/vulnerability/GHSA-r6j8-c6r2-37rr"
     }
   ],
   "published": "2026-09-18T10:29:40.108299Z",
-  "modified": "2026-10-08T19:08:29Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

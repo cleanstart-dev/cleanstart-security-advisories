@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DU53299",
-  "summary": "Security fix for ghsa-4f99-4q7p-p3gh applied in: buildkitd 0.26.3-r0",
+  "summary": "Security fix for GHSA-4f99-4q7p-p3gh applied in: buildkitd 0.26.3-r0",
   "details": "Security vulnerability affects the buildkitd package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4f99-4q7p-p3gh"
+    "GHSA-4f99-4q7p-p3gh"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4f99-4q7p-p3gh"
+      "url": "https://osv.dev/vulnerability/GHSA-4f99-4q7p-p3gh"
     }
   ],
   "published": "2026-09-30T19:24:04.083043Z",
-  "modified": "2026-10-08T18:47:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

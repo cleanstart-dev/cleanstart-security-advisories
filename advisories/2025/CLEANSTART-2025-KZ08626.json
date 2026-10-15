@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-KZ08626",
-  "summary": "Security fix for ghsa-pg9f-39pc-qf8g applied in: ztunnel-fips 1.25.5-r0",
+  "summary": "Security fix for GHSA-pg9f-39pc-qf8g applied in: ztunnel-fips 1.25.5-r0",
   "details": "Security vulnerability affects the ztunnel-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pg9f-39pc-qf8g"
+    "GHSA-pg9f-39pc-qf8g"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pg9f-39pc-qf8g"
+      "url": "https://osv.dev/vulnerability/GHSA-pg9f-39pc-qf8g"
     }
   ],
   "published": "2026-09-18T10:32:27.204662Z",
-  "modified": "2026-10-08T17:54:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

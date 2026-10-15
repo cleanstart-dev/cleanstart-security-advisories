@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TB62502",
-  "summary": "Security fix for ghsa-88jx-383q-w4qc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4",
+  "summary": "Security fix for GHSA-88jx-383q-w4qc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4",
   "details": "Security vulnerability affects the kyverno-policy-reporter-kyverno-plugin-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-88jx-383q-w4qc"
+    "GHSA-88jx-383q-w4qc"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-88jx-383q-w4qc"
+      "url": "https://osv.dev/vulnerability/GHSA-88jx-383q-w4qc"
     }
   ],
   "published": "2026-09-18T10:02:19.628483Z",
-  "modified": "2026-10-09T05:48:20Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

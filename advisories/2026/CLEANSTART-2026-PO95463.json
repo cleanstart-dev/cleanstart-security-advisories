@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PO95463",
-  "summary": "Security fix for ghsa-h7mw-gpvr-xq4m applied in: opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-h7mw-gpvr-xq4m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-h7mw-gpvr-xq4m applied in: opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-h7mw-gpvr-xq4m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-h7mw-gpvr-xq4m"
+    "GHSA-h7mw-gpvr-xq4m"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-h7mw-gpvr-xq4m"
+      "url": "https://osv.dev/vulnerability/GHSA-h7mw-gpvr-xq4m"
     }
   ],
   "published": "2026-09-18T10:17:18.854916Z",
-  "modified": "2026-10-09T04:34:01Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

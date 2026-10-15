@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YQ75311",
-  "summary": "Security fix for ghsa-58pv-8j8x-9vj2 applied in: airflow-2 2.10.3-r2, az 2.81.0-r0, pritunl 1.32.4528.97-r0",
-  "details": "ghsa-58pv-8j8x-9vj2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-58pv-8j8x-9vj2 applied in: airflow-2 2.10.3-r2, az 2.81.0-r0, pritunl 1.32.4528.97-r0",
+  "details": "GHSA-58pv-8j8x-9vj2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-58pv-8j8x-9vj2"
+    "GHSA-58pv-8j8x-9vj2"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-58pv-8j8x-9vj2"
+      "url": "https://osv.dev/vulnerability/GHSA-58pv-8j8x-9vj2"
     }
   ],
   "published": "2026-09-18T10:28:47.299280Z",
-  "modified": "2026-10-09T07:03:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

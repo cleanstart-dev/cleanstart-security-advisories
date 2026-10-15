@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XP67395",
-  "summary": "Security fix for ghsa-h8mm-c463-wjq3 applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
-  "details": "ghsa-h8mm-c463-wjq3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-h8mm-c463-wjq3 applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
+  "details": "GHSA-h8mm-c463-wjq3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-h8mm-c463-wjq3"
+    "GHSA-h8mm-c463-wjq3"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-h8mm-c463-wjq3"
+      "url": "https://osv.dev/vulnerability/GHSA-h8mm-c463-wjq3"
     }
   ],
   "published": "2026-09-18T09:50:36.674392Z",
-  "modified": "2026-10-09T06:49:54Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

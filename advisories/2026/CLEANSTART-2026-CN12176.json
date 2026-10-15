@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CN12176",
-  "summary": "Security fix for ghsa-2vgg-9h3w-qbr4 applied in: argo-cd 2.13.9-r0, argo-cd-fips 2.13.9-r0",
-  "details": "ghsa-2vgg-9h3w-qbr4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2vgg-9h3w-qbr4 applied in: argo-cd 2.13.9-r0, argo-cd-fips 2.13.9-r0",
+  "details": "GHSA-2vgg-9h3w-qbr4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2vgg-9h3w-qbr4"
+    "GHSA-2vgg-9h3w-qbr4"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2vgg-9h3w-qbr4"
+      "url": "https://osv.dev/vulnerability/GHSA-2vgg-9h3w-qbr4"
     }
   ],
   "published": "2026-09-18T10:32:38.780648Z",
-  "modified": "2026-10-08T18:27:54Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

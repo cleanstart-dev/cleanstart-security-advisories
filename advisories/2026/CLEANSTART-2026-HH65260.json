@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HH65260",
-  "summary": "Security fix for ghsa-v3rj-xjv7-4jmq applied in: renovate 43.123.6-r0",
+  "summary": "Security fix for GHSA-v3rj-xjv7-4jmq applied in: renovate 43.123.6-r0",
   "details": "Security vulnerability affects the renovate package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v3rj-xjv7-4jmq"
+    "GHSA-v3rj-xjv7-4jmq"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v3rj-xjv7-4jmq"
+      "url": "https://osv.dev/vulnerability/GHSA-v3rj-xjv7-4jmq"
     }
   ],
   "published": "2026-09-18T10:14:36.077140Z",
-  "modified": "2026-10-08T19:32:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",
