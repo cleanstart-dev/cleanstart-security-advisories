@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WM90638",
-  "summary": "Security fix for ghsa-259r-337f-4rfw applied in: grafana-alloy 1.16.3-r0",
+  "summary": "Security fix for GHSA-259r-337f-4rfw applied in: grafana-alloy 1.16.3-r0",
   "details": "Security vulnerability affects the grafana-alloy package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-259r-337f-4rfw"
+    "GHSA-259r-337f-4rfw"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-259r-337f-4rfw"
+      "url": "https://osv.dev/vulnerability/GHSA-259r-337f-4rfw"
     }
   ],
   "published": "2026-09-29T00:35:03.276396Z",
-  "modified": "2026-10-09T06:34:54Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

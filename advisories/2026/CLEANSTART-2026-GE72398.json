@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GE72398",
-  "summary": "Security fix for ghsa-wjx4-4jcj-g98j applied in: apache-superset 6.0.0-r5",
+  "summary": "Security fix for GHSA-wjx4-4jcj-g98j applied in: apache-superset 6.0.0-r5",
   "details": "Security vulnerability affects the apache-superset package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wjx4-4jcj-g98j"
+    "GHSA-wjx4-4jcj-g98j"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wjx4-4jcj-g98j"
+      "url": "https://osv.dev/vulnerability/GHSA-wjx4-4jcj-g98j"
     }
   ],
   "published": "2026-09-18T09:52:55.701109Z",
-  "modified": "2026-10-08T19:18:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

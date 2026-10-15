@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IL37886",
-  "summary": "Security fix for ghsa-mqqf-5wvp-8fh8 applied in: cortex 1.21.0-r1, cosign 2.4.3-r0, cosign 2.5.3-r0, gitea-fips 1.25.5-r0, karma-fips 0.122-r0, kubescape 3.0.47-r0, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r7, rekor-backfill-index 1.4.3-r2, step-ca-fips 0.29.0-r0, tkn-fips 0.43.0-r3",
-  "details": "ghsa-mqqf-5wvp-8fh8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mqqf-5wvp-8fh8 applied in: cortex 1.21.0-r1, cosign 2.4.3-r0, cosign 2.5.3-r0, gitea-fips 1.25.5-r0, karma-fips 0.122-r0, kubescape 3.0.47-r0, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r7, rekor-backfill-index 1.4.3-r2, step-ca-fips 0.29.0-r0, tkn-fips 0.43.0-r3",
+  "details": "GHSA-mqqf-5wvp-8fh8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -206,7 +206,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mqqf-5wvp-8fh8"
+    "GHSA-mqqf-5wvp-8fh8"
   ],
   "references": [
     {
@@ -215,11 +215,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mqqf-5wvp-8fh8"
+      "url": "https://osv.dev/vulnerability/GHSA-mqqf-5wvp-8fh8"
     }
   ],
   "published": "2026-09-18T10:28:44.402249Z",
-  "modified": "2026-10-08T19:46:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BL39190",
-  "summary": "Security fix for ghsa-w67g-5rqw-f597 applied in: vault 1.19.5-r3, vault 1.20.4-r9, velero 1.15.2-r8",
-  "details": "ghsa-w67g-5rqw-f597 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w67g-5rqw-f597 applied in: vault 1.19.5-r3, vault 1.20.4-r9, velero 1.15.2-r8",
+  "details": "GHSA-w67g-5rqw-f597 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w67g-5rqw-f597"
+    "GHSA-w67g-5rqw-f597"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w67g-5rqw-f597"
+      "url": "https://osv.dev/vulnerability/GHSA-w67g-5rqw-f597"
     }
   ],
   "published": "2026-09-18T09:26:46.612179Z",
-  "modified": "2026-10-08T18:11:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

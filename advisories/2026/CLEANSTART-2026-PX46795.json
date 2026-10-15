@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PX46795",
-  "summary": "Security fix for ghsa-v53g-5gjp-272r applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
-  "details": "ghsa-v53g-5gjp-272r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-v53g-5gjp-272r applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
+  "details": "GHSA-v53g-5gjp-272r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v53g-5gjp-272r"
+    "GHSA-v53g-5gjp-272r"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v53g-5gjp-272r"
+      "url": "https://osv.dev/vulnerability/GHSA-v53g-5gjp-272r"
     }
   ],
   "published": "2026-09-18T10:31:33.176738Z",
-  "modified": "2026-10-09T04:38:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

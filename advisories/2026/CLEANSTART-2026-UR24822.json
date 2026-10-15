@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UR24822",
-  "summary": "Security fix for ghsa-fcv2-xgw5-pqxf applied in: cosign 2.4.3-r0, cosign 2.5.3-r0, kubescape 3.0.47-r0, kyverno-fips 1.16.1-r2, rekor-backfill-index 1.4.3-r1, sigstore-scaffolding 0.7.29-r1, sigstore-scaffolding 0.7.31-r1, sigstore-scaffolding-fips 0.7.31-r0, spire-server 1.14.1-r1, spire-server-fips 1.14.1-r1, tekton-chains 0.26.0-r2, tekton-chains-fips 0.26.0-r2, tekton-pipelines 1.5.0-r2, tkn-fips 0.43.0-r2",
-  "details": "ghsa-fcv2-xgw5-pqxf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fcv2-xgw5-pqxf applied in: cosign 2.4.3-r0, cosign 2.5.3-r0, kubescape 3.0.47-r0, kyverno-fips 1.16.1-r2, rekor-backfill-index 1.4.3-r1, sigstore-scaffolding 0.7.29-r1, sigstore-scaffolding 0.7.31-r1, sigstore-scaffolding-fips 0.7.31-r0, spire-server 1.14.1-r1, spire-server-fips 1.14.1-r1, tekton-chains 0.26.0-r2, tekton-chains-fips 0.26.0-r2, tekton-pipelines 1.5.0-r2, tkn-fips 0.43.0-r2",
+  "details": "GHSA-fcv2-xgw5-pqxf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -286,7 +286,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fcv2-xgw5-pqxf"
+    "GHSA-fcv2-xgw5-pqxf"
   ],
   "references": [
     {
@@ -295,11 +295,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fcv2-xgw5-pqxf"
+      "url": "https://osv.dev/vulnerability/GHSA-fcv2-xgw5-pqxf"
     }
   ],
   "published": "2026-09-18T10:29:17.990772Z",
-  "modified": "2026-10-09T06:10:23Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

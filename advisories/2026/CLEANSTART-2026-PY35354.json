@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PY35354",
-  "summary": "Security fix for ghsa-wf45-q9ch-q8gh applied in: loki 3.7.1-r1",
+  "summary": "Security fix for GHSA-wf45-q9ch-q8gh applied in: loki 3.7.1-r1",
   "details": "Security vulnerability affects the loki package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wf45-q9ch-q8gh"
+    "GHSA-wf45-q9ch-q8gh"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wf45-q9ch-q8gh"
+      "url": "https://osv.dev/vulnerability/GHSA-wf45-q9ch-q8gh"
     }
   ],
   "published": "2026-09-26T00:37:59.253136Z",
-  "modified": "2026-10-09T04:39:20Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

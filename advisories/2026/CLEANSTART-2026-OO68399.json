@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OO68399",
-  "summary": "Security fix for ghsa-9cv2-cfxc-v4v2 applied in: logstash-fips 9.4.3-r1",
+  "summary": "Security fix for GHSA-9cv2-cfxc-v4v2 applied in: logstash-fips 9.4.3-r1",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9cv2-cfxc-v4v2"
+    "GHSA-9cv2-cfxc-v4v2"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9cv2-cfxc-v4v2"
+      "url": "https://osv.dev/vulnerability/GHSA-9cv2-cfxc-v4v2"
     }
   ],
   "published": "2026-09-18T09:49:47.877565Z",
-  "modified": "2026-10-09T04:20:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

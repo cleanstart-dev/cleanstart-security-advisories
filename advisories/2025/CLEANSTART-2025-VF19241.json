@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-VF19241",
-  "summary": "Security fix for ghsa-c5je-5rwv-2wp2 applied in: kube-vip-fips 0.7.2-r0",
+  "summary": "Security fix for GHSA-c5je-5rwv-2wp2 applied in: kube-vip-fips 0.7.2-r0",
   "details": "Security vulnerability affects the kube-vip-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c5je-5rwv-2wp2"
+    "GHSA-c5je-5rwv-2wp2"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c5je-5rwv-2wp2"
+      "url": "https://osv.dev/vulnerability/GHSA-c5je-5rwv-2wp2"
     }
   ],
   "published": "2026-09-18T10:31:19.652263Z",
-  "modified": "2026-10-08T17:54:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

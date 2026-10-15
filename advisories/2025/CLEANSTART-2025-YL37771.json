@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-YL37771",
-  "summary": "Security fix for ghsa-2j42-h78h-q4fg applied in: harbor-fips 2.10.3-r0",
+  "summary": "Security fix for GHSA-2j42-h78h-q4fg applied in: harbor-fips 2.10.3-r0",
   "details": "Security vulnerability affects the harbor-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2j42-h78h-q4fg"
+    "GHSA-2j42-h78h-q4fg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2j42-h78h-q4fg"
+      "url": "https://osv.dev/vulnerability/GHSA-2j42-h78h-q4fg"
     }
   ],
   "published": "2026-09-18T10:32:40.910720Z",
-  "modified": "2026-10-08T17:54:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

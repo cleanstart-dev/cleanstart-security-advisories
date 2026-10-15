@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VO66326",
-  "summary": "Security fix for ghsa-fv5p-p927-qmxr applied in: py3-langchain 1.2.14-r2",
+  "summary": "Security fix for GHSA-fv5p-p927-qmxr applied in: py3-langchain 1.2.14-r2",
   "details": "Security vulnerability affects the py3-langchain package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fv5p-p927-qmxr"
+    "GHSA-fv5p-p927-qmxr"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fv5p-p927-qmxr"
+      "url": "https://osv.dev/vulnerability/GHSA-fv5p-p927-qmxr"
     }
   ],
   "published": "2026-09-18T09:57:36.591238Z",
-  "modified": "2026-10-09T06:22:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DX97509",
-  "summary": "Security fix for ghsa-g754-hx8w-x2g6 applied in: kubernetes-dns-node-cache 1.26.0-r1",
+  "summary": "Security fix for GHSA-g754-hx8w-x2g6 applied in: kubernetes-dns-node-cache 1.26.0-r1",
   "details": "Security vulnerability affects the kubernetes-dns-node-cache package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-g754-hx8w-x2g6"
+    "GHSA-g754-hx8w-x2g6"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-g754-hx8w-x2g6"
+      "url": "https://osv.dev/vulnerability/GHSA-g754-hx8w-x2g6"
     }
   ],
   "published": "2026-09-18T09:50:42.977827Z",
-  "modified": "2026-10-08T18:49:29Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

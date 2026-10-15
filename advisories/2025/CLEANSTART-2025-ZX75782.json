@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-ZX75782",
-  "summary": "Security fix for ghsa-27wf-5967-98gx applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
+  "summary": "Security fix for GHSA-27wf-5967-98gx applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
   "details": "Security vulnerability affects the nfs-subdir-external-provisioner-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-27wf-5967-98gx"
+    "GHSA-27wf-5967-98gx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-27wf-5967-98gx"
+      "url": "https://osv.dev/vulnerability/GHSA-27wf-5967-98gx"
     }
   ],
   "published": "2026-09-18T10:30:38.649744Z",
-  "modified": "2026-10-08T17:54:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

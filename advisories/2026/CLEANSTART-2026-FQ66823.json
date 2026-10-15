@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FQ66823",
-  "summary": "Security fix for ghsa-r73j-pqj5-w3x7 applied in: apache-superset 6.0.0-r5",
+  "summary": "Security fix for GHSA-r73j-pqj5-w3x7 applied in: apache-superset 6.0.0-r5",
   "details": "Security vulnerability affects the apache-superset package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r73j-pqj5-w3x7"
+    "GHSA-r73j-pqj5-w3x7"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r73j-pqj5-w3x7"
+      "url": "https://osv.dev/vulnerability/GHSA-r73j-pqj5-w3x7"
     }
   ],
   "published": "2026-09-18T09:52:56.274555Z",
-  "modified": "2026-10-08T19:11:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

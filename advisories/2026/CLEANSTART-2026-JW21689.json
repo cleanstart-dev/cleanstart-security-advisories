@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JW21689",
-  "summary": "Security fix for ghsa-x445-f3h2-j279 applied in: langfuse-worker 3.194.1-r1, langfuse-worker 3.212.0-r1, langfuse-worker 3.213.0-r1, langfuse-worker 3.214.0-r1, langfuse-worker 3.215.0-r1, langfuse-worker 3.216.0-r1, langfuse-worker 3.217.0-r1, langfuse-worker 3.218.0-r1, langfuse-worker 3.219.0-r1, langfuse-worker 3.220.0-r1, langfuse-worker 3.221.1-r2, langfuse-worker 3.223.0-r2, langfuse-worker 3.224.0-r1",
-  "details": "ghsa-x445-f3h2-j279 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-x445-f3h2-j279 applied in: langfuse-worker 3.194.1-r1, langfuse-worker 3.212.0-r1, langfuse-worker 3.213.0-r1, langfuse-worker 3.214.0-r1, langfuse-worker 3.215.0-r1, langfuse-worker 3.216.0-r1, langfuse-worker 3.217.0-r1, langfuse-worker 3.218.0-r1, langfuse-worker 3.219.0-r1, langfuse-worker 3.220.0-r1, langfuse-worker 3.221.1-r2, langfuse-worker 3.223.0-r2, langfuse-worker 3.224.0-r1",
+  "details": "GHSA-x445-f3h2-j279 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -266,7 +266,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x445-f3h2-j279"
+    "GHSA-x445-f3h2-j279"
   ],
   "references": [
     {
@@ -275,11 +275,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x445-f3h2-j279"
+      "url": "https://osv.dev/vulnerability/GHSA-x445-f3h2-j279"
     }
   ],
   "published": "2026-09-18T09:42:10.616750Z",
-  "modified": "2026-10-09T03:12:54Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

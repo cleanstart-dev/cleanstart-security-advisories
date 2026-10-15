@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QG55054",
-  "summary": "Security fix for ghsa-4374-p667-p6c8 applied in: cfssl 1.5.0-r1, multus-cni-fips 3.9.3-r2, multus-cni-fips 4.0.2-r2, wavefront-collector-for-kubernetes 1.13.0-r0",
-  "details": "ghsa-4374-p667-p6c8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-4374-p667-p6c8 applied in: cfssl 1.5.0-r1, multus-cni-fips 3.9.3-r2, multus-cni-fips 4.0.2-r2, wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "GHSA-4374-p667-p6c8 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4374-p667-p6c8"
+    "GHSA-4374-p667-p6c8"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4374-p667-p6c8"
+      "url": "https://osv.dev/vulnerability/GHSA-4374-p667-p6c8"
     }
   ],
   "published": "2026-09-18T10:31:40.262188Z",
-  "modified": "2026-10-09T04:42:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

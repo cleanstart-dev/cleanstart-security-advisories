@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZG54261",
-  "summary": "Security fix for ghsa-gxhx-2686-5h9g applied in: argo-cd 3.4.10-r2",
+  "summary": "Security fix for GHSA-gxhx-2686-5h9g applied in: argo-cd 3.4.10-r2",
   "details": "Security vulnerability affects the argo-cd package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gxhx-2686-5h9g"
+    "GHSA-gxhx-2686-5h9g"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gxhx-2686-5h9g"
+      "url": "https://osv.dev/vulnerability/GHSA-gxhx-2686-5h9g"
     }
   ],
   "published": "2026-10-15T00:40:17.810043Z",
-  "modified": "2026-10-14T11:54:05Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NV99070",
-  "summary": "Security fix for ghsa-vqg5-3255-v292 applied in: logstash-fips 9.0.8-r4",
+  "summary": "Security fix for GHSA-vqg5-3255-v292 applied in: logstash-fips 9.0.8-r4",
   "details": "Security vulnerability affects the logstash-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vqg5-3255-v292"
+    "GHSA-vqg5-3255-v292"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vqg5-3255-v292"
+      "url": "https://osv.dev/vulnerability/GHSA-vqg5-3255-v292"
     }
   ],
   "published": "2026-09-18T10:30:25.032900Z",
-  "modified": "2026-10-09T04:09:47Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

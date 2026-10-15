@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SQ12497",
-  "summary": "Security fix for ghsa-p84v-gxvw-73pf applied in: argo-workflows-fips 3.7.3-r0",
+  "summary": "Security fix for GHSA-p84v-gxvw-73pf applied in: argo-workflows-fips 3.7.3-r0",
   "details": "Security vulnerability affects the argo-workflows-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-p84v-gxvw-73pf"
+    "GHSA-p84v-gxvw-73pf"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-p84v-gxvw-73pf"
+      "url": "https://osv.dev/vulnerability/GHSA-p84v-gxvw-73pf"
     }
   ],
   "published": "2026-09-18T10:31:59.177574Z",
-  "modified": "2026-10-09T05:42:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

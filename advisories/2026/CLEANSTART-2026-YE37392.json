@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YE37392",
-  "summary": "Security fix for ghsa-c2m8-h5v5-343r applied in: airflow-3 3.1.8-r13, airflow-3 3.2.1-r11, airflow-3 3.0.6-r9",
-  "details": "ghsa-c2m8-h5v5-343r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c2m8-h5v5-343r applied in: airflow-3 3.1.8-r13, airflow-3 3.2.1-r11, airflow-3 3.0.6-r9",
+  "details": "GHSA-c2m8-h5v5-343r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c2m8-h5v5-343r"
+    "GHSA-c2m8-h5v5-343r"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c2m8-h5v5-343r"
+      "url": "https://osv.dev/vulnerability/GHSA-c2m8-h5v5-343r"
     }
   ],
   "published": "2026-10-10T00:38:55.940598Z",
-  "modified": "2026-10-09T07:39:05Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

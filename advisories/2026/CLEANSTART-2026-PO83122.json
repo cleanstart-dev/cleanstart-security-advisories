@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PO83122",
-  "summary": "Security fix for ghsa-2xp9-vwfh-vxw4 applied in: langfuse-worker 3.225.9-r3",
+  "summary": "Security fix for GHSA-2xp9-vwfh-vxw4 applied in: langfuse-worker 3.225.9-r3",
   "details": "Security vulnerability affects the langfuse-worker package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2xp9-vwfh-vxw4"
+    "GHSA-2xp9-vwfh-vxw4"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2xp9-vwfh-vxw4"
+      "url": "https://osv.dev/vulnerability/GHSA-2xp9-vwfh-vxw4"
     }
   ],
   "published": "2026-10-08T00:43:43.069987Z",
-  "modified": "2026-10-09T04:33:59Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

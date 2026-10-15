@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-WT23235",
-  "summary": "Security fix for ghsa-wqv3-8cm6-h6wg applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
+  "summary": "Security fix for GHSA-wqv3-8cm6-h6wg applied in: nfs-subdir-external-provisioner-fips 4.0.16-r0",
   "details": "Security vulnerability affects the nfs-subdir-external-provisioner-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wqv3-8cm6-h6wg"
+    "GHSA-wqv3-8cm6-h6wg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wqv3-8cm6-h6wg"
+      "url": "https://osv.dev/vulnerability/GHSA-wqv3-8cm6-h6wg"
     }
   ],
   "published": "2026-09-18T10:30:44.585880Z",
-  "modified": "2026-10-08T17:54:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-YJ03782",
-  "summary": "Security fix for ghsa-q2qq-hmj6-3wpp applied in: ztunnel-fips 1.30.0-r0",
+  "summary": "Security fix for GHSA-q2qq-hmj6-3wpp applied in: ztunnel-fips 1.30.0-r0",
   "details": "Security vulnerability affects the ztunnel-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-q2qq-hmj6-3wpp"
+    "GHSA-q2qq-hmj6-3wpp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-q2qq-hmj6-3wpp"
+      "url": "https://osv.dev/vulnerability/GHSA-q2qq-hmj6-3wpp"
     }
   ],
   "published": "2026-09-18T10:10:40.662287Z",
-  "modified": "2026-10-09T06:59:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

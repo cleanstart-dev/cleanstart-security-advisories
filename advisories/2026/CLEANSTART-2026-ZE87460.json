@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZE87460",
-  "summary": "Security fix for ghsa-jhf3-xxhw-2wpp applied in: argo-cd 3.2.7-r2, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r0, argo-cd-fips 3.2.9-r0, external-secrets-fips 0.17.0-r2, flux-image-automation-controller-fips 4.0.1-r0, gitea-fips 1.25.5-r0, gitlab-runner 18.11.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 2.7.0-r0, syft 1.42.4-r0, timoni 0.25.2-r0",
-  "details": "ghsa-jhf3-xxhw-2wpp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jhf3-xxhw-2wpp applied in: argo-cd 3.2.7-r2, argo-cd 3.3.5-r2, argo-cd-fips 3.1.14-r0, argo-cd-fips 3.2.9-r0, external-secrets-fips 0.17.0-r2, flux-image-automation-controller-fips 4.0.1-r0, gitea-fips 1.25.5-r0, gitlab-runner 18.11.1-r0, gptscript 0.9.8-r0, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0, kubevela 1.10.8-r0, pulumi-kubernetes-operator 2.7.0-r0, syft 1.42.4-r0, timoni 0.25.2-r0",
+  "details": "GHSA-jhf3-xxhw-2wpp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -326,7 +326,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jhf3-xxhw-2wpp"
+    "GHSA-jhf3-xxhw-2wpp"
   ],
   "references": [
     {
@@ -335,11 +335,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jhf3-xxhw-2wpp"
+      "url": "https://osv.dev/vulnerability/GHSA-jhf3-xxhw-2wpp"
     }
   ],
   "published": "2026-09-18T10:24:23.735164Z",
-  "modified": "2026-10-09T07:09:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

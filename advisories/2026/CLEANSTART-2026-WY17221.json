@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WY17221",
-  "summary": "Security fix for ghsa-c2hv-4pfj-mm2r applied in: argo-workflows-fips 3.7.3-r0",
+  "summary": "Security fix for GHSA-c2hv-4pfj-mm2r applied in: argo-workflows-fips 3.7.3-r0",
   "details": "Security vulnerability affects the argo-workflows-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c2hv-4pfj-mm2r"
+    "GHSA-c2hv-4pfj-mm2r"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c2hv-4pfj-mm2r"
+      "url": "https://osv.dev/vulnerability/GHSA-c2hv-4pfj-mm2r"
     }
   ],
   "published": "2026-09-18T10:31:59.801603Z",
-  "modified": "2026-10-09T06:39:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

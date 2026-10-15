@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JQ26035",
-  "summary": "Security fix for ghsa-232p-vwff-86mp applied in: paranoia 0.2.1-r0",
+  "summary": "Security fix for GHSA-232p-vwff-86mp applied in: paranoia 0.2.1-r0",
   "details": "Security vulnerability affects the paranoia package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-232p-vwff-86mp"
+    "GHSA-232p-vwff-86mp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-232p-vwff-86mp"
+      "url": "https://osv.dev/vulnerability/GHSA-232p-vwff-86mp"
     }
   ],
   "published": "2026-09-18T10:22:50.748841Z",
-  "modified": "2026-10-09T03:09:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

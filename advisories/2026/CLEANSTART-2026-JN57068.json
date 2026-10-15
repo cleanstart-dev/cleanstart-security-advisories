@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JN57068",
-  "summary": "Security fix for ghsa-6v67-2wr5-gvf4 applied in: cassandra 5.0.6-r2, cassandra-fips 4.0.19-r3, cassandra-fips 4.1.10-r2, cassandra-fips 5.0.5-r0, cassandra-fips 5.0.6-r2, cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, stargate 1.0.90-r4",
-  "details": "ghsa-6v67-2wr5-gvf4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6v67-2wr5-gvf4 applied in: cassandra 5.0.6-r2, cassandra-fips 4.0.19-r3, cassandra-fips 4.1.10-r2, cassandra-fips 5.0.5-r0, cassandra-fips 5.0.6-r2, cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, stargate 1.0.90-r4",
+  "details": "GHSA-6v67-2wr5-gvf4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6v67-2wr5-gvf4"
+    "GHSA-6v67-2wr5-gvf4"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6v67-2wr5-gvf4"
+      "url": "https://osv.dev/vulnerability/GHSA-6v67-2wr5-gvf4"
     }
   ],
   "published": "2026-09-18T10:32:34.838127Z",
-  "modified": "2026-10-09T03:07:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

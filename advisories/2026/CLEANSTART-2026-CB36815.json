@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CB36815",
-  "summary": "Security fix for ghsa-wmmp-3585-3rmp applied in: langfuse 3.225.9-r0",
+  "summary": "Security fix for GHSA-wmmp-3585-3rmp applied in: langfuse 3.225.9-r0",
   "details": "Security vulnerability affects the langfuse package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wmmp-3585-3rmp"
+    "GHSA-wmmp-3585-3rmp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wmmp-3585-3rmp"
+      "url": "https://osv.dev/vulnerability/GHSA-wmmp-3585-3rmp"
     }
   ],
   "published": "2026-10-08T00:44:57.516082Z",
-  "modified": "2026-10-08T18:21:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

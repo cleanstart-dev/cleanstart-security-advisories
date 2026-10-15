@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TH82276",
-  "summary": "Security fix for ghsa-c9v3-4pv7-87pr applied in: kubernetes-dns-node-cache 1.26.7-r1, kubernetes-dns-node-cache-fips 1.26.7-r1",
-  "details": "ghsa-c9v3-4pv7-87pr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c9v3-4pv7-87pr applied in: kubernetes-dns-node-cache 1.26.7-r1, kubernetes-dns-node-cache-fips 1.26.7-r1",
+  "details": "GHSA-c9v3-4pv7-87pr affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c9v3-4pv7-87pr"
+    "GHSA-c9v3-4pv7-87pr"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c9v3-4pv7-87pr"
+      "url": "https://osv.dev/vulnerability/GHSA-c9v3-4pv7-87pr"
     }
   ],
   "published": "2026-09-18T10:24:36.375147Z",
-  "modified": "2026-10-09T05:51:21Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

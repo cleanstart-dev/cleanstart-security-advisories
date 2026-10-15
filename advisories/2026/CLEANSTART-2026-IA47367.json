@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IA47367",
-  "summary": "Security fix for ghsa-83g3-92jg-28cx applied in: mongosh 2.5.10-r5, mongosh 2.8.1-r0, npm 11.10.0-r2, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-83g3-92jg-28cx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-83g3-92jg-28cx applied in: mongosh 2.5.10-r5, mongosh 2.8.1-r0, npm 11.10.0-r2, opensearch-dashboards-fips 3.5.0-r1, renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-83g3-92jg-28cx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-83g3-92jg-28cx"
+    "GHSA-83g3-92jg-28cx"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-83g3-92jg-28cx"
+      "url": "https://osv.dev/vulnerability/GHSA-83g3-92jg-28cx"
     }
   ],
   "published": "2026-09-18T10:28:40.427451Z",
-  "modified": "2026-10-08T19:41:28Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

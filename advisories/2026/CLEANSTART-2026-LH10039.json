@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LH10039",
-  "summary": "Security fix for ghsa-qmvj-4qr9-v547 applied in: kserve-modelmesh-serving 0.9.0-r1",
+  "summary": "Security fix for GHSA-qmvj-4qr9-v547 applied in: kserve-modelmesh-serving 0.9.0-r1",
   "details": "Security vulnerability affects the kserve-modelmesh-serving package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qmvj-4qr9-v547"
+    "GHSA-qmvj-4qr9-v547"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qmvj-4qr9-v547"
+      "url": "https://osv.dev/vulnerability/GHSA-qmvj-4qr9-v547"
     }
   ],
   "published": "2026-09-18T09:52:20.850441Z",
-  "modified": "2026-10-09T03:33:59Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

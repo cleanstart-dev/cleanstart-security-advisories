@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-LE06173",
-  "summary": "Security fix for ghsa-7m35-vw2c-g96v applied in: kube-vip-fips 0.7.2-r0",
+  "summary": "Security fix for GHSA-7m35-vw2c-g96v applied in: kube-vip-fips 0.7.2-r0",
   "details": "Security vulnerability affects the kube-vip-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-7m35-vw2c-g96v"
+    "GHSA-7m35-vw2c-g96v"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-7m35-vw2c-g96v"
+      "url": "https://osv.dev/vulnerability/GHSA-7m35-vw2c-g96v"
     }
   ],
   "published": "2026-09-18T10:31:18.283907Z",
-  "modified": "2026-10-08T17:54:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

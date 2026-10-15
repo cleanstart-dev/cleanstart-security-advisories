@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PX86725",
-  "summary": "Security fix for ghsa-v23v-6jw2-98fq applied in: crane 0.19.2-r0",
+  "summary": "Security fix for GHSA-v23v-6jw2-98fq applied in: crane 0.19.2-r0",
   "details": "Security vulnerability affects the crane package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v23v-6jw2-98fq"
+    "GHSA-v23v-6jw2-98fq"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v23v-6jw2-98fq"
+      "url": "https://osv.dev/vulnerability/GHSA-v23v-6jw2-98fq"
     }
   ],
   "published": "2026-09-30T20:24:30.405380Z",
-  "modified": "2026-10-09T04:39:03Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

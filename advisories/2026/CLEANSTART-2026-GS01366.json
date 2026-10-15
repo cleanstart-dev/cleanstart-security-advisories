@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GS01366",
-  "summary": "Security fix for ghsa-2gh3-rmm4-6rq5 applied in: ztunnel-fips 1.25.5-r0, ztunnel-fips 1.26.8-r0, ztunnel-fips 1.27.5-r1, ztunnel-fips 1.27.8-r4, ztunnel-fips 1.28.0-r0, ztunnel-fips 1.28.2-r0",
-  "details": "ghsa-2gh3-rmm4-6rq5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2gh3-rmm4-6rq5 applied in: ztunnel-fips 1.25.5-r0, ztunnel-fips 1.26.8-r0, ztunnel-fips 1.27.5-r1, ztunnel-fips 1.27.8-r4, ztunnel-fips 1.28.0-r0, ztunnel-fips 1.28.2-r0",
+  "details": "GHSA-2gh3-rmm4-6rq5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2gh3-rmm4-6rq5"
+    "GHSA-2gh3-rmm4-6rq5"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2gh3-rmm4-6rq5"
+      "url": "https://osv.dev/vulnerability/GHSA-2gh3-rmm4-6rq5"
     }
   ],
   "published": "2026-09-18T10:32:24.523927Z",
-  "modified": "2026-10-08T19:24:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

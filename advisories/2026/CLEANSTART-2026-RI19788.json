@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RI19788",
-  "summary": "Security fix for ghsa-3v7f-55p6-f55p applied in: kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r0, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.123.6-r0",
-  "details": "ghsa-3v7f-55p6-f55p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-3v7f-55p6-f55p applied in: kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r0, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, renovate 43.123.6-r0",
+  "details": "GHSA-3v7f-55p6-f55p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3v7f-55p6-f55p"
+    "GHSA-3v7f-55p6-f55p"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3v7f-55p6-f55p"
+      "url": "https://osv.dev/vulnerability/GHSA-3v7f-55p6-f55p"
     }
   ],
   "published": "2026-09-18T10:22:22.698470Z",
-  "modified": "2026-10-09T04:57:28Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

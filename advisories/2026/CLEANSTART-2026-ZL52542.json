@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZL52542",
-  "summary": "Security fix for ghsa-xcpc-8h2w-3j85 applied in: sqlpad 7.5.7-r3",
+  "summary": "Security fix for GHSA-xcpc-8h2w-3j85 applied in: sqlpad 7.5.7-r3",
   "details": "Security vulnerability affects the sqlpad package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xcpc-8h2w-3j85"
+    "GHSA-xcpc-8h2w-3j85"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xcpc-8h2w-3j85"
+      "url": "https://osv.dev/vulnerability/GHSA-xcpc-8h2w-3j85"
     }
   ],
   "published": "2026-09-18T09:52:05.829036Z",
-  "modified": "2026-10-09T07:13:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

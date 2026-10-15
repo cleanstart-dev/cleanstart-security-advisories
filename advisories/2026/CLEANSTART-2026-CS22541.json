@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CS22541",
-  "summary": "Security fix for ghsa-65pc-fj4g-8rjx applied in: airflow-2 2.10.3-r2, airflow-2 2.11.0-r3, apache-superset 5.0.0-r7, apache-superset 6.0.0-r5, k8s-sidecar 1.25.2-r1, k8s-sidecar 2.2.3-r0, k8s-sidecar 2.3.0-r0, k8s-sidecar 2.4.0-r0, k8s-sidecar 2.5.5-r0, k8s-sidecar 2.6.0-r0, miniforge3 25.11.0.1-r2, miniforge3 26.1.0.0-r2, miniforge3 26.1.1.0-r1, tensorflow-gpu-jupyter 2.21.0-r5",
-  "details": "ghsa-65pc-fj4g-8rjx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-65pc-fj4g-8rjx applied in: airflow-2 2.10.3-r2, airflow-2 2.11.0-r3, apache-superset 5.0.0-r7, apache-superset 6.0.0-r5, k8s-sidecar 1.25.2-r1, k8s-sidecar 2.2.3-r0, k8s-sidecar 2.3.0-r0, k8s-sidecar 2.4.0-r0, k8s-sidecar 2.5.5-r0, k8s-sidecar 2.6.0-r0, miniforge3 25.11.0.1-r2, miniforge3 26.1.0.0-r2, miniforge3 26.1.1.0-r1, tensorflow-gpu-jupyter 2.21.0-r5",
+  "details": "GHSA-65pc-fj4g-8rjx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -286,7 +286,7 @@
     }
   ],
   "upstream": [
-    "ghsa-65pc-fj4g-8rjx"
+    "GHSA-65pc-fj4g-8rjx"
   ],
   "references": [
     {
@@ -295,11 +295,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-65pc-fj4g-8rjx"
+      "url": "https://osv.dev/vulnerability/GHSA-65pc-fj4g-8rjx"
     }
   ],
   "published": "2026-09-18T10:09:15.369030Z",
-  "modified": "2026-10-08T18:31:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GW81743",
-  "summary": "Security fix for ghsa-83g2-8m93-v3w7 applied in: cfssl 1.5.0-r1, multus-cni-fips 3.9.3-r2",
-  "details": "ghsa-83g2-8m93-v3w7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-83g2-8m93-v3w7 applied in: cfssl 1.5.0-r1, multus-cni-fips 3.9.3-r2",
+  "details": "GHSA-83g2-8m93-v3w7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-83g2-8m93-v3w7"
+    "GHSA-83g2-8m93-v3w7"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-83g2-8m93-v3w7"
+      "url": "https://osv.dev/vulnerability/GHSA-83g2-8m93-v3w7"
     }
   ],
   "published": "2026-09-18T10:31:08.820963Z",
-  "modified": "2026-10-08T19:26:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

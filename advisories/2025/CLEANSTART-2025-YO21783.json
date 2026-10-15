@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-YO21783",
-  "summary": "Security fix for ghsa-qxpb-5wg8-xv66 applied in: calico-fips 3.27.5-r0",
+  "summary": "Security fix for GHSA-qxpb-5wg8-xv66 applied in: calico-fips 3.27.5-r0",
   "details": "Security vulnerability affects the calico-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qxpb-5wg8-xv66"
+    "GHSA-qxpb-5wg8-xv66"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qxpb-5wg8-xv66"
+      "url": "https://osv.dev/vulnerability/GHSA-qxpb-5wg8-xv66"
     }
   ],
   "published": "2026-09-18T10:32:44.805867Z",
-  "modified": "2026-10-08T17:54:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

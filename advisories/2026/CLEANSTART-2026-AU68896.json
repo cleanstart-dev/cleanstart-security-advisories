@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AU68896",
-  "summary": "Security fix for ghsa-5239-wwwm-4pmq applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, apache-superset 5.0.0-r7",
-  "details": "ghsa-5239-wwwm-4pmq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-5239-wwwm-4pmq applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, apache-superset 5.0.0-r7",
+  "details": "GHSA-5239-wwwm-4pmq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5239-wwwm-4pmq"
+    "GHSA-5239-wwwm-4pmq"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5239-wwwm-4pmq"
+      "url": "https://osv.dev/vulnerability/GHSA-5239-wwwm-4pmq"
     }
   ],
   "published": "2026-09-18T10:00:03.993853Z",
-  "modified": "2026-10-08T18:04:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WT82281",
-  "summary": "Security fix for ghsa-vp29-5652-4fw9 applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
-  "details": "ghsa-vp29-5652-4fw9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vp29-5652-4fw9 applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
+  "details": "GHSA-vp29-5652-4fw9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vp29-5652-4fw9"
+    "GHSA-vp29-5652-4fw9"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vp29-5652-4fw9"
+      "url": "https://osv.dev/vulnerability/GHSA-vp29-5652-4fw9"
     }
   ],
   "published": "2026-09-18T09:50:38.287778Z",
-  "modified": "2026-10-09T06:37:47Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BA07139",
-  "summary": "Security fix for ghsa-2qvq-rjwj-gvw9 applied in: mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r2",
-  "details": "ghsa-2qvq-rjwj-gvw9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2qvq-rjwj-gvw9 applied in: mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r2",
+  "details": "GHSA-2qvq-rjwj-gvw9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2qvq-rjwj-gvw9"
+    "GHSA-2qvq-rjwj-gvw9"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2qvq-rjwj-gvw9"
+      "url": "https://osv.dev/vulnerability/GHSA-2qvq-rjwj-gvw9"
     }
   ],
   "published": "2026-09-18T10:22:21.924688Z",
-  "modified": "2026-10-08T18:07:21Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

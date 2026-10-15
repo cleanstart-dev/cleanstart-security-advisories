@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TQ31393",
-  "summary": "Security fix for ghsa-87hc-h4r5-73f7 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, pritunl 1.32.4528.97-r0",
-  "details": "ghsa-87hc-h4r5-73f7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-87hc-h4r5-73f7 applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, pritunl 1.32.4528.97-r0",
+  "details": "GHSA-87hc-h4r5-73f7 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-87hc-h4r5-73f7"
+    "GHSA-87hc-h4r5-73f7"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-87hc-h4r5-73f7"
+      "url": "https://osv.dev/vulnerability/GHSA-87hc-h4r5-73f7"
     }
   ],
   "published": "2026-09-18T10:28:47.824429Z",
-  "modified": "2026-10-09T05:55:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

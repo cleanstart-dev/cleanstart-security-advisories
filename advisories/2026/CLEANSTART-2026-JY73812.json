@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JY73812",
-  "summary": "Security fix for ghsa-hcg3-p754-cr77 applied in: rabbitmq-messaging-topology-operator 1.15.0-r1",
+  "summary": "Security fix for GHSA-hcg3-p754-cr77 applied in: rabbitmq-messaging-topology-operator 1.15.0-r1",
   "details": "Security vulnerability affects the rabbitmq-messaging-topology-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hcg3-p754-cr77"
+    "GHSA-hcg3-p754-cr77"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hcg3-p754-cr77"
+      "url": "https://osv.dev/vulnerability/GHSA-hcg3-p754-cr77"
     }
   ],
   "published": "2026-09-18T10:30:16.426558Z",
-  "modified": "2026-10-09T03:14:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QO04531",
-  "summary": "Security fix for ghsa-cgrx-mc8f-2prm applied in: buildkitd 0.26.3-r0, containerd 2.1.3-r2",
-  "details": "ghsa-cgrx-mc8f-2prm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cgrx-mc8f-2prm applied in: buildkitd 0.26.3-r0, containerd 2.1.3-r2",
+  "details": "GHSA-cgrx-mc8f-2prm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cgrx-mc8f-2prm"
+    "GHSA-cgrx-mc8f-2prm"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cgrx-mc8f-2prm"
+      "url": "https://osv.dev/vulnerability/GHSA-cgrx-mc8f-2prm"
     }
   ],
   "published": "2026-09-30T19:59:43.515101Z",
-  "modified": "2026-10-09T04:47:00Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

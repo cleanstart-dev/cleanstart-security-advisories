@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KC89812",
-  "summary": "Security fix for ghsa-qjvc-p88j-j9rm applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.3.1-r5, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4",
-  "details": "ghsa-qjvc-p88j-j9rm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qjvc-p88j-j9rm applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.3.1-r5, kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4",
+  "details": "GHSA-qjvc-p88j-j9rm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qjvc-p88j-j9rm"
+    "GHSA-qjvc-p88j-j9rm"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qjvc-p88j-j9rm"
+      "url": "https://osv.dev/vulnerability/GHSA-qjvc-p88j-j9rm"
     }
   ],
   "published": "2026-09-18T10:30:05.783029Z",
-  "modified": "2026-10-09T03:16:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FI87421",
-  "summary": "Security fix for ghsa-qpw4-5x99-6vjp applied in: cfssl 1.5.0-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
-  "details": "ghsa-qpw4-5x99-6vjp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qpw4-5x99-6vjp applied in: cfssl 1.5.0-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
+  "details": "GHSA-qpw4-5x99-6vjp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qpw4-5x99-6vjp"
+    "GHSA-qpw4-5x99-6vjp"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qpw4-5x99-6vjp"
+      "url": "https://osv.dev/vulnerability/GHSA-qpw4-5x99-6vjp"
     }
   ],
   "published": "2026-09-18T09:52:55.704252Z",
-  "modified": "2026-10-08T19:07:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-US13665",
-  "summary": "Security fix for ghsa-v23v-6jw2-98fq applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, paranoia 0.2.1-r0",
-  "details": "ghsa-v23v-6jw2-98fq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-v23v-6jw2-98fq applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, paranoia 0.2.1-r0",
+  "details": "GHSA-v23v-6jw2-98fq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v23v-6jw2-98fq"
+    "GHSA-v23v-6jw2-98fq"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v23v-6jw2-98fq"
+      "url": "https://osv.dev/vulnerability/GHSA-v23v-6jw2-98fq"
     }
   ],
   "published": "2026-09-18T10:22:48.170943Z",
-  "modified": "2026-10-09T06:10:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SE49941",
-  "summary": "Security fix for ghsa-xpcf-pg52-r92g applied in: opensearch-dashboards-fips 2.19.5-r0",
+  "summary": "Security fix for GHSA-xpcf-pg52-r92g applied in: opensearch-dashboards-fips 2.19.5-r0",
   "details": "Security vulnerability affects the opensearch-dashboards-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xpcf-pg52-r92g"
+    "GHSA-xpcf-pg52-r92g"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xpcf-pg52-r92g"
+      "url": "https://osv.dev/vulnerability/GHSA-xpcf-pg52-r92g"
     }
   ],
   "published": "2026-09-18T10:17:31.813790Z",
-  "modified": "2026-10-09T05:36:04Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

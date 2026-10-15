@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TK29643",
-  "summary": "Security fix for ghsa-48c2-rrv3-qjmp applied in: kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r0",
-  "details": "ghsa-48c2-rrv3-qjmp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-48c2-rrv3-qjmp applied in: kibana 9.3.2-r3, mongosh 2.5.10-r4, mongosh 2.6.0-r3, mongosh 2.7.0-r1, mongosh 2.8.2-r0",
+  "details": "GHSA-48c2-rrv3-qjmp affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-48c2-rrv3-qjmp"
+    "GHSA-48c2-rrv3-qjmp"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-48c2-rrv3-qjmp"
+      "url": "https://osv.dev/vulnerability/GHSA-48c2-rrv3-qjmp"
     }
   ],
   "published": "2026-09-18T10:22:23.524695Z",
-  "modified": "2026-10-09T05:52:10Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

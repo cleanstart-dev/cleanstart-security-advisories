@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JS30109",
-  "summary": "Security fix for ghsa-hffm-xvc3-vprc applied in: renovate 43.123.8-r2",
+  "summary": "Security fix for GHSA-hffm-xvc3-vprc applied in: renovate 43.123.8-r2",
   "details": "Security vulnerability affects the renovate package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hffm-xvc3-vprc"
+    "GHSA-hffm-xvc3-vprc"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hffm-xvc3-vprc"
+      "url": "https://osv.dev/vulnerability/GHSA-hffm-xvc3-vprc"
     }
   ],
   "published": "2026-09-18T10:14:18.180455Z",
-  "modified": "2026-10-09T03:10:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AU53985",
-  "summary": "Security fix for ghsa-w879-237q-wc7r applied in: cfssl 1.5.0-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
-  "details": "ghsa-w879-237q-wc7r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w879-237q-wc7r applied in: cfssl 1.5.0-r1, postgres-operator 1.12.2-r2, temporal-ui-server-fips 2.51.1-r1",
+  "details": "GHSA-w879-237q-wc7r affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w879-237q-wc7r"
+    "GHSA-w879-237q-wc7r"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w879-237q-wc7r"
+      "url": "https://osv.dev/vulnerability/GHSA-w879-237q-wc7r"
     }
   ],
   "published": "2026-09-18T09:52:59.062585Z",
-  "modified": "2026-10-08T18:04:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

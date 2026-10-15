@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PO98584",
-  "summary": "Security fix for ghsa-jqcq-xjh3-6g23 applied in: grafana-alloy-fips 1.12.1-r2",
+  "summary": "Security fix for GHSA-jqcq-xjh3-6g23 applied in: grafana-alloy-fips 1.12.1-r2",
   "details": "Security vulnerability affects the grafana-alloy-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jqcq-xjh3-6g23"
+    "GHSA-jqcq-xjh3-6g23"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jqcq-xjh3-6g23"
+      "url": "https://osv.dev/vulnerability/GHSA-jqcq-xjh3-6g23"
     }
   ],
   "published": "2026-09-18T10:25:27.170135Z",
-  "modified": "2026-10-09T04:34:02Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

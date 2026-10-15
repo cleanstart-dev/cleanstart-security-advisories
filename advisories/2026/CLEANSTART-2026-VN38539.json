@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VN38539",
-  "summary": "Security fix for ghsa-m959-cc7f-wv43 applied in: airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, jupyterhub-k8s-hub 4.3.2-r0",
-  "details": "ghsa-m959-cc7f-wv43 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-m959-cc7f-wv43 applied in: airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, jupyterhub-k8s-hub 4.3.2-r0",
+  "details": "GHSA-m959-cc7f-wv43 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-m959-cc7f-wv43"
+    "GHSA-m959-cc7f-wv43"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-m959-cc7f-wv43"
+      "url": "https://osv.dev/vulnerability/GHSA-m959-cc7f-wv43"
     }
   ],
   "published": "2026-09-18T10:15:23.556140Z",
-  "modified": "2026-10-09T06:22:17Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

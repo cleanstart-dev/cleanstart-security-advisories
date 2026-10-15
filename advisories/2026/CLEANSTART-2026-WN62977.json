@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WN62977",
-  "summary": "Security fix for ghsa-497x-rrr9-68jp applied in: grafana-fips 13.0.1-r0",
+  "summary": "Security fix for GHSA-497x-rrr9-68jp applied in: grafana-fips 13.0.1-r0",
   "details": "Security vulnerability affects the grafana-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-497x-rrr9-68jp"
+    "GHSA-497x-rrr9-68jp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-497x-rrr9-68jp"
+      "url": "https://osv.dev/vulnerability/GHSA-497x-rrr9-68jp"
     }
   ],
   "published": "2026-10-15T00:39:05.669485Z",
-  "modified": "2026-10-14T12:16:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

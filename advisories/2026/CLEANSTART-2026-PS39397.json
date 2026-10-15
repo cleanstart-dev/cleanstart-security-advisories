@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PS39397",
-  "summary": "Security fix for ghsa-qw64-3x98-g7q2 applied in: apko 1.2.2-r1, argo-cd 3.1.16-r0, argo-cd 3.2.12-r0, argo-cd 3.2.7-r2, argo-cd 3.3.11-r0, argo-cd 3.3.5-r0, argo-events 1.9.10-r1, argo-workflows 4.0.5-r0, external-secrets-fips 0.17.0-r2, kubevela 1.10.8-r0, kyverno 1.18.1-r2, pulumi-kubernetes-operator 2.7.0-r0, timoni 0.25.2-r0",
-  "details": "ghsa-qw64-3x98-g7q2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qw64-3x98-g7q2 applied in: apko 1.2.2-r1, argo-cd 3.1.16-r0, argo-cd 3.2.12-r0, argo-cd 3.2.7-r2, argo-cd 3.3.11-r0, argo-cd 3.3.5-r0, argo-events 1.9.10-r1, argo-workflows 4.0.5-r0, external-secrets-fips 0.17.0-r2, kubevela 1.10.8-r0, kyverno 1.18.1-r2, pulumi-kubernetes-operator 2.7.0-r0, timoni 0.25.2-r0",
+  "details": "GHSA-qw64-3x98-g7q2 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -266,7 +266,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qw64-3x98-g7q2"
+    "GHSA-qw64-3x98-g7q2"
   ],
   "references": [
     {
@@ -275,11 +275,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qw64-3x98-g7q2"
+      "url": "https://osv.dev/vulnerability/GHSA-qw64-3x98-g7q2"
     }
   ],
   "published": "2026-09-18T10:10:44.419024Z",
-  "modified": "2026-10-09T04:36:09Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

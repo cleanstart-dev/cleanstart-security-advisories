@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BA63285",
-  "summary": "Security fix for ghsa-389x-839f-4rhx applied in: cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, cloudwatch-exporter 0.16.0-r0, kserve-modelmesh 0.12.0-r16, management-api-for-apache-cassandra-5.0 0.1.107-r0, management-api-for-apache-cassandra-5.0 0.1.108-r0, management-api-for-apache-cassandra-5.0 0.1.109-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-389x-839f-4rhx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-389x-839f-4rhx applied in: cassandra-reaper-fips 3.6.1-r3, cassandra-reaper-fips 3.7.1-r4, cloudwatch-exporter 0.16.0-r0, kserve-modelmesh 0.12.0-r16, management-api-for-apache-cassandra-5.0 0.1.107-r0, management-api-for-apache-cassandra-5.0 0.1.108-r0, management-api-for-apache-cassandra-5.0 0.1.109-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-389x-839f-4rhx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -186,7 +186,7 @@
     }
   ],
   "upstream": [
-    "ghsa-389x-839f-4rhx"
+    "GHSA-389x-839f-4rhx"
   ],
   "references": [
     {
@@ -195,11 +195,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-389x-839f-4rhx"
+      "url": "https://osv.dev/vulnerability/GHSA-389x-839f-4rhx"
     }
   ],
   "published": "2026-09-18T10:32:36.886257Z",
-  "modified": "2026-10-08T18:07:23Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

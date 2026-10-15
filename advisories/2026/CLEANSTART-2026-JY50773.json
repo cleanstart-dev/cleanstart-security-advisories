@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JY50773",
-  "summary": "Security fix for ghsa-2wrh-6pvc-2jm9 applied in: cfssl 1.5.0-r1, multus-cni-fips 4.0.2-r2, wavefront-collector-for-kubernetes 1.13.0-r0",
-  "details": "ghsa-2wrh-6pvc-2jm9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2wrh-6pvc-2jm9 applied in: cfssl 1.5.0-r1, multus-cni-fips 4.0.2-r2, wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "GHSA-2wrh-6pvc-2jm9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2wrh-6pvc-2jm9"
+    "GHSA-2wrh-6pvc-2jm9"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2wrh-6pvc-2jm9"
+      "url": "https://osv.dev/vulnerability/GHSA-2wrh-6pvc-2jm9"
     }
   ],
   "published": "2026-09-18T10:31:42.161316Z",
-  "modified": "2026-10-09T03:14:21Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

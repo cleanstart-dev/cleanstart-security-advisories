@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SP26253",
-  "summary": "Security fix for ghsa-xcgm-r5h9-7989 applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4",
-  "details": "ghsa-xcgm-r5h9-7989 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-xcgm-r5h9-7989 applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4",
+  "details": "GHSA-xcgm-r5h9-7989 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xcgm-r5h9-7989"
+    "GHSA-xcgm-r5h9-7989"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xcgm-r5h9-7989"
+      "url": "https://osv.dev/vulnerability/GHSA-xcgm-r5h9-7989"
     }
   ],
   "published": "2026-09-18T09:59:25.919222Z",
-  "modified": "2026-10-09T05:42:03Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

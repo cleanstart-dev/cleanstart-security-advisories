@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GZ43069",
-  "summary": "Security fix for ghsa-vw5v-4f2q-w9xf applied in: ntpd-rs 1.6.2-r1, ztunnel-fips 1.26.8-r1, ztunnel-fips 1.27.6-r1, ztunnel-fips 1.28.4-r1, ztunnel-fips 1.29.1-r0",
-  "details": "ghsa-vw5v-4f2q-w9xf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vw5v-4f2q-w9xf applied in: ntpd-rs 1.6.2-r1, ztunnel-fips 1.26.8-r1, ztunnel-fips 1.27.6-r1, ztunnel-fips 1.28.4-r1, ztunnel-fips 1.29.1-r0",
+  "details": "GHSA-vw5v-4f2q-w9xf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vw5v-4f2q-w9xf"
+    "GHSA-vw5v-4f2q-w9xf"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vw5v-4f2q-w9xf"
+      "url": "https://osv.dev/vulnerability/GHSA-vw5v-4f2q-w9xf"
     }
   ],
   "published": "2026-09-18T10:26:39.647075Z",
-  "modified": "2026-10-08T19:27:18Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

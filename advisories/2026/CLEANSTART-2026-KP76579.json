@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KP76579",
-  "summary": "Security fix for ghsa-w37g-rhq8-7m4j applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1, cassandra-reaper-fips 3.6.1-r3",
-  "details": "ghsa-w37g-rhq8-7m4j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-w37g-rhq8-7m4j applied in: cassandra-fips 4.0.19-r2, cassandra-fips 4.1.10-r1, cassandra-reaper-fips 3.6.1-r3",
+  "details": "GHSA-w37g-rhq8-7m4j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-w37g-rhq8-7m4j"
+    "GHSA-w37g-rhq8-7m4j"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-w37g-rhq8-7m4j"
+      "url": "https://osv.dev/vulnerability/GHSA-w37g-rhq8-7m4j"
     }
   ],
   "published": "2026-09-18T10:26:25.150786Z",
-  "modified": "2026-10-09T03:25:15Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

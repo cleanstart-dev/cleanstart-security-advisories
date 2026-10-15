@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KA65824",
-  "summary": "Security fix for ghsa-3ppc-4f35-3m26 applied in: argo-workflows 3.7.17-r1, mongosh 2.6.0-r2, npm 11.10.0-r2, opensearch-dashboards-fips 3.5.0-r2, renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-3ppc-4f35-3m26 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-3ppc-4f35-3m26 applied in: argo-workflows 3.7.17-r1, mongosh 2.6.0-r2, npm 11.10.0-r2, opensearch-dashboards-fips 3.5.0-r2, renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-3ppc-4f35-3m26 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3ppc-4f35-3m26"
+    "GHSA-3ppc-4f35-3m26"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3ppc-4f35-3m26"
+      "url": "https://osv.dev/vulnerability/GHSA-3ppc-4f35-3m26"
     }
   ],
   "published": "2026-09-18T10:28:39.819029Z",
-  "modified": "2026-10-09T03:15:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

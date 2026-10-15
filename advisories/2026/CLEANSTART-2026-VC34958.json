@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VC34958",
-  "summary": "Security fix for ghsa-x7hr-w5r2-h6wg applied in: jitsucom-jitsu 2.10.0-r0",
+  "summary": "Security fix for GHSA-x7hr-w5r2-h6wg applied in: jitsucom-jitsu 2.10.0-r0",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x7hr-w5r2-h6wg"
+    "GHSA-x7hr-w5r2-h6wg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x7hr-w5r2-h6wg"
+      "url": "https://osv.dev/vulnerability/GHSA-x7hr-w5r2-h6wg"
     }
   ],
   "published": "2026-09-18T10:23:17.909593Z",
-  "modified": "2026-10-09T06:14:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

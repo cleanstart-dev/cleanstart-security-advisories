@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NV50179",
-  "summary": "Security fix for ghsa-jp2q-39xq-3w4g applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, mongosh 2.8.1-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-jp2q-39xq-3w4g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jp2q-39xq-3w4g applied in: jitsucom-jitsu 2.11.0-r3, kibana 9.3.2-r3, mongosh 2.8.1-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-jp2q-39xq-3w4g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jp2q-39xq-3w4g"
+    "GHSA-jp2q-39xq-3w4g"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jp2q-39xq-3w4g"
+      "url": "https://osv.dev/vulnerability/GHSA-jp2q-39xq-3w4g"
     }
   ],
   "published": "2026-09-18T10:24:53.250711Z",
-  "modified": "2026-10-09T04:09:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

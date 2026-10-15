@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OX02272",
-  "summary": "Security fix for ghsa-259r-337f-4rfw applied in: dex-fips 2.42.1-r5, nfs-subdir-external-provisioner 4.0.2-r2, temporal-server 1.31.3-r2",
-  "details": "ghsa-259r-337f-4rfw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-259r-337f-4rfw applied in: dex-fips 2.42.1-r5, nfs-subdir-external-provisioner 4.0.2-r2, temporal-server 1.31.3-r2",
+  "details": "GHSA-259r-337f-4rfw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-259r-337f-4rfw"
+    "GHSA-259r-337f-4rfw"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-259r-337f-4rfw"
+      "url": "https://osv.dev/vulnerability/GHSA-259r-337f-4rfw"
     }
   ],
   "published": "2026-10-06T00:36:16.131600Z",
-  "modified": "2026-10-09T04:24:34Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

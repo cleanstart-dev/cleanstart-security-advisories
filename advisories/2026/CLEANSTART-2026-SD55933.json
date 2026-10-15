@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-SD55933",
-  "summary": "Security fix for ghsa-4g9r-vxhx-9pgx applied in: druid-fips 35.0.0-r1, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, spring-boot 3.4.13-r0",
-  "details": "ghsa-4g9r-vxhx-9pgx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-4g9r-vxhx-9pgx applied in: druid-fips 35.0.0-r1, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, spring-boot 3.4.13-r0",
+  "details": "GHSA-4g9r-vxhx-9pgx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4g9r-vxhx-9pgx"
+    "GHSA-4g9r-vxhx-9pgx"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4g9r-vxhx-9pgx"
+      "url": "https://osv.dev/vulnerability/GHSA-4g9r-vxhx-9pgx"
     }
   ],
   "published": "2026-09-18T10:31:14.221950Z",
-  "modified": "2026-10-09T05:35:23Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

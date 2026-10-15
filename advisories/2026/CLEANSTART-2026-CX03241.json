@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CX03241",
-  "summary": "Security fix for ghsa-jv3w-x3r3-g6rm applied in: containerd 2.1.3-r2",
+  "summary": "Security fix for GHSA-jv3w-x3r3-g6rm applied in: containerd 2.1.3-r2",
   "details": "Security vulnerability affects the containerd package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jv3w-x3r3-g6rm"
+    "GHSA-jv3w-x3r3-g6rm"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jv3w-x3r3-g6rm"
+      "url": "https://osv.dev/vulnerability/GHSA-jv3w-x3r3-g6rm"
     }
   ],
   "published": "2026-09-30T19:59:31.750248Z",
-  "modified": "2026-10-08T18:33:31Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

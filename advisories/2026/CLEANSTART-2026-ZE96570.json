@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZE96570",
-  "summary": "Security fix for ghsa-9h84-qmv7-982p applied in: cert-manager-cmctl 2.3.0-r0, cert-manager-cmctl-fips 2.1.1-r0, cert-manager-cmctl-fips 2.3.0-r0, chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4, harbor 2.13.4-r2, harbor 2.14.2-r1, harbor-fips 2.10.3-r0, harbor-fips 2.12.4-r1, harbor-fips 2.13.2-r1, k8sgpt 0.4.26-r0, kubevela 1.10.8-r0",
-  "details": "ghsa-9h84-qmv7-982p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9h84-qmv7-982p applied in: cert-manager-cmctl 2.3.0-r0, cert-manager-cmctl-fips 2.1.1-r0, cert-manager-cmctl-fips 2.3.0-r0, chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4, harbor 2.13.4-r2, harbor 2.14.2-r1, harbor-fips 2.10.3-r0, harbor-fips 2.12.4-r1, harbor-fips 2.13.2-r1, k8sgpt 0.4.26-r0, kubevela 1.10.8-r0",
+  "details": "GHSA-9h84-qmv7-982p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -246,7 +246,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9h84-qmv7-982p"
+    "GHSA-9h84-qmv7-982p"
   ],
   "references": [
     {
@@ -255,11 +255,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9h84-qmv7-982p"
+      "url": "https://osv.dev/vulnerability/GHSA-9h84-qmv7-982p"
     }
   ],
   "published": "2026-09-18T10:32:45.761758Z",
-  "modified": "2026-10-09T07:09:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

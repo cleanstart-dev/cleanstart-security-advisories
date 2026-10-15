@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QF32596",
-  "summary": "Security fix for ghsa-xw73-rw38-6vjc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, paranoia 0.2.1-r0",
-  "details": "ghsa-xw73-rw38-6vjc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-xw73-rw38-6vjc applied in: kyverno-policy-reporter-kyverno-plugin-fips 1.4.2-r4, paranoia 0.2.1-r0",
+  "details": "GHSA-xw73-rw38-6vjc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xw73-rw38-6vjc"
+    "GHSA-xw73-rw38-6vjc"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xw73-rw38-6vjc"
+      "url": "https://osv.dev/vulnerability/GHSA-xw73-rw38-6vjc"
     }
   ],
   "published": "2026-09-18T10:22:53.217939Z",
-  "modified": "2026-10-09T04:42:22Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

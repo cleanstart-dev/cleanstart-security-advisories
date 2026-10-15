@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GM84692",
-  "summary": "Security fix for ghsa-264p-99wq-f4j6 applied in: stargate 1.0.90-r4",
+  "summary": "Security fix for GHSA-264p-99wq-f4j6 applied in: stargate 1.0.90-r4",
   "details": "Security vulnerability affects the stargate package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-264p-99wq-f4j6"
+    "GHSA-264p-99wq-f4j6"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-264p-99wq-f4j6"
+      "url": "https://osv.dev/vulnerability/GHSA-264p-99wq-f4j6"
     }
   ],
   "published": "2026-09-18T10:24:50.548469Z",
-  "modified": "2026-10-08T19:22:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CD04274",
-  "summary": "Security fix for ghsa-hrxh-6v49-42gf applied in: aws-network-policy-agent 1.2.7-r0, fabric-peer 3.1.5-r1, gotenberg 8.33.0-r0, step 0.30.2-r4, kube-state-metrics-fips 2.20.0-r4, eks-distro-kube-apiserver 1.36.8-r0, eks-distro-kube-apiserver-fips 1.36.8-r0",
-  "details": "ghsa-hrxh-6v49-42gf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-hrxh-6v49-42gf applied in: aws-network-policy-agent 1.2.7-r0, fabric-peer 3.1.5-r1, gotenberg 8.33.0-r0, step 0.30.2-r4, kube-state-metrics-fips 2.20.0-r4, eks-distro-kube-apiserver 1.36.8-r0, eks-distro-kube-apiserver-fips 1.36.8-r0",
+  "details": "GHSA-hrxh-6v49-42gf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hrxh-6v49-42gf"
+    "GHSA-hrxh-6v49-42gf"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hrxh-6v49-42gf"
+      "url": "https://osv.dev/vulnerability/GHSA-hrxh-6v49-42gf"
     }
   ],
   "published": "2026-10-08T00:43:18.720325Z",
-  "modified": "2026-10-08T18:22:46Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

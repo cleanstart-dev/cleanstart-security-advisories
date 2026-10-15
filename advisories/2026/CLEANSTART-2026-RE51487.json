@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RE51487",
-  "summary": "Security fix for ghsa-v74w-7mr3-4qg3 applied in: hazelcast 5.7.0-r1",
+  "summary": "Security fix for GHSA-v74w-7mr3-4qg3 applied in: hazelcast 5.7.0-r1",
   "details": "Security vulnerability affects the hazelcast package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v74w-7mr3-4qg3"
+    "GHSA-v74w-7mr3-4qg3"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v74w-7mr3-4qg3"
+      "url": "https://osv.dev/vulnerability/GHSA-v74w-7mr3-4qg3"
     }
   ],
   "published": "2026-09-18T09:50:09.445941Z",
-  "modified": "2026-10-09T04:56:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

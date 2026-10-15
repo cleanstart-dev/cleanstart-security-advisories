@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GF44673",
-  "summary": "Security fix for ghsa-qf7c-7r9h-mm92 applied in: sonarqube 25.12.0.117093-r0, sonarqube 26.3.0.120487-r0",
-  "details": "ghsa-qf7c-7r9h-mm92 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qf7c-7r9h-mm92 applied in: sonarqube 25.12.0.117093-r0, sonarqube 26.3.0.120487-r0",
+  "details": "GHSA-qf7c-7r9h-mm92 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qf7c-7r9h-mm92"
+    "GHSA-qf7c-7r9h-mm92"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qf7c-7r9h-mm92"
+      "url": "https://osv.dev/vulnerability/GHSA-qf7c-7r9h-mm92"
     }
   ],
   "published": "2026-09-18T10:06:59.577498Z",
-  "modified": "2026-10-08T19:18:58Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

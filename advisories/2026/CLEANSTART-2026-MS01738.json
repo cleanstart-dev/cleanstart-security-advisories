@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MS01738",
-  "summary": "Security fix for ghsa-3x9g-8vmp-wqvf applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4",
-  "details": "ghsa-3x9g-8vmp-wqvf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-3x9g-8vmp-wqvf applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4",
+  "details": "GHSA-3x9g-8vmp-wqvf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3x9g-8vmp-wqvf"
+    "GHSA-3x9g-8vmp-wqvf"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3x9g-8vmp-wqvf"
+      "url": "https://osv.dev/vulnerability/GHSA-3x9g-8vmp-wqvf"
     }
   ],
   "published": "2026-09-18T09:59:21.839965Z",
-  "modified": "2026-10-09T03:52:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

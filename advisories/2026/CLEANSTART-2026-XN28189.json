@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XN28189",
-  "summary": "Security fix for ghsa-qpx9-hpmf-5gmw applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-qpx9-hpmf-5gmw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qpx9-hpmf-5gmw applied in: renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-qpx9-hpmf-5gmw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qpx9-hpmf-5gmw"
+    "GHSA-qpx9-hpmf-5gmw"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qpx9-hpmf-5gmw"
+      "url": "https://osv.dev/vulnerability/GHSA-qpx9-hpmf-5gmw"
     }
   ],
   "published": "2026-09-18T10:26:58.102488Z",
-  "modified": "2026-10-09T06:46:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-XN13622",
-  "summary": "Security fix for ghsa-vvjj-xcjg-gr5g applied in: jitsucom-jitsu 2.14.0-r1, kibana 9.3.2-r3",
-  "details": "ghsa-vvjj-xcjg-gr5g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vvjj-xcjg-gr5g applied in: jitsucom-jitsu 2.14.0-r1, kibana 9.3.2-r3",
+  "details": "GHSA-vvjj-xcjg-gr5g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vvjj-xcjg-gr5g"
+    "GHSA-vvjj-xcjg-gr5g"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vvjj-xcjg-gr5g"
+      "url": "https://osv.dev/vulnerability/GHSA-vvjj-xcjg-gr5g"
     }
   ],
   "published": "2026-09-18T10:10:48.864071Z",
-  "modified": "2026-10-09T06:46:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-CI91808",
-  "summary": "Security fix for ghsa-j7c9-79x7-8hpm applied in: step-issuer-fips 0.9.9-r1",
+  "summary": "Security fix for GHSA-j7c9-79x7-8hpm applied in: step-issuer-fips 0.9.9-r1",
   "details": "Security vulnerability affects the step-issuer-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-j7c9-79x7-8hpm"
+    "GHSA-j7c9-79x7-8hpm"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-j7c9-79x7-8hpm"
+      "url": "https://osv.dev/vulnerability/GHSA-j7c9-79x7-8hpm"
     }
   ],
   "published": "2026-09-18T10:30:48.179630Z",
-  "modified": "2026-10-08T17:54:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

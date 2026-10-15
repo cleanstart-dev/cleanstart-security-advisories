@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GC04122",
-  "summary": "Security fix for ghsa-vx9q-rhv9-3jvg applied in: hazelcast 5.7.0-r1, spark-sc213-jdk17-py311 4.1.1-r2",
-  "details": "ghsa-vx9q-rhv9-3jvg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vx9q-rhv9-3jvg applied in: hazelcast 5.7.0-r1, spark-sc213-jdk17-py311 4.1.1-r2",
+  "details": "GHSA-vx9q-rhv9-3jvg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vx9q-rhv9-3jvg"
+    "GHSA-vx9q-rhv9-3jvg"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vx9q-rhv9-3jvg"
+      "url": "https://osv.dev/vulnerability/GHSA-vx9q-rhv9-3jvg"
     }
   ],
   "published": "2026-09-18T10:19:30.399501Z",
-  "modified": "2026-10-08T19:17:28Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

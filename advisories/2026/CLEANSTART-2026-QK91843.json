@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QK91843",
-  "summary": "Security fix for ghsa-66jq-2c23-2xh5 applied in: victoriametrics-operator 0.65.0-r0, victoriametrics-operator-fips 0.65.0-r0",
-  "details": "ghsa-66jq-2c23-2xh5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-66jq-2c23-2xh5 applied in: victoriametrics-operator 0.65.0-r0, victoriametrics-operator-fips 0.65.0-r0",
+  "details": "GHSA-66jq-2c23-2xh5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-66jq-2c23-2xh5"
+    "GHSA-66jq-2c23-2xh5"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-66jq-2c23-2xh5"
+      "url": "https://osv.dev/vulnerability/GHSA-66jq-2c23-2xh5"
     }
   ],
   "published": "2026-09-18T10:26:36.932102Z",
-  "modified": "2026-10-09T04:45:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AS81931",
-  "summary": "Security fix for ghsa-9h8m-3fm2-qjrq applied in: argo-workflows 3.7.10-r2, argo-workflows 3.7.8-r1, argo-workflows 3.7.9-r1, argo-workflows-fips 3.7.10-r1, argo-workflows-fips 3.7.8-r2, cass-operator 1.28.1-r0, cass-operator-fips 1.30.0-r0, cert-manager 1.19.2-r0, cert-manager-fips 1.17.4-r1, cert-manager-fips 1.19.2-r1, cert-manager-webhook-pdns-fips 3.2.3-r1, consul-fips 1.22.2-r0, cosign 2.4.3-r0, cosign 2.5.3-r0, descheduler 0.34.0-r2, distribution 3.0.0-r1, eks-distro-coredns-fips 1.35.7-r0, eks-distro-kube-apiserver-fips 1.34.2-r0, eks-distro-kube-controller-manager-fips 1.34.2-r0, eks-distro-kube-proxy-fips 1.35.7-r0, eks-distro-kube-scheduler-fips 1.34.3-r0, envoy-ratelimit 0.0.0_git20251231-r0, fluent-operator-fips 3.5.0-r0, fluent-operator-fips 3.6.0-r3, fluent-operator-fips 3.7.0-r0, grafana-alloy-fips 1.12.1-r2, grafana-mimir 3.0.2-r0, grafana-mimir-fips 3.0.2-r1, helm-operator-fips 1.41.1-r2, istio 1.28.3-r0, istio 1.28.5-r0, istio 1.28.7-r0, istio-fips 1.25.5-r3, istio-fips 1.27.7-r0, istio-fips 1.27.8-r0, istio-fips 1.28.3-r1, istio-fips 1.28.4-r0, istio-fips 1.28.5-r0, istio-fips 1.29.0-r0, istio-pilot-discovery 1.28.3-r0, istio-pilot-discovery-fips 1.28.3-r1, kapp-controller-fips 0.59.0-r3, keda 2.18.3-r0, keda 2.19.0-r0, kserve 0.16.0-r0, kube-rbac-proxy 0.20.0-r0, kube-state-metrics-fips 2.18.0-r1, kubernetes 1.33.11-r0, kubernetes 1.34.6-r0, kubernetes 1.34.7-r0, kubernetes 1.35.3-r0, kubernetes-csi-external-attacher 4.10.0-r0, kubernetes-csi-external-attacher-fips 4.10.0-r0, kubernetes-csi-external-provisioner-fips 6.1.0-r1, kubernetes-csi-external-resizer 2.0.0-r0, kubernetes-csi-external-resizer-fips 2.0.0-r0, kubernetes-csi-external-snapshotter-fips 8.4.0-r1, kubernetes-dns-node-cache 1.26.7-r1, kubernetes-dns-node-cache-fips 1.26.7-r1, kubescape 3.0.47-r0, kubevela 1.10.8-r0, kyverno-fips 1.13.6-r9, kyverno-policy-reporter-fips 3.3.3-r3, kyverno-policy-reporter-fips 3.4.2-r3, kyverno-policy-reporter-fips 3.5.0-r3, metrics-server 0.8.1-r4, openbao 2.4.3-r1, opentofu-fips 1.9.4-r3, restic-fips 0.18.1-r0, tekton-chains-fips 0.26.0-r4, tekton-pipelines 1.5.0-r4, tekton-pipelines-fips 1.7.0-r0, tekton-pipelines-fips 1.9.2-r0, tempo 2.7.2-r2, terragrunt-fips 0.94.0-r0, terragrunt-fips 0.95.1-r0, terragrunt-fips 0.96.1-r0, terragrunt-fips 0.97.2-r0, terragrunt-fips 0.98.0-r0, terragrunt-fips 0.99.4-r1, victoriametrics-operator 0.65.0-r1, victoriametrics-operator-fips 0.65.0-r2, weaviate 1.35.2-r1, zot 2.1.13-r0",
-  "details": "ghsa-9h8m-3fm2-qjrq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9h8m-3fm2-qjrq applied in: argo-workflows 3.7.10-r2, argo-workflows 3.7.8-r1, argo-workflows 3.7.9-r1, argo-workflows-fips 3.7.10-r1, argo-workflows-fips 3.7.8-r2, cass-operator 1.28.1-r0, cass-operator-fips 1.30.0-r0, cert-manager 1.19.2-r0, cert-manager-fips 1.17.4-r1, cert-manager-fips 1.19.2-r1, cert-manager-webhook-pdns-fips 3.2.3-r1, consul-fips 1.22.2-r0, cosign 2.4.3-r0, cosign 2.5.3-r0, descheduler 0.34.0-r2, distribution 3.0.0-r1, eks-distro-coredns-fips 1.35.7-r0, eks-distro-kube-apiserver-fips 1.34.2-r0, eks-distro-kube-controller-manager-fips 1.34.2-r0, eks-distro-kube-proxy-fips 1.35.7-r0, eks-distro-kube-scheduler-fips 1.34.3-r0, envoy-ratelimit 0.0.0_git20251231-r0, fluent-operator-fips 3.5.0-r0, fluent-operator-fips 3.6.0-r3, fluent-operator-fips 3.7.0-r0, grafana-alloy-fips 1.12.1-r2, grafana-mimir 3.0.2-r0, grafana-mimir-fips 3.0.2-r1, helm-operator-fips 1.41.1-r2, istio 1.28.3-r0, istio 1.28.5-r0, istio 1.28.7-r0, istio-fips 1.25.5-r3, istio-fips 1.27.7-r0, istio-fips 1.27.8-r0, istio-fips 1.28.3-r1, istio-fips 1.28.4-r0, istio-fips 1.28.5-r0, istio-fips 1.29.0-r0, istio-pilot-discovery 1.28.3-r0, istio-pilot-discovery-fips 1.28.3-r1, kapp-controller-fips 0.59.0-r3, keda 2.18.3-r0, keda 2.19.0-r0, kserve 0.16.0-r0, kube-rbac-proxy 0.20.0-r0, kube-state-metrics-fips 2.18.0-r1, kubernetes 1.33.11-r0, kubernetes 1.34.6-r0, kubernetes 1.34.7-r0, kubernetes 1.35.3-r0, kubernetes-csi-external-attacher 4.10.0-r0, kubernetes-csi-external-attacher-fips 4.10.0-r0, kubernetes-csi-external-provisioner-fips 6.1.0-r1, kubernetes-csi-external-resizer 2.0.0-r0, kubernetes-csi-external-resizer-fips 2.0.0-r0, kubernetes-csi-external-snapshotter-fips 8.4.0-r1, kubernetes-dns-node-cache 1.26.7-r1, kubernetes-dns-node-cache-fips 1.26.7-r1, kubescape 3.0.47-r0, kubevela 1.10.8-r0, kyverno-fips 1.13.6-r9, kyverno-policy-reporter-fips 3.3.3-r3, kyverno-policy-reporter-fips 3.4.2-r3, kyverno-policy-reporter-fips 3.5.0-r3, metrics-server 0.8.1-r4, openbao 2.4.3-r1, opentofu-fips 1.9.4-r3, restic-fips 0.18.1-r0, tekton-chains-fips 0.26.0-r4, tekton-pipelines 1.5.0-r4, tekton-pipelines-fips 1.7.0-r0, tekton-pipelines-fips 1.9.2-r0, tempo 2.7.2-r2, terragrunt-fips 0.94.0-r0, terragrunt-fips 0.95.1-r0, terragrunt-fips 0.96.1-r0, terragrunt-fips 0.97.2-r0, terragrunt-fips 0.98.0-r0, terragrunt-fips 0.99.4-r1, victoriametrics-operator 0.65.0-r1, victoriametrics-operator-fips 0.65.0-r2, weaviate 1.35.2-r1, zot 2.1.13-r0",
+  "details": "GHSA-9h8m-3fm2-qjrq affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -1686,7 +1686,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9h8m-3fm2-qjrq"
+    "GHSA-9h8m-3fm2-qjrq"
   ],
   "references": [
     {
@@ -1695,11 +1695,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9h8m-3fm2-qjrq"
+      "url": "https://osv.dev/vulnerability/GHSA-9h8m-3fm2-qjrq"
     }
   ],
   "published": "2026-09-18T10:27:56.803967Z",
-  "modified": "2026-10-08T18:03:21Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QK13571",
-  "summary": "Security fix for ghsa-mgf9-4vpg-hj56 applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4",
-  "details": "ghsa-mgf9-4vpg-hj56 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mgf9-4vpg-hj56 applied in: airflow-2 2.10.3-r3, airflow-2 2.11.2-r4, airflow-3 3.1.8-r4, airflow-3 3.2.1-r4",
+  "details": "GHSA-mgf9-4vpg-hj56 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mgf9-4vpg-hj56"
+    "GHSA-mgf9-4vpg-hj56"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mgf9-4vpg-hj56"
+      "url": "https://osv.dev/vulnerability/GHSA-mgf9-4vpg-hj56"
     }
   ],
   "published": "2026-09-18T09:59:22.507064Z",
-  "modified": "2026-10-09T04:44:57Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

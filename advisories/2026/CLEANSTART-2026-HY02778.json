@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-HY02778",
-  "summary": "Security fix for ghsa-vcvr-r3jv-pc5j applied in: langfuse 4.35.0-r1",
+  "summary": "Security fix for GHSA-vcvr-r3jv-pc5j applied in: langfuse 4.35.0-r1",
   "details": "Security vulnerability affects the langfuse package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vcvr-r3jv-pc5j"
+    "GHSA-vcvr-r3jv-pc5j"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vcvr-r3jv-pc5j"
+      "url": "https://osv.dev/vulnerability/GHSA-vcvr-r3jv-pc5j"
     }
   ],
   "published": "2026-10-15T00:40:44.784195Z",
-  "modified": "2026-10-14T12:19:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

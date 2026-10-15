@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OU05984",
-  "summary": "Security fix for ghsa-x6gf-mpr2-68h6 applied in: grafana-alloy-fips 1.12.1-r2",
+  "summary": "Security fix for GHSA-x6gf-mpr2-68h6 applied in: grafana-alloy-fips 1.12.1-r2",
   "details": "Security vulnerability affects the grafana-alloy-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x6gf-mpr2-68h6"
+    "GHSA-x6gf-mpr2-68h6"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x6gf-mpr2-68h6"
+      "url": "https://osv.dev/vulnerability/GHSA-x6gf-mpr2-68h6"
     }
   ],
   "published": "2026-09-18T10:25:19.876684Z",
-  "modified": "2026-10-09T04:23:07Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

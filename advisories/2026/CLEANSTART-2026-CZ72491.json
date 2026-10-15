@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CZ72491",
-  "summary": "Security fix for ghsa-5cv4-jp36-h3mw applied in: cfssl 1.5.0-r1, etcd-fips 3.6.13-r1, postgres-operator 1.12.2-r2, smarter-device-manager-fips 1.20.11-r1, tempo 2.10.4-r1, temporal-ui-server-fips 2.51.1-r1, velero-plugin-for-aws-fips 1.14.2-r1, yunikorn-k8shim 1.5.2-r1",
-  "details": "ghsa-5cv4-jp36-h3mw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-5cv4-jp36-h3mw applied in: cfssl 1.5.0-r1, etcd-fips 3.6.13-r1, postgres-operator 1.12.2-r2, smarter-device-manager-fips 1.20.11-r1, tempo 2.10.4-r1, temporal-ui-server-fips 2.51.1-r1, velero-plugin-for-aws-fips 1.14.2-r1, yunikorn-k8shim 1.5.2-r1",
+  "details": "GHSA-5cv4-jp36-h3mw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5cv4-jp36-h3mw"
+    "GHSA-5cv4-jp36-h3mw"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5cv4-jp36-h3mw"
+      "url": "https://osv.dev/vulnerability/GHSA-5cv4-jp36-h3mw"
     }
   ],
   "published": "2026-09-18T09:52:46.631949Z",
-  "modified": "2026-10-08T18:34:57Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

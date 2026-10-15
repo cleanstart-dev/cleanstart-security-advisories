@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OZ96009",
-  "summary": "Security fix for ghsa-ch8v-r6jh-4vvr applied in: php 8.3.35-r0",
+  "summary": "Security fix for GHSA-ch8v-r6jh-4vvr applied in: php 8.3.35-r0",
   "details": "Security vulnerability affects the php package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-ch8v-r6jh-4vvr"
+    "GHSA-ch8v-r6jh-4vvr"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-ch8v-r6jh-4vvr"
+      "url": "https://osv.dev/vulnerability/GHSA-ch8v-r6jh-4vvr"
     }
   ],
   "published": "2026-10-09T00:40:12.731259Z",
-  "modified": "2026-10-08T10:17:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

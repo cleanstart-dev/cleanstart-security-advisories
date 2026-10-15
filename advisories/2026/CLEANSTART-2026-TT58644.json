@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TT58644",
-  "summary": "Security fix for ghsa-4qhr-g3c6-fcfx applied in: hazelcast 5.7.0-r1",
+  "summary": "Security fix for GHSA-4qhr-g3c6-fcfx applied in: hazelcast 5.7.0-r1",
   "details": "Security vulnerability affects the hazelcast package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-4qhr-g3c6-fcfx"
+    "GHSA-4qhr-g3c6-fcfx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-4qhr-g3c6-fcfx"
+      "url": "https://osv.dev/vulnerability/GHSA-4qhr-g3c6-fcfx"
     }
   ],
   "published": "2026-09-18T09:49:41.170195Z",
-  "modified": "2026-10-09T05:56:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-FL05460",
-  "summary": "Security fix for ghsa-3wq7-rqq7-wx6j applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
-  "details": "ghsa-3wq7-rqq7-wx6j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-3wq7-rqq7-wx6j applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0",
+  "details": "GHSA-3wq7-rqq7-wx6j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3wq7-rqq7-wx6j"
+    "GHSA-3wq7-rqq7-wx6j"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3wq7-rqq7-wx6j"
+      "url": "https://osv.dev/vulnerability/GHSA-3wq7-rqq7-wx6j"
     }
   ],
   "published": "2026-09-18T09:59:59.341644Z",
-  "modified": "2026-10-08T19:08:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

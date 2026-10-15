@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UX96534",
-  "summary": "Security fix for ghsa-wwpq-f5c3-7hvx applied in: apache-nifi-registry 2.9.0-r1, cloud-config-server 4.1.7-r2, cloud-config-server 4.2.4-r0, cloud-config-server 4.3.2-r2, cloud-config-server 4.3.4-r0, kafka-ui 1.4.2-r6",
-  "details": "ghsa-wwpq-f5c3-7hvx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wwpq-f5c3-7hvx applied in: apache-nifi-registry 2.9.0-r1, cloud-config-server 4.1.7-r2, cloud-config-server 4.2.4-r0, cloud-config-server 4.3.2-r2, cloud-config-server 4.3.4-r0, kafka-ui 1.4.2-r6",
+  "details": "GHSA-wwpq-f5c3-7hvx affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wwpq-f5c3-7hvx"
+    "GHSA-wwpq-f5c3-7hvx"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wwpq-f5c3-7hvx"
+      "url": "https://osv.dev/vulnerability/GHSA-wwpq-f5c3-7hvx"
     }
   ],
   "published": "2026-09-18T10:01:44.251956Z",
-  "modified": "2026-10-09T06:12:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

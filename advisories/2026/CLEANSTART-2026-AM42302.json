@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AM42302",
-  "summary": "Security fix for ghsa-pfrx-2q88-qq97 applied in: mongosh 2.5.10-r5, mongosh 2.6.0-r1, mongosh 2.8.1-r0",
-  "details": "ghsa-pfrx-2q88-qq97 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-pfrx-2q88-qq97 applied in: mongosh 2.5.10-r5, mongosh 2.6.0-r1, mongosh 2.8.1-r0",
+  "details": "GHSA-pfrx-2q88-qq97 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pfrx-2q88-qq97"
+    "GHSA-pfrx-2q88-qq97"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pfrx-2q88-qq97"
+      "url": "https://osv.dev/vulnerability/GHSA-pfrx-2q88-qq97"
     }
   ],
   "published": "2026-09-18T10:24:47.736058Z",
-  "modified": "2026-10-08T18:00:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MR47110",
-  "summary": "Security fix for ghsa-9c54-x2g4-v92j applied in: cosign 3.1.2-r1, spire-server-fips 1.15.1-r1",
-  "details": "ghsa-9c54-x2g4-v92j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-9c54-x2g4-v92j applied in: cosign 3.1.2-r1, spire-server-fips 1.15.1-r1",
+  "details": "GHSA-9c54-x2g4-v92j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-9c54-x2g4-v92j"
+    "GHSA-9c54-x2g4-v92j"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-9c54-x2g4-v92j"
+      "url": "https://osv.dev/vulnerability/GHSA-9c54-x2g4-v92j"
     }
   ],
   "published": "2026-09-18T09:48:34.591940Z",
-  "modified": "2026-10-09T03:52:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

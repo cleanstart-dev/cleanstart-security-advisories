@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CK33786",
-  "summary": "Security fix for ghsa-gh4j-gqv2-49f6 applied in: mongosh 2.6.0-r4, mongosh 2.8.2-r3, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-gh4j-gqv2-49f6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gh4j-gqv2-49f6 applied in: mongosh 2.6.0-r4, mongosh 2.8.2-r3, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-gh4j-gqv2-49f6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gh4j-gqv2-49f6"
+    "GHSA-gh4j-gqv2-49f6"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gh4j-gqv2-49f6"
+      "url": "https://osv.dev/vulnerability/GHSA-gh4j-gqv2-49f6"
     }
   ],
   "published": "2026-09-18T10:17:05.494356Z",
-  "modified": "2026-10-08T18:26:47Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

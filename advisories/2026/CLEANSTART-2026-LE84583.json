@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LE84583",
-  "summary": "Security fix for ghsa-c2f4-jgmc-q2r5 applied in: logstash-fips 9.0.8-r2, logstash-fips 9.2.4-r1",
-  "details": "ghsa-c2f4-jgmc-q2r5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c2f4-jgmc-q2r5 applied in: logstash-fips 9.0.8-r2, logstash-fips 9.2.4-r1",
+  "details": "GHSA-c2f4-jgmc-q2r5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c2f4-jgmc-q2r5"
+    "GHSA-c2f4-jgmc-q2r5"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c2f4-jgmc-q2r5"
+      "url": "https://osv.dev/vulnerability/GHSA-c2f4-jgmc-q2r5"
     }
   ],
   "published": "2026-09-18T10:30:30.802633Z",
-  "modified": "2026-10-09T03:32:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

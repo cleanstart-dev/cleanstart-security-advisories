@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NO27854",
-  "summary": "Security fix for ghsa-r4q5-vmmm-2653 applied in: argo-workflows 3.6.19-r7, argo-workflows 3.7.15-r3, configurable-http-proxy 5.1.0-r1, jitsucom-jitsu 2.14.0-r1, kibana 9.3.2-r3, mongosh 2.8.2-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, thingsboard-tb-web-ui 4.1-r1, thingsboard-tb-web-ui 4.3.1-r0, thingsboard-tb-web-ui 4.3.1.1-r0",
-  "details": "ghsa-r4q5-vmmm-2653 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r4q5-vmmm-2653 applied in: argo-workflows 3.6.19-r7, argo-workflows 3.7.15-r3, configurable-http-proxy 5.1.0-r1, jitsucom-jitsu 2.14.0-r1, kibana 9.3.2-r3, mongosh 2.8.2-r1, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, thingsboard-tb-web-ui 4.1-r1, thingsboard-tb-web-ui 4.3.1-r0, thingsboard-tb-web-ui 4.3.1.1-r0",
+  "details": "GHSA-r4q5-vmmm-2653 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -226,7 +226,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r4q5-vmmm-2653"
+    "GHSA-r4q5-vmmm-2653"
   ],
   "references": [
     {
@@ -235,11 +235,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r4q5-vmmm-2653"
+      "url": "https://osv.dev/vulnerability/GHSA-r4q5-vmmm-2653"
     }
   ],
   "published": "2026-09-18T10:20:52.973069Z",
-  "modified": "2026-10-09T04:06:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

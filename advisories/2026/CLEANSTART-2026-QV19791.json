@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QV19791",
-  "summary": "Security fix for ghsa-gcjh-h69q-9w9g applied in: external-secrets-operator-fips 2.12.0-r1, flux-helm-controller 1.6.4-r1",
-  "details": "ghsa-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-gcjh-h69q-9w9g applied in: external-secrets-operator-fips 2.12.0-r1, flux-helm-controller 1.6.4-r1",
+  "details": "GHSA-gcjh-h69q-9w9g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-gcjh-h69q-9w9g"
+    "GHSA-gcjh-h69q-9w9g"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-gcjh-h69q-9w9g"
+      "url": "https://osv.dev/vulnerability/GHSA-gcjh-h69q-9w9g"
     }
   ],
   "published": "2026-10-09T00:38:11.156745Z",
-  "modified": "2026-10-08T04:44:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

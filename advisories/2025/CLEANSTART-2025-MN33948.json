@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-MN33948",
-  "summary": "Security fix for ghsa-wr2v-9rpq-c35q applied in: metrics-server-fips 0.5.2-r3",
+  "summary": "Security fix for GHSA-wr2v-9rpq-c35q applied in: metrics-server-fips 0.5.2-r3",
   "details": "Security vulnerability affects the metrics-server-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wr2v-9rpq-c35q"
+    "GHSA-wr2v-9rpq-c35q"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wr2v-9rpq-c35q"
+      "url": "https://osv.dev/vulnerability/GHSA-wr2v-9rpq-c35q"
     }
   ],
   "published": "2026-09-18T10:30:29.147621Z",
-  "modified": "2026-10-08T17:54:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

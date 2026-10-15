@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NI63338",
-  "summary": "Security fix for ghsa-995v-fvrw-c78m applied in: opentelemetry-collector-contrib 0.153.0-r1",
+  "summary": "Security fix for GHSA-995v-fvrw-c78m applied in: opentelemetry-collector-contrib 0.153.0-r1",
   "details": "Security vulnerability affects the opentelemetry-collector-contrib package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-995v-fvrw-c78m"
+    "GHSA-995v-fvrw-c78m"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-995v-fvrw-c78m"
+      "url": "https://osv.dev/vulnerability/GHSA-995v-fvrw-c78m"
     }
   ],
   "published": "2026-09-18T09:52:27.833260Z",
-  "modified": "2026-10-09T04:03:59Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

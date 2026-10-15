@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JL75722",
-  "summary": "Security fix for ghsa-vpq2-c234-7xj6 applied in: jitsucom-jitsu 2.10.0-r0, jitsucom-jitsu 2.11.0-r3, jitsucom-jitsu 2.14.0-r0, jitsucom-jitsu 2.9.0-r0, sqlpad 7.5.7-r3",
-  "details": "ghsa-vpq2-c234-7xj6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-vpq2-c234-7xj6 applied in: jitsucom-jitsu 2.10.0-r0, jitsucom-jitsu 2.11.0-r3, jitsucom-jitsu 2.14.0-r0, jitsucom-jitsu 2.9.0-r0, sqlpad 7.5.7-r3",
+  "details": "GHSA-vpq2-c234-7xj6 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vpq2-c234-7xj6"
+    "GHSA-vpq2-c234-7xj6"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vpq2-c234-7xj6"
+      "url": "https://osv.dev/vulnerability/GHSA-vpq2-c234-7xj6"
     }
   ],
   "published": "2026-09-18T10:23:28.028850Z",
-  "modified": "2026-10-09T03:06:20Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

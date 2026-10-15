@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BS11669",
-  "summary": "Security fix for ghsa-jg4p-7fhp-p32p applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
-  "details": "ghsa-jg4p-7fhp-p32p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jg4p-7fhp-p32p applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1",
+  "details": "GHSA-jg4p-7fhp-p32p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jg4p-7fhp-p32p"
+    "GHSA-jg4p-7fhp-p32p"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jg4p-7fhp-p32p"
+      "url": "https://osv.dev/vulnerability/GHSA-jg4p-7fhp-p32p"
     }
   ],
   "published": "2026-09-18T10:16:55.942360Z",
-  "modified": "2026-10-08T18:15:34Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

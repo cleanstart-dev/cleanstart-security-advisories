@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WT20984",
-  "summary": "Security fix for ghsa-r29c-68gh-xp6x applied in: thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1",
-  "details": "ghsa-r29c-68gh-xp6x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r29c-68gh-xp6x applied in: thingsboard 4.2.2.3-r1, thingsboard 4.3.1.3-r1",
+  "details": "GHSA-r29c-68gh-xp6x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r29c-68gh-xp6x"
+    "GHSA-r29c-68gh-xp6x"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r29c-68gh-xp6x"
+      "url": "https://osv.dev/vulnerability/GHSA-r29c-68gh-xp6x"
     }
   ],
   "published": "2026-09-18T09:41:14.446304Z",
-  "modified": "2026-10-09T06:37:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KA19928",
-  "summary": "Security fix for ghsa-cvc6-q2cp-2xhw applied in: apache-nifi 2.9.0-r1, kafka-ui 1.4.2-r6",
-  "details": "ghsa-cvc6-q2cp-2xhw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cvc6-q2cp-2xhw applied in: apache-nifi 2.9.0-r1, kafka-ui 1.4.2-r6",
+  "details": "GHSA-cvc6-q2cp-2xhw affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cvc6-q2cp-2xhw"
+    "GHSA-cvc6-q2cp-2xhw"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cvc6-q2cp-2xhw"
+      "url": "https://osv.dev/vulnerability/GHSA-cvc6-q2cp-2xhw"
     }
   ],
   "published": "2026-09-18T10:01:34.545119Z",
-  "modified": "2026-10-09T03:15:07Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

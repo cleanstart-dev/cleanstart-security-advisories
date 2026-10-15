@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-TU07064",
-  "summary": "Security fix for ghsa-mrfv-m5wm-5w6w applied in: airflow-2 2.10.3-r2, az 2.81.0-r0, pritunl 1.30.3431.73-r1",
-  "details": "ghsa-mrfv-m5wm-5w6w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mrfv-m5wm-5w6w applied in: airflow-2 2.10.3-r2, az 2.81.0-r0, pritunl 1.30.3431.73-r1",
+  "details": "GHSA-mrfv-m5wm-5w6w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mrfv-m5wm-5w6w"
+    "GHSA-mrfv-m5wm-5w6w"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mrfv-m5wm-5w6w"
+      "url": "https://osv.dev/vulnerability/GHSA-mrfv-m5wm-5w6w"
     }
   ],
   "published": "2026-09-18T10:24:56.427886Z",
-  "modified": "2026-10-09T05:56:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

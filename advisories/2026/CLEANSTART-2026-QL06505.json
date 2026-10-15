@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QL06505",
-  "summary": "Security fix for ghsa-v92g-xgxw-vvmm applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, apache-superset 5.0.0-r7",
-  "details": "ghsa-v92g-xgxw-vvmm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-v92g-xgxw-vvmm applied in: airflow-2 2.10.3-r2, airflow-3 3.1.8-r0, airflow-3 3.2.0-r0, apache-superset 5.0.0-r7",
+  "details": "GHSA-v92g-xgxw-vvmm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v92g-xgxw-vvmm"
+    "GHSA-v92g-xgxw-vvmm"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v92g-xgxw-vvmm"
+      "url": "https://osv.dev/vulnerability/GHSA-v92g-xgxw-vvmm"
     }
   ],
   "published": "2026-09-18T09:59:43.329810Z",
-  "modified": "2026-10-09T04:45:30Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PR63833",
-  "summary": "Security fix for ghsa-g36m-9g3m-2vmp applied in: wildfly 39.0.1-r0",
+  "summary": "Security fix for GHSA-g36m-9g3m-2vmp applied in: wildfly 39.0.1-r0",
   "details": "Security vulnerability affects the wildfly package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-g36m-9g3m-2vmp"
+    "GHSA-g36m-9g3m-2vmp"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-g36m-9g3m-2vmp"
+      "url": "https://osv.dev/vulnerability/GHSA-g36m-9g3m-2vmp"
     }
   ],
   "published": "2026-09-18T09:59:00.675400Z",
-  "modified": "2026-10-09T04:35:40Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

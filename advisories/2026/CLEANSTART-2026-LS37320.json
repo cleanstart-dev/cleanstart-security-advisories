@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-LS37320",
-  "summary": "Security fix for ghsa-3x4c-7xq6-9pq8 applied in: jitsucom-jitsu 2.11.0-r3",
+  "summary": "Security fix for GHSA-3x4c-7xq6-9pq8 applied in: jitsucom-jitsu 2.11.0-r3",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-3x4c-7xq6-9pq8"
+    "GHSA-3x4c-7xq6-9pq8"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-3x4c-7xq6-9pq8"
+      "url": "https://osv.dev/vulnerability/GHSA-3x4c-7xq6-9pq8"
     }
   ],
   "published": "2026-09-18T10:23:26.986924Z",
-  "modified": "2026-10-09T03:39:34Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

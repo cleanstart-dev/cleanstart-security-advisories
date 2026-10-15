@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MX84093",
-  "summary": "Security fix for ghsa-x6wf-f3px-wcqx applied in: sqlpad 7.5.7-r3",
+  "summary": "Security fix for GHSA-x6wf-f3px-wcqx applied in: sqlpad 7.5.7-r3",
   "details": "Security vulnerability affects the sqlpad package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-x6wf-f3px-wcqx"
+    "GHSA-x6wf-f3px-wcqx"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-x6wf-f3px-wcqx"
+      "url": "https://osv.dev/vulnerability/GHSA-x6wf-f3px-wcqx"
     }
   ],
   "published": "2026-09-18T09:52:01.019446Z",
-  "modified": "2026-10-09T03:55:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

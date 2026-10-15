@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QA36813",
-  "summary": "Security fix for ghsa-5vv4-hvf7-2h46 applied in: kibana 9.3.2-r3",
+  "summary": "Security fix for GHSA-5vv4-hvf7-2h46 applied in: kibana 9.3.2-r3",
   "details": "Security vulnerability affects the kibana package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-5vv4-hvf7-2h46"
+    "GHSA-5vv4-hvf7-2h46"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-5vv4-hvf7-2h46"
+      "url": "https://osv.dev/vulnerability/GHSA-5vv4-hvf7-2h46"
     }
   ],
   "published": "2026-09-18T10:10:32.152978Z",
-  "modified": "2026-10-09T04:40:07Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

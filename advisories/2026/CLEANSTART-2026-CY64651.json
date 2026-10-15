@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CY64651",
-  "summary": "Security fix for ghsa-66ff-xgx4-vchm applied in: kibana 9.3.2-r3",
+  "summary": "Security fix for GHSA-66ff-xgx4-vchm applied in: kibana 9.3.2-r3",
   "details": "Security vulnerability affects the kibana package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-66ff-xgx4-vchm"
+    "GHSA-66ff-xgx4-vchm"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-66ff-xgx4-vchm"
+      "url": "https://osv.dev/vulnerability/GHSA-66ff-xgx4-vchm"
     }
   ],
   "published": "2026-09-18T10:10:25.072635Z",
-  "modified": "2026-10-08T18:34:07Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

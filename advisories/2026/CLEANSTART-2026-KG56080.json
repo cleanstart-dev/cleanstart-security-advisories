@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KG56080",
-  "summary": "Security fix for ghsa-hcg3-q754-cr77 applied in: calico-fips 3.27.5-r0, cfssl 1.5.0-r1, cosign 2.4.3-r0, cosign 2.5.3-r0, dynamic-localpv-provisioner 4.4.0-r0, falcoctl 0.11.0-r0, go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0, harbor-registry 3.0.0.1-r2, kube-fluentd-operator 1.18.2-r0, kube-rbac-proxy-fips 0.16.1-r0, kube-rbac-proxy-fips 0.17.1-r0, kube-rbac-proxy-fips 0.19.1-r0, kube-state-metrics-fips 2.14.0-r0, kube-state-metrics-fips 2.15.0-r0, kyverno-fips 1.13.6-r1, litestream 0.3.14-r3, modelmesh-runtime-adapter 0.12.0-r0, modelmesh-runtime-adapter 0.12.0-r1, multus-cni-fips 3.9.3-r2, opentofu-fips 1.9.4-r0, postgres-operator 1.12.2-r2, prometheus-node-exporter 1.8.0-r3, prometheus-statsd-exporter 0.28.0-r0, prometheus-statsd-exporter-fips 0.28.0-r0, tempo-fips 2.7.2-r0, wavefront-collector-for-kubernetes 1.13.0-r0",
-  "details": "ghsa-hcg3-q754-cr77 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-hcg3-q754-cr77 applied in: calico-fips 3.27.5-r0, cfssl 1.5.0-r1, cosign 2.4.3-r0, cosign 2.5.3-r0, dynamic-localpv-provisioner 4.4.0-r0, falcoctl 0.11.0-r0, go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0, harbor-registry 3.0.0.1-r2, kube-fluentd-operator 1.18.2-r0, kube-rbac-proxy-fips 0.16.1-r0, kube-rbac-proxy-fips 0.17.1-r0, kube-rbac-proxy-fips 0.19.1-r0, kube-state-metrics-fips 2.14.0-r0, kube-state-metrics-fips 2.15.0-r0, kyverno-fips 1.13.6-r1, litestream 0.3.14-r3, modelmesh-runtime-adapter 0.12.0-r0, modelmesh-runtime-adapter 0.12.0-r1, multus-cni-fips 3.9.3-r2, opentofu-fips 1.9.4-r0, postgres-operator 1.12.2-r2, prometheus-node-exporter 1.8.0-r3, prometheus-statsd-exporter 0.28.0-r0, prometheus-statsd-exporter-fips 0.28.0-r0, tempo-fips 2.7.2-r0, wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "GHSA-hcg3-q754-cr77 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -546,7 +546,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hcg3-q754-cr77"
+    "GHSA-hcg3-q754-cr77"
   ],
   "references": [
     {
@@ -555,11 +555,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hcg3-q754-cr77"
+      "url": "https://osv.dev/vulnerability/GHSA-hcg3-q754-cr77"
     }
   ],
   "published": "2026-09-18T10:32:50.511568Z",
-  "modified": "2026-10-09T03:18:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

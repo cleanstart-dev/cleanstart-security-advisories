@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NF21884",
-  "summary": "Security fix for ghsa-rpmf-866q-6p89 applied in: kibana 9.3.2-r3, proxy-agent 6.5.0-r0, proxy-agent 7.0.0-r2, proxy-agent 8.0.2-r0",
-  "details": "ghsa-rpmf-866q-6p89 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rpmf-866q-6p89 applied in: kibana 9.3.2-r3, proxy-agent 6.5.0-r0, proxy-agent 7.0.0-r2, proxy-agent 8.0.2-r0",
+  "details": "GHSA-rpmf-866q-6p89 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rpmf-866q-6p89"
+    "GHSA-rpmf-866q-6p89"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rpmf-866q-6p89"
+      "url": "https://osv.dev/vulnerability/GHSA-rpmf-866q-6p89"
     }
   ],
   "published": "2026-09-18T10:10:34.159424Z",
-  "modified": "2026-10-09T04:01:37Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

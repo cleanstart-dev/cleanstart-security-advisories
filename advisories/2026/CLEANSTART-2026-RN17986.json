@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RN17986",
-  "summary": "Security fix for ghsa-vg35-5wq7-3x7w applied in: thingsboard-tb-web-ui 4.3.1.1-r1",
+  "summary": "Security fix for GHSA-vg35-5wq7-3x7w applied in: thingsboard-tb-web-ui 4.3.1.1-r1",
   "details": "Security vulnerability affects the thingsboard-tb-web-ui package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vg35-5wq7-3x7w"
+    "GHSA-vg35-5wq7-3x7w"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vg35-5wq7-3x7w"
+      "url": "https://osv.dev/vulnerability/GHSA-vg35-5wq7-3x7w"
     }
   ],
   "published": "2026-09-18T09:55:09.086390Z",
-  "modified": "2026-10-09T04:59:41Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

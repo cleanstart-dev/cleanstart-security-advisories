@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UO59647",
-  "summary": "Security fix for ghsa-2c4m-59x9-fr2g applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
-  "details": "ghsa-2c4m-59x9-fr2g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2c4m-59x9-fr2g applied in: chartmuseum-fips 0.14.0-r1, chartmuseum-fips 0.15.0-r4",
+  "details": "GHSA-2c4m-59x9-fr2g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2c4m-59x9-fr2g"
+    "GHSA-2c4m-59x9-fr2g"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2c4m-59x9-fr2g"
+      "url": "https://osv.dev/vulnerability/GHSA-2c4m-59x9-fr2g"
     }
   ],
   "published": "2026-09-18T10:31:25.482190Z",
-  "modified": "2026-10-09T06:08:53Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

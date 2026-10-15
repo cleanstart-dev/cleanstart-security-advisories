@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IT88584",
-  "summary": "Security fix for ghsa-mfg7-5gfp-c4w3 applied in: elasticsearch 9.1.10-r1, elasticsearch 9.3.8-r1, elasticsearch 9.4.4-r4, hazelcast 5.7.0-r1, keycloak 26.7.1-r0, sonarqube 26.8.0.126808-r2, wildfly 39.0.1-r7",
-  "details": "ghsa-mfg7-5gfp-c4w3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mfg7-5gfp-c4w3 applied in: elasticsearch 9.1.10-r1, elasticsearch 9.3.8-r1, elasticsearch 9.4.4-r4, hazelcast 5.7.0-r1, keycloak 26.7.1-r0, sonarqube 26.8.0.126808-r2, wildfly 39.0.1-r7",
+  "details": "GHSA-mfg7-5gfp-c4w3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mfg7-5gfp-c4w3"
+    "GHSA-mfg7-5gfp-c4w3"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mfg7-5gfp-c4w3"
+      "url": "https://osv.dev/vulnerability/GHSA-mfg7-5gfp-c4w3"
     }
   ],
   "published": "2026-09-18T09:53:02.168875Z",
-  "modified": "2026-10-08T19:50:24Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

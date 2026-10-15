@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KV31484",
-  "summary": "Security fix for ghsa-2m67-wjpj-xhg9 applied in: apache-nifi 2.8.0-r0, sonarqube 25.12.0.117093-r3, sonarqube 26.3.0.120487-r3, sonarqube 26.4.0.121862-r2, trino 480-r4",
-  "details": "ghsa-2m67-wjpj-xhg9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-2m67-wjpj-xhg9 applied in: apache-nifi 2.8.0-r0, sonarqube 25.12.0.117093-r3, sonarqube 26.3.0.120487-r3, sonarqube 26.4.0.121862-r2, trino 480-r4",
+  "details": "GHSA-2m67-wjpj-xhg9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-2m67-wjpj-xhg9"
+    "GHSA-2m67-wjpj-xhg9"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-2m67-wjpj-xhg9"
+      "url": "https://osv.dev/vulnerability/GHSA-2m67-wjpj-xhg9"
     }
   ],
   "published": "2026-09-18T10:06:44.793867Z",
-  "modified": "2026-10-09T03:27:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

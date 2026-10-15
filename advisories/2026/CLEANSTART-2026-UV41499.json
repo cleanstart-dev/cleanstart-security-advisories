@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UV41499",
-  "summary": "Security fix for ghsa-v2v4-37r5-5v8g applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, proxy-agent 6.5.0-r0, renovate 43.123.8-r3, sqlpad 7.5.7-r3",
-  "details": "ghsa-v2v4-37r5-5v8g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-v2v4-37r5-5v8g applied in: kibana 9.3.2-r3, opensearch-dashboards-fips 2.19.5-r0, opensearch-dashboards-fips 3.5.0-r1, proxy-agent 6.5.0-r0, renovate 43.123.8-r3, sqlpad 7.5.7-r3",
+  "details": "GHSA-v2v4-37r5-5v8g affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -126,7 +126,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v2v4-37r5-5v8g"
+    "GHSA-v2v4-37r5-5v8g"
   ],
   "references": [
     {
@@ -135,11 +135,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v2v4-37r5-5v8g"
+      "url": "https://osv.dev/vulnerability/GHSA-v2v4-37r5-5v8g"
     }
   ],
   "published": "2026-09-18T10:17:40.585997Z",
-  "modified": "2026-10-09T06:11:55Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

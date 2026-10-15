@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DH52252",
-  "summary": "Security fix for ghsa-vgq5-3255-v292 applied in: kogito-apps 10.1.0-r0",
+  "summary": "Security fix for GHSA-vgq5-3255-v292 applied in: kogito-apps 10.1.0-r0",
   "details": "Security vulnerability affects the kogito-apps package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-vgq5-3255-v292"
+    "GHSA-vgq5-3255-v292"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-vgq5-3255-v292"
+      "url": "https://osv.dev/vulnerability/GHSA-vgq5-3255-v292"
     }
   ],
   "published": "2026-09-18T10:24:20.299927Z",
-  "modified": "2026-10-08T18:40:04Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

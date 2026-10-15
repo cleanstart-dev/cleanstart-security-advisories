@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PK50112",
-  "summary": "Security fix for ghsa-xjp4-hw94-mvp5 applied in: druid-fips 35.0.0-r1, spark-sc213-jdk17-py312 3.5.8-r0",
-  "details": "ghsa-xjp4-hw94-mvp5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-xjp4-hw94-mvp5 applied in: druid-fips 35.0.0-r1, spark-sc213-jdk17-py312 3.5.8-r0",
+  "details": "GHSA-xjp4-hw94-mvp5 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-xjp4-hw94-mvp5"
+    "GHSA-xjp4-hw94-mvp5"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-xjp4-hw94-mvp5"
+      "url": "https://osv.dev/vulnerability/GHSA-xjp4-hw94-mvp5"
     }
   ],
   "published": "2026-09-18T10:31:18.570347Z",
-  "modified": "2026-10-09T04:30:56Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

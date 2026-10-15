@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GA19307",
-  "summary": "Security fix for ghsa-fqw6-gf59-qr4w applied in: helm-operator 1.42.2-r0, k8sgpt 0.4.33-r0, kubevela 1.10.8-r0, newrelic-infrastructure-agent 1.73.1-r1, tigera-operator 1.42.0-r0",
-  "details": "ghsa-fqw6-gf59-qr4w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fqw6-gf59-qr4w applied in: helm-operator 1.42.2-r0, k8sgpt 0.4.33-r0, kubevela 1.10.8-r0, newrelic-infrastructure-agent 1.73.1-r1, tigera-operator 1.42.0-r0",
+  "details": "GHSA-fqw6-gf59-qr4w affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fqw6-gf59-qr4w"
+    "GHSA-fqw6-gf59-qr4w"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fqw6-gf59-qr4w"
+      "url": "https://osv.dev/vulnerability/GHSA-fqw6-gf59-qr4w"
     }
   ],
   "published": "2026-09-18T10:07:32.389496Z",
-  "modified": "2026-10-08T19:16:39Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

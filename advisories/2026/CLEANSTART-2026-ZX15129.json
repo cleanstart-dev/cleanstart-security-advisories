@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZX15129",
-  "summary": "Security fix for ghsa-cphf-4846-3xx9 applied in: incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, keycloak 26.4.10-r0, keycloak 26.4.11-r2, keycloak 26.4.7-r3, keycloak 26.5.6-r5, kogito-apps 10.1.0-r0, spark-sc213-jdk17-py311 4.1.1-r2, strimzi-kafka-operator 0.50.0-r0",
-  "details": "ghsa-cphf-4846-3xx9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cphf-4846-3xx9 applied in: incubator-kie-kogito-data-index-ephemeral 10.1.0-r1, keycloak 26.4.10-r0, keycloak 26.4.11-r2, keycloak 26.4.7-r3, keycloak 26.5.6-r5, kogito-apps 10.1.0-r0, spark-sc213-jdk17-py311 4.1.1-r2, strimzi-kafka-operator 0.50.0-r0",
+  "details": "GHSA-cphf-4846-3xx9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cphf-4846-3xx9"
+    "GHSA-cphf-4846-3xx9"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cphf-4846-3xx9"
+      "url": "https://osv.dev/vulnerability/GHSA-cphf-4846-3xx9"
     }
   ],
   "published": "2026-09-18T10:29:03.065225Z",
-  "modified": "2026-10-09T07:19:13Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

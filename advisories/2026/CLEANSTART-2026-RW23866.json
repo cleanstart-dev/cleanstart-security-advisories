@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RW23866",
-  "summary": "Security fix for ghsa-pqr6-cmr2-h8hf applied in: stargate 1.0.90-r4",
+  "summary": "Security fix for GHSA-pqr6-cmr2-h8hf applied in: stargate 1.0.90-r4",
   "details": "Security vulnerability affects the stargate package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-pqr6-cmr2-h8hf"
+    "GHSA-pqr6-cmr2-h8hf"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-pqr6-cmr2-h8hf"
+      "url": "https://osv.dev/vulnerability/GHSA-pqr6-cmr2-h8hf"
     }
   ],
   "published": "2026-09-18T10:24:25.356536Z",
-  "modified": "2026-10-09T05:05:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

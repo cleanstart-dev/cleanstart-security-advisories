@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-IP09200",
-  "summary": "Security fix for ghsa-8h8q-6873-q5fj applied in: jitsucom-jitsu 2.14.0-r1",
+  "summary": "Security fix for GHSA-8h8q-6873-q5fj applied in: jitsucom-jitsu 2.14.0-r1",
   "details": "Security vulnerability affects the jitsucom-jitsu package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-8h8q-6873-q5fj"
+    "GHSA-8h8q-6873-q5fj"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-8h8q-6873-q5fj"
+      "url": "https://osv.dev/vulnerability/GHSA-8h8q-6873-q5fj"
     }
   ],
   "published": "2026-09-18T09:58:47.066055Z",
-  "modified": "2026-10-08T19:48:03Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

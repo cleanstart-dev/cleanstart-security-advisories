@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MJ80904",
-  "summary": "Security fix for ghsa-hg6j-4rv6-33pg applied in: airflow-3 3.2.1-r3",
+  "summary": "Security fix for GHSA-hg6j-4rv6-33pg applied in: airflow-3 3.2.1-r3",
   "details": "Security vulnerability affects the airflow-3 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hg6j-4rv6-33pg"
+    "GHSA-hg6j-4rv6-33pg"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hg6j-4rv6-33pg"
+      "url": "https://osv.dev/vulnerability/GHSA-hg6j-4rv6-33pg"
     }
   ],
   "published": "2026-09-18T09:45:57.960114Z",
-  "modified": "2026-10-09T03:48:45Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

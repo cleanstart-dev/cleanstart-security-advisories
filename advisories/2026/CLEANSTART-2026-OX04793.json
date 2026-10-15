@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-OX04793",
-  "summary": "Security fix for ghsa-rc47-6667-2j5j applied in: mongosh 2.5.10-r5, mongosh 2.6.0-r1, mongosh 2.8.1-r0",
-  "details": "ghsa-rc47-6667-2j5j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rc47-6667-2j5j applied in: mongosh 2.5.10-r5, mongosh 2.6.0-r1, mongosh 2.8.1-r0",
+  "details": "GHSA-rc47-6667-2j5j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rc47-6667-2j5j"
+    "GHSA-rc47-6667-2j5j"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rc47-6667-2j5j"
+      "url": "https://osv.dev/vulnerability/GHSA-rc47-6667-2j5j"
     }
   ],
   "published": "2026-09-18T10:24:48.483709Z",
-  "modified": "2026-10-09T04:24:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

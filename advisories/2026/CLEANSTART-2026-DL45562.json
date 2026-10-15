@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-DL45562",
-  "summary": "Security fix for ghsa-qhmp-q7xh-99rh applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
-  "details": "ghsa-qhmp-q7xh-99rh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-qhmp-q7xh-99rh applied in: kubernetes-dns-node-cache 1.26.0-r1, kubernetes-dns-node-cache-fips 1.26.0-r1",
+  "details": "GHSA-qhmp-q7xh-99rh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-qhmp-q7xh-99rh"
+    "GHSA-qhmp-q7xh-99rh"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-qhmp-q7xh-99rh"
+      "url": "https://osv.dev/vulnerability/GHSA-qhmp-q7xh-99rh"
     }
   ],
   "published": "2026-09-18T09:50:37.498890Z",
-  "modified": "2026-10-08T18:42:24Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

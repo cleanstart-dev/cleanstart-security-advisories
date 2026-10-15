@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-LH78565",
-  "summary": "Security fix for ghsa-jjjh-jjxp-wpff applied in: cassandra-fips 3.11.19-r6, druid-fips 35.0.0-r1",
-  "details": "ghsa-jjjh-jjxp-wpff affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-jjjh-jjxp-wpff applied in: cassandra-fips 3.11.19-r6, druid-fips 35.0.0-r1",
+  "details": "GHSA-jjjh-jjxp-wpff affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jjjh-jjxp-wpff"
+    "GHSA-jjjh-jjxp-wpff"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jjjh-jjxp-wpff"
+      "url": "https://osv.dev/vulnerability/GHSA-jjjh-jjxp-wpff"
     }
   ],
   "published": "2026-09-18T10:31:10.508792Z",
-  "modified": "2026-10-08T17:54:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

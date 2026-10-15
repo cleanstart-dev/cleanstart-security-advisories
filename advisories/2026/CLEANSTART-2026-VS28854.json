@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-VS28854",
-  "summary": "Security fix for ghsa-c69g-56f8-xwqj applied in: hazelcast 5.7.0-r1, strimzi-kafka-operator 1.1.0-r2",
-  "details": "ghsa-c69g-56f8-xwqj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-c69g-56f8-xwqj applied in: hazelcast 5.7.0-r1, strimzi-kafka-operator 1.1.0-r2",
+  "details": "GHSA-c69g-56f8-xwqj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-c69g-56f8-xwqj"
+    "GHSA-c69g-56f8-xwqj"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-c69g-56f8-xwqj"
+      "url": "https://osv.dev/vulnerability/GHSA-c69g-56f8-xwqj"
     }
   ],
   "published": "2026-09-18T09:50:04.926215Z",
-  "modified": "2026-10-09T06:23:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

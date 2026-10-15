@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RQ83656",
-  "summary": "Security fix for ghsa-7jqv-fw35-gmx9 applied in: tensorflow-gpu-jupyter 2.21.0-r6",
+  "summary": "Security fix for GHSA-7jqv-fw35-gmx9 applied in: tensorflow-gpu-jupyter 2.21.0-r6",
   "details": "Security vulnerability affects the tensorflow-gpu-jupyter package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-7jqv-fw35-gmx9"
+    "GHSA-7jqv-fw35-gmx9"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-7jqv-fw35-gmx9"
+      "url": "https://osv.dev/vulnerability/GHSA-7jqv-fw35-gmx9"
     }
   ],
   "published": "2026-09-18T09:43:24.729702Z",
-  "modified": "2026-10-09T05:01:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

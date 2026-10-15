@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-EJ36501",
-  "summary": "Security fix for ghsa-7p63-w6x9-6gr7 applied in: solr 9.8.0-r0",
+  "summary": "Security fix for GHSA-7p63-w6x9-6gr7 applied in: solr 9.8.0-r0",
   "details": "Security vulnerability affects the solr package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-7p63-w6x9-6gr7"
+    "GHSA-7p63-w6x9-6gr7"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-7p63-w6x9-6gr7"
+      "url": "https://osv.dev/vulnerability/GHSA-7p63-w6x9-6gr7"
     }
   ],
   "published": "2026-09-18T10:10:32.221977Z",
-  "modified": "2026-10-08T18:55:31Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

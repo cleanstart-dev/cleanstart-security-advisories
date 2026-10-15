@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-WC65057",
-  "summary": "Security fix for ghsa-v9wx-v5z4-wgfj applied in: kube-logging-operator 6.2.2-r0",
+  "summary": "Security fix for GHSA-v9wx-v5z4-wgfj applied in: kube-logging-operator 6.2.2-r0",
   "details": "Security vulnerability affects the kube-logging-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v9wx-v5z4-wgfj"
+    "GHSA-v9wx-v5z4-wgfj"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v9wx-v5z4-wgfj"
+      "url": "https://osv.dev/vulnerability/GHSA-v9wx-v5z4-wgfj"
     }
   ],
   "published": "2026-09-18T10:07:46.005039Z",
-  "modified": "2026-10-09T06:30:16Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

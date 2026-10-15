@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BZ42078",
-  "summary": "Security fix for ghsa-7r86-cg39-jmmj applied in: argo-workflows 3.7.17-r1, mongosh 2.5.10-r3, mongosh 2.6.0-r2, mongosh 2.7.0-r0, opensearch-dashboards-fips 3.5.0-r2, renovate 43.4.3-r1, renovate 43.4.4-r0",
-  "details": "ghsa-7r86-cg39-jmmj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-7r86-cg39-jmmj applied in: argo-workflows 3.7.17-r1, mongosh 2.5.10-r3, mongosh 2.6.0-r2, mongosh 2.7.0-r0, opensearch-dashboards-fips 3.5.0-r2, renovate 43.4.3-r1, renovate 43.4.4-r0",
+  "details": "GHSA-7r86-cg39-jmmj affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-7r86-cg39-jmmj"
+    "GHSA-7r86-cg39-jmmj"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-7r86-cg39-jmmj"
+      "url": "https://osv.dev/vulnerability/GHSA-7r86-cg39-jmmj"
     }
   ],
   "published": "2026-09-18T10:26:54.570780Z",
-  "modified": "2026-10-08T18:20:23Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

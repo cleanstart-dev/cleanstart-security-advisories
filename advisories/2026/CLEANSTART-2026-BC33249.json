@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BC33249",
-  "summary": "Security fix for ghsa-cjmm-f4jc-qw8r applied in: opensearch-dashboards-fips 3.5.0-r1",
+  "summary": "Security fix for GHSA-cjmm-f4jc-qw8r applied in: opensearch-dashboards-fips 3.5.0-r1",
   "details": "Security vulnerability affects the opensearch-dashboards-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cjmm-f4jc-qw8r"
+    "GHSA-cjmm-f4jc-qw8r"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cjmm-f4jc-qw8r"
+      "url": "https://osv.dev/vulnerability/GHSA-cjmm-f4jc-qw8r"
     }
   ],
   "published": "2026-09-18T10:15:19.439449Z",
-  "modified": "2026-10-08T18:08:18Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

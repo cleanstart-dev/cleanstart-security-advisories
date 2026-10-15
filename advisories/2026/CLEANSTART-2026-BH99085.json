@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BH99085",
-  "summary": "Security fix for ghsa-6g7g-w4f8-9c9x applied in: gitlab-runner 18.11.1-r0, grafana-alloy 1.14.1-r0, grafana-alloy-fips 1.12.1-r2, kubevela 1.10.8-r0, opentelemetry-collector-contrib 0.144.0-r4, opentelemetry-collector-contrib-fips 0.144.0-r3, tempo 2.10.3-r0, tempo 2.9.1-r1, tempo-fips 2.10.3-r0, terragrunt-fips 0.94.0-r2, terragrunt-fips 0.95.1-r2, terragrunt-fips 0.96.1-r2, terragrunt-fips 0.97.2-r4, terragrunt-fips 0.98.0-r4, terragrunt-fips 0.99.4-r3, weaviate 1.35.2-r2",
-  "details": "ghsa-6g7g-w4f8-9c9x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-6g7g-w4f8-9c9x applied in: gitlab-runner 18.11.1-r0, grafana-alloy 1.14.1-r0, grafana-alloy-fips 1.12.1-r2, kubevela 1.10.8-r0, opentelemetry-collector-contrib 0.144.0-r4, opentelemetry-collector-contrib-fips 0.144.0-r3, tempo 2.10.3-r0, tempo 2.9.1-r1, tempo-fips 2.10.3-r0, terragrunt-fips 0.94.0-r2, terragrunt-fips 0.95.1-r2, terragrunt-fips 0.96.1-r2, terragrunt-fips 0.97.2-r4, terragrunt-fips 0.98.0-r4, terragrunt-fips 0.99.4-r3, weaviate 1.35.2-r2",
+  "details": "GHSA-6g7g-w4f8-9c9x affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -326,7 +326,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6g7g-w4f8-9c9x"
+    "GHSA-6g7g-w4f8-9c9x"
   ],
   "references": [
     {
@@ -335,11 +335,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6g7g-w4f8-9c9x"
+      "url": "https://osv.dev/vulnerability/GHSA-6g7g-w4f8-9c9x"
     }
   ],
   "published": "2026-09-18T10:25:54.375427Z",
-  "modified": "2026-10-08T18:10:32Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

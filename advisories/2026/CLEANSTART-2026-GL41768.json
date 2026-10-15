@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GL41768",
-  "summary": "Security fix for ghsa-hj2p-8wj8-pfq4 applied in: argo-cd 3.1.9-r4, argo-cd-fips 3.1.9-r4, ip-masq-agent 2.12.6-r0",
-  "details": "ghsa-hj2p-8wj8-pfq4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-hj2p-8wj8-pfq4 applied in: argo-cd 3.1.9-r4, argo-cd-fips 3.1.9-r4, ip-masq-agent 2.12.6-r0",
+  "details": "GHSA-hj2p-8wj8-pfq4 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -66,7 +66,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hj2p-8wj8-pfq4"
+    "GHSA-hj2p-8wj8-pfq4"
   ],
   "references": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hj2p-8wj8-pfq4"
+      "url": "https://osv.dev/vulnerability/GHSA-hj2p-8wj8-pfq4"
     }
   ],
   "published": "2026-09-18T10:32:01.528602Z",
-  "modified": "2026-10-08T19:21:35Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

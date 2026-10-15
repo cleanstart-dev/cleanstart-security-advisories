@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KC30264",
-  "summary": "Security fix for ghsa-rwm7-x88c-3g2p applied in: apache-nifi 2.10.0-r1, apache-nifi 2.9.0-r1, confluent-common-docker 7.6.9-r5, kafka-fips 3.8.1-r11, keycloak 26.4.11-r2, keycloak 26.5.7-r0, stargate 1.0.91-r2, stargate 2.0.48-r0",
-  "details": "ghsa-rwm7-x88c-3g2p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rwm7-x88c-3g2p applied in: apache-nifi 2.10.0-r1, apache-nifi 2.9.0-r1, confluent-common-docker 7.6.9-r5, kafka-fips 3.8.1-r11, keycloak 26.4.11-r2, keycloak 26.5.7-r0, stargate 1.0.91-r2, stargate 2.0.48-r0",
+  "details": "GHSA-rwm7-x88c-3g2p affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -166,7 +166,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rwm7-x88c-3g2p"
+    "GHSA-rwm7-x88c-3g2p"
   ],
   "references": [
     {
@@ -175,11 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rwm7-x88c-3g2p"
+      "url": "https://osv.dev/vulnerability/GHSA-rwm7-x88c-3g2p"
     }
   ],
   "published": "2026-09-18T10:17:04.132276Z",
-  "modified": "2026-10-09T03:15:51Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

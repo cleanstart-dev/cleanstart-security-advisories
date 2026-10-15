@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-QG16537",
-  "summary": "Security fix for ghsa-mhwm-jh88-3gjf applied in: logstash-fips 9.0.8-r4, logstash-fips 9.2.4-r1",
-  "details": "ghsa-mhwm-jh88-3gjf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mhwm-jh88-3gjf applied in: logstash-fips 9.0.8-r4, logstash-fips 9.2.4-r1",
+  "details": "GHSA-mhwm-jh88-3gjf affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mhwm-jh88-3gjf"
+    "GHSA-mhwm-jh88-3gjf"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mhwm-jh88-3gjf"
+      "url": "https://osv.dev/vulnerability/GHSA-mhwm-jh88-3gjf"
     }
   ],
   "published": "2026-09-18T10:30:24.463901Z",
-  "modified": "2026-10-09T04:42:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

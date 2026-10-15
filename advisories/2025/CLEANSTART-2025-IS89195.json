@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-IS89195",
-  "summary": "Security fix for ghsa-hqhq-hp5x-xp3w applied in: kube-vip-fips 0.7.2-r0",
+  "summary": "Security fix for GHSA-hqhq-hp5x-xp3w applied in: kube-vip-fips 0.7.2-r0",
   "details": "Security vulnerability affects the kube-vip-fips package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hqhq-hp5x-xp3w"
+    "GHSA-hqhq-hp5x-xp3w"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hqhq-hp5x-xp3w"
+      "url": "https://osv.dev/vulnerability/GHSA-hqhq-hp5x-xp3w"
     }
   ],
   "published": "2026-09-18T10:31:20.177112Z",
-  "modified": "2026-10-08T17:54:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

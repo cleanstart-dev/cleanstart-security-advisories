@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BM16290",
-  "summary": "Security fix for ghsa-6rw7-vpxm-498p applied in: thingsboard 4.2.1.1-r1",
+  "summary": "Security fix for GHSA-6rw7-vpxm-498p applied in: thingsboard 4.2.1.1-r1",
   "details": "Security vulnerability affects the thingsboard package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6rw7-vpxm-498p"
+    "GHSA-6rw7-vpxm-498p"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6rw7-vpxm-498p"
+      "url": "https://osv.dev/vulnerability/GHSA-6rw7-vpxm-498p"
     }
   ],
   "published": "2026-09-18T10:27:45.088194Z",
-  "modified": "2026-10-08T18:11:47Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

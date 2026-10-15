@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-CV14251",
-  "summary": "Security fix for ghsa-jq53-42q6-pqr5 applied in: go1.27 1.25.6-r0",
+  "summary": "Security fix for GHSA-jq53-42q6-pqr5 applied in: go1.27 1.25.6-r0",
   "details": "Security vulnerability affects the go1.27 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-jq53-42q6-pqr5"
+    "GHSA-jq53-42q6-pqr5"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-jq53-42q6-pqr5"
+      "url": "https://osv.dev/vulnerability/GHSA-jq53-42q6-pqr5"
     }
   ],
   "published": "2026-10-06T00:35:14.687352Z",
-  "modified": "2026-10-08T18:33:14Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

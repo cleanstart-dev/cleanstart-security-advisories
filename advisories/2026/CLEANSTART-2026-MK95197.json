@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MK95197",
-  "summary": "Security fix for ghsa-rgwj-5xj2-c3m3 applied in: n8n 2.28.0-r4",
+  "summary": "Security fix for GHSA-rgwj-5xj2-c3m3 applied in: n8n 2.28.0-r4",
   "details": "Security vulnerability affects the n8n package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rgwj-5xj2-c3m3"
+    "GHSA-rgwj-5xj2-c3m3"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rgwj-5xj2-c3m3"
+      "url": "https://osv.dev/vulnerability/GHSA-rgwj-5xj2-c3m3"
     }
   ],
   "published": "2026-10-10T00:48:01.225961Z",
-  "modified": "2026-10-09T11:32:43Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

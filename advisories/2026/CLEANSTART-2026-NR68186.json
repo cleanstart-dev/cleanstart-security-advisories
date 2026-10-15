@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-NR68186",
-  "summary": "Security fix for ghsa-hpcc-26xq-25fv applied in: strimzi-kafka-operator 1.1.0-r2",
+  "summary": "Security fix for GHSA-hpcc-26xq-25fv applied in: strimzi-kafka-operator 1.1.0-r2",
   "details": "Security vulnerability affects the strimzi-kafka-operator package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-hpcc-26xq-25fv"
+    "GHSA-hpcc-26xq-25fv"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-hpcc-26xq-25fv"
+      "url": "https://osv.dev/vulnerability/GHSA-hpcc-26xq-25fv"
     }
   ],
   "published": "2026-09-18T09:40:23.624436Z",
-  "modified": "2026-10-09T04:07:49Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

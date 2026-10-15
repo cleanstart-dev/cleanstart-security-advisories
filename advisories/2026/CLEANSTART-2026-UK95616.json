@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-UK95616",
-  "summary": "Security fix for ghsa-6jhg-hg63-jvvf applied in: airflow-2 2.10.3-r2",
+  "summary": "Security fix for GHSA-6jhg-hg63-jvvf applied in: airflow-2 2.10.3-r2",
   "details": "Security vulnerability affects the airflow-2 package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-6jhg-hg63-jvvf"
+    "GHSA-6jhg-hg63-jvvf"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-6jhg-hg63-jvvf"
+      "url": "https://osv.dev/vulnerability/GHSA-6jhg-hg63-jvvf"
     }
   ],
   "published": "2026-09-18T09:59:45.245634Z",
-  "modified": "2026-10-09T06:07:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

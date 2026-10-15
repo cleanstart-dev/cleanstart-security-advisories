@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-KO74004",
-  "summary": "Security fix for ghsa-mvr2-9pj6-7w5j applied in: druid-fips 35.0.0-r1, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-mvr2-9pj6-7w5j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-mvr2-9pj6-7w5j applied in: druid-fips 35.0.0-r1, spark-sc212-jdk17-py311 3.4.4-r0, spark-sc213-jdk17-py312 3.5.8-r0, stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-mvr2-9pj6-7w5j affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -106,7 +106,7 @@
     }
   ],
   "upstream": [
-    "ghsa-mvr2-9pj6-7w5j"
+    "GHSA-mvr2-9pj6-7w5j"
   ],
   "references": [
     {
@@ -115,11 +115,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-mvr2-9pj6-7w5j"
+      "url": "https://osv.dev/vulnerability/GHSA-mvr2-9pj6-7w5j"
     }
   ],
   "published": "2026-09-18T10:31:15.660580Z",
-  "modified": "2026-10-09T03:24:08Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

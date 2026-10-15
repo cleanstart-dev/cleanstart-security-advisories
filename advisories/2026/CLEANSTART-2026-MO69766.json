@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-MO69766",
-  "summary": "Security fix for ghsa-r7wm-3cxj-wff9 applied in: activemq 6.2.8-r2, activemq 6.3.1-r1, akhq 0.27.1-r5, apache-hive 4.0.1-r8, apache-hive 4.1.0-r5, apache-nifi 2.10.0-r3, apache-zookeeper 3.8.6-r5, apache-zookeeper 3.9.5-r5, cass-config-builder-fips 1.0.21-r1, cassandra 5.0.8-r1, cassandra-reaper-fips 3.8.0-r9, cassandra-reaper-fips 4.0.2-r3, cassandra-reaper-fips 4.1.1-r2, cassandra-reaper-fips 4.2.5-r1, elasticsearch 9.1.10-r1, elasticsearch 9.2.8-r1, elasticsearch 9.4.4-r4, gradle 8.14.5-r1, hazelcast 5.7.0-r1, keycloak 26.4.13-r1, keycloak 26.4.7-r8, keycloak 26.6.4-r2, kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1, solr 9.9.0-r1, spark 3.5.9-r2, strimzi-kafka-operator 1.1.0-r2, trino 480-r9, trino 483-r1, wildfly 41.0.0-r2, wso2is 7.0.0-r1, wso2is 7.1.0-r1, wso2is 7.2.0-r1, wso2is 7.3.0-r5",
-  "details": "ghsa-r7wm-3cxj-wff9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-r7wm-3cxj-wff9 applied in: activemq 6.2.8-r2, activemq 6.3.1-r1, akhq 0.27.1-r5, apache-hive 4.0.1-r8, apache-hive 4.1.0-r5, apache-nifi 2.10.0-r3, apache-zookeeper 3.8.6-r5, apache-zookeeper 3.9.5-r5, cass-config-builder-fips 1.0.21-r1, cassandra 5.0.8-r1, cassandra-reaper-fips 3.8.0-r9, cassandra-reaper-fips 4.0.2-r3, cassandra-reaper-fips 4.1.1-r2, cassandra-reaper-fips 4.2.5-r1, elasticsearch 9.1.10-r1, elasticsearch 9.2.8-r1, elasticsearch 9.4.4-r4, gradle 8.14.5-r1, hazelcast 5.7.0-r1, keycloak 26.4.13-r1, keycloak 26.4.7-r8, keycloak 26.6.4-r2, kserve-modelmesh 0.12.0-r17, logstash-fips 9.4.3-r1, solr 9.9.0-r1, spark 3.5.9-r2, strimzi-kafka-operator 1.1.0-r2, trino 480-r9, trino 483-r1, wildfly 41.0.0-r2, wso2is 7.0.0-r1, wso2is 7.1.0-r1, wso2is 7.2.0-r1, wso2is 7.3.0-r5",
+  "details": "GHSA-r7wm-3cxj-wff9 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -686,7 +686,7 @@
     }
   ],
   "upstream": [
-    "ghsa-r7wm-3cxj-wff9"
+    "GHSA-r7wm-3cxj-wff9"
   ],
   "references": [
     {
@@ -695,11 +695,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-r7wm-3cxj-wff9"
+      "url": "https://osv.dev/vulnerability/GHSA-r7wm-3cxj-wff9"
     }
   ],
   "published": "2026-09-18T09:53:33.823378Z",
-  "modified": "2026-10-09T03:51:26Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

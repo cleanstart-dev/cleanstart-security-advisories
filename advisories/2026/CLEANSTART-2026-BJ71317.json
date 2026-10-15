@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BJ71317",
-  "summary": "Security fix for ghsa-wjrx-6529-hcj3 applied in: atlantis 0.37.1-r1, atlantis-fips 0.37.1-r0, opentofu-fips 1.10.7-r0, opentofu-fips 1.10.7-r1",
-  "details": "ghsa-wjrx-6529-hcj3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-wjrx-6529-hcj3 applied in: atlantis 0.37.1-r1, atlantis-fips 0.37.1-r0, opentofu-fips 1.10.7-r0, opentofu-fips 1.10.7-r1",
+  "details": "GHSA-wjrx-6529-hcj3 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -86,7 +86,7 @@
     }
   ],
   "upstream": [
-    "ghsa-wjrx-6529-hcj3"
+    "GHSA-wjrx-6529-hcj3"
   ],
   "references": [
     {
@@ -95,11 +95,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-wjrx-6529-hcj3"
+      "url": "https://osv.dev/vulnerability/GHSA-wjrx-6529-hcj3"
     }
   ],
   "published": "2026-09-18T10:32:24.163058Z",
-  "modified": "2026-10-08T18:10:48Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

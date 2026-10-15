@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-PA14127",
-  "summary": "Security fix for ghsa-whqx-f9j3-ch6m applied in: falcoctl 0.11.0-r1, kubescape 3.0.47-r0, kyverno-fips 1.16.1-r2, kyverno-fips 1.17.0-r1, spire-server 1.14.1-r0, spire-server-fips 1.14.1-r0, tekton-chains 0.26.0-r1, tekton-chains-fips 0.26.0-r1, trivy-fips 0.67.2-r1",
-  "details": "ghsa-whqx-f9j3-ch6m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-whqx-f9j3-ch6m applied in: falcoctl 0.11.0-r1, kubescape 3.0.47-r0, kyverno-fips 1.16.1-r2, kyverno-fips 1.17.0-r1, spire-server 1.14.1-r0, spire-server-fips 1.14.1-r0, tekton-chains 0.26.0-r1, tekton-chains-fips 0.26.0-r1, trivy-fips 0.67.2-r1",
+  "details": "GHSA-whqx-f9j3-ch6m affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -186,7 +186,7 @@
     }
   ],
   "upstream": [
-    "ghsa-whqx-f9j3-ch6m"
+    "GHSA-whqx-f9j3-ch6m"
   ],
   "references": [
     {
@@ -195,11 +195,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-whqx-f9j3-ch6m"
+      "url": "https://osv.dev/vulnerability/GHSA-whqx-f9j3-ch6m"
     }
   ],
   "published": "2026-09-18T10:29:44.566384Z",
-  "modified": "2026-10-09T04:26:33Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

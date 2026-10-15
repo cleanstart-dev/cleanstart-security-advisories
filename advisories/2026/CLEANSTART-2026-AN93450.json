@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-AN93450",
-  "summary": "Security fix for ghsa-rwvp-r38j-9rgg applied in: gptscript 0.6.0-r0, gptscript 0.7.1-r0, gptscript 0.8.5-r0, grafana-alloy 1.14.2-r2, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0",
-  "details": "ghsa-rwvp-r38j-9rgg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-rwvp-r38j-9rgg applied in: gptscript 0.6.0-r0, gptscript 0.7.1-r0, gptscript 0.8.5-r0, grafana-alloy 1.14.2-r2, grafana-alloy 1.15.0-r0, grafana-alloy-fips 1.14.2.r0, grafana-alloy-fips 1.15.0-r0",
+  "details": "GHSA-rwvp-r38j-9rgg affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -146,7 +146,7 @@
     }
   ],
   "upstream": [
-    "ghsa-rwvp-r38j-9rgg"
+    "GHSA-rwvp-r38j-9rgg"
   ],
   "references": [
     {
@@ -155,11 +155,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-rwvp-r38j-9rgg"
+      "url": "https://osv.dev/vulnerability/GHSA-rwvp-r38j-9rgg"
     }
   ],
   "published": "2026-09-18T10:18:54.904815Z",
-  "modified": "2026-10-08T18:01:28Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

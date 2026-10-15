@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-BT29481",
-  "summary": "Security fix for ghsa-fx2c-96vj-985v applied in: stargate 1.0.90-r4, stargate 2.0.44-r4",
-  "details": "ghsa-fx2c-96vj-985v affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-fx2c-96vj-985v applied in: stargate 1.0.90-r4, stargate 2.0.44-r4",
+  "details": "GHSA-fx2c-96vj-985v affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fx2c-96vj-985v"
+    "GHSA-fx2c-96vj-985v"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fx2c-96vj-985v"
+      "url": "https://osv.dev/vulnerability/GHSA-fx2c-96vj-985v"
     }
   ],
   "published": "2026-09-18T10:24:40.354736Z",
-  "modified": "2026-10-08T18:16:20Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

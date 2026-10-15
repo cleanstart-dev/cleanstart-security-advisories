@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-JF82480",
-  "summary": "Security fix for ghsa-7p3p-8qv8-m2vh applied in: strimzi-kafka-operator 1.1.0-r2, trino 483-r1",
-  "details": "ghsa-7p3p-8qv8-m2vh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-7p3p-8qv8-m2vh applied in: strimzi-kafka-operator 1.1.0-r2, trino 483-r1",
+  "details": "GHSA-7p3p-8qv8-m2vh affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-7p3p-8qv8-m2vh"
+    "GHSA-7p3p-8qv8-m2vh"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-7p3p-8qv8-m2vh"
+      "url": "https://osv.dev/vulnerability/GHSA-7p3p-8qv8-m2vh"
     }
   ],
   "published": "2026-09-18T09:40:25.979603Z",
-  "modified": "2026-10-09T03:01:44Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2025-CS89495",
-  "summary": "Security fix for ghsa-32gq-x56h-299c applied in: litestream 0.5.2-r0, litestream 0.5.2-r1",
-  "details": "ghsa-32gq-x56h-299c affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-32gq-x56h-299c applied in: litestream 0.5.2-r0, litestream 0.5.2-r1",
+  "details": "GHSA-32gq-x56h-299c affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -46,7 +46,7 @@
     }
   ],
   "upstream": [
-    "ghsa-32gq-x56h-299c"
+    "GHSA-32gq-x56h-299c"
   ],
   "references": [
     {
@@ -55,11 +55,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-32gq-x56h-299c"
+      "url": "https://osv.dev/vulnerability/GHSA-32gq-x56h-299c"
     }
   ],
   "published": "2026-09-18T10:32:21.100485Z",
-  "modified": "2026-10-08T17:54:42Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": null,
   "related": [],
   "credits": [],

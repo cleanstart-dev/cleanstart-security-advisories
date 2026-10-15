@@ -1,7 +1,7 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-ZK86640",
-  "summary": "Security fix for ghsa-fxg5-wq6x-vr4w applied in: wavefront-collector-for-kubernetes 1.13.0-r0",
+  "summary": "Security fix for GHSA-fxg5-wq6x-vr4w applied in: wavefront-collector-for-kubernetes 1.13.0-r0",
   "details": "Security vulnerability affects the wavefront-collector-for-kubernetes package. This issue is resolved in later releases. See references for vulnerability details.",
   "affected": [
     {
@@ -26,7 +26,7 @@
     }
   ],
   "upstream": [
-    "ghsa-fxg5-wq6x-vr4w"
+    "GHSA-fxg5-wq6x-vr4w"
   ],
   "references": [
     {
@@ -35,11 +35,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-fxg5-wq6x-vr4w"
+      "url": "https://osv.dev/vulnerability/GHSA-fxg5-wq6x-vr4w"
     }
   ],
   "published": "2026-09-18T10:02:03.900394Z",
-  "modified": "2026-10-09T07:13:12Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",

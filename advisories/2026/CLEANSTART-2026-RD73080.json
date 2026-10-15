@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-RD73080",
-  "summary": "Security fix for ghsa-cgrx-mc8f-2prm applied in: eks-distro-kube-apiserver 1.34.2-r0, eks-distro-kube-apiserver-fips 1.34.2-r0, eks-distro-kube-controller-manager-fips 1.34.2-r0, kaniko 1.24.0-r0, kaniko-fips 1.24.0-r0, local-static-provisioner 2.6.0-r1, local-static-provisioner-fips 2.6.0-r1, local-static-provisioner-fips 2.7.0-r1, prometheus-node-exporter 1.8.0-r3, prometheus-node-exporter-fips 1.10.2-r1, prometheus-node-exporter-fips 1.10.2-r3, prometheus-node-exporter-fips 1.7.0-r2, prometheus-node-exporter-fips 1.8.2-r2, prometheus-node-exporter-fips 1.9.1-r1, runc 1.1.14-r0, skaffold 2.16.1-r1, trivy-fips 0.67.2-r0, velero 1.17.0-r0",
-  "details": "ghsa-cgrx-mc8f-2prm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-cgrx-mc8f-2prm applied in: eks-distro-kube-apiserver 1.34.2-r0, eks-distro-kube-apiserver-fips 1.34.2-r0, eks-distro-kube-controller-manager-fips 1.34.2-r0, kaniko 1.24.0-r0, kaniko-fips 1.24.0-r0, local-static-provisioner 2.6.0-r1, local-static-provisioner-fips 2.6.0-r1, local-static-provisioner-fips 2.7.0-r1, prometheus-node-exporter 1.8.0-r3, prometheus-node-exporter-fips 1.10.2-r1, prometheus-node-exporter-fips 1.10.2-r3, prometheus-node-exporter-fips 1.7.0-r2, prometheus-node-exporter-fips 1.8.2-r2, prometheus-node-exporter-fips 1.9.1-r1, runc 1.1.14-r0, skaffold 2.16.1-r1, trivy-fips 0.67.2-r0, velero 1.17.0-r0",
+  "details": "GHSA-cgrx-mc8f-2prm affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -366,7 +366,7 @@
     }
   ],
   "upstream": [
-    "ghsa-cgrx-mc8f-2prm"
+    "GHSA-cgrx-mc8f-2prm"
   ],
   "references": [
     {
@@ -375,11 +375,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-cgrx-mc8f-2prm"
+      "url": "https://osv.dev/vulnerability/GHSA-cgrx-mc8f-2prm"
     }
   ],
   "published": "2026-09-18T10:32:20.026979Z",
-  "modified": "2026-10-09T04:55:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V4",

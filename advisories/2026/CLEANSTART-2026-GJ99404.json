@@ -1,8 +1,8 @@
 {
   "schema_version": "1.7.3",
   "id": "CLEANSTART-2026-GJ99404",
-  "summary": "Security fix for ghsa-v778-237x-gjrc applied in: calico-fips 3.27.5-r0, cfssl 1.5.0-r1, go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0, kube-fluentd-operator 1.18.2-r0, kube-rbac-proxy-fips 0.16.1-r0, kube-rbac-proxy-fips 0.17.1-r0, kube-rbac-proxy-fips 0.19.1-r0, litestream 0.3.14-r3, modelmesh-runtime-adapter 0.12.0-r0, modelmesh-runtime-adapter 0.12.0-r1, multus-cni-fips 3.9.3-r2, nfs-subdir-external-provisioner-fips 4.0.16-r0, nfs-subdir-external-provisioner-fips 4.0.17-r0, nfs-subdir-external-provisioner-fips 4.0.18-r1, postgres-operator 1.12.2-r2, prometheus-node-exporter 1.8.0-r3, prometheus-statsd-exporter 0.28.0-r0, prometheus-statsd-exporter-fips 0.28.0-r0, rabbitmq-messaging-topology-operator 1.15.0-r1, wavefront-collector-for-kubernetes 1.13.0-r0",
-  "details": "ghsa-v778-237x-gjrc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "summary": "Security fix for GHSA-v778-237x-gjrc applied in: calico-fips 3.27.5-r0, cfssl 1.5.0-r1, go-fips-1.24 1.24.7-r0, go1.24 1.24.11-r0, kube-fluentd-operator 1.18.2-r0, kube-rbac-proxy-fips 0.16.1-r0, kube-rbac-proxy-fips 0.17.1-r0, kube-rbac-proxy-fips 0.19.1-r0, litestream 0.3.14-r3, modelmesh-runtime-adapter 0.12.0-r0, modelmesh-runtime-adapter 0.12.0-r1, multus-cni-fips 3.9.3-r2, nfs-subdir-external-provisioner-fips 4.0.16-r0, nfs-subdir-external-provisioner-fips 4.0.17-r0, nfs-subdir-external-provisioner-fips 4.0.18-r1, postgres-operator 1.12.2-r2, prometheus-node-exporter 1.8.0-r3, prometheus-statsd-exporter 0.28.0-r0, prometheus-statsd-exporter-fips 0.28.0-r0, rabbitmq-messaging-topology-operator 1.15.0-r1, wavefront-collector-for-kubernetes 1.13.0-r0",
+  "details": "GHSA-v778-237x-gjrc affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
   "affected": [
     {
       "package": {
@@ -426,7 +426,7 @@
     }
   ],
   "upstream": [
-    "ghsa-v778-237x-gjrc"
+    "GHSA-v778-237x-gjrc"
   ],
   "references": [
     {
@@ -435,11 +435,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://osv.dev/vulnerability/ghsa-v778-237x-gjrc"
+      "url": "https://osv.dev/vulnerability/GHSA-v778-237x-gjrc"
     }
   ],
   "published": "2026-09-18T10:32:43.859275Z",
-  "modified": "2026-10-08T19:20:50Z",
+  "modified": "2026-10-15T12:00:00Z",
   "severity": [
     {
       "type": "CVSS_V3",
