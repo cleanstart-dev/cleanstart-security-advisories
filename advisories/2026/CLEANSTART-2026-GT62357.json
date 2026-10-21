@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GT62357",
+  "summary": "Security fix for GHSA-gcjh-h69q-9w9g applied in: gatekeeper-fips 3.22.0-r0",
+  "details": "Security vulnerability affects the gatekeeper-fips package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gatekeeper-fips",
+        "purl": "pkg:apk/cleanstart/gatekeeper-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.22.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-gcjh-h69q-9w9g"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-GT62357.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-gcjh-h69q-9w9g"
+    }
+  ],
+  "published": "2026-10-20T00:38:22.568382Z",
+  "modified": "2026-10-19T13:26:43Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

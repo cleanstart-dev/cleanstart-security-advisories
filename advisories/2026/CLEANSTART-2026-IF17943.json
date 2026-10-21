@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IF17943",
+  "summary": "Security fix for GHSA-8238-w5pm-2374 applied in: renovate 43.177.9-r1, renovate 43.180.0-r1",
+  "details": "GHSA-8238-w5pm-2374 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.177.9-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "renovate",
+        "purl": "pkg:apk/cleanstart/renovate"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "43.180.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-8238-w5pm-2374"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-IF17943.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-8238-w5pm-2374"
+    }
+  ],
+  "published": "2026-10-20T00:43:11.641241Z",
+  "modified": "2026-10-19T12:56:40Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
