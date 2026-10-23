@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-WV62539",
+  "summary": "Uncontrolled Recursion (CWE-674) in Elasticsearch can lead to Denial of Service via a specially crafted request that causes the server to construct and process a deeply nested data structure with n...",
+  "details": "CVE-2026-103008 affects multiple packages. Uncontrolled Recursion (CWE-674) in Elasticsearch can lead to Denial of Service via a specially crafted request that causes the server to construct and process a deeply nested data structure with no bound on recursion depth. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sonarqube",
+        "purl": "pkg:apk/cleanstart/sonarqube"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.3.0.120487-r8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sonarqube",
+        "purl": "pkg:apk/cleanstart/sonarqube"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.7.0.124771-r8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-103008"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-WV62539.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-103008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103008"
+    }
+  ],
+  "published": "2026-10-23T00:37:08.387784Z",
+  "modified": "2026-10-22T10:06:55Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
