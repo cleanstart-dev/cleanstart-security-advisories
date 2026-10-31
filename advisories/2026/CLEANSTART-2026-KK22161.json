@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KK22161",
+  "summary": "Security fix for GHSA-f6ww-3ggp-fr8h applied in: sqlpad 7.5.7-r2",
+  "details": "Security vulnerability affects the sqlpad package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sqlpad",
+        "purl": "pkg:apk/cleanstart/sqlpad"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.7-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-f6ww-3ggp-fr8h"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-KK22161.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-f6ww-3ggp-fr8h"
+    }
+  ],
+  "published": "2026-10-30T15:22:52.354174Z",
+  "modified": "2026-08-14T12:25:42Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
