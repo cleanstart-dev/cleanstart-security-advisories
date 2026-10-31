@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EK62158",
+  "summary": "Security fix for GHSA-pjcq-xvwp-hhpj applied in: grafana 13.0.1-r0",
+  "details": "Security vulnerability affects the grafana package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.0.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-pjcq-xvwp-hhpj"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-EK62158.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-pjcq-xvwp-hhpj"
+    }
+  ],
+  "published": "2026-10-30T09:41:29.745264Z",
+  "modified": "2026-10-22T09:10:42Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
