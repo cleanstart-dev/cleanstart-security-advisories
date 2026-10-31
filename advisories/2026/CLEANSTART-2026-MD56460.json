@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-MD56460",
+  "summary": "Security fix for GHSA-rjr7-jggh-pgcp applied in: kyverno 1.17.2-r11",
+  "details": "Security vulnerability affects the kyverno package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kyverno",
+        "purl": "pkg:apk/cleanstart/kyverno"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.2-r11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-rjr7-jggh-pgcp"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-MD56460.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-rjr7-jggh-pgcp"
+    }
+  ],
+  "published": "2026-10-31T00:38:54.247799Z",
+  "modified": "2026-10-30T09:53:44Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
