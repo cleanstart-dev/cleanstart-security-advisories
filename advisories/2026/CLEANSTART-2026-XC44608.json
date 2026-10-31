@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XC44608",
+  "summary": "Security fix for GHSA-p2gr-hm8g-q772 applied in: temporal-server 1.31.1-r1, temporal-server 1.31.1-r2, temporal-server 1.31.1-r3, temporal-server 1.31.1-r4",
+  "details": "Security vulnerability affects the temporal-server package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "temporal-server",
+        "purl": "pkg:apk/cleanstart/temporal-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.31.1-r4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-p2gr-hm8g-q772"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XC44608.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-p2gr-hm8g-q772"
+    }
+  ],
+  "published": "2026-10-30T10:23:55.302111Z",
+  "modified": "2026-10-14T12:16:46Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
