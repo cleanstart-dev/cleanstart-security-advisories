@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BE75387",
+  "summary": "Certificate verification can panic when a certificate in the chain has an empty DNS name and another certificate in the chain has excluded name constraints",
+  "details": "CVE-2026-27138 affects multiple packages. Certificate verification can panic when a certificate in the chain has an empty DNS name and another certificate in the chain has excluded name constraints. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "k8sgpt",
+        "purl": "pkg:apk/cleanstart/k8sgpt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.8-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "k8sgpt-operator",
+        "purl": "pkg:apk/cleanstart/k8sgpt-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.27-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "volume-modifier-for-k8s-fips",
+        "purl": "pkg:apk/cleanstart/volume-modifier-for-k8s-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.5-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "volume-modifier-for-k8s",
+        "purl": "pkg:apk/cleanstart/volume-modifier-for-k8s"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.9.5-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gostatsd",
+        "purl": "pkg:apk/cleanstart/gostatsd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "28.3.0-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-27138"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BE75387.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-27138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27138"
+    }
+  ],
+  "published": "2026-10-30T17:44:03.139147Z",
+  "modified": "2026-06-09T13:34:51Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
