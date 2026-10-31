@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-GM08800",
+  "summary": "Security fix for GHSA-29wx-vh33-7x7r applied in: minio-operator 6.0.4-r1, minio-operator 6.0.4-r2, minio-operator 6.0.4-r3, minio-operator 6.0.4-r4",
+  "details": "Security vulnerability affects the minio-operator package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.4-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.4-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.4-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "minio-operator",
+        "purl": "pkg:apk/cleanstart/minio-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.4-r4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-29wx-vh33-7x7r"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-GM08800.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-29wx-vh33-7x7r"
+    }
+  ],
+  "published": "2026-10-30T11:25:20.728002Z",
+  "modified": "2026-09-29T04:43:30Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
