@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-VU18378",
+  "summary": "time-of-create-to-time-of-use (TOCTOU) vulnerability lets recently deleted-then-recreated data sources be re-deleted without permission to do so",
+  "details": "Security vulnerability affects the grafana package. A time-of-create-to-time-of-use (TOCTOU) vulnerability lets recently deleted-then-recreated data sources be re-deleted without permission to do so.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "12.3.7-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-21725"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-VU18378.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-21725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21725"
+    }
+  ],
+  "published": "2026-10-31T11:59:55.320946Z",
+  "modified": "2026-08-10T04:24:53Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
