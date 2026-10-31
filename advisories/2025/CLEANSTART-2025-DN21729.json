@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-DN21729",
+  "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER",
+  "details": "Security vulnerability affects the imagemagick package. Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "imagemagick",
+        "purl": "pkg:apk/cleanstart/imagemagick"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.0.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-34183"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-DN21729.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-34183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34183"
+    }
+  ],
+  "published": "2026-10-31T13:56:01.004944Z",
+  "modified": "2025-09-08T16:55:59Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
