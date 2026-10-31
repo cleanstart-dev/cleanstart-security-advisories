@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-YM29296",
+  "summary": "ircII before 20210314 allows remote attackers to cause a denial of service (segmentation fault and client crash, disconnecting the victim from an IRC server) via a crafted CTCP UTC message",
+  "details": "Security vulnerability affects the ircii package. ircII before 20210314 allows remote attackers to cause a denial of service (segmentation fault and client crash, disconnecting the victim from an IRC server) via a crafted CTCP UTC message.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "ircii",
+        "purl": "pkg:apk/cleanstart/ircii"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20210314-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-29376"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-YM29296.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-29376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29376"
+    }
+  ],
+  "published": "2026-10-31T14:32:11.976893Z",
+  "modified": "2024-01-13T02:28:48Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
