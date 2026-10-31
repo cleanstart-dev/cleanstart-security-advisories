@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-IH40235",
+  "summary": "AliasHandler component in PostfixAdmin before 3",
+  "details": "Security vulnerability affects the postfixadmin package. The AliasHandler component in PostfixAdmin before 3.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "postfixadmin",
+        "purl": "pkg:apk/cleanstart/postfixadmin?arch=noarch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.2-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-5930"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-IH40235.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2017-5930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5930"
+    }
+  ],
+  "published": "2026-10-31T14:36:03.695155Z",
+  "modified": "2023-10-11T21:49:07Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

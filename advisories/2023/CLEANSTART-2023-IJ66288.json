@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-IJ66288",
+  "summary": "flaw was found in the hivex library in versions before 1",
+  "details": "Security vulnerability affects the hivex package. A flaw was found in the hivex library in versions before 1.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "hivex",
+        "purl": "pkg:apk/cleanstart/hivex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.19-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2021-3504"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-IJ66288.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2021-3504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3504"
+    }
+  ],
+  "published": "2026-10-31T14:37:11.574764Z",
+  "modified": "2023-07-03T14:52:02Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-KY13437",
+  "summary": "startread function in wav",
+  "details": "Security vulnerability affects the sox package. The startread function in wav.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "sox",
+        "purl": "pkg:apk/cleanstart/sox"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14.4.2-r5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2017-11332"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-KY13437.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2017-11332"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11332"
+    }
+  ],
+  "published": "2026-10-31T14:39:04.736549Z",
+  "modified": "2023-05-15T03:12:07Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

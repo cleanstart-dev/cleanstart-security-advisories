@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-IL82142",
+  "summary": "It's been found that multiple functions in ipmitool before 1",
+  "details": "Security vulnerability affects the ipmitool package. It's been found that multiple functions in ipmitool before 1.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "ipmitool",
+        "purl": "pkg:apk/cleanstart/ipmitool"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.18-r9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-5208"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-IL82142.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2020-5208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-5208"
+    }
+  ],
+  "published": "2026-10-31T14:33:43.889711Z",
+  "modified": "2023-12-05T09:51:51Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
