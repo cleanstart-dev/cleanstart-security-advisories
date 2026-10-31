@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-XB76137",
+  "summary": "Security fix for GHSA-x744-4wpc-v9h2 applied in: kubernetes 1.34.10-r1, kubernetes 1.34.10-r2",
+  "details": "Security vulnerability affects the kubernetes package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes",
+        "purl": "pkg:apk/cleanstart/kubernetes"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.10-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "kubernetes",
+        "purl": "pkg:apk/cleanstart/kubernetes"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.34.10-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-x744-4wpc-v9h2"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-XB76137.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-x744-4wpc-v9h2"
+    }
+  ],
+  "published": "2026-10-30T08:05:08.546273Z",
+  "modified": "2026-10-27T06:40:42Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
