@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-DW19044",
+  "summary": "Protection mechanism failure in some 3rd and 4th Generation Intel(R) Xeon(R) Processors when using Intel(R) SGX or Intel(R) TDX may allow a privileged user to potentially enable escalation of privi...",
+  "details": "Security vulnerability affects the intel-ucode package. Protection mechanism failure in some 3rd and 4th Generation Intel(R) Xeon(R) Processors when using Intel(R) SGX or Intel(R) TDX may allow a privileged user to potentially enable escalation of privilege via local access.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "intel-ucode",
+        "purl": "pkg:apk/cleanstart/intel-ucode?arch=x86"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240312-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "intel-ucode",
+        "purl": "pkg:apk/cleanstart/intel-ucode?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20240312-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-22655"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-DW19044.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-22655"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22655"
+    }
+  ],
+  "published": "2026-10-31T14:12:02.936399Z",
+  "modified": "2024-09-10T21:22:23Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:H/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
