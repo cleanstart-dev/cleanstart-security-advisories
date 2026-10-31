@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-XO04025",
+  "summary": "In PHP versions 7",
+  "details": "Security vulnerability affects the php81 package. In PHP versions 7.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "php81",
+        "purl": "pkg:apk/cleanstart/php81"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "8.1.6-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-31625"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-XO04025.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2022-31625"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-31625"
+    }
+  ],
+  "published": "2026-10-31T14:20:08.732235Z",
+  "modified": "2024-04-24T23:24:10Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

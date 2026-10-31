@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-XX39699",
+  "summary": "Nextcloud is an open-source productivity platform",
+  "details": "Security vulnerability affects the nextcloud-client package. Nextcloud is an open-source productivity platform.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "nextcloud-client",
+        "purl": "pkg:apk/cleanstart/nextcloud-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.1-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-28999"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-XX39699.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-28999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28999"
+    }
+  ],
+  "published": "2026-10-31T14:16:46.871917Z",
+  "modified": "2024-05-11T03:43:27Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
