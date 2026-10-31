@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-SY67080",
+  "summary": "Unchecked script execution in Graphic on-click binding in affected LibreOffice versions allows an attacker to create a document which without prompt will execute scripts built-into LibreOffice on c...",
+  "details": "Security vulnerability affects the libreoffice package. Unchecked script execution in Graphic on-click binding in affected LibreOffice versions allows an attacker to create a document which without prompt will execute scripts built-into LibreOffice on clicking a graphic.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "libreoffice",
+        "purl": "pkg:apk/cleanstart/libreoffice"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.6.7.2-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-3044"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-SY67080.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2024-3044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3044"
+    }
+  ],
+  "published": "2026-10-31T13:52:32.286996Z",
+  "modified": "2025-10-06T06:13:58Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
