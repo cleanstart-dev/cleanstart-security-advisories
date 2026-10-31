@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-BL64041",
+  "summary": "Security fix for GHSA-r6v5-fh4h-64xc applied in: ztunnel-fips 1.27.8-r2",
+  "details": "Security vulnerability affects the ztunnel-fips package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "ztunnel-fips",
+        "purl": "pkg:apk/cleanstart/ztunnel-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.27.8-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-r6v5-fh4h-64xc"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-BL64041.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-r6v5-fh4h-64xc"
+    }
+  ],
+  "published": "2026-10-30T18:02:59.233259Z",
+  "modified": "2026-04-29T14:16:02Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:A/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
