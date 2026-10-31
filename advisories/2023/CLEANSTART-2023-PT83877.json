@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2023-PT83877",
+  "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER",
+  "details": "Security vulnerability affects the oniguruma package. Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "oniguruma",
+        "purl": "pkg:apk/cleanstart/oniguruma"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.9.5-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2020-26159"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2023/CLEANSTART-2023-PT83877.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2020-26159"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26159"
+    }
+  ],
+  "published": "2026-10-31T14:35:57.353186Z",
+  "modified": "2023-10-16T02:37:20Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
