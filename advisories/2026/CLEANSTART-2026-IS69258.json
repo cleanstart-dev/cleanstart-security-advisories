@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-IS69258",
+  "summary": "Security fix for GO-2026-5051 applied in: rclone 1.74.3-r2, rclone 1.71.2-r3, rclone 1.73.5-r5, rclone 1.72.1-r11",
+  "details": "Security vulnerability affects the rclone package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.74.3-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.71.2-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.73.5-r5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "rclone",
+        "purl": "pkg:apk/cleanstart/rclone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.72.1-r11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GO-2026-5051"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-IS69258.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GO-2026-5051"
+    }
+  ],
+  "published": "2026-10-30T09:49:25.887956Z",
+  "modified": "2026-10-21T10:13:16Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
