@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-LN45672",
+  "summary": "Remotely executed SEGV and out of bounds read allows malicious packet sender to crash or cause an out of bounds read via sending a malformed packet with the correct length",
+  "details": "Security vulnerability affects the wolfssl package. Remotely executed SEGV and out of bounds read allows malicious packet sender to crash or cause an out of bounds read via sending a malformed packet with the correct length.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wolfssl",
+        "purl": "pkg:apk/cleanstart/wolfssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.7.0-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-0901"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-LN45672.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2024-0901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0901"
+    }
+  ],
+  "published": "2026-10-31T14:07:33.552587Z",
+  "modified": "2024-09-24T22:12:25Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
