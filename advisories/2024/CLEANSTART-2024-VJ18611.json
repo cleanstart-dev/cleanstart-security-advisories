@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-VJ18611",
+  "summary": "vulnerbiility was found in Openscad, where a DXF-format drawing with particular (not necessarily malformed!) properties may cause an out-of-bounds memory access when imported using import()",
+  "details": "Security vulnerability affects the openscad package. A vulnerbiility was found in Openscad, where a DXF-format drawing with particular (not necessarily malformed!) properties may cause an out-of-bounds memory access when imported using import().",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "openscad",
+        "purl": "pkg:apk/cleanstart/openscad"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2021.01-r2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-0496"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-VJ18611.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2022-0496"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0496"
+    }
+  ],
+  "published": "2026-10-31T14:19:23.202954Z",
+  "modified": "2024-04-24T06:04:50Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

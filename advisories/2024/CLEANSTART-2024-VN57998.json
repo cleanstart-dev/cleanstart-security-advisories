@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-VN57998",
+  "summary": "slock allows attackers to bypass the screen lock via vectors involving an invalid password hash, which triggers a NULL pointer dereference and crash",
+  "details": "Security vulnerability affects the slock package. slock allows attackers to bypass the screen lock via vectors involving an invalid password hash, which triggers a NULL pointer dereference and crash.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "slock",
+        "purl": "pkg:apk/cleanstart/slock"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2016-6866"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-VN57998.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2016-6866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6866"
+    }
+  ],
+  "published": "2026-10-31T14:24:13.692336Z",
+  "modified": "2024-03-30T08:08:38Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
