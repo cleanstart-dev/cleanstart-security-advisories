@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-RD70875",
+  "summary": "Heap buffer overflow in libwebp in Google Chrome prior to 116",
+  "details": "CVE-2023-4863 affects multiple packages. Heap buffer overflow in libwebp in Google Chrome prior to 116. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "qt5-qtwebengine",
+        "purl": "pkg:apk/cleanstart/qt5-qtwebengine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.15-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "libwebp",
+        "purl": "pkg:apk/cleanstart/libwebp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.1-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "qt5-qtimageformats",
+        "purl": "pkg:apk/cleanstart/qt5-qtimageformats"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.10_git20230612-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-4863"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-RD70875.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-4863"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4863"
+    }
+  ],
+  "published": "2026-10-31T14:36:37.486752Z",
+  "modified": "2023-09-14T08:29:32Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

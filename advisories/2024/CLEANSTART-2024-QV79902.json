@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-QV79902",
+  "summary": "Heap buffer overflow in WebRTC in Google Chrome prior to 103",
+  "details": "CVE-2022-2294 affects multiple packages. Heap buffer overflow in WebRTC in Google Chrome prior to 103. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "qt5-qtwebengine",
+        "purl": "pkg:apk/cleanstart/qt5-qtwebengine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.3_git20220601-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "webkit2gtk-6.0",
+        "purl": "pkg:apk/cleanstart/webkit2gtk-6.0"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.5-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "webkit2gtk",
+        "purl": "pkg:apk/cleanstart/webkit2gtk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.36.5-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-2294"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-QV79902.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2022-2294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-2294"
+    }
+  ],
+  "published": "2026-10-31T14:23:16.860105Z",
+  "modified": "2024-10-26T09:07:11Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

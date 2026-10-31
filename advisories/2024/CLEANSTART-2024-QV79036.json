@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-QV79036",
+  "summary": "HTTP/2 CONTINUATION DoS attack can cause Apache Traffic Server to consume more resources on the server",
+  "details": "Security vulnerability affects the trafficserver9 package. HTTP/2 CONTINUATION DoS attack can cause Apache Traffic Server to consume more resources on the server.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "trafficserver9",
+        "purl": "pkg:apk/cleanstart/trafficserver9?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.4-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "trafficserver9",
+        "purl": "pkg:apk/cleanstart/trafficserver9?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.2.4-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2024-31309"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-QV79036.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2024-31309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31309"
+    }
+  ],
+  "published": "2026-10-31T14:20:22.055222Z",
+  "modified": "2024-04-20T06:56:10Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
