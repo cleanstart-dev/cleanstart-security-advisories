@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-FX12290",
+  "summary": "Security fix for GHSA-4f99-4q7p-p3gh applied in: argo-events 1.6.3-r1",
+  "details": "Security vulnerability affects the argo-events package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "argo-events",
+        "purl": "pkg:apk/cleanstart/argo-events"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.3-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-4f99-4q7p-p3gh"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-FX12290.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-4f99-4q7p-p3gh"
+    }
+  ],
+  "published": "2026-10-30T16:26:57.465580Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
