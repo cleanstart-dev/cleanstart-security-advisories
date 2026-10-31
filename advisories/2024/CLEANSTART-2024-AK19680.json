@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-AK19680",
+  "summary": "Unauthorized error injection in Intel(R) SGX or Intel(R) TDX for some Intel(R) Xeon(R) Processors may allow a privileged user to potentially enable escalation of privilege via local access",
+  "details": "Security vulnerability affects the intel-ucode package. Unauthorized error injection in Intel(R) SGX or Intel(R) TDX for some Intel(R) Xeon(R) Processors may allow a privileged user to potentially enable escalation of privilege via local access.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "intel-ucode",
+        "purl": "pkg:apk/cleanstart/intel-ucode?arch=x86"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20230808-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "intel-ucode",
+        "purl": "pkg:apk/cleanstart/intel-ucode?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20230808-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2022-41804"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-AK19680.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2022-41804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41804"
+    }
+  ],
+  "published": "2026-10-31T14:12:10.745668Z",
+  "modified": "2024-09-10T21:22:23Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
