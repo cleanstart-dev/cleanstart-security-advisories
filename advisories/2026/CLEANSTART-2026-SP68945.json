@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-SP68945",
+  "summary": "Security fix for GHSA-32gq-x56h-299c applied in: litestream 0.3.14-r2, litestream 0.3.14-r3",
+  "details": "Security vulnerability affects the litestream package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "litestream",
+        "purl": "pkg:apk/cleanstart/litestream?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "litestream",
+        "purl": "pkg:apk/cleanstart/litestream?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "litestream",
+        "purl": "pkg:apk/cleanstart/litestream?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "litestream",
+        "purl": "pkg:apk/cleanstart/litestream?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-32gq-x56h-299c"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-SP68945.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-32gq-x56h-299c"
+    }
+  ],
+  "published": "2026-10-30T16:02:26.320179Z",
+  "modified": "2026-08-03T09:45:51Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
