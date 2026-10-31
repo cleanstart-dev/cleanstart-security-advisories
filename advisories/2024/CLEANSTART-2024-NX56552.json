@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-NX56552",
+  "summary": "Rejected reason: reserved but not needed",
+  "details": "Security vulnerability affects the go package. Rejected reason: reserved but not needed",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "go",
+        "purl": "pkg:apk/cleanstart/go"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.5-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-39324"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-NX56552.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-39324"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-39324"
+    }
+  ],
+  "published": "2026-10-30T18:22:40.261932Z",
+  "modified": "2024-11-07T19:54:46Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
