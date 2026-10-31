@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2025-KY22821",
+  "summary": "Security fix for GHSA-w4xh-w33p-4v29 applied in: gitaly 14-9-3-r0, gitaly-fips 14.9.3-r0",
+  "details": "GHSA-w4xh-w33p-4v29 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gitaly",
+        "purl": "pkg:apk/cleanstart/gitaly"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14-9-3-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "gitaly-fips",
+        "purl": "pkg:apk/cleanstart/gitaly-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "14.9.3-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-w4xh-w33p-4v29"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2025/CLEANSTART-2025-KY22821.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-w4xh-w33p-4v29"
+    }
+  ],
+  "published": "2026-10-31T13:48:47.248974Z",
+  "modified": "2025-12-17T06:27:28Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
