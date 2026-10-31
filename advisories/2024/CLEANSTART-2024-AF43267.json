@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2024-AF43267",
+  "summary": "MiniZip in zlib through 1",
+  "details": "CVE-2023-45853 affects multiple packages. MiniZip in zlib through 1. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "qt5-qtwebengine",
+        "purl": "pkg:apk/cleanstart/qt5-qtwebengine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.15.15-r4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "qt6-qtwebengine",
+        "purl": "pkg:apk/cleanstart/qt6-qtwebengine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.6.0-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "minizip",
+        "purl": "pkg:apk/cleanstart/minizip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2023-45853"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2024/CLEANSTART-2024-AF43267.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2023-45853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45853"
+    }
+  ],
+  "published": "2026-10-31T14:31:38.990909Z",
+  "modified": "2024-01-23T12:14:13Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
