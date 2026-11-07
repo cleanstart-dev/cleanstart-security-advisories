@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-KW62676",
+  "summary": "Security fix for GHSA-2hw4-c9m4-f2fj applied in: knative-serving 1.20.3-r7",
+  "details": "Security vulnerability affects the knative-serving package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "knative-serving",
+        "purl": "pkg:apk/cleanstart/knative-serving?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "knative-serving",
+        "purl": "pkg:apk/cleanstart/knative-serving?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-2hw4-c9m4-f2fj"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-KW62676.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-2hw4-c9m4-f2fj"
+    }
+  ],
+  "published": "2026-11-07T00:37:59.748823Z",
+  "modified": "2026-11-06T09:14:29Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

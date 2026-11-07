@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EG77293",
+  "summary": "On most platforms, Go uses the given system root certificates",
+  "details": "Security vulnerability affects the knative-serving package. On most platforms, Go uses the given system root certificates.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "knative-serving",
+        "purl": "pkg:apk/cleanstart/knative-serving?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "knative-serving",
+        "purl": "pkg:apk/cleanstart/knative-serving?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.3-r7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-EG77293.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-111943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111943"
+    }
+  ],
+  "published": "2026-11-07T00:37:59.159485Z",
+  "modified": "2026-11-06T09:14:29Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
