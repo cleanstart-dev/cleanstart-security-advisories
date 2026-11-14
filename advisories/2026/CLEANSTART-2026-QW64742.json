@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-QW64742",
+  "summary": "Security fix for GO-2026-5932 applied in: loki 3.5.12-r9, loki 3.7.9-r1, yunikorn-k8shim 1.8.0-r3, yunikorn-k8shim 1.8.0-r5, yunikorn-k8shim 1.9.0-r2, prometheus-node-exporter 1.11.1-r6, prometheus-node-exporter 1.9.1-r7",
+  "details": "GO-2026-5932 affects multiple packages. This issue is resolved in later releases. See references for individual vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-r9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-r9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=ppc64le"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-r9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=loongarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.12-r9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.9-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.9-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=ppc64le"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.9-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "loki",
+        "purl": "pkg:apk/cleanstart/loki?arch=loongarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.7.9-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-r3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-r5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.0-r2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "prometheus-node-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.11.1-r6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "prometheus-node-exporter",
+        "purl": "pkg:apk/cleanstart/prometheus-node-exporter"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.9.1-r7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GO-2026-5932"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-QW64742.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GO-2026-5932"
+    }
+  ],
+  "published": "2026-11-14T00:35:22.506260Z",
+  "modified": "2026-11-13T14:23:58Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
