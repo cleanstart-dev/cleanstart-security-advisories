@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-TT65137",
+  "summary": "On most platforms, Go uses the given system root certificates",
+  "details": "Security vulnerability affects the yunikorn-k8shim package. On most platforms, Go uses the given system root certificates.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "yunikorn-k8shim",
+        "purl": "pkg:apk/cleanstart/yunikorn-k8shim"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-111943"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-TT65137.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-111943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111943"
+    }
+  ],
+  "published": "2026-11-14T00:35:05.855033Z",
+  "modified": "2026-11-13T15:11:02Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
