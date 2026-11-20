@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-EL65865",
+  "summary": "Apache WSS4J remembers the Nonce of each UsernameToken it accepts, so a captured token cannot be reused",
+  "details": "Security vulnerability affects the wildfly package. Apache WSS4J remembers the Nonce of each UsernameToken it accepts, so a captured token cannot be reused.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "wildfly",
+        "purl": "pkg:apk/cleanstart/wildfly?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "39.0.1-r13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-92899"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-EL65865.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-92899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92899"
+    }
+  ],
+  "published": "2026-11-20T00:42:28.686675Z",
+  "modified": "2026-11-19T14:33:02Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
