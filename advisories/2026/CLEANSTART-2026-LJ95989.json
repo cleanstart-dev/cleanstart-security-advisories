@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-LJ95989",
+  "summary": "Security fix for GHSA-cx3c-rmcx-ff35 applied in: grafana-alloy 1.22.0-r0, grafana-alloy 1.19.2-r8",
+  "details": "Security vulnerability affects the grafana-alloy package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.22.0-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana-alloy",
+        "purl": "pkg:apk/cleanstart/grafana-alloy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.19.2-r8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-cx3c-rmcx-ff35"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-LJ95989.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-cx3c-rmcx-ff35"
+    }
+  ],
+  "published": "2026-11-27T00:37:36.317701Z",
+  "modified": "2026-11-26T10:34:14Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
