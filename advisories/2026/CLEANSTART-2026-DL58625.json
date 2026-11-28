@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-DL58625",
+  "summary": "Security fix for GHSA-p3jp-9v83-76w9 applied in: azure-functions-host 4.1054.200-r0, azure-functions-host 4.1055.100-r0",
+  "details": "Security vulnerability affects the azure-functions-host package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "azure-functions-host",
+        "purl": "pkg:apk/cleanstart/azure-functions-host?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1054.200-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "azure-functions-host",
+        "purl": "pkg:apk/cleanstart/azure-functions-host?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1054.200-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "azure-functions-host",
+        "purl": "pkg:apk/cleanstart/azure-functions-host?arch=x86_64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1055.100-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "azure-functions-host",
+        "purl": "pkg:apk/cleanstart/azure-functions-host?arch=aarch64"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1055.100-r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-p3jp-9v83-76w9"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-DL58625.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-p3jp-9v83-76w9"
+    }
+  ],
+  "published": "2026-11-28T00:39:21.472771Z",
+  "modified": "2026-11-27T17:22:23Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

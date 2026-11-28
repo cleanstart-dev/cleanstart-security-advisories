@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-JC26860",
+  "summary": "Security fix for GHSA-frc4-6h9q-39fq applied in: grafana 13.2.6-r3",
+  "details": "Security vulnerability affects the grafana package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.2.6-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-frc4-6h9q-39fq"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-JC26860.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-frc4-6h9q-39fq"
+    }
+  ],
+  "published": "2026-11-28T00:37:12.947058Z",
+  "modified": "2026-11-27T17:31:22Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}

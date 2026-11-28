@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ES07429",
+  "summary": "Security fix for GHSA-4mcw-pv8f-7469 applied in: grafana 13.2.6-r3",
+  "details": "Security vulnerability affects the grafana package. This issue is resolved in later releases. See references for vulnerability details.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "grafana",
+        "purl": "pkg:apk/cleanstart/grafana"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "13.2.6-r3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "GHSA-4mcw-pv8f-7469"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ES07429.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/GHSA-4mcw-pv8f-7469"
+    }
+  ],
+  "published": "2026-11-28T00:37:13.534721Z",
+  "modified": "2026-11-27T17:31:22Z",
+  "severity": null,
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
