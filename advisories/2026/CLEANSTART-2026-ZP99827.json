@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.7.3",
+  "id": "CLEANSTART-2026-ZP99827",
+  "summary": "Step CA is an online certificate authority for secure, automated certificate management for DevOps",
+  "details": "Security vulnerability affects the caddy package. Step CA is an online certificate authority for secure, automated certificate management for DevOps.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "caddy",
+        "purl": "pkg:apk/cleanstart/caddy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.4-r0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "caddy",
+        "purl": "pkg:apk/cleanstart/caddy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.9.1-r1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "CleanStart",
+        "name": "caddy",
+        "purl": "pkg:apk/cleanstart/caddy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.8.4-r1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "upstream": [
+    "CVE-2026-30836"
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cleanstart-dev/cleanstart-security-advisories/tree/main/advisories/2026/CLEANSTART-2026-ZP99827.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://osv.dev/vulnerability/CVE-2026-30836"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30836"
+    }
+  ],
+  "published": "2026-11-28T00:38:53.883887Z",
+  "modified": "2026-11-27T13:21:48Z",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N"
+    }
+  ],
+  "related": [],
+  "credits": [],
+  "database_specific": {}
+}
